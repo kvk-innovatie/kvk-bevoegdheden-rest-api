@@ -1,0 +1,219 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 19931029,
+      "DatumEinde": 20150331,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90001982,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20100824,
+        "DatumEinde": 20150331,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Kegelmolen",
+          "Huisnummer": 5,
+          "Postcode": {
+            "Cijfercombinatie": 1531,
+            "Lettercombinatie": "NK"
+          },
+          "Plaats": "Wormer",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999302242,
+            "IdentificatieAdresseerbaarObject": 74999999674837
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Kegelmolen 5 1531NK Wormer"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20100824,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": null,
+          "Huisnummer": 0,
+          "Postcode": {
+            "Cijfercombinatie": 3813,
+            "Lettercombinatie": "VA"
+          },
+          "Plaats": "Amersfoort",
+          "BagId": null,
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Postbus 99999 3813VA Amersfoort"
+    },
+    "Communicatiegegevens": null,
+    "Naam": "Local Hot-quote B.V.",
+    "ManifesteertZichAls": null,
+    "WordtGeleidVanuit": null,
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 19931029,
+        "RegistratieTijdstipNoValue": null
+      },
+      "NatuurlijkPersoon": null,
+      "Samenwerkingsverband": null,
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": {
+        "VoornemenTotOntbinding": null,
+        "ActiviteitenGestaaktPer": null,
+        "Rechtsvorm": {
+          "Code": "BV",
+          "Omschrijving": "Besloten Vennootschap"
+        },
+        "Heeft": [
+          {
+            "FunctionarisBijzondereRechtstoestand": {
+              "Registratie": {
+                "DatumAanvang": 20100824,
+                "DatumEinde": 20150331,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": {
+                  "VolledigeNaam": "Jan Klaasen",
+                  "BezoekLocatiePersoon": {
+                    "Registratie": {
+                      "DatumAanvang": 20100824,
+                      "DatumEinde": 0,
+                      "RegistratieTijdstipNoValue": null
+                    },
+                    "Afgeschermd": {
+                      "Code": "N",
+                      "Omschrijving": "Nee",
+                      "ReferentieType": "geenRT"
+                    },
+                    "Adres": {
+                      "BinnenlandsAdres": {
+                        "Straatnaam": null,
+                        "Huisnummer": 0,
+                        "Postcode": {
+                          "Cijfercombinatie": 3813,
+                          "Lettercombinatie": "VA"
+                        },
+                        "Plaats": "Amersfoort",
+                        "BagId": null,
+                        "HuisnummerToevoeging": null
+                      }
+                    },
+                    "VolledigAdres": "Postbus 99999 3813VA Amersfoort"
+                  },
+                  "Naam": "mr. Jamaal Lopes",
+                  "Telefoonnummer": {
+                    "Toegangscode": 31,
+                    "Nummer": 206645111
+                  }
+                },
+                "NatuurlijkPersoon": null,
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "07",
+                "Omschrijving": "Curator",
+                "ReferentieType": "FunctionarisRol"
+              }
+            },
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": {
+              "Registratie": {
+                "DatumAanvang": 20100824,
+                "DatumEinde": 20150331,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": {
+                  "VolledigeNaam": "Jan Klaasen",
+                  "BezoekLocatiePersoon": null,
+                  "Naam": "mr. Hope Guercio",
+                  "Telefoonnummer": null
+                },
+                "NatuurlijkPersoon": null,
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "11",
+                "Omschrijving": "Rechter-commissaris",
+                "ReferentieType": "FunctionarisRol"
+              }
+            },
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": {
+              "Functie": {
+                "Code": "02",
+                "Omschrijving": "Bestuurder",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "voorvoegsel"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19801119,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Bevoegdheid": {
+                "Soort": {
+                  "Code": "azb",
+                  "Omschrijving": "Alleen/zelfstandig bevoegd"
+                }
+              },
+              "Functietitel": {
+                "Titel": "Algemeen Directeur"
+              }
+            },
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          }
+        ],
+        "VolledigeNaam": "Jan Klaasen",
+        "Rsin": "992413564"
+      }
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

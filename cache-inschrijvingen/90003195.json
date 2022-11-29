@@ -1,0 +1,106 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 20141121,
+      "DatumEinde": 0,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90003195,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20141121,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Zandeweg",
+          "Huisnummer": 2,
+          "Postcode": {
+            "Cijfercombinatie": 5107,
+            "Lettercombinatie": "NM"
+          },
+          "Plaats": "Dongen",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999819712,
+            "IdentificatieAdresseerbaarObject": 74999999897084
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Zandeweg 2 5107NM Dongen"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20141121,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Zandeweg",
+          "Huisnummer": 2,
+          "Postcode": {
+            "Cijfercombinatie": 5107,
+            "Lettercombinatie": "NM"
+          },
+          "Plaats": "Dongen",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999819712,
+            "IdentificatieAdresseerbaarObject": 74999999897084
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Zandeweg 2 5107NM Dongen"
+    },
+    "Communicatiegegevens": {
+      "Registratie": {
+        "DatumAanvang": 20141121,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Communicatienummer": [
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        }
+      ],
+      "EmailAdres": "nepemailadres@kvk.nl"
+    },
+    "Naam": "Free Siliconmedia",
+    "ManifesteertZichAls": null,
+    "WordtGeleidVanuit": null,
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 20141121,
+        "RegistratieTijdstipNoValue": null
+      },
+      "NatuurlijkPersoon": null,
+      "Samenwerkingsverband": null,
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": {
+        "VoornemenTotOntbinding": null,
+        "ActiviteitenGestaaktPer": null,
+        "Rechtsvorm": {
+          "Code": "KG",
+          "Omschrijving": "Kerkgenootschap"
+        },
+        "Heeft": [],
+        "VolledigeNaam": "Jan Klaasen",
+        "Rsin": "992093326"
+      }
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

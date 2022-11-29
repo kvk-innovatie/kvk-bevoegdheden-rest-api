@@ -1,0 +1,491 @@
+{
+  "registratie": {
+    "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+    "datumAanvang": "19880531",
+    "datumEinde": "20120320"
+  },
+  "kvkNummer": "90000501",
+  "nonMailing": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "incidenteelUitlenenArbeidskrachten": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "bezoekLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstip": "20120321091141456" },
+      "datumAanvang": "20050125",
+      "datumEinde": "20120320"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Saturnusstraat",
+        "huisnummer": 9,
+        "postcode": { "cijfercombinatie": "2402", "lettercombinatie": "AD" },
+        "plaats": "Alphen aan den Rijn",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999984430",
+          "identificatieAdresseerbaarObject": "0074999999319041"
+        }
+      }
+    },
+    "volledigAdres": "Saturnusstraat 9 2402AD Alphen aan den Rijn"
+  },
+  "postLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstip": "20120321091141456" },
+      "datumAanvang": "20050125",
+      "datumEinde": "20120320"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Saturnusstraat",
+        "huisnummer": 9,
+        "postcode": { "cijfercombinatie": "2402", "lettercombinatie": "AD" },
+        "plaats": "Alphen aan den Rijn",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999984430",
+          "identificatieAdresseerbaarObject": "0074999999319041"
+        }
+      }
+    },
+    "volledigAdres": "Saturnusstraat 9 2402AD Alphen aan den Rijn"
+  },
+  "communicatiegegevens": {
+    "registratie": {
+      "attributes": { "registratieTijdstip": "20120321091141456" },
+      "datumAanvang": "19880531",
+      "datumEinde": "20120320"
+    },
+    "communicatienummer": [
+      { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+    ]
+  },
+  "naam": "Global Saltplex B.V.",
+  "manifesteertZichAls": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstip": "20120321091141456" },
+      "datumAanvang": "19880531",
+      "datumEinde": "20120320"
+    },
+    "onderneming": {
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19880531",
+        "datumEinde": "20120320"
+      },
+      "kvkNummer": "90000501",
+      "sbiActiviteit": [
+        {
+          "registratie": {
+            "attributes": { "registratieTijdstip": "20120321091141456" },
+            "datumAanvang": "19880531",
+            "datumEinde": "20120320"
+          },
+          "sbiCode": { "code": "6420", "omschrijving": "Financiële holdings", "referentieType": "ActiviteitCode" },
+          "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+        },
+        {
+          "registratie": {
+            "attributes": { "registratieTijdstip": "20120321091141456" },
+            "datumAanvang": "19880531",
+            "datumEinde": "20120320"
+          },
+          "sbiCode": {
+            "code": "64302",
+            "omschrijving": "Beleggingsinstellingen in vaste activa",
+            "referentieType": "ActiviteitCode"
+          },
+          "isHoofdactiviteit": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+        },
+        {
+          "registratie": {
+            "attributes": { "registratieTijdstip": "20120321091141456" },
+            "datumAanvang": "19880531",
+            "datumEinde": "20120320"
+          },
+          "sbiCode": {
+            "code": "68204",
+            "omschrijving": "Verhuur van onroerend goed (niet van woonruimte)",
+            "referentieType": "ActiviteitCode"
+          },
+          "isHoofdactiviteit": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+        }
+      ],
+      "voltijdWerkzamePersonen": 1,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 1,
+      "handeltOnder": [
+        {
+          "handelsnaam": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19910712",
+              "datumEinde": "20120320"
+            },
+            "naam": "Global Saltplex B.V.",
+            "volgorde": 0
+          }
+        }
+      ],
+      "wordtUitgeoefendIn": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstip": "20120321091141456" },
+            "datumAanvang": "19880531",
+            "datumEinde": "20120320"
+          },
+          "commercieleVestiging": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19880531",
+              "datumEinde": "20120320"
+            },
+            "vestigingsnummer": "990000275636",
+            "bezoekLocatie": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20120321091141456" },
+                "datumAanvang": "20050125",
+                "datumEinde": "20120320"
+              },
+              "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "adres": {
+                "binnenlandsAdres": {
+                  "straatnaam": "Saturnusstraat",
+                  "huisnummer": 9,
+                  "postcode": { "cijfercombinatie": "2402", "lettercombinatie": "AD" },
+                  "plaats": "Alphen aan den Rijn",
+                  "bagId": {
+                    "identificatieNummeraanduiding": "0074999999984430",
+                    "identificatieAdresseerbaarObject": "0074999999319041"
+                  }
+                }
+              },
+              "volledigAdres": "Saturnusstraat 9 2402AD Alphen aan den Rijn"
+            },
+            "communicatiegegevens": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20120321091141456" },
+                "datumAanvang": "19880531",
+                "datumEinde": "20120320"
+              },
+              "communicatienummer": [
+                { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+              ]
+            },
+            "eersteHandelsnaam": "Global Saltplex B.V.",
+            "voltijdWerkzamePersonen": 1,
+            "deeltijdWerkzamePersonen": 0,
+            "totaalWerkzamePersonen": 1,
+            "activiteiten": {
+              "omschrijving": "De uitoefening van een beheer- en beleggingsmaatschappij en de exploitatie van onroerende zaken.",
+              "sbiActiviteit": [
+                {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20120321091141456" },
+                    "datumAanvang": "19880531",
+                    "datumEinde": "20120320"
+                  },
+                  "sbiCode": {
+                    "code": "6420",
+                    "omschrijving": "Financiële holdings",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+                },
+                {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20120321091141456" },
+                    "datumAanvang": "19880531",
+                    "datumEinde": "20120320"
+                  },
+                  "sbiCode": {
+                    "code": "64302",
+                    "omschrijving": "Beleggingsinstellingen in vaste activa",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+                },
+                {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20120321091141456" },
+                    "datumAanvang": "19880531",
+                    "datumEinde": "20120320"
+                  },
+                  "sbiCode": {
+                    "code": "68204",
+                    "omschrijving": "Verhuur van onroerend goed (niet van woonruimte)",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+                }
+              ],
+              "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            },
+            "handeltOnder": [
+              {
+                "relatieRegistratie": {
+                  "attributes": { "registratieTijdstip": "20120321091141456" },
+                  "datumAanvang": "19910712",
+                  "datumEinde": "20120320"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                    "datumAanvang": "19910712",
+                    "datumEinde": "20120320"
+                  },
+                  "naam": "Global Saltplex B.V.",
+                  "volgorde": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "wordtGeleidVanuit": {
+    "commercieleVestiging": {
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19880531",
+        "datumEinde": "20120320"
+      },
+      "vestigingsnummer": "990000275636",
+      "bezoekLocatie": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20120321091141456" },
+          "datumAanvang": "20050125",
+          "datumEinde": "20120320"
+        },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Saturnusstraat",
+            "huisnummer": 9,
+            "postcode": { "cijfercombinatie": "2402", "lettercombinatie": "AD" },
+            "plaats": "Alphen aan den Rijn",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999984430",
+              "identificatieAdresseerbaarObject": "0074999999319041"
+            }
+          }
+        },
+        "volledigAdres": "Saturnusstraat 9 2402AD Alphen aan den Rijn"
+      },
+      "communicatiegegevens": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20120321091141456" },
+          "datumAanvang": "19880531",
+          "datumEinde": "20120320"
+        },
+        "communicatienummer": [
+          { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+        ]
+      },
+      "eersteHandelsnaam": "Global Saltplex B.V.",
+      "voltijdWerkzamePersonen": 1,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 1,
+      "activiteiten": {
+        "omschrijving": "De uitoefening van een beheer- en beleggingsmaatschappij en de exploitatie van onroerende zaken.",
+        "sbiActiviteit": [
+          {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20120321091141456" },
+              "datumAanvang": "19880531",
+              "datumEinde": "20120320"
+            },
+            "sbiCode": { "code": "6420", "omschrijving": "Financiële holdings", "referentieType": "ActiviteitCode" },
+            "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+          },
+          {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20120321091141456" },
+              "datumAanvang": "19880531",
+              "datumEinde": "20120320"
+            },
+            "sbiCode": {
+              "code": "64302",
+              "omschrijving": "Beleggingsinstellingen in vaste activa",
+              "referentieType": "ActiviteitCode"
+            },
+            "isHoofdactiviteit": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+          },
+          {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20120321091141456" },
+              "datumAanvang": "19880531",
+              "datumEinde": "20120320"
+            },
+            "sbiCode": {
+              "code": "68204",
+              "omschrijving": "Verhuur van onroerend goed (niet van woonruimte)",
+              "referentieType": "ActiviteitCode"
+            },
+            "isHoofdactiviteit": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+          }
+        ],
+        "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+      },
+      "handeltOnder": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstip": "20120321091141456" },
+            "datumAanvang": "19910712",
+            "datumEinde": "20120320"
+          },
+          "handelsnaam": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19910712",
+              "datumEinde": "20120320"
+            },
+            "naam": "Global Saltplex B.V.",
+            "volgorde": 0
+          }
+        }
+      ]
+    }
+  },
+  "heeftAlsEigenaar": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstip": "20120321091141456" },
+      "datumAanvang": "19880531",
+      "datumEinde": "20120320"
+    },
+    "rechtspersoon": {
+      "extraElementen": {
+        "extraElement": [
+          { "attributes": { "naam": "datumAanvangStatuten" }, "$value": "19910712" },
+          { "attributes": { "naam": "datumAkteStatuten" }, "$value": "19910712" }
+        ]
+      },
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19880531",
+        "datumEinde": "20120320"
+      },
+      "persoonRechtsvorm": "Besloten Vennootschap",
+      "volledigeNaam": "Global Saltplex B.V.",
+      "uitgebreideRechtsvorm": "Besloten Vennootschap",
+      "heeft": [
+        {
+          "bestuursfunctie": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20010601",
+              "datumEinde": "20120320"
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": { "extraElement": { "attributes": { "naam": "achternaam" }, "$value": "Faucher" } },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19630627"
+                },
+                "volledigeNaam": "Judy Faucher",
+                "geslachtsnaam": "Faucher",
+                "voornamen": "Judy",
+                "geboortedatum": "19630627"
+              }
+            },
+            "functie": { "code": "02", "omschrijving": "Bestuurder", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20120321091141456" },
+                "datumAanvang": "20010601",
+                "datumEinde": "20120320"
+              },
+              "soort": {
+                "code": "azb",
+                "omschrijving": "Alleen/zelfstandig bevoegd",
+                "referentieType": "SoortBevoegdheidBestuurder"
+              },
+              "isBevoegdMetAnderePersonen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        }
+      ],
+      "rsin": "992924807",
+      "naamgeving": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20120321091141456" },
+          "datumAanvang": "19910712",
+          "datumEinde": "20120320"
+        },
+        "naam": "Global Saltplex B.V."
+      },
+      "ontbinding": {
+        "registratie": { "attributes": { "registratieTijdstip": "20120321091141456" }, "datumAanvang": "20120320" },
+        "aanleiding": {
+          "code": "DK",
+          "omschrijving": "Ontbinding door de Kamer van Koophandel",
+          "referentieType": "AanleidingOntbinding"
+        }
+      },
+      "rechtsvorm": { "code": "BV", "omschrijving": "Besloten Vennootschap", "referentieType": "Rechtsvorm" },
+      "statutaireZetel": "Nepplaats",
+      "aanvangStatutaireZetel": "19880531",
+      "datumAkteOprichting": "19880531",
+      "datumEersteInschrijvingHandelsregister": "19880603",
+      "datumAkteStatutenwijziging": "19910712",
+      "stelselInrichting": { "code": "D", "omschrijving": "Dualistisch", "referentieType": "StelselInrichting" },
+      "structuur": { "code": "GS", "omschrijving": "Gewone structuur", "referentieType": "RechtsvormStructuur" },
+      "maatschappelijkKapitaal": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20120321091141456" },
+          "datumAanvang": "19880531",
+          "datumEinde": "20120320"
+        },
+        "bedrag": {
+          "waarde": "90756.04",
+          "valuta": { "code": "EUR", "omschrijving": "Euro", "referentieType": "Valuta" }
+        }
+      },
+      "geplaatstKapitaal": {
+        "registratie": { "attributes": { "registratieTijdstip": "20120321091141456" }, "datumEinde": "20120320" },
+        "bedrag": {
+          "waarde": "18151.21",
+          "valuta": { "code": "EUR", "omschrijving": "Euro", "referentieType": "Valuta" }
+        }
+      },
+      "gestortKapitaal": {
+        "registratie": { "attributes": { "registratieTijdstip": "20120321091141456" }, "datumEinde": "20120320" },
+        "bedrag": {
+          "waarde": "18151.21",
+          "valuta": { "code": "EUR", "omschrijving": "Euro", "referentieType": "Valuta" }
+        }
+      },
+      "bezoekLocatie": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20120321091141456" },
+          "datumAanvang": "20050125",
+          "datumEinde": "20120320"
+        },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Saturnusstraat",
+            "huisnummer": 9,
+            "postcode": { "cijfercombinatie": "2402", "lettercombinatie": "AD" },
+            "plaats": "Alphen aan den Rijn",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999984430",
+              "identificatieAdresseerbaarObject": "0074999999319041"
+            }
+          }
+        },
+        "volledigAdres": "Saturnusstraat 9 2402AD Alphen aan den Rijn"
+      },
+      "voornemenTotOntbinding": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20120321091141456" },
+          "datumAanvang": "20120117",
+          "datumEinde": "20120320"
+        }
+      }
+    }
+  }
+}

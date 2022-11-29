@@ -1,0 +1,192 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 19911011,
+      "DatumEinde": 0,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90003314,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 19911011,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Rogier van Leefdaelstraat",
+          "Huisnummer": 26,
+          "Postcode": {
+            "Cijfercombinatie": 5081,
+            "Lettercombinatie": "JL"
+          },
+          "Plaats": "Hilvarenbeek",
+          "BagId": null,
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Rogier van Leefdaelstraat 26 5081JL Hilvarenbeek"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20101104,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": null,
+          "Huisnummer": 0,
+          "Postcode": {
+            "Cijfercombinatie": 6116,
+            "Lettercombinatie": "CJ"
+          },
+          "Plaats": "Roosteren",
+          "BagId": null,
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Postbus 99999 6116CJ Roosteren"
+    },
+    "Communicatiegegevens": null,
+    "Naam": "Onderlinge Waarborgmaatschappij Grand Intechi",
+    "ManifesteertZichAls": null,
+    "WordtGeleidVanuit": null,
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 19911011,
+        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+      },
+      "NatuurlijkPersoon": null,
+      "Samenwerkingsverband": null,
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": {
+        "VoornemenTotOntbinding": null,
+        "ActiviteitenGestaaktPer": null,
+        "Rechtsvorm": {
+          "Code": "OWM",
+          "Omschrijving": "Onderlinge Waarborg Maatschappij"
+        },
+        "Heeft": [
+          {
+            "FunctionarisBijzondereRechtstoestand": {
+              "Registratie": {
+                "DatumAanvang": 20060824,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": {
+                  "VolledigeNaam": "Jan Klaasen",
+                  "BezoekLocatiePersoon": {
+                    "Registratie": {
+                      "DatumAanvang": 0,
+                      "DatumEinde": 0,
+                      "RegistratieTijdstipNoValue": null
+                    },
+                    "Afgeschermd": {
+                      "Code": "N",
+                      "Omschrijving": "Nee",
+                      "ReferentieType": "geenRT"
+                    },
+                    "Adres": {
+                      "BinnenlandsAdres": {
+                        "Straatnaam": "Parkstraat",
+                        "Huisnummer": 1,
+                        "Postcode": {
+                          "Cijfercombinatie": 4021,
+                          "Lettercombinatie": "CA"
+                        },
+                        "Plaats": "Maurik",
+                        "BagId": null,
+                        "HuisnummerToevoeging": null
+                      }
+                    },
+                    "VolledigAdres": "Parkstraat 1 4021CA Maurik"
+                  },
+                  "Naam": "mr. Noemi Dunlop",
+                  "Telefoonnummer": null
+                },
+                "NatuurlijkPersoon": null,
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "11",
+                "Omschrijving": "Rechter-commissaris",
+                "ReferentieType": "FunctionarisRol"
+              }
+            },
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": {
+              "Registratie": {
+                "DatumAanvang": 20101104,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": {
+                  "VolledigeNaam": "Jan Klaasen",
+                  "BezoekLocatiePersoon": {
+                    "Registratie": {
+                      "DatumAanvang": 20101104,
+                      "DatumEinde": 0,
+                      "RegistratieTijdstipNoValue": null
+                    },
+                    "Afgeschermd": {
+                      "Code": "N",
+                      "Omschrijving": "Nee",
+                      "ReferentieType": "geenRT"
+                    },
+                    "Adres": {
+                      "BinnenlandsAdres": {
+                        "Straatnaam": null,
+                        "Huisnummer": 0,
+                        "Postcode": {
+                          "Cijfercombinatie": 6116,
+                          "Lettercombinatie": "CJ"
+                        },
+                        "Plaats": "Roosteren",
+                        "BagId": null,
+                        "HuisnummerToevoeging": null
+                      }
+                    },
+                    "VolledigAdres": "Postbus 99999 6116CJ Roosteren"
+                  },
+                  "Naam": "mr. Charolette Mellon",
+                  "Telefoonnummer": null
+                },
+                "NatuurlijkPersoon": null,
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "07",
+                "Omschrijving": "Curator",
+                "ReferentieType": "FunctionarisRol"
+              }
+            },
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          }
+        ],
+        "VolledigeNaam": "Jan Klaasen",
+        "Rsin": "992883659"
+      }
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

@@ -1,0 +1,704 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 19900115,
+      "DatumEinde": 0,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90004426,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 19900115,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Peckedammerstraat",
+          "Huisnummer": 6,
+          "Postcode": {
+            "Cijfercombinatie": 7478,
+            "Lettercombinatie": "DE"
+          },
+          "Plaats": "Diepenheim",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999864603,
+            "IdentificatieAdresseerbaarObject": 74999999576017
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Peckedammerstraat 6 7478DE Diepenheim"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 19900115,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Peckedammerstraat",
+          "Huisnummer": 6,
+          "Postcode": {
+            "Cijfercombinatie": 7478,
+            "Lettercombinatie": "DE"
+          },
+          "Plaats": "Diepenheim",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999864603,
+            "IdentificatieAdresseerbaarObject": 74999999576017
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Peckedammerstraat 6 7478DE Diepenheim"
+    },
+    "Communicatiegegevens": {
+      "Registratie": {
+        "DatumAanvang": 19790704,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Communicatienummer": [
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        },
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "F",
+            "Omschrijving": "Fax"
+          }
+        }
+      ],
+      "EmailAdres": null
+    },
+    "Naam": "Company Joyflex",
+    "ManifesteertZichAls": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 19900115,
+        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+      },
+      "Onderneming": {
+        "Registratie": {
+          "DatumAanvang": 19790704,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "KvkNummer": 90004426,
+        "SbiActiviteit": [
+          {
+            "Registratie": {
+              "DatumAanvang": 19790704,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 1071,
+              "Omschrijving": "Vervaardiging van brood en vers banketbakkerswerk",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          }
+        ],
+        "VoltijdWerkzamePersonen": 7,
+        "DeeltijdWerkzamePersonen": 1,
+        "TotaalWerkzamePersonen": 8,
+        "HandeltOnder": [
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 19900115,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Company Joyflex",
+              "Volgorde": 0
+            },
+            "RelatieRegistratie": null
+          }
+        ],
+        "WordtUitgeoefendIn": {
+          "RelatieRegistratie": {
+            "DatumAanvang": 19900115,
+            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+          },
+          "CommercieleVestiging": {
+            "Registratie": {
+              "DatumAanvang": 19790704,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Vestigingsnummer": 990000942743,
+            "BezoekLocatie": {
+              "Registratie": {
+                "DatumAanvang": 19900115,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Afgeschermd": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Adres": {
+                "BinnenlandsAdres": {
+                  "Straatnaam": "Peckedammerstraat",
+                  "Huisnummer": 6,
+                  "Postcode": {
+                    "Cijfercombinatie": 7478,
+                    "Lettercombinatie": "DE"
+                  },
+                  "Plaats": "Diepenheim",
+                  "BagId": {
+                    "IdentificatieNummeraanduiding": 74999999864603,
+                    "IdentificatieAdresseerbaarObject": 74999999576017
+                  },
+                  "HuisnummerToevoeging": null
+                }
+              },
+              "VolledigAdres": "Peckedammerstraat 6 7478DE Diepenheim"
+            },
+            "Communicatiegegevens": {
+              "Registratie": {
+                "DatumAanvang": 19790704,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Communicatienummer": [
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "T",
+                    "Omschrijving": "Telefoon"
+                  }
+                },
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "F",
+                    "Omschrijving": "Fax"
+                  }
+                }
+              ],
+              "EmailAdres": null
+            },
+            "EersteHandelsnaam": "Company Joyflex",
+            "VoltijdWerkzamePersonen": 7,
+            "DeeltijdWerkzamePersonen": 1,
+            "TotaalWerkzamePersonen": 8,
+            "Activiteiten": {
+              "Omschrijving": "Luxe bakkerij. Detailhandel in brood en banket.",
+              "SbiActiviteit": {
+                "Registratie": {
+                  "DatumAanvang": 19790704,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "SbiCode": {
+                  "Code": 1071,
+                  "Omschrijving": "Vervaardiging van brood en vers banketbakkerswerk",
+                  "ReferentieType": "ActiviteitCode"
+                },
+                "IsHoofdactiviteit": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Exporteert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Importeert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              }
+            },
+            "HandeltOnder": {
+              "Handelsnaam": {
+                "Registratie": {
+                  "DatumAanvang": 19900115,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Naam": "Company Joyflex",
+                "Volgorde": 0
+              },
+              "RelatieRegistratie": {
+                "DatumAanvang": 19900115,
+                "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+              }
+            }
+          }
+        }
+      }
+    },
+    "WordtGeleidVanuit": {
+      "CommercieleVestiging": {
+        "Registratie": {
+          "DatumAanvang": 19790704,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "Vestigingsnummer": 990000942743,
+        "BezoekLocatie": {
+          "Registratie": {
+            "DatumAanvang": 19900115,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Afgeschermd": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Adres": {
+            "BinnenlandsAdres": {
+              "Straatnaam": "Peckedammerstraat",
+              "Huisnummer": 6,
+              "Postcode": {
+                "Cijfercombinatie": 7478,
+                "Lettercombinatie": "DE"
+              },
+              "Plaats": "Diepenheim",
+              "BagId": {
+                "IdentificatieNummeraanduiding": 74999999864603,
+                "IdentificatieAdresseerbaarObject": 74999999576017
+              },
+              "HuisnummerToevoeging": null
+            }
+          },
+          "VolledigAdres": "Peckedammerstraat 6 7478DE Diepenheim"
+        },
+        "Communicatiegegevens": {
+          "Registratie": {
+            "DatumAanvang": 19790704,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Communicatienummer": [
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "T",
+                "Omschrijving": "Telefoon"
+              }
+            },
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "F",
+                "Omschrijving": "Fax"
+              }
+            }
+          ],
+          "EmailAdres": null
+        },
+        "EersteHandelsnaam": "Company Joyflex",
+        "VoltijdWerkzamePersonen": 7,
+        "DeeltijdWerkzamePersonen": 1,
+        "TotaalWerkzamePersonen": 8,
+        "Activiteiten": {
+          "Omschrijving": "Luxe bakkerij. Detailhandel in brood en banket.",
+          "SbiActiviteit": {
+            "Registratie": {
+              "DatumAanvang": 19790704,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 1071,
+              "Omschrijving": "Vervaardiging van brood en vers banketbakkerswerk",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          "Exporteert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Importeert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          }
+        },
+        "HandeltOnder": {
+          "Handelsnaam": {
+            "Registratie": {
+              "DatumAanvang": 19900115,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Naam": "Company Joyflex",
+            "Volgorde": 0
+          },
+          "RelatieRegistratie": {
+            "DatumAanvang": 19900115,
+            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+          }
+        }
+      }
+    },
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 19900115,
+        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+      },
+      "NatuurlijkPersoon": null,
+      "Samenwerkingsverband": {
+        "Registratie": {
+          "DatumAanvang": 19900115,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "BijzondereRechtstoestand": null,
+        "PersoonRechtsvorm": "Vennootschap Onder Firma",
+        "VolledigeNaam": "Jan Klaasen",
+        "UitgebreideRechtsvorm": "Vennootschap Onder Firma",
+        "Heeft": [
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": {
+              "Registratie": {
+                "DatumAanvang": 19900115,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19600929,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "13",
+                "Omschrijving": "Vennoot",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Bevoegdheid": {
+                "Registratie": {
+                  "DatumAanvang": 20011123,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Soort": {
+                  "Code": "bb",
+                  "Omschrijving": "Beperkt bevoegd"
+                },
+                "OverigeBeperking": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Functietitel": null
+            },
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": {
+              "Registratie": {
+                "DatumAanvang": 19900115,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19670105,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "13",
+                "Omschrijving": "Vennoot",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Bevoegdheid": {
+                "Registratie": {
+                  "DatumAanvang": 20011123,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Soort": {
+                  "Code": "bb",
+                  "Omschrijving": "Beperkt bevoegd"
+                },
+                "OverigeBeperking": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Functietitel": null
+            },
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": {
+              "Functie": {
+                "Code": "01",
+                "Omschrijving": "Gevolmachtigde",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19600929,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Volmacht": {
+                "TypeVolmacht": {
+                  "Code": "v",
+                  "Omschrijving": "Volledige volmacht"
+                }
+              },
+              "Bevoegdheid": null,
+              "Functietitel": null
+            },
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": {
+              "Registratie": {
+                "DatumAanvang": 20070101,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19910718,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "13",
+                "Omschrijving": "Vennoot",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Bevoegdheid": {
+                "Registratie": {
+                  "DatumAanvang": 20070101,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Soort": {
+                  "Code": "bb",
+                  "Omschrijving": "Beperkt bevoegd"
+                },
+                "OverigeBeperking": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Functietitel": null
+            },
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": {
+              "Registratie": {
+                "DatumAanvang": 20070101,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19750221,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "13",
+                "Omschrijving": "Vennoot",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Bevoegdheid": {
+                "Registratie": {
+                  "DatumAanvang": 20070101,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Soort": {
+                  "Code": "bb",
+                  "Omschrijving": "Beperkt bevoegd"
+                },
+                "OverigeBeperking": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Functietitel": null
+            },
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          }
+        ],
+        "Rsin": 992353427,
+        "Naamgeving": {
+          "Registratie": {
+            "DatumAanvang": 19911206,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Naam": "Company Joyflex"
+        },
+        "Ontbinding": null,
+        "Rechtsvorm": {
+          "Code": "VOF",
+          "Omschrijving": "Vennootschap Onder Firma",
+          "ReferentieType": "Rechtsvorm"
+        },
+        "Duur": {
+          "Registratie": {
+            "DatumAanvang": 19900115,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "HeeftOnbepaaldeDuur": {
+            "Code": "J",
+            "Omschrijving": "Ja",
+            "ReferentieType": "geenRT"
+          }
+        }
+      },
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": null
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

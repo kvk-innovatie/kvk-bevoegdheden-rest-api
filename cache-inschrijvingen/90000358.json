@@ -1,0 +1,331 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 20060426,
+      "DatumEinde": 20130618,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90000358,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20120701,
+        "DatumEinde": 20130618,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "J.B. Schuilstraat",
+          "Huisnummer": 21,
+          "Postcode": {
+            "Cijfercombinatie": 1321,
+            "Lettercombinatie": "KM"
+          },
+          "Plaats": "Almere",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999179044,
+            "IdentificatieAdresseerbaarObject": 74999999293112
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "J.B. Schuilstraat 21 1321KM Almere"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20120701,
+        "DatumEinde": 20130618,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "J.B. Schuilstraat",
+          "Huisnummer": 21,
+          "Postcode": {
+            "Cijfercombinatie": 1321,
+            "Lettercombinatie": "KM"
+          },
+          "Plaats": "Almere",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999179044,
+            "IdentificatieAdresseerbaarObject": 74999999293112
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "J.B. Schuilstraat 21 1321KM Almere"
+    },
+    "Communicatiegegevens": {
+      "Registratie": {
+        "DatumAanvang": 20060426,
+        "DatumEinde": 20130618,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Communicatienummer": [
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        }
+      ],
+      "EmailAdres": null
+    },
+    "Naam": "Stichting Local Opecane",
+    "ManifesteertZichAls": null,
+    "WordtGeleidVanuit": null,
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 20060426,
+        "RegistratieTijdstipNoValue": null
+      },
+      "NatuurlijkPersoon": null,
+      "Samenwerkingsverband": null,
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": {
+        "VoornemenTotOntbinding": null,
+        "ActiviteitenGestaaktPer": null,
+        "Rechtsvorm": {
+          "Code": "ST",
+          "Omschrijving": "Stichting"
+        },
+        "Heeft": [
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": {
+              "Functie": {
+                "Code": "02",
+                "Omschrijving": "Bestuurder",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "voorvoegsel"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19771111,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Bevoegdheid": {
+                "Soort": {
+                  "Code": "gb",
+                  "Omschrijving": "Gezamenlijk bevoegd"
+                }
+              },
+              "Functietitel": {
+                "Titel": "Secretaris"
+              }
+            },
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": {
+              "Functie": {
+                "Code": "02",
+                "Omschrijving": "Bestuurder",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19670908,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Bevoegdheid": {
+                "Soort": {
+                  "Code": "gb",
+                  "Omschrijving": "Gezamenlijk bevoegd"
+                }
+              },
+              "Functietitel": {
+                "Titel": "Voorzitter"
+              }
+            },
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": {
+              "Functie": {
+                "Code": "01",
+                "Omschrijving": "Gevolmachtigde",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "voorvoegsel"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19650504,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Volmacht": {
+                "TypeVolmacht": {
+                  "Code": "b",
+                  "Omschrijving": "Beperkte volmacht"
+                }
+              },
+              "Bevoegdheid": null,
+              "Functietitel": {
+                "Titel": "Toernooidirecteur"
+              }
+            },
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": {
+              "Functie": {
+                "Code": "02",
+                "Omschrijving": "Bestuurder",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19440609,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Bevoegdheid": {
+                "Soort": {
+                  "Code": "gb",
+                  "Omschrijving": "Gezamenlijk bevoegd"
+                }
+              },
+              "Functietitel": {
+                "Titel": "Penningmeester"
+              }
+            },
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": {
+              "Functie": {
+                "Code": "10",
+                "Omschrijving": "Bewaarder boeken en bescheiden",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "voorvoegsel"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19650504,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Bevoegdheid": null,
+              "Functietitel": null
+            },
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          }
+        ],
+        "VolledigeNaam": "Jan Klaasen",
+        "Rsin": "992753843"
+      }
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

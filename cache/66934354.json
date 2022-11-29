@@ -1,0 +1,422 @@
+{
+  "registratie": {
+    "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+    "datumAanvang": "20000201",
+    "datumEinde": "20121123"
+  },
+  "kvkNummer": "66934354",
+  "nonMailing": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "incidenteelUitlenenArbeidskrachten": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "bezoekLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstip": "20121214090432956" },
+      "datumAanvang": "20020214",
+      "datumEinde": "20121123"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Thomas a Kempisstraat",
+        "huisnummer": 15,
+        "huisletter": "a",
+        "postcode": { "cijfercombinatie": "7412", "lettercombinatie": "EK" },
+        "plaats": "Deventer",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999746890",
+          "identificatieAdresseerbaarObject": "0074999999372730"
+        }
+      }
+    },
+    "volledigAdres": "Thomas a Kempisstraat 15 7412EK Deventer"
+  },
+  "postLocatie": {
+    "registratie": { "attributes": { "registratieTijdstip": "20100930155518298" }, "datumAanvang": "20100928" },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "postbusnummer": 99999,
+        "postcode": { "cijfercombinatie": "4336", "lettercombinatie": "KL" },
+        "plaats": "Middelburg"
+      }
+    },
+    "volledigAdres": "Postbus 99999 4336KL Middelburg"
+  },
+  "communicatiegegevens": {
+    "registratie": {
+      "attributes": { "registratieTijdstip": "20121214090432956" },
+      "datumAanvang": "20000201",
+      "datumEinde": "20121123"
+    },
+    "communicatienummer": [
+      { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+    ]
+  },
+  "naam": "Fysio+",
+  "manifesteertZichAls": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstip": "20121214090432956" },
+      "datumAanvang": "20000201",
+      "datumEinde": "20121123"
+    },
+    "onderneming": {
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "20000201",
+        "datumEinde": "20121123"
+      },
+      "kvkNummer": "90000064",
+      "sbiActiviteit": [
+        {
+          "registratie": {
+            "attributes": { "registratieTijdstip": "20121214090432956" },
+            "datumAanvang": "20000201",
+            "datumEinde": "20121123"
+          },
+          "sbiCode": {
+            "code": "46731",
+            "omschrijving": "Groothandel in hout en plaatmateriaal",
+            "referentieType": "ActiviteitCode"
+          },
+          "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+        }
+      ],
+      "voltijdWerkzamePersonen": 2,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 2,
+      "handeltOnder": [
+        {
+          "handelsnaam": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20000201",
+              "datumEinde": "20121123"
+            },
+            "naam": "International Goldcare",
+            "volgorde": 0
+          }
+        }
+      ],
+      "wordtUitgeoefendIn": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstip": "20121214090432956" },
+            "datumAanvang": "20000201",
+            "datumEinde": "20121123"
+          },
+          "commercieleVestiging": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20000201",
+              "datumEinde": "20121123"
+            },
+            "vestigingsnummer": "990000811734",
+            "bezoekLocatie": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20121214090432956" },
+                "datumAanvang": "20020214",
+                "datumEinde": "20121123"
+              },
+              "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "adres": {
+                "binnenlandsAdres": {
+                  "straatnaam": "Thomas a Kempisstraat",
+                  "huisnummer": 15,
+                  "huisletter": "a",
+                  "postcode": { "cijfercombinatie": "7412", "lettercombinatie": "EK" },
+                  "plaats": "Deventer",
+                  "bagId": {
+                    "identificatieNummeraanduiding": "0074999999746890",
+                    "identificatieAdresseerbaarObject": "0074999999372730"
+                  }
+                }
+              },
+              "volledigAdres": "Thomas a Kempisstraat 15 7412EK Deventer"
+            },
+            "communicatiegegevens": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20121214090432956" },
+                "datumAanvang": "20000201",
+                "datumEinde": "20121123"
+              },
+              "communicatienummer": [
+                { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+              ]
+            },
+            "eersteHandelsnaam": "International Goldcare",
+            "voltijdWerkzamePersonen": 2,
+            "deeltijdWerkzamePersonen": 0,
+            "totaalWerkzamePersonen": 2,
+            "activiteiten": {
+              "omschrijving": "Groothandel in houtprodukten en aanverwante artikelen.",
+              "sbiActiviteit": [
+                {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20121214090432956" },
+                    "datumAanvang": "20000201",
+                    "datumEinde": "20121123"
+                  },
+                  "sbiCode": {
+                    "code": "46731",
+                    "omschrijving": "Groothandel in hout en plaatmateriaal",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+                }
+              ],
+              "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            },
+            "handeltOnder": [
+              {
+                "relatieRegistratie": {
+                  "attributes": { "registratieTijdstip": "20121214090432956" },
+                  "datumAanvang": "20000201",
+                  "datumEinde": "20121123"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                    "datumAanvang": "20000201",
+                    "datumEinde": "20121123"
+                  },
+                  "naam": "International Goldcare",
+                  "volgorde": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "wordtGeleidVanuit": {
+    "commercieleVestiging": {
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "20000201",
+        "datumEinde": "20121123"
+      },
+      "vestigingsnummer": "990000811734",
+      "bezoekLocatie": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20121214090432956" },
+          "datumAanvang": "20020214",
+          "datumEinde": "20121123"
+        },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Thomas a Kempisstraat",
+            "huisnummer": 15,
+            "huisletter": "a",
+            "postcode": { "cijfercombinatie": "7412", "lettercombinatie": "EK" },
+            "plaats": "Deventer",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999746890",
+              "identificatieAdresseerbaarObject": "0074999999372730"
+            }
+          }
+        },
+        "volledigAdres": "Thomas a Kempisstraat 15 7412EK Deventer"
+      },
+      "communicatiegegevens": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20121214090432956" },
+          "datumAanvang": "20000201",
+          "datumEinde": "20121123"
+        },
+        "communicatienummer": [
+          { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+        ]
+      },
+      "eersteHandelsnaam": "International Goldcare",
+      "voltijdWerkzamePersonen": 2,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 2,
+      "activiteiten": {
+        "omschrijving": "Groothandel in houtprodukten en aanverwante artikelen.",
+        "sbiActiviteit": [
+          {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20121214090432956" },
+              "datumAanvang": "20000201",
+              "datumEinde": "20121123"
+            },
+            "sbiCode": {
+              "code": "46731",
+              "omschrijving": "Groothandel in hout en plaatmateriaal",
+              "referentieType": "ActiviteitCode"
+            },
+            "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+          }
+        ],
+        "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+      },
+      "handeltOnder": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstip": "20121214090432956" },
+            "datumAanvang": "20000201",
+            "datumEinde": "20121123"
+          },
+          "handelsnaam": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20000201",
+              "datumEinde": "20121123"
+            },
+            "naam": "International Goldcare",
+            "volgorde": 0
+          }
+        }
+      ]
+    }
+  },
+  "heeftAlsEigenaar": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstip": "20121214090432956" },
+      "datumAanvang": "20000201",
+      "datumEinde": "20121123"
+    },
+    "samenwerkingsverband": {
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "20000201",
+        "datumEinde": "20121123"
+      },
+      "persoonRechtsvorm": "Vennootschap Onder Firma",
+      "volledigeNaam": "International Goldcare",
+      "uitgebreideRechtsvorm": "Vennootschap Onder Firma",
+      "heeft": [
+        {
+          "aansprakelijke": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20000201",
+              "datumEinde": "20121123"
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": { "extraElement": { "attributes": { "naam": "achternaam" }, "$value": "Sadowski" } },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19940222"
+                },
+                "volledigeNaam": "Michiel Maijer",
+                "bezoekLocatiePersoon": {
+                  "registratie": { "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" } },
+                  "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+                  "adres": {
+                    "binnenlandsAdres": {
+                      "straatnaam": "Het Havenplein",
+                      "huisnummer": "5",
+                      "postcode": { "cijfercombinatie": "8254", "lettercombinatie": "KH" },
+                      "plaats": "Dronten",
+                      "bagId": {
+                        "identificatieNummeraanduiding": "0074999999154486",
+                        "identificatieAdresseerbaarObject": "0074999999503041"
+                      }
+                    }
+                  },
+                  "volledigAdres": "Thomas a Kempisstraat 15 7412EK Deventer"
+                },
+                "geslachtsnaam": "Maijer",
+                "voornamen": "Michiel Dirk",
+                "geboortedatum": "19750430"
+              }
+            },
+            "functie": { "code": "13", "omschrijving": "Vennoot", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20121214090432956" },
+                "datumAanvang": "20000201",
+                "datumEinde": "20121123"
+              },
+              "soort": {
+                "code": "ob",
+                "omschrijving": "Onbeperkt bevoegd",
+                "referentieType": "SoortBevoegdheidAansprakelijkeBijSamenwerkingsverband"
+              },
+              "overigeBeperking": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        },
+        {
+          "aansprakelijke": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20000201",
+              "datumEinde": "20121123"
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": { "extraElement": { "attributes": { "naam": "achternaam" }, "$value": "Seifert" } },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19790405"
+                },
+                "bijzondereRechtstoestand": {
+                  "soort": { "code": "FAIL", "omschrijving": "Faillissement", "referentieType": "geenRT" }
+                },
+                "volledigeNaam": "Wesley Seifert",
+                "bezoekLocatiePersoon": {
+                  "registratie": { "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" } },
+                  "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+                  "adres": {
+                    "binnenlandsAdres": {
+                      "straatnaam": "Reimslaan",
+                      "huisnummer": "5",
+                      "postcode": { "cijfercombinatie": "5627", "lettercombinatie": "TG" },
+                      "plaats": "Eindhoven",
+                      "bagId": {
+                        "identificatieNummeraanduiding": "0074999999105147",
+                        "identificatieAdresseerbaarObject": "0074999999459269"
+                      }
+                    }
+                  },
+                  "volledigAdres": "Noordzeestraat 75 1784BM Den Helder"
+                },
+                "geslachtsnaam": "Seifert",
+                "voornamen": "Wesley",
+                "geboortedatum": "19790405"
+              }
+            },
+            "functie": { "code": "13", "omschrijving": "Vennoot", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20121214090432956" },
+                "datumAanvang": "20000201",
+                "datumEinde": "20121123"
+              },
+              "soort": {
+                "code": "ob",
+                "omschrijving": "Onbeperkt bevoegd",
+                "referentieType": "SoortBevoegdheidAansprakelijkeBijSamenwerkingsverband"
+              },
+              "overigeBeperking": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        }
+      ],
+      "rsin": "992953327",
+      "naamgeving": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20121214090432956" },
+          "datumAanvang": "20000201",
+          "datumEinde": "20121123"
+        },
+        "naam": "International Goldcare"
+      },
+      "rechtsvorm": { "code": "VOF", "omschrijving": "Vennootschap Onder Firma", "referentieType": "Rechtsvorm" },
+      "duur": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20121214090432956" },
+          "datumAanvang": "20000201",
+          "datumEinde": "20121123"
+        },
+        "heeftOnbepaaldeDuur": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+      }
+    }
+  }
+}

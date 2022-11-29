@@ -1,0 +1,617 @@
+{
+  "registratie": { "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" }, "datumAanvang": "19230101" },
+  "kvkNummer": "90003527",
+  "nonMailing": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" },
+  "sbiActiviteit": [
+    {
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19230101"
+      },
+      "sbiCode": { "code": "8411", "omschrijving": "Algemeen overheidsbestuur", "referentieType": "ActiviteitCode" },
+      "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+    },
+    {
+      "registratie": { "attributes": { "registratieTijdstip": "20110527121850465" }, "datumAanvang": "19970101" },
+      "sbiCode": {
+        "code": "52109",
+        "omschrijving": "Opslag in distributiecentra en overige opslag (niet in tanks, koelhuizen e.d.)",
+        "referentieType": "ActiviteitCode"
+      },
+      "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+    },
+    {
+      "registratie": { "attributes": { "registratieTijdstip": "20110901155009884" }, "datumAanvang": "20110901" },
+      "sbiCode": { "code": "4312", "omschrijving": "Grondverzet", "referentieType": "ActiviteitCode" },
+      "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+    }
+  ],
+  "incidenteelUitlenenArbeidskrachten": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" },
+  "bezoekLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "19230101"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Wildenborgstraat",
+        "huisnummer": 81,
+        "postcode": { "cijfercombinatie": "4834", "lettercombinatie": "PH" },
+        "plaats": "Breda",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999356387",
+          "identificatieAdresseerbaarObject": "0074999999546169"
+        }
+      }
+    },
+    "volledigAdres": "Wildenborgstraat 81 4834PH Breda"
+  },
+  "postLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "19230101"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "postbusnummer": 99999,
+        "postcode": { "cijfercombinatie": "5926", "lettercombinatie": "TB" },
+        "plaats": "Venlo"
+      }
+    },
+    "volledigAdres": "Postbus 99999 5926TB Venlo"
+  },
+  "communicatiegegevens": {
+    "registratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "19230101"
+    },
+    "communicatienummer": [
+      { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+      { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "F", "omschrijving": "Fax" } }
+    ],
+    "emailAdres": ["nepemailadres@kvk.nl"],
+    "domeinNaam": ["www.kvk.nl"]
+  },
+  "naam": "International Itplanet",
+  "wordtUitgeoefendIn": [
+    {
+      "relatieRegistratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19230101"
+      },
+      "nietCommercieleVestiging": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "19230101"
+        },
+        "vestigingsnummer": "990000036919",
+        "bezoekLocatie": {
+          "registratie": {
+            "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+            "datumAanvang": "19230101"
+          },
+          "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+          "adres": {
+            "binnenlandsAdres": {
+              "straatnaam": "Wildenborgstraat",
+              "huisnummer": 81,
+              "postcode": { "cijfercombinatie": "4834", "lettercombinatie": "PH" },
+              "plaats": "Breda",
+              "bagId": {
+                "identificatieNummeraanduiding": "0074999999356387",
+                "identificatieAdresseerbaarObject": "0074999999546169"
+              }
+            }
+          },
+          "volledigAdres": "Wildenborgstraat 81 4834PH Breda"
+        },
+        "postLocatie": {
+          "registratie": {
+            "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+            "datumAanvang": "19230101"
+          },
+          "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+          "adres": {
+            "binnenlandsAdres": {
+              "postbusnummer": 99999,
+              "postcode": { "cijfercombinatie": "5926", "lettercombinatie": "TB" },
+              "plaats": "Venlo"
+            }
+          },
+          "volledigAdres": "Postbus 99999 5926TB Venlo"
+        },
+        "communicatiegegevens": {
+          "registratie": {
+            "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+            "datumAanvang": "19230101"
+          },
+          "communicatienummer": [
+            { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+            { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "F", "omschrijving": "Fax" } }
+          ],
+          "emailAdres": ["nepemailadres@kvk.nl"],
+          "domeinNaam": ["www.kvk.nl"]
+        },
+        "eersteHandelsnaam": "International Itplanet",
+        "naamgeving": {
+          "registratie": {
+            "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+            "datumAanvang": "19230101"
+          },
+          "naam": "International Itplanet"
+        },
+        "activiteiten": {
+          "omschrijving": "Het aanbieden van publieke voorzieningen en uitvoeren van wettelijke taken",
+          "sbiActiviteit": [
+            {
+              "registratie": {
+                "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                "datumAanvang": "19230101"
+              },
+              "sbiCode": {
+                "code": "8411",
+                "omschrijving": "Algemeen overheidsbestuur",
+                "referentieType": "ActiviteitCode"
+              },
+              "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "relatieRegistratie": {
+        "attributes": { "registratieTijdstip": "20110527121850465" },
+        "datumAanvang": "19970101"
+      },
+      "nietCommercieleVestiging": {
+        "registratie": { "attributes": { "registratieTijdstip": "20110527121850465" }, "datumAanvang": "19970101" },
+        "vestigingsnummer": "990000258728",
+        "bezoekLocatie": {
+          "registratie": { "attributes": { "registratieTijdstip": "20110527121850465" }, "datumAanvang": "19970101" },
+          "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+          "adres": {
+            "binnenlandsAdres": {
+              "straatnaam": "Wassenaarstraat",
+              "huisnummer": 20,
+              "postcode": { "cijfercombinatie": "2681", "lettercombinatie": "HD" },
+              "plaats": "Monster",
+              "bagId": {
+                "identificatieNummeraanduiding": "0074999999239216",
+                "identificatieAdresseerbaarObject": "0074999999377710"
+              }
+            }
+          },
+          "volledigAdres": "Wassenaarstraat 20 2681HD Monster"
+        },
+        "communicatiegegevens": {
+          "registratie": { "attributes": { "registratieTijdstip": "20110527121850465" }, "datumAanvang": "19970101" },
+          "communicatienummer": [
+            { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+            { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "F", "omschrijving": "Fax" } }
+          ],
+          "emailAdres": ["nepemailadres@kvk.nl"],
+          "domeinNaam": ["www.kvk.nl"]
+        },
+        "eersteHandelsnaam": "International Itplanet Vestiging:2262",
+        "naamgeving": {
+          "registratie": { "attributes": { "registratieTijdstip": "20110527121850465" }, "datumAanvang": "19970101" },
+          "naam": "International Itplanet Vestiging:2262"
+        },
+        "activiteiten": {
+          "omschrijving": "Opslag van onderhoudsmaterialen van de gemeente en materiaal van verenigingen.",
+          "sbiActiviteit": [
+            {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20110527121850465" },
+                "datumAanvang": "19970101"
+              },
+              "sbiCode": {
+                "code": "52109",
+                "omschrijving": "Opslag in distributiecentra en overige opslag (niet in tanks, koelhuizen e.d.)",
+                "referentieType": "ActiviteitCode"
+              },
+              "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "relatieRegistratie": {
+        "attributes": { "registratieTijdstip": "20110527121850465" },
+        "datumAanvang": "19970101"
+      },
+      "nietCommercieleVestiging": {
+        "registratie": { "attributes": { "registratieTijdstip": "20110527121850465" }, "datumAanvang": "19970101" },
+        "vestigingsnummer": "990000378029",
+        "bezoekLocatie": {
+          "registratie": { "attributes": { "registratieTijdstip": "20110527121850465" }, "datumAanvang": "19970101" },
+          "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+          "adres": {
+            "binnenlandsAdres": {
+              "straatnaam": "Fruitgaard",
+              "huisnummer": 3,
+              "postcode": { "cijfercombinatie": "3291", "lettercombinatie": "JB" },
+              "plaats": "Strijen",
+              "bagId": {
+                "identificatieNummeraanduiding": "0074999999511791",
+                "identificatieAdresseerbaarObject": "0074999999168099"
+              }
+            }
+          },
+          "volledigAdres": "Fruitgaard 3 3291JB Strijen"
+        },
+        "communicatiegegevens": {
+          "registratie": { "attributes": { "registratieTijdstip": "20110527121850465" }, "datumAanvang": "19970101" },
+          "communicatienummer": [
+            { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+            { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "F", "omschrijving": "Fax" } }
+          ],
+          "emailAdres": ["nepemailadres@kvk.nl"],
+          "domeinNaam": ["www.kvk.nl"]
+        },
+        "eersteHandelsnaam": "International Itplanet Vestiging:2270",
+        "naamgeving": {
+          "registratie": { "attributes": { "registratieTijdstip": "20110527121850465" }, "datumAanvang": "19970101" },
+          "naam": "International Itplanet Vestiging:2270"
+        },
+        "activiteiten": {
+          "omschrijving": "Opslag van onderhoudsmaterialen van de gemeente en materiaal van verenigingen.",
+          "sbiActiviteit": [
+            {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20110527121850465" },
+                "datumAanvang": "19970101"
+              },
+              "sbiCode": {
+                "code": "52109",
+                "omschrijving": "Opslag in distributiecentra en overige opslag (niet in tanks, koelhuizen e.d.)",
+                "referentieType": "ActiviteitCode"
+              },
+              "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "relatieRegistratie": {
+        "attributes": { "registratieTijdstip": "20110527121850465" },
+        "datumAanvang": "19970101"
+      },
+      "nietCommercieleVestiging": {
+        "registratie": { "attributes": { "registratieTijdstip": "20110527121850465" }, "datumAanvang": "19970101" },
+        "vestigingsnummer": "990000213297",
+        "bezoekLocatie": {
+          "registratie": { "attributes": { "registratieTijdstip": "20110527121850465" }, "datumAanvang": "19970101" },
+          "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+          "adres": {
+            "binnenlandsAdres": {
+              "straatnaam": "Rijnweg",
+              "huisnummer": 327,
+              "postcode": { "cijfercombinatie": "2681", "lettercombinatie": "SM" },
+              "plaats": "Monster",
+              "bagId": {
+                "identificatieNummeraanduiding": "0074999999449514",
+                "identificatieAdresseerbaarObject": "0074999999286053"
+              }
+            }
+          },
+          "volledigAdres": "Rijnweg 327 2681SM Monster"
+        },
+        "communicatiegegevens": {
+          "registratie": { "attributes": { "registratieTijdstip": "20110527121850465" }, "datumAanvang": "19970101" },
+          "communicatienummer": [
+            { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+            { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "F", "omschrijving": "Fax" } }
+          ],
+          "emailAdres": ["nepemailadres@kvk.nl"],
+          "domeinNaam": ["www.kvk.nl"]
+        },
+        "eersteHandelsnaam": "International Itplanet Vestiging:2289",
+        "naamgeving": {
+          "registratie": { "attributes": { "registratieTijdstip": "20110527121850465" }, "datumAanvang": "19970101" },
+          "naam": "International Itplanet Vestiging:2289"
+        },
+        "activiteiten": {
+          "omschrijving": "Opslag van onderhoudsmaterialen van de gemeente en materiaal van verenigingen.",
+          "sbiActiviteit": [
+            {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20110527121850465" },
+                "datumAanvang": "19970101"
+              },
+              "sbiCode": {
+                "code": "52109",
+                "omschrijving": "Opslag in distributiecentra en overige opslag (niet in tanks, koelhuizen e.d.)",
+                "referentieType": "ActiviteitCode"
+              },
+              "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "relatieRegistratie": {
+        "attributes": { "registratieTijdstip": "20110527121850465" },
+        "datumAanvang": "20080901"
+      },
+      "nietCommercieleVestiging": {
+        "registratie": { "attributes": { "registratieTijdstip": "20110527121850465" }, "datumAanvang": "20080901" },
+        "vestigingsnummer": "990000903691",
+        "bezoekLocatie": {
+          "registratie": { "attributes": { "registratieTijdstip": "20110527121850465" }, "datumAanvang": "20080901" },
+          "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+          "adres": {
+            "binnenlandsAdres": {
+              "straatnaam": "De Horst",
+              "huisnummer": 28,
+              "postcode": { "cijfercombinatie": "3911", "lettercombinatie": "SZ" },
+              "plaats": "Rhenen",
+              "bagId": {
+                "identificatieNummeraanduiding": "0074999999964148",
+                "identificatieAdresseerbaarObject": "0074999999386715"
+              }
+            }
+          },
+          "volledigAdres": "De Horst 28 3911SZ Rhenen"
+        },
+        "communicatiegegevens": {
+          "registratie": { "attributes": { "registratieTijdstip": "20110527121850465" }, "datumAanvang": "20080901" },
+          "communicatienummer": [
+            { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+            { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "F", "omschrijving": "Fax" } }
+          ],
+          "emailAdres": ["nepemailadres@kvk.nl"],
+          "domeinNaam": ["www.kvk.nl"]
+        },
+        "eersteHandelsnaam": "International Itplanet Vestiging:2319",
+        "naamgeving": {
+          "registratie": { "attributes": { "registratieTijdstip": "20110527121850465" }, "datumAanvang": "20080901" },
+          "naam": "International Itplanet Vestiging:2319"
+        },
+        "activiteiten": {
+          "omschrijving": "In gebruik als werf waar activiteiten worden uitgevoerd die samenhangen met gemeentelijke taken",
+          "sbiActiviteit": [
+            {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20110527121850465" },
+                "datumAanvang": "20080901"
+              },
+              "sbiCode": {
+                "code": "8411",
+                "omschrijving": "Algemeen overheidsbestuur",
+                "referentieType": "ActiviteitCode"
+              },
+              "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "relatieRegistratie": {
+        "attributes": { "registratieTijdstip": "20110901155009884" },
+        "datumAanvang": "20110901"
+      },
+      "nietCommercieleVestiging": {
+        "registratie": { "attributes": { "registratieTijdstip": "20110901155009884" }, "datumAanvang": "20110901" },
+        "vestigingsnummer": "990000933765",
+        "bezoekLocatie": {
+          "registratie": { "attributes": { "registratieTijdstip": "20110901155009884" }, "datumAanvang": "20110901" },
+          "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+          "adres": {
+            "binnenlandsAdres": {
+              "straatnaam": "Hansenkamp",
+              "huisnummer": 27,
+              "postcode": { "cijfercombinatie": "9315", "lettercombinatie": "TJ" },
+              "plaats": "Roderwolde",
+              "bagId": {
+                "identificatieNummeraanduiding": "0074999999928399",
+                "identificatieAdresseerbaarObject": "0074999999776715"
+              }
+            }
+          },
+          "volledigAdres": "Hansenkamp 27 9315TJ Roderwolde"
+        },
+        "communicatiegegevens": {
+          "registratie": { "attributes": { "registratieTijdstip": "20110901155009884" }, "datumAanvang": "20110901" },
+          "communicatienummer": [
+            { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+            { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "F", "omschrijving": "Fax" } }
+          ],
+          "emailAdres": ["nepemailadres@kvk.nl"],
+          "domeinNaam": ["www.kvk.nl"]
+        },
+        "eersteHandelsnaam": "International Itplanet Vestiging:8709",
+        "naamgeving": {
+          "registratie": { "attributes": { "registratieTijdstip": "20110901155009884" }, "datumAanvang": "20110901" },
+          "naam": "International Itplanet Vestiging:8709"
+        },
+        "activiteiten": {
+          "omschrijving": "In gebruik als werf waar activiteiten worden uitgevoerd die samenhangen met gemeentelijke taken",
+          "sbiActiviteit": [
+            {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20110901155009884" },
+                "datumAanvang": "20110901"
+              },
+              "sbiCode": { "code": "4312", "omschrijving": "Grondverzet", "referentieType": "ActiviteitCode" },
+              "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "wordtGeleidVanuit": {
+    "nietCommercieleVestiging": {
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19230101"
+      },
+      "vestigingsnummer": "990000036919",
+      "bezoekLocatie": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "19230101"
+        },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Wildenborgstraat",
+            "huisnummer": 81,
+            "postcode": { "cijfercombinatie": "4834", "lettercombinatie": "PH" },
+            "plaats": "Breda",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999356387",
+              "identificatieAdresseerbaarObject": "0074999999546169"
+            }
+          }
+        },
+        "volledigAdres": "Wildenborgstraat 81 4834PH Breda"
+      },
+      "postLocatie": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "19230101"
+        },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "postbusnummer": 99999,
+            "postcode": { "cijfercombinatie": "5926", "lettercombinatie": "TB" },
+            "plaats": "Venlo"
+          }
+        },
+        "volledigAdres": "Postbus 99999 5926TB Venlo"
+      },
+      "communicatiegegevens": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "19230101"
+        },
+        "communicatienummer": [
+          { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+          { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "F", "omschrijving": "Fax" } }
+        ],
+        "emailAdres": ["nepemailadres@kvk.nl"],
+        "domeinNaam": ["www.kvk.nl"]
+      },
+      "eersteHandelsnaam": "International Itplanet",
+      "naamgeving": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "19230101"
+        },
+        "naam": "International Itplanet"
+      },
+      "activiteiten": {
+        "omschrijving": "Het aanbieden van publieke voorzieningen en uitvoeren van wettelijke taken",
+        "sbiActiviteit": [
+          {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19230101"
+            },
+            "sbiCode": {
+              "code": "8411",
+              "omschrijving": "Algemeen overheidsbestuur",
+              "referentieType": "ActiviteitCode"
+            },
+            "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+          }
+        ]
+      }
+    }
+  },
+  "heeftAlsEigenaar": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "19230101"
+    },
+    "rechtspersoon": {
+      "registratie": { "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" } },
+      "persoonRechtsvorm": "Publiekrechtelijke Rechtspersoon",
+      "volledigeNaam": "International Itplanet",
+      "uitgebreideRechtsvorm": "Publiekrechtelijke Rechtspersoon: Gemeente",
+      "heeft": [
+        {
+          "gemachtigde": {
+            "registratie": { "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" } },
+            "door": {
+              "naamPersoon": {
+                "volledigeNaam": "mr. Kareem Bischof",
+                "bezoekLocatiePersoon": {
+                  "registratie": { "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" } },
+                  "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+                  "adres": {
+                    "binnenlandsAdres": { "straatnaam": "Onbekend", "huisnummer": "99999", "plaats": "Onbekend" }
+                  },
+                  "volledigAdres": "Onbekend 99999\n Onbekend"
+                },
+                "naam": "mr. Kareem Bischof"
+              }
+            },
+            "functie": {
+              "code": "24",
+              "omschrijving": "Privaatrechtelijk gevolmachtigde",
+              "referentieType": "FunctionarisRol"
+            },
+            "volmacht": {
+              "registratie": { "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" } },
+              "typeVolmacht": { "code": "b", "omschrijving": "Beperkte volmacht", "referentieType": "VolmachtType" },
+              "isStatutair": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "beperkteVolmacht": {
+                "magOpgaveHandelsregisterDoen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+                "heeftOverigeVolmacht": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+              }
+            }
+          }
+        }
+      ],
+      "rsin": "992881390",
+      "naamgeving": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "19230101"
+        },
+        "naam": "International Itplanet"
+      },
+      "rechtsvorm": {
+        "code": "PR",
+        "omschrijving": "Publiekrechtelijke Rechtspersoon",
+        "referentieType": "Rechtsvorm"
+      },
+      "publiekrechtelijkeRechtsvorm": {
+        "code": "04",
+        "omschrijving": "Gemeente",
+        "referentieType": "NadereSpecificatiePubliekrechtelijkeRechtsvorm"
+      },
+      "bezoekLocatie": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "19230101"
+        },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Wildenborgstraat",
+            "huisnummer": 81,
+            "postcode": { "cijfercombinatie": "4834", "lettercombinatie": "PH" },
+            "plaats": "Breda",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999356387",
+              "identificatieAdresseerbaarObject": "0074999999546169"
+            }
+          }
+        },
+        "volledigAdres": "Wildenborgstraat 81 4834PH Breda"
+      }
+    }
+  }
+}

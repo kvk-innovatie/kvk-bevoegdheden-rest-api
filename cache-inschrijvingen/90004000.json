@@ -1,0 +1,475 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 20061115,
+      "DatumEinde": 0,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90004000,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20030101,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Vrouwgelenweg",
+          "Huisnummer": 30,
+          "Postcode": {
+            "Cijfercombinatie": 3341,
+            "Lettercombinatie": "BT"
+          },
+          "Plaats": "Hendrik-Ido-Ambacht",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999487860,
+            "IdentificatieAdresseerbaarObject": 74999999346917
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Vrouwgelenweg 30 3341BT Hendrik-Ido-Ambacht"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20030101,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Vrouwgelenweg",
+          "Huisnummer": 30,
+          "Postcode": {
+            "Cijfercombinatie": 3341,
+            "Lettercombinatie": "BT"
+          },
+          "Plaats": "Hendrik-Ido-Ambacht",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999487860,
+            "IdentificatieAdresseerbaarObject": 74999999346917
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Vrouwgelenweg 30 3341BT Hendrik-Ido-Ambacht"
+    },
+    "Communicatiegegevens": {
+      "Registratie": {
+        "DatumAanvang": 20130822,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Communicatienummer": [
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        }
+      ],
+      "EmailAdres": "nepemailadres@kvk.nl"
+    },
+    "Naam": "Regional Ranzoom",
+    "ManifesteertZichAls": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 20061115,
+        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+      },
+      "Onderneming": {
+        "Registratie": {
+          "DatumAanvang": 20030101,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "KvkNummer": 90004000,
+        "SbiActiviteit": [
+          {
+            "Registratie": {
+              "DatumAanvang": 20030101,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 4730,
+              "Omschrijving": "Benzinestations",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          {
+            "Registratie": {
+              "DatumAanvang": 20030101,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 52109,
+              "Omschrijving": "Opslag in distributiecentra en overige opslag (niet in tanks, koelhuizen e.d.)",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "N",
+              "Omschrijving": "Nee",
+              "ReferentieType": "geenRT"
+            }
+          }
+        ],
+        "VoltijdWerkzamePersonen": 1,
+        "DeeltijdWerkzamePersonen": 0,
+        "TotaalWerkzamePersonen": 1,
+        "HandeltOnder": [
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20061115,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Regional Ranzoom",
+              "Volgorde": 0
+            },
+            "RelatieRegistratie": null
+          }
+        ],
+        "WordtUitgeoefendIn": {
+          "RelatieRegistratie": {
+            "DatumAanvang": 20061115,
+            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+          },
+          "CommercieleVestiging": {
+            "Registratie": {
+              "DatumAanvang": 20030101,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Vestigingsnummer": 990000133645,
+            "BezoekLocatie": {
+              "Registratie": {
+                "DatumAanvang": 20030101,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Afgeschermd": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Adres": {
+                "BinnenlandsAdres": {
+                  "Straatnaam": "Vrouwgelenweg",
+                  "Huisnummer": 30,
+                  "Postcode": {
+                    "Cijfercombinatie": 3341,
+                    "Lettercombinatie": "BT"
+                  },
+                  "Plaats": "Hendrik-Ido-Ambacht",
+                  "BagId": {
+                    "IdentificatieNummeraanduiding": 74999999487860,
+                    "IdentificatieAdresseerbaarObject": 74999999346917
+                  },
+                  "HuisnummerToevoeging": null
+                }
+              },
+              "VolledigAdres": "Vrouwgelenweg 30 3341BT Hendrik-Ido-Ambacht"
+            },
+            "Communicatiegegevens": {
+              "Registratie": {
+                "DatumAanvang": 20130822,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Communicatienummer": [
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "T",
+                    "Omschrijving": "Telefoon"
+                  }
+                }
+              ],
+              "EmailAdres": "nepemailadres@kvk.nl"
+            },
+            "EersteHandelsnaam": "Regional Ranzoom",
+            "VoltijdWerkzamePersonen": 1,
+            "DeeltijdWerkzamePersonen": 0,
+            "TotaalWerkzamePersonen": 1,
+            "Activiteiten": {
+              "Omschrijving": "Exploitatie van een tankstation, alsmede verhuur van opslagruimten en de verhuur van caravanstalling.",
+              "SbiActiviteit": {
+                "Registratie": {
+                  "DatumAanvang": 20030101,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "SbiCode": {
+                  "Code": 4730,
+                  "Omschrijving": "Benzinestations",
+                  "ReferentieType": "ActiviteitCode"
+                },
+                "IsHoofdactiviteit": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Exporteert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Importeert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              }
+            },
+            "HandeltOnder": {
+              "Handelsnaam": {
+                "Registratie": {
+                  "DatumAanvang": 20061115,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Naam": "Regional Ranzoom",
+                "Volgorde": 0
+              },
+              "RelatieRegistratie": {
+                "DatumAanvang": 20061115,
+                "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+              }
+            }
+          }
+        }
+      }
+    },
+    "WordtGeleidVanuit": {
+      "CommercieleVestiging": {
+        "Registratie": {
+          "DatumAanvang": 20030101,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "Vestigingsnummer": 990000133645,
+        "BezoekLocatie": {
+          "Registratie": {
+            "DatumAanvang": 20030101,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Afgeschermd": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Adres": {
+            "BinnenlandsAdres": {
+              "Straatnaam": "Vrouwgelenweg",
+              "Huisnummer": 30,
+              "Postcode": {
+                "Cijfercombinatie": 3341,
+                "Lettercombinatie": "BT"
+              },
+              "Plaats": "Hendrik-Ido-Ambacht",
+              "BagId": {
+                "IdentificatieNummeraanduiding": 74999999487860,
+                "IdentificatieAdresseerbaarObject": 74999999346917
+              },
+              "HuisnummerToevoeging": null
+            }
+          },
+          "VolledigAdres": "Vrouwgelenweg 30 3341BT Hendrik-Ido-Ambacht"
+        },
+        "Communicatiegegevens": {
+          "Registratie": {
+            "DatumAanvang": 20130822,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Communicatienummer": [
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "T",
+                "Omschrijving": "Telefoon"
+              }
+            }
+          ],
+          "EmailAdres": "nepemailadres@kvk.nl"
+        },
+        "EersteHandelsnaam": "Regional Ranzoom",
+        "VoltijdWerkzamePersonen": 1,
+        "DeeltijdWerkzamePersonen": 0,
+        "TotaalWerkzamePersonen": 1,
+        "Activiteiten": {
+          "Omschrijving": "Exploitatie van een tankstation, alsmede verhuur van opslagruimten en de verhuur van caravanstalling.",
+          "SbiActiviteit": {
+            "Registratie": {
+              "DatumAanvang": 20030101,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 4730,
+              "Omschrijving": "Benzinestations",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          "Exporteert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Importeert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          }
+        },
+        "HandeltOnder": {
+          "Handelsnaam": {
+            "Registratie": {
+              "DatumAanvang": 20061115,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Naam": "Regional Ranzoom",
+            "Volgorde": 0
+          },
+          "RelatieRegistratie": {
+            "DatumAanvang": 20061115,
+            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+          }
+        }
+      }
+    },
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 20061115,
+        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+      },
+      "NatuurlijkPersoon": null,
+      "Samenwerkingsverband": {
+        "Registratie": {
+          "DatumAanvang": 20061115,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "BijzondereRechtstoestand": null,
+        "PersoonRechtsvorm": "Commanditaire Vennootschap",
+        "VolledigeNaam": "Jan Klaasen",
+        "UitgebreideRechtsvorm": "Commanditaire Vennootschap",
+        "Heeft": [
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": {
+              "Registratie": {
+                "DatumAanvang": 20130213,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "voorvoegsel"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19821113,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "13",
+                "Omschrijving": "Vennoot",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Bevoegdheid": {
+                "Registratie": {
+                  "DatumAanvang": 20130213,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Soort": {
+                  "Code": "ob",
+                  "Omschrijving": "Onbeperkt bevoegd"
+                },
+                "OverigeBeperking": {
+                  "Code": "N",
+                  "Omschrijving": "Nee",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Functietitel": null
+            },
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          }
+        ],
+        "Rsin": 992150747,
+        "Naamgeving": {
+          "Registratie": {
+            "DatumAanvang": 20061115,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Naam": "Regional Ranzoom"
+        },
+        "Ontbinding": null,
+        "Rechtsvorm": {
+          "Code": "CV",
+          "Omschrijving": "Commanditaire Vennootschap",
+          "ReferentieType": "Rechtsvorm"
+        },
+        "Duur": {
+          "Registratie": {
+            "DatumAanvang": 20061115,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "HeeftOnbepaaldeDuur": {
+            "Code": "J",
+            "Omschrijving": "Ja",
+            "ReferentieType": "geenRT"
+          }
+        }
+      },
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": null
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

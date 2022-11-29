@@ -1,0 +1,346 @@
+{
+  "registratie": {
+    "attributes": { "registratieTijdstip": "20151110080331312" },
+    "datumAanvang": "19661015",
+    "datumEinde": "20151110"
+  },
+  "kvkNummer": "90001427",
+  "nonMailing": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "incidenteelUitlenenArbeidskrachten": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "bezoekLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstip": "20151110080331312" },
+      "datumAanvang": "20110701",
+      "datumEinde": "20151110"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Kamgras",
+        "huisnummer": 17,
+        "postcode": { "cijfercombinatie": "7623", "lettercombinatie": "DM" },
+        "plaats": "Borne",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999822259",
+          "identificatieAdresseerbaarObject": "0074999999928956"
+        }
+      }
+    },
+    "volledigAdres": "Kamgras 17 7623DM Borne"
+  },
+  "postLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstip": "20151110080331312" },
+      "datumAanvang": "20110701",
+      "datumEinde": "20151110"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Kamgras",
+        "huisnummer": 17,
+        "postcode": { "cijfercombinatie": "7623", "lettercombinatie": "DM" },
+        "plaats": "Borne",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999822259",
+          "identificatieAdresseerbaarObject": "0074999999928956"
+        }
+      }
+    },
+    "volledigAdres": "Kamgras 17 7623DM Borne"
+  },
+  "communicatiegegevens": {
+    "registratie": {
+      "attributes": { "registratieTijdstip": "20151110080331312" },
+      "datumAanvang": "19661015",
+      "datumEinde": "20151110"
+    },
+    "communicatienummer": [
+      { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+    ]
+  },
+  "naam": "Local Streetplanet",
+  "manifesteertZichAls": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstip": "20151110080331312" },
+      "datumAanvang": "19781001",
+      "datumEinde": "20151110"
+    },
+    "onderneming": {
+      "registratie": {
+        "attributes": { "registratieTijdstip": "20151110080331312" },
+        "datumAanvang": "19661015",
+        "datumEinde": "20151110"
+      },
+      "kvkNummer": "90001427",
+      "sbiActiviteit": [
+        {
+          "registratie": {
+            "attributes": { "registratieTijdstip": "20151110080331312" },
+            "datumAanvang": "19661015",
+            "datumEinde": "20151110"
+          },
+          "sbiCode": {
+            "code": "3012",
+            "omschrijving": "Bouw van sport- en recreatievaartuigen",
+            "referentieType": "ActiviteitCode"
+          },
+          "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+        },
+        {
+          "registratie": {
+            "attributes": { "registratieTijdstip": "20151110080331312" },
+            "datumAanvang": "19661015",
+            "datumEinde": "20151110"
+          },
+          "sbiCode": { "code": "93291", "omschrijving": "Jachthavens", "referentieType": "ActiviteitCode" },
+          "isHoofdactiviteit": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+        }
+      ],
+      "voltijdWerkzamePersonen": 1,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 1,
+      "handeltOnder": [
+        {
+          "handelsnaam": {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20151110080331312" },
+              "datumAanvang": "19661015",
+              "datumEinde": "20151110"
+            },
+            "naam": "Local Streetplanet Eenmanszaak",
+            "volgorde": 0
+          }
+        }
+      ],
+      "wordtUitgeoefendIn": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstip": "20151110080331312" },
+            "datumAanvang": "19781001",
+            "datumEinde": "20151110"
+          },
+          "commercieleVestiging": {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20151110080331312" },
+              "datumAanvang": "19661015",
+              "datumEinde": "20151110"
+            },
+            "vestigingsnummer": "990000965656",
+            "bezoekLocatie": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20151110080331312" },
+                "datumAanvang": "20110701",
+                "datumEinde": "20151110"
+              },
+              "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "adres": {
+                "binnenlandsAdres": {
+                  "straatnaam": "Kamgras",
+                  "huisnummer": 17,
+                  "postcode": { "cijfercombinatie": "7623", "lettercombinatie": "DM" },
+                  "plaats": "Borne",
+                  "bagId": {
+                    "identificatieNummeraanduiding": "0074999999822259",
+                    "identificatieAdresseerbaarObject": "0074999999928956"
+                  }
+                }
+              },
+              "volledigAdres": "Kamgras 17 7623DM Borne"
+            },
+            "communicatiegegevens": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20151110080331312" },
+                "datumAanvang": "19661015",
+                "datumEinde": "20151110"
+              },
+              "communicatienummer": [
+                { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+              ]
+            },
+            "eersteHandelsnaam": "Local Streetplanet Eenmanszaak",
+            "voltijdWerkzamePersonen": 1,
+            "deeltijdWerkzamePersonen": 0,
+            "totaalWerkzamePersonen": 1,
+            "activiteiten": {
+              "omschrijving": "De handel in schepen, winterberging en jachthaven. Bemiddeling bij aan- en verkoop en financiering van jachten. Nieuwbouw en reparatie van jachten.",
+              "sbiActiviteit": [
+                {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20151110080331312" },
+                    "datumAanvang": "19661015",
+                    "datumEinde": "20151110"
+                  },
+                  "sbiCode": {
+                    "code": "3012",
+                    "omschrijving": "Bouw van sport- en recreatievaartuigen",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+                },
+                {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20151110080331312" },
+                    "datumAanvang": "19661015",
+                    "datumEinde": "20151110"
+                  },
+                  "sbiCode": { "code": "93291", "omschrijving": "Jachthavens", "referentieType": "ActiviteitCode" },
+                  "isHoofdactiviteit": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+                }
+              ],
+              "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            },
+            "handeltOnder": [
+              {
+                "relatieRegistratie": {
+                  "attributes": { "registratieTijdstip": "20151110080331312" },
+                  "datumAanvang": "19661015",
+                  "datumEinde": "20151110"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20151110080331312" },
+                    "datumAanvang": "19661015",
+                    "datumEinde": "20151110"
+                  },
+                  "naam": "Local Streetplanet Eenmanszaak",
+                  "volgorde": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "wordtGeleidVanuit": {
+    "commercieleVestiging": {
+      "registratie": {
+        "attributes": { "registratieTijdstip": "20151110080331312" },
+        "datumAanvang": "19661015",
+        "datumEinde": "20151110"
+      },
+      "vestigingsnummer": "990000965656",
+      "bezoekLocatie": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20151110080331312" },
+          "datumAanvang": "20110701",
+          "datumEinde": "20151110"
+        },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Kamgras",
+            "huisnummer": 17,
+            "postcode": { "cijfercombinatie": "7623", "lettercombinatie": "DM" },
+            "plaats": "Borne",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999822259",
+              "identificatieAdresseerbaarObject": "0074999999928956"
+            }
+          }
+        },
+        "volledigAdres": "Kamgras 17 7623DM Borne"
+      },
+      "communicatiegegevens": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20151110080331312" },
+          "datumAanvang": "19661015",
+          "datumEinde": "20151110"
+        },
+        "communicatienummer": [
+          { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+        ]
+      },
+      "eersteHandelsnaam": "Local Streetplanet Eenmanszaak",
+      "voltijdWerkzamePersonen": 1,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 1,
+      "activiteiten": {
+        "omschrijving": "De handel in schepen, winterberging en jachthaven. Bemiddeling bij aan- en verkoop en financiering van jachten. Nieuwbouw en reparatie van jachten.",
+        "sbiActiviteit": [
+          {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20151110080331312" },
+              "datumAanvang": "19661015",
+              "datumEinde": "20151110"
+            },
+            "sbiCode": {
+              "code": "3012",
+              "omschrijving": "Bouw van sport- en recreatievaartuigen",
+              "referentieType": "ActiviteitCode"
+            },
+            "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+          },
+          {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20151110080331312" },
+              "datumAanvang": "19661015",
+              "datumEinde": "20151110"
+            },
+            "sbiCode": { "code": "93291", "omschrijving": "Jachthavens", "referentieType": "ActiviteitCode" },
+            "isHoofdactiviteit": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+          }
+        ],
+        "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+      },
+      "handeltOnder": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstip": "20151110080331312" },
+            "datumAanvang": "19661015",
+            "datumEinde": "20151110"
+          },
+          "handelsnaam": {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20151110080331312" },
+              "datumAanvang": "19661015",
+              "datumEinde": "20151110"
+            },
+            "naam": "Local Streetplanet Eenmanszaak",
+            "volgorde": 0
+          }
+        }
+      ]
+    }
+  },
+  "heeftAlsEigenaar": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstip": "20151110080331312" },
+      "datumAanvang": "19781001",
+      "datumEinde": "20151110"
+    },
+    "natuurlijkPersoon": {
+      "extraElementen": { "extraElement": [{ "attributes": { "naam": "achternaam" }, "$value": "Beus" }] },
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19400321"
+      },
+      "persoonRechtsvorm": "Eenmanszaak",
+      "volledigeNaam": "Leda Beus",
+      "uitgebreideRechtsvorm": "Eenmanszaak",
+      "geslachtsnaam": "Beus",
+      "voornamen": "Leda",
+      "geboortedatum": "19400321",
+      "woonLocatie": {
+        "registratie": { "attributes": { "registratieTijdstip": "20110705211622176" } },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Brienenshofsingel",
+            "huisnummer": 63,
+            "postcode": { "cijfercombinatie": "6662", "lettercombinatie": "MH" },
+            "plaats": "Elst",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999942263",
+              "identificatieAdresseerbaarObject": "0074999999896717"
+            }
+          }
+        },
+        "volledigAdres": "Kamgras 17 7623DM Borne"
+      }
+    }
+  }
+}

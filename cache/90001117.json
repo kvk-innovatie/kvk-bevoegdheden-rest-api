@@ -1,0 +1,463 @@
+{
+  "registratie": { "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" }, "datumAanvang": "19780921" },
+  "kvkNummer": "90001117",
+  "nonMailing": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "sbiActiviteit": [
+    {
+      "registratie": { "attributes": { "registratieTijdstip": "20140412181657713" }, "datumAanvang": "20140412" },
+      "sbiCode": { "code": "88993", "omschrijving": "Lokaal welzijnswerk", "referentieType": "ActiviteitCode" },
+      "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+    }
+  ],
+  "incidenteelUitlenenArbeidskrachten": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "bezoekLocatie": {
+    "registratie": { "attributes": { "registratieTijdstip": "20110316120130085" }, "datumAanvang": "19780921" },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Hanzelaan",
+        "huisnummer": 131,
+        "postcode": { "cijfercombinatie": "8262", "lettercombinatie": "VC" },
+        "plaats": "Kampen",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999470165",
+          "identificatieAdresseerbaarObject": "0074999999669277"
+        }
+      }
+    },
+    "volledigAdres": "Hanzelaan 131 8262VC Kampen"
+  },
+  "postLocatie": {
+    "registratie": { "attributes": { "registratieTijdstip": "20110316120130085" }, "datumAanvang": "19780921" },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Hanzelaan",
+        "huisnummer": 131,
+        "postcode": { "cijfercombinatie": "8262", "lettercombinatie": "VC" },
+        "plaats": "Kampen",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999470165",
+          "identificatieAdresseerbaarObject": "0074999999669277"
+        }
+      }
+    },
+    "volledigAdres": "Hanzelaan 131 8262VC Kampen"
+  },
+  "communicatiegegevens": {
+    "registratie": { "attributes": { "registratieTijdstip": "20110316120130085" }, "datumAanvang": "19780921" },
+    "communicatienummer": [
+      { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+    ]
+  },
+  "naam": "Free Zumtom",
+  "wordtUitgeoefendIn": [
+    {
+      "relatieRegistratie": {
+        "attributes": { "registratieTijdstip": "20110316120130085" },
+        "datumAanvang": "19780921"
+      },
+      "nietCommercieleVestiging": {
+        "registratie": { "attributes": { "registratieTijdstip": "20110316120130085" }, "datumAanvang": "19780921" },
+        "vestigingsnummer": "990000433095",
+        "bezoekLocatie": {
+          "registratie": { "attributes": { "registratieTijdstip": "20110316120130085" }, "datumAanvang": "19780921" },
+          "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+          "adres": {
+            "binnenlandsAdres": {
+              "straatnaam": "Hanzelaan",
+              "huisnummer": 131,
+              "postcode": { "cijfercombinatie": "8262", "lettercombinatie": "VC" },
+              "plaats": "Kampen",
+              "bagId": {
+                "identificatieNummeraanduiding": "0074999999470165",
+                "identificatieAdresseerbaarObject": "0074999999669277"
+              }
+            }
+          },
+          "volledigAdres": "Hanzelaan 131 8262VC Kampen"
+        },
+        "communicatiegegevens": {
+          "registratie": { "attributes": { "registratieTijdstip": "20110316120130085" }, "datumAanvang": "19780921" },
+          "communicatienummer": [
+            { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+          ]
+        },
+        "eersteHandelsnaam": "Free Zumtom",
+        "naamgeving": {
+          "registratie": { "attributes": { "registratieTijdstip": "20110316120130085" }, "datumAanvang": "19780921" },
+          "naam": "Free Zumtom",
+          "ookGenoemd": "Free Zumtom"
+        },
+        "activiteiten": {
+          "omschrijving": "Sociaal-cultureel werk.",
+          "sbiActiviteit": [
+            {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20140412181657713" },
+                "datumAanvang": "20140412"
+              },
+              "sbiCode": { "code": "88993", "omschrijving": "Lokaal welzijnswerk", "referentieType": "ActiviteitCode" },
+              "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "wordtGeleidVanuit": {
+    "nietCommercieleVestiging": {
+      "registratie": { "attributes": { "registratieTijdstip": "20110316120130085" }, "datumAanvang": "19780921" },
+      "vestigingsnummer": "990000433095",
+      "bezoekLocatie": {
+        "registratie": { "attributes": { "registratieTijdstip": "20110316120130085" }, "datumAanvang": "19780921" },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Hanzelaan",
+            "huisnummer": 131,
+            "postcode": { "cijfercombinatie": "8262", "lettercombinatie": "VC" },
+            "plaats": "Kampen",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999470165",
+              "identificatieAdresseerbaarObject": "0074999999669277"
+            }
+          }
+        },
+        "volledigAdres": "Hanzelaan 131 8262VC Kampen"
+      },
+      "communicatiegegevens": {
+        "registratie": { "attributes": { "registratieTijdstip": "20110316120130085" }, "datumAanvang": "19780921" },
+        "communicatienummer": [
+          { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+        ]
+      },
+      "eersteHandelsnaam": "Free Zumtom",
+      "naamgeving": {
+        "registratie": { "attributes": { "registratieTijdstip": "20110316120130085" }, "datumAanvang": "19780921" },
+        "naam": "Free Zumtom",
+        "ookGenoemd": "Free Zumtom"
+      },
+      "activiteiten": {
+        "omschrijving": "Sociaal-cultureel werk.",
+        "sbiActiviteit": [
+          {
+            "registratie": { "attributes": { "registratieTijdstip": "20140412181657713" }, "datumAanvang": "20140412" },
+            "sbiCode": { "code": "88993", "omschrijving": "Lokaal welzijnswerk", "referentieType": "ActiviteitCode" },
+            "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+          }
+        ]
+      }
+    }
+  },
+  "heeftAlsEigenaar": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "19780921"
+    },
+    "rechtspersoon": {
+      "extraElementen": {
+        "extraElement": [
+          { "attributes": { "naam": "datumAanvangStatuten" }, "$value": "19780921" },
+          { "attributes": { "naam": "datumAkteStatuten" }, "$value": "19780921" }
+        ]
+      },
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19780921"
+      },
+      "persoonRechtsvorm": "Vereniging",
+      "volledigeNaam": "Free Zumtom",
+      "uitgebreideRechtsvorm": "Vereniging (met volledige rechtsbevoegdheid)",
+      "heeft": [
+        {
+          "bestuursfunctie": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20010607"
+            },
+            "functietitel": {
+              "registratie": {
+                "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                "datumAanvang": "20010607"
+              },
+              "titel": "Bestuurder",
+              "isStatutaireTitel": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": {
+                  "extraElement": [
+                    { "attributes": { "naam": "voorvoegsel" }, "$value": "van der" },
+                    { "attributes": { "naam": "achternaam" }, "$value": "Martineau - van de Martineau" }
+                  ]
+                },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19521126"
+                },
+                "volledigeNaam": "Alida Martineau",
+                "geslachtsnaam": "Martineau - van de Martineau",
+                "voorvoegselGeslachtsnaam": "van der",
+                "voornamen": "Alida",
+                "geboortedatum": "19521126"
+              }
+            },
+            "functie": { "code": "02", "omschrijving": "Bestuurder", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                "datumAanvang": "20010607"
+              },
+              "soort": {
+                "code": "gb",
+                "omschrijving": "Gezamenlijk bevoegd",
+                "referentieType": "SoortBevoegdheidBestuurder"
+              },
+              "isBevoegdMetAnderePersonen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        },
+        {
+          "bestuursfunctie": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20080623"
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": {
+                  "extraElement": [
+                    { "attributes": { "naam": "voorvoegsel" }, "$value": "van" },
+                    { "attributes": { "naam": "achternaam" }, "$value": "Marques" }
+                  ]
+                },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19490516"
+                },
+                "volledigeNaam": "Marni Marques",
+                "geslachtsnaam": "Marques",
+                "voorvoegselGeslachtsnaam": "van",
+                "voornamen": "Marni",
+                "geboortedatum": "19490516"
+              }
+            },
+            "functie": { "code": "02", "omschrijving": "Bestuurder", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                "datumAanvang": "20080623"
+              },
+              "soort": {
+                "code": "gb",
+                "omschrijving": "Gezamenlijk bevoegd",
+                "referentieType": "SoortBevoegdheidBestuurder"
+              },
+              "isBevoegdMetAnderePersonen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        },
+        {
+          "bestuursfunctie": {
+            "registratie": { "attributes": { "registratieTijdstip": "20110316115029420" }, "datumAanvang": "20101129" },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": {
+                  "extraElement": [
+                    { "attributes": { "naam": "voorvoegsel" }, "$value": "van" },
+                    { "attributes": { "naam": "achternaam" }, "$value": "Setser - Setser" }
+                  ]
+                },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19880119"
+                },
+                "volledigeNaam": "Cira Setser",
+                "geslachtsnaam": "Setser - Setser",
+                "voorvoegselGeslachtsnaam": "van",
+                "voornamen": "Cira",
+                "geboortedatum": "19880119"
+              }
+            },
+            "functie": { "code": "02", "omschrijving": "Bestuurder", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20110316115029420" },
+                "datumAanvang": "20101129"
+              },
+              "soort": {
+                "code": "gb",
+                "omschrijving": "Gezamenlijk bevoegd",
+                "referentieType": "SoortBevoegdheidBestuurder"
+              },
+              "isBevoegdMetAnderePersonen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        },
+        {
+          "bestuursfunctie": {
+            "registratie": { "attributes": { "registratieTijdstip": "20110316115029420" }, "datumAanvang": "20101129" },
+            "functietitel": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20120104141208796" },
+                "datumAanvang": "20111222"
+              },
+              "titel": "Voorzitter",
+              "isStatutaireTitel": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": {
+                  "extraElement": [
+                    { "attributes": { "naam": "voorvoegsel" }, "$value": "van" },
+                    { "attributes": { "naam": "achternaam" }, "$value": "Geer" }
+                  ]
+                },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19801108"
+                },
+                "volledigeNaam": "Ernie Geer",
+                "geslachtsnaam": "Geer",
+                "voorvoegselGeslachtsnaam": "van",
+                "voornamen": "Ernie",
+                "geboortedatum": "19801108"
+              }
+            },
+            "functie": { "code": "02", "omschrijving": "Bestuurder", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20110316115029420" },
+                "datumAanvang": "20101129"
+              },
+              "soort": {
+                "code": "gb",
+                "omschrijving": "Gezamenlijk bevoegd",
+                "referentieType": "SoortBevoegdheidBestuurder"
+              },
+              "isBevoegdMetAnderePersonen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        },
+        {
+          "bestuursfunctie": {
+            "registratie": { "attributes": { "registratieTijdstip": "20120419150959130" }, "datumAanvang": "20120117" },
+            "functietitel": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20130102083327474" },
+                "datumAanvang": "20130101"
+              },
+              "titel": "Penningmeester",
+              "isStatutaireTitel": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": {
+                  "extraElement": { "attributes": { "naam": "achternaam" }, "$value": "Brayton - Brayton" }
+                },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19761021"
+                },
+                "volledigeNaam": "Catarina Brayton",
+                "geslachtsnaam": "Brayton - Brayton",
+                "voornamen": "Catarina",
+                "geboortedatum": "19761021"
+              }
+            },
+            "functie": { "code": "02", "omschrijving": "Bestuurder", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20120419150959130" },
+                "datumAanvang": "20120117"
+              },
+              "soort": {
+                "code": "gb",
+                "omschrijving": "Gezamenlijk bevoegd",
+                "referentieType": "SoortBevoegdheidBestuurder"
+              },
+              "isBevoegdMetAnderePersonen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        },
+        {
+          "bestuursfunctie": {
+            "registratie": { "attributes": { "registratieTijdstip": "20130102083327474" }, "datumAanvang": "20130101" },
+            "functietitel": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20130102083327474" },
+                "datumAanvang": "20130101"
+              },
+              "titel": "Secretaris",
+              "isStatutaireTitel": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": {
+                  "extraElement": { "attributes": { "naam": "achternaam" }, "$value": "Dematteo - Dematteo" }
+                },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19861129"
+                },
+                "volledigeNaam": "Bailey Dematteo",
+                "geslachtsnaam": "Dematteo - Dematteo",
+                "voornamen": "Bailey",
+                "geboortedatum": "19861129"
+              }
+            },
+            "functie": { "code": "02", "omschrijving": "Bestuurder", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20130102083327474" },
+                "datumAanvang": "20130101"
+              },
+              "soort": {
+                "code": "gb",
+                "omschrijving": "Gezamenlijk bevoegd",
+                "referentieType": "SoortBevoegdheidBestuurder"
+              },
+              "isBevoegdMetAnderePersonen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        }
+      ],
+      "rsin": "992790712",
+      "naamgeving": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "19780921"
+        },
+        "naam": "Free Zumtom",
+        "ookGenoemd": "Free Zumtom"
+      },
+      "rechtsvorm": { "code": "VER", "omschrijving": "Vereniging", "referentieType": "Rechtsvorm" },
+      "statutaireZetel": "Nepplaats",
+      "aanvangStatutaireZetel": "19780921",
+      "datumAkteStatutenwijziging": "19780921",
+      "rechtsbevoegdheidVereniging": {
+        "code": "volledig",
+        "omschrijving": "Volledig",
+        "referentieType": "RechtsbevoegdheidVerenigingCode"
+      },
+      "bezoekLocatie": {
+        "registratie": { "attributes": { "registratieTijdstip": "20110316120130085" }, "datumAanvang": "19780921" },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Hanzelaan",
+            "huisnummer": 131,
+            "postcode": { "cijfercombinatie": "8262", "lettercombinatie": "VC" },
+            "plaats": "Kampen",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999470165",
+              "identificatieAdresseerbaarObject": "0074999999669277"
+            }
+          }
+        },
+        "volledigAdres": "Hanzelaan 131 8262VC Kampen"
+      }
+    }
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 20090515,
+      "DatumEinde": 20130423,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90004302,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20101010,
+        "DatumEinde": 20130423,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Philips Schonckstraat",
+          "Huisnummer": 35,
+          "Postcode": {
+            "Cijfercombinatie": 4827,
+            "Lettercombinatie": "LC"
+          },
+          "Plaats": "Breda",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999650055,
+            "IdentificatieAdresseerbaarObject": 74999999494794
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Philips Schonckstraat 35 4827LC Breda"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20110517,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": null,
+          "Huisnummer": 0,
+          "Postcode": {
+            "Cijfercombinatie": 5151,
+            "Lettercombinatie": "HJ"
+          },
+          "Plaats": "Drunen",
+          "BagId": null,
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Postbus 99999 5151HJ Drunen"
+    },
+    "Communicatiegegevens": {
+      "Registratie": {
+        "DatumAanvang": 20090515,
+        "DatumEinde": 20130423,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Communicatienummer": [
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        },
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        }
+      ],
+      "EmailAdres": "nepemailadres@kvk.nl"
+    },
+    "Naam": "Regional Medunodox",
+    "ManifesteertZichAls": null,
+    "WordtGeleidVanuit": null,
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 20090515,
+        "RegistratieTijdstipNoValue": null
+      },
+      "NatuurlijkPersoon": null,
+      "Samenwerkingsverband": null,
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": {
+        "VoornemenTotOntbinding": null,
+        "ActiviteitenGestaaktPer": null,
+        "Rechtsvorm": {
+          "Code": "VER",
+          "Omschrijving": "Vereniging"
+        },
+        "Heeft": [
+          {
+            "FunctionarisBijzondereRechtstoestand": {
+              "Registratie": {
+                "DatumAanvang": 20110517,
+                "DatumEinde": 20130423,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": {
+                  "VolledigeNaam": "Jan Klaasen",
+                  "BezoekLocatiePersoon": {
+                    "Registratie": {
+                      "DatumAanvang": 20110517,
+                      "DatumEinde": 0,
+                      "RegistratieTijdstipNoValue": null
+                    },
+                    "Afgeschermd": {
+                      "Code": "N",
+                      "Omschrijving": "Nee",
+                      "ReferentieType": "geenRT"
+                    },
+                    "Adres": {
+                      "BinnenlandsAdres": {
+                        "Straatnaam": null,
+                        "Huisnummer": 0,
+                        "Postcode": {
+                          "Cijfercombinatie": 5151,
+                          "Lettercombinatie": "HJ"
+                        },
+                        "Plaats": "Drunen",
+                        "BagId": null,
+                        "HuisnummerToevoeging": null
+                      }
+                    },
+                    "VolledigAdres": "Postbus 99999 5151HJ Drunen"
+                  },
+                  "Naam": "mr. Pansy Fralick",
+                  "Telefoonnummer": {
+                    "Toegangscode": 31,
+                    "Nummer": 102660188
+                  }
+                },
+                "NatuurlijkPersoon": null,
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "07",
+                "Omschrijving": "Curator",
+                "ReferentieType": "FunctionarisRol"
+              }
+            },
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": {
+              "Registratie": {
+                "DatumAanvang": 20110517,
+                "DatumEinde": 20130423,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": {
+                  "VolledigeNaam": "Jan Klaasen",
+                  "BezoekLocatiePersoon": null,
+                  "Naam": "mr. Dominick Reddell",
+                  "Telefoonnummer": null
+                },
+                "NatuurlijkPersoon": null,
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "11",
+                "Omschrijving": "Rechter-commissaris",
+                "ReferentieType": "FunctionarisRol"
+              }
+            },
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": {
+              "Functie": {
+                "Code": "02",
+                "Omschrijving": "Bestuurder",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19721228,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Bevoegdheid": {
+                "Soort": {
+                  "Code": "gb",
+                  "Omschrijving": "Gezamenlijk bevoegd"
+                }
+              },
+              "Functietitel": {
+                "Titel": "Secretaris/Penningmeester"
+              }
+            },
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": {
+              "Functie": {
+                "Code": "02",
+                "Omschrijving": "Bestuurder",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19810127,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Bevoegdheid": {
+                "Soort": {
+                  "Code": "gb",
+                  "Omschrijving": "Gezamenlijk bevoegd"
+                }
+              },
+              "Functietitel": {
+                "Titel": "Voorzitter"
+              }
+            },
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          }
+        ],
+        "VolledigeNaam": "Jan Klaasen",
+        "Rsin": "992180624"
+      }
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

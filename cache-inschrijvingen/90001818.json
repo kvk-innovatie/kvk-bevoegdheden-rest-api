@@ -1,0 +1,522 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 20060327,
+      "DatumEinde": 0,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90001818,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20060327,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Orionweg",
+          "Huisnummer": 22,
+          "Postcode": {
+            "Cijfercombinatie": 1443,
+            "Lettercombinatie": "AN"
+          },
+          "Plaats": "Purmerend",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999631145,
+            "IdentificatieAdresseerbaarObject": 74999999879868
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Orionweg 22 1443AN Purmerend"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20060327,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Orionweg",
+          "Huisnummer": 22,
+          "Postcode": {
+            "Cijfercombinatie": 1443,
+            "Lettercombinatie": "AN"
+          },
+          "Plaats": "Purmerend",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999631145,
+            "IdentificatieAdresseerbaarObject": 74999999879868
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Orionweg 22 1443AN Purmerend"
+    },
+    "Communicatiegegevens": {
+      "Registratie": {
+        "DatumAanvang": 20060327,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Communicatienummer": [
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        },
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "F",
+            "Omschrijving": "Fax"
+          }
+        }
+      ],
+      "EmailAdres": "nepemailadres@kvk.nl"
+    },
+    "Naam": "Local Finmeddox B.V.",
+    "ManifesteertZichAls": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 20060327,
+        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+      },
+      "Onderneming": {
+        "Registratie": {
+          "DatumAanvang": 20060327,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "KvkNummer": 90001818,
+        "SbiActiviteit": [
+          {
+            "Registratie": {
+              "DatumAanvang": 20060327,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 6420,
+              "Omschrijving": "Financi\u00EBle holdings",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          }
+        ],
+        "VoltijdWerkzamePersonen": 0,
+        "DeeltijdWerkzamePersonen": 0,
+        "TotaalWerkzamePersonen": 0,
+        "HandeltOnder": [
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20060327,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Local Finmeddox B.V.",
+              "Volgorde": 0
+            },
+            "RelatieRegistratie": null
+          }
+        ],
+        "WordtUitgeoefendIn": {
+          "RelatieRegistratie": {
+            "DatumAanvang": 20060327,
+            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+          },
+          "CommercieleVestiging": {
+            "Registratie": {
+              "DatumAanvang": 20060327,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Vestigingsnummer": 990000406087,
+            "BezoekLocatie": {
+              "Registratie": {
+                "DatumAanvang": 20060327,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Afgeschermd": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Adres": {
+                "BinnenlandsAdres": {
+                  "Straatnaam": "Orionweg",
+                  "Huisnummer": 22,
+                  "Postcode": {
+                    "Cijfercombinatie": 1443,
+                    "Lettercombinatie": "AN"
+                  },
+                  "Plaats": "Purmerend",
+                  "BagId": {
+                    "IdentificatieNummeraanduiding": 74999999631145,
+                    "IdentificatieAdresseerbaarObject": 74999999879868
+                  },
+                  "HuisnummerToevoeging": null
+                }
+              },
+              "VolledigAdres": "Orionweg 22 1443AN Purmerend"
+            },
+            "Communicatiegegevens": {
+              "Registratie": {
+                "DatumAanvang": 20060327,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Communicatienummer": [
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "T",
+                    "Omschrijving": "Telefoon"
+                  }
+                },
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "F",
+                    "Omschrijving": "Fax"
+                  }
+                }
+              ],
+              "EmailAdres": "nepemailadres@kvk.nl"
+            },
+            "EersteHandelsnaam": "Local Finmeddox B.V.",
+            "VoltijdWerkzamePersonen": 0,
+            "DeeltijdWerkzamePersonen": 0,
+            "TotaalWerkzamePersonen": 0,
+            "Activiteiten": {
+              "Omschrijving": "Het oprichten en verwerven van, het deelnemen in, het samenwerken met, het voeren van de directie over, het toezicht uitoefenen op andere vennootschappen en ondernemingen, en in het algemeen het verrichten van alle handelingen op commercieel, financieel en economisch gebied",
+              "SbiActiviteit": {
+                "Registratie": {
+                  "DatumAanvang": 20060327,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "SbiCode": {
+                  "Code": 6420,
+                  "Omschrijving": "Financi\u00EBle holdings",
+                  "ReferentieType": "ActiviteitCode"
+                },
+                "IsHoofdactiviteit": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Exporteert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Importeert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              }
+            },
+            "HandeltOnder": {
+              "Handelsnaam": {
+                "Registratie": {
+                  "DatumAanvang": 20060327,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Naam": "Local Finmeddox B.V.",
+                "Volgorde": 0
+              },
+              "RelatieRegistratie": {
+                "DatumAanvang": 20060327,
+                "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+              }
+            }
+          }
+        }
+      }
+    },
+    "WordtGeleidVanuit": {
+      "CommercieleVestiging": {
+        "Registratie": {
+          "DatumAanvang": 20060327,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "Vestigingsnummer": 990000406087,
+        "BezoekLocatie": {
+          "Registratie": {
+            "DatumAanvang": 20060327,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Afgeschermd": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Adres": {
+            "BinnenlandsAdres": {
+              "Straatnaam": "Orionweg",
+              "Huisnummer": 22,
+              "Postcode": {
+                "Cijfercombinatie": 1443,
+                "Lettercombinatie": "AN"
+              },
+              "Plaats": "Purmerend",
+              "BagId": {
+                "IdentificatieNummeraanduiding": 74999999631145,
+                "IdentificatieAdresseerbaarObject": 74999999879868
+              },
+              "HuisnummerToevoeging": null
+            }
+          },
+          "VolledigAdres": "Orionweg 22 1443AN Purmerend"
+        },
+        "Communicatiegegevens": {
+          "Registratie": {
+            "DatumAanvang": 20060327,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Communicatienummer": [
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "T",
+                "Omschrijving": "Telefoon"
+              }
+            },
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "F",
+                "Omschrijving": "Fax"
+              }
+            }
+          ],
+          "EmailAdres": "nepemailadres@kvk.nl"
+        },
+        "EersteHandelsnaam": "Local Finmeddox B.V.",
+        "VoltijdWerkzamePersonen": 0,
+        "DeeltijdWerkzamePersonen": 0,
+        "TotaalWerkzamePersonen": 0,
+        "Activiteiten": {
+          "Omschrijving": "Het oprichten en verwerven van, het deelnemen in, het samenwerken met, het voeren van de directie over, het toezicht uitoefenen op andere vennootschappen en ondernemingen, en in het algemeen het verrichten van alle handelingen op commercieel, financieel en economisch gebied",
+          "SbiActiviteit": {
+            "Registratie": {
+              "DatumAanvang": 20060327,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 6420,
+              "Omschrijving": "Financi\u00EBle holdings",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          "Exporteert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Importeert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          }
+        },
+        "HandeltOnder": {
+          "Handelsnaam": {
+            "Registratie": {
+              "DatumAanvang": 20060327,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Naam": "Local Finmeddox B.V.",
+            "Volgorde": 0
+          },
+          "RelatieRegistratie": {
+            "DatumAanvang": 20060327,
+            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+          }
+        }
+      }
+    },
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 20060327,
+        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+      },
+      "NatuurlijkPersoon": null,
+      "Samenwerkingsverband": null,
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": {
+        "VoornemenTotOntbinding": null,
+        "ActiviteitenGestaaktPer": null,
+        "Rechtsvorm": {
+          "Code": "BV",
+          "Omschrijving": "Besloten Vennootschap"
+        },
+        "Heeft": [
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": {
+              "Functie": {
+                "Code": "02",
+                "Omschrijving": "Bestuurder",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19641006,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Bevoegdheid": {
+                "Soort": {
+                  "Code": "gb",
+                  "Omschrijving": "Gezamenlijk bevoegd"
+                }
+              },
+              "Functietitel": null
+            },
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": {
+              "Functie": {
+                "Code": "02",
+                "Omschrijving": "Bestuurder",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19950802,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Bevoegdheid": {
+                "Soort": {
+                  "Code": "gb",
+                  "Omschrijving": "Gezamenlijk bevoegd"
+                }
+              },
+              "Functietitel": null
+            },
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": {
+              "Functie": {
+                "Code": "08",
+                "Omschrijving": "Enig aandeelhouder",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19641006,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Bevoegdheid": null,
+              "Functietitel": null
+            },
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          }
+        ],
+        "VolledigeNaam": "Jan Klaasen",
+        "Rsin": "992478170"
+      }
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

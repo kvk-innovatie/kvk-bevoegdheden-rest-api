@@ -1,0 +1,255 @@
+{
+  "registratie": { "attributes": { "registratieTijdstip": "20111207193353473" }, "datumAanvang": "20111207" },
+  "kvkNummer": "54090385",
+  "nonMailing": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" },
+  "incidenteelUitlenenArbeidskrachten": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "bezoekLocatie": {
+    "registratie": { "attributes": { "registratieTijdstip": "20170928131248214" }, "datumAanvang": "20170928" },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Govert Flincklaan",
+        "huisnummer": 4,
+        "postcode": { "cijfercombinatie": "1213", "lettercombinatie": "EP" },
+        "plaats": "Hilversum",
+        "bagId": {
+          "identificatieNummeraanduiding": "0402200001545407",
+          "identificatieAdresseerbaarObject": "0402010001545408"
+        }
+      }
+    },
+    "volledigAdres": "Govert Flincklaan 4\n1213EP Hilversum"
+  },
+  "postLocatie": {
+    "registratie": { "attributes": { "registratieTijdstip": "20170928131248214" }, "datumAanvang": "20170928" },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Govert Flincklaan",
+        "huisnummer": 4,
+        "postcode": { "cijfercombinatie": "1213", "lettercombinatie": "EP" },
+        "plaats": "Hilversum",
+        "bagId": {
+          "identificatieNummeraanduiding": "0402200001545407",
+          "identificatieAdresseerbaarObject": "0402010001545408"
+        }
+      }
+    },
+    "volledigAdres": "Govert Flincklaan 4\n1213EP Hilversum"
+  },
+  "communicatiegegevens": {
+    "registratie": { "attributes": { "registratieTijdstip": "20180920114512004" }, "datumAanvang": "20180919" },
+    "communicatienummer": [
+      { "toegangscode": "+31", "nummer": "0624709780", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+    ],
+    "emailAdres": ["michielmayer@gmail.com", "michiel@mayersoftwaredevelopment.nl"]
+  },
+  "naam": "Mayer Software Development",
+  "manifesteertZichAls": {
+    "relatieRegistratie": { "attributes": { "registratieTijdstip": "20111207193353473" }, "datumAanvang": "20111207" },
+    "onderneming": {
+      "registratie": { "attributes": { "registratieTijdstip": "20111207193353473" }, "datumAanvang": "20111207" },
+      "kvkNummer": "54090385",
+      "sbiActiviteit": [
+        {
+          "registratie": { "attributes": { "registratieTijdstip": "20190822144917921" }, "datumAanvang": "20190822" },
+          "sbiCode": {
+            "code": "6201",
+            "omschrijving": "Ontwikkelen, produceren en uitgeven van software",
+            "referentieType": "ActiviteitCode"
+          },
+          "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+        }
+      ],
+      "voltijdWerkzamePersonen": 1,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 1,
+      "handeltOnder": [
+        {
+          "handelsnaam": {
+            "registratie": { "attributes": { "registratieTijdstip": "20190822144917921" }, "datumAanvang": "20190822" },
+            "naam": "Mayer Software Development",
+            "volgorde": 0
+          }
+        }
+      ],
+      "wordtUitgeoefendIn": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstip": "20111207193353473" },
+            "datumAanvang": "20111207"
+          },
+          "commercieleVestiging": {
+            "registratie": { "attributes": { "registratieTijdstip": "20111207193353473" }, "datumAanvang": "20111207" },
+            "vestigingsnummer": "000023910224",
+            "bezoekLocatie": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20170928131248214" },
+                "datumAanvang": "20170928"
+              },
+              "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "adres": {
+                "binnenlandsAdres": {
+                  "straatnaam": "Govert Flincklaan",
+                  "huisnummer": 4,
+                  "postcode": { "cijfercombinatie": "1213", "lettercombinatie": "EP" },
+                  "plaats": "Hilversum",
+                  "bagId": {
+                    "identificatieNummeraanduiding": "0402200001545407",
+                    "identificatieAdresseerbaarObject": "0402010001545408"
+                  }
+                }
+              },
+              "volledigAdres": "Govert Flincklaan 4\n1213EP Hilversum"
+            },
+            "communicatiegegevens": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20180920114512004" },
+                "datumAanvang": "20180919"
+              },
+              "communicatienummer": [
+                { "toegangscode": "+31", "nummer": "0624709780", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+              ],
+              "emailAdres": ["michielmayer@gmail.com", "michiel@mayersoftwaredevelopment.nl"]
+            },
+            "eersteHandelsnaam": "Mayer Software Development",
+            "voltijdWerkzamePersonen": 1,
+            "deeltijdWerkzamePersonen": 0,
+            "totaalWerkzamePersonen": 1,
+            "activiteiten": {
+              "omschrijving": "Ontwikkeling van web applicaties.",
+              "sbiActiviteit": [
+                {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20190822144917921" },
+                    "datumAanvang": "20190822"
+                  },
+                  "sbiCode": {
+                    "code": "6201",
+                    "omschrijving": "Ontwikkelen, produceren en uitgeven van software",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+                }
+              ],
+              "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            },
+            "handeltOnder": [
+              {
+                "relatieRegistratie": {
+                  "attributes": { "registratieTijdstip": "20190822144917921" },
+                  "datumAanvang": "20190822"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20190822144917921" },
+                    "datumAanvang": "20190822"
+                  },
+                  "naam": "Mayer Software Development",
+                  "volgorde": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "wordtGeleidVanuit": {
+    "commercieleVestiging": {
+      "registratie": { "attributes": { "registratieTijdstip": "20111207193353473" }, "datumAanvang": "20111207" },
+      "vestigingsnummer": "000023910224",
+      "bezoekLocatie": {
+        "registratie": { "attributes": { "registratieTijdstip": "20170928131248214" }, "datumAanvang": "20170928" },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Govert Flincklaan",
+            "huisnummer": 4,
+            "postcode": { "cijfercombinatie": "1213", "lettercombinatie": "EP" },
+            "plaats": "Hilversum",
+            "bagId": {
+              "identificatieNummeraanduiding": "0402200001545407",
+              "identificatieAdresseerbaarObject": "0402010001545408"
+            }
+          }
+        },
+        "volledigAdres": "Govert Flincklaan 4\n1213EP Hilversum"
+      },
+      "communicatiegegevens": {
+        "registratie": { "attributes": { "registratieTijdstip": "20180920114512004" }, "datumAanvang": "20180919" },
+        "communicatienummer": [
+          { "toegangscode": "+31", "nummer": "0624709780", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+        ],
+        "emailAdres": ["michielmayer@gmail.com", "michiel@mayersoftwaredevelopment.nl"]
+      },
+      "eersteHandelsnaam": "Mayer Software Development",
+      "voltijdWerkzamePersonen": 1,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 1,
+      "activiteiten": {
+        "omschrijving": "Ontwikkeling van web applicaties.",
+        "sbiActiviteit": [
+          {
+            "registratie": { "attributes": { "registratieTijdstip": "20190822144917921" }, "datumAanvang": "20190822" },
+            "sbiCode": {
+              "code": "6201",
+              "omschrijving": "Ontwikkelen, produceren en uitgeven van software",
+              "referentieType": "ActiviteitCode"
+            },
+            "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+          }
+        ],
+        "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+      },
+      "handeltOnder": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstip": "20190822144917921" },
+            "datumAanvang": "20190822"
+          },
+          "handelsnaam": {
+            "registratie": { "attributes": { "registratieTijdstip": "20190822144917921" }, "datumAanvang": "20190822" },
+            "naam": "Mayer Software Development",
+            "volgorde": 0
+          }
+        }
+      ]
+    }
+  },
+  "heeftAlsEigenaar": {
+    "relatieRegistratie": { "attributes": { "registratieTijdstip": "20111207193353473" }, "datumAanvang": "20111207" },
+    "natuurlijkPersoon": {
+      "extraElementen": { "extraElement": [{ "attributes": { "naam": "achternaam" }, "$value": "Maijer" }] },
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19750430"
+      },
+      "persoonRechtsvorm": "Eenmanszaak",
+      "volledigeNaam": "Michiel Dirk Maijer",
+      "uitgebreideRechtsvorm": "Eenmanszaak",
+      "geslachtsnaam": "Maijer",
+      "voornamen": "Michiel Dirk",
+      "geboortedatum": "19750430",
+      "woonLocatie": {
+        "registratie": { "attributes": { "registratieTijdstip": "20170914221534020" } },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Govert Flincklaan",
+            "huisnummer": 4,
+            "postcode": { "cijfercombinatie": "1213", "lettercombinatie": "EP" },
+            "plaats": "Hilversum",
+            "bagId": {
+              "identificatieNummeraanduiding": "0402200001545407",
+              "identificatieAdresseerbaarObject": "0402010001545408"
+            }
+          }
+        },
+        "volledigAdres": "Govert Flincklaan 4\n1213EP Hilversum"
+      }
+    }
+  }
+}

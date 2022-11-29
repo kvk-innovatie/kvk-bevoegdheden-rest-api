@@ -1,0 +1,419 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 19200000,
+      "DatumEinde": 0,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90005368,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 19200000,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Van Houtenstraat",
+          "Huisnummer": 17,
+          "Postcode": {
+            "Cijfercombinatie": 6971,
+            "Lettercombinatie": "DX"
+          },
+          "Plaats": "Brummen",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999861603,
+            "IdentificatieAdresseerbaarObject": 74999999491981
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Van Houtenstraat 17 6971DX Brummen"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 19200000,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Van Houtenstraat",
+          "Huisnummer": 17,
+          "Postcode": {
+            "Cijfercombinatie": 6971,
+            "Lettercombinatie": "DX"
+          },
+          "Plaats": "Brummen",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999861603,
+            "IdentificatieAdresseerbaarObject": 74999999491981
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Van Houtenstraat 17 6971DX Brummen"
+    },
+    "Communicatiegegevens": {
+      "Registratie": {
+        "DatumAanvang": 19200000,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Communicatienummer": [
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        },
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "F",
+            "Omschrijving": "Fax"
+          }
+        }
+      ],
+      "EmailAdres": "nepemailadres@kvk.nl"
+    },
+    "Naam": "International Haysunfind",
+    "ManifesteertZichAls": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 20050101,
+        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+      },
+      "Onderneming": {
+        "Registratie": {
+          "DatumAanvang": 19200000,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "KvkNummer": 90005368,
+        "SbiActiviteit": [
+          {
+            "Registratie": {
+              "DatumAanvang": 19200000,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 1071,
+              "Omschrijving": "Vervaardiging van brood en vers banketbakkerswerk",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          {
+            "Registratie": {
+              "DatumAanvang": 19200000,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 47242,
+              "Omschrijving": "Winkels in chocolade en suikerwerk",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "N",
+              "Omschrijving": "Nee",
+              "ReferentieType": "geenRT"
+            }
+          }
+        ],
+        "VoltijdWerkzamePersonen": 10,
+        "DeeltijdWerkzamePersonen": 9,
+        "TotaalWerkzamePersonen": 19,
+        "HandeltOnder": [
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20050101,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "International Haysunfind Eenmanszaak",
+              "Volgorde": 0
+            },
+            "RelatieRegistratie": null
+          }
+        ],
+        "WordtUitgeoefendIn": {
+          "RelatieRegistratie": {
+            "DatumAanvang": 20050101,
+            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+          },
+          "CommercieleVestiging": {
+            "Registratie": {
+              "DatumAanvang": 19200000,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Vestigingsnummer": 990000470666,
+            "BezoekLocatie": {
+              "Registratie": {
+                "DatumAanvang": 19200000,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Afgeschermd": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Adres": {
+                "BinnenlandsAdres": {
+                  "Straatnaam": "Van Houtenstraat",
+                  "Huisnummer": 17,
+                  "Postcode": {
+                    "Cijfercombinatie": 6971,
+                    "Lettercombinatie": "DX"
+                  },
+                  "Plaats": "Brummen",
+                  "BagId": {
+                    "IdentificatieNummeraanduiding": 74999999861603,
+                    "IdentificatieAdresseerbaarObject": 74999999491981
+                  },
+                  "HuisnummerToevoeging": null
+                }
+              },
+              "VolledigAdres": "Van Houtenstraat 17 6971DX Brummen"
+            },
+            "Communicatiegegevens": {
+              "Registratie": {
+                "DatumAanvang": 19200000,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Communicatienummer": [
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "T",
+                    "Omschrijving": "Telefoon"
+                  }
+                },
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "F",
+                    "Omschrijving": "Fax"
+                  }
+                }
+              ],
+              "EmailAdres": "nepemailadres@kvk.nl"
+            },
+            "EersteHandelsnaam": "International Haysunfind Eenmanszaak",
+            "VoltijdWerkzamePersonen": 9,
+            "DeeltijdWerkzamePersonen": 5,
+            "TotaalWerkzamePersonen": 14,
+            "Activiteiten": {
+              "Omschrijving": "Brood-, banket- en koekbakkersbedrijf. Kleinhandel (winkel) in brood, banket, koek, beschuit, chocolade- en suikerwerken.",
+              "SbiActiviteit": {
+                "Registratie": {
+                  "DatumAanvang": 19200000,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "SbiCode": {
+                  "Code": 1071,
+                  "Omschrijving": "Vervaardiging van brood en vers banketbakkerswerk",
+                  "ReferentieType": "ActiviteitCode"
+                },
+                "IsHoofdactiviteit": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Exporteert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Importeert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              }
+            },
+            "HandeltOnder": {
+              "Handelsnaam": {
+                "Registratie": {
+                  "DatumAanvang": 20050101,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Naam": "International Haysunfind Eenmanszaak",
+                "Volgorde": 0
+              },
+              "RelatieRegistratie": {
+                "DatumAanvang": 20050101,
+                "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+              }
+            }
+          }
+        }
+      }
+    },
+    "WordtGeleidVanuit": {
+      "CommercieleVestiging": {
+        "Registratie": {
+          "DatumAanvang": 19200000,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "Vestigingsnummer": 990000470666,
+        "BezoekLocatie": {
+          "Registratie": {
+            "DatumAanvang": 19200000,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Afgeschermd": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Adres": {
+            "BinnenlandsAdres": {
+              "Straatnaam": "Van Houtenstraat",
+              "Huisnummer": 17,
+              "Postcode": {
+                "Cijfercombinatie": 6971,
+                "Lettercombinatie": "DX"
+              },
+              "Plaats": "Brummen",
+              "BagId": {
+                "IdentificatieNummeraanduiding": 74999999861603,
+                "IdentificatieAdresseerbaarObject": 74999999491981
+              },
+              "HuisnummerToevoeging": null
+            }
+          },
+          "VolledigAdres": "Van Houtenstraat 17 6971DX Brummen"
+        },
+        "Communicatiegegevens": {
+          "Registratie": {
+            "DatumAanvang": 19200000,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Communicatienummer": [
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "T",
+                "Omschrijving": "Telefoon"
+              }
+            },
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "F",
+                "Omschrijving": "Fax"
+              }
+            }
+          ],
+          "EmailAdres": "nepemailadres@kvk.nl"
+        },
+        "EersteHandelsnaam": "International Haysunfind Eenmanszaak",
+        "VoltijdWerkzamePersonen": 9,
+        "DeeltijdWerkzamePersonen": 5,
+        "TotaalWerkzamePersonen": 14,
+        "Activiteiten": {
+          "Omschrijving": "Brood-, banket- en koekbakkersbedrijf. Kleinhandel (winkel) in brood, banket, koek, beschuit, chocolade- en suikerwerken.",
+          "SbiActiviteit": {
+            "Registratie": {
+              "DatumAanvang": 19200000,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 1071,
+              "Omschrijving": "Vervaardiging van brood en vers banketbakkerswerk",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          "Exporteert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Importeert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          }
+        },
+        "HandeltOnder": {
+          "Handelsnaam": {
+            "Registratie": {
+              "DatumAanvang": 20050101,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Naam": "International Haysunfind Eenmanszaak",
+            "Volgorde": 0
+          },
+          "RelatieRegistratie": {
+            "DatumAanvang": 20050101,
+            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+          }
+        }
+      }
+    },
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 20050101,
+        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+      },
+      "NatuurlijkPersoon": {
+        "ExtraElementen": {
+          "ExtraElement": {
+            "Naam": "achternaam"
+          }
+        },
+        "Registratie": {
+          "DatumAanvang": 19620505,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "PersoonRechtsvorm": "Eenmanszaak",
+        "VolledigeNaam": "Jan Klaasen",
+        "UitgebreideRechtsvorm": "Eenmanszaak",
+        "Geslachtsnaam": "Klaasen",
+        "Voornamen": "Jan",
+        "Heeft": [],
+        "Geboortedatum": "20000101"
+      },
+      "Samenwerkingsverband": null,
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": null
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

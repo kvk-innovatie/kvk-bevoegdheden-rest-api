@@ -1,0 +1,585 @@
+{
+  "registratie": { "attributes": { "registratieTijdstip": "20110331100900620" }, "datumAanvang": "20110329" },
+  "kvkNummer": "90000951",
+  "nonMailing": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" },
+  "incidenteelUitlenenArbeidskrachten": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "bezoekLocatie": {
+    "registratie": { "attributes": { "registratieTijdstip": "20110331100900620" }, "datumAanvang": "20110329" },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Tulpstraat",
+        "huisnummer": 19,
+        "huisnummerToevoeging": "13",
+        "postcode": { "cijfercombinatie": "5701", "lettercombinatie": "EV" },
+        "plaats": "Helmond",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999532475",
+          "identificatieAdresseerbaarObject": "0074999999962725"
+        }
+      }
+    },
+    "volledigAdres": "Tulpstraat 19 5701EV Helmond"
+  },
+  "postLocatie": {
+    "registratie": { "attributes": { "registratieTijdstip": "20131009085124670" }, "datumAanvang": "20110329" },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Glenn Millerrode",
+        "huisnummer": 21,
+        "postcode": { "cijfercombinatie": "2717", "lettercombinatie": "CA" },
+        "plaats": "Zoetermeer",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999483676",
+          "identificatieAdresseerbaarObject": "0074999999564071"
+        }
+      }
+    },
+    "volledigAdres": "Glenn Millerrode 21 2717CA Zoetermeer"
+  },
+  "communicatiegegevens": {
+    "registratie": { "attributes": { "registratieTijdstip": "20130821084447581" }, "datumAanvang": "20130820" },
+    "communicatienummer": [
+      { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+      { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+      { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "F", "omschrijving": "Fax" } }
+    ],
+    "domeinNaam": ["www.kvk.nl"]
+  },
+  "naam": "Regional Ganzsolhex B.V.",
+  "manifesteertZichAls": {
+    "relatieRegistratie": { "attributes": { "registratieTijdstip": "20110331100900620" }, "datumAanvang": "20110329" },
+    "onderneming": {
+      "registratie": { "attributes": { "registratieTijdstip": "20110331100900620" }, "datumAanvang": "19971101" },
+      "kvkNummer": "90000951",
+      "sbiActiviteit": [
+        {
+          "registratie": { "attributes": { "registratieTijdstip": "20110331100900620" }, "datumAanvang": "20110329" },
+          "sbiCode": {
+            "code": "86912",
+            "omschrijving": "Praktijken van fysiotherapeuten",
+            "referentieType": "ActiviteitCode"
+          },
+          "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+        }
+      ],
+      "voltijdWerkzamePersonen": 7,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 7,
+      "handeltOnder": [
+        {
+          "handelsnaam": {
+            "registratie": { "attributes": { "registratieTijdstip": "20110405115313320" }, "datumAanvang": "20110329" },
+            "naam": "Regional Ganzsolhex B.V.",
+            "volgorde": 0
+          }
+        },
+        {
+          "handelsnaam": {
+            "registratie": { "attributes": { "registratieTijdstip": "20110331100900620" }, "datumAanvang": "20110329" },
+            "naam": "Regional Ganzsolhex B.V. de tweede",
+            "volgorde": 1
+          }
+        }
+      ],
+      "wordtUitgeoefendIn": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstip": "20110331100900620" },
+            "datumAanvang": "20110329"
+          },
+          "commercieleVestiging": {
+            "registratie": { "attributes": { "registratieTijdstip": "20110331100900620" }, "datumAanvang": "19971101" },
+            "vestigingsnummer": "990000873283",
+            "bezoekLocatie": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20110331100900620" },
+                "datumAanvang": "20110329"
+              },
+              "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "adres": {
+                "binnenlandsAdres": {
+                  "straatnaam": "Tulpstraat",
+                  "huisnummer": 19,
+                  "huisnummerToevoeging": "13",
+                  "postcode": { "cijfercombinatie": "5701", "lettercombinatie": "EV" },
+                  "plaats": "Helmond",
+                  "bagId": {
+                    "identificatieNummeraanduiding": "0074999999532475",
+                    "identificatieAdresseerbaarObject": "0074999999962725"
+                  }
+                }
+              },
+              "volledigAdres": "Tulpstraat 19 5701EV Helmond"
+            },
+            "postLocatie": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20131009085124670" },
+                "datumAanvang": "20110329"
+              },
+              "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "adres": {
+                "binnenlandsAdres": {
+                  "straatnaam": "Glenn Millerrode",
+                  "huisnummer": 21,
+                  "postcode": { "cijfercombinatie": "2717", "lettercombinatie": "CA" },
+                  "plaats": "Zoetermeer",
+                  "bagId": {
+                    "identificatieNummeraanduiding": "0074999999483676",
+                    "identificatieAdresseerbaarObject": "0074999999564071"
+                  }
+                }
+              },
+              "volledigAdres": "Glenn Millerrode 21 2717CA Zoetermeer"
+            },
+            "communicatiegegevens": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20130821084447581" },
+                "datumAanvang": "20130820"
+              },
+              "communicatienummer": [
+                { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+                { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+                { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "F", "omschrijving": "Fax" } }
+              ],
+              "domeinNaam": ["www.kvk.nl"]
+            },
+            "eersteHandelsnaam": "Regional Ganzsolhex B.V.",
+            "isOvergenomenVan": {
+              "relatieRegistratie": {
+                "attributes": { "registratieTijdstip": "20110331100900620" },
+                "datumAanvang": "20110329"
+              },
+              "maatschappelijkeActiviteit": {
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19971101",
+                  "datumEinde": "20110329"
+                },
+                "kvkNummer": "90000668"
+              },
+              "datumVoortzetting": "20110329"
+            },
+            "voltijdWerkzamePersonen": 6,
+            "deeltijdWerkzamePersonen": 0,
+            "totaalWerkzamePersonen": 6,
+            "activiteiten": {
+              "omschrijving": "Het (doen) utoefenen van de praktijk van fysiotherapie.",
+              "sbiActiviteit": [
+                {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20110331100900620" },
+                    "datumAanvang": "20110329"
+                  },
+                  "sbiCode": {
+                    "code": "86912",
+                    "omschrijving": "Praktijken van fysiotherapeuten",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+                }
+              ],
+              "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            },
+            "handeltOnder": [
+              {
+                "relatieRegistratie": {
+                  "attributes": { "registratieTijdstip": "20110331100900620" },
+                  "datumAanvang": "20110329"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20110331100900620" },
+                    "datumAanvang": "20110329"
+                  },
+                  "naam": "Regional Ganzsolhex B.V.",
+                  "volgorde": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstip": "20110331100900620" },
+            "datumAanvang": "20110329"
+          },
+          "commercieleVestiging": {
+            "registratie": { "attributes": { "registratieTijdstip": "20110331100900620" }, "datumAanvang": "20070401" },
+            "vestigingsnummer": "990000863964",
+            "bezoekLocatie": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20131009090550933" },
+                "datumAanvang": "20110329"
+              },
+              "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "adres": {
+                "binnenlandsAdres": {
+                  "straatnaam": "Nieuwe Kampen",
+                  "huisnummer": 2,
+                  "postcode": { "cijfercombinatie": "5491", "lettercombinatie": "VN" },
+                  "plaats": "Sint-Oedenrode",
+                  "bagId": {
+                    "identificatieNummeraanduiding": "0074999999457060",
+                    "identificatieAdresseerbaarObject": "0074999999886637"
+                  }
+                }
+              },
+              "volledigAdres": "Nieuwe Kampen 2 5491VN Sint-Oedenrode"
+            },
+            "postLocatie": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20131009085124670" },
+                "datumAanvang": "20110329"
+              },
+              "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "adres": {
+                "binnenlandsAdres": {
+                  "straatnaam": "Glenn Millerrode",
+                  "huisnummer": 21,
+                  "postcode": { "cijfercombinatie": "2717", "lettercombinatie": "CA" },
+                  "plaats": "Zoetermeer",
+                  "bagId": {
+                    "identificatieNummeraanduiding": "0074999999483676",
+                    "identificatieAdresseerbaarObject": "0074999999564071"
+                  }
+                }
+              },
+              "volledigAdres": "Glenn Millerrode 21 2717CA Zoetermeer"
+            },
+            "communicatiegegevens": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20110331100900620" },
+                "datumAanvang": "20070401"
+              },
+              "communicatienummer": [
+                { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+              ],
+              "domeinNaam": ["www.kvk.nl"]
+            },
+            "eersteHandelsnaam": "Regional Ganzsolhex B.V.",
+            "isOvergenomenVan": {
+              "relatieRegistratie": {
+                "attributes": { "registratieTijdstip": "20110331100900620" },
+                "datumAanvang": "20110329"
+              },
+              "maatschappelijkeActiviteit": {
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19971101",
+                  "datumEinde": "20110329"
+                },
+                "kvkNummer": "90000668"
+              },
+              "datumVoortzetting": "20110329"
+            },
+            "voltijdWerkzamePersonen": 1,
+            "deeltijdWerkzamePersonen": 0,
+            "totaalWerkzamePersonen": 1,
+            "activiteiten": {
+              "omschrijving": "Het (doen) uitoefenen van de praktijk voor fysiotherapie.",
+              "sbiActiviteit": [
+                {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20110331100900620" },
+                    "datumAanvang": "20110329"
+                  },
+                  "sbiCode": {
+                    "code": "86912",
+                    "omschrijving": "Praktijken van fysiotherapeuten",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+                }
+              ],
+              "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            },
+            "handeltOnder": [
+              {
+                "relatieRegistratie": {
+                  "attributes": { "registratieTijdstip": "20110405115313320" },
+                  "datumAanvang": "20110329"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20110405115313320" },
+                    "datumAanvang": "20110329"
+                  },
+                  "naam": "Regional Ganzsolhex B.V.",
+                  "volgorde": 0
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "isOvergenomenVan": {
+        "maatschappelijkeActiviteit": {
+          "registratie": {
+            "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+            "datumAanvang": "19971101",
+            "datumEinde": "20110329"
+          },
+          "kvkNummer": "90000668"
+        },
+        "datumVoortzetting": "20110329"
+      }
+    }
+  },
+  "wordtGeleidVanuit": {
+    "commercieleVestiging": {
+      "registratie": { "attributes": { "registratieTijdstip": "20110331100900620" }, "datumAanvang": "19971101" },
+      "vestigingsnummer": "990000873283",
+      "bezoekLocatie": {
+        "registratie": { "attributes": { "registratieTijdstip": "20110331100900620" }, "datumAanvang": "20110329" },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Tulpstraat",
+            "huisnummer": 19,
+            "huisnummerToevoeging": "13",
+            "postcode": { "cijfercombinatie": "5701", "lettercombinatie": "EV" },
+            "plaats": "Helmond",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999532475",
+              "identificatieAdresseerbaarObject": "0074999999962725"
+            }
+          }
+        },
+        "volledigAdres": "Tulpstraat 19 5701EV Helmond"
+      },
+      "postLocatie": {
+        "registratie": { "attributes": { "registratieTijdstip": "20131009085124670" }, "datumAanvang": "20110329" },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Glenn Millerrode",
+            "huisnummer": 21,
+            "postcode": { "cijfercombinatie": "2717", "lettercombinatie": "CA" },
+            "plaats": "Zoetermeer",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999483676",
+              "identificatieAdresseerbaarObject": "0074999999564071"
+            }
+          }
+        },
+        "volledigAdres": "Glenn Millerrode 21 2717CA Zoetermeer"
+      },
+      "communicatiegegevens": {
+        "registratie": { "attributes": { "registratieTijdstip": "20130821084447581" }, "datumAanvang": "20130820" },
+        "communicatienummer": [
+          { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+          { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+          { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "F", "omschrijving": "Fax" } }
+        ],
+        "domeinNaam": ["www.kvk.nl"]
+      },
+      "eersteHandelsnaam": "Regional Ganzsolhex B.V.",
+      "isOvergenomenVan": {
+        "relatieRegistratie": {
+          "attributes": { "registratieTijdstip": "20110331100900620" },
+          "datumAanvang": "20110329"
+        },
+        "maatschappelijkeActiviteit": {
+          "registratie": {
+            "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+            "datumAanvang": "19971101",
+            "datumEinde": "20110329"
+          },
+          "kvkNummer": "90000668"
+        },
+        "datumVoortzetting": "20110329"
+      },
+      "voltijdWerkzamePersonen": 6,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 6,
+      "activiteiten": {
+        "omschrijving": "Het (doen) utoefenen van de praktijk van fysiotherapie.",
+        "sbiActiviteit": [
+          {
+            "registratie": { "attributes": { "registratieTijdstip": "20110331100900620" }, "datumAanvang": "20110329" },
+            "sbiCode": {
+              "code": "86912",
+              "omschrijving": "Praktijken van fysiotherapeuten",
+              "referentieType": "ActiviteitCode"
+            },
+            "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+          }
+        ],
+        "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+      },
+      "handeltOnder": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstip": "20110331100900620" },
+            "datumAanvang": "20110329"
+          },
+          "handelsnaam": {
+            "registratie": { "attributes": { "registratieTijdstip": "20110331100900620" }, "datumAanvang": "20110329" },
+            "naam": "Regional Ganzsolhex B.V.",
+            "volgorde": 0
+          }
+        }
+      ]
+    }
+  },
+  "heeftAlsEigenaar": {
+    "relatieRegistratie": { "attributes": { "registratieTijdstip": "20110331100900620" }, "datumAanvang": "20110329" },
+    "rechtspersoon": {
+      "extraElementen": {
+        "extraElement": [
+          { "attributes": { "naam": "datumAanvangStatuten" }, "$value": "20110329" },
+          { "attributes": { "naam": "datumAkteStatuten" }, "$value": "20110329" }
+        ]
+      },
+      "registratie": { "attributes": { "registratieTijdstip": "20110331100900620" }, "datumAanvang": "20110329" },
+      "persoonRechtsvorm": "Besloten Vennootschap",
+      "volledigeNaam": "Regional Ganzsolhex B.V.",
+      "uitgebreideRechtsvorm": "Besloten Vennootschap",
+      "heeft": [
+        {
+          "bestuursfunctie": {
+            "registratie": { "attributes": { "registratieTijdstip": "20110331100900620" }, "datumAanvang": "20110329" },
+            "functietitel": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20110331100900620" },
+                "datumAanvang": "20110329"
+              },
+              "titel": "Algemeen directeur",
+              "isStatutaireTitel": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+            },
+            "door": {
+              "rechtspersoon": {
+                "persoonRechtsvorm": "Besloten Vennootschap",
+                "volledigeNaam": "Free Haysunfind B.V.",
+                "bezoekLocatiePersoon": {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20131009085124670" },
+                    "datumAanvang": "20110329"
+                  },
+                  "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+                  "adres": {
+                    "binnenlandsAdres": {
+                      "straatnaam": "Glenn Millerrode",
+                      "huisnummer": "21",
+                      "postcode": { "cijfercombinatie": "2717", "lettercombinatie": "CA" },
+                      "plaats": "Zoetermeer",
+                      "bagId": {
+                        "identificatieNummeraanduiding": "0074999999483676",
+                        "identificatieAdresseerbaarObject": "0074999999564071"
+                      }
+                    }
+                  },
+                  "volledigAdres": "Glenn Millerrode 21 2717CA Zoetermeer"
+                },
+                "isEigenaarVan": {
+                  "maatschappelijkeActiviteit": {
+                    "kvkNummer": "90003519",
+                    "nonMailing": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+                  }
+                },
+                "rsin": "992006594"
+              }
+            },
+            "functie": { "code": "02", "omschrijving": "Bestuurder", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20110331100900620" },
+                "datumAanvang": "20110329"
+              },
+              "soort": {
+                "code": "azb",
+                "omschrijving": "Alleen/zelfstandig bevoegd",
+                "referentieType": "SoortBevoegdheidBestuurder"
+              },
+              "isBevoegdMetAnderePersonen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        },
+        {
+          "overigeFunctionaris": {
+            "registratie": { "attributes": { "registratieTijdstip": "20110331100900620" }, "datumAanvang": "20110329" },
+            "door": {
+              "rechtspersoon": {
+                "persoonRechtsvorm": "Besloten Vennootschap",
+                "volledigeNaam": "Free Haysunfind B.V.",
+                "bezoekLocatiePersoon": {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20131009085124670" },
+                    "datumAanvang": "20110329"
+                  },
+                  "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+                  "adres": {
+                    "binnenlandsAdres": {
+                      "straatnaam": "Glenn Millerrode",
+                      "huisnummer": "21",
+                      "postcode": { "cijfercombinatie": "2717", "lettercombinatie": "CA" },
+                      "plaats": "Zoetermeer",
+                      "bagId": {
+                        "identificatieNummeraanduiding": "0074999999483676",
+                        "identificatieAdresseerbaarObject": "0074999999564071"
+                      }
+                    }
+                  },
+                  "volledigAdres": "Glenn Millerrode 21 2717CA Zoetermeer"
+                },
+                "isEigenaarVan": {
+                  "maatschappelijkeActiviteit": {
+                    "kvkNummer": "90003519",
+                    "nonMailing": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+                  }
+                },
+                "rsin": "992006594"
+              }
+            },
+            "functie": { "code": "08", "omschrijving": "Enig aandeelhouder", "referentieType": "FunctionarisRol" }
+          }
+        }
+      ],
+      "rsin": "992307296",
+      "naamgeving": {
+        "registratie": { "attributes": { "registratieTijdstip": "20110331100900620" }, "datumAanvang": "20110329" },
+        "naam": "Regional Ganzsolhex B.V."
+      },
+      "rechtsvorm": { "code": "BV", "omschrijving": "Besloten Vennootschap", "referentieType": "Rechtsvorm" },
+      "statutaireZetel": "Nepplaats",
+      "aanvangStatutaireZetel": "20110329",
+      "datumAkteOprichting": "20110329",
+      "datumOprichting": "20110329",
+      "datumEersteInschrijvingHandelsregister": "20110331",
+      "datumAkteStatutenwijziging": "20110329",
+      "stelselInrichting": { "code": "D", "omschrijving": "Dualistisch", "referentieType": "StelselInrichting" },
+      "structuur": { "code": "GS", "omschrijving": "Gewone structuur", "referentieType": "RechtsvormStructuur" },
+      "geplaatstKapitaal": {
+        "registratie": { "attributes": { "registratieTijdstip": "20110331100900620" }, "datumAanvang": "20110329" },
+        "bedrag": { "waarde": "18000", "valuta": { "code": "EUR", "omschrijving": "Euro", "referentieType": "Valuta" } }
+      },
+      "gestortKapitaal": {
+        "registratie": { "attributes": { "registratieTijdstip": "20110331100900620" }, "datumAanvang": "20110329" },
+        "bedrag": { "waarde": "18000", "valuta": { "code": "EUR", "omschrijving": "Euro", "referentieType": "Valuta" } }
+      },
+      "bezoekLocatie": {
+        "registratie": { "attributes": { "registratieTijdstip": "20110331100900620" }, "datumAanvang": "20110329" },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Tulpstraat",
+            "huisnummer": 19,
+            "huisnummerToevoeging": "13",
+            "postcode": { "cijfercombinatie": "5701", "lettercombinatie": "EV" },
+            "plaats": "Helmond",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999532475",
+              "identificatieAdresseerbaarObject": "0074999999962725"
+            }
+          }
+        },
+        "volledigAdres": "Tulpstraat 19 5701EV Helmond"
+      }
+    }
+  }
+}

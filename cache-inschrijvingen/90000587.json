@@ -1,0 +1,457 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 20061023,
+      "DatumEinde": 20101026,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90000587,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20091106,
+        "DatumEinde": 20101026,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Landschrijversveld",
+          "Huisnummer": 207,
+          "Postcode": {
+            "Cijfercombinatie": 5403,
+            "Lettercombinatie": "EP"
+          },
+          "Plaats": "Uden",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999654364,
+            "IdentificatieAdresseerbaarObject": 74999999502117
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Landschrijversveld 207 5403EP Uden"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20091106,
+        "DatumEinde": 20101026,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Landschrijversveld",
+          "Huisnummer": 207,
+          "Postcode": {
+            "Cijfercombinatie": 5403,
+            "Lettercombinatie": "EP"
+          },
+          "Plaats": "Uden",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999654364,
+            "IdentificatieAdresseerbaarObject": 74999999502117
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Landschrijversveld 207 5403EP Uden"
+    },
+    "Communicatiegegevens": {
+      "Registratie": {
+        "DatumAanvang": 20070202,
+        "DatumEinde": 20101026,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Communicatienummer": [
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        },
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        },
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "F",
+            "Omschrijving": "Fax"
+          }
+        }
+      ],
+      "EmailAdres": "nepemailadres@kvk.nl"
+    },
+    "Naam": "Grand opentrans",
+    "ManifesteertZichAls": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 20070202,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Onderneming": {
+        "Registratie": {
+          "DatumAanvang": 20070202,
+          "DatumEinde": 20101026,
+          "RegistratieTijdstipNoValue": null
+        },
+        "KvkNummer": 90000587,
+        "SbiActiviteit": [
+          {
+            "Registratie": {
+              "DatumAanvang": 20070202,
+              "DatumEinde": 20101026,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 1241,
+              "Omschrijving": "Teelt van appels en peren",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          {
+            "Registratie": {
+              "DatumAanvang": 20070202,
+              "DatumEinde": 20101026,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 170,
+              "Omschrijving": "Jacht",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "N",
+              "Omschrijving": "Nee",
+              "ReferentieType": "geenRT"
+            }
+          }
+        ],
+        "VoltijdWerkzamePersonen": 4,
+        "DeeltijdWerkzamePersonen": 0,
+        "TotaalWerkzamePersonen": 4,
+        "HandeltOnder": [
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20090402,
+                "DatumEinde": 20101026,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Grand opentrans",
+              "Volgorde": 0
+            },
+            "RelatieRegistratie": null
+          },
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20080218,
+                "DatumEinde": 20101026,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Grand opentrans de tweede",
+              "Volgorde": 1
+            },
+            "RelatieRegistratie": null
+          },
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20080218,
+                "DatumEinde": 20101026,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Grand opentrans de derde",
+              "Volgorde": 2
+            },
+            "RelatieRegistratie": null
+          }
+        ],
+        "WordtUitgeoefendIn": {
+          "RelatieRegistratie": {
+            "DatumAanvang": 20070202,
+            "RegistratieTijdstipNoValue": null
+          },
+          "CommercieleVestiging": {
+            "Registratie": {
+              "DatumAanvang": 20070202,
+              "DatumEinde": 20101026,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Vestigingsnummer": 990000256186,
+            "BezoekLocatie": {
+              "Registratie": {
+                "DatumAanvang": 20091106,
+                "DatumEinde": 20101026,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Afgeschermd": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Adres": {
+                "BinnenlandsAdres": {
+                  "Straatnaam": "Landschrijversveld",
+                  "Huisnummer": 207,
+                  "Postcode": {
+                    "Cijfercombinatie": 5403,
+                    "Lettercombinatie": "EP"
+                  },
+                  "Plaats": "Uden",
+                  "BagId": {
+                    "IdentificatieNummeraanduiding": 74999999654364,
+                    "IdentificatieAdresseerbaarObject": 74999999502117
+                  },
+                  "HuisnummerToevoeging": null
+                }
+              },
+              "VolledigAdres": "Landschrijversveld 207 5403EP Uden"
+            },
+            "Communicatiegegevens": {
+              "Registratie": {
+                "DatumAanvang": 20070202,
+                "DatumEinde": 20101026,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Communicatienummer": [
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "T",
+                    "Omschrijving": "Telefoon"
+                  }
+                },
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "T",
+                    "Omschrijving": "Telefoon"
+                  }
+                },
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "F",
+                    "Omschrijving": "Fax"
+                  }
+                }
+              ],
+              "EmailAdres": "nepemailadres@kvk.nl"
+            },
+            "EersteHandelsnaam": "Grand opentrans",
+            "VoltijdWerkzamePersonen": 4,
+            "DeeltijdWerkzamePersonen": 0,
+            "TotaalWerkzamePersonen": 4,
+            "Activiteiten": {
+              "Omschrijving": "Productontwikkeling en advies op het gebied van de luchtvaart en milieu. Zeppelinvluchten voor corporate hospitality, particulieren en advertising doeleinden.",
+              "SbiActiviteit": {
+                "Registratie": {
+                  "DatumAanvang": 20070202,
+                  "DatumEinde": 20101026,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "SbiCode": {
+                  "Code": 1241,
+                  "Omschrijving": "Teelt van appels en peren",
+                  "ReferentieType": "ActiviteitCode"
+                },
+                "IsHoofdactiviteit": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Exporteert": {
+                "Code": "J",
+                "Omschrijving": "Ja",
+                "ReferentieType": "geenRT"
+              },
+              "Importeert": {
+                "Code": "J",
+                "Omschrijving": "Ja",
+                "ReferentieType": "geenRT"
+              }
+            },
+            "HandeltOnder": {
+              "Handelsnaam": {
+                "Registratie": {
+                  "DatumAanvang": 20090402,
+                  "DatumEinde": 20101026,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Naam": "Grand opentrans",
+                "Volgorde": 0
+              },
+              "RelatieRegistratie": {
+                "DatumAanvang": 20090402,
+                "RegistratieTijdstipNoValue": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "WordtGeleidVanuit": {
+      "CommercieleVestiging": {
+        "Registratie": {
+          "DatumAanvang": 20070202,
+          "DatumEinde": 20101026,
+          "RegistratieTijdstipNoValue": null
+        },
+        "Vestigingsnummer": 990000256186,
+        "BezoekLocatie": {
+          "Registratie": {
+            "DatumAanvang": 20091106,
+            "DatumEinde": 20101026,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Afgeschermd": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Adres": {
+            "BinnenlandsAdres": {
+              "Straatnaam": "Landschrijversveld",
+              "Huisnummer": 207,
+              "Postcode": {
+                "Cijfercombinatie": 5403,
+                "Lettercombinatie": "EP"
+              },
+              "Plaats": "Uden",
+              "BagId": {
+                "IdentificatieNummeraanduiding": 74999999654364,
+                "IdentificatieAdresseerbaarObject": 74999999502117
+              },
+              "HuisnummerToevoeging": null
+            }
+          },
+          "VolledigAdres": "Landschrijversveld 207 5403EP Uden"
+        },
+        "Communicatiegegevens": {
+          "Registratie": {
+            "DatumAanvang": 20070202,
+            "DatumEinde": 20101026,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Communicatienummer": [
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "T",
+                "Omschrijving": "Telefoon"
+              }
+            },
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "T",
+                "Omschrijving": "Telefoon"
+              }
+            },
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "F",
+                "Omschrijving": "Fax"
+              }
+            }
+          ],
+          "EmailAdres": "nepemailadres@kvk.nl"
+        },
+        "EersteHandelsnaam": "Grand opentrans",
+        "VoltijdWerkzamePersonen": 4,
+        "DeeltijdWerkzamePersonen": 0,
+        "TotaalWerkzamePersonen": 4,
+        "Activiteiten": {
+          "Omschrijving": "Productontwikkeling en advies op het gebied van de luchtvaart en milieu. Zeppelinvluchten voor corporate hospitality, particulieren en advertising doeleinden.",
+          "SbiActiviteit": {
+            "Registratie": {
+              "DatumAanvang": 20070202,
+              "DatumEinde": 20101026,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 1241,
+              "Omschrijving": "Teelt van appels en peren",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          "Exporteert": {
+            "Code": "J",
+            "Omschrijving": "Ja",
+            "ReferentieType": "geenRT"
+          },
+          "Importeert": {
+            "Code": "J",
+            "Omschrijving": "Ja",
+            "ReferentieType": "geenRT"
+          }
+        },
+        "HandeltOnder": {
+          "Handelsnaam": {
+            "Registratie": {
+              "DatumAanvang": 20090402,
+              "DatumEinde": 20101026,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Naam": "Grand opentrans",
+            "Volgorde": 0
+          },
+          "RelatieRegistratie": {
+            "DatumAanvang": 20090402,
+            "RegistratieTijdstipNoValue": null
+          }
+        }
+      }
+    },
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 20061023,
+        "RegistratieTijdstipNoValue": null
+      },
+      "NatuurlijkPersoon": null,
+      "Samenwerkingsverband": null,
+      "Persoon": null,
+      "BuitenlandseVennootschap": {
+        "BuitenlandseVennootschapGegevens": {
+          "Rechtsvormcategorie": {
+            "Code": "0001",
+            "Omschrijving": "Kapitaalvennootschap binnen EER"
+          }
+        },
+        "Heeft": []
+      },
+      "Rechtspersoon": null
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

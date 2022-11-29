@@ -1,0 +1,365 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 19970221,
+      "DatumEinde": 0,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90005430,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20110401,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Noordzeestraat",
+          "Huisnummer": 19,
+          "Postcode": {
+            "Cijfercombinatie": 1784,
+            "Lettercombinatie": "BK"
+          },
+          "Plaats": "Den Helder",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999827351,
+            "IdentificatieAdresseerbaarObject": 74999999502694
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Noordzeestraat 19 1784BK Den Helder"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20110401,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": null
+      },
+      "VolledigAdres": "Abbey road 466 58562M Slough"
+    },
+    "Communicatiegegevens": {
+      "Registratie": {
+        "DatumAanvang": 20110401,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Communicatienummer": [
+        {
+          "Toegangscode": 32,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        }
+      ],
+      "EmailAdres": "nepemailadres@kvk.nl"
+    },
+    "Naam": "Global Siliconmedia",
+    "ManifesteertZichAls": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 19970221,
+        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+      },
+      "Onderneming": {
+        "Registratie": {
+          "DatumAanvang": 19970221,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "KvkNummer": 90005430,
+        "SbiActiviteit": [
+          {
+            "Registratie": {
+              "DatumAanvang": 19970221,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 85592,
+              "Omschrijving": "Bedrijfsopleiding en -training",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          }
+        ],
+        "VoltijdWerkzamePersonen": 0,
+        "DeeltijdWerkzamePersonen": 2,
+        "TotaalWerkzamePersonen": 2,
+        "HandeltOnder": [
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20010814,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Global Siliconmedia Eenmanszaak",
+              "Volgorde": 0
+            },
+            "RelatieRegistratie": null
+          }
+        ],
+        "WordtUitgeoefendIn": {
+          "RelatieRegistratie": {
+            "DatumAanvang": 19970221,
+            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+          },
+          "CommercieleVestiging": {
+            "Registratie": {
+              "DatumAanvang": 19970221,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Vestigingsnummer": 990000628453,
+            "BezoekLocatie": {
+              "Registratie": {
+                "DatumAanvang": 20110401,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Afgeschermd": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Adres": {
+                "BinnenlandsAdres": {
+                  "Straatnaam": "Noordzeestraat",
+                  "Huisnummer": 19,
+                  "Postcode": {
+                    "Cijfercombinatie": 1784,
+                    "Lettercombinatie": "BK"
+                  },
+                  "Plaats": "Den Helder",
+                  "BagId": {
+                    "IdentificatieNummeraanduiding": 74999999827351,
+                    "IdentificatieAdresseerbaarObject": 74999999502694
+                  },
+                  "HuisnummerToevoeging": null
+                }
+              },
+              "VolledigAdres": "Noordzeestraat 19 1784BK Den Helder"
+            },
+            "Communicatiegegevens": {
+              "Registratie": {
+                "DatumAanvang": 20110401,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Communicatienummer": [
+                {
+                  "Toegangscode": 32,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "T",
+                    "Omschrijving": "Telefoon"
+                  }
+                }
+              ],
+              "EmailAdres": "nepemailadres@kvk.nl"
+            },
+            "EersteHandelsnaam": "Global Siliconmedia Eenmanszaak",
+            "VoltijdWerkzamePersonen": 0,
+            "DeeltijdWerkzamePersonen": 2,
+            "TotaalWerkzamePersonen": 2,
+            "Activiteiten": {
+              "Omschrijving": "Gedragswetenschappelijke training, opleiding, coaching en counseling voor het onderwijs, (non)profit organisaties en particulieren",
+              "SbiActiviteit": {
+                "Registratie": {
+                  "DatumAanvang": 19970221,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "SbiCode": {
+                  "Code": 85592,
+                  "Omschrijving": "Bedrijfsopleiding en -training",
+                  "ReferentieType": "ActiviteitCode"
+                },
+                "IsHoofdactiviteit": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Exporteert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Importeert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              }
+            },
+            "HandeltOnder": {
+              "Handelsnaam": {
+                "Registratie": {
+                  "DatumAanvang": 20010814,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Naam": "Global Siliconmedia Eenmanszaak",
+                "Volgorde": 0
+              },
+              "RelatieRegistratie": {
+                "DatumAanvang": 20010814,
+                "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+              }
+            }
+          }
+        }
+      }
+    },
+    "WordtGeleidVanuit": {
+      "CommercieleVestiging": {
+        "Registratie": {
+          "DatumAanvang": 19970221,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "Vestigingsnummer": 990000628453,
+        "BezoekLocatie": {
+          "Registratie": {
+            "DatumAanvang": 20110401,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Afgeschermd": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Adres": {
+            "BinnenlandsAdres": {
+              "Straatnaam": "Noordzeestraat",
+              "Huisnummer": 19,
+              "Postcode": {
+                "Cijfercombinatie": 1784,
+                "Lettercombinatie": "BK"
+              },
+              "Plaats": "Den Helder",
+              "BagId": {
+                "IdentificatieNummeraanduiding": 74999999827351,
+                "IdentificatieAdresseerbaarObject": 74999999502694
+              },
+              "HuisnummerToevoeging": null
+            }
+          },
+          "VolledigAdres": "Noordzeestraat 19 1784BK Den Helder"
+        },
+        "Communicatiegegevens": {
+          "Registratie": {
+            "DatumAanvang": 20110401,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Communicatienummer": [
+            {
+              "Toegangscode": 32,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "T",
+                "Omschrijving": "Telefoon"
+              }
+            }
+          ],
+          "EmailAdres": "nepemailadres@kvk.nl"
+        },
+        "EersteHandelsnaam": "Global Siliconmedia Eenmanszaak",
+        "VoltijdWerkzamePersonen": 0,
+        "DeeltijdWerkzamePersonen": 2,
+        "TotaalWerkzamePersonen": 2,
+        "Activiteiten": {
+          "Omschrijving": "Gedragswetenschappelijke training, opleiding, coaching en counseling voor het onderwijs, (non)profit organisaties en particulieren",
+          "SbiActiviteit": {
+            "Registratie": {
+              "DatumAanvang": 19970221,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 85592,
+              "Omschrijving": "Bedrijfsopleiding en -training",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          "Exporteert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Importeert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          }
+        },
+        "HandeltOnder": {
+          "Handelsnaam": {
+            "Registratie": {
+              "DatumAanvang": 20010814,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Naam": "Global Siliconmedia Eenmanszaak",
+            "Volgorde": 0
+          },
+          "RelatieRegistratie": {
+            "DatumAanvang": 20010814,
+            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+          }
+        }
+      }
+    },
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 19970221,
+        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+      },
+      "NatuurlijkPersoon": {
+        "ExtraElementen": {
+          "ExtraElement": {
+            "Naam": "achternaam"
+          }
+        },
+        "Registratie": {
+          "DatumAanvang": 19610628,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "PersoonRechtsvorm": "Eenmanszaak",
+        "VolledigeNaam": "Jan Klaasen",
+        "UitgebreideRechtsvorm": "Eenmanszaak",
+        "Geslachtsnaam": "Klaasen",
+        "Voornamen": "Jan",
+        "Heeft": [],
+        "Geboortedatum": "20000101"
+      },
+      "Samenwerkingsverband": null,
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": null
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

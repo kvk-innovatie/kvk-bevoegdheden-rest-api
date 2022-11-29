@@ -1,0 +1,717 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 19900807,
+      "DatumEinde": 20150717,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90000900,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20080701,
+        "DatumEinde": 20150717,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Slapershaven",
+          "Huisnummer": 7,
+          "Postcode": {
+            "Cijfercombinatie": 1621,
+            "Lettercombinatie": "BK"
+          },
+          "Plaats": "Hoorn",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999959868,
+            "IdentificatieAdresseerbaarObject": 74999999380594
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Slapershaven 7 1621BK Hoorn"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20080701,
+        "DatumEinde": 20150717,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Slapershaven",
+          "Huisnummer": 7,
+          "Postcode": {
+            "Cijfercombinatie": 1621,
+            "Lettercombinatie": "BK"
+          },
+          "Plaats": "Hoorn",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999959868,
+            "IdentificatieAdresseerbaarObject": 74999999380594
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Slapershaven 7 1621BK Hoorn"
+    },
+    "Communicatiegegevens": {
+      "Registratie": {
+        "DatumAanvang": 20080701,
+        "DatumEinde": 20150717,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Communicatienummer": [
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        },
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "F",
+            "Omschrijving": "Fax"
+          }
+        }
+      ],
+      "EmailAdres": null
+    },
+    "Naam": "Free Hotware",
+    "ManifesteertZichAls": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 20080701,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Onderneming": {
+        "Registratie": {
+          "DatumAanvang": 20080701,
+          "DatumEinde": 20150717,
+          "RegistratieTijdstipNoValue": null
+        },
+        "KvkNummer": 90000900,
+        "SbiActiviteit": [
+          {
+            "Registratie": {
+              "DatumAanvang": 20080701,
+              "DatumEinde": 20150717,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 94995,
+              "Omschrijving": "Overkoepelende organen en samenwerkings- en adviesorganen (niet op het gebied van gezondheids- en welzijnszorg, sport en recreatie)",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          }
+        ],
+        "VoltijdWerkzamePersonen": 0,
+        "DeeltijdWerkzamePersonen": 0,
+        "TotaalWerkzamePersonen": 0,
+        "HandeltOnder": [
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20080701,
+                "DatumEinde": 20150717,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Free Hotware",
+              "Volgorde": 0
+            },
+            "RelatieRegistratie": null
+          }
+        ],
+        "WordtUitgeoefendIn": {
+          "RelatieRegistratie": {
+            "DatumAanvang": 20080701,
+            "RegistratieTijdstipNoValue": null
+          },
+          "CommercieleVestiging": {
+            "Registratie": {
+              "DatumAanvang": 20080701,
+              "DatumEinde": 20150717,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Vestigingsnummer": 990000861743,
+            "BezoekLocatie": {
+              "Registratie": {
+                "DatumAanvang": 20080701,
+                "DatumEinde": 20150717,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Afgeschermd": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Adres": {
+                "BinnenlandsAdres": {
+                  "Straatnaam": "Slapershaven",
+                  "Huisnummer": 7,
+                  "Postcode": {
+                    "Cijfercombinatie": 1621,
+                    "Lettercombinatie": "BK"
+                  },
+                  "Plaats": "Hoorn",
+                  "BagId": {
+                    "IdentificatieNummeraanduiding": 74999999959868,
+                    "IdentificatieAdresseerbaarObject": 74999999380594
+                  },
+                  "HuisnummerToevoeging": null
+                }
+              },
+              "VolledigAdres": "Slapershaven 7 1621BK Hoorn"
+            },
+            "Communicatiegegevens": {
+              "Registratie": {
+                "DatumAanvang": 20080701,
+                "DatumEinde": 20150717,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Communicatienummer": [
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "T",
+                    "Omschrijving": "Telefoon"
+                  }
+                },
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "F",
+                    "Omschrijving": "Fax"
+                  }
+                }
+              ],
+              "EmailAdres": null
+            },
+            "EersteHandelsnaam": "Free Hotware",
+            "VoltijdWerkzamePersonen": 0,
+            "DeeltijdWerkzamePersonen": 0,
+            "TotaalWerkzamePersonen": 0,
+            "Activiteiten": {
+              "Omschrijving": "Het bevorderen, ontwikkelen, ondersteunen en uitbreiden van samenwerking van advocaten- kantoren, die in verschillende landen van de Europese Gemeenschap zijn gevestigd.",
+              "SbiActiviteit": {
+                "Registratie": {
+                  "DatumAanvang": 20080701,
+                  "DatumEinde": 20150717,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "SbiCode": {
+                  "Code": 94995,
+                  "Omschrijving": "Overkoepelende organen en samenwerkings- en adviesorganen (niet op het gebied van gezondheids- en welzijnszorg, sport en recreatie)",
+                  "ReferentieType": "ActiviteitCode"
+                },
+                "IsHoofdactiviteit": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Exporteert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Importeert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              }
+            },
+            "HandeltOnder": {
+              "Handelsnaam": {
+                "Registratie": {
+                  "DatumAanvang": 20080701,
+                  "DatumEinde": 20150717,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Naam": "Free Hotware",
+                "Volgorde": 0
+              },
+              "RelatieRegistratie": {
+                "DatumAanvang": 20080701,
+                "RegistratieTijdstipNoValue": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "WordtGeleidVanuit": {
+      "CommercieleVestiging": {
+        "Registratie": {
+          "DatumAanvang": 20080701,
+          "DatumEinde": 20150717,
+          "RegistratieTijdstipNoValue": null
+        },
+        "Vestigingsnummer": 990000861743,
+        "BezoekLocatie": {
+          "Registratie": {
+            "DatumAanvang": 20080701,
+            "DatumEinde": 20150717,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Afgeschermd": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Adres": {
+            "BinnenlandsAdres": {
+              "Straatnaam": "Slapershaven",
+              "Huisnummer": 7,
+              "Postcode": {
+                "Cijfercombinatie": 1621,
+                "Lettercombinatie": "BK"
+              },
+              "Plaats": "Hoorn",
+              "BagId": {
+                "IdentificatieNummeraanduiding": 74999999959868,
+                "IdentificatieAdresseerbaarObject": 74999999380594
+              },
+              "HuisnummerToevoeging": null
+            }
+          },
+          "VolledigAdres": "Slapershaven 7 1621BK Hoorn"
+        },
+        "Communicatiegegevens": {
+          "Registratie": {
+            "DatumAanvang": 20080701,
+            "DatumEinde": 20150717,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Communicatienummer": [
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "T",
+                "Omschrijving": "Telefoon"
+              }
+            },
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "F",
+                "Omschrijving": "Fax"
+              }
+            }
+          ],
+          "EmailAdres": null
+        },
+        "EersteHandelsnaam": "Free Hotware",
+        "VoltijdWerkzamePersonen": 0,
+        "DeeltijdWerkzamePersonen": 0,
+        "TotaalWerkzamePersonen": 0,
+        "Activiteiten": {
+          "Omschrijving": "Het bevorderen, ontwikkelen, ondersteunen en uitbreiden van samenwerking van advocaten- kantoren, die in verschillende landen van de Europese Gemeenschap zijn gevestigd.",
+          "SbiActiviteit": {
+            "Registratie": {
+              "DatumAanvang": 20080701,
+              "DatumEinde": 20150717,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 94995,
+              "Omschrijving": "Overkoepelende organen en samenwerkings- en adviesorganen (niet op het gebied van gezondheids- en welzijnszorg, sport en recreatie)",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          "Exporteert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Importeert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          }
+        },
+        "HandeltOnder": {
+          "Handelsnaam": {
+            "Registratie": {
+              "DatumAanvang": 20080701,
+              "DatumEinde": 20150717,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Naam": "Free Hotware",
+            "Volgorde": 0
+          },
+          "RelatieRegistratie": {
+            "DatumAanvang": 20080701,
+            "RegistratieTijdstipNoValue": null
+          }
+        }
+      }
+    },
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 19900807,
+        "RegistratieTijdstipNoValue": null
+      },
+      "NatuurlijkPersoon": null,
+      "Samenwerkingsverband": null,
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": {
+        "VoornemenTotOntbinding": null,
+        "ActiviteitenGestaaktPer": null,
+        "Rechtsvorm": {
+          "Code": "EESV",
+          "Omschrijving": "Europees economisch samenwerkingsverband"
+        },
+        "Heeft": [
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": {
+              "Functie": {
+                "Code": "17",
+                "Omschrijving": "Lid EESV",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19851011,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Bevoegdheid": null,
+              "Functietitel": null
+            },
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": {
+              "Functie": {
+                "Code": "17",
+                "Omschrijving": "Lid EESV",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19620909,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Bevoegdheid": null,
+              "Functietitel": null
+            },
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": {
+              "Functie": {
+                "Code": "17",
+                "Omschrijving": "Lid EESV",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19400409,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Bevoegdheid": null,
+              "Functietitel": null
+            },
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": {
+              "Functie": {
+                "Code": "02",
+                "Omschrijving": "Bestuurder",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19851011,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Bevoegdheid": {
+                "Soort": {
+                  "Code": "gb",
+                  "Omschrijving": "Gezamenlijk bevoegd"
+                }
+              },
+              "Functietitel": null
+            },
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": {
+              "Functie": {
+                "Code": "17",
+                "Omschrijving": "Lid EESV",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19750408,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Bevoegdheid": null,
+              "Functietitel": null
+            },
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": {
+              "Functie": {
+                "Code": "17",
+                "Omschrijving": "Lid EESV",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19630308,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Bevoegdheid": null,
+              "Functietitel": null
+            },
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": {
+              "Functie": {
+                "Code": "02",
+                "Omschrijving": "Bestuurder",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19750408,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Bevoegdheid": {
+                "Soort": {
+                  "Code": "gb",
+                  "Omschrijving": "Gezamenlijk bevoegd"
+                }
+              },
+              "Functietitel": null
+            },
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": {
+              "Functie": {
+                "Code": "10",
+                "Omschrijving": "Bewaarder boeken en bescheiden",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19851011,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Bevoegdheid": null,
+              "Functietitel": null
+            },
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          }
+        ],
+        "VolledigeNaam": "Jan Klaasen",
+        "Rsin": "992679655"
+      }
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

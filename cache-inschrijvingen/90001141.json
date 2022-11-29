@@ -1,0 +1,281 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 19980325,
+      "DatumEinde": 20120412,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90001141,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 19980325,
+        "DatumEinde": 20120412,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Willy Brandtlaan",
+          "Huisnummer": 10,
+          "Postcode": {
+            "Cijfercombinatie": 6716,
+            "Lettercombinatie": "RP"
+          },
+          "Plaats": "Ede",
+          "BagId": null,
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Willy Brandtlaan 10\n6716RP Ede"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 19980325,
+        "DatumEinde": 20120412,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Willy Brandtlaan",
+          "Huisnummer": 10,
+          "Postcode": {
+            "Cijfercombinatie": 6716,
+            "Lettercombinatie": "RP"
+          },
+          "Plaats": "Ede",
+          "BagId": null,
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Willy Brandtlaan 10\n6716RP Ede"
+    },
+    "Communicatiegegevens": null,
+    "Naam": "Company Zapbezoom Co\u00F6peratie",
+    "ManifesteertZichAls": null,
+    "WordtGeleidVanuit": null,
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 19980325,
+        "RegistratieTijdstipNoValue": null
+      },
+      "NatuurlijkPersoon": null,
+      "Samenwerkingsverband": null,
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": {
+        "VoornemenTotOntbinding": null,
+        "ActiviteitenGestaaktPer": null,
+        "Rechtsvorm": {
+          "Code": "COP",
+          "Omschrijving": "Co\u00F6peratie"
+        },
+        "Heeft": [
+          {
+            "FunctionarisBijzondereRechtstoestand": {
+              "Registratie": {
+                "DatumAanvang": 20030423,
+                "DatumEinde": 20120412,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": {
+                  "VolledigeNaam": "Jan Klaasen",
+                  "BezoekLocatiePersoon": {
+                    "Registratie": {
+                      "DatumAanvang": 0,
+                      "DatumEinde": 0,
+                      "RegistratieTijdstipNoValue": null
+                    },
+                    "Afgeschermd": {
+                      "Code": "N",
+                      "Omschrijving": "Nee",
+                      "ReferentieType": "geenRT"
+                    },
+                    "Adres": {
+                      "BinnenlandsAdres": {
+                        "Straatnaam": "Willy Brandtlaan",
+                        "Huisnummer": 10,
+                        "Postcode": {
+                          "Cijfercombinatie": 6716,
+                          "Lettercombinatie": "RP"
+                        },
+                        "Plaats": "Ede",
+                        "BagId": null,
+                        "HuisnummerToevoeging": null
+                      }
+                    },
+                    "VolledigAdres": "Willy Brandtlaan 10 6716RP Ede"
+                  },
+                  "Naam": "mr. Cristy Germain",
+                  "Telefoonnummer": null
+                },
+                "NatuurlijkPersoon": null,
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "07",
+                "Omschrijving": "Curator",
+                "ReferentieType": "FunctionarisRol"
+              }
+            },
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": {
+              "Registratie": {
+                "DatumAanvang": 20030423,
+                "DatumEinde": 20120412,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": {
+                  "VolledigeNaam": "Jan Klaasen",
+                  "BezoekLocatiePersoon": {
+                    "Registratie": {
+                      "DatumAanvang": 0,
+                      "DatumEinde": 0,
+                      "RegistratieTijdstipNoValue": null
+                    },
+                    "Afgeschermd": {
+                      "Code": "N",
+                      "Omschrijving": "Nee",
+                      "ReferentieType": "geenRT"
+                    },
+                    "Adres": {
+                      "BinnenlandsAdres": {
+                        "Straatnaam": "Onbekend",
+                        "Huisnummer": 99999,
+                        "Postcode": null,
+                        "Plaats": "Onbekend",
+                        "BagId": null,
+                        "HuisnummerToevoeging": null
+                      }
+                    },
+                    "VolledigAdres": "Onbekend 99999\n Onbekend"
+                  },
+                  "Naam": "mr. Andres Milnes",
+                  "Telefoonnummer": null
+                },
+                "NatuurlijkPersoon": null,
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "11",
+                "Omschrijving": "Rechter-commissaris",
+                "ReferentieType": "FunctionarisRol"
+              }
+            },
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": {
+              "Functie": {
+                "Code": "02",
+                "Omschrijving": "Bestuurder",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19690402,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Bevoegdheid": {
+                "Soort": {
+                  "Code": "azb",
+                  "Omschrijving": "Alleen/zelfstandig bevoegd"
+                }
+              },
+              "Functietitel": {
+                "Titel": "Voorzitter"
+              }
+            },
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": {
+              "Functie": {
+                "Code": "02",
+                "Omschrijving": "Bestuurder",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19950507,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Bevoegdheid": {
+                "Soort": {
+                  "Code": "azb",
+                  "Omschrijving": "Alleen/zelfstandig bevoegd"
+                }
+              },
+              "Functietitel": {
+                "Titel": "Penningmeester"
+              }
+            },
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          }
+        ],
+        "VolledigeNaam": "Jan Klaasen",
+        "Rsin": "992693287"
+      }
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

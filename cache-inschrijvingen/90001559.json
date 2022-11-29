@@ -1,0 +1,617 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 19950101,
+      "DatumEinde": 0,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90001559,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 19950101,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Stenenstraatje",
+          "Huisnummer": 213,
+          "Postcode": {
+            "Cijfercombinatie": 5688,
+            "Lettercombinatie": "AA"
+          },
+          "Plaats": "Oirschot",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999240307,
+            "IdentificatieAdresseerbaarObject": 74999999861630
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Stenenstraatje 213 5688AA Oirschot"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 19950101,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Stenenstraatje",
+          "Huisnummer": 213,
+          "Postcode": {
+            "Cijfercombinatie": 5688,
+            "Lettercombinatie": "AA"
+          },
+          "Plaats": "Oirschot",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999240307,
+            "IdentificatieAdresseerbaarObject": 74999999861630
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Stenenstraatje 213 5688AA Oirschot"
+    },
+    "Communicatiegegevens": {
+      "Registratie": {
+        "DatumAanvang": 19950101,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Communicatienummer": [
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        },
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        }
+      ],
+      "EmailAdres": "nepemailadres@kvk.nl"
+    },
+    "Naam": "Global Acetrax",
+    "ManifesteertZichAls": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 19950101,
+        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+      },
+      "Onderneming": {
+        "Registratie": {
+          "DatumAanvang": 19950101,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "KvkNummer": 90001559,
+        "SbiActiviteit": [
+          {
+            "Registratie": {
+              "DatumAanvang": 19950101,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 141,
+              "Omschrijving": "Fokken en houden van melkvee",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          {
+            "Registratie": {
+              "DatumAanvang": 20140412,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 119,
+              "Omschrijving": "Teelt van overige eenjarige gewassen",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "N",
+              "Omschrijving": "Nee",
+              "ReferentieType": "geenRT"
+            }
+          }
+        ],
+        "VoltijdWerkzamePersonen": 1,
+        "DeeltijdWerkzamePersonen": 1,
+        "TotaalWerkzamePersonen": 2,
+        "HandeltOnder": [
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20130101,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Global Acetrax",
+              "Volgorde": 0
+            },
+            "RelatieRegistratie": null
+          }
+        ],
+        "WordtUitgeoefendIn": {
+          "RelatieRegistratie": {
+            "DatumAanvang": 19950101,
+            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+          },
+          "CommercieleVestiging": {
+            "Registratie": {
+              "DatumAanvang": 19950101,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Vestigingsnummer": 990000638390,
+            "BezoekLocatie": {
+              "Registratie": {
+                "DatumAanvang": 19950101,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Afgeschermd": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Adres": {
+                "BinnenlandsAdres": {
+                  "Straatnaam": "Stenenstraatje",
+                  "Huisnummer": 213,
+                  "Postcode": {
+                    "Cijfercombinatie": 5688,
+                    "Lettercombinatie": "AA"
+                  },
+                  "Plaats": "Oirschot",
+                  "BagId": {
+                    "IdentificatieNummeraanduiding": 74999999240307,
+                    "IdentificatieAdresseerbaarObject": 74999999861630
+                  },
+                  "HuisnummerToevoeging": null
+                }
+              },
+              "VolledigAdres": "Stenenstraatje 213 5688AA Oirschot"
+            },
+            "Communicatiegegevens": {
+              "Registratie": {
+                "DatumAanvang": 19950101,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Communicatienummer": [
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "T",
+                    "Omschrijving": "Telefoon"
+                  }
+                },
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "T",
+                    "Omschrijving": "Telefoon"
+                  }
+                }
+              ],
+              "EmailAdres": "nepemailadres@kvk.nl"
+            },
+            "EersteHandelsnaam": "Global Acetrax",
+            "VoltijdWerkzamePersonen": 1,
+            "DeeltijdWerkzamePersonen": 1,
+            "TotaalWerkzamePersonen": 2,
+            "Activiteiten": {
+              "Omschrijving": "Fokken en houden van melkvee Teelt van voedergewassen",
+              "SbiActiviteit": {
+                "Registratie": {
+                  "DatumAanvang": 19950101,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "SbiCode": {
+                  "Code": 141,
+                  "Omschrijving": "Fokken en houden van melkvee",
+                  "ReferentieType": "ActiviteitCode"
+                },
+                "IsHoofdactiviteit": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Exporteert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Importeert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              }
+            },
+            "HandeltOnder": {
+              "Handelsnaam": {
+                "Registratie": {
+                  "DatumAanvang": 20130101,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Naam": "Global Acetrax",
+                "Volgorde": 0
+              },
+              "RelatieRegistratie": {
+                "DatumAanvang": 20130101,
+                "RegistratieTijdstipNoValue": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "WordtGeleidVanuit": {
+      "CommercieleVestiging": {
+        "Registratie": {
+          "DatumAanvang": 19950101,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "Vestigingsnummer": 990000638390,
+        "BezoekLocatie": {
+          "Registratie": {
+            "DatumAanvang": 19950101,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Afgeschermd": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Adres": {
+            "BinnenlandsAdres": {
+              "Straatnaam": "Stenenstraatje",
+              "Huisnummer": 213,
+              "Postcode": {
+                "Cijfercombinatie": 5688,
+                "Lettercombinatie": "AA"
+              },
+              "Plaats": "Oirschot",
+              "BagId": {
+                "IdentificatieNummeraanduiding": 74999999240307,
+                "IdentificatieAdresseerbaarObject": 74999999861630
+              },
+              "HuisnummerToevoeging": null
+            }
+          },
+          "VolledigAdres": "Stenenstraatje 213 5688AA Oirschot"
+        },
+        "Communicatiegegevens": {
+          "Registratie": {
+            "DatumAanvang": 19950101,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Communicatienummer": [
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "T",
+                "Omschrijving": "Telefoon"
+              }
+            },
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "T",
+                "Omschrijving": "Telefoon"
+              }
+            }
+          ],
+          "EmailAdres": "nepemailadres@kvk.nl"
+        },
+        "EersteHandelsnaam": "Global Acetrax",
+        "VoltijdWerkzamePersonen": 1,
+        "DeeltijdWerkzamePersonen": 1,
+        "TotaalWerkzamePersonen": 2,
+        "Activiteiten": {
+          "Omschrijving": "Fokken en houden van melkvee Teelt van voedergewassen",
+          "SbiActiviteit": {
+            "Registratie": {
+              "DatumAanvang": 19950101,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 141,
+              "Omschrijving": "Fokken en houden van melkvee",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          "Exporteert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Importeert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          }
+        },
+        "HandeltOnder": {
+          "Handelsnaam": {
+            "Registratie": {
+              "DatumAanvang": 20130101,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Naam": "Global Acetrax",
+            "Volgorde": 0
+          },
+          "RelatieRegistratie": {
+            "DatumAanvang": 20130101,
+            "RegistratieTijdstipNoValue": null
+          }
+        }
+      }
+    },
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 19950101,
+        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+      },
+      "NatuurlijkPersoon": null,
+      "Samenwerkingsverband": {
+        "Registratie": {
+          "DatumAanvang": 19950101,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "BijzondereRechtstoestand": null,
+        "PersoonRechtsvorm": "Maatschap",
+        "VolledigeNaam": "Jan Klaasen",
+        "UitgebreideRechtsvorm": "Maatschap",
+        "Heeft": [
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": {
+              "Registratie": {
+                "DatumAanvang": 19950101,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19600508,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "15",
+                "Omschrijving": "Maat",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Bevoegdheid": {
+                "Registratie": {
+                  "DatumAanvang": 20130101,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Soort": {
+                  "Code": "bb",
+                  "Omschrijving": "Beperkt bevoegd"
+                },
+                "OverigeBeperking": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Functietitel": null
+            },
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": {
+              "Registratie": {
+                "DatumAanvang": 19950101,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19750822,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "15",
+                "Omschrijving": "Maat",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Bevoegdheid": {
+                "Registratie": {
+                  "DatumAanvang": 20130101,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Soort": {
+                  "Code": "bb",
+                  "Omschrijving": "Beperkt bevoegd"
+                },
+                "OverigeBeperking": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Functietitel": null
+            },
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": {
+              "Registratie": {
+                "DatumAanvang": 20130101,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19410321,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "15",
+                "Omschrijving": "Maat",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Bevoegdheid": {
+                "Registratie": {
+                  "DatumAanvang": 20130101,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Soort": {
+                  "Code": "bb",
+                  "Omschrijving": "Beperkt bevoegd"
+                },
+                "OverigeBeperking": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Functietitel": null
+            },
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          }
+        ],
+        "Rsin": 992494138,
+        "Naamgeving": {
+          "Registratie": {
+            "DatumAanvang": 20130101,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Naam": "Global Acetrax"
+        },
+        "Ontbinding": null,
+        "Rechtsvorm": {
+          "Code": "MA",
+          "Omschrijving": "Maatschap",
+          "ReferentieType": "Rechtsvorm"
+        },
+        "Duur": {
+          "Registratie": {
+            "DatumAanvang": 19950101,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "HeeftOnbepaaldeDuur": {
+            "Code": "J",
+            "Omschrijving": "Ja",
+            "ReferentieType": "geenRT"
+          }
+        }
+      },
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": null
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

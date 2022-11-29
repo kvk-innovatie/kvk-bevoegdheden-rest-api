@@ -1,0 +1,418 @@
+{
+  "registratie": { "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" }, "datumAanvang": "20060327" },
+  "kvkNummer": "90001818",
+  "nonMailing": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "incidenteelUitlenenArbeidskrachten": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "bezoekLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "20060327"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Orionweg",
+        "huisnummer": 22,
+        "postcode": { "cijfercombinatie": "1443", "lettercombinatie": "AN" },
+        "plaats": "Purmerend",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999631145",
+          "identificatieAdresseerbaarObject": "0074999999879868"
+        }
+      }
+    },
+    "volledigAdres": "Orionweg 22 1443AN Purmerend"
+  },
+  "postLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "20060327"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Orionweg",
+        "huisnummer": 22,
+        "postcode": { "cijfercombinatie": "1443", "lettercombinatie": "AN" },
+        "plaats": "Purmerend",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999631145",
+          "identificatieAdresseerbaarObject": "0074999999879868"
+        }
+      }
+    },
+    "volledigAdres": "Orionweg 22 1443AN Purmerend"
+  },
+  "communicatiegegevens": {
+    "registratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "20060327"
+    },
+    "communicatienummer": [
+      { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+      { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "F", "omschrijving": "Fax" } }
+    ],
+    "emailAdres": ["nepemailadres@kvk.nl"],
+    "domeinNaam": ["www.kvk.nl"]
+  },
+  "naam": "Local Finmeddox B.V.",
+  "manifesteertZichAls": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "20060327"
+    },
+    "onderneming": {
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "20060327"
+      },
+      "kvkNummer": "90001818",
+      "sbiActiviteit": [
+        {
+          "registratie": {
+            "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+            "datumAanvang": "20060327"
+          },
+          "sbiCode": { "code": "6420", "omschrijving": "Financiële holdings", "referentieType": "ActiviteitCode" },
+          "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+        }
+      ],
+      "voltijdWerkzamePersonen": 0,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 0,
+      "handeltOnder": [
+        {
+          "handelsnaam": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20060327"
+            },
+            "naam": "Local Finmeddox B.V.",
+            "volgorde": 0
+          }
+        }
+      ],
+      "wordtUitgeoefendIn": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+            "datumAanvang": "20060327"
+          },
+          "commercieleVestiging": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20060327"
+            },
+            "vestigingsnummer": "990000406087",
+            "bezoekLocatie": {
+              "registratie": {
+                "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                "datumAanvang": "20060327"
+              },
+              "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "adres": {
+                "binnenlandsAdres": {
+                  "straatnaam": "Orionweg",
+                  "huisnummer": 22,
+                  "postcode": { "cijfercombinatie": "1443", "lettercombinatie": "AN" },
+                  "plaats": "Purmerend",
+                  "bagId": {
+                    "identificatieNummeraanduiding": "0074999999631145",
+                    "identificatieAdresseerbaarObject": "0074999999879868"
+                  }
+                }
+              },
+              "volledigAdres": "Orionweg 22 1443AN Purmerend"
+            },
+            "communicatiegegevens": {
+              "registratie": {
+                "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                "datumAanvang": "20060327"
+              },
+              "communicatienummer": [
+                { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+                { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "F", "omschrijving": "Fax" } }
+              ],
+              "emailAdres": ["nepemailadres@kvk.nl"],
+              "domeinNaam": ["www.kvk.nl"]
+            },
+            "eersteHandelsnaam": "Local Finmeddox B.V.",
+            "voltijdWerkzamePersonen": 0,
+            "deeltijdWerkzamePersonen": 0,
+            "totaalWerkzamePersonen": 0,
+            "activiteiten": {
+              "omschrijving": "Het oprichten en verwerven van, het deelnemen in, het samenwerken met, het voeren van de directie over, het toezicht uitoefenen op andere vennootschappen en ondernemingen, en in het algemeen het verrichten van alle handelingen op commercieel, financieel en economisch gebied",
+              "sbiActiviteit": [
+                {
+                  "registratie": {
+                    "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                    "datumAanvang": "20060327"
+                  },
+                  "sbiCode": {
+                    "code": "6420",
+                    "omschrijving": "Financiële holdings",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+                }
+              ],
+              "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            },
+            "handeltOnder": [
+              {
+                "relatieRegistratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "20060327"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                    "datumAanvang": "20060327"
+                  },
+                  "naam": "Local Finmeddox B.V.",
+                  "volgorde": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "wordtGeleidVanuit": {
+    "commercieleVestiging": {
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "20060327"
+      },
+      "vestigingsnummer": "990000406087",
+      "bezoekLocatie": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "20060327"
+        },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Orionweg",
+            "huisnummer": 22,
+            "postcode": { "cijfercombinatie": "1443", "lettercombinatie": "AN" },
+            "plaats": "Purmerend",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999631145",
+              "identificatieAdresseerbaarObject": "0074999999879868"
+            }
+          }
+        },
+        "volledigAdres": "Orionweg 22 1443AN Purmerend"
+      },
+      "communicatiegegevens": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "20060327"
+        },
+        "communicatienummer": [
+          { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+          { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "F", "omschrijving": "Fax" } }
+        ],
+        "emailAdres": ["nepemailadres@kvk.nl"],
+        "domeinNaam": ["www.kvk.nl"]
+      },
+      "eersteHandelsnaam": "Local Finmeddox B.V.",
+      "voltijdWerkzamePersonen": 0,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 0,
+      "activiteiten": {
+        "omschrijving": "Het oprichten en verwerven van, het deelnemen in, het samenwerken met, het voeren van de directie over, het toezicht uitoefenen op andere vennootschappen en ondernemingen, en in het algemeen het verrichten van alle handelingen op commercieel, financieel en economisch gebied",
+        "sbiActiviteit": [
+          {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20060327"
+            },
+            "sbiCode": { "code": "6420", "omschrijving": "Financiële holdings", "referentieType": "ActiviteitCode" },
+            "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+          }
+        ],
+        "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+      },
+      "handeltOnder": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+            "datumAanvang": "20060327"
+          },
+          "handelsnaam": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20060327"
+            },
+            "naam": "Local Finmeddox B.V.",
+            "volgorde": 0
+          }
+        }
+      ]
+    }
+  },
+  "heeftAlsEigenaar": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "20060327"
+    },
+    "rechtspersoon": {
+      "extraElementen": {
+        "extraElement": [
+          { "attributes": { "naam": "datumAanvangStatuten" }, "$value": "20110530" },
+          { "attributes": { "naam": "datumAkteStatuten" }, "$value": "20110530" }
+        ]
+      },
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "20060327"
+      },
+      "persoonRechtsvorm": "Besloten Vennootschap",
+      "volledigeNaam": "Local Finmeddox B.V.",
+      "uitgebreideRechtsvorm": "Besloten Vennootschap",
+      "heeft": [
+        {
+          "bestuursfunctie": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20060327"
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": { "extraElement": { "attributes": { "naam": "achternaam" }, "$value": "Wilbanks" } },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19641006"
+                },
+                "volledigeNaam": "Margareta Wilbanks",
+                "geslachtsnaam": "Wilbanks",
+                "voornamen": "Margareta",
+                "geboortedatum": "19641006"
+              }
+            },
+            "functie": { "code": "02", "omschrijving": "Bestuurder", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                "datumAanvang": "20060327"
+              },
+              "soort": {
+                "code": "gb",
+                "omschrijving": "Gezamenlijk bevoegd",
+                "referentieType": "SoortBevoegdheidBestuurder"
+              },
+              "isBevoegdMetAnderePersonen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        },
+        {
+          "bestuursfunctie": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20060327"
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": {
+                  "extraElement": { "attributes": { "naam": "achternaam" }, "$value": "Lister - Lister" }
+                },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19950802"
+                },
+                "volledigeNaam": "Sue Lister",
+                "geslachtsnaam": "Lister - Lister",
+                "voornamen": "Sue",
+                "geboortedatum": "19950802"
+              }
+            },
+            "functie": { "code": "02", "omschrijving": "Bestuurder", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                "datumAanvang": "20060327"
+              },
+              "soort": {
+                "code": "gb",
+                "omschrijving": "Gezamenlijk bevoegd",
+                "referentieType": "SoortBevoegdheidBestuurder"
+              },
+              "isBevoegdMetAnderePersonen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        },
+        {
+          "overigeFunctionaris": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20060327"
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": { "extraElement": { "attributes": { "naam": "achternaam" }, "$value": "Wilbanks" } },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19641006"
+                },
+                "volledigeNaam": "Margareta Wilbanks",
+                "geslachtsnaam": "Wilbanks",
+                "voornamen": "Margareta",
+                "geboortedatum": "19641006"
+              }
+            },
+            "functie": { "code": "08", "omschrijving": "Enig aandeelhouder", "referentieType": "FunctionarisRol" }
+          }
+        }
+      ],
+      "rsin": "992478170",
+      "naamgeving": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "20060327"
+        },
+        "naam": "Local Finmeddox B.V."
+      },
+      "rechtsvorm": { "code": "BV", "omschrijving": "Besloten Vennootschap", "referentieType": "Rechtsvorm" },
+      "statutaireZetel": "Nepplaats",
+      "aanvangStatutaireZetel": "20060327",
+      "datumAkteOprichting": "20060327",
+      "datumEersteInschrijvingHandelsregister": "20060331",
+      "datumAkteStatutenwijziging": "20110530",
+      "stelselInrichting": { "code": "D", "omschrijving": "Dualistisch", "referentieType": "StelselInrichting" },
+      "structuur": { "code": "GS", "omschrijving": "Gewone structuur", "referentieType": "RechtsvormStructuur" },
+      "geplaatstKapitaal": {
+        "registratie": { "attributes": { "registratieTijdstip": "20110705114838680" }, "datumAanvang": "20110530" },
+        "bedrag": { "waarde": "18000", "valuta": { "code": "EUR", "omschrijving": "Euro", "referentieType": "Valuta" } }
+      },
+      "gestortKapitaal": {
+        "registratie": { "attributes": { "registratieTijdstip": "20110705114838680" }, "datumAanvang": "20110530" },
+        "bedrag": { "waarde": "18000", "valuta": { "code": "EUR", "omschrijving": "Euro", "referentieType": "Valuta" } }
+      },
+      "bezoekLocatie": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "20060327"
+        },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Orionweg",
+            "huisnummer": 22,
+            "postcode": { "cijfercombinatie": "1443", "lettercombinatie": "AN" },
+            "plaats": "Purmerend",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999631145",
+              "identificatieAdresseerbaarObject": "0074999999879868"
+            }
+          }
+        },
+        "volledigAdres": "Orionweg 22 1443AN Purmerend"
+      }
+    }
+  }
+}

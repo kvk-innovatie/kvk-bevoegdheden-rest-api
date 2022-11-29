@@ -1,0 +1,514 @@
+{
+  "registratie": {
+    "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+    "datumAanvang": "19811028",
+    "datumEinde": "20111115"
+  },
+  "kvkNummer": "90001206",
+  "nonMailing": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "incidenteelUitlenenArbeidskrachten": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "bezoekLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstip": "20120106102008823" },
+      "datumAanvang": "20010326",
+      "datumEinde": "20111115"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Jan Linssenstraat",
+        "huisnummer": 5,
+        "postcode": { "cijfercombinatie": "3077", "lettercombinatie": "MD" },
+        "plaats": "Rotterdam",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999655185",
+          "identificatieAdresseerbaarObject": "0074999999619024"
+        }
+      }
+    },
+    "volledigAdres": "Jan Linssenstraat 5 3077MD Rotterdam"
+  },
+  "postLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstip": "20120106102008823" },
+      "datumAanvang": "20010326",
+      "datumEinde": "20111115"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Jan Linssenstraat",
+        "huisnummer": 5,
+        "postcode": { "cijfercombinatie": "3077", "lettercombinatie": "MD" },
+        "plaats": "Rotterdam",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999655185",
+          "identificatieAdresseerbaarObject": "0074999999619024"
+        }
+      }
+    },
+    "volledigAdres": "Jan Linssenstraat 5 3077MD Rotterdam"
+  },
+  "communicatiegegevens": {
+    "registratie": {
+      "attributes": { "registratieTijdstip": "20120106102008823" },
+      "datumAanvang": "19090324",
+      "datumEinde": "20111115"
+    },
+    "communicatienummer": [
+      { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+    ]
+  },
+  "naam": "Onderlinge Waarborgmaatschappij Grand Ranzoom",
+  "manifesteertZichAls": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstip": "20120106102008823" },
+      "datumAanvang": "19811028",
+      "datumEinde": "20111115"
+    },
+    "onderneming": {
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19090324",
+        "datumEinde": "20111115"
+      },
+      "kvkNummer": "90001206",
+      "sbiActiviteit": [
+        {
+          "registratie": {
+            "attributes": { "registratieTijdstip": "20120106102008823" },
+            "datumAanvang": "19090324",
+            "datumEinde": "20111115"
+          },
+          "sbiCode": {
+            "code": "6512",
+            "omschrijving": "Schadeverzekeringen (geen herverzekering)",
+            "referentieType": "ActiviteitCode"
+          },
+          "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+        }
+      ],
+      "voltijdWerkzamePersonen": 0,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 0,
+      "handeltOnder": [
+        {
+          "handelsnaam": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19090324",
+              "datumEinde": "20111115"
+            },
+            "naam": "Onderlinge Waarborgmaatschappij Grand Ranzoom",
+            "volgorde": 0
+          }
+        }
+      ],
+      "wordtUitgeoefendIn": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstip": "20120106102008823" },
+            "datumAanvang": "19090324",
+            "datumEinde": "20111115"
+          },
+          "commercieleVestiging": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19090324",
+              "datumEinde": "20111115"
+            },
+            "vestigingsnummer": "990000401445",
+            "bezoekLocatie": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20120106102008823" },
+                "datumAanvang": "20010326",
+                "datumEinde": "20111115"
+              },
+              "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "adres": {
+                "binnenlandsAdres": {
+                  "straatnaam": "Jan Linssenstraat",
+                  "huisnummer": 5,
+                  "postcode": { "cijfercombinatie": "3077", "lettercombinatie": "MD" },
+                  "plaats": "Rotterdam",
+                  "bagId": {
+                    "identificatieNummeraanduiding": "0074999999655185",
+                    "identificatieAdresseerbaarObject": "0074999999619024"
+                  }
+                }
+              },
+              "volledigAdres": "Jan Linssenstraat 5 3077MD Rotterdam"
+            },
+            "communicatiegegevens": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20120106102008823" },
+                "datumAanvang": "19090324",
+                "datumEinde": "20111115"
+              },
+              "communicatienummer": [
+                { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+              ]
+            },
+            "eersteHandelsnaam": "Onderlinge Waarborgmaatschappij Grand Ranzoom",
+            "voltijdWerkzamePersonen": 0,
+            "deeltijdWerkzamePersonen": 0,
+            "totaalWerkzamePersonen": 0,
+            "activiteiten": {
+              "omschrijving": "De vereniging heeft ten doel: het door de leden gezamenlijk doen dragen van de schade ontstaan door het sterven of onbruikbaar worden van paarden die bij de maatschappij zijn verzekerd.",
+              "sbiActiviteit": [
+                {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20120106102008823" },
+                    "datumAanvang": "19090324",
+                    "datumEinde": "20111115"
+                  },
+                  "sbiCode": {
+                    "code": "6512",
+                    "omschrijving": "Schadeverzekeringen (geen herverzekering)",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+                }
+              ],
+              "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            },
+            "handeltOnder": [
+              {
+                "relatieRegistratie": {
+                  "attributes": { "registratieTijdstip": "20120106102008823" },
+                  "datumAanvang": "19090324",
+                  "datumEinde": "20111115"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                    "datumAanvang": "19090324",
+                    "datumEinde": "20111115"
+                  },
+                  "naam": "Onderlinge Waarborgmaatschappij Grand Ranzoom",
+                  "volgorde": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "wordtGeleidVanuit": {
+    "commercieleVestiging": {
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19090324",
+        "datumEinde": "20111115"
+      },
+      "vestigingsnummer": "990000401445",
+      "bezoekLocatie": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20120106102008823" },
+          "datumAanvang": "20010326",
+          "datumEinde": "20111115"
+        },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Jan Linssenstraat",
+            "huisnummer": 5,
+            "postcode": { "cijfercombinatie": "3077", "lettercombinatie": "MD" },
+            "plaats": "Rotterdam",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999655185",
+              "identificatieAdresseerbaarObject": "0074999999619024"
+            }
+          }
+        },
+        "volledigAdres": "Jan Linssenstraat 5 3077MD Rotterdam"
+      },
+      "communicatiegegevens": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20120106102008823" },
+          "datumAanvang": "19090324",
+          "datumEinde": "20111115"
+        },
+        "communicatienummer": [
+          { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+        ]
+      },
+      "eersteHandelsnaam": "Onderlinge Waarborgmaatschappij Grand Ranzoom",
+      "voltijdWerkzamePersonen": 0,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 0,
+      "activiteiten": {
+        "omschrijving": "De vereniging heeft ten doel: het door de leden gezamenlijk doen dragen van de schade ontstaan door het sterven of onbruikbaar worden van paarden die bij de maatschappij zijn verzekerd.",
+        "sbiActiviteit": [
+          {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20120106102008823" },
+              "datumAanvang": "19090324",
+              "datumEinde": "20111115"
+            },
+            "sbiCode": {
+              "code": "6512",
+              "omschrijving": "Schadeverzekeringen (geen herverzekering)",
+              "referentieType": "ActiviteitCode"
+            },
+            "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+          }
+        ],
+        "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+      },
+      "handeltOnder": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstip": "20120106102008823" },
+            "datumAanvang": "19090324",
+            "datumEinde": "20111115"
+          },
+          "handelsnaam": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19090324",
+              "datumEinde": "20111115"
+            },
+            "naam": "Onderlinge Waarborgmaatschappij Grand Ranzoom",
+            "volgorde": 0
+          }
+        }
+      ]
+    }
+  },
+  "heeftAlsEigenaar": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstip": "20120106102008823" },
+      "datumAanvang": "19811028",
+      "datumEinde": "20111115"
+    },
+    "rechtspersoon": {
+      "extraElementen": {
+        "extraElement": [
+          { "attributes": { "naam": "datumAanvangStatuten" }, "$value": "19811028" },
+          { "attributes": { "naam": "datumAkteStatuten" }, "$value": "19811028" }
+        ]
+      },
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19811028",
+        "datumEinde": "20111115"
+      },
+      "persoonRechtsvorm": "Onderlinge Waarborg Maatschappij",
+      "volledigeNaam": "Onderlinge Waarborgmaatschappij Grand Ranzoom",
+      "uitgebreideRechtsvorm": "Onderlinge Waarborg Maatschappij",
+      "heeft": [
+        {
+          "bestuursfunctie": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19811028",
+              "datumEinde": "20111115"
+            },
+            "functietitel": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20120106102008823" },
+                "datumAanvang": "19811028",
+                "datumEinde": "20111115"
+              },
+              "titel": "Secretaris/penningmeester",
+              "isStatutaireTitel": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": { "extraElement": { "attributes": { "naam": "achternaam" }, "$value": "Polston" } },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19410107"
+                },
+                "volledigeNaam": "Courtney Polston",
+                "geslachtsnaam": "Polston",
+                "voornamen": "Courtney",
+                "geboortedatum": "19410107"
+              }
+            },
+            "functie": { "code": "02", "omschrijving": "Bestuurder", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20120106102008823" },
+                "datumAanvang": "19811028",
+                "datumEinde": "20111115"
+              },
+              "soort": {
+                "code": "gb",
+                "omschrijving": "Gezamenlijk bevoegd",
+                "referentieType": "SoortBevoegdheidBestuurder"
+              },
+              "isBevoegdMetAnderePersonen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        },
+        {
+          "bestuursfunctie": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19811028",
+              "datumEinde": "20111115"
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": {
+                  "extraElement": [
+                    { "attributes": { "naam": "voorvoegsel" }, "$value": "de" },
+                    { "attributes": { "naam": "achternaam" }, "$value": "Risher" }
+                  ]
+                },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19880917"
+                },
+                "volledigeNaam": "Denisha Risher",
+                "geslachtsnaam": "Risher",
+                "voorvoegselGeslachtsnaam": "de",
+                "voornamen": "Denisha",
+                "geboortedatum": "19880917"
+              }
+            },
+            "functie": { "code": "02", "omschrijving": "Bestuurder", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20120106102008823" },
+                "datumAanvang": "19811028",
+                "datumEinde": "20111115"
+              },
+              "soort": {
+                "code": "gb",
+                "omschrijving": "Gezamenlijk bevoegd",
+                "referentieType": "SoortBevoegdheidBestuurder"
+              },
+              "isBevoegdMetAnderePersonen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        },
+        {
+          "bestuursfunctie": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19930419",
+              "datumEinde": "20111115"
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": { "extraElement": { "attributes": { "naam": "achternaam" }, "$value": "Belfiore" } },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19550419"
+                },
+                "volledigeNaam": "Ty Belfiore",
+                "geslachtsnaam": "Belfiore",
+                "voornamen": "Ty",
+                "geboortedatum": "19550419"
+              }
+            },
+            "functie": { "code": "02", "omschrijving": "Bestuurder", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20120106102008823" },
+                "datumAanvang": "19930419",
+                "datumEinde": "20111115"
+              },
+              "soort": {
+                "code": "gb",
+                "omschrijving": "Gezamenlijk bevoegd",
+                "referentieType": "SoortBevoegdheidBestuurder"
+              },
+              "isBevoegdMetAnderePersonen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        },
+        {
+          "overigeFunctionaris": {
+            "registratie": { "attributes": { "registratieTijdstip": "20120106102008823" }, "datumAanvang": "20111115" },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": { "extraElement": { "attributes": { "naam": "achternaam" }, "$value": "Polston" } },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19410107"
+                },
+                "volledigeNaam": "Courtney Polston",
+                "bezoekLocatiePersoon": {
+                  "registratie": { "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" } },
+                  "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+                  "adres": {
+                    "binnenlandsAdres": {
+                      "straatnaam": "Van Zuijlen van Nieveltlaan",
+                      "huisnummer": "37",
+                      "postcode": { "cijfercombinatie": "3771", "lettercombinatie": "AA" },
+                      "plaats": "Barneveld",
+                      "bagId": {
+                        "identificatieNummeraanduiding": "0074999999572227",
+                        "identificatieAdresseerbaarObject": "0074999999962078"
+                      }
+                    }
+                  },
+                  "volledigAdres": "Jan Linssenstraat 5 3077MD Rotterdam"
+                },
+                "geslachtsnaam": "Polston",
+                "voornamen": "Courtney",
+                "geboortedatum": "19410107"
+              }
+            },
+            "functie": {
+              "code": "10",
+              "omschrijving": "Bewaarder boeken en bescheiden",
+              "referentieType": "FunctionarisRol"
+            }
+          }
+        }
+      ],
+      "rsin": "992916070",
+      "naamgeving": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20120106102008823" },
+          "datumAanvang": "19811028",
+          "datumEinde": "20111115"
+        },
+        "naam": "Onderlinge Waarborgmaatschappij Grand Ranzoom"
+      },
+      "ontbinding": {
+        "registratie": { "attributes": { "registratieTijdstip": "20120106102008823" }, "datumAanvang": "20111115" },
+        "aanleiding": { "code": "OB", "omschrijving": "Ontbindingsbesluit", "referentieType": "AanleidingOntbinding" }
+      },
+      "rechtsvorm": {
+        "code": "OWM",
+        "omschrijving": "Onderlinge Waarborg Maatschappij",
+        "referentieType": "Rechtsvorm"
+      },
+      "statutaireZetel": "Nepplaats",
+      "aanvangStatutaireZetel": "19811028",
+      "datumAkteOprichting": "19811028",
+      "datumAkteStatutenwijziging": "19811028",
+      "structuur": { "code": "GS", "omschrijving": "Gewone structuur", "referentieType": "RechtsvormStructuur" },
+      "bezoekLocatie": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20120106102008823" },
+          "datumAanvang": "20010326",
+          "datumEinde": "20111115"
+        },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Jan Linssenstraat",
+            "huisnummer": 5,
+            "postcode": { "cijfercombinatie": "3077", "lettercombinatie": "MD" },
+            "plaats": "Rotterdam",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999655185",
+              "identificatieAdresseerbaarObject": "0074999999619024"
+            }
+          }
+        },
+        "volledigAdres": "Jan Linssenstraat 5 3077MD Rotterdam"
+      }
+    }
+  }
+}

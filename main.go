@@ -34,7 +34,7 @@ func main() {
 		fileNames := []string{}
 		for _, file := range files {
 			if !file.IsDir() {
-				fn := strings.TrimSuffix(file.Name(), ".xml")
+				fn := strings.TrimSuffix(file.Name(), ".json")
 				fileNames = append(fileNames, fn)
 			}
 		}

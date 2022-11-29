@@ -1,0 +1,114 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 20081120,
+      "DatumEinde": 0,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90004787,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20120415,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Mr. H. Marsmanstraat",
+          "Huisnummer": 60,
+          "Postcode": {
+            "Cijfercombinatie": 3702,
+            "Lettercombinatie": "BS"
+          },
+          "Plaats": "Zeist",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999408078,
+            "IdentificatieAdresseerbaarObject": 74999999788534
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Mr. H. Marsmanstraat 60 3702BS Zeist"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20120415,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Mr. H. Marsmanstraat",
+          "Huisnummer": 60,
+          "Postcode": {
+            "Cijfercombinatie": 3702,
+            "Lettercombinatie": "BS"
+          },
+          "Plaats": "Zeist",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999408078,
+            "IdentificatieAdresseerbaarObject": 74999999788534
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Mr. H. Marsmanstraat 60 3702BS Zeist"
+    },
+    "Communicatiegegevens": {
+      "Registratie": {
+        "DatumAanvang": 20081120,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Communicatienummer": [
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        },
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "F",
+            "Omschrijving": "Fax"
+          }
+        }
+      ],
+      "EmailAdres": "nepemailadres@kvk.nl"
+    },
+    "Naam": "Free Sanphase",
+    "ManifesteertZichAls": null,
+    "WordtGeleidVanuit": null,
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 20081120,
+        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+      },
+      "NatuurlijkPersoon": null,
+      "Samenwerkingsverband": null,
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": {
+        "VoornemenTotOntbinding": null,
+        "ActiviteitenGestaaktPer": null,
+        "Rechtsvorm": {
+          "Code": "KG",
+          "Omschrijving": "Kerkgenootschap"
+        },
+        "Heeft": [],
+        "VolledigeNaam": "Jan Klaasen",
+        "Rsin": "992552631"
+      }
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

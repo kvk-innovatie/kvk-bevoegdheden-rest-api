@@ -1,0 +1,536 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 19990301,
+      "DatumEinde": 20120101,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90001656,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 19990301,
+        "DatumEinde": 20120101,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Maurits Lijnslagerstraat",
+          "Huisnummer": 200,
+          "Postcode": {
+            "Cijfercombinatie": 5625,
+            "Lettercombinatie": "BP"
+          },
+          "Plaats": "Eindhoven",
+          "BagId": null,
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Maurits Lijnslagerstraat 200 5625BP Eindhoven"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 19990301,
+        "DatumEinde": 20120101,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Maurits Lijnslagerstraat",
+          "Huisnummer": 200,
+          "Postcode": {
+            "Cijfercombinatie": 5625,
+            "Lettercombinatie": "BP"
+          },
+          "Plaats": "Eindhoven",
+          "BagId": null,
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Maurits Lijnslagerstraat 200 5625BP Eindhoven"
+    },
+    "Communicatiegegevens": {
+      "Registratie": {
+        "DatumAanvang": 19990301,
+        "DatumEinde": 20120101,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Communicatienummer": [
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        },
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "F",
+            "Omschrijving": "Fax"
+          }
+        }
+      ],
+      "EmailAdres": "nepemailadres@kvk.nl"
+    },
+    "Naam": "Regional Siliconmedia",
+    "ManifesteertZichAls": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 19990301,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Onderneming": {
+        "Registratie": {
+          "DatumAanvang": 19990301,
+          "DatumEinde": 20120101,
+          "RegistratieTijdstipNoValue": null
+        },
+        "KvkNummer": 90001656,
+        "SbiActiviteit": [
+          {
+            "Registratie": {
+              "DatumAanvang": 19990301,
+              "DatumEinde": 20120101,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 86912,
+              "Omschrijving": "Praktijken van fysiotherapeuten",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          }
+        ],
+        "VoltijdWerkzamePersonen": 1,
+        "DeeltijdWerkzamePersonen": 1,
+        "TotaalWerkzamePersonen": 2,
+        "HandeltOnder": [
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 19990301,
+                "DatumEinde": 20120101,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Regional Siliconmedia",
+              "Volgorde": 0
+            },
+            "RelatieRegistratie": null
+          }
+        ],
+        "WordtUitgeoefendIn": {
+          "RelatieRegistratie": {
+            "DatumAanvang": 19990301,
+            "RegistratieTijdstipNoValue": null
+          },
+          "CommercieleVestiging": {
+            "Registratie": {
+              "DatumAanvang": 19990301,
+              "DatumEinde": 20120101,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Vestigingsnummer": 990000784445,
+            "BezoekLocatie": {
+              "Registratie": {
+                "DatumAanvang": 19990301,
+                "DatumEinde": 20120101,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Afgeschermd": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Adres": {
+                "BinnenlandsAdres": {
+                  "Straatnaam": "Maurits Lijnslagerstraat",
+                  "Huisnummer": 200,
+                  "Postcode": {
+                    "Cijfercombinatie": 5625,
+                    "Lettercombinatie": "BP"
+                  },
+                  "Plaats": "Eindhoven",
+                  "BagId": null,
+                  "HuisnummerToevoeging": null
+                }
+              },
+              "VolledigAdres": "Maurits Lijnslagerstraat 200 5625BP Eindhoven"
+            },
+            "Communicatiegegevens": {
+              "Registratie": {
+                "DatumAanvang": 19990301,
+                "DatumEinde": 20120101,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Communicatienummer": [
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "T",
+                    "Omschrijving": "Telefoon"
+                  }
+                },
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "F",
+                    "Omschrijving": "Fax"
+                  }
+                }
+              ],
+              "EmailAdres": "nepemailadres@kvk.nl"
+            },
+            "EersteHandelsnaam": "Regional Siliconmedia",
+            "VoltijdWerkzamePersonen": 1,
+            "DeeltijdWerkzamePersonen": 1,
+            "TotaalWerkzamePersonen": 2,
+            "Activiteiten": {
+              "Omschrijving": "Praktijken van fysiotherapeuten",
+              "SbiActiviteit": {
+                "Registratie": {
+                  "DatumAanvang": 19990301,
+                  "DatumEinde": 20120101,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "SbiCode": {
+                  "Code": 86912,
+                  "Omschrijving": "Praktijken van fysiotherapeuten",
+                  "ReferentieType": "ActiviteitCode"
+                },
+                "IsHoofdactiviteit": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Exporteert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Importeert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              }
+            },
+            "HandeltOnder": {
+              "Handelsnaam": {
+                "Registratie": {
+                  "DatumAanvang": 19990301,
+                  "DatumEinde": 20120101,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Naam": "Regional Siliconmedia",
+                "Volgorde": 0
+              },
+              "RelatieRegistratie": {
+                "DatumAanvang": 19990301,
+                "RegistratieTijdstipNoValue": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "WordtGeleidVanuit": {
+      "CommercieleVestiging": {
+        "Registratie": {
+          "DatumAanvang": 19990301,
+          "DatumEinde": 20120101,
+          "RegistratieTijdstipNoValue": null
+        },
+        "Vestigingsnummer": 990000784445,
+        "BezoekLocatie": {
+          "Registratie": {
+            "DatumAanvang": 19990301,
+            "DatumEinde": 20120101,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Afgeschermd": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Adres": {
+            "BinnenlandsAdres": {
+              "Straatnaam": "Maurits Lijnslagerstraat",
+              "Huisnummer": 200,
+              "Postcode": {
+                "Cijfercombinatie": 5625,
+                "Lettercombinatie": "BP"
+              },
+              "Plaats": "Eindhoven",
+              "BagId": null,
+              "HuisnummerToevoeging": null
+            }
+          },
+          "VolledigAdres": "Maurits Lijnslagerstraat 200 5625BP Eindhoven"
+        },
+        "Communicatiegegevens": {
+          "Registratie": {
+            "DatumAanvang": 19990301,
+            "DatumEinde": 20120101,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Communicatienummer": [
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "T",
+                "Omschrijving": "Telefoon"
+              }
+            },
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "F",
+                "Omschrijving": "Fax"
+              }
+            }
+          ],
+          "EmailAdres": "nepemailadres@kvk.nl"
+        },
+        "EersteHandelsnaam": "Regional Siliconmedia",
+        "VoltijdWerkzamePersonen": 1,
+        "DeeltijdWerkzamePersonen": 1,
+        "TotaalWerkzamePersonen": 2,
+        "Activiteiten": {
+          "Omschrijving": "Praktijken van fysiotherapeuten",
+          "SbiActiviteit": {
+            "Registratie": {
+              "DatumAanvang": 19990301,
+              "DatumEinde": 20120101,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 86912,
+              "Omschrijving": "Praktijken van fysiotherapeuten",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          "Exporteert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Importeert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          }
+        },
+        "HandeltOnder": {
+          "Handelsnaam": {
+            "Registratie": {
+              "DatumAanvang": 19990301,
+              "DatumEinde": 20120101,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Naam": "Regional Siliconmedia",
+            "Volgorde": 0
+          },
+          "RelatieRegistratie": {
+            "DatumAanvang": 19990301,
+            "RegistratieTijdstipNoValue": null
+          }
+        }
+      }
+    },
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 19990301,
+        "RegistratieTijdstipNoValue": null
+      },
+      "NatuurlijkPersoon": null,
+      "Samenwerkingsverband": {
+        "Registratie": {
+          "DatumAanvang": 19990301,
+          "DatumEinde": 20120101,
+          "RegistratieTijdstipNoValue": null
+        },
+        "BijzondereRechtstoestand": null,
+        "PersoonRechtsvorm": "Maatschap",
+        "VolledigeNaam": "Jan Klaasen",
+        "UitgebreideRechtsvorm": "Maatschap",
+        "Heeft": [
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": {
+              "Registratie": {
+                "DatumAanvang": 19990301,
+                "DatumEinde": 20120101,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19740918,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "15",
+                "Omschrijving": "Maat",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Bevoegdheid": {
+                "Registratie": {
+                  "DatumAanvang": 19990301,
+                  "DatumEinde": 20120101,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Soort": {
+                  "Code": "bb",
+                  "Omschrijving": "Beperkt bevoegd"
+                },
+                "OverigeBeperking": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Functietitel": null
+            },
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": {
+              "Registratie": {
+                "DatumAanvang": 19990301,
+                "DatumEinde": 20120101,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19540131,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "15",
+                "Omschrijving": "Maat",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Bevoegdheid": {
+                "Registratie": {
+                  "DatumAanvang": 19990301,
+                  "DatumEinde": 20120101,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Soort": {
+                  "Code": "bb",
+                  "Omschrijving": "Beperkt bevoegd"
+                },
+                "OverigeBeperking": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Functietitel": null
+            },
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          }
+        ],
+        "Rsin": 992748306,
+        "Naamgeving": {
+          "Registratie": {
+            "DatumAanvang": 19990301,
+            "DatumEinde": 20120101,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Naam": "Regional Siliconmedia"
+        },
+        "Ontbinding": {
+          "Registratie": {
+            "DatumAanvang": 20120101,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "aanleiding": null
+        },
+        "Rechtsvorm": {
+          "Code": "MA",
+          "Omschrijving": "Maatschap",
+          "ReferentieType": "Rechtsvorm"
+        },
+        "Duur": {
+          "Registratie": {
+            "DatumAanvang": 19990301,
+            "DatumEinde": 20120101,
+            "RegistratieTijdstipNoValue": null
+          },
+          "HeeftOnbepaaldeDuur": {
+            "Code": "J",
+            "Omschrijving": "Ja",
+            "ReferentieType": "geenRT"
+          }
+        }
+      },
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": null
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

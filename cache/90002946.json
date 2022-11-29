@@ -1,0 +1,203 @@
+{
+  "registratie": { "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" }, "datumAanvang": "19991103" },
+  "kvkNummer": "90002946",
+  "nonMailing": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" },
+  "sbiActiviteit": [
+    {
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19991103"
+      },
+      "sbiCode": {
+        "code": "94997",
+        "omschrijving": "Overige belangenbehartiging n.e.g.",
+        "referentieType": "ActiviteitCode"
+      },
+      "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+    }
+  ],
+  "incidenteelUitlenenArbeidskrachten": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "bezoekLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "19991103"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Lange Boomgaard",
+        "huisnummer": 1,
+        "postcode": { "cijfercombinatie": "3216", "lettercombinatie": "AN" },
+        "plaats": "Abbenbroek",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999944373",
+          "identificatieAdresseerbaarObject": "0074999999474581"
+        }
+      }
+    },
+    "volledigAdres": "Lange Boomgaard 1 3216AN Abbenbroek"
+  },
+  "postLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "19991103"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Lange Boomgaard",
+        "huisnummer": 1,
+        "postcode": { "cijfercombinatie": "3216", "lettercombinatie": "AN" },
+        "plaats": "Abbenbroek",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999944373",
+          "identificatieAdresseerbaarObject": "0074999999474581"
+        }
+      }
+    },
+    "volledigAdres": "Lange Boomgaard 1 3216AN Abbenbroek"
+  },
+  "communicatiegegevens": {
+    "registratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "19991103"
+    },
+    "communicatienummer": [
+      { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+    ]
+  },
+  "naam": "Regional Intechi",
+  "heeftAlsEigenaar": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "19991103"
+    },
+    "rechtspersoon": {
+      "extraElementen": {
+        "extraElement": [
+          { "attributes": { "naam": "datumAanvangStatuten" }, "$value": "19991103" },
+          { "attributes": { "naam": "datumAkteStatuten" }, "$value": "19991103" }
+        ]
+      },
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19991103"
+      },
+      "persoonRechtsvorm": "Vereniging van Eigenaars",
+      "volledigeNaam": "Regional Intechi",
+      "uitgebreideRechtsvorm": "Vereniging van Eigenaars",
+      "heeft": [
+        {
+          "bestuursfunctie": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20030618"
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": { "extraElement": { "attributes": { "naam": "achternaam" }, "$value": "Hebb" } },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19480816"
+                },
+                "volledigeNaam": "Dann Hebb",
+                "bezoekLocatiePersoon": {
+                  "registratie": { "attributes": { "registratieTijdstip": "20130228221548645" } },
+                  "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+                  "adres": {
+                    "binnenlandsAdres": {
+                      "straatnaam": "Heistraat",
+                      "huisnummer": "2",
+                      "postcode": { "cijfercombinatie": "5614", "lettercombinatie": "GK" },
+                      "plaats": "Eindhoven",
+                      "bagId": {
+                        "identificatieNummeraanduiding": "0074999999520699",
+                        "identificatieAdresseerbaarObject": "0074999999803441"
+                      }
+                    }
+                  },
+                  "volledigAdres": "Lange Boomgaard 1 3216AN Abbenbroek"
+                },
+                "geslachtsnaam": "Hebb",
+                "voornamen": "Dann",
+                "geboortedatum": "19480816"
+              }
+            },
+            "functie": { "code": "02", "omschrijving": "Bestuurder", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                "datumAanvang": "20030618"
+              },
+              "soort": {
+                "code": "azb",
+                "omschrijving": "Alleen/zelfstandig bevoegd",
+                "referentieType": "SoortBevoegdheidBestuurder"
+              },
+              "isBevoegdMetAnderePersonen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        }
+      ],
+      "rsin": "992340524",
+      "naamgeving": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "19991103"
+        },
+        "naam": "Regional Intechi"
+      },
+      "rechtsvorm": { "code": "VvE", "omschrijving": "Vereniging van Eigenaars", "referentieType": "Rechtsvorm" },
+      "statutaireZetel": "Nepplaats",
+      "aanvangStatutaireZetel": "19991103",
+      "datumAkteOprichting": "19991103",
+      "datumAkteStatutenwijziging": "19991103",
+      "bezoekLocatie": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "19991103"
+        },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Lange Boomgaard",
+            "huisnummer": 1,
+            "postcode": { "cijfercombinatie": "3216", "lettercombinatie": "AN" },
+            "plaats": "Abbenbroek",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999944373",
+              "identificatieAdresseerbaarObject": "0074999999474581"
+            }
+          }
+        },
+        "volledigAdres": "Lange Boomgaard 1 3216AN Abbenbroek"
+      },
+      "activiteiten": {
+        "omschrijving": "Het behartigen van de gemeenschappelijke belangen van de eigenaars.",
+        "sbiActiviteit": [
+          {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19991103"
+            },
+            "sbiCode": {
+              "code": "94997",
+              "omschrijving": "Overige belangenbehartiging n.e.g.",
+              "referentieType": "ActiviteitCode"
+            },
+            "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+          }
+        ]
+      },
+      "communicatiegegevens": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "19991103"
+        },
+        "communicatienummer": [
+          { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+        ]
+      }
+    }
+  }
+}

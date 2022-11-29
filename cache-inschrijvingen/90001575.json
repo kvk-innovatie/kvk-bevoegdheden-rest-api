@@ -1,0 +1,548 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 19990101,
+      "DatumEinde": 20121231,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90001575,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 19990101,
+        "DatumEinde": 20121231,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Karel van Egmondstraat",
+          "Huisnummer": 153,
+          "Postcode": {
+            "Cijfercombinatie": 5915,
+            "Lettercombinatie": "HT"
+          },
+          "Plaats": "Venlo",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999853917,
+            "IdentificatieAdresseerbaarObject": 74999999790778
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Karel van Egmondstraat 153 5915HT Venlo"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 19990101,
+        "DatumEinde": 20121231,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Karel van Egmondstraat",
+          "Huisnummer": 153,
+          "Postcode": {
+            "Cijfercombinatie": 5915,
+            "Lettercombinatie": "HT"
+          },
+          "Plaats": "Venlo",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999853917,
+            "IdentificatieAdresseerbaarObject": 74999999790778
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Karel van Egmondstraat 153 5915HT Venlo"
+    },
+    "Communicatiegegevens": {
+      "Registratie": {
+        "DatumAanvang": 19990101,
+        "DatumEinde": 20121231,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Communicatienummer": [
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        },
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "F",
+            "Omschrijving": "Fax"
+          }
+        }
+      ],
+      "EmailAdres": "nepemailadres@kvk.nl"
+    },
+    "Naam": "Stille Maatschap H.G.T. Gerichhausen en M.P.M. Janssen ",
+    "ManifesteertZichAls": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 19990101,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Onderneming": {
+        "Registratie": {
+          "DatumAanvang": 19990101,
+          "DatumEinde": 20121231,
+          "RegistratieTijdstipNoValue": null
+        },
+        "KvkNummer": 90001575,
+        "SbiActiviteit": [
+          {
+            "Registratie": {
+              "DatumAanvang": 19990101,
+              "DatumEinde": 20121231,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 11301,
+              "Omschrijving": "Teelt van groenten en champignons",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          }
+        ],
+        "VoltijdWerkzamePersonen": 10,
+        "DeeltijdWerkzamePersonen": 15,
+        "TotaalWerkzamePersonen": 25,
+        "HandeltOnder": [
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 19990101,
+                "DatumEinde": 20121231,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Local Haysunfind",
+              "Volgorde": 0
+            },
+            "RelatieRegistratie": null
+          }
+        ],
+        "WordtUitgeoefendIn": {
+          "RelatieRegistratie": {
+            "DatumAanvang": 19990101,
+            "RegistratieTijdstipNoValue": null
+          },
+          "CommercieleVestiging": {
+            "Registratie": {
+              "DatumAanvang": 19990101,
+              "DatumEinde": 20121231,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Vestigingsnummer": 990000261778,
+            "BezoekLocatie": {
+              "Registratie": {
+                "DatumAanvang": 19990101,
+                "DatumEinde": 20121231,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Afgeschermd": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Adres": {
+                "BinnenlandsAdres": {
+                  "Straatnaam": "Karel van Egmondstraat",
+                  "Huisnummer": 153,
+                  "Postcode": {
+                    "Cijfercombinatie": 5915,
+                    "Lettercombinatie": "HT"
+                  },
+                  "Plaats": "Venlo",
+                  "BagId": {
+                    "IdentificatieNummeraanduiding": 74999999853917,
+                    "IdentificatieAdresseerbaarObject": 74999999790778
+                  },
+                  "HuisnummerToevoeging": null
+                }
+              },
+              "VolledigAdres": "Karel van Egmondstraat 153 5915HT Venlo"
+            },
+            "Communicatiegegevens": {
+              "Registratie": {
+                "DatumAanvang": 19990101,
+                "DatumEinde": 20121231,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Communicatienummer": [
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "T",
+                    "Omschrijving": "Telefoon"
+                  }
+                },
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "F",
+                    "Omschrijving": "Fax"
+                  }
+                }
+              ],
+              "EmailAdres": "nepemailadres@kvk.nl"
+            },
+            "EersteHandelsnaam": "Local Haysunfind",
+            "VoltijdWerkzamePersonen": 10,
+            "DeeltijdWerkzamePersonen": 15,
+            "TotaalWerkzamePersonen": 25,
+            "Activiteiten": {
+              "Omschrijving": "Tomatenkwekerij.",
+              "SbiActiviteit": {
+                "Registratie": {
+                  "DatumAanvang": 19990101,
+                  "DatumEinde": 20121231,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "SbiCode": {
+                  "Code": 11301,
+                  "Omschrijving": "Teelt van groenten en champignons",
+                  "ReferentieType": "ActiviteitCode"
+                },
+                "IsHoofdactiviteit": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Exporteert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Importeert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              }
+            },
+            "HandeltOnder": {
+              "Handelsnaam": {
+                "Registratie": {
+                  "DatumAanvang": 19990101,
+                  "DatumEinde": 20121231,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Naam": "Local Haysunfind",
+                "Volgorde": 0
+              },
+              "RelatieRegistratie": {
+                "DatumAanvang": 19990101,
+                "RegistratieTijdstipNoValue": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "WordtGeleidVanuit": {
+      "CommercieleVestiging": {
+        "Registratie": {
+          "DatumAanvang": 19990101,
+          "DatumEinde": 20121231,
+          "RegistratieTijdstipNoValue": null
+        },
+        "Vestigingsnummer": 990000261778,
+        "BezoekLocatie": {
+          "Registratie": {
+            "DatumAanvang": 19990101,
+            "DatumEinde": 20121231,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Afgeschermd": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Adres": {
+            "BinnenlandsAdres": {
+              "Straatnaam": "Karel van Egmondstraat",
+              "Huisnummer": 153,
+              "Postcode": {
+                "Cijfercombinatie": 5915,
+                "Lettercombinatie": "HT"
+              },
+              "Plaats": "Venlo",
+              "BagId": {
+                "IdentificatieNummeraanduiding": 74999999853917,
+                "IdentificatieAdresseerbaarObject": 74999999790778
+              },
+              "HuisnummerToevoeging": null
+            }
+          },
+          "VolledigAdres": "Karel van Egmondstraat 153 5915HT Venlo"
+        },
+        "Communicatiegegevens": {
+          "Registratie": {
+            "DatumAanvang": 19990101,
+            "DatumEinde": 20121231,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Communicatienummer": [
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "T",
+                "Omschrijving": "Telefoon"
+              }
+            },
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "F",
+                "Omschrijving": "Fax"
+              }
+            }
+          ],
+          "EmailAdres": "nepemailadres@kvk.nl"
+        },
+        "EersteHandelsnaam": "Local Haysunfind",
+        "VoltijdWerkzamePersonen": 10,
+        "DeeltijdWerkzamePersonen": 15,
+        "TotaalWerkzamePersonen": 25,
+        "Activiteiten": {
+          "Omschrijving": "Tomatenkwekerij.",
+          "SbiActiviteit": {
+            "Registratie": {
+              "DatumAanvang": 19990101,
+              "DatumEinde": 20121231,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 11301,
+              "Omschrijving": "Teelt van groenten en champignons",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          "Exporteert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Importeert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          }
+        },
+        "HandeltOnder": {
+          "Handelsnaam": {
+            "Registratie": {
+              "DatumAanvang": 19990101,
+              "DatumEinde": 20121231,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Naam": "Local Haysunfind",
+            "Volgorde": 0
+          },
+          "RelatieRegistratie": {
+            "DatumAanvang": 19990101,
+            "RegistratieTijdstipNoValue": null
+          }
+        }
+      }
+    },
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 19990101,
+        "RegistratieTijdstipNoValue": null
+      },
+      "NatuurlijkPersoon": null,
+      "Samenwerkingsverband": {
+        "Registratie": {
+          "DatumAanvang": 19990101,
+          "DatumEinde": 20121231,
+          "RegistratieTijdstipNoValue": null
+        },
+        "BijzondereRechtstoestand": null,
+        "PersoonRechtsvorm": "Maatschap",
+        "VolledigeNaam": "Jan Klaasen",
+        "UitgebreideRechtsvorm": "Maatschap",
+        "Heeft": [
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": {
+              "Registratie": {
+                "DatumAanvang": 19990101,
+                "DatumEinde": 20121231,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19801105,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "15",
+                "Omschrijving": "Maat",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Bevoegdheid": {
+                "Registratie": {
+                  "DatumAanvang": 19990101,
+                  "DatumEinde": 20121231,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Soort": {
+                  "Code": "ob",
+                  "Omschrijving": "Onbeperkt bevoegd"
+                },
+                "OverigeBeperking": {
+                  "Code": "N",
+                  "Omschrijving": "Nee",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Functietitel": null
+            },
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": {
+              "Registratie": {
+                "DatumAanvang": 19990101,
+                "DatumEinde": 20121231,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19630122,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "15",
+                "Omschrijving": "Maat",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Bevoegdheid": {
+                "Registratie": {
+                  "DatumAanvang": 19990101,
+                  "DatumEinde": 20121231,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Soort": {
+                  "Code": "ob",
+                  "Omschrijving": "Onbeperkt bevoegd"
+                },
+                "OverigeBeperking": {
+                  "Code": "N",
+                  "Omschrijving": "Nee",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Functietitel": null
+            },
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          }
+        ],
+        "Rsin": 992730545,
+        "Naamgeving": {
+          "Registratie": {
+            "DatumAanvang": 19990101,
+            "DatumEinde": 20121231,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Naam": "Stille Maatschap H.G.T. Gerichhausen en M.P.M. Janssen "
+        },
+        "Ontbinding": {
+          "Registratie": {
+            "DatumAanvang": 20121231,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "aanleiding": null
+        },
+        "Rechtsvorm": {
+          "Code": "MA",
+          "Omschrijving": "Maatschap",
+          "ReferentieType": "Rechtsvorm"
+        },
+        "Duur": {
+          "Registratie": {
+            "DatumAanvang": 19990101,
+            "DatumEinde": 20121231,
+            "RegistratieTijdstipNoValue": null
+          },
+          "HeeftOnbepaaldeDuur": {
+            "Code": "J",
+            "Omschrijving": "Ja",
+            "ReferentieType": "geenRT"
+          }
+        }
+      },
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": null
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

@@ -1,0 +1,232 @@
+{
+  "registratie": { "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" }, "datumAanvang": "20060406" },
+  "kvkNummer": "90001931",
+  "nonMailing": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "incidenteelUitlenenArbeidskrachten": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "bezoekLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "20060406"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Oostduinlaan",
+        "huisnummer": 185,
+        "postcode": { "cijfercombinatie": "2596", "lettercombinatie": "JL" },
+        "plaats": "'s-Gravenhage",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999985226",
+          "identificatieAdresseerbaarObject": "0074999999979624"
+        }
+      }
+    },
+    "volledigAdres": "Oostduinlaan 185 2596JL 's-Gravenhage"
+  },
+  "postLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "20060406"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Oostduinlaan",
+        "huisnummer": 185,
+        "postcode": { "cijfercombinatie": "2596", "lettercombinatie": "JL" },
+        "plaats": "'s-Gravenhage",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999985226",
+          "identificatieAdresseerbaarObject": "0074999999979624"
+        }
+      }
+    },
+    "volledigAdres": "Oostduinlaan 185 2596JL 's-Gravenhage"
+  },
+  "naam": "Grand Streetplanet Coöperatie",
+  "heeftAlsEigenaar": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "20060406"
+    },
+    "rechtspersoon": {
+      "extraElementen": {
+        "extraElement": [
+          { "attributes": { "naam": "datumAanvangStatuten" }, "$value": "20060406" },
+          { "attributes": { "naam": "datumAkteStatuten" }, "$value": "20060406" }
+        ]
+      },
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "20060406"
+      },
+      "persoonRechtsvorm": "Coöperatie",
+      "volledigeNaam": "Grand Streetplanet Coöperatie",
+      "uitgebreideRechtsvorm": "Coöperatie",
+      "heeft": [
+        {
+          "bestuursfunctie": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20091231"
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": {
+                  "extraElement": [
+                    { "attributes": { "naam": "voorvoegsel" }, "$value": "van" },
+                    { "attributes": { "naam": "achternaam" }, "$value": "Carrico" }
+                  ]
+                },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19580820"
+                },
+                "volledigeNaam": "Enriqueta Carrico",
+                "geslachtsnaam": "Carrico",
+                "voorvoegselGeslachtsnaam": "van",
+                "voornamen": "Enriqueta",
+                "geboortedatum": "19580820"
+              }
+            },
+            "functie": { "code": "09", "omschrijving": "Vereffenaar", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                "datumAanvang": "20091231"
+              },
+              "soort": {
+                "code": "gb",
+                "omschrijving": "Gezamenlijk bevoegd",
+                "referentieType": "SoortBevoegdheidBestuurder"
+              },
+              "isBevoegdMetAnderePersonen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        },
+        {
+          "bestuursfunctie": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20091231"
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": { "extraElement": { "attributes": { "naam": "achternaam" }, "$value": "Lubinski" } },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19730521"
+                },
+                "volledigeNaam": "Lavonia Lubinski",
+                "geslachtsnaam": "Lubinski",
+                "voornamen": "Lavonia",
+                "geboortedatum": "19730521"
+              }
+            },
+            "functie": { "code": "09", "omschrijving": "Vereffenaar", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                "datumAanvang": "20091231"
+              },
+              "soort": {
+                "code": "gb",
+                "omschrijving": "Gezamenlijk bevoegd",
+                "referentieType": "SoortBevoegdheidBestuurder"
+              },
+              "isBevoegdMetAnderePersonen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        },
+        {
+          "bestuursfunctie": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20091231"
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": {
+                  "extraElement": [
+                    { "attributes": { "naam": "voorvoegsel" }, "$value": "van" },
+                    { "attributes": { "naam": "achternaam" }, "$value": "Snelling" }
+                  ]
+                },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19680613"
+                },
+                "volledigeNaam": "Ivette Snelling",
+                "geslachtsnaam": "Snelling",
+                "voorvoegselGeslachtsnaam": "van",
+                "voornamen": "Ivette",
+                "geboortedatum": "19680613"
+              }
+            },
+            "functie": { "code": "09", "omschrijving": "Vereffenaar", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                "datumAanvang": "20091231"
+              },
+              "soort": {
+                "code": "gb",
+                "omschrijving": "Gezamenlijk bevoegd",
+                "referentieType": "SoortBevoegdheidBestuurder"
+              },
+              "isBevoegdMetAnderePersonen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        }
+      ],
+      "rsin": "992373591",
+      "naamgeving": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "20060406"
+        },
+        "naam": "Grand Streetplanet Coöperatie"
+      },
+      "ontbinding": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "20091231"
+        },
+        "aanleiding": { "code": "OB", "omschrijving": "Ontbindingsbesluit", "referentieType": "AanleidingOntbinding" },
+        "liquidatie": {
+          "registratie": {
+            "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+            "datumAanvang": "20091231"
+          }
+        }
+      },
+      "rechtsvorm": { "code": "COP", "omschrijving": "Coöperatie", "referentieType": "Rechtsvorm" },
+      "statutaireZetel": "Nepplaats",
+      "aanvangStatutaireZetel": "20060406",
+      "datumAkteOprichting": "20060406",
+      "datumEersteInschrijvingHandelsregister": "20060410",
+      "datumAkteStatutenwijziging": "20060406",
+      "structuur": { "code": "GS", "omschrijving": "Gewone structuur", "referentieType": "RechtsvormStructuur" },
+      "bezoekLocatie": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "20060406"
+        },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Oostduinlaan",
+            "huisnummer": 185,
+            "postcode": { "cijfercombinatie": "2596", "lettercombinatie": "JL" },
+            "plaats": "'s-Gravenhage",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999985226",
+              "identificatieAdresseerbaarObject": "0074999999979624"
+            }
+          }
+        },
+        "volledigAdres": "Oostduinlaan 185 2596JL 's-Gravenhage"
+      }
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 20051222,
+      "DatumEinde": 20120112,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90003284,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20110808,
+        "DatumEinde": 20120112,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Purmerhoek",
+          "Huisnummer": 351,
+          "Postcode": {
+            "Cijfercombinatie": 2905,
+            "Lettercombinatie": "VP"
+          },
+          "Plaats": "Capelle aan den IJssel",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999122260,
+            "IdentificatieAdresseerbaarObject": 74999999865227
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Purmerhoek 351 2905VP Capelle aan den IJssel"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20101101,
+        "DatumEinde": 20110808,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Kwekkeboomhof",
+          "Huisnummer": 5,
+          "Postcode": {
+            "Cijfercombinatie": 7544,
+            "Lettercombinatie": "SJ"
+          },
+          "Plaats": "Enschede",
+          "BagId": null,
+          "HuisnummerToevoeging": "-94"
+        }
+      },
+      "VolledigAdres": "Kwekkeboomhof 5 7544SJ Enschede"
+    },
+    "Communicatiegegevens": {
+      "Registratie": {
+        "DatumAanvang": 20101001,
+        "DatumEinde": 20120112,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Communicatienummer": [
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        }
+      ],
+      "EmailAdres": null
+    },
+    "Naam": "Stichting Free Donhouse",
+    "ManifesteertZichAls": null,
+    "WordtGeleidVanuit": null,
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 20051222,
+        "RegistratieTijdstipNoValue": null
+      },
+      "NatuurlijkPersoon": null,
+      "Samenwerkingsverband": null,
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": {
+        "VoornemenTotOntbinding": {},
+        "ActiviteitenGestaaktPer": null,
+        "Rechtsvorm": {
+          "Code": "ST",
+          "Omschrijving": "Stichting"
+        },
+        "Heeft": [
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": {
+              "Functie": {
+                "Code": "02",
+                "Omschrijving": "Bestuurder",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19920702,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Bevoegdheid": {
+                "Soort": {
+                  "Code": "azb",
+                  "Omschrijving": "Alleen/zelfstandig bevoegd"
+                }
+              },
+              "Functietitel": {
+                "Titel": "Voorzitter"
+              }
+            },
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          }
+        ],
+        "VolledigeNaam": "Jan Klaasen",
+        "Rsin": "992973041"
+      }
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

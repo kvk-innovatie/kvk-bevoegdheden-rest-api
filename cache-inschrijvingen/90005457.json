@@ -1,0 +1,540 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 19870327,
+      "DatumEinde": 0,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90005457,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 19991119,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Wielingen",
+          "Huisnummer": 19,
+          "Postcode": {
+            "Cijfercombinatie": 5751,
+            "Lettercombinatie": "SG"
+          },
+          "Plaats": "Deurne",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999498961,
+            "IdentificatieAdresseerbaarObject": 74999999720950
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Wielingen 19 5751SG Deurne"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 19870327,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": null,
+          "Huisnummer": 0,
+          "Postcode": {
+            "Cijfercombinatie": 1083,
+            "Lettercombinatie": "XK"
+          },
+          "Plaats": "Amsterdam",
+          "BagId": null,
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Postbus 99999 1083XK Amsterdam"
+    },
+    "Communicatiegegevens": {
+      "Registratie": {
+        "DatumAanvang": 19870327,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Communicatienummer": [
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        },
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "F",
+            "Omschrijving": "Fax"
+          }
+        }
+      ],
+      "EmailAdres": "nepemailadres@kvk.nl"
+    },
+    "Naam": "Local Qvolane",
+    "ManifesteertZichAls": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 19870327,
+        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+      },
+      "Onderneming": {
+        "Registratie": {
+          "DatumAanvang": 19870327,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "KvkNummer": 90005457,
+        "SbiActiviteit": [
+          {
+            "Registratie": {
+              "DatumAanvang": 19870327,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 46461,
+              "Omschrijving": "Groothandel in farmaceutische producten",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          }
+        ],
+        "VoltijdWerkzamePersonen": 159,
+        "DeeltijdWerkzamePersonen": 4,
+        "TotaalWerkzamePersonen": 163,
+        "HandeltOnder": [
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20050626,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Local Qvolane",
+              "Volgorde": 0
+            },
+            "RelatieRegistratie": null
+          },
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20050629,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Local Qvolane de tweede",
+              "Volgorde": 1
+            },
+            "RelatieRegistratie": null
+          },
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20020601,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Local Qvolane de derde",
+              "Volgorde": 2
+            },
+            "RelatieRegistratie": null
+          },
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 19940101,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Local Qvolane de vierde",
+              "Volgorde": 3
+            },
+            "RelatieRegistratie": null
+          },
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20091207,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Local Qvolane de vijfde",
+              "Volgorde": 4
+            },
+            "RelatieRegistratie": null
+          },
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20100901,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Local Qvolane de zesde",
+              "Volgorde": 5
+            },
+            "RelatieRegistratie": null
+          },
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20111001,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Local Qvolane de zevende",
+              "Volgorde": 6
+            },
+            "RelatieRegistratie": null
+          }
+        ],
+        "WordtUitgeoefendIn": {
+          "RelatieRegistratie": {
+            "DatumAanvang": 19870327,
+            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+          },
+          "CommercieleVestiging": {
+            "Registratie": {
+              "DatumAanvang": 19870327,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Vestigingsnummer": 990000098348,
+            "BezoekLocatie": {
+              "Registratie": {
+                "DatumAanvang": 19991119,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Afgeschermd": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Adres": {
+                "BinnenlandsAdres": {
+                  "Straatnaam": "Wielingen",
+                  "Huisnummer": 19,
+                  "Postcode": {
+                    "Cijfercombinatie": 5751,
+                    "Lettercombinatie": "SG"
+                  },
+                  "Plaats": "Deurne",
+                  "BagId": {
+                    "IdentificatieNummeraanduiding": 74999999498961,
+                    "IdentificatieAdresseerbaarObject": 74999999720950
+                  },
+                  "HuisnummerToevoeging": null
+                }
+              },
+              "VolledigAdres": "Wielingen 19 5751SG Deurne"
+            },
+            "Communicatiegegevens": {
+              "Registratie": {
+                "DatumAanvang": 19870327,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Communicatienummer": [
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "T",
+                    "Omschrijving": "Telefoon"
+                  }
+                },
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "F",
+                    "Omschrijving": "Fax"
+                  }
+                }
+              ],
+              "EmailAdres": "nepemailadres@kvk.nl"
+            },
+            "EersteHandelsnaam": "Local Qvolane",
+            "VoltijdWerkzamePersonen": 98,
+            "DeeltijdWerkzamePersonen": 0,
+            "TotaalWerkzamePersonen": 98,
+            "Activiteiten": {
+              "Omschrijving": "Farmaceutische groothandel. Handel in medische thuiszorg artikelen en hulpmiddelen.",
+              "SbiActiviteit": {
+                "Registratie": {
+                  "DatumAanvang": 19870327,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "SbiCode": {
+                  "Code": 46461,
+                  "Omschrijving": "Groothandel in farmaceutische producten",
+                  "ReferentieType": "ActiviteitCode"
+                },
+                "IsHoofdactiviteit": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Exporteert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Importeert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              }
+            },
+            "HandeltOnder": {
+              "Handelsnaam": {
+                "Registratie": {
+                  "DatumAanvang": 20020601,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Naam": "Local Qvolane",
+                "Volgorde": 0
+              },
+              "RelatieRegistratie": {
+                "DatumAanvang": 20020601,
+                "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+              }
+            }
+          }
+        }
+      }
+    },
+    "WordtGeleidVanuit": {
+      "CommercieleVestiging": {
+        "Registratie": {
+          "DatumAanvang": 19870327,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "Vestigingsnummer": 990000098348,
+        "BezoekLocatie": {
+          "Registratie": {
+            "DatumAanvang": 19991119,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Afgeschermd": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Adres": {
+            "BinnenlandsAdres": {
+              "Straatnaam": "Wielingen",
+              "Huisnummer": 19,
+              "Postcode": {
+                "Cijfercombinatie": 5751,
+                "Lettercombinatie": "SG"
+              },
+              "Plaats": "Deurne",
+              "BagId": {
+                "IdentificatieNummeraanduiding": 74999999498961,
+                "IdentificatieAdresseerbaarObject": 74999999720950
+              },
+              "HuisnummerToevoeging": null
+            }
+          },
+          "VolledigAdres": "Wielingen 19 5751SG Deurne"
+        },
+        "Communicatiegegevens": {
+          "Registratie": {
+            "DatumAanvang": 19870327,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Communicatienummer": [
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "T",
+                "Omschrijving": "Telefoon"
+              }
+            },
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "F",
+                "Omschrijving": "Fax"
+              }
+            }
+          ],
+          "EmailAdres": "nepemailadres@kvk.nl"
+        },
+        "EersteHandelsnaam": "Local Qvolane",
+        "VoltijdWerkzamePersonen": 98,
+        "DeeltijdWerkzamePersonen": 0,
+        "TotaalWerkzamePersonen": 98,
+        "Activiteiten": {
+          "Omschrijving": "Farmaceutische groothandel. Handel in medische thuiszorg artikelen en hulpmiddelen.",
+          "SbiActiviteit": {
+            "Registratie": {
+              "DatumAanvang": 19870327,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 46461,
+              "Omschrijving": "Groothandel in farmaceutische producten",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          "Exporteert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Importeert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          }
+        },
+        "HandeltOnder": {
+          "Handelsnaam": {
+            "Registratie": {
+              "DatumAanvang": 20020601,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Naam": "Local Qvolane",
+            "Volgorde": 0
+          },
+          "RelatieRegistratie": {
+            "DatumAanvang": 20020601,
+            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+          }
+        }
+      }
+    },
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 19870327,
+        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+      },
+      "NatuurlijkPersoon": null,
+      "Samenwerkingsverband": {
+        "Registratie": {
+          "DatumAanvang": 19870327,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "BijzondereRechtstoestand": null,
+        "PersoonRechtsvorm": "Commanditaire Vennootschap",
+        "VolledigeNaam": "Jan Klaasen",
+        "UitgebreideRechtsvorm": "Commanditaire Vennootschap",
+        "Heeft": [
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": {
+              "Registratie": {
+                "DatumAanvang": 19980101,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": null,
+                "Rechtspersoon": {
+                  "VoornemenTotOntbinding": null,
+                  "ActiviteitenGestaaktPer": null,
+                  "Rechtsvorm": null,
+                  "Heeft": [],
+                  "VolledigeNaam": "Jan Klaasen",
+                  "Rsin": "992504478"
+                }
+              },
+              "Functie": {
+                "Code": "13",
+                "Omschrijving": "Vennoot",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Bevoegdheid": {
+                "Registratie": {
+                  "DatumAanvang": 19980101,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Soort": {
+                  "Code": "ob",
+                  "Omschrijving": "Onbeperkt bevoegd"
+                },
+                "OverigeBeperking": {
+                  "Code": "N",
+                  "Omschrijving": "Nee",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Functietitel": null
+            },
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          }
+        ],
+        "Rsin": 992972516,
+        "Naamgeving": {
+          "Registratie": {
+            "DatumAanvang": 19870327,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Naam": "Local Qvolane"
+        },
+        "Ontbinding": null,
+        "Rechtsvorm": {
+          "Code": "CV",
+          "Omschrijving": "Commanditaire Vennootschap",
+          "ReferentieType": "Rechtsvorm"
+        },
+        "Duur": {
+          "Registratie": {
+            "DatumAanvang": 19870327,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "HeeftOnbepaaldeDuur": {
+            "Code": "J",
+            "Omschrijving": "Ja",
+            "ReferentieType": "geenRT"
+          }
+        }
+      },
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": null
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

@@ -1,0 +1,168 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 19230101,
+      "DatumEinde": 0,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90003527,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 19230101,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Wildenborgstraat",
+          "Huisnummer": 81,
+          "Postcode": {
+            "Cijfercombinatie": 4834,
+            "Lettercombinatie": "PH"
+          },
+          "Plaats": "Breda",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999356387,
+            "IdentificatieAdresseerbaarObject": 74999999546169
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Wildenborgstraat 81 4834PH Breda"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 19230101,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": null,
+          "Huisnummer": 0,
+          "Postcode": {
+            "Cijfercombinatie": 5926,
+            "Lettercombinatie": "TB"
+          },
+          "Plaats": "Venlo",
+          "BagId": null,
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Postbus 99999 5926TB Venlo"
+    },
+    "Communicatiegegevens": {
+      "Registratie": {
+        "DatumAanvang": 19230101,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Communicatienummer": [
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        },
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "F",
+            "Omschrijving": "Fax"
+          }
+        }
+      ],
+      "EmailAdres": "nepemailadres@kvk.nl"
+    },
+    "Naam": "International Itplanet",
+    "ManifesteertZichAls": null,
+    "WordtGeleidVanuit": {
+      "CommercieleVestiging": null
+    },
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 19230101,
+        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+      },
+      "NatuurlijkPersoon": null,
+      "Samenwerkingsverband": null,
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": {
+        "VoornemenTotOntbinding": null,
+        "ActiviteitenGestaaktPer": null,
+        "Rechtsvorm": {
+          "Code": "PR",
+          "Omschrijving": "Publiekrechtelijke Rechtspersoon"
+        },
+        "Heeft": [
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": {
+              "Functie": {
+                "Code": "24",
+                "Omschrijving": "Privaatrechtelijk gevolmachtigde",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": {
+                  "VolledigeNaam": "Jan Klaasen",
+                  "BezoekLocatiePersoon": {
+                    "Registratie": {
+                      "DatumAanvang": 0,
+                      "DatumEinde": 0,
+                      "RegistratieTijdstipNoValue": null
+                    },
+                    "Afgeschermd": {
+                      "Code": "N",
+                      "Omschrijving": "Nee",
+                      "ReferentieType": "geenRT"
+                    },
+                    "Adres": {
+                      "BinnenlandsAdres": {
+                        "Straatnaam": "Onbekend",
+                        "Huisnummer": 99999,
+                        "Postcode": null,
+                        "Plaats": "Onbekend",
+                        "BagId": null,
+                        "HuisnummerToevoeging": null
+                      }
+                    },
+                    "VolledigAdres": "Onbekend 99999\n Onbekend"
+                  },
+                  "Naam": "mr. Kareem Bischof",
+                  "Telefoonnummer": null
+                },
+                "NatuurlijkPersoon": null,
+                "Rechtspersoon": null
+              },
+              "Volmacht": {
+                "TypeVolmacht": {
+                  "Code": "b",
+                  "Omschrijving": "Beperkte volmacht"
+                }
+              },
+              "Bevoegdheid": null,
+              "Functietitel": null
+            },
+            "PubliekrechtelijkeFunctionaris": null
+          }
+        ],
+        "VolledigeNaam": "Jan Klaasen",
+        "Rsin": "992881390"
+      }
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

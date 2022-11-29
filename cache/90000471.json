@@ -1,0 +1,630 @@
+{
+  "registratie": { "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" }, "datumAanvang": "19690717" },
+  "kvkNummer": "90000471",
+  "nonMailing": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "incidenteelUitlenenArbeidskrachten": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "bezoekLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "19690717"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Leverkruidweg",
+        "huisnummer": 379,
+        "postcode": { "cijfercombinatie": "1508", "lettercombinatie": "WN" },
+        "plaats": "Zaandam",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999499489",
+          "identificatieAdresseerbaarObject": "0074999999650073"
+        }
+      }
+    },
+    "volledigAdres": "Leverkruidweg 379 1508WN Zaandam"
+  },
+  "postLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "19690717"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Leverkruidweg",
+        "huisnummer": 379,
+        "postcode": { "cijfercombinatie": "1508", "lettercombinatie": "WN" },
+        "plaats": "Zaandam",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999499489",
+          "identificatieAdresseerbaarObject": "0074999999650073"
+        }
+      }
+    },
+    "volledigAdres": "Leverkruidweg 379 1508WN Zaandam"
+  },
+  "communicatiegegevens": {
+    "registratie": { "attributes": { "registratieTijdstip": "20141022092130793" }, "datumAanvang": "20141016" },
+    "communicatienummer": [
+      { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+    ],
+    "emailAdres": ["nepemailadres@kvk.nl"],
+    "domeinNaam": ["www.kvk.nl"]
+  },
+  "naam": "Regional Tris-ice Coöperatie",
+  "manifesteertZichAls": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "19690717"
+    },
+    "onderneming": {
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19690717"
+      },
+      "kvkNummer": "90000471",
+      "sbiActiviteit": [
+        {
+          "registratie": { "attributes": { "registratieTijdstip": "20140909162040555" }, "datumAanvang": "20140703" },
+          "sbiCode": {
+            "code": "7500",
+            "omschrijving": "Veterinaire dienstverlening",
+            "referentieType": "ActiviteitCode"
+          },
+          "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+        },
+        {
+          "registratie": { "attributes": { "registratieTijdstip": "20140909162040555" }, "datumAanvang": "20140703" },
+          "sbiCode": {
+            "code": "47919",
+            "omschrijving": "Detailhandel via postorder en internet in een algemeen assortiment non-food",
+            "referentieType": "ActiviteitCode"
+          },
+          "isHoofdactiviteit": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+        }
+      ],
+      "voltijdWerkzamePersonen": 8,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 8,
+      "handeltOnder": [
+        {
+          "handelsnaam": {
+            "registratie": { "attributes": { "registratieTijdstip": "20140926105855911" }, "datumAanvang": "20140925" },
+            "naam": "Regional Tris-ice Coöperatie",
+            "volgorde": 0
+          }
+        },
+        {
+          "handelsnaam": {
+            "registratie": { "attributes": { "registratieTijdstip": "20140909162040555" }, "datumAanvang": "20140703" },
+            "naam": "Regional Tris-ice Coöperatie de tweede",
+            "volgorde": 1
+          }
+        },
+        {
+          "handelsnaam": {
+            "registratie": { "attributes": { "registratieTijdstip": "20140909162040555" }, "datumAanvang": "20140703" },
+            "naam": "Regional Tris-ice Coöperatie de derde",
+            "volgorde": 2
+          }
+        },
+        {
+          "handelsnaam": {
+            "registratie": { "attributes": { "registratieTijdstip": "20141022092130793" }, "datumAanvang": "20141016" },
+            "naam": "Regional Tris-ice Coöperatie de vierde",
+            "volgorde": 3
+          }
+        }
+      ],
+      "wordtUitgeoefendIn": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+            "datumAanvang": "19690717"
+          },
+          "commercieleVestiging": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19690717"
+            },
+            "vestigingsnummer": "990000129957",
+            "bezoekLocatie": {
+              "registratie": {
+                "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                "datumAanvang": "19690717"
+              },
+              "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "adres": {
+                "binnenlandsAdres": {
+                  "straatnaam": "Leverkruidweg",
+                  "huisnummer": 379,
+                  "postcode": { "cijfercombinatie": "1508", "lettercombinatie": "WN" },
+                  "plaats": "Zaandam",
+                  "bagId": {
+                    "identificatieNummeraanduiding": "0074999999499489",
+                    "identificatieAdresseerbaarObject": "0074999999650073"
+                  }
+                }
+              },
+              "volledigAdres": "Leverkruidweg 379 1508WN Zaandam"
+            },
+            "communicatiegegevens": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20141022092130793" },
+                "datumAanvang": "20141016"
+              },
+              "communicatienummer": [
+                { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+              ],
+              "emailAdres": ["nepemailadres@kvk.nl"],
+              "domeinNaam": ["www.kvk.nl"]
+            },
+            "eersteHandelsnaam": "Regional Tris-ice Coöperatie",
+            "voltijdWerkzamePersonen": 8,
+            "deeltijdWerkzamePersonen": 0,
+            "totaalWerkzamePersonen": 8,
+            "activiteiten": {
+              "omschrijving": "Belangenbehartiging van praktiserende dierenartsen. Ondersteuning in praktijk en organisatie van praktiserende dierenartsen. Webshop in dierbenodigdheden.",
+              "sbiActiviteit": [
+                {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20140909162040555" },
+                    "datumAanvang": "20140703"
+                  },
+                  "sbiCode": {
+                    "code": "7500",
+                    "omschrijving": "Veterinaire dienstverlening",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+                },
+                {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20140909162040555" },
+                    "datumAanvang": "20140703"
+                  },
+                  "sbiCode": {
+                    "code": "47919",
+                    "omschrijving": "Detailhandel via postorder en internet in een algemeen assortiment non-food",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+                }
+              ],
+              "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "importeert": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+            },
+            "handeltOnder": [
+              {
+                "relatieRegistratie": {
+                  "attributes": { "registratieTijdstip": "20140926105855911" },
+                  "datumAanvang": "20140925"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20140926105855911" },
+                    "datumAanvang": "20140925"
+                  },
+                  "naam": "Regional Tris-ice Coöperatie",
+                  "volgorde": 0
+                }
+              },
+              {
+                "relatieRegistratie": {
+                  "attributes": { "registratieTijdstip": "20140909162040555" },
+                  "datumAanvang": "20140703"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20140909162040555" },
+                    "datumAanvang": "20140703"
+                  },
+                  "naam": "Regional Tris-ice Coöperatie de tweede",
+                  "volgorde": 1
+                }
+              },
+              {
+                "relatieRegistratie": {
+                  "attributes": { "registratieTijdstip": "20140909162040555" },
+                  "datumAanvang": "20140703"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20140909162040555" },
+                    "datumAanvang": "20140703"
+                  },
+                  "naam": "Regional Tris-ice Coöperatie de derde",
+                  "volgorde": 2
+                }
+              },
+              {
+                "relatieRegistratie": {
+                  "attributes": { "registratieTijdstip": "20141022092130793" },
+                  "datumAanvang": "20141016"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20141022092130793" },
+                    "datumAanvang": "20141016"
+                  },
+                  "naam": "Regional Tris-ice Coöperatie de vierde",
+                  "volgorde": 3
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "wordtGeleidVanuit": {
+    "commercieleVestiging": {
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19690717"
+      },
+      "vestigingsnummer": "990000129957",
+      "bezoekLocatie": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "19690717"
+        },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Leverkruidweg",
+            "huisnummer": 379,
+            "postcode": { "cijfercombinatie": "1508", "lettercombinatie": "WN" },
+            "plaats": "Zaandam",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999499489",
+              "identificatieAdresseerbaarObject": "0074999999650073"
+            }
+          }
+        },
+        "volledigAdres": "Leverkruidweg 379 1508WN Zaandam"
+      },
+      "communicatiegegevens": {
+        "registratie": { "attributes": { "registratieTijdstip": "20141022092130793" }, "datumAanvang": "20141016" },
+        "communicatienummer": [
+          { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+        ],
+        "emailAdres": ["nepemailadres@kvk.nl"],
+        "domeinNaam": ["www.kvk.nl"]
+      },
+      "eersteHandelsnaam": "Regional Tris-ice Coöperatie",
+      "voltijdWerkzamePersonen": 8,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 8,
+      "activiteiten": {
+        "omschrijving": "Belangenbehartiging van praktiserende dierenartsen. Ondersteuning in praktijk en organisatie van praktiserende dierenartsen. Webshop in dierbenodigdheden.",
+        "sbiActiviteit": [
+          {
+            "registratie": { "attributes": { "registratieTijdstip": "20140909162040555" }, "datumAanvang": "20140703" },
+            "sbiCode": {
+              "code": "7500",
+              "omschrijving": "Veterinaire dienstverlening",
+              "referentieType": "ActiviteitCode"
+            },
+            "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+          },
+          {
+            "registratie": { "attributes": { "registratieTijdstip": "20140909162040555" }, "datumAanvang": "20140703" },
+            "sbiCode": {
+              "code": "47919",
+              "omschrijving": "Detailhandel via postorder en internet in een algemeen assortiment non-food",
+              "referentieType": "ActiviteitCode"
+            },
+            "isHoofdactiviteit": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+          }
+        ],
+        "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "importeert": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+      },
+      "handeltOnder": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstip": "20140926105855911" },
+            "datumAanvang": "20140925"
+          },
+          "handelsnaam": {
+            "registratie": { "attributes": { "registratieTijdstip": "20140926105855911" }, "datumAanvang": "20140925" },
+            "naam": "Regional Tris-ice Coöperatie",
+            "volgorde": 0
+          }
+        },
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstip": "20140909162040555" },
+            "datumAanvang": "20140703"
+          },
+          "handelsnaam": {
+            "registratie": { "attributes": { "registratieTijdstip": "20140909162040555" }, "datumAanvang": "20140703" },
+            "naam": "Regional Tris-ice Coöperatie de tweede",
+            "volgorde": 1
+          }
+        },
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstip": "20140909162040555" },
+            "datumAanvang": "20140703"
+          },
+          "handelsnaam": {
+            "registratie": { "attributes": { "registratieTijdstip": "20140909162040555" }, "datumAanvang": "20140703" },
+            "naam": "Regional Tris-ice Coöperatie de derde",
+            "volgorde": 2
+          }
+        },
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstip": "20141022092130793" },
+            "datumAanvang": "20141016"
+          },
+          "handelsnaam": {
+            "registratie": { "attributes": { "registratieTijdstip": "20141022092130793" }, "datumAanvang": "20141016" },
+            "naam": "Regional Tris-ice Coöperatie de vierde",
+            "volgorde": 3
+          }
+        }
+      ]
+    }
+  },
+  "heeftAlsEigenaar": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "19690717"
+    },
+    "rechtspersoon": {
+      "extraElementen": {
+        "extraElement": [
+          { "attributes": { "naam": "datumAanvangStatuten" }, "$value": "20140925" },
+          { "attributes": { "naam": "datumAkteStatuten" }, "$value": "20140925" }
+        ]
+      },
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19690717"
+      },
+      "persoonRechtsvorm": "Coöperatie",
+      "volledigeNaam": "Regional Tris-ice Coöperatie",
+      "uitgebreideRechtsvorm": "Coöperatie",
+      "heeft": [
+        {
+          "bestuursfunctie": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20080611"
+            },
+            "functietitel": {
+              "registratie": {
+                "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                "datumAanvang": "20080611"
+              },
+              "titel": "Voorzitter",
+              "isStatutaireTitel": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": { "extraElement": { "attributes": { "naam": "achternaam" }, "$value": "Littell" } },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19720602"
+                },
+                "volledigeNaam": "Jerald Littell",
+                "geslachtsnaam": "Littell",
+                "voornamen": "Jerald",
+                "geboortedatum": "19720602"
+              }
+            },
+            "functie": { "code": "02", "omschrijving": "Bestuurder", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                "datumAanvang": "20080611"
+              },
+              "soort": {
+                "code": "gb",
+                "omschrijving": "Gezamenlijk bevoegd",
+                "referentieType": "SoortBevoegdheidBestuurder"
+              },
+              "isBevoegdMetAnderePersonen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        },
+        {
+          "bestuursfunctie": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20080611"
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": {
+                  "extraElement": { "attributes": { "naam": "achternaam" }, "$value": "Gryder - van Gryder" }
+                },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19700906"
+                },
+                "volledigeNaam": "Sandy Gryder",
+                "geslachtsnaam": "Gryder - van Gryder",
+                "voornamen": "Sandy",
+                "geboortedatum": "19700906"
+              }
+            },
+            "functie": { "code": "02", "omschrijving": "Bestuurder", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                "datumAanvang": "20080611"
+              },
+              "soort": {
+                "code": "gb",
+                "omschrijving": "Gezamenlijk bevoegd",
+                "referentieType": "SoortBevoegdheidBestuurder"
+              },
+              "isBevoegdMetAnderePersonen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        },
+        {
+          "bestuursfunctie": {
+            "registratie": { "attributes": { "registratieTijdstip": "20140626123911041" }, "datumAanvang": "20140611" },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": { "extraElement": { "attributes": { "naam": "achternaam" }, "$value": "Cobb" } },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19760109"
+                },
+                "volledigeNaam": "Ethan Cobb",
+                "geslachtsnaam": "Cobb",
+                "voornamen": "Ethan",
+                "geboortedatum": "19760109"
+              }
+            },
+            "functie": { "code": "02", "omschrijving": "Bestuurder", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20140626123911041" },
+                "datumAanvang": "20140611"
+              },
+              "soort": {
+                "code": "gb",
+                "omschrijving": "Gezamenlijk bevoegd",
+                "referentieType": "SoortBevoegdheidBestuurder"
+              },
+              "isBevoegdMetAnderePersonen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        },
+        {
+          "bestuursfunctie": {
+            "registratie": { "attributes": { "registratieTijdstip": "20140626123911041" }, "datumAanvang": "20140611" },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": { "extraElement": { "attributes": { "naam": "achternaam" }, "$value": "Madril" } },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19830308"
+                },
+                "volledigeNaam": "Amparo Madril",
+                "geslachtsnaam": "Madril",
+                "voornamen": "Amparo",
+                "geboortedatum": "19830308"
+              }
+            },
+            "functie": { "code": "02", "omschrijving": "Bestuurder", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20140626123911041" },
+                "datumAanvang": "20140611"
+              },
+              "soort": {
+                "code": "gb",
+                "omschrijving": "Gezamenlijk bevoegd",
+                "referentieType": "SoortBevoegdheidBestuurder"
+              },
+              "isBevoegdMetAnderePersonen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        },
+        {
+          "bestuursfunctie": {
+            "registratie": { "attributes": { "registratieTijdstip": "20150902090059252" }, "datumAanvang": "20150610" },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": {
+                  "extraElement": { "attributes": { "naam": "achternaam" }, "$value": "Weise - den Weise" }
+                },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19800828"
+                },
+                "volledigeNaam": "Kathaleen Weise",
+                "geslachtsnaam": "Weise - den Weise",
+                "voornamen": "Kathaleen",
+                "geboortedatum": "19800828"
+              }
+            },
+            "functie": { "code": "02", "omschrijving": "Bestuurder", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20150902090059252" },
+                "datumAanvang": "20150610"
+              },
+              "soort": {
+                "code": "gb",
+                "omschrijving": "Gezamenlijk bevoegd",
+                "referentieType": "SoortBevoegdheidBestuurder"
+              },
+              "isBevoegdMetAnderePersonen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        },
+        {
+          "bestuursfunctie": {
+            "registratie": { "attributes": { "registratieTijdstip": "20150909114001331" }, "datumAanvang": "20150610" },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": { "extraElement": { "attributes": { "naam": "achternaam" }, "$value": "Papenfuss" } },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19761214"
+                },
+                "volledigeNaam": "Socorro Papenfuss",
+                "geslachtsnaam": "Papenfuss",
+                "voornamen": "Socorro",
+                "geboortedatum": "19761214"
+              }
+            },
+            "functie": { "code": "02", "omschrijving": "Bestuurder", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20150909114001331" },
+                "datumAanvang": "20150610"
+              },
+              "soort": {
+                "code": "gb",
+                "omschrijving": "Gezamenlijk bevoegd",
+                "referentieType": "SoortBevoegdheidBestuurder"
+              },
+              "isBevoegdMetAnderePersonen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        }
+      ],
+      "rsin": "992013057",
+      "naamgeving": {
+        "registratie": { "attributes": { "registratieTijdstip": "20140926105855911" }, "datumAanvang": "20140925" },
+        "naam": "Regional Tris-ice Coöperatie"
+      },
+      "rechtsvorm": { "code": "COP", "omschrijving": "Coöperatie", "referentieType": "Rechtsvorm" },
+      "statutaireZetel": "Nepplaats",
+      "aanvangStatutaireZetel": "19690717",
+      "datumAkteOprichting": "19690717",
+      "datumAkteStatutenwijziging": "20140925",
+      "structuur": { "code": "GS", "omschrijving": "Gewone structuur", "referentieType": "RechtsvormStructuur" },
+      "bezoekLocatie": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "19690717"
+        },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Leverkruidweg",
+            "huisnummer": 379,
+            "postcode": { "cijfercombinatie": "1508", "lettercombinatie": "WN" },
+            "plaats": "Zaandam",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999499489",
+              "identificatieAdresseerbaarObject": "0074999999650073"
+            }
+          }
+        },
+        "volledigAdres": "Leverkruidweg 379 1508WN Zaandam"
+      }
+    }
+  }
+}

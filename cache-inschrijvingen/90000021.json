@@ -1,0 +1,576 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 19941118,
+      "DatumEinde": 0,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90000021,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 19941118,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Kervellaantje",
+          "Huisnummer": 6,
+          "Postcode": {
+            "Cijfercombinatie": 2991,
+            "Lettercombinatie": "HC"
+          },
+          "Plaats": "Barendrecht",
+          "BagId": null,
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Kervellaantje 6 2991HC Barendrecht"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 19941118,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Kervellaantje",
+          "Huisnummer": 6,
+          "Postcode": {
+            "Cijfercombinatie": 2991,
+            "Lettercombinatie": "HC"
+          },
+          "Plaats": "Barendrecht",
+          "BagId": null,
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Kervellaantje 6 2991HC Barendrecht"
+    },
+    "Communicatiegegevens": {
+      "Registratie": {
+        "DatumAanvang": 19941118,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Communicatienummer": [
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        },
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "F",
+            "Omschrijving": "Fax"
+          }
+        }
+      ],
+      "EmailAdres": "nepemailadres@kvk.nl"
+    },
+    "Naam": "Regional Superfase",
+    "ManifesteertZichAls": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 19960301,
+        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+      },
+      "Onderneming": {
+        "Registratie": {
+          "DatumAanvang": 19941118,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "KvkNummer": 90000021,
+        "SbiActiviteit": [
+          {
+            "Registratie": {
+              "DatumAanvang": 20130101,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 6622,
+              "Omschrijving": "Assurantietussenpersonen",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          {
+            "Registratie": {
+              "DatumAanvang": 19940501,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 70222,
+              "Omschrijving": "Advisering op het gebied van management en bedrijfsvoering (geen public relations en organisatie- adviesbureaus)",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          {
+            "Registratie": {
+              "DatumAanvang": 20081001,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 70221,
+              "Omschrijving": "Organisatie-adviesbureaus",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          {
+            "Registratie": {
+              "DatumAanvang": 20130101,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 4618,
+              "Omschrijving": "Handelsbemiddeling gespecialiseerd in overige goederen",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "N",
+              "Omschrijving": "Nee",
+              "ReferentieType": "geenRT"
+            }
+          },
+          {
+            "Registratie": {
+              "DatumAanvang": 20081001,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 85592,
+              "Omschrijving": "Bedrijfsopleiding en -training",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "N",
+              "Omschrijving": "Nee",
+              "ReferentieType": "geenRT"
+            }
+          },
+          {
+            "Registratie": {
+              "DatumAanvang": 20130101,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 70221,
+              "Omschrijving": "Organisatie-adviesbureaus",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "N",
+              "Omschrijving": "Nee",
+              "ReferentieType": "geenRT"
+            }
+          }
+        ],
+        "VoltijdWerkzamePersonen": 3,
+        "DeeltijdWerkzamePersonen": 1,
+        "TotaalWerkzamePersonen": 4,
+        "HandeltOnder": [
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20020501,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Regional Superfase Eenmanszaak",
+              "Volgorde": 0
+            },
+            "RelatieRegistratie": null
+          },
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 19960301,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Regional Superfase Eenmanszaak de tweede",
+              "Volgorde": 1
+            },
+            "RelatieRegistratie": null
+          },
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20081001,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Regional Superfase Eenmanszaak de derde",
+              "Volgorde": 2
+            },
+            "RelatieRegistratie": null
+          },
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20120322,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Regional Superfase Eenmanszaak de vierde",
+              "Volgorde": 3
+            },
+            "RelatieRegistratie": null
+          },
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20120322,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Regional Superfase Eenmanszaak de vijfde",
+              "Volgorde": 4
+            },
+            "RelatieRegistratie": null
+          },
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20130101,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Regional Superfase Eenmanszaak de zesde",
+              "Volgorde": 5
+            },
+            "RelatieRegistratie": null
+          }
+        ],
+        "WordtUitgeoefendIn": {
+          "RelatieRegistratie": {
+            "DatumAanvang": 19960301,
+            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+          },
+          "CommercieleVestiging": {
+            "Registratie": {
+              "DatumAanvang": 19941118,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Vestigingsnummer": 990000489902,
+            "BezoekLocatie": {
+              "Registratie": {
+                "DatumAanvang": 19941118,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Afgeschermd": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Adres": {
+                "BinnenlandsAdres": {
+                  "Straatnaam": "Kervellaantje",
+                  "Huisnummer": 6,
+                  "Postcode": {
+                    "Cijfercombinatie": 2991,
+                    "Lettercombinatie": "HC"
+                  },
+                  "Plaats": "Barendrecht",
+                  "BagId": null,
+                  "HuisnummerToevoeging": null
+                }
+              },
+              "VolledigAdres": "Kervellaantje 6 2991HC Barendrecht"
+            },
+            "Communicatiegegevens": {
+              "Registratie": {
+                "DatumAanvang": 19941118,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Communicatienummer": [
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "T",
+                    "Omschrijving": "Telefoon"
+                  }
+                },
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "F",
+                    "Omschrijving": "Fax"
+                  }
+                }
+              ],
+              "EmailAdres": "nepemailadres@kvk.nl"
+            },
+            "EersteHandelsnaam": "Regional Superfase Eenmanszaak",
+            "VoltijdWerkzamePersonen": 1,
+            "DeeltijdWerkzamePersonen": 1,
+            "TotaalWerkzamePersonen": 2,
+            "Activiteiten": {
+              "Omschrijving": "Assurantiekantoor. Adviesbureau voor edelmetalen en import en export van analyse-apparatuur. Ontwerpen van sieraden. O.d.n. Future Ideas: Evenementenorganisatie en innovatie-advies",
+              "SbiActiviteit": {
+                "Registratie": {
+                  "DatumAanvang": 20130101,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "SbiCode": {
+                  "Code": 6622,
+                  "Omschrijving": "Assurantietussenpersonen",
+                  "ReferentieType": "ActiviteitCode"
+                },
+                "IsHoofdactiviteit": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Exporteert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Importeert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              }
+            },
+            "HandeltOnder": {
+              "Handelsnaam": {
+                "Registratie": {
+                  "DatumAanvang": 19960301,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Naam": "Regional Superfase Eenmanszaak",
+                "Volgorde": 0
+              },
+              "RelatieRegistratie": {
+                "DatumAanvang": 19960301,
+                "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+              }
+            }
+          }
+        }
+      }
+    },
+    "WordtGeleidVanuit": {
+      "CommercieleVestiging": {
+        "Registratie": {
+          "DatumAanvang": 19941118,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "Vestigingsnummer": 990000489902,
+        "BezoekLocatie": {
+          "Registratie": {
+            "DatumAanvang": 19941118,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Afgeschermd": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Adres": {
+            "BinnenlandsAdres": {
+              "Straatnaam": "Kervellaantje",
+              "Huisnummer": 6,
+              "Postcode": {
+                "Cijfercombinatie": 2991,
+                "Lettercombinatie": "HC"
+              },
+              "Plaats": "Barendrecht",
+              "BagId": null,
+              "HuisnummerToevoeging": null
+            }
+          },
+          "VolledigAdres": "Kervellaantje 6 2991HC Barendrecht"
+        },
+        "Communicatiegegevens": {
+          "Registratie": {
+            "DatumAanvang": 19941118,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Communicatienummer": [
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "T",
+                "Omschrijving": "Telefoon"
+              }
+            },
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "F",
+                "Omschrijving": "Fax"
+              }
+            }
+          ],
+          "EmailAdres": "nepemailadres@kvk.nl"
+        },
+        "EersteHandelsnaam": "Regional Superfase Eenmanszaak",
+        "VoltijdWerkzamePersonen": 1,
+        "DeeltijdWerkzamePersonen": 1,
+        "TotaalWerkzamePersonen": 2,
+        "Activiteiten": {
+          "Omschrijving": "Assurantiekantoor. Adviesbureau voor edelmetalen en import en export van analyse-apparatuur. Ontwerpen van sieraden. O.d.n. Future Ideas: Evenementenorganisatie en innovatie-advies",
+          "SbiActiviteit": {
+            "Registratie": {
+              "DatumAanvang": 20130101,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 6622,
+              "Omschrijving": "Assurantietussenpersonen",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          "Exporteert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Importeert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          }
+        },
+        "HandeltOnder": {
+          "Handelsnaam": {
+            "Registratie": {
+              "DatumAanvang": 19960301,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Naam": "Regional Superfase Eenmanszaak",
+            "Volgorde": 0
+          },
+          "RelatieRegistratie": {
+            "DatumAanvang": 19960301,
+            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+          }
+        }
+      }
+    },
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 19960301,
+        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+      },
+      "NatuurlijkPersoon": {
+        "ExtraElementen": {
+          "ExtraElement": {
+            "Naam": "achternaam"
+          }
+        },
+        "Registratie": {
+          "DatumAanvang": 19791214,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "PersoonRechtsvorm": "Eenmanszaak",
+        "VolledigeNaam": "Jan Klaasen",
+        "UitgebreideRechtsvorm": "Eenmanszaak",
+        "Geslachtsnaam": "Klaasen",
+        "Voornamen": "Jan",
+        "Heeft": [
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": {
+              "Functie": {
+                "Code": "01",
+                "Omschrijving": "Gevolmachtigde",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19690709,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Volmacht": null,
+              "Bevoegdheid": null,
+              "Functietitel": null
+            },
+            "PubliekrechtelijkeFunctionaris": null
+          }
+        ],
+        "Geboortedatum": "20000101"
+      },
+      "Samenwerkingsverband": null,
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": null
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

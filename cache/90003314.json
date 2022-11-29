@@ -1,0 +1,155 @@
+{
+  "registratie": { "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" }, "datumAanvang": "19911011" },
+  "kvkNummer": "90003314",
+  "nonMailing": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "incidenteelUitlenenArbeidskrachten": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "bezoekLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "19911011"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Rogier van Leefdaelstraat",
+        "huisnummer": 26,
+        "postcode": { "cijfercombinatie": "5081", "lettercombinatie": "JL" },
+        "plaats": "Hilvarenbeek"
+      }
+    },
+    "volledigAdres": "Rogier van Leefdaelstraat 26 5081JL Hilvarenbeek"
+  },
+  "postLocatie": {
+    "registratie": { "attributes": { "registratieTijdstip": "20101105090741970" }, "datumAanvang": "20101104" },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "postbusnummer": 99999,
+        "postcode": { "cijfercombinatie": "6116", "lettercombinatie": "CJ" },
+        "plaats": "Roosteren"
+      }
+    },
+    "volledigAdres": "Postbus 99999 6116CJ Roosteren"
+  },
+  "naam": "Onderlinge Waarborgmaatschappij Grand Intechi",
+  "heeftAlsEigenaar": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "19911011"
+    },
+    "rechtspersoon": {
+      "extraElementen": {
+        "extraElement": [
+          { "attributes": { "naam": "datumAanvangStatuten" }, "$value": "19980512" },
+          { "attributes": { "naam": "datumAkteStatuten" }, "$value": "19980512" }
+        ]
+      },
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19911011"
+      },
+      "bijzondereRechtstoestand": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "20060824"
+        },
+        "soort": { "code": "FAIL", "omschrijving": "Faillissement", "referentieType": "geenRT" },
+        "uitspraakAanvang": { "datum": "20060824", "naam": "Rechtbank Almelo", "plaats": "Almelo" }
+      },
+      "persoonRechtsvorm": "Onderlinge Waarborg Maatschappij",
+      "volledigeNaam": "Onderlinge Waarborgmaatschappij Grand Intechi",
+      "uitgebreideRechtsvorm": "Onderlinge Waarborg Maatschappij",
+      "heeft": [
+        {
+          "functionarisBijzondereRechtstoestand": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20060824"
+            },
+            "door": {
+              "naamPersoon": {
+                "volledigeNaam": "mr. Noemi Dunlop",
+                "bezoekLocatiePersoon": {
+                  "registratie": { "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" } },
+                  "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+                  "adres": {
+                    "binnenlandsAdres": {
+                      "straatnaam": "Parkstraat",
+                      "huisnummer": "1",
+                      "postcode": { "cijfercombinatie": "4021", "lettercombinatie": "CA" },
+                      "plaats": "Maurik"
+                    }
+                  },
+                  "volledigAdres": "Parkstraat 1 4021CA Maurik"
+                },
+                "naam": "mr. Noemi Dunlop"
+              }
+            },
+            "functie": { "code": "11", "omschrijving": "Rechter-commissaris", "referentieType": "FunctionarisRol" }
+          }
+        },
+        {
+          "functionarisBijzondereRechtstoestand": {
+            "registratie": { "attributes": { "registratieTijdstip": "20101105090741970" }, "datumAanvang": "20101104" },
+            "door": {
+              "naamPersoon": {
+                "volledigeNaam": "mr. Charolette Mellon",
+                "bezoekLocatiePersoon": {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20101105090741970" },
+                    "datumAanvang": "20101104"
+                  },
+                  "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+                  "adres": {
+                    "binnenlandsAdres": {
+                      "postbusnummer": "99999",
+                      "postcode": { "cijfercombinatie": "6116", "lettercombinatie": "CJ" },
+                      "plaats": "Roosteren"
+                    }
+                  },
+                  "volledigAdres": "Postbus 99999 6116CJ Roosteren"
+                },
+                "naam": "mr. Charolette Mellon"
+              }
+            },
+            "functie": { "code": "07", "omschrijving": "Curator", "referentieType": "FunctionarisRol" }
+          }
+        }
+      ],
+      "rsin": "992883659",
+      "naamgeving": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "19980512"
+        },
+        "naam": "Onderlinge Waarborgmaatschappij Grand Intechi"
+      },
+      "rechtsvorm": {
+        "code": "OWM",
+        "omschrijving": "Onderlinge Waarborg Maatschappij",
+        "referentieType": "Rechtsvorm"
+      },
+      "statutaireZetel": "Nepplaats",
+      "aanvangStatutaireZetel": "19911011",
+      "datumAkteOprichting": "19911011",
+      "datumAkteStatutenwijziging": "19980512",
+      "structuur": { "code": "GS", "omschrijving": "Gewone structuur", "referentieType": "RechtsvormStructuur" },
+      "bezoekLocatie": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "19911011"
+        },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Rogier van Leefdaelstraat",
+            "huisnummer": 26,
+            "postcode": { "cijfercombinatie": "5081", "lettercombinatie": "JL" },
+            "plaats": "Hilvarenbeek"
+          }
+        },
+        "volledigAdres": "Rogier van Leefdaelstraat 26 5081JL Hilvarenbeek"
+      }
+    }
+  }
+}

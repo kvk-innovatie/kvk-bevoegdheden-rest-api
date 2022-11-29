@@ -1,0 +1,457 @@
+{
+  "registratie": {
+    "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+    "datumAanvang": "20080101",
+    "datumEinde": "20130701"
+  },
+  "kvkNummer": "90004515",
+  "nonMailing": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "incidenteelUitlenenArbeidskrachten": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "bezoekLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstip": "20130806111530556" },
+      "datumAanvang": "20080101",
+      "datumEinde": "20130701"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Veldsweg",
+        "huisnummer": 100,
+        "postcode": { "cijfercombinatie": "7441", "lettercombinatie": "CN" },
+        "plaats": "Nijverdal",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999435400",
+          "identificatieAdresseerbaarObject": "0074999999664489"
+        }
+      }
+    },
+    "volledigAdres": "Veldsweg 100 7441CN Nijverdal"
+  },
+  "postLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstip": "20130806111530556" },
+      "datumAanvang": "20080101",
+      "datumEinde": "20130701"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Veldsweg",
+        "huisnummer": 100,
+        "postcode": { "cijfercombinatie": "7441", "lettercombinatie": "CN" },
+        "plaats": "Nijverdal",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999435400",
+          "identificatieAdresseerbaarObject": "0074999999664489"
+        }
+      }
+    },
+    "volledigAdres": "Veldsweg 100 7441CN Nijverdal"
+  },
+  "communicatiegegevens": {
+    "registratie": {
+      "attributes": { "registratieTijdstip": "20130806111530556" },
+      "datumAanvang": "20080101",
+      "datumEinde": "20130701"
+    },
+    "communicatienummer": [
+      { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+      { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "F", "omschrijving": "Fax" } }
+    ],
+    "emailAdres": ["nepemailadres@kvk.nl"]
+  },
+  "naam": "Local Quote-lab",
+  "manifesteertZichAls": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstip": "20130806111530556" },
+      "datumAanvang": "20080101",
+      "datumEinde": "20130701"
+    },
+    "onderneming": {
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "20080101",
+        "datumEinde": "20130701"
+      },
+      "kvkNummer": "90004515",
+      "sbiActiviteit": [
+        {
+          "registratie": {
+            "attributes": { "registratieTijdstip": "20130806111530556" },
+            "datumAanvang": "20080101",
+            "datumEinde": "20130701"
+          },
+          "sbiCode": {
+            "code": "0146",
+            "omschrijving": "Fokken en houden van varkens",
+            "referentieType": "ActiviteitCode"
+          },
+          "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+        }
+      ],
+      "voltijdWerkzamePersonen": 2,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 2,
+      "handeltOnder": [
+        {
+          "handelsnaam": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20080101",
+              "datumEinde": "20130701"
+            },
+            "naam": "Local Quote-lab",
+            "volgorde": 0
+          }
+        }
+      ],
+      "wordtUitgeoefendIn": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstip": "20130806111530556" },
+            "datumAanvang": "20080101",
+            "datumEinde": "20130701"
+          },
+          "commercieleVestiging": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20080101",
+              "datumEinde": "20130701"
+            },
+            "vestigingsnummer": "990000266694",
+            "bezoekLocatie": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20130806111530556" },
+                "datumAanvang": "20080101",
+                "datumEinde": "20130701"
+              },
+              "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "adres": {
+                "binnenlandsAdres": {
+                  "straatnaam": "Veldsweg",
+                  "huisnummer": 100,
+                  "postcode": { "cijfercombinatie": "7441", "lettercombinatie": "CN" },
+                  "plaats": "Nijverdal",
+                  "bagId": {
+                    "identificatieNummeraanduiding": "0074999999435400",
+                    "identificatieAdresseerbaarObject": "0074999999664489"
+                  }
+                }
+              },
+              "volledigAdres": "Veldsweg 100 7441CN Nijverdal"
+            },
+            "communicatiegegevens": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20130806111530556" },
+                "datumAanvang": "20080101",
+                "datumEinde": "20130701"
+              },
+              "communicatienummer": [
+                { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+                { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "F", "omschrijving": "Fax" } }
+              ],
+              "emailAdres": ["nepemailadres@kvk.nl"]
+            },
+            "eersteHandelsnaam": "Local Quote-lab",
+            "voltijdWerkzamePersonen": 2,
+            "deeltijdWerkzamePersonen": 0,
+            "totaalWerkzamePersonen": 2,
+            "activiteiten": {
+              "omschrijving": "Varkenshouderij bedrijf",
+              "sbiActiviteit": [
+                {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20130806111530556" },
+                    "datumAanvang": "20080101",
+                    "datumEinde": "20130701"
+                  },
+                  "sbiCode": {
+                    "code": "0146",
+                    "omschrijving": "Fokken en houden van varkens",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+                }
+              ],
+              "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            },
+            "handeltOnder": [
+              {
+                "relatieRegistratie": {
+                  "attributes": { "registratieTijdstip": "20130806111530556" },
+                  "datumAanvang": "20080101",
+                  "datumEinde": "20130701"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                    "datumAanvang": "20080101",
+                    "datumEinde": "20130701"
+                  },
+                  "naam": "Local Quote-lab",
+                  "volgorde": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "wordtGeleidVanuit": {
+    "commercieleVestiging": {
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "20080101",
+        "datumEinde": "20130701"
+      },
+      "vestigingsnummer": "990000266694",
+      "bezoekLocatie": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20130806111530556" },
+          "datumAanvang": "20080101",
+          "datumEinde": "20130701"
+        },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Veldsweg",
+            "huisnummer": 100,
+            "postcode": { "cijfercombinatie": "7441", "lettercombinatie": "CN" },
+            "plaats": "Nijverdal",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999435400",
+              "identificatieAdresseerbaarObject": "0074999999664489"
+            }
+          }
+        },
+        "volledigAdres": "Veldsweg 100 7441CN Nijverdal"
+      },
+      "communicatiegegevens": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20130806111530556" },
+          "datumAanvang": "20080101",
+          "datumEinde": "20130701"
+        },
+        "communicatienummer": [
+          { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+          { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "F", "omschrijving": "Fax" } }
+        ],
+        "emailAdres": ["nepemailadres@kvk.nl"]
+      },
+      "eersteHandelsnaam": "Local Quote-lab",
+      "voltijdWerkzamePersonen": 2,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 2,
+      "activiteiten": {
+        "omschrijving": "Varkenshouderij bedrijf",
+        "sbiActiviteit": [
+          {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20130806111530556" },
+              "datumAanvang": "20080101",
+              "datumEinde": "20130701"
+            },
+            "sbiCode": {
+              "code": "0146",
+              "omschrijving": "Fokken en houden van varkens",
+              "referentieType": "ActiviteitCode"
+            },
+            "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+          }
+        ],
+        "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+      },
+      "handeltOnder": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstip": "20130806111530556" },
+            "datumAanvang": "20080101",
+            "datumEinde": "20130701"
+          },
+          "handelsnaam": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20080101",
+              "datumEinde": "20130701"
+            },
+            "naam": "Local Quote-lab",
+            "volgorde": 0
+          }
+        }
+      ]
+    }
+  },
+  "heeftAlsEigenaar": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstip": "20130806111530556" },
+      "datumAanvang": "20080101",
+      "datumEinde": "20130701"
+    },
+    "samenwerkingsverband": {
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "20080101",
+        "datumEinde": "20130701"
+      },
+      "persoonRechtsvorm": "Vennootschap Onder Firma",
+      "volledigeNaam": "Local Quote-lab",
+      "uitgebreideRechtsvorm": "Vennootschap Onder Firma",
+      "heeft": [
+        {
+          "aansprakelijke": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20080101",
+              "datumEinde": "20130701"
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": {
+                  "extraElement": [
+                    { "attributes": { "naam": "voorvoegsel" }, "$value": "van de" },
+                    { "attributes": { "naam": "achternaam" }, "$value": "Saville" }
+                  ]
+                },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19490515"
+                },
+                "bijzondereRechtstoestand": {
+                  "soort": { "code": "SURS", "omschrijving": "Surseance van betaling", "referentieType": "geenRT" }
+                },
+                "volledigeNaam": "Brad Saville",
+                "bezoekLocatiePersoon": {
+                  "registratie": { "attributes": { "registratieTijdstip": "20130625213039543" } },
+                  "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+                  "adres": {
+                    "binnenlandsAdres": {
+                      "straatnaam": "Roerdomplaan",
+                      "huisnummer": "55",
+                      "postcode": { "cijfercombinatie": "8446", "lettercombinatie": "JR" },
+                      "plaats": "Heerenveen",
+                      "bagId": {
+                        "identificatieNummeraanduiding": "0074999999614779",
+                        "identificatieAdresseerbaarObject": "0074999999146623"
+                      }
+                    }
+                  },
+                  "volledigAdres": "Slingerbeekstraat 6 1784DA Den Helder"
+                },
+                "geslachtsnaam": "Saville",
+                "voorvoegselGeslachtsnaam": "van de",
+                "voornamen": "Brad",
+                "geboortedatum": "19490515"
+              }
+            },
+            "functie": { "code": "13", "omschrijving": "Vennoot", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20130806111530556" },
+                "datumAanvang": "20080101",
+                "datumEinde": "20130701"
+              },
+              "soort": {
+                "code": "bb",
+                "omschrijving": "Beperkt bevoegd",
+                "referentieType": "SoortBevoegdheidAansprakelijkeBijSamenwerkingsverband"
+              },
+              "beperkingInEuros": {
+                "waarde": "15000",
+                "valuta": { "code": "EUR", "omschrijving": "Euro", "referentieType": "Valuta" }
+              },
+              "overigeBeperking": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+            }
+          }
+        },
+        {
+          "aansprakelijke": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20080101",
+              "datumEinde": "20130701"
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": {
+                  "extraElement": [
+                    { "attributes": { "naam": "voorvoegsel" }, "$value": "van de" },
+                    { "attributes": { "naam": "achternaam" }, "$value": "Clouse" }
+                  ]
+                },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19651126"
+                },
+                "volledigeNaam": "Virgie Clouse",
+                "bezoekLocatiePersoon": {
+                  "registratie": { "attributes": { "registratieTijdstip": "20130930214535370" } },
+                  "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+                  "adres": {
+                    "binnenlandsAdres": {
+                      "straatnaam": "Hagelingerweg",
+                      "huisnummer": "22",
+                      "postcode": { "cijfercombinatie": "2071", "lettercombinatie": "CJ" },
+                      "plaats": "Santpoort-Noord",
+                      "bagId": {
+                        "identificatieNummeraanduiding": "0074999999962922",
+                        "identificatieAdresseerbaarObject": "0074999999728221"
+                      }
+                    }
+                  },
+                  "volledigAdres": "De Zodde 6 1231MB Loosdrecht"
+                },
+                "geslachtsnaam": "Clouse",
+                "voorvoegselGeslachtsnaam": "van de",
+                "voornamen": "Virgie",
+                "geboortedatum": "19651126"
+              }
+            },
+            "functie": { "code": "13", "omschrijving": "Vennoot", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20130806111530556" },
+                "datumAanvang": "20080101",
+                "datumEinde": "20130701"
+              },
+              "soort": {
+                "code": "bb",
+                "omschrijving": "Beperkt bevoegd",
+                "referentieType": "SoortBevoegdheidAansprakelijkeBijSamenwerkingsverband"
+              },
+              "beperkingInEuros": {
+                "waarde": "15000",
+                "valuta": { "code": "EUR", "omschrijving": "Euro", "referentieType": "Valuta" }
+              },
+              "overigeBeperking": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+            }
+          }
+        }
+      ],
+      "rsin": "992056937",
+      "naamgeving": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20130806111530556" },
+          "datumAanvang": "20080101",
+          "datumEinde": "20130701"
+        },
+        "naam": "Local Quote-lab"
+      },
+      "ontbinding": {
+        "registratie": { "attributes": { "registratieTijdstip": "20130806111530556" }, "datumAanvang": "20130701" }
+      },
+      "rechtsvorm": { "code": "VOF", "omschrijving": "Vennootschap Onder Firma", "referentieType": "Rechtsvorm" },
+      "duur": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20130806111530556" },
+          "datumAanvang": "20080101",
+          "datumEinde": "20130701"
+        },
+        "heeftOnbepaaldeDuur": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+      }
+    }
+  }
+}

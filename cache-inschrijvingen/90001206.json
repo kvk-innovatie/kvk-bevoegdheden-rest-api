@@ -1,0 +1,544 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 19811028,
+      "DatumEinde": 20111115,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90001206,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20010326,
+        "DatumEinde": 20111115,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Jan Linssenstraat",
+          "Huisnummer": 5,
+          "Postcode": {
+            "Cijfercombinatie": 3077,
+            "Lettercombinatie": "MD"
+          },
+          "Plaats": "Rotterdam",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999655185,
+            "IdentificatieAdresseerbaarObject": 74999999619024
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Jan Linssenstraat 5 3077MD Rotterdam"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20010326,
+        "DatumEinde": 20111115,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Jan Linssenstraat",
+          "Huisnummer": 5,
+          "Postcode": {
+            "Cijfercombinatie": 3077,
+            "Lettercombinatie": "MD"
+          },
+          "Plaats": "Rotterdam",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999655185,
+            "IdentificatieAdresseerbaarObject": 74999999619024
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Jan Linssenstraat 5 3077MD Rotterdam"
+    },
+    "Communicatiegegevens": {
+      "Registratie": {
+        "DatumAanvang": 19090324,
+        "DatumEinde": 20111115,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Communicatienummer": [
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        }
+      ],
+      "EmailAdres": null
+    },
+    "Naam": "Onderlinge Waarborgmaatschappij Grand Ranzoom",
+    "ManifesteertZichAls": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 19811028,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Onderneming": {
+        "Registratie": {
+          "DatumAanvang": 19090324,
+          "DatumEinde": 20111115,
+          "RegistratieTijdstipNoValue": null
+        },
+        "KvkNummer": 90001206,
+        "SbiActiviteit": [
+          {
+            "Registratie": {
+              "DatumAanvang": 19090324,
+              "DatumEinde": 20111115,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 6512,
+              "Omschrijving": "Schadeverzekeringen (geen herverzekering)",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          }
+        ],
+        "VoltijdWerkzamePersonen": 0,
+        "DeeltijdWerkzamePersonen": 0,
+        "TotaalWerkzamePersonen": 0,
+        "HandeltOnder": [
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 19090324,
+                "DatumEinde": 20111115,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Onderlinge Waarborgmaatschappij Grand Ranzoom",
+              "Volgorde": 0
+            },
+            "RelatieRegistratie": null
+          }
+        ],
+        "WordtUitgeoefendIn": {
+          "RelatieRegistratie": {
+            "DatumAanvang": 19090324,
+            "RegistratieTijdstipNoValue": null
+          },
+          "CommercieleVestiging": {
+            "Registratie": {
+              "DatumAanvang": 19090324,
+              "DatumEinde": 20111115,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Vestigingsnummer": 990000401445,
+            "BezoekLocatie": {
+              "Registratie": {
+                "DatumAanvang": 20010326,
+                "DatumEinde": 20111115,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Afgeschermd": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Adres": {
+                "BinnenlandsAdres": {
+                  "Straatnaam": "Jan Linssenstraat",
+                  "Huisnummer": 5,
+                  "Postcode": {
+                    "Cijfercombinatie": 3077,
+                    "Lettercombinatie": "MD"
+                  },
+                  "Plaats": "Rotterdam",
+                  "BagId": {
+                    "IdentificatieNummeraanduiding": 74999999655185,
+                    "IdentificatieAdresseerbaarObject": 74999999619024
+                  },
+                  "HuisnummerToevoeging": null
+                }
+              },
+              "VolledigAdres": "Jan Linssenstraat 5 3077MD Rotterdam"
+            },
+            "Communicatiegegevens": {
+              "Registratie": {
+                "DatumAanvang": 19090324,
+                "DatumEinde": 20111115,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Communicatienummer": [
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "T",
+                    "Omschrijving": "Telefoon"
+                  }
+                }
+              ],
+              "EmailAdres": null
+            },
+            "EersteHandelsnaam": "Onderlinge Waarborgmaatschappij Grand Ranzoom",
+            "VoltijdWerkzamePersonen": 0,
+            "DeeltijdWerkzamePersonen": 0,
+            "TotaalWerkzamePersonen": 0,
+            "Activiteiten": {
+              "Omschrijving": "De vereniging heeft ten doel: het door de leden gezamenlijk doen dragen van de schade ontstaan door het sterven of onbruikbaar worden van paarden die bij de maatschappij zijn verzekerd.",
+              "SbiActiviteit": {
+                "Registratie": {
+                  "DatumAanvang": 19090324,
+                  "DatumEinde": 20111115,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "SbiCode": {
+                  "Code": 6512,
+                  "Omschrijving": "Schadeverzekeringen (geen herverzekering)",
+                  "ReferentieType": "ActiviteitCode"
+                },
+                "IsHoofdactiviteit": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Exporteert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Importeert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              }
+            },
+            "HandeltOnder": {
+              "Handelsnaam": {
+                "Registratie": {
+                  "DatumAanvang": 19090324,
+                  "DatumEinde": 20111115,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Naam": "Onderlinge Waarborgmaatschappij Grand Ranzoom",
+                "Volgorde": 0
+              },
+              "RelatieRegistratie": {
+                "DatumAanvang": 19090324,
+                "RegistratieTijdstipNoValue": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "WordtGeleidVanuit": {
+      "CommercieleVestiging": {
+        "Registratie": {
+          "DatumAanvang": 19090324,
+          "DatumEinde": 20111115,
+          "RegistratieTijdstipNoValue": null
+        },
+        "Vestigingsnummer": 990000401445,
+        "BezoekLocatie": {
+          "Registratie": {
+            "DatumAanvang": 20010326,
+            "DatumEinde": 20111115,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Afgeschermd": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Adres": {
+            "BinnenlandsAdres": {
+              "Straatnaam": "Jan Linssenstraat",
+              "Huisnummer": 5,
+              "Postcode": {
+                "Cijfercombinatie": 3077,
+                "Lettercombinatie": "MD"
+              },
+              "Plaats": "Rotterdam",
+              "BagId": {
+                "IdentificatieNummeraanduiding": 74999999655185,
+                "IdentificatieAdresseerbaarObject": 74999999619024
+              },
+              "HuisnummerToevoeging": null
+            }
+          },
+          "VolledigAdres": "Jan Linssenstraat 5 3077MD Rotterdam"
+        },
+        "Communicatiegegevens": {
+          "Registratie": {
+            "DatumAanvang": 19090324,
+            "DatumEinde": 20111115,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Communicatienummer": [
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "T",
+                "Omschrijving": "Telefoon"
+              }
+            }
+          ],
+          "EmailAdres": null
+        },
+        "EersteHandelsnaam": "Onderlinge Waarborgmaatschappij Grand Ranzoom",
+        "VoltijdWerkzamePersonen": 0,
+        "DeeltijdWerkzamePersonen": 0,
+        "TotaalWerkzamePersonen": 0,
+        "Activiteiten": {
+          "Omschrijving": "De vereniging heeft ten doel: het door de leden gezamenlijk doen dragen van de schade ontstaan door het sterven of onbruikbaar worden van paarden die bij de maatschappij zijn verzekerd.",
+          "SbiActiviteit": {
+            "Registratie": {
+              "DatumAanvang": 19090324,
+              "DatumEinde": 20111115,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 6512,
+              "Omschrijving": "Schadeverzekeringen (geen herverzekering)",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          "Exporteert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Importeert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          }
+        },
+        "HandeltOnder": {
+          "Handelsnaam": {
+            "Registratie": {
+              "DatumAanvang": 19090324,
+              "DatumEinde": 20111115,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Naam": "Onderlinge Waarborgmaatschappij Grand Ranzoom",
+            "Volgorde": 0
+          },
+          "RelatieRegistratie": {
+            "DatumAanvang": 19090324,
+            "RegistratieTijdstipNoValue": null
+          }
+        }
+      }
+    },
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 19811028,
+        "RegistratieTijdstipNoValue": null
+      },
+      "NatuurlijkPersoon": null,
+      "Samenwerkingsverband": null,
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": {
+        "VoornemenTotOntbinding": null,
+        "ActiviteitenGestaaktPer": null,
+        "Rechtsvorm": {
+          "Code": "OWM",
+          "Omschrijving": "Onderlinge Waarborg Maatschappij"
+        },
+        "Heeft": [
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": {
+              "Functie": {
+                "Code": "02",
+                "Omschrijving": "Bestuurder",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19410107,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Bevoegdheid": {
+                "Soort": {
+                  "Code": "gb",
+                  "Omschrijving": "Gezamenlijk bevoegd"
+                }
+              },
+              "Functietitel": {
+                "Titel": "Secretaris/penningmeester"
+              }
+            },
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": {
+              "Functie": {
+                "Code": "02",
+                "Omschrijving": "Bestuurder",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "voorvoegsel"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19880917,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Bevoegdheid": {
+                "Soort": {
+                  "Code": "gb",
+                  "Omschrijving": "Gezamenlijk bevoegd"
+                }
+              },
+              "Functietitel": null
+            },
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": {
+              "Functie": {
+                "Code": "02",
+                "Omschrijving": "Bestuurder",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19550419,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Bevoegdheid": {
+                "Soort": {
+                  "Code": "gb",
+                  "Omschrijving": "Gezamenlijk bevoegd"
+                }
+              },
+              "Functietitel": null
+            },
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": {
+              "Functie": {
+                "Code": "10",
+                "Omschrijving": "Bewaarder boeken en bescheiden",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19410107,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Bevoegdheid": null,
+              "Functietitel": null
+            },
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          }
+        ],
+        "VolledigeNaam": "Jan Klaasen",
+        "Rsin": "992916070"
+      }
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

@@ -1,0 +1,317 @@
+{
+  "registratie": {
+    "attributes": { "registratieTijdstip": "20130515112150853" },
+    "datumAanvang": "20130515",
+    "datumEinde": "20150401"
+  },
+  "kvkNummer": "90000110",
+  "nonMailing": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" },
+  "incidenteelUitlenenArbeidskrachten": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "bezoekLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstip": "20150401143841315" },
+      "datumAanvang": "20130515",
+      "datumEinde": "20150401"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Crocuslaan",
+        "huisnummer": 27,
+        "huisletter": "K",
+        "postcode": { "cijfercombinatie": "6866", "lettercombinatie": "DR" },
+        "plaats": "Heelsum",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999885982",
+          "identificatieAdresseerbaarObject": "0074999999227159"
+        }
+      }
+    },
+    "volledigAdres": "Crocuslaan 27 6866DR Heelsum"
+  },
+  "postLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstip": "20150401143841315" },
+      "datumAanvang": "20130515",
+      "datumEinde": "20150401"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Crocuslaan",
+        "huisnummer": 27,
+        "huisletter": "K",
+        "postcode": { "cijfercombinatie": "6866", "lettercombinatie": "DR" },
+        "plaats": "Heelsum",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999885982",
+          "identificatieAdresseerbaarObject": "0074999999227159"
+        }
+      }
+    },
+    "volledigAdres": "Crocuslaan 27 6866DR Heelsum"
+  },
+  "communicatiegegevens": {
+    "registratie": {
+      "attributes": { "registratieTijdstip": "20150401143841315" },
+      "datumAanvang": "20130515",
+      "datumEinde": "20150401"
+    },
+    "communicatienummer": [
+      { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+    ],
+    "emailAdres": ["nepemailadres@kvk.nl"]
+  },
+  "naam": "Grand Movelax",
+  "manifesteertZichAls": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstip": "20150401143841315" },
+      "datumAanvang": "20130515",
+      "datumEinde": "20150401"
+    },
+    "onderneming": {
+      "registratie": {
+        "attributes": { "registratieTijdstip": "20130515112150853" },
+        "datumAanvang": "20130515",
+        "datumEinde": "20150401"
+      },
+      "kvkNummer": "90000110",
+      "sbiActiviteit": [
+        {
+          "registratie": {
+            "attributes": { "registratieTijdstip": "20150401143841315" },
+            "datumAanvang": "20130515",
+            "datumEinde": "20150401"
+          },
+          "sbiCode": {
+            "code": "7490",
+            "omschrijving": "Overige specialistische zakelijke dienstverlening",
+            "referentieType": "ActiviteitCode"
+          },
+          "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+        }
+      ],
+      "voltijdWerkzamePersonen": 1,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 1,
+      "handeltOnder": [
+        {
+          "handelsnaam": {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20130515112150853" },
+              "datumAanvang": "20130515",
+              "datumEinde": "20150401"
+            },
+            "naam": "Grand Movelax Eenmanszaak",
+            "volgorde": 0
+          }
+        }
+      ],
+      "wordtUitgeoefendIn": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstip": "20150401143841315" },
+            "datumAanvang": "20130515",
+            "datumEinde": "20150401"
+          },
+          "commercieleVestiging": {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20130515112150853" },
+              "datumAanvang": "20130515",
+              "datumEinde": "20150401"
+            },
+            "vestigingsnummer": "990000507003",
+            "bezoekLocatie": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20150401143841315" },
+                "datumAanvang": "20130515",
+                "datumEinde": "20150401"
+              },
+              "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "adres": {
+                "binnenlandsAdres": {
+                  "straatnaam": "Crocuslaan",
+                  "huisnummer": 27,
+                  "huisletter": "K",
+                  "postcode": { "cijfercombinatie": "6866", "lettercombinatie": "DR" },
+                  "plaats": "Heelsum",
+                  "bagId": {
+                    "identificatieNummeraanduiding": "0074999999885982",
+                    "identificatieAdresseerbaarObject": "0074999999227159"
+                  }
+                }
+              },
+              "volledigAdres": "Crocuslaan 27 6866DR Heelsum"
+            },
+            "communicatiegegevens": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20150401143841315" },
+                "datumAanvang": "20130515",
+                "datumEinde": "20150401"
+              },
+              "communicatienummer": [
+                { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+              ],
+              "emailAdres": ["nepemailadres@kvk.nl"]
+            },
+            "eersteHandelsnaam": "Grand Movelax Eenmanszaak",
+            "voltijdWerkzamePersonen": 1,
+            "deeltijdWerkzamePersonen": 0,
+            "totaalWerkzamePersonen": 1,
+            "activiteiten": {
+              "omschrijving": "Het bevorderen van democratie en het democratiseringsproces in ontwikkelingslanden (nieuwe democratieën) ten tijde van verkiezingen",
+              "sbiActiviteit": [
+                {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20150401143841315" },
+                    "datumAanvang": "20130515",
+                    "datumEinde": "20150401"
+                  },
+                  "sbiCode": {
+                    "code": "7490",
+                    "omschrijving": "Overige specialistische zakelijke dienstverlening",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+                }
+              ],
+              "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            },
+            "handeltOnder": [
+              {
+                "relatieRegistratie": {
+                  "attributes": { "registratieTijdstip": "20150401143841315" },
+                  "datumAanvang": "20130515",
+                  "datumEinde": "20150401"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20130515112150853" },
+                    "datumAanvang": "20130515",
+                    "datumEinde": "20150401"
+                  },
+                  "naam": "Grand Movelax Eenmanszaak",
+                  "volgorde": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "wordtGeleidVanuit": {
+    "commercieleVestiging": {
+      "registratie": {
+        "attributes": { "registratieTijdstip": "20130515112150853" },
+        "datumAanvang": "20130515",
+        "datumEinde": "20150401"
+      },
+      "vestigingsnummer": "990000507003",
+      "bezoekLocatie": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20150401143841315" },
+          "datumAanvang": "20130515",
+          "datumEinde": "20150401"
+        },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Crocuslaan",
+            "huisnummer": 27,
+            "huisletter": "K",
+            "postcode": { "cijfercombinatie": "6866", "lettercombinatie": "DR" },
+            "plaats": "Heelsum",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999885982",
+              "identificatieAdresseerbaarObject": "0074999999227159"
+            }
+          }
+        },
+        "volledigAdres": "Crocuslaan 27 6866DR Heelsum"
+      },
+      "communicatiegegevens": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20150401143841315" },
+          "datumAanvang": "20130515",
+          "datumEinde": "20150401"
+        },
+        "communicatienummer": [
+          { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+        ],
+        "emailAdres": ["nepemailadres@kvk.nl"]
+      },
+      "eersteHandelsnaam": "Grand Movelax Eenmanszaak",
+      "voltijdWerkzamePersonen": 1,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 1,
+      "activiteiten": {
+        "omschrijving": "Het bevorderen van democratie en het democratiseringsproces in ontwikkelingslanden (nieuwe democratieën) ten tijde van verkiezingen",
+        "sbiActiviteit": [
+          {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20150401143841315" },
+              "datumAanvang": "20130515",
+              "datumEinde": "20150401"
+            },
+            "sbiCode": {
+              "code": "7490",
+              "omschrijving": "Overige specialistische zakelijke dienstverlening",
+              "referentieType": "ActiviteitCode"
+            },
+            "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+          }
+        ],
+        "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+      },
+      "handeltOnder": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstip": "20150401143841315" },
+            "datumAanvang": "20130515",
+            "datumEinde": "20150401"
+          },
+          "handelsnaam": {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20130515112150853" },
+              "datumAanvang": "20130515",
+              "datumEinde": "20150401"
+            },
+            "naam": "Grand Movelax Eenmanszaak",
+            "volgorde": 0
+          }
+        }
+      ]
+    }
+  },
+  "heeftAlsEigenaar": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstip": "20150401143841315" },
+      "datumAanvang": "20130515",
+      "datumEinde": "20150401"
+    },
+    "natuurlijkPersoon": {
+      "extraElementen": { "extraElement": [{ "attributes": { "naam": "achternaam" }, "$value": "Schrum" }] },
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19760330"
+      },
+      "persoonRechtsvorm": "Eenmanszaak",
+      "volledigeNaam": "Sindy Schrum",
+      "uitgebreideRechtsvorm": "Eenmanszaak",
+      "geslachtsnaam": "Schrum",
+      "voornamen": "Sindy",
+      "geboortedatum": "19760330",
+      "woonLocatie": {
+        "registratie": { "attributes": { "registratieTijdstip": "20140410212657323" } },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "buitenlandsAdres": { "land": { "code": "6023", "omschrijving": "Afghanistan", "referentieType": "Land" } }
+        },
+        "volledigAdres": "AfghanistanPer 09-04-2014 geen adres bekend in Nederland (Bron GBA)"
+      }
+    }
+  }
+}

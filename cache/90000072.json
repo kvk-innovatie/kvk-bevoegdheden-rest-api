@@ -1,0 +1,287 @@
+{
+  "registratie": { "attributes": { "registratieTijdstip": "20120425105743139" }, "datumAanvang": "20120501" },
+  "kvkNummer": "90000072",
+  "nonMailing": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "incidenteelUitlenenArbeidskrachten": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "bezoekLocatie": {
+    "registratie": { "attributes": { "registratieTijdstip": "20120425105743139" }, "datumAanvang": "20120501" },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Jupiterstraat",
+        "huisnummer": 15,
+        "huisnummerToevoeging": "H",
+        "postcode": { "cijfercombinatie": "7622", "lettercombinatie": "VH" },
+        "plaats": "Borne",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999430452",
+          "identificatieAdresseerbaarObject": "0074999999983564"
+        }
+      }
+    },
+    "volledigAdres": "Jupiterstraat 15 7622VH Borne"
+  },
+  "postLocatie": {
+    "registratie": { "attributes": { "registratieTijdstip": "20120425105743139" }, "datumAanvang": "20120501" },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Jupiterstraat",
+        "huisnummer": 15,
+        "huisnummerToevoeging": "H",
+        "postcode": { "cijfercombinatie": "7622", "lettercombinatie": "VH" },
+        "plaats": "Borne",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999430452",
+          "identificatieAdresseerbaarObject": "0074999999983564"
+        }
+      }
+    },
+    "volledigAdres": "Jupiterstraat 15 7622VH Borne"
+  },
+  "communicatiegegevens": {
+    "registratie": { "attributes": { "registratieTijdstip": "20120425105743139" }, "datumAanvang": "20120501" },
+    "communicatienummer": [
+      { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+    ]
+  },
+  "naam": "International Zenjob",
+  "manifesteertZichAls": {
+    "relatieRegistratie": { "attributes": { "registratieTijdstip": "20120425105743139" }, "datumAanvang": "20120501" },
+    "onderneming": {
+      "registratie": { "attributes": { "registratieTijdstip": "20120425105743139" }, "datumAanvang": "20120501" },
+      "kvkNummer": "90000072",
+      "sbiActiviteit": [
+        {
+          "registratie": { "attributes": { "registratieTijdstip": "20120425105743139" }, "datumAanvang": "20120501" },
+          "sbiCode": {
+            "code": "64301",
+            "omschrijving": "Beleggingsinstellingen in financiële activa",
+            "referentieType": "ActiviteitCode"
+          },
+          "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+        },
+        {
+          "registratie": { "attributes": { "registratieTijdstip": "20120425105743139" }, "datumAanvang": "20120501" },
+          "sbiCode": {
+            "code": "4619",
+            "omschrijving": "Niet-gespecialiseerde handelsbemiddeling",
+            "referentieType": "ActiviteitCode"
+          },
+          "isHoofdactiviteit": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+        }
+      ],
+      "voltijdWerkzamePersonen": 1,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 1,
+      "handeltOnder": [
+        {
+          "handelsnaam": {
+            "registratie": { "attributes": { "registratieTijdstip": "20120425105743139" }, "datumAanvang": "20120501" },
+            "naam": "International Zenjob Eenmanszaak",
+            "volgorde": 0
+          }
+        }
+      ],
+      "wordtUitgeoefendIn": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstip": "20120425105743139" },
+            "datumAanvang": "20120501"
+          },
+          "commercieleVestiging": {
+            "registratie": { "attributes": { "registratieTijdstip": "20120425105743139" }, "datumAanvang": "20120501" },
+            "vestigingsnummer": "990000784262",
+            "bezoekLocatie": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20120425105743139" },
+                "datumAanvang": "20120501"
+              },
+              "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "adres": {
+                "binnenlandsAdres": {
+                  "straatnaam": "Jupiterstraat",
+                  "huisnummer": 15,
+                  "huisnummerToevoeging": "H",
+                  "postcode": { "cijfercombinatie": "7622", "lettercombinatie": "VH" },
+                  "plaats": "Borne",
+                  "bagId": {
+                    "identificatieNummeraanduiding": "0074999999430452",
+                    "identificatieAdresseerbaarObject": "0074999999983564"
+                  }
+                }
+              },
+              "volledigAdres": "Jupiterstraat 15 7622VH Borne"
+            },
+            "communicatiegegevens": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20120425105743139" },
+                "datumAanvang": "20120501"
+              },
+              "communicatienummer": [
+                { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+              ]
+            },
+            "eersteHandelsnaam": "International Zenjob Eenmanszaak",
+            "voltijdWerkzamePersonen": 1,
+            "deeltijdWerkzamePersonen": 0,
+            "totaalWerkzamePersonen": 1,
+            "activiteiten": {
+              "omschrijving": "Het verkrijgen en beheren van aandelenpakketten het bemiddelen bij het totstandkomen van samenwerkingsverbanden en het geven van koopadviezen",
+              "sbiActiviteit": [
+                {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20120425105743139" },
+                    "datumAanvang": "20120501"
+                  },
+                  "sbiCode": {
+                    "code": "64301",
+                    "omschrijving": "Beleggingsinstellingen in financiële activa",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+                },
+                {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20120425105743139" },
+                    "datumAanvang": "20120501"
+                  },
+                  "sbiCode": {
+                    "code": "4619",
+                    "omschrijving": "Niet-gespecialiseerde handelsbemiddeling",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+                }
+              ],
+              "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            },
+            "handeltOnder": [
+              {
+                "relatieRegistratie": {
+                  "attributes": { "registratieTijdstip": "20120425105743139" },
+                  "datumAanvang": "20120501"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20120425105743139" },
+                    "datumAanvang": "20120501"
+                  },
+                  "naam": "International Zenjob Eenmanszaak",
+                  "volgorde": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "wordtGeleidVanuit": {
+    "commercieleVestiging": {
+      "registratie": { "attributes": { "registratieTijdstip": "20120425105743139" }, "datumAanvang": "20120501" },
+      "vestigingsnummer": "990000784262",
+      "bezoekLocatie": {
+        "registratie": { "attributes": { "registratieTijdstip": "20120425105743139" }, "datumAanvang": "20120501" },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Jupiterstraat",
+            "huisnummer": 15,
+            "huisnummerToevoeging": "H",
+            "postcode": { "cijfercombinatie": "7622", "lettercombinatie": "VH" },
+            "plaats": "Borne",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999430452",
+              "identificatieAdresseerbaarObject": "0074999999983564"
+            }
+          }
+        },
+        "volledigAdres": "Jupiterstraat 15 7622VH Borne"
+      },
+      "communicatiegegevens": {
+        "registratie": { "attributes": { "registratieTijdstip": "20120425105743139" }, "datumAanvang": "20120501" },
+        "communicatienummer": [
+          { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+        ]
+      },
+      "eersteHandelsnaam": "International Zenjob Eenmanszaak",
+      "voltijdWerkzamePersonen": 1,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 1,
+      "activiteiten": {
+        "omschrijving": "Het verkrijgen en beheren van aandelenpakketten het bemiddelen bij het totstandkomen van samenwerkingsverbanden en het geven van koopadviezen",
+        "sbiActiviteit": [
+          {
+            "registratie": { "attributes": { "registratieTijdstip": "20120425105743139" }, "datumAanvang": "20120501" },
+            "sbiCode": {
+              "code": "64301",
+              "omschrijving": "Beleggingsinstellingen in financiële activa",
+              "referentieType": "ActiviteitCode"
+            },
+            "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+          },
+          {
+            "registratie": { "attributes": { "registratieTijdstip": "20120425105743139" }, "datumAanvang": "20120501" },
+            "sbiCode": {
+              "code": "4619",
+              "omschrijving": "Niet-gespecialiseerde handelsbemiddeling",
+              "referentieType": "ActiviteitCode"
+            },
+            "isHoofdactiviteit": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+          }
+        ],
+        "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+      },
+      "handeltOnder": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstip": "20120425105743139" },
+            "datumAanvang": "20120501"
+          },
+          "handelsnaam": {
+            "registratie": { "attributes": { "registratieTijdstip": "20120425105743139" }, "datumAanvang": "20120501" },
+            "naam": "International Zenjob Eenmanszaak",
+            "volgorde": 0
+          }
+        }
+      ]
+    }
+  },
+  "heeftAlsEigenaar": {
+    "relatieRegistratie": { "attributes": { "registratieTijdstip": "20120425105743139" }, "datumAanvang": "20120501" },
+    "natuurlijkPersoon": {
+      "extraElementen": { "extraElement": [{ "attributes": { "naam": "achternaam" }, "$value": "Wingert" }] },
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19460328"
+      },
+      "persoonRechtsvorm": "Eenmanszaak",
+      "volledigeNaam": "Alane Wingert",
+      "uitgebreideRechtsvorm": "Eenmanszaak",
+      "geslachtsnaam": "Wingert",
+      "voornamen": "Alane",
+      "geboortedatum": "19460328",
+      "woonLocatie": {
+        "registratie": { "attributes": { "registratieTijdstip": "20120425105743139" } },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Ringweg",
+            "huisnummer": 54,
+            "huisletter": "H",
+            "postcode": { "cijfercombinatie": "4486", "lettercombinatie": "BJ" },
+            "plaats": "Colijnsplaat",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999340993",
+              "identificatieAdresseerbaarObject": "0074999999766054"
+            }
+          }
+        },
+        "volledigAdres": "Excelsalaan 15 7313BV Apeldoorn"
+      }
+    }
+  }
+}

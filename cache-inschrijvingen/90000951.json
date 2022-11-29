@@ -1,0 +1,494 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 20110329,
+      "DatumEinde": 0,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90000951,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20110329,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Tulpstraat",
+          "Huisnummer": 19,
+          "Postcode": {
+            "Cijfercombinatie": 5701,
+            "Lettercombinatie": "EV"
+          },
+          "Plaats": "Helmond",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999532475,
+            "IdentificatieAdresseerbaarObject": 74999999962725
+          },
+          "HuisnummerToevoeging": "13"
+        }
+      },
+      "VolledigAdres": "Tulpstraat 19 5701EV Helmond"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20110329,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Glenn Millerrode",
+          "Huisnummer": 21,
+          "Postcode": {
+            "Cijfercombinatie": 2717,
+            "Lettercombinatie": "CA"
+          },
+          "Plaats": "Zoetermeer",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999483676,
+            "IdentificatieAdresseerbaarObject": 74999999564071
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Glenn Millerrode 21 2717CA Zoetermeer"
+    },
+    "Communicatiegegevens": {
+      "Registratie": {
+        "DatumAanvang": 20130820,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Communicatienummer": [
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        },
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        },
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "F",
+            "Omschrijving": "Fax"
+          }
+        }
+      ],
+      "EmailAdres": null
+    },
+    "Naam": "Regional Ganzsolhex B.V.",
+    "ManifesteertZichAls": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 20110329,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Onderneming": {
+        "Registratie": {
+          "DatumAanvang": 19971101,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "KvkNummer": 90000951,
+        "SbiActiviteit": [
+          {
+            "Registratie": {
+              "DatumAanvang": 20110329,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 86912,
+              "Omschrijving": "Praktijken van fysiotherapeuten",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          }
+        ],
+        "VoltijdWerkzamePersonen": 7,
+        "DeeltijdWerkzamePersonen": 0,
+        "TotaalWerkzamePersonen": 7,
+        "HandeltOnder": [
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20110329,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Regional Ganzsolhex B.V.",
+              "Volgorde": 0
+            },
+            "RelatieRegistratie": null
+          },
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20110329,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Regional Ganzsolhex B.V. de tweede",
+              "Volgorde": 1
+            },
+            "RelatieRegistratie": null
+          }
+        ],
+        "WordtUitgeoefendIn": {
+          "RelatieRegistratie": {
+            "DatumAanvang": 20110329,
+            "RegistratieTijdstipNoValue": null
+          },
+          "CommercieleVestiging": {
+            "Registratie": {
+              "DatumAanvang": 19971101,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Vestigingsnummer": 990000873283,
+            "BezoekLocatie": {
+              "Registratie": {
+                "DatumAanvang": 20110329,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Afgeschermd": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Adres": {
+                "BinnenlandsAdres": {
+                  "Straatnaam": "Tulpstraat",
+                  "Huisnummer": 19,
+                  "Postcode": {
+                    "Cijfercombinatie": 5701,
+                    "Lettercombinatie": "EV"
+                  },
+                  "Plaats": "Helmond",
+                  "BagId": {
+                    "IdentificatieNummeraanduiding": 74999999532475,
+                    "IdentificatieAdresseerbaarObject": 74999999962725
+                  },
+                  "HuisnummerToevoeging": "13"
+                }
+              },
+              "VolledigAdres": "Tulpstraat 19 5701EV Helmond"
+            },
+            "Communicatiegegevens": {
+              "Registratie": {
+                "DatumAanvang": 20130820,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Communicatienummer": [
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "T",
+                    "Omschrijving": "Telefoon"
+                  }
+                },
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "T",
+                    "Omschrijving": "Telefoon"
+                  }
+                },
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "F",
+                    "Omschrijving": "Fax"
+                  }
+                }
+              ],
+              "EmailAdres": null
+            },
+            "EersteHandelsnaam": "Regional Ganzsolhex B.V.",
+            "VoltijdWerkzamePersonen": 6,
+            "DeeltijdWerkzamePersonen": 0,
+            "TotaalWerkzamePersonen": 6,
+            "Activiteiten": {
+              "Omschrijving": "Het (doen) utoefenen van de praktijk van fysiotherapie.",
+              "SbiActiviteit": {
+                "Registratie": {
+                  "DatumAanvang": 20110329,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "SbiCode": {
+                  "Code": 86912,
+                  "Omschrijving": "Praktijken van fysiotherapeuten",
+                  "ReferentieType": "ActiviteitCode"
+                },
+                "IsHoofdactiviteit": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Exporteert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Importeert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              }
+            },
+            "HandeltOnder": {
+              "Handelsnaam": {
+                "Registratie": {
+                  "DatumAanvang": 20110329,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Naam": "Regional Ganzsolhex B.V.",
+                "Volgorde": 0
+              },
+              "RelatieRegistratie": {
+                "DatumAanvang": 20110329,
+                "RegistratieTijdstipNoValue": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "WordtGeleidVanuit": {
+      "CommercieleVestiging": {
+        "Registratie": {
+          "DatumAanvang": 19971101,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "Vestigingsnummer": 990000873283,
+        "BezoekLocatie": {
+          "Registratie": {
+            "DatumAanvang": 20110329,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Afgeschermd": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Adres": {
+            "BinnenlandsAdres": {
+              "Straatnaam": "Tulpstraat",
+              "Huisnummer": 19,
+              "Postcode": {
+                "Cijfercombinatie": 5701,
+                "Lettercombinatie": "EV"
+              },
+              "Plaats": "Helmond",
+              "BagId": {
+                "IdentificatieNummeraanduiding": 74999999532475,
+                "IdentificatieAdresseerbaarObject": 74999999962725
+              },
+              "HuisnummerToevoeging": "13"
+            }
+          },
+          "VolledigAdres": "Tulpstraat 19 5701EV Helmond"
+        },
+        "Communicatiegegevens": {
+          "Registratie": {
+            "DatumAanvang": 20130820,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Communicatienummer": [
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "T",
+                "Omschrijving": "Telefoon"
+              }
+            },
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "T",
+                "Omschrijving": "Telefoon"
+              }
+            },
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "F",
+                "Omschrijving": "Fax"
+              }
+            }
+          ],
+          "EmailAdres": null
+        },
+        "EersteHandelsnaam": "Regional Ganzsolhex B.V.",
+        "VoltijdWerkzamePersonen": 6,
+        "DeeltijdWerkzamePersonen": 0,
+        "TotaalWerkzamePersonen": 6,
+        "Activiteiten": {
+          "Omschrijving": "Het (doen) utoefenen van de praktijk van fysiotherapie.",
+          "SbiActiviteit": {
+            "Registratie": {
+              "DatumAanvang": 20110329,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 86912,
+              "Omschrijving": "Praktijken van fysiotherapeuten",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          "Exporteert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Importeert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          }
+        },
+        "HandeltOnder": {
+          "Handelsnaam": {
+            "Registratie": {
+              "DatumAanvang": 20110329,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Naam": "Regional Ganzsolhex B.V.",
+            "Volgorde": 0
+          },
+          "RelatieRegistratie": {
+            "DatumAanvang": 20110329,
+            "RegistratieTijdstipNoValue": null
+          }
+        }
+      }
+    },
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 20110329,
+        "RegistratieTijdstipNoValue": null
+      },
+      "NatuurlijkPersoon": null,
+      "Samenwerkingsverband": null,
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": {
+        "VoornemenTotOntbinding": null,
+        "ActiviteitenGestaaktPer": null,
+        "Rechtsvorm": {
+          "Code": "BV",
+          "Omschrijving": "Besloten Vennootschap"
+        },
+        "Heeft": [
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": {
+              "Functie": {
+                "Code": "02",
+                "Omschrijving": "Bestuurder",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": null,
+                "Rechtspersoon": {
+                  "VoornemenTotOntbinding": null,
+                  "ActiviteitenGestaaktPer": null,
+                  "Rechtsvorm": null,
+                  "Heeft": [],
+                  "VolledigeNaam": "Jan Klaasen",
+                  "Rsin": "992006594"
+                }
+              },
+              "Bevoegdheid": {
+                "Soort": {
+                  "Code": "azb",
+                  "Omschrijving": "Alleen/zelfstandig bevoegd"
+                }
+              },
+              "Functietitel": {
+                "Titel": "Algemeen directeur"
+              }
+            },
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": {
+              "Functie": {
+                "Code": "08",
+                "Omschrijving": "Enig aandeelhouder",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": null,
+                "Rechtspersoon": {
+                  "VoornemenTotOntbinding": null,
+                  "ActiviteitenGestaaktPer": null,
+                  "Rechtsvorm": null,
+                  "Heeft": [],
+                  "VolledigeNaam": "Jan Klaasen",
+                  "Rsin": "992006594"
+                }
+              },
+              "Bevoegdheid": null,
+              "Functietitel": null
+            },
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          }
+        ],
+        "VolledigeNaam": "Jan Klaasen",
+        "Rsin": "992307296"
+      }
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

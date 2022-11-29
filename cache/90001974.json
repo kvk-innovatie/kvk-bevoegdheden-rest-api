@@ -1,0 +1,437 @@
+{
+  "registratie": { "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" }, "datumAanvang": "19990101" },
+  "kvkNummer": "90001974",
+  "nonMailing": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "incidenteelUitlenenArbeidskrachten": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "bezoekLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "19990101"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "De Citer",
+        "huisnummer": 9,
+        "postcode": { "cijfercombinatie": "5741", "lettercombinatie": "WE" },
+        "plaats": "Beek en Donk",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999440728",
+          "identificatieAdresseerbaarObject": "0074999999657133"
+        }
+      }
+    },
+    "volledigAdres": "De Citer 9 5741WE Beek en Donk"
+  },
+  "postLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "19990101"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "De Citer",
+        "huisnummer": 9,
+        "postcode": { "cijfercombinatie": "5741", "lettercombinatie": "WE" },
+        "plaats": "Beek en Donk",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999440728",
+          "identificatieAdresseerbaarObject": "0074999999657133"
+        }
+      }
+    },
+    "volledigAdres": "De Citer 9 5741WE Beek en Donk"
+  },
+  "communicatiegegevens": {
+    "registratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "19990101"
+    },
+    "communicatienummer": [
+      { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+      { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "F", "omschrijving": "Fax" } }
+    ],
+    "emailAdres": ["nepemailadres@kvk.nl"]
+  },
+  "naam": "Grand Phystechno",
+  "manifesteertZichAls": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "19990101"
+    },
+    "onderneming": {
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19990101"
+      },
+      "kvkNummer": "90001974",
+      "sbiActiviteit": [
+        {
+          "registratie": {
+            "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+            "datumAanvang": "19990101"
+          },
+          "sbiCode": {
+            "code": "0142",
+            "omschrijving": "Fokken en houden van runderen (geen melkvee)",
+            "referentieType": "ActiviteitCode"
+          },
+          "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+        },
+        {
+          "registratie": {
+            "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+            "datumAanvang": "19990101"
+          },
+          "sbiCode": {
+            "code": "0147",
+            "omschrijving": "Fokken en houden van pluimvee",
+            "referentieType": "ActiviteitCode"
+          },
+          "isHoofdactiviteit": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+        }
+      ],
+      "voltijdWerkzamePersonen": 2,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 2,
+      "handeltOnder": [
+        {
+          "handelsnaam": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19990101"
+            },
+            "naam": "Grand Phystechno",
+            "volgorde": 0
+          }
+        }
+      ],
+      "wordtUitgeoefendIn": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+            "datumAanvang": "19990101"
+          },
+          "commercieleVestiging": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19990101"
+            },
+            "vestigingsnummer": "990000979262",
+            "bezoekLocatie": {
+              "registratie": {
+                "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                "datumAanvang": "19990101"
+              },
+              "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "adres": {
+                "binnenlandsAdres": {
+                  "straatnaam": "De Citer",
+                  "huisnummer": 9,
+                  "postcode": { "cijfercombinatie": "5741", "lettercombinatie": "WE" },
+                  "plaats": "Beek en Donk",
+                  "bagId": {
+                    "identificatieNummeraanduiding": "0074999999440728",
+                    "identificatieAdresseerbaarObject": "0074999999657133"
+                  }
+                }
+              },
+              "volledigAdres": "De Citer 9 5741WE Beek en Donk"
+            },
+            "communicatiegegevens": {
+              "registratie": {
+                "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                "datumAanvang": "19990101"
+              },
+              "communicatienummer": [
+                { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+                { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "F", "omschrijving": "Fax" } }
+              ],
+              "emailAdres": ["nepemailadres@kvk.nl"]
+            },
+            "eersteHandelsnaam": "Grand Phystechno",
+            "voltijdWerkzamePersonen": 2,
+            "deeltijdWerkzamePersonen": 0,
+            "totaalWerkzamePersonen": 2,
+            "activiteiten": {
+              "omschrijving": "Fokken en houden van rundvee en pluimvee",
+              "sbiActiviteit": [
+                {
+                  "registratie": {
+                    "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                    "datumAanvang": "19990101"
+                  },
+                  "sbiCode": {
+                    "code": "0142",
+                    "omschrijving": "Fokken en houden van runderen (geen melkvee)",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+                },
+                {
+                  "registratie": {
+                    "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                    "datumAanvang": "19990101"
+                  },
+                  "sbiCode": {
+                    "code": "0147",
+                    "omschrijving": "Fokken en houden van pluimvee",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+                }
+              ],
+              "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            },
+            "handeltOnder": [
+              {
+                "relatieRegistratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19990101"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                    "datumAanvang": "19990101"
+                  },
+                  "naam": "Grand Phystechno",
+                  "volgorde": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "wordtGeleidVanuit": {
+    "commercieleVestiging": {
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19990101"
+      },
+      "vestigingsnummer": "990000979262",
+      "bezoekLocatie": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "19990101"
+        },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "De Citer",
+            "huisnummer": 9,
+            "postcode": { "cijfercombinatie": "5741", "lettercombinatie": "WE" },
+            "plaats": "Beek en Donk",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999440728",
+              "identificatieAdresseerbaarObject": "0074999999657133"
+            }
+          }
+        },
+        "volledigAdres": "De Citer 9 5741WE Beek en Donk"
+      },
+      "communicatiegegevens": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "19990101"
+        },
+        "communicatienummer": [
+          { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+          { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "F", "omschrijving": "Fax" } }
+        ],
+        "emailAdres": ["nepemailadres@kvk.nl"]
+      },
+      "eersteHandelsnaam": "Grand Phystechno",
+      "voltijdWerkzamePersonen": 2,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 2,
+      "activiteiten": {
+        "omschrijving": "Fokken en houden van rundvee en pluimvee",
+        "sbiActiviteit": [
+          {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19990101"
+            },
+            "sbiCode": {
+              "code": "0142",
+              "omschrijving": "Fokken en houden van runderen (geen melkvee)",
+              "referentieType": "ActiviteitCode"
+            },
+            "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+          },
+          {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19990101"
+            },
+            "sbiCode": {
+              "code": "0147",
+              "omschrijving": "Fokken en houden van pluimvee",
+              "referentieType": "ActiviteitCode"
+            },
+            "isHoofdactiviteit": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+          }
+        ],
+        "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+      },
+      "handeltOnder": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+            "datumAanvang": "19990101"
+          },
+          "handelsnaam": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19990101"
+            },
+            "naam": "Grand Phystechno",
+            "volgorde": 0
+          }
+        }
+      ]
+    }
+  },
+  "heeftAlsEigenaar": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "19990101"
+    },
+    "samenwerkingsverband": {
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19990101"
+      },
+      "persoonRechtsvorm": "Maatschap",
+      "volledigeNaam": "Grand Phystechno",
+      "uitgebreideRechtsvorm": "Maatschap",
+      "heeft": [
+        {
+          "aansprakelijke": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19990101"
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": { "extraElement": { "attributes": { "naam": "achternaam" }, "$value": "Washinton" } },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19730817"
+                },
+                "volledigeNaam": "Almeta Washinton",
+                "bezoekLocatiePersoon": {
+                  "registratie": { "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" } },
+                  "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+                  "adres": {
+                    "binnenlandsAdres": {
+                      "straatnaam": "Achthoven-Oost",
+                      "huisnummer": "13",
+                      "postcode": { "cijfercombinatie": "3417", "lettercombinatie": "PC" },
+                      "plaats": "Montfoort",
+                      "bagId": {
+                        "identificatieNummeraanduiding": "0074999999542391",
+                        "identificatieAdresseerbaarObject": "0074999999393479"
+                      }
+                    }
+                  },
+                  "volledigAdres": "Kemphaanstraat 8 8446GV Heerenveen"
+                },
+                "geslachtsnaam": "Washinton",
+                "voornamen": "Almeta",
+                "geboortedatum": "19730817"
+              }
+            },
+            "functie": { "code": "15", "omschrijving": "Maat", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                "datumAanvang": "19990101"
+              },
+              "soort": {
+                "code": "ob",
+                "omschrijving": "Onbeperkt bevoegd",
+                "referentieType": "SoortBevoegdheidAansprakelijkeBijSamenwerkingsverband"
+              },
+              "overigeBeperking": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        },
+        {
+          "aansprakelijke": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19990101"
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": {
+                  "extraElement": { "attributes": { "naam": "achternaam" }, "$value": "Steadman - van Steadman" }
+                },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19430602"
+                },
+                "volledigeNaam": "Zandra Steadman",
+                "bezoekLocatiePersoon": {
+                  "registratie": { "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" } },
+                  "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+                  "adres": {
+                    "binnenlandsAdres": {
+                      "straatnaam": "Achthoven-Oost",
+                      "huisnummer": "13",
+                      "postcode": { "cijfercombinatie": "3417", "lettercombinatie": "PC" },
+                      "plaats": "Montfoort",
+                      "bagId": {
+                        "identificatieNummeraanduiding": "0074999999542391",
+                        "identificatieAdresseerbaarObject": "0074999999393479"
+                      }
+                    }
+                  },
+                  "volledigAdres": "Kemphaanstraat 8 8446GV Heerenveen"
+                },
+                "geslachtsnaam": "Steadman - van Steadman",
+                "voornamen": "Zandra",
+                "geboortedatum": "19430602"
+              }
+            },
+            "functie": { "code": "15", "omschrijving": "Maat", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                "datumAanvang": "19990101"
+              },
+              "soort": {
+                "code": "ob",
+                "omschrijving": "Onbeperkt bevoegd",
+                "referentieType": "SoortBevoegdheidAansprakelijkeBijSamenwerkingsverband"
+              },
+              "overigeBeperking": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        }
+      ],
+      "rsin": "992508113",
+      "naamgeving": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "19990101"
+        },
+        "naam": "Grand Phystechno"
+      },
+      "rechtsvorm": { "code": "MA", "omschrijving": "Maatschap", "referentieType": "Rechtsvorm" },
+      "duur": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "19990101"
+        },
+        "heeftOnbepaaldeDuur": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+      }
+    }
+  }
+}

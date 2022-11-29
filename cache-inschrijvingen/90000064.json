@@ -1,0 +1,622 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 20000201,
+      "DatumEinde": 20121123,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90000064,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20020214,
+        "DatumEinde": 20121123,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Thomas a Kempisstraat",
+          "Huisnummer": 15,
+          "Postcode": {
+            "Cijfercombinatie": 7412,
+            "Lettercombinatie": "EK"
+          },
+          "Plaats": "Deventer",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999746890,
+            "IdentificatieAdresseerbaarObject": 74999999372730
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Thomas a Kempisstraat 15 7412EK Deventer"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20100928,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": null,
+          "Huisnummer": 0,
+          "Postcode": {
+            "Cijfercombinatie": 4336,
+            "Lettercombinatie": "KL"
+          },
+          "Plaats": "Middelburg",
+          "BagId": null,
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Postbus 99999 4336KL Middelburg"
+    },
+    "Communicatiegegevens": {
+      "Registratie": {
+        "DatumAanvang": 20000201,
+        "DatumEinde": 20121123,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Communicatienummer": [
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        }
+      ],
+      "EmailAdres": null
+    },
+    "Naam": "International Goldcare",
+    "ManifesteertZichAls": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 20000201,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Onderneming": {
+        "Registratie": {
+          "DatumAanvang": 20000201,
+          "DatumEinde": 20121123,
+          "RegistratieTijdstipNoValue": null
+        },
+        "KvkNummer": 90000064,
+        "SbiActiviteit": [
+          {
+            "Registratie": {
+              "DatumAanvang": 20000201,
+              "DatumEinde": 20121123,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 46731,
+              "Omschrijving": "Groothandel in hout en plaatmateriaal",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          }
+        ],
+        "VoltijdWerkzamePersonen": 2,
+        "DeeltijdWerkzamePersonen": 0,
+        "TotaalWerkzamePersonen": 2,
+        "HandeltOnder": [
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20000201,
+                "DatumEinde": 20121123,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "International Goldcare",
+              "Volgorde": 0
+            },
+            "RelatieRegistratie": null
+          }
+        ],
+        "WordtUitgeoefendIn": {
+          "RelatieRegistratie": {
+            "DatumAanvang": 20000201,
+            "RegistratieTijdstipNoValue": null
+          },
+          "CommercieleVestiging": {
+            "Registratie": {
+              "DatumAanvang": 20000201,
+              "DatumEinde": 20121123,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Vestigingsnummer": 990000811734,
+            "BezoekLocatie": {
+              "Registratie": {
+                "DatumAanvang": 20020214,
+                "DatumEinde": 20121123,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Afgeschermd": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Adres": {
+                "BinnenlandsAdres": {
+                  "Straatnaam": "Thomas a Kempisstraat",
+                  "Huisnummer": 15,
+                  "Postcode": {
+                    "Cijfercombinatie": 7412,
+                    "Lettercombinatie": "EK"
+                  },
+                  "Plaats": "Deventer",
+                  "BagId": {
+                    "IdentificatieNummeraanduiding": 74999999746890,
+                    "IdentificatieAdresseerbaarObject": 74999999372730
+                  },
+                  "HuisnummerToevoeging": null
+                }
+              },
+              "VolledigAdres": "Thomas a Kempisstraat 15 7412EK Deventer"
+            },
+            "Communicatiegegevens": {
+              "Registratie": {
+                "DatumAanvang": 20000201,
+                "DatumEinde": 20121123,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Communicatienummer": [
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "T",
+                    "Omschrijving": "Telefoon"
+                  }
+                }
+              ],
+              "EmailAdres": null
+            },
+            "EersteHandelsnaam": "International Goldcare",
+            "VoltijdWerkzamePersonen": 2,
+            "DeeltijdWerkzamePersonen": 0,
+            "TotaalWerkzamePersonen": 2,
+            "Activiteiten": {
+              "Omschrijving": "Groothandel in houtprodukten en aanverwante artikelen.",
+              "SbiActiviteit": {
+                "Registratie": {
+                  "DatumAanvang": 20000201,
+                  "DatumEinde": 20121123,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "SbiCode": {
+                  "Code": 46731,
+                  "Omschrijving": "Groothandel in hout en plaatmateriaal",
+                  "ReferentieType": "ActiviteitCode"
+                },
+                "IsHoofdactiviteit": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Exporteert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Importeert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              }
+            },
+            "HandeltOnder": {
+              "Handelsnaam": {
+                "Registratie": {
+                  "DatumAanvang": 20000201,
+                  "DatumEinde": 20121123,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Naam": "International Goldcare",
+                "Volgorde": 0
+              },
+              "RelatieRegistratie": {
+                "DatumAanvang": 20000201,
+                "RegistratieTijdstipNoValue": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "WordtGeleidVanuit": {
+      "CommercieleVestiging": {
+        "Registratie": {
+          "DatumAanvang": 20000201,
+          "DatumEinde": 20121123,
+          "RegistratieTijdstipNoValue": null
+        },
+        "Vestigingsnummer": 990000811734,
+        "BezoekLocatie": {
+          "Registratie": {
+            "DatumAanvang": 20020214,
+            "DatumEinde": 20121123,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Afgeschermd": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Adres": {
+            "BinnenlandsAdres": {
+              "Straatnaam": "Thomas a Kempisstraat",
+              "Huisnummer": 15,
+              "Postcode": {
+                "Cijfercombinatie": 7412,
+                "Lettercombinatie": "EK"
+              },
+              "Plaats": "Deventer",
+              "BagId": {
+                "IdentificatieNummeraanduiding": 74999999746890,
+                "IdentificatieAdresseerbaarObject": 74999999372730
+              },
+              "HuisnummerToevoeging": null
+            }
+          },
+          "VolledigAdres": "Thomas a Kempisstraat 15 7412EK Deventer"
+        },
+        "Communicatiegegevens": {
+          "Registratie": {
+            "DatumAanvang": 20000201,
+            "DatumEinde": 20121123,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Communicatienummer": [
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "T",
+                "Omschrijving": "Telefoon"
+              }
+            }
+          ],
+          "EmailAdres": null
+        },
+        "EersteHandelsnaam": "International Goldcare",
+        "VoltijdWerkzamePersonen": 2,
+        "DeeltijdWerkzamePersonen": 0,
+        "TotaalWerkzamePersonen": 2,
+        "Activiteiten": {
+          "Omschrijving": "Groothandel in houtprodukten en aanverwante artikelen.",
+          "SbiActiviteit": {
+            "Registratie": {
+              "DatumAanvang": 20000201,
+              "DatumEinde": 20121123,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 46731,
+              "Omschrijving": "Groothandel in hout en plaatmateriaal",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          "Exporteert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Importeert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          }
+        },
+        "HandeltOnder": {
+          "Handelsnaam": {
+            "Registratie": {
+              "DatumAanvang": 20000201,
+              "DatumEinde": 20121123,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Naam": "International Goldcare",
+            "Volgorde": 0
+          },
+          "RelatieRegistratie": {
+            "DatumAanvang": 20000201,
+            "RegistratieTijdstipNoValue": null
+          }
+        }
+      }
+    },
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 20000201,
+        "RegistratieTijdstipNoValue": null
+      },
+      "NatuurlijkPersoon": null,
+      "Samenwerkingsverband": {
+        "Registratie": {
+          "DatumAanvang": 20000201,
+          "DatumEinde": 20121123,
+          "RegistratieTijdstipNoValue": null
+        },
+        "BijzondereRechtstoestand": {
+          "Registratie": {
+            "DatumAanvang": 20100928,
+            "DatumEinde": 20121123,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Soort": {
+            "Code": "FAIL",
+            "Omschrijving": "Faillissement"
+          },
+          "UitspraakEinde": {
+            "Datum": 20121123,
+            "Naam": "Rechtbank Zwolle-Lelystad",
+            "Plaats": "Zwolle"
+          }
+        },
+        "PersoonRechtsvorm": "Vennootschap Onder Firma",
+        "VolledigeNaam": "Jan Klaasen",
+        "UitgebreideRechtsvorm": "Vennootschap Onder Firma",
+        "Heeft": [
+          {
+            "FunctionarisBijzondereRechtstoestand": {
+              "Registratie": {
+                "DatumAanvang": 20100928,
+                "DatumEinde": 20121123,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": {
+                  "VolledigeNaam": "Jan Klaasen",
+                  "BezoekLocatiePersoon": {
+                    "Registratie": {
+                      "DatumAanvang": 20100928,
+                      "DatumEinde": 0,
+                      "RegistratieTijdstipNoValue": null
+                    },
+                    "Afgeschermd": {
+                      "Code": "N",
+                      "Omschrijving": "Nee",
+                      "ReferentieType": "geenRT"
+                    },
+                    "Adres": {
+                      "BinnenlandsAdres": {
+                        "Straatnaam": null,
+                        "Huisnummer": 0,
+                        "Postcode": {
+                          "Cijfercombinatie": 4336,
+                          "Lettercombinatie": "KL"
+                        },
+                        "Plaats": "Middelburg",
+                        "BagId": null,
+                        "HuisnummerToevoeging": null
+                      }
+                    },
+                    "VolledigAdres": "Postbus 99999 4336KL Middelburg"
+                  },
+                  "Naam": "mr. Usha Houseknecht",
+                  "Telefoonnummer": {
+                    "Toegangscode": 31,
+                    "Nummer": 384600111
+                  }
+                },
+                "NatuurlijkPersoon": null,
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "07",
+                "Omschrijving": "Curator",
+                "ReferentieType": "FunctionarisRol"
+              }
+            },
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": {
+              "Registratie": {
+                "DatumAanvang": 20100928,
+                "DatumEinde": 20121123,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": {
+                  "VolledigeNaam": "Jan Klaasen",
+                  "BezoekLocatiePersoon": null,
+                  "Naam": "mr. Elida Henkle",
+                  "Telefoonnummer": null
+                },
+                "NatuurlijkPersoon": null,
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "11",
+                "Omschrijving": "Rechter-commissaris",
+                "ReferentieType": "FunctionarisRol"
+              }
+            },
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": {
+              "Registratie": {
+                "DatumAanvang": 20000201,
+                "DatumEinde": 20121123,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19940222,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "13",
+                "Omschrijving": "Vennoot",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Bevoegdheid": {
+                "Registratie": {
+                  "DatumAanvang": 20000201,
+                  "DatumEinde": 20121123,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Soort": {
+                  "Code": "ob",
+                  "Omschrijving": "Onbeperkt bevoegd"
+                },
+                "OverigeBeperking": {
+                  "Code": "N",
+                  "Omschrijving": "Nee",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Functietitel": null
+            },
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": {
+              "Registratie": {
+                "DatumAanvang": 20000201,
+                "DatumEinde": 20121123,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19790405,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "13",
+                "Omschrijving": "Vennoot",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Bevoegdheid": {
+                "Registratie": {
+                  "DatumAanvang": 20000201,
+                  "DatumEinde": 20121123,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Soort": {
+                  "Code": "ob",
+                  "Omschrijving": "Onbeperkt bevoegd"
+                },
+                "OverigeBeperking": {
+                  "Code": "N",
+                  "Omschrijving": "Nee",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Functietitel": null
+            },
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          }
+        ],
+        "Rsin": 992953327,
+        "Naamgeving": {
+          "Registratie": {
+            "DatumAanvang": 20000201,
+            "DatumEinde": 20121123,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Naam": "International Goldcare"
+        },
+        "Ontbinding": {
+          "Registratie": {
+            "DatumAanvang": 20121123,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "aanleiding": null
+        },
+        "Rechtsvorm": {
+          "Code": "VOF",
+          "Omschrijving": "Vennootschap Onder Firma",
+          "ReferentieType": "Rechtsvorm"
+        },
+        "Duur": {
+          "Registratie": {
+            "DatumAanvang": 20000201,
+            "DatumEinde": 20121123,
+            "RegistratieTijdstipNoValue": null
+          },
+          "HeeftOnbepaaldeDuur": {
+            "Code": "J",
+            "Omschrijving": "Ja",
+            "ReferentieType": "geenRT"
+          }
+        }
+      },
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": null
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

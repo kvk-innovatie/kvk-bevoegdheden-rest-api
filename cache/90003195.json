@@ -1,0 +1,120 @@
+{
+  "registratie": { "attributes": { "registratieTijdstip": "20141124110302234" }, "datumAanvang": "20141121" },
+  "kvkNummer": "90003195",
+  "nonMailing": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" },
+  "sbiActiviteit": [
+    {
+      "registratie": { "attributes": { "registratieTijdstip": "20141124110302234" }, "datumAanvang": "20141121" },
+      "sbiCode": { "code": "94911", "omschrijving": "Religieuze organisaties", "referentieType": "ActiviteitCode" },
+      "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+    }
+  ],
+  "incidenteelUitlenenArbeidskrachten": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "bezoekLocatie": {
+    "registratie": { "attributes": { "registratieTijdstip": "20141124110302234" }, "datumAanvang": "20141121" },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Zandeweg",
+        "huisnummer": 2,
+        "postcode": { "cijfercombinatie": "5107", "lettercombinatie": "NM" },
+        "plaats": "Dongen",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999819712",
+          "identificatieAdresseerbaarObject": "0074999999897084"
+        }
+      }
+    },
+    "volledigAdres": "Zandeweg 2 5107NM Dongen"
+  },
+  "postLocatie": {
+    "registratie": { "attributes": { "registratieTijdstip": "20141124110302234" }, "datumAanvang": "20141121" },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Zandeweg",
+        "huisnummer": 2,
+        "postcode": { "cijfercombinatie": "5107", "lettercombinatie": "NM" },
+        "plaats": "Dongen",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999819712",
+          "identificatieAdresseerbaarObject": "0074999999897084"
+        }
+      }
+    },
+    "volledigAdres": "Zandeweg 2 5107NM Dongen"
+  },
+  "communicatiegegevens": {
+    "registratie": { "attributes": { "registratieTijdstip": "20141124110302234" }, "datumAanvang": "20141121" },
+    "communicatienummer": [
+      { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+    ],
+    "emailAdres": ["nepemailadres@kvk.nl"]
+  },
+  "naam": "Free Siliconmedia",
+  "heeftAlsEigenaar": {
+    "relatieRegistratie": { "attributes": { "registratieTijdstip": "20141124110302234" }, "datumAanvang": "20141121" },
+    "rechtspersoon": {
+      "extraElementen": {
+        "extraElement": [
+          { "attributes": { "naam": "datumAanvangStatuten" }, "$value": "20141121" },
+          { "attributes": { "naam": "datumAkteStatuten" }, "$value": "20141121" }
+        ]
+      },
+      "registratie": { "attributes": { "registratieTijdstip": "20141124110302234" }, "datumAanvang": "20141121" },
+      "persoonRechtsvorm": "Kerkgenootschap",
+      "volledigeNaam": "Free Siliconmedia",
+      "uitgebreideRechtsvorm": "Kerkgenootschap",
+      "rsin": "992093326",
+      "naamgeving": {
+        "registratie": { "attributes": { "registratieTijdstip": "20141124110302234" }, "datumAanvang": "20141121" },
+        "naam": "Free Siliconmedia"
+      },
+      "rechtsvorm": { "code": "KG", "omschrijving": "Kerkgenootschap", "referentieType": "Rechtsvorm" },
+      "statutaireZetel": "Nepplaats",
+      "aanvangStatutaireZetel": "20141121",
+      "datumAkteOprichting": "20141121",
+      "datumOprichting": "20141121",
+      "datumEersteInschrijvingHandelsregister": "20141124",
+      "datumAkteStatutenwijziging": "20141121",
+      "bezoekLocatie": {
+        "registratie": { "attributes": { "registratieTijdstip": "20141124110302234" }, "datumAanvang": "20141121" },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Zandeweg",
+            "huisnummer": 2,
+            "postcode": { "cijfercombinatie": "5107", "lettercombinatie": "NM" },
+            "plaats": "Dongen",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999819712",
+              "identificatieAdresseerbaarObject": "0074999999897084"
+            }
+          }
+        },
+        "volledigAdres": "Zandeweg 2 5107NM Dongen"
+      },
+      "activiteiten": {
+        "omschrijving": "Religieuze organisatie",
+        "sbiActiviteit": [
+          {
+            "registratie": { "attributes": { "registratieTijdstip": "20141124110302234" }, "datumAanvang": "20141121" },
+            "sbiCode": {
+              "code": "94911",
+              "omschrijving": "Religieuze organisaties",
+              "referentieType": "ActiviteitCode"
+            },
+            "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+          }
+        ]
+      },
+      "communicatiegegevens": {
+        "registratie": { "attributes": { "registratieTijdstip": "20141124110302234" }, "datumAanvang": "20141121" },
+        "communicatienummer": [
+          { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+        ],
+        "emailAdres": ["nepemailadres@kvk.nl"]
+      }
+    }
+  }
+}

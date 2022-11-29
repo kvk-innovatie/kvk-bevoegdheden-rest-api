@@ -1,0 +1,524 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 20021203,
+      "DatumEinde": 20150303,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90004493,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20091208,
+        "DatumEinde": 20150303,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Batinge",
+          "Huisnummer": 76,
+          "Postcode": {
+            "Cijfercombinatie": 9331,
+            "Lettercombinatie": "KX"
+          },
+          "Plaats": "Norg",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999633084,
+            "IdentificatieAdresseerbaarObject": 74999999178825
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Batinge 76 9331KX Norg"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20080821,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": null,
+          "Huisnummer": 0,
+          "Postcode": {
+            "Cijfercombinatie": 2231,
+            "Lettercombinatie": "TB"
+          },
+          "Plaats": "Rijnsburg",
+          "BagId": null,
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Postbus 99999 2231TB Rijnsburg"
+    },
+    "Communicatiegegevens": {
+      "Registratie": {
+        "DatumAanvang": 20021203,
+        "DatumEinde": 20150303,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Communicatienummer": [
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        },
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "F",
+            "Omschrijving": "Fax"
+          }
+        }
+      ],
+      "EmailAdres": "nepemailadres@kvk.nl"
+    },
+    "Naam": "Free Lineline B.V.",
+    "ManifesteertZichAls": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 20021203,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Onderneming": {
+        "Registratie": {
+          "DatumAanvang": 20021203,
+          "DatumEinde": 20150303,
+          "RegistratieTijdstipNoValue": null
+        },
+        "KvkNummer": 90004493,
+        "SbiActiviteit": [
+          {
+            "Registratie": {
+              "DatumAanvang": 20021203,
+              "DatumEinde": 20150303,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 8710,
+              "Omschrijving": "Verpleeghuizen",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          }
+        ],
+        "VoltijdWerkzamePersonen": 3,
+        "DeeltijdWerkzamePersonen": 1,
+        "TotaalWerkzamePersonen": 4,
+        "HandeltOnder": [
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20021203,
+                "DatumEinde": 20150303,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Free Lineline B.V.",
+              "Volgorde": 0
+            },
+            "RelatieRegistratie": null
+          }
+        ],
+        "WordtUitgeoefendIn": {
+          "RelatieRegistratie": {
+            "DatumAanvang": 20021203,
+            "RegistratieTijdstipNoValue": null
+          },
+          "CommercieleVestiging": {
+            "Registratie": {
+              "DatumAanvang": 20021203,
+              "DatumEinde": 20150303,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Vestigingsnummer": 990000405834,
+            "BezoekLocatie": {
+              "Registratie": {
+                "DatumAanvang": 20091208,
+                "DatumEinde": 20150303,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Afgeschermd": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Adres": {
+                "BinnenlandsAdres": {
+                  "Straatnaam": "Batinge",
+                  "Huisnummer": 76,
+                  "Postcode": {
+                    "Cijfercombinatie": 9331,
+                    "Lettercombinatie": "KX"
+                  },
+                  "Plaats": "Norg",
+                  "BagId": {
+                    "IdentificatieNummeraanduiding": 74999999633084,
+                    "IdentificatieAdresseerbaarObject": 74999999178825
+                  },
+                  "HuisnummerToevoeging": null
+                }
+              },
+              "VolledigAdres": "Batinge 76 9331KX Norg"
+            },
+            "Communicatiegegevens": {
+              "Registratie": {
+                "DatumAanvang": 20021203,
+                "DatumEinde": 20150303,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Communicatienummer": [
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "T",
+                    "Omschrijving": "Telefoon"
+                  }
+                },
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "F",
+                    "Omschrijving": "Fax"
+                  }
+                }
+              ],
+              "EmailAdres": "nepemailadres@kvk.nl"
+            },
+            "EersteHandelsnaam": "Free Lineline B.V.",
+            "VoltijdWerkzamePersonen": 3,
+            "DeeltijdWerkzamePersonen": 1,
+            "TotaalWerkzamePersonen": 4,
+            "Activiteiten": {
+              "Omschrijving": "Verzorgen van mensen, verplegen.",
+              "SbiActiviteit": {
+                "Registratie": {
+                  "DatumAanvang": 20021203,
+                  "DatumEinde": 20150303,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "SbiCode": {
+                  "Code": 8710,
+                  "Omschrijving": "Verpleeghuizen",
+                  "ReferentieType": "ActiviteitCode"
+                },
+                "IsHoofdactiviteit": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Exporteert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Importeert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              }
+            },
+            "HandeltOnder": {
+              "Handelsnaam": {
+                "Registratie": {
+                  "DatumAanvang": 20021203,
+                  "DatumEinde": 20150303,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Naam": "Free Lineline B.V.",
+                "Volgorde": 0
+              },
+              "RelatieRegistratie": {
+                "DatumAanvang": 20021203,
+                "RegistratieTijdstipNoValue": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "WordtGeleidVanuit": {
+      "CommercieleVestiging": {
+        "Registratie": {
+          "DatumAanvang": 20021203,
+          "DatumEinde": 20150303,
+          "RegistratieTijdstipNoValue": null
+        },
+        "Vestigingsnummer": 990000405834,
+        "BezoekLocatie": {
+          "Registratie": {
+            "DatumAanvang": 20091208,
+            "DatumEinde": 20150303,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Afgeschermd": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Adres": {
+            "BinnenlandsAdres": {
+              "Straatnaam": "Batinge",
+              "Huisnummer": 76,
+              "Postcode": {
+                "Cijfercombinatie": 9331,
+                "Lettercombinatie": "KX"
+              },
+              "Plaats": "Norg",
+              "BagId": {
+                "IdentificatieNummeraanduiding": 74999999633084,
+                "IdentificatieAdresseerbaarObject": 74999999178825
+              },
+              "HuisnummerToevoeging": null
+            }
+          },
+          "VolledigAdres": "Batinge 76 9331KX Norg"
+        },
+        "Communicatiegegevens": {
+          "Registratie": {
+            "DatumAanvang": 20021203,
+            "DatumEinde": 20150303,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Communicatienummer": [
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "T",
+                "Omschrijving": "Telefoon"
+              }
+            },
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "F",
+                "Omschrijving": "Fax"
+              }
+            }
+          ],
+          "EmailAdres": "nepemailadres@kvk.nl"
+        },
+        "EersteHandelsnaam": "Free Lineline B.V.",
+        "VoltijdWerkzamePersonen": 3,
+        "DeeltijdWerkzamePersonen": 1,
+        "TotaalWerkzamePersonen": 4,
+        "Activiteiten": {
+          "Omschrijving": "Verzorgen van mensen, verplegen.",
+          "SbiActiviteit": {
+            "Registratie": {
+              "DatumAanvang": 20021203,
+              "DatumEinde": 20150303,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 8710,
+              "Omschrijving": "Verpleeghuizen",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          "Exporteert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Importeert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          }
+        },
+        "HandeltOnder": {
+          "Handelsnaam": {
+            "Registratie": {
+              "DatumAanvang": 20021203,
+              "DatumEinde": 20150303,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Naam": "Free Lineline B.V.",
+            "Volgorde": 0
+          },
+          "RelatieRegistratie": {
+            "DatumAanvang": 20021203,
+            "RegistratieTijdstipNoValue": null
+          }
+        }
+      }
+    },
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 20021203,
+        "RegistratieTijdstipNoValue": null
+      },
+      "NatuurlijkPersoon": null,
+      "Samenwerkingsverband": null,
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": {
+        "VoornemenTotOntbinding": null,
+        "ActiviteitenGestaaktPer": null,
+        "Rechtsvorm": {
+          "Code": "BV",
+          "Omschrijving": "Besloten Vennootschap"
+        },
+        "Heeft": [
+          {
+            "FunctionarisBijzondereRechtstoestand": {
+              "Registratie": {
+                "DatumAanvang": 20080821,
+                "DatumEinde": 20150303,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": {
+                  "VolledigeNaam": "Jan Klaasen",
+                  "BezoekLocatiePersoon": {
+                    "Registratie": {
+                      "DatumAanvang": 20080821,
+                      "DatumEinde": 0,
+                      "RegistratieTijdstipNoValue": null
+                    },
+                    "Afgeschermd": {
+                      "Code": "N",
+                      "Omschrijving": "Nee",
+                      "ReferentieType": "geenRT"
+                    },
+                    "Adres": {
+                      "BinnenlandsAdres": {
+                        "Straatnaam": null,
+                        "Huisnummer": 0,
+                        "Postcode": {
+                          "Cijfercombinatie": 2231,
+                          "Lettercombinatie": "TB"
+                        },
+                        "Plaats": "Rijnsburg",
+                        "BagId": null,
+                        "HuisnummerToevoeging": null
+                      }
+                    },
+                    "VolledigAdres": "Postbus 99999 2231TB Rijnsburg"
+                  },
+                  "Naam": "mr. Ardath Deans",
+                  "Telefoonnummer": {
+                    "Toegangscode": 31,
+                    "Nummer": 433626655
+                  }
+                },
+                "NatuurlijkPersoon": null,
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "07",
+                "Omschrijving": "Curator",
+                "ReferentieType": "FunctionarisRol"
+              }
+            },
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": {
+              "Registratie": {
+                "DatumAanvang": 20080821,
+                "DatumEinde": 20150303,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": {
+                  "VolledigeNaam": "Jan Klaasen",
+                  "BezoekLocatiePersoon": null,
+                  "Naam": "mr. Denver Hilyard",
+                  "Telefoonnummer": null
+                },
+                "NatuurlijkPersoon": null,
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "11",
+                "Omschrijving": "Rechter-commissaris",
+                "ReferentieType": "FunctionarisRol"
+              }
+            },
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": {
+              "Functie": {
+                "Code": "02",
+                "Omschrijving": "Bestuurder",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19530925,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Bevoegdheid": {
+                "Soort": {
+                  "Code": "gb",
+                  "Omschrijving": "Gezamenlijk bevoegd"
+                }
+              },
+              "Functietitel": {
+                "Titel": "Directeur"
+              }
+            },
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          }
+        ],
+        "VolledigeNaam": "Jan Klaasen",
+        "Rsin": "992329322"
+      }
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

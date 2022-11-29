@@ -1,0 +1,538 @@
+{
+  "registratie": {
+    "attributes": { "registratieTijdstip": "20100719105025082" },
+    "datumAanvang": "20100715",
+    "datumEinde": "20110201"
+  },
+  "kvkNummer": "90003381",
+  "nonMailing": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "incidenteelUitlenenArbeidskrachten": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "bezoekLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstip": "20110203113058643" },
+      "datumAanvang": "20100715",
+      "datumEinde": "20110201"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Amerstraat",
+        "huisnummer": 2,
+        "postcode": { "cijfercombinatie": "6163", "lettercombinatie": "KX" },
+        "plaats": "Geleen",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999166097",
+          "identificatieAdresseerbaarObject": "0074999999771182"
+        }
+      }
+    },
+    "volledigAdres": "Amerstraat 2 6163KX Geleen"
+  },
+  "postLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstip": "20110203113058643" },
+      "datumAanvang": "20100715",
+      "datumEinde": "20110201"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "postbusnummer": 99999,
+        "postcode": { "cijfercombinatie": "7491", "lettercombinatie": "ZN" },
+        "plaats": "Delden"
+      }
+    },
+    "volledigAdres": "Postbus 99999 7491ZN Delden"
+  },
+  "communicatiegegevens": {
+    "registratie": {
+      "attributes": { "registratieTijdstip": "20110203113058643" },
+      "datumAanvang": "20100715",
+      "datumEinde": "20110201"
+    },
+    "communicatienummer": [
+      { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+      { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "F", "omschrijving": "Fax" } }
+    ],
+    "emailAdres": ["nepemailadres@kvk.nl"]
+  },
+  "naam": "Local Medunodox",
+  "manifesteertZichAls": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstip": "20110203113058643" },
+      "datumAanvang": "20100715",
+      "datumEinde": "20110201"
+    },
+    "onderneming": {
+      "registratie": {
+        "attributes": { "registratieTijdstip": "20100719105025082" },
+        "datumAanvang": "20100715",
+        "datumEinde": "20110201"
+      },
+      "kvkNummer": "90003381",
+      "sbiActiviteit": [
+        {
+          "registratie": {
+            "attributes": { "registratieTijdstip": "20110203113058643" },
+            "datumAanvang": "20100715",
+            "datumEinde": "20110201"
+          },
+          "sbiCode": { "code": "50402", "omschrijving": "Binnenvaart (tankvaart)", "referentieType": "ActiviteitCode" },
+          "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+        }
+      ],
+      "voltijdWerkzamePersonen": 8,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 8,
+      "handeltOnder": [
+        {
+          "handelsnaam": {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20100719105025082" },
+              "datumAanvang": "20100715",
+              "datumEinde": "20110201"
+            },
+            "naam": "Local Medunodox",
+            "volgorde": 0
+          }
+        }
+      ],
+      "wordtUitgeoefendIn": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstip": "20110203113058643" },
+            "datumAanvang": "20100715",
+            "datumEinde": "20110201"
+          },
+          "commercieleVestiging": {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20100719105025082" },
+              "datumAanvang": "20100715",
+              "datumEinde": "20110201"
+            },
+            "vestigingsnummer": "990000334273",
+            "bezoekLocatie": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20110203113058643" },
+                "datumAanvang": "20100715",
+                "datumEinde": "20110201"
+              },
+              "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "adres": {
+                "binnenlandsAdres": {
+                  "straatnaam": "Amerstraat",
+                  "huisnummer": 2,
+                  "postcode": { "cijfercombinatie": "6163", "lettercombinatie": "KX" },
+                  "plaats": "Geleen",
+                  "bagId": {
+                    "identificatieNummeraanduiding": "0074999999166097",
+                    "identificatieAdresseerbaarObject": "0074999999771182"
+                  }
+                }
+              },
+              "volledigAdres": "Amerstraat 2 6163KX Geleen"
+            },
+            "postLocatie": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20110203113058643" },
+                "datumAanvang": "20100715",
+                "datumEinde": "20110201"
+              },
+              "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "adres": {
+                "binnenlandsAdres": {
+                  "postbusnummer": 99999,
+                  "postcode": { "cijfercombinatie": "7491", "lettercombinatie": "ZN" },
+                  "plaats": "Delden"
+                }
+              },
+              "volledigAdres": "Postbus 99999 7491ZN Delden"
+            },
+            "communicatiegegevens": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20110203113058643" },
+                "datumAanvang": "20100715",
+                "datumEinde": "20110201"
+              },
+              "communicatienummer": [
+                { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+                { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "F", "omschrijving": "Fax" } }
+              ],
+              "emailAdres": ["nepemailadres@kvk.nl"]
+            },
+            "eersteHandelsnaam": "Local Medunodox",
+            "voltijdWerkzamePersonen": 8,
+            "deeltijdWerkzamePersonen": 0,
+            "totaalWerkzamePersonen": 8,
+            "activiteiten": {
+              "omschrijving": "Het onder gemeenschappelijke naam en voor gezamenlijke rekening exploiteren van de deelnemende leden van de rederij, het gezamenlijk in eigendom toebehorende schip \"Florence\".",
+              "sbiActiviteit": [
+                {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20110203113058643" },
+                    "datumAanvang": "20100715",
+                    "datumEinde": "20110201"
+                  },
+                  "sbiCode": {
+                    "code": "50402",
+                    "omschrijving": "Binnenvaart (tankvaart)",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+                }
+              ],
+              "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            },
+            "handeltOnder": [
+              {
+                "relatieRegistratie": {
+                  "attributes": { "registratieTijdstip": "20110203113058643" },
+                  "datumAanvang": "20100715",
+                  "datumEinde": "20110201"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20100719105025082" },
+                    "datumAanvang": "20100715",
+                    "datumEinde": "20110201"
+                  },
+                  "naam": "Local Medunodox",
+                  "volgorde": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "wordtGeleidVanuit": {
+    "commercieleVestiging": {
+      "registratie": {
+        "attributes": { "registratieTijdstip": "20100719105025082" },
+        "datumAanvang": "20100715",
+        "datumEinde": "20110201"
+      },
+      "vestigingsnummer": "990000334273",
+      "bezoekLocatie": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20110203113058643" },
+          "datumAanvang": "20100715",
+          "datumEinde": "20110201"
+        },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Amerstraat",
+            "huisnummer": 2,
+            "postcode": { "cijfercombinatie": "6163", "lettercombinatie": "KX" },
+            "plaats": "Geleen",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999166097",
+              "identificatieAdresseerbaarObject": "0074999999771182"
+            }
+          }
+        },
+        "volledigAdres": "Amerstraat 2 6163KX Geleen"
+      },
+      "postLocatie": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20110203113058643" },
+          "datumAanvang": "20100715",
+          "datumEinde": "20110201"
+        },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "postbusnummer": 99999,
+            "postcode": { "cijfercombinatie": "7491", "lettercombinatie": "ZN" },
+            "plaats": "Delden"
+          }
+        },
+        "volledigAdres": "Postbus 99999 7491ZN Delden"
+      },
+      "communicatiegegevens": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20110203113058643" },
+          "datumAanvang": "20100715",
+          "datumEinde": "20110201"
+        },
+        "communicatienummer": [
+          { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+          { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "F", "omschrijving": "Fax" } }
+        ],
+        "emailAdres": ["nepemailadres@kvk.nl"]
+      },
+      "eersteHandelsnaam": "Local Medunodox",
+      "voltijdWerkzamePersonen": 8,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 8,
+      "activiteiten": {
+        "omschrijving": "Het onder gemeenschappelijke naam en voor gezamenlijke rekening exploiteren van de deelnemende leden van de rederij, het gezamenlijk in eigendom toebehorende schip \"Florence\".",
+        "sbiActiviteit": [
+          {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20110203113058643" },
+              "datumAanvang": "20100715",
+              "datumEinde": "20110201"
+            },
+            "sbiCode": {
+              "code": "50402",
+              "omschrijving": "Binnenvaart (tankvaart)",
+              "referentieType": "ActiviteitCode"
+            },
+            "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+          }
+        ],
+        "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+      },
+      "handeltOnder": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstip": "20110203113058643" },
+            "datumAanvang": "20100715",
+            "datumEinde": "20110201"
+          },
+          "handelsnaam": {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20100719105025082" },
+              "datumAanvang": "20100715",
+              "datumEinde": "20110201"
+            },
+            "naam": "Local Medunodox",
+            "volgorde": 0
+          }
+        }
+      ]
+    }
+  },
+  "heeftAlsEigenaar": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstip": "20110203113058643" },
+      "datumAanvang": "20100715",
+      "datumEinde": "20110201"
+    },
+    "samenwerkingsverband": {
+      "registratie": {
+        "attributes": { "registratieTijdstip": "20100719105025082" },
+        "datumAanvang": "20100715",
+        "datumEinde": "20110201"
+      },
+      "persoonRechtsvorm": "Rederij",
+      "volledigeNaam": "Local Medunodox",
+      "uitgebreideRechtsvorm": "Rederij",
+      "heeft": [
+        {
+          "gemachtigde": {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20100719105025082" },
+              "datumAanvang": "20100715",
+              "datumEinde": "20110201"
+            },
+            "functietitel": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20110203113058643" },
+                "datumAanvang": "20100715",
+                "datumEinde": "20110201"
+              },
+              "titel": "Boekhouder",
+              "isStatutaireTitel": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            },
+            "door": {
+              "rechtspersoon": {
+                "persoonRechtsvorm": "Besloten Vennootschap",
+                "volledigeNaam": "Global Mediaplanet B.V.",
+                "bezoekLocatiePersoon": {
+                  "registratie": {
+                    "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                    "datumAanvang": "20030808"
+                  },
+                  "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+                  "adres": {
+                    "binnenlandsAdres": {
+                      "straatnaam": "Brittenruststraat",
+                      "huisnummer": "47",
+                      "huisletter": "a",
+                      "postcode": { "cijfercombinatie": "2405", "lettercombinatie": "GH" },
+                      "plaats": "Alphen aan den Rijn",
+                      "bagId": {
+                        "identificatieNummeraanduiding": "0074999999557976",
+                        "identificatieAdresseerbaarObject": "0074999999452260"
+                      }
+                    }
+                  },
+                  "volledigAdres": "Brittenruststraat 47 2405GH Alphen aan den Rijn"
+                },
+                "isEigenaarVan": {
+                  "maatschappelijkeActiviteit": {
+                    "kvkNummer": "90004175",
+                    "nonMailing": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+                  }
+                },
+                "rsin": "992985018"
+              }
+            },
+            "functie": { "code": "01", "omschrijving": "Gevolmachtigde", "referentieType": "FunctionarisRol" },
+            "volmacht": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20110203113058643" },
+                "datumAanvang": "20100715",
+                "datumEinde": "20110201"
+              },
+              "typeVolmacht": { "code": "b", "omschrijving": "Beperkte volmacht", "referentieType": "VolmachtType" },
+              "isStatutair": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "beperkteVolmacht": {
+                "beperkingInGeld": {
+                  "waarde": "500000",
+                  "valuta": { "code": "EUR", "omschrijving": "Euro", "referentieType": "Valuta" }
+                },
+                "magOpgaveHandelsregisterDoen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+                "heeftOverigeVolmacht": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+              }
+            }
+          }
+        },
+        {
+          "aansprakelijke": {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20100719105025082" },
+              "datumAanvang": "20100715",
+              "datumEinde": "20110201"
+            },
+            "door": {
+              "rechtspersoon": {
+                "persoonRechtsvorm": "Besloten Vennootschap",
+                "volledigeNaam": "Company Greencity B.V.",
+                "bezoekLocatiePersoon": {
+                  "registratie": {
+                    "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                    "datumAanvang": "20091223"
+                  },
+                  "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+                  "adres": {
+                    "binnenlandsAdres": {
+                      "straatnaam": "Amerstraat",
+                      "huisnummer": "2",
+                      "postcode": { "cijfercombinatie": "6163", "lettercombinatie": "KX" },
+                      "plaats": "Geleen",
+                      "bagId": {
+                        "identificatieNummeraanduiding": "0074999999166097",
+                        "identificatieAdresseerbaarObject": "0074999999771182"
+                      }
+                    }
+                  },
+                  "volledigAdres": "Amerstraat 2 6163KX Geleen"
+                },
+                "isEigenaarVan": {
+                  "maatschappelijkeActiviteit": {
+                    "kvkNummer": "90002067",
+                    "nonMailing": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+                  }
+                },
+                "rsin": "992648531"
+              }
+            },
+            "functie": { "code": "16", "omschrijving": "Lid rederij", "referentieType": "FunctionarisRol" }
+          }
+        },
+        {
+          "aansprakelijke": {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20100719105025082" },
+              "datumAanvang": "20100715",
+              "datumEinde": "20110201"
+            },
+            "door": {
+              "rechtspersoon": {
+                "persoonRechtsvorm": "Besloten Vennootschap",
+                "volledigeNaam": "International Phystechno B.V.",
+                "bezoekLocatiePersoon": {
+                  "registratie": {
+                    "attributes": { "registratieTijdstip": "20151016121640277" },
+                    "datumAanvang": "20151016"
+                  },
+                  "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+                  "adres": {
+                    "binnenlandsAdres": {
+                      "straatnaam": "Bavelselaan",
+                      "huisnummer": "199",
+                      "postcode": { "cijfercombinatie": "4834", "lettercombinatie": "TB" },
+                      "plaats": "Breda",
+                      "bagId": {
+                        "identificatieNummeraanduiding": "0074999999928570",
+                        "identificatieAdresseerbaarObject": "0074999999740978"
+                      }
+                    }
+                  },
+                  "volledigAdres": "Bavelselaan 199 4834TB Breda"
+                },
+                "isEigenaarVan": {
+                  "maatschappelijkeActiviteit": {
+                    "kvkNummer": "90005341",
+                    "nonMailing": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+                  }
+                },
+                "rsin": "992925381"
+              }
+            },
+            "functie": { "code": "16", "omschrijving": "Lid rederij", "referentieType": "FunctionarisRol" }
+          }
+        },
+        {
+          "aansprakelijke": {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20100719105025082" },
+              "datumAanvang": "20100715",
+              "datumEinde": "20110201"
+            },
+            "door": {
+              "rechtspersoon": {
+                "persoonRechtsvorm": "Besloten Vennootschap",
+                "volledigeNaam": "Company O-flex B.V.",
+                "bezoekLocatiePersoon": {
+                  "registratie": {
+                    "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                    "datumAanvang": "20091217"
+                  },
+                  "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+                  "adres": {
+                    "binnenlandsAdres": {
+                      "straatnaam": "Brittenruststraat",
+                      "huisnummer": "47",
+                      "huisnummerToevoeging": "- 11",
+                      "postcode": { "cijfercombinatie": "2405", "lettercombinatie": "GH" },
+                      "plaats": "Alphen aan den Rijn"
+                    }
+                  },
+                  "volledigAdres": "Brittenruststraat 47 2405GH Alphen aan den Rijn"
+                },
+                "isEigenaarVan": {
+                  "maatschappelijkeActiviteit": {
+                    "kvkNummer": "90004531",
+                    "nonMailing": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+                  }
+                },
+                "rsin": "992897464"
+              }
+            },
+            "functie": { "code": "16", "omschrijving": "Lid rederij", "referentieType": "FunctionarisRol" }
+          }
+        }
+      ],
+      "naamgeving": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20110203113058643" },
+          "datumAanvang": "20100715",
+          "datumEinde": "20110201"
+        },
+        "naam": "Local Medunodox"
+      },
+      "ontbinding": {
+        "registratie": { "attributes": { "registratieTijdstip": "20110203113058643" }, "datumAanvang": "20110201" }
+      },
+      "rechtsvorm": { "code": "RED", "omschrijving": "Rederij", "referentieType": "Rechtsvorm" }
+    }
+  }
+}

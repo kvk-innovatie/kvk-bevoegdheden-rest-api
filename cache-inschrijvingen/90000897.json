@@ -1,0 +1,438 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 20030101,
+      "DatumEinde": 20140201,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90000897,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20090601,
+        "DatumEinde": 20140201,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Hoog Geldrop",
+          "Huisnummer": 4,
+          "Postcode": {
+            "Cijfercombinatie": 5663,
+            "Lettercombinatie": "BE"
+          },
+          "Plaats": "Geldrop",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999449958,
+            "IdentificatieAdresseerbaarObject": 74999999112329
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Hoog Geldrop 4 5663BE Geldrop"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20090601,
+        "DatumEinde": 20140201,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Hoog Geldrop",
+          "Huisnummer": 4,
+          "Postcode": {
+            "Cijfercombinatie": 5663,
+            "Lettercombinatie": "BE"
+          },
+          "Plaats": "Geldrop",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999449958,
+            "IdentificatieAdresseerbaarObject": 74999999112329
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Hoog Geldrop 4 5663BE Geldrop"
+    },
+    "Communicatiegegevens": {
+      "Registratie": {
+        "DatumAanvang": 20030101,
+        "DatumEinde": 20140201,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Communicatienummer": [
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        },
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "F",
+            "Omschrijving": "Fax"
+          }
+        }
+      ],
+      "EmailAdres": "nepemailadres@kvk.nl"
+    },
+    "Naam": "Local Kontex",
+    "ManifesteertZichAls": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 20081001,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Onderneming": {
+        "Registratie": {
+          "DatumAanvang": 20030101,
+          "DatumEinde": 20140201,
+          "RegistratieTijdstipNoValue": null
+        },
+        "KvkNummer": 90000897,
+        "SbiActiviteit": [
+          {
+            "Registratie": {
+              "DatumAanvang": 20030101,
+              "DatumEinde": 20140201,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 6831,
+              "Omschrijving": "Bemiddeling bij handel, huur of verhuur van onroerend goed",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          }
+        ],
+        "VoltijdWerkzamePersonen": 0,
+        "DeeltijdWerkzamePersonen": 1,
+        "TotaalWerkzamePersonen": 1,
+        "HandeltOnder": [
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20050811,
+                "DatumEinde": 20140201,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Local Kontex Eenmanszaak",
+              "Volgorde": 0
+            },
+            "RelatieRegistratie": null
+          },
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20050811,
+                "DatumEinde": 20140201,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Local Kontex Eenmanszaak de tweede",
+              "Volgorde": 1
+            },
+            "RelatieRegistratie": null
+          },
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20080910,
+                "DatumEinde": 20140201,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Local Kontex Eenmanszaak de derde",
+              "Volgorde": 2
+            },
+            "RelatieRegistratie": null
+          },
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20080910,
+                "DatumEinde": 20140201,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Local Kontex Eenmanszaak de vierde",
+              "Volgorde": 3
+            },
+            "RelatieRegistratie": null
+          }
+        ],
+        "WordtUitgeoefendIn": {
+          "RelatieRegistratie": {
+            "DatumAanvang": 20081001,
+            "RegistratieTijdstipNoValue": null
+          },
+          "CommercieleVestiging": {
+            "Registratie": {
+              "DatumAanvang": 20030101,
+              "DatumEinde": 20140201,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Vestigingsnummer": 990000177009,
+            "BezoekLocatie": {
+              "Registratie": {
+                "DatumAanvang": 20090601,
+                "DatumEinde": 20140201,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Afgeschermd": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Adres": {
+                "BinnenlandsAdres": {
+                  "Straatnaam": "Hoog Geldrop",
+                  "Huisnummer": 4,
+                  "Postcode": {
+                    "Cijfercombinatie": 5663,
+                    "Lettercombinatie": "BE"
+                  },
+                  "Plaats": "Geldrop",
+                  "BagId": {
+                    "IdentificatieNummeraanduiding": 74999999449958,
+                    "IdentificatieAdresseerbaarObject": 74999999112329
+                  },
+                  "HuisnummerToevoeging": null
+                }
+              },
+              "VolledigAdres": "Hoog Geldrop 4 5663BE Geldrop"
+            },
+            "Communicatiegegevens": {
+              "Registratie": {
+                "DatumAanvang": 20030101,
+                "DatumEinde": 20140201,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Communicatienummer": [
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "T",
+                    "Omschrijving": "Telefoon"
+                  }
+                },
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "F",
+                    "Omschrijving": "Fax"
+                  }
+                }
+              ],
+              "EmailAdres": "nepemailadres@kvk.nl"
+            },
+            "EersteHandelsnaam": "Local Kontex Eenmanszaak",
+            "VoltijdWerkzamePersonen": 0,
+            "DeeltijdWerkzamePersonen": 1,
+            "TotaalWerkzamePersonen": 1,
+            "Activiteiten": {
+              "Omschrijving": "Makelaardij in onroerende zaken, het verrichten van taxaties",
+              "SbiActiviteit": {
+                "Registratie": {
+                  "DatumAanvang": 20030101,
+                  "DatumEinde": 20140201,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "SbiCode": {
+                  "Code": 6831,
+                  "Omschrijving": "Bemiddeling bij handel, huur of verhuur van onroerend goed",
+                  "ReferentieType": "ActiviteitCode"
+                },
+                "IsHoofdactiviteit": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Exporteert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Importeert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              }
+            },
+            "HandeltOnder": {
+              "Handelsnaam": {
+                "Registratie": {
+                  "DatumAanvang": 20050811,
+                  "DatumEinde": 20140201,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Naam": "Local Kontex Eenmanszaak",
+                "Volgorde": 0
+              },
+              "RelatieRegistratie": {
+                "DatumAanvang": 20050811,
+                "RegistratieTijdstipNoValue": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "WordtGeleidVanuit": {
+      "CommercieleVestiging": {
+        "Registratie": {
+          "DatumAanvang": 20030101,
+          "DatumEinde": 20140201,
+          "RegistratieTijdstipNoValue": null
+        },
+        "Vestigingsnummer": 990000177009,
+        "BezoekLocatie": {
+          "Registratie": {
+            "DatumAanvang": 20090601,
+            "DatumEinde": 20140201,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Afgeschermd": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Adres": {
+            "BinnenlandsAdres": {
+              "Straatnaam": "Hoog Geldrop",
+              "Huisnummer": 4,
+              "Postcode": {
+                "Cijfercombinatie": 5663,
+                "Lettercombinatie": "BE"
+              },
+              "Plaats": "Geldrop",
+              "BagId": {
+                "IdentificatieNummeraanduiding": 74999999449958,
+                "IdentificatieAdresseerbaarObject": 74999999112329
+              },
+              "HuisnummerToevoeging": null
+            }
+          },
+          "VolledigAdres": "Hoog Geldrop 4 5663BE Geldrop"
+        },
+        "Communicatiegegevens": {
+          "Registratie": {
+            "DatumAanvang": 20030101,
+            "DatumEinde": 20140201,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Communicatienummer": [
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "T",
+                "Omschrijving": "Telefoon"
+              }
+            },
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "F",
+                "Omschrijving": "Fax"
+              }
+            }
+          ],
+          "EmailAdres": "nepemailadres@kvk.nl"
+        },
+        "EersteHandelsnaam": "Local Kontex Eenmanszaak",
+        "VoltijdWerkzamePersonen": 0,
+        "DeeltijdWerkzamePersonen": 1,
+        "TotaalWerkzamePersonen": 1,
+        "Activiteiten": {
+          "Omschrijving": "Makelaardij in onroerende zaken, het verrichten van taxaties",
+          "SbiActiviteit": {
+            "Registratie": {
+              "DatumAanvang": 20030101,
+              "DatumEinde": 20140201,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 6831,
+              "Omschrijving": "Bemiddeling bij handel, huur of verhuur van onroerend goed",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          "Exporteert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Importeert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          }
+        },
+        "HandeltOnder": {
+          "Handelsnaam": {
+            "Registratie": {
+              "DatumAanvang": 20050811,
+              "DatumEinde": 20140201,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Naam": "Local Kontex Eenmanszaak",
+            "Volgorde": 0
+          },
+          "RelatieRegistratie": {
+            "DatumAanvang": 20050811,
+            "RegistratieTijdstipNoValue": null
+          }
+        }
+      }
+    },
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 20081001,
+        "RegistratieTijdstipNoValue": null
+      },
+      "NatuurlijkPersoon": {
+        "ExtraElementen": {
+          "ExtraElement": {
+            "Naam": "achternaam"
+          }
+        },
+        "Registratie": {
+          "DatumAanvang": 19421220,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "PersoonRechtsvorm": "Eenmanszaak",
+        "VolledigeNaam": "Jan Klaasen",
+        "UitgebreideRechtsvorm": "Eenmanszaak",
+        "Geslachtsnaam": "Klaasen",
+        "Voornamen": "Jan",
+        "Heeft": [],
+        "Geboortedatum": "20000101"
+      },
+      "Samenwerkingsverband": null,
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": null
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

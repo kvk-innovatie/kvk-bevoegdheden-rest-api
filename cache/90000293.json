@@ -1,0 +1,321 @@
+{
+  "registratie": { "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" }, "datumAanvang": "19971101" },
+  "kvkNummer": "90000293",
+  "nonMailing": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "incidenteelUitlenenArbeidskrachten": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "bezoekLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "19971101"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Westsingel",
+        "huisnummer": 54,
+        "postcode": { "cijfercombinatie": "5801", "lettercombinatie": "TX" },
+        "plaats": "Venray",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999812396",
+          "identificatieAdresseerbaarObject": "0074999999359262"
+        }
+      }
+    },
+    "volledigAdres": "Westsingel 54 5801TX Venray"
+  },
+  "postLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "19971101"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Westsingel",
+        "huisnummer": 54,
+        "postcode": { "cijfercombinatie": "5801", "lettercombinatie": "TX" },
+        "plaats": "Venray",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999812396",
+          "identificatieAdresseerbaarObject": "0074999999359262"
+        }
+      }
+    },
+    "volledigAdres": "Westsingel 54 5801TX Venray"
+  },
+  "communicatiegegevens": {
+    "registratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "19971101"
+    },
+    "communicatienummer": [
+      { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+      { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "F", "omschrijving": "Fax" } }
+    ]
+  },
+  "naam": "Grand Stathex",
+  "manifesteertZichAls": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "20100101"
+    },
+    "onderneming": {
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19971101"
+      },
+      "kvkNummer": "90000293",
+      "sbiActiviteit": [
+        {
+          "registratie": {
+            "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+            "datumAanvang": "19971101"
+          },
+          "sbiCode": { "code": "5630", "omschrijving": "Cafés", "referentieType": "ActiviteitCode" },
+          "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+        },
+        {
+          "registratie": {
+            "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+            "datumAanvang": "19971101"
+          },
+          "sbiCode": {
+            "code": "93119",
+            "omschrijving": "Overige sportaccommodaties",
+            "referentieType": "ActiviteitCode"
+          },
+          "isHoofdactiviteit": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+        }
+      ],
+      "voltijdWerkzamePersonen": 1,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 1,
+      "handeltOnder": [
+        {
+          "handelsnaam": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20021101"
+            },
+            "naam": "Grand Stathex Eenmanszaak",
+            "volgorde": 0
+          }
+        }
+      ],
+      "wordtUitgeoefendIn": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+            "datumAanvang": "20100101"
+          },
+          "commercieleVestiging": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19971101"
+            },
+            "vestigingsnummer": "990000631768",
+            "bezoekLocatie": {
+              "registratie": {
+                "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                "datumAanvang": "19971101"
+              },
+              "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "adres": {
+                "binnenlandsAdres": {
+                  "straatnaam": "Westsingel",
+                  "huisnummer": 54,
+                  "postcode": { "cijfercombinatie": "5801", "lettercombinatie": "TX" },
+                  "plaats": "Venray",
+                  "bagId": {
+                    "identificatieNummeraanduiding": "0074999999812396",
+                    "identificatieAdresseerbaarObject": "0074999999359262"
+                  }
+                }
+              },
+              "volledigAdres": "Westsingel 54 5801TX Venray"
+            },
+            "communicatiegegevens": {
+              "registratie": {
+                "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                "datumAanvang": "19971101"
+              },
+              "communicatienummer": [
+                { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+                { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "F", "omschrijving": "Fax" } }
+              ]
+            },
+            "eersteHandelsnaam": "Grand Stathex Eenmanszaak",
+            "voltijdWerkzamePersonen": 1,
+            "deeltijdWerkzamePersonen": 0,
+            "totaalWerkzamePersonen": 1,
+            "activiteiten": {
+              "omschrijving": "Café met tennisbaan.",
+              "sbiActiviteit": [
+                {
+                  "registratie": {
+                    "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                    "datumAanvang": "19971101"
+                  },
+                  "sbiCode": { "code": "5630", "omschrijving": "Cafés", "referentieType": "ActiviteitCode" },
+                  "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+                },
+                {
+                  "registratie": {
+                    "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                    "datumAanvang": "19971101"
+                  },
+                  "sbiCode": {
+                    "code": "93119",
+                    "omschrijving": "Overige sportaccommodaties",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+                }
+              ],
+              "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            },
+            "handeltOnder": [
+              {
+                "relatieRegistratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "20021101"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                    "datumAanvang": "20021101"
+                  },
+                  "naam": "Grand Stathex Eenmanszaak",
+                  "volgorde": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "wordtGeleidVanuit": {
+    "commercieleVestiging": {
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19971101"
+      },
+      "vestigingsnummer": "990000631768",
+      "bezoekLocatie": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "19971101"
+        },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Westsingel",
+            "huisnummer": 54,
+            "postcode": { "cijfercombinatie": "5801", "lettercombinatie": "TX" },
+            "plaats": "Venray",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999812396",
+              "identificatieAdresseerbaarObject": "0074999999359262"
+            }
+          }
+        },
+        "volledigAdres": "Westsingel 54 5801TX Venray"
+      },
+      "communicatiegegevens": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "19971101"
+        },
+        "communicatienummer": [
+          { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } },
+          { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "F", "omschrijving": "Fax" } }
+        ]
+      },
+      "eersteHandelsnaam": "Grand Stathex Eenmanszaak",
+      "voltijdWerkzamePersonen": 1,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 1,
+      "activiteiten": {
+        "omschrijving": "Café met tennisbaan.",
+        "sbiActiviteit": [
+          {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19971101"
+            },
+            "sbiCode": { "code": "5630", "omschrijving": "Cafés", "referentieType": "ActiviteitCode" },
+            "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+          },
+          {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19971101"
+            },
+            "sbiCode": {
+              "code": "93119",
+              "omschrijving": "Overige sportaccommodaties",
+              "referentieType": "ActiviteitCode"
+            },
+            "isHoofdactiviteit": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+          }
+        ],
+        "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+      },
+      "handeltOnder": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+            "datumAanvang": "20021101"
+          },
+          "handelsnaam": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "20021101"
+            },
+            "naam": "Grand Stathex Eenmanszaak",
+            "volgorde": 0
+          }
+        }
+      ]
+    }
+  },
+  "heeftAlsEigenaar": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "20100101"
+    },
+    "natuurlijkPersoon": {
+      "extraElementen": { "extraElement": [{ "attributes": { "naam": "achternaam" }, "$value": "Bier" }] },
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19460103"
+      },
+      "persoonRechtsvorm": "Eenmanszaak",
+      "volledigeNaam": "Alicia Bier",
+      "uitgebreideRechtsvorm": "Eenmanszaak",
+      "geslachtsnaam": "Bier",
+      "voornamen": "Alicia",
+      "geboortedatum": "19460103",
+      "woonLocatie": {
+        "registratie": { "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" } },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Kweldamweg",
+            "huisnummer": 33,
+            "postcode": { "cijfercombinatie": "3364", "lettercombinatie": "BC" },
+            "plaats": "Sliedrecht",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999246595",
+              "identificatieAdresseerbaarObject": "0074999999980755"
+            }
+          }
+        },
+        "volledigAdres": "Schorpioen 27 2221MV Katwijk"
+      }
+    }
+  }
+}

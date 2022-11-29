@@ -1,0 +1,443 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 19940901,
+      "DatumEinde": 0,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90001788,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20100727,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Scheurkade",
+          "Huisnummer": 2,
+          "Postcode": {
+            "Cijfercombinatie": 3198,
+            "Lettercombinatie": "ND"
+          },
+          "Plaats": "Europoort Rotterdam",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999899946,
+            "IdentificatieAdresseerbaarObject": 74999999926178
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Scheurkade 2 3198ND Europoort Rotterdam"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20100727,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Scheurkade",
+          "Huisnummer": 2,
+          "Postcode": {
+            "Cijfercombinatie": 3198,
+            "Lettercombinatie": "ND"
+          },
+          "Plaats": "Europoort Rotterdam",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999899946,
+            "IdentificatieAdresseerbaarObject": 74999999926178
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Scheurkade 2 3198ND Europoort Rotterdam"
+    },
+    "Communicatiegegevens": {
+      "Registratie": {
+        "DatumAanvang": 19940901,
+        "DatumEinde": 0,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Communicatienummer": [
+        {
+          "Toegangscode": 31,
+          "Nummer": 209999999,
+          "Soort": {
+            "Code": "T",
+            "Omschrijving": "Telefoon"
+          }
+        }
+      ],
+      "EmailAdres": "nepemailadres@kvk.nl"
+    },
+    "Naam": "Global Opecane",
+    "ManifesteertZichAls": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 19940901,
+        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+      },
+      "Onderneming": {
+        "Registratie": {
+          "DatumAanvang": 19940901,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "KvkNummer": 90001788,
+        "SbiActiviteit": [
+          {
+            "Registratie": {
+              "DatumAanvang": 19940901,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 2651,
+              "Omschrijving": "Vervaardiging van meet-, regel-, navigatie- en controleapparatuur",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          {
+            "Registratie": {
+              "DatumAanvang": 19940901,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 72199,
+              "Omschrijving": "Overig natuurwetenschappelijk speur- en ontwikkelingswerk (niet biotechnologisch)",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "N",
+              "Omschrijving": "Nee",
+              "ReferentieType": "geenRT"
+            }
+          }
+        ],
+        "VoltijdWerkzamePersonen": 0,
+        "DeeltijdWerkzamePersonen": 0,
+        "TotaalWerkzamePersonen": 0,
+        "HandeltOnder": [
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 19940901,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "Global Opecane Eenmanszaak",
+              "Volgorde": 0
+            },
+            "RelatieRegistratie": null
+          }
+        ],
+        "WordtUitgeoefendIn": {
+          "RelatieRegistratie": {
+            "DatumAanvang": 19940901,
+            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+          },
+          "CommercieleVestiging": {
+            "Registratie": {
+              "DatumAanvang": 19940901,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Vestigingsnummer": 990000456934,
+            "BezoekLocatie": {
+              "Registratie": {
+                "DatumAanvang": 20100727,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Afgeschermd": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Adres": {
+                "BinnenlandsAdres": {
+                  "Straatnaam": "Scheurkade",
+                  "Huisnummer": 2,
+                  "Postcode": {
+                    "Cijfercombinatie": 3198,
+                    "Lettercombinatie": "ND"
+                  },
+                  "Plaats": "Europoort Rotterdam",
+                  "BagId": {
+                    "IdentificatieNummeraanduiding": 74999999899946,
+                    "IdentificatieAdresseerbaarObject": 74999999926178
+                  },
+                  "HuisnummerToevoeging": null
+                }
+              },
+              "VolledigAdres": "Scheurkade 2 3198ND Europoort Rotterdam"
+            },
+            "Communicatiegegevens": {
+              "Registratie": {
+                "DatumAanvang": 19940901,
+                "DatumEinde": 0,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Communicatienummer": [
+                {
+                  "Toegangscode": 31,
+                  "Nummer": 209999999,
+                  "Soort": {
+                    "Code": "T",
+                    "Omschrijving": "Telefoon"
+                  }
+                }
+              ],
+              "EmailAdres": "nepemailadres@kvk.nl"
+            },
+            "EersteHandelsnaam": "Global Opecane Eenmanszaak",
+            "VoltijdWerkzamePersonen": 0,
+            "DeeltijdWerkzamePersonen": 0,
+            "TotaalWerkzamePersonen": 0,
+            "Activiteiten": {
+              "Omschrijving": "A: ontwikkeling en verkoop van geofysische apparatuur en software; geofysische exploratie; b: het verlenen van adviserende diensten in de ruimste zin des woords",
+              "SbiActiviteit": {
+                "Registratie": {
+                  "DatumAanvang": 19940901,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "SbiCode": {
+                  "Code": 2651,
+                  "Omschrijving": "Vervaardiging van meet-, regel-, navigatie- en controleapparatuur",
+                  "ReferentieType": "ActiviteitCode"
+                },
+                "IsHoofdactiviteit": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Exporteert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Importeert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              }
+            },
+            "HandeltOnder": {
+              "Handelsnaam": {
+                "Registratie": {
+                  "DatumAanvang": 19940901,
+                  "DatumEinde": 0,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Naam": "Global Opecane Eenmanszaak",
+                "Volgorde": 0
+              },
+              "RelatieRegistratie": {
+                "DatumAanvang": 19940901,
+                "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+              }
+            }
+          }
+        }
+      }
+    },
+    "WordtGeleidVanuit": {
+      "CommercieleVestiging": {
+        "Registratie": {
+          "DatumAanvang": 19940901,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "Vestigingsnummer": 990000456934,
+        "BezoekLocatie": {
+          "Registratie": {
+            "DatumAanvang": 20100727,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Afgeschermd": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Adres": {
+            "BinnenlandsAdres": {
+              "Straatnaam": "Scheurkade",
+              "Huisnummer": 2,
+              "Postcode": {
+                "Cijfercombinatie": 3198,
+                "Lettercombinatie": "ND"
+              },
+              "Plaats": "Europoort Rotterdam",
+              "BagId": {
+                "IdentificatieNummeraanduiding": 74999999899946,
+                "IdentificatieAdresseerbaarObject": 74999999926178
+              },
+              "HuisnummerToevoeging": null
+            }
+          },
+          "VolledigAdres": "Scheurkade 2 3198ND Europoort Rotterdam"
+        },
+        "Communicatiegegevens": {
+          "Registratie": {
+            "DatumAanvang": 19940901,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Communicatienummer": [
+            {
+              "Toegangscode": 31,
+              "Nummer": 209999999,
+              "Soort": {
+                "Code": "T",
+                "Omschrijving": "Telefoon"
+              }
+            }
+          ],
+          "EmailAdres": "nepemailadres@kvk.nl"
+        },
+        "EersteHandelsnaam": "Global Opecane Eenmanszaak",
+        "VoltijdWerkzamePersonen": 0,
+        "DeeltijdWerkzamePersonen": 0,
+        "TotaalWerkzamePersonen": 0,
+        "Activiteiten": {
+          "Omschrijving": "A: ontwikkeling en verkoop van geofysische apparatuur en software; geofysische exploratie; b: het verlenen van adviserende diensten in de ruimste zin des woords",
+          "SbiActiviteit": {
+            "Registratie": {
+              "DatumAanvang": 19940901,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 2651,
+              "Omschrijving": "Vervaardiging van meet-, regel-, navigatie- en controleapparatuur",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          "Exporteert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Importeert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          }
+        },
+        "HandeltOnder": {
+          "Handelsnaam": {
+            "Registratie": {
+              "DatumAanvang": 19940901,
+              "DatumEinde": 0,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Naam": "Global Opecane Eenmanszaak",
+            "Volgorde": 0
+          },
+          "RelatieRegistratie": {
+            "DatumAanvang": 19940901,
+            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+          }
+        }
+      }
+    },
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 19940901,
+        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+      },
+      "NatuurlijkPersoon": {
+        "ExtraElementen": {
+          "ExtraElement": {
+            "Naam": "achternaam"
+          }
+        },
+        "Registratie": {
+          "DatumAanvang": 19520414,
+          "DatumEinde": 0,
+          "RegistratieTijdstipNoValue": null
+        },
+        "PersoonRechtsvorm": "Eenmanszaak",
+        "VolledigeNaam": "Jan Klaasen",
+        "UitgebreideRechtsvorm": "Eenmanszaak",
+        "Geslachtsnaam": "Klaasen",
+        "Voornamen": "Jan",
+        "Heeft": [
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": null,
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": {
+              "Functie": {
+                "Code": "01",
+                "Omschrijving": "Gevolmachtigde",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19430116,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Volmacht": {
+                "TypeVolmacht": {
+                  "Code": "v",
+                  "Omschrijving": "Volledige volmacht"
+                }
+              },
+              "Bevoegdheid": null,
+              "Functietitel": {
+                "Titel": "Procuratiehouder"
+              }
+            },
+            "PubliekrechtelijkeFunctionaris": null
+          }
+        ],
+        "Geboortedatum": "20000101"
+      },
+      "Samenwerkingsverband": null,
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": null
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

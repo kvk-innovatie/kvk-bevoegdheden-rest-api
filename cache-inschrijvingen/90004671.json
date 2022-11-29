@@ -1,0 +1,509 @@
+{
+  "MaatschappelijkeActiviteit": {
+    "Registratie": {
+      "DatumAanvang": 20080523,
+      "DatumEinde": 20140905,
+      "RegistratieTijdstipNoValue": null
+    },
+    "KvkNummer": 90004671,
+    "BezoekLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20140331,
+        "DatumEinde": 20140905,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Afgeschermd": {
+        "Code": "N",
+        "Omschrijving": "Nee",
+        "ReferentieType": "geenRT"
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Bussummerstraat",
+          "Huisnummer": 24,
+          "Postcode": {
+            "Cijfercombinatie": 1411,
+            "Lettercombinatie": "PM"
+          },
+          "Plaats": "Naarden",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999489358,
+            "IdentificatieAdresseerbaarObject": 74999999898995
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Bussummerstraat 24 1411PM Naarden"
+    },
+    "PostLocatie": {
+      "Registratie": {
+        "DatumAanvang": 20140331,
+        "DatumEinde": 20140905,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Adres": {
+        "BinnenlandsAdres": {
+          "Straatnaam": "Bussummerstraat",
+          "Huisnummer": 24,
+          "Postcode": {
+            "Cijfercombinatie": 1411,
+            "Lettercombinatie": "PM"
+          },
+          "Plaats": "Naarden",
+          "BagId": {
+            "IdentificatieNummeraanduiding": 74999999489358,
+            "IdentificatieAdresseerbaarObject": 74999999898995
+          },
+          "HuisnummerToevoeging": null
+        }
+      },
+      "VolledigAdres": "Bussummerstraat 24 1411PM Naarden"
+    },
+    "Communicatiegegevens": {
+      "Registratie": {
+        "DatumAanvang": 20080523,
+        "DatumEinde": 20140905,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Communicatienummer": [],
+      "EmailAdres": "nepemailadres@kvk.nl"
+    },
+    "Naam": "International Trustlab",
+    "ManifesteertZichAls": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 20080523,
+        "RegistratieTijdstipNoValue": null
+      },
+      "Onderneming": {
+        "Registratie": {
+          "DatumAanvang": 20080523,
+          "DatumEinde": 20140905,
+          "RegistratieTijdstipNoValue": null
+        },
+        "KvkNummer": 90004671,
+        "SbiActiviteit": [
+          {
+            "Registratie": {
+              "DatumAanvang": 20110111,
+              "DatumEinde": 20140905,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 70221,
+              "Omschrijving": "Organisatie-adviesbureaus",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          }
+        ],
+        "VoltijdWerkzamePersonen": 2,
+        "DeeltijdWerkzamePersonen": 0,
+        "TotaalWerkzamePersonen": 2,
+        "HandeltOnder": [
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20110111,
+                "DatumEinde": 20140905,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "International Trustlab",
+              "Volgorde": 0
+            },
+            "RelatieRegistratie": null
+          },
+          {
+            "Handelsnaam": {
+              "Registratie": {
+                "DatumAanvang": 20110111,
+                "DatumEinde": 20140905,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Naam": "International Trustlab de tweede",
+              "Volgorde": 1
+            },
+            "RelatieRegistratie": null
+          }
+        ],
+        "WordtUitgeoefendIn": {
+          "RelatieRegistratie": {
+            "DatumAanvang": 20080523,
+            "RegistratieTijdstipNoValue": null
+          },
+          "CommercieleVestiging": {
+            "Registratie": {
+              "DatumAanvang": 20080523,
+              "DatumEinde": 20140905,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Vestigingsnummer": 990000492998,
+            "BezoekLocatie": {
+              "Registratie": {
+                "DatumAanvang": 20140331,
+                "DatumEinde": 20140905,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Afgeschermd": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Adres": {
+                "BinnenlandsAdres": {
+                  "Straatnaam": "Bussummerstraat",
+                  "Huisnummer": 24,
+                  "Postcode": {
+                    "Cijfercombinatie": 1411,
+                    "Lettercombinatie": "PM"
+                  },
+                  "Plaats": "Naarden",
+                  "BagId": {
+                    "IdentificatieNummeraanduiding": 74999999489358,
+                    "IdentificatieAdresseerbaarObject": 74999999898995
+                  },
+                  "HuisnummerToevoeging": null
+                }
+              },
+              "VolledigAdres": "Bussummerstraat 24 1411PM Naarden"
+            },
+            "Communicatiegegevens": {
+              "Registratie": {
+                "DatumAanvang": 20080523,
+                "DatumEinde": 20140905,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Communicatienummer": [],
+              "EmailAdres": "nepemailadres@kvk.nl"
+            },
+            "EersteHandelsnaam": "International Trustlab",
+            "VoltijdWerkzamePersonen": 2,
+            "DeeltijdWerkzamePersonen": 0,
+            "TotaalWerkzamePersonen": 2,
+            "Activiteiten": {
+              "Omschrijving": "Projectmanagement.",
+              "SbiActiviteit": {
+                "Registratie": {
+                  "DatumAanvang": 20110111,
+                  "DatumEinde": 20140905,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "SbiCode": {
+                  "Code": 70221,
+                  "Omschrijving": "Organisatie-adviesbureaus",
+                  "ReferentieType": "ActiviteitCode"
+                },
+                "IsHoofdactiviteit": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Exporteert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              },
+              "Importeert": {
+                "Code": "N",
+                "Omschrijving": "Nee",
+                "ReferentieType": "geenRT"
+              }
+            },
+            "HandeltOnder": {
+              "Handelsnaam": {
+                "Registratie": {
+                  "DatumAanvang": 20110111,
+                  "DatumEinde": 20140905,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Naam": "International Trustlab",
+                "Volgorde": 0
+              },
+              "RelatieRegistratie": {
+                "DatumAanvang": 20110111,
+                "RegistratieTijdstipNoValue": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "WordtGeleidVanuit": {
+      "CommercieleVestiging": {
+        "Registratie": {
+          "DatumAanvang": 20080523,
+          "DatumEinde": 20140905,
+          "RegistratieTijdstipNoValue": null
+        },
+        "Vestigingsnummer": 990000492998,
+        "BezoekLocatie": {
+          "Registratie": {
+            "DatumAanvang": 20140331,
+            "DatumEinde": 20140905,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Afgeschermd": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Adres": {
+            "BinnenlandsAdres": {
+              "Straatnaam": "Bussummerstraat",
+              "Huisnummer": 24,
+              "Postcode": {
+                "Cijfercombinatie": 1411,
+                "Lettercombinatie": "PM"
+              },
+              "Plaats": "Naarden",
+              "BagId": {
+                "IdentificatieNummeraanduiding": 74999999489358,
+                "IdentificatieAdresseerbaarObject": 74999999898995
+              },
+              "HuisnummerToevoeging": null
+            }
+          },
+          "VolledigAdres": "Bussummerstraat 24 1411PM Naarden"
+        },
+        "Communicatiegegevens": {
+          "Registratie": {
+            "DatumAanvang": 20080523,
+            "DatumEinde": 20140905,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Communicatienummer": [],
+          "EmailAdres": "nepemailadres@kvk.nl"
+        },
+        "EersteHandelsnaam": "International Trustlab",
+        "VoltijdWerkzamePersonen": 2,
+        "DeeltijdWerkzamePersonen": 0,
+        "TotaalWerkzamePersonen": 2,
+        "Activiteiten": {
+          "Omschrijving": "Projectmanagement.",
+          "SbiActiviteit": {
+            "Registratie": {
+              "DatumAanvang": 20110111,
+              "DatumEinde": 20140905,
+              "RegistratieTijdstipNoValue": null
+            },
+            "SbiCode": {
+              "Code": 70221,
+              "Omschrijving": "Organisatie-adviesbureaus",
+              "ReferentieType": "ActiviteitCode"
+            },
+            "IsHoofdactiviteit": {
+              "Code": "J",
+              "Omschrijving": "Ja",
+              "ReferentieType": "geenRT"
+            }
+          },
+          "Exporteert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          },
+          "Importeert": {
+            "Code": "N",
+            "Omschrijving": "Nee",
+            "ReferentieType": "geenRT"
+          }
+        },
+        "HandeltOnder": {
+          "Handelsnaam": {
+            "Registratie": {
+              "DatumAanvang": 20110111,
+              "DatumEinde": 20140905,
+              "RegistratieTijdstipNoValue": null
+            },
+            "Naam": "International Trustlab",
+            "Volgorde": 0
+          },
+          "RelatieRegistratie": {
+            "DatumAanvang": 20110111,
+            "RegistratieTijdstipNoValue": null
+          }
+        }
+      }
+    },
+    "HeeftAlsEigenaar": {
+      "RelatieRegistratie": {
+        "DatumAanvang": 20080523,
+        "RegistratieTijdstipNoValue": null
+      },
+      "NatuurlijkPersoon": null,
+      "Samenwerkingsverband": {
+        "Registratie": {
+          "DatumAanvang": 20080523,
+          "DatumEinde": 20140905,
+          "RegistratieTijdstipNoValue": null
+        },
+        "BijzondereRechtstoestand": null,
+        "PersoonRechtsvorm": "Vennootschap Onder Firma",
+        "VolledigeNaam": "Jan Klaasen",
+        "UitgebreideRechtsvorm": "Vennootschap Onder Firma",
+        "Heeft": [
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": {
+              "Registratie": {
+                "DatumAanvang": 20080523,
+                "DatumEinde": 20140905,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19571016,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "13",
+                "Omschrijving": "Vennoot",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Bevoegdheid": {
+                "Registratie": {
+                  "DatumAanvang": 20080523,
+                  "DatumEinde": 20140905,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Soort": {
+                  "Code": "bb",
+                  "Omschrijving": "Beperkt bevoegd"
+                },
+                "OverigeBeperking": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Functietitel": null
+            },
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          },
+          {
+            "FunctionarisBijzondereRechtstoestand": null,
+            "Aansprakelijke": {
+              "Registratie": {
+                "DatumAanvang": 20080523,
+                "DatumEinde": 20140905,
+                "RegistratieTijdstipNoValue": null
+              },
+              "Door": {
+                "NaamPersoon": null,
+                "NatuurlijkPersoon": {
+                  "ExtraElementen": {
+                    "ExtraElement": {
+                      "Naam": "achternaam"
+                    }
+                  },
+                  "Registratie": {
+                    "DatumAanvang": 19921121,
+                    "DatumEinde": 0,
+                    "RegistratieTijdstipNoValue": null
+                  },
+                  "PersoonRechtsvorm": null,
+                  "VolledigeNaam": "Jan Klaasen",
+                  "UitgebreideRechtsvorm": null,
+                  "Geslachtsnaam": "Klaasen",
+                  "Voornamen": "Jan",
+                  "Heeft": [],
+                  "Geboortedatum": "20000101"
+                },
+                "Rechtspersoon": null
+              },
+              "Functie": {
+                "Code": "13",
+                "Omschrijving": "Vennoot",
+                "ReferentieType": "FunctionarisRol"
+              },
+              "Bevoegdheid": {
+                "Registratie": {
+                  "DatumAanvang": 20080523,
+                  "DatumEinde": 20140905,
+                  "RegistratieTijdstipNoValue": null
+                },
+                "Soort": {
+                  "Code": "bb",
+                  "Omschrijving": "Beperkt bevoegd"
+                },
+                "OverigeBeperking": {
+                  "Code": "J",
+                  "Omschrijving": "Ja",
+                  "ReferentieType": "geenRT"
+                }
+              },
+              "Functietitel": null
+            },
+            "BestuursFunctie": null,
+            "OverigeFunctionaris": null,
+            "Gemachtigde": null,
+            "PubliekrechtelijkeFunctionaris": null
+          }
+        ],
+        "Rsin": 992083953,
+        "Naamgeving": {
+          "Registratie": {
+            "DatumAanvang": 20110111,
+            "DatumEinde": 20140905,
+            "RegistratieTijdstipNoValue": null
+          },
+          "Naam": "International Trustlab"
+        },
+        "Ontbinding": {
+          "Registratie": {
+            "DatumAanvang": 20140905,
+            "DatumEinde": 0,
+            "RegistratieTijdstipNoValue": null
+          },
+          "aanleiding": null
+        },
+        "Rechtsvorm": {
+          "Code": "VOF",
+          "Omschrijving": "Vennootschap Onder Firma",
+          "ReferentieType": "Rechtsvorm"
+        },
+        "Duur": {
+          "Registratie": {
+            "DatumAanvang": 20080523,
+            "DatumEinde": 20140905,
+            "RegistratieTijdstipNoValue": null
+          },
+          "HeeftOnbepaaldeDuur": {
+            "Code": "J",
+            "Omschrijving": "Ja",
+            "ReferentieType": "geenRT"
+          }
+        }
+      },
+      "Persoon": null,
+      "BuitenlandseVennootschap": null,
+      "Rechtspersoon": null
+    }
+  },
+  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+}

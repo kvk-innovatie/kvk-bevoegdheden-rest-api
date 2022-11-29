@@ -1,0 +1,391 @@
+{
+  "registratie": { "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" }, "datumAanvang": "19821230" },
+  "kvkNummer": "90001443",
+  "nonMailing": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "incidenteelUitlenenArbeidskrachten": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "bezoekLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "20030327"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Gerstlaan",
+        "huisnummer": 8,
+        "huisletter": "A",
+        "postcode": { "cijfercombinatie": "5632", "lettercombinatie": "KP" },
+        "plaats": "Eindhoven",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999765979",
+          "identificatieAdresseerbaarObject": "0074999999227177"
+        }
+      }
+    },
+    "volledigAdres": "Gerstlaan 8 5632KP Eindhoven"
+  },
+  "postLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "20030327"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Gerstlaan",
+        "huisnummer": 8,
+        "huisletter": "A",
+        "postcode": { "cijfercombinatie": "5632", "lettercombinatie": "KP" },
+        "plaats": "Eindhoven",
+        "bagId": {
+          "identificatieNummeraanduiding": "0074999999765979",
+          "identificatieAdresseerbaarObject": "0074999999227177"
+        }
+      }
+    },
+    "volledigAdres": "Gerstlaan 8 5632KP Eindhoven"
+  },
+  "communicatiegegevens": {
+    "registratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "19821230"
+    },
+    "communicatienummer": [
+      { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+    ]
+  },
+  "naam": "Company Indigreen B.V.",
+  "manifesteertZichAls": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "19821230"
+    },
+    "onderneming": {
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19821230"
+      },
+      "kvkNummer": "90001443",
+      "sbiActiviteit": [
+        {
+          "registratie": {
+            "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+            "datumAanvang": "19821230"
+          },
+          "sbiCode": { "code": "6420", "omschrijving": "Financiële holdings", "referentieType": "ActiviteitCode" },
+          "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+        }
+      ],
+      "voltijdWerkzamePersonen": 0,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 0,
+      "handeltOnder": [
+        {
+          "handelsnaam": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19821230"
+            },
+            "naam": "Company Indigreen B.V.",
+            "volgorde": 0
+          }
+        }
+      ],
+      "wordtUitgeoefendIn": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+            "datumAanvang": "19821230"
+          },
+          "commercieleVestiging": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19821230"
+            },
+            "vestigingsnummer": "990000626196",
+            "bezoekLocatie": {
+              "registratie": {
+                "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                "datumAanvang": "20030327"
+              },
+              "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "adres": {
+                "binnenlandsAdres": {
+                  "straatnaam": "Gerstlaan",
+                  "huisnummer": 8,
+                  "huisletter": "A",
+                  "postcode": { "cijfercombinatie": "5632", "lettercombinatie": "KP" },
+                  "plaats": "Eindhoven",
+                  "bagId": {
+                    "identificatieNummeraanduiding": "0074999999765979",
+                    "identificatieAdresseerbaarObject": "0074999999227177"
+                  }
+                }
+              },
+              "volledigAdres": "Gerstlaan 8 5632KP Eindhoven"
+            },
+            "communicatiegegevens": {
+              "registratie": {
+                "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                "datumAanvang": "19821230"
+              },
+              "communicatienummer": [
+                { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+              ]
+            },
+            "eersteHandelsnaam": "Company Indigreen B.V.",
+            "voltijdWerkzamePersonen": 0,
+            "deeltijdWerkzamePersonen": 0,
+            "totaalWerkzamePersonen": 0,
+            "activiteiten": {
+              "omschrijving": "Beheermaatschappij.",
+              "sbiActiviteit": [
+                {
+                  "registratie": {
+                    "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                    "datumAanvang": "19821230"
+                  },
+                  "sbiCode": {
+                    "code": "6420",
+                    "omschrijving": "Financiële holdings",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+                }
+              ],
+              "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+              "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            },
+            "handeltOnder": [
+              {
+                "relatieRegistratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19821230"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                    "datumAanvang": "19821230"
+                  },
+                  "naam": "Company Indigreen B.V.",
+                  "volgorde": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "wordtGeleidVanuit": {
+    "commercieleVestiging": {
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19821230"
+      },
+      "vestigingsnummer": "990000626196",
+      "bezoekLocatie": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "20030327"
+        },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Gerstlaan",
+            "huisnummer": 8,
+            "huisletter": "A",
+            "postcode": { "cijfercombinatie": "5632", "lettercombinatie": "KP" },
+            "plaats": "Eindhoven",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999765979",
+              "identificatieAdresseerbaarObject": "0074999999227177"
+            }
+          }
+        },
+        "volledigAdres": "Gerstlaan 8 5632KP Eindhoven"
+      },
+      "communicatiegegevens": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "19821230"
+        },
+        "communicatienummer": [
+          { "toegangscode": "+31", "nummer": "0209999999", "soort": { "code": "T", "omschrijving": "Telefoon" } }
+        ]
+      },
+      "eersteHandelsnaam": "Company Indigreen B.V.",
+      "voltijdWerkzamePersonen": 0,
+      "deeltijdWerkzamePersonen": 0,
+      "totaalWerkzamePersonen": 0,
+      "activiteiten": {
+        "omschrijving": "Beheermaatschappij.",
+        "sbiActiviteit": [
+          {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19821230"
+            },
+            "sbiCode": { "code": "6420", "omschrijving": "Financiële holdings", "referentieType": "ActiviteitCode" },
+            "isHoofdactiviteit": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+          }
+        ],
+        "exporteert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "importeert": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+      },
+      "handeltOnder": [
+        {
+          "relatieRegistratie": {
+            "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+            "datumAanvang": "19821230"
+          },
+          "handelsnaam": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19821230"
+            },
+            "naam": "Company Indigreen B.V.",
+            "volgorde": 0
+          }
+        }
+      ]
+    }
+  },
+  "heeftAlsEigenaar": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+      "datumAanvang": "19821230"
+    },
+    "rechtspersoon": {
+      "extraElementen": {
+        "extraElement": [
+          { "attributes": { "naam": "datumAanvangStatuten" }, "$value": "19821230" },
+          { "attributes": { "naam": "datumAkteStatuten" }, "$value": "19821230" }
+        ]
+      },
+      "registratie": {
+        "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+        "datumAanvang": "19821230"
+      },
+      "persoonRechtsvorm": "Besloten Vennootschap",
+      "volledigeNaam": "Company Indigreen B.V.",
+      "uitgebreideRechtsvorm": "Besloten Vennootschap",
+      "heeft": [
+        {
+          "bestuursfunctie": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19821230"
+            },
+            "functietitel": {
+              "registratie": {
+                "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                "datumAanvang": "19821230"
+              },
+              "titel": "Direkteur",
+              "isStatutaireTitel": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": { "extraElement": { "attributes": { "naam": "achternaam" }, "$value": "Mendicino" } },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19560427"
+                },
+                "volledigeNaam": "Chun Mendicino",
+                "geslachtsnaam": "Mendicino",
+                "voornamen": "Chun",
+                "geboortedatum": "19560427"
+              }
+            },
+            "functie": { "code": "02", "omschrijving": "Bestuurder", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                "datumAanvang": "19821230"
+              },
+              "soort": {
+                "code": "azb",
+                "omschrijving": "Alleen/zelfstandig bevoegd",
+                "referentieType": "SoortBevoegdheidBestuurder"
+              },
+              "isBevoegdMetAnderePersonen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        },
+        {
+          "overigeFunctionaris": {
+            "registratie": {
+              "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+              "datumAanvang": "19830101"
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": { "extraElement": { "attributes": { "naam": "achternaam" }, "$value": "Mendicino" } },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19560427"
+                },
+                "volledigeNaam": "Chun Mendicino",
+                "geslachtsnaam": "Mendicino",
+                "voornamen": "Chun",
+                "geboortedatum": "19560427"
+              }
+            },
+            "functie": { "code": "08", "omschrijving": "Enig aandeelhouder", "referentieType": "FunctionarisRol" }
+          }
+        }
+      ],
+      "rsin": "992386032",
+      "naamgeving": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "19821230"
+        },
+        "naam": "Company Indigreen B.V."
+      },
+      "rechtsvorm": { "code": "BV", "omschrijving": "Besloten Vennootschap", "referentieType": "Rechtsvorm" },
+      "statutaireZetel": "Nepplaats",
+      "aanvangStatutaireZetel": "19821230",
+      "datumAkteOprichting": "19821230",
+      "datumAkteStatutenwijziging": "19821230",
+      "stelselInrichting": { "code": "D", "omschrijving": "Dualistisch", "referentieType": "StelselInrichting" },
+      "structuur": { "code": "GS", "omschrijving": "Gewone structuur", "referentieType": "RechtsvormStructuur" },
+      "geplaatstKapitaal": {
+        "registratie": { "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" } },
+        "bedrag": {
+          "waarde": "15882.31",
+          "valuta": { "code": "EUR", "omschrijving": "Euro", "referentieType": "Valuta" }
+        }
+      },
+      "gestortKapitaal": {
+        "registratie": { "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" } },
+        "bedrag": {
+          "waarde": "15882.31",
+          "valuta": { "code": "EUR", "omschrijving": "Euro", "referentieType": "Valuta" }
+        }
+      },
+      "bezoekLocatie": {
+        "registratie": {
+          "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+          "datumAanvang": "20030327"
+        },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Gerstlaan",
+            "huisnummer": 8,
+            "huisletter": "A",
+            "postcode": { "cijfercombinatie": "5632", "lettercombinatie": "KP" },
+            "plaats": "Eindhoven",
+            "bagId": {
+              "identificatieNummeraanduiding": "0074999999765979",
+              "identificatieAdresseerbaarObject": "0074999999227177"
+            }
+          }
+        },
+        "volledigAdres": "Gerstlaan 8 5632KP Eindhoven"
+      }
+    }
+  }
+}

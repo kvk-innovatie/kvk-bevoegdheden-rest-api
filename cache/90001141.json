@@ -1,0 +1,253 @@
+{
+  "registratie": {
+    "attributes": { "registratieTijdstip": "20120419090248275" },
+    "datumAanvang": "19980325",
+    "datumEinde": "20120412"
+  },
+  "kvkNummer": "90001141",
+  "nonMailing": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "incidenteelUitlenenArbeidskrachten": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+  "bezoekLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstip": "20120419090248275" },
+      "datumAanvang": "19980325",
+      "datumEinde": "20120412"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Willy Brandtlaan",
+        "huisnummer": 10,
+        "postcode": { "cijfercombinatie": "6716", "lettercombinatie": "RP" },
+        "plaats": "Ede"
+      }
+    },
+    "volledigAdres": "Willy Brandtlaan 10\n6716RP Ede"
+  },
+  "postLocatie": {
+    "registratie": {
+      "attributes": { "registratieTijdstip": "20120419090248275" },
+      "datumAanvang": "19980325",
+      "datumEinde": "20120412"
+    },
+    "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+    "adres": {
+      "binnenlandsAdres": {
+        "straatnaam": "Willy Brandtlaan",
+        "huisnummer": 10,
+        "postcode": { "cijfercombinatie": "6716", "lettercombinatie": "RP" },
+        "plaats": "Ede"
+      }
+    },
+    "volledigAdres": "Willy Brandtlaan 10\n6716RP Ede"
+  },
+  "naam": "Company Zapbezoom Coöperatie",
+  "heeftAlsEigenaar": {
+    "relatieRegistratie": {
+      "attributes": { "registratieTijdstip": "20120419090248275" },
+      "datumAanvang": "19980325",
+      "datumEinde": "20120412"
+    },
+    "rechtspersoon": {
+      "extraElementen": {
+        "extraElement": [
+          { "attributes": { "naam": "datumAanvangStatuten" }, "$value": "19980325" },
+          { "attributes": { "naam": "datumAkteStatuten" }, "$value": "19980325" }
+        ]
+      },
+      "registratie": {
+        "attributes": { "registratieTijdstip": "20120419090248275" },
+        "datumAanvang": "19980325",
+        "datumEinde": "20120412"
+      },
+      "persoonRechtsvorm": "Coöperatie",
+      "volledigeNaam": "Company Zapbezoom Coöperatie",
+      "uitgebreideRechtsvorm": "Coöperatie",
+      "heeft": [
+        {
+          "functionarisBijzondereRechtstoestand": {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20120419090248275" },
+              "datumAanvang": "20030423",
+              "datumEinde": "20120412"
+            },
+            "door": {
+              "naamPersoon": {
+                "volledigeNaam": "mr. Cristy Germain",
+                "bezoekLocatiePersoon": {
+                  "registratie": { "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" } },
+                  "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+                  "adres": {
+                    "binnenlandsAdres": {
+                      "straatnaam": "Willy Brandtlaan",
+                      "huisnummer": "10",
+                      "postcode": { "cijfercombinatie": "6716", "lettercombinatie": "RP" },
+                      "plaats": "Ede"
+                    }
+                  },
+                  "volledigAdres": "Willy Brandtlaan 10 6716RP Ede"
+                },
+                "naam": "mr. Cristy Germain"
+              }
+            },
+            "functie": { "code": "07", "omschrijving": "Curator", "referentieType": "FunctionarisRol" }
+          }
+        },
+        {
+          "functionarisBijzondereRechtstoestand": {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20120419090248275" },
+              "datumAanvang": "20030423",
+              "datumEinde": "20120412"
+            },
+            "door": {
+              "naamPersoon": {
+                "volledigeNaam": "mr. Andres Milnes",
+                "bezoekLocatiePersoon": {
+                  "registratie": { "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" } },
+                  "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+                  "adres": {
+                    "binnenlandsAdres": { "straatnaam": "Onbekend", "huisnummer": "99999", "plaats": "Onbekend" }
+                  },
+                  "volledigAdres": "Onbekend 99999\n Onbekend"
+                },
+                "naam": "mr. Andres Milnes"
+              }
+            },
+            "functie": { "code": "11", "omschrijving": "Rechter-commissaris", "referentieType": "FunctionarisRol" }
+          }
+        },
+        {
+          "bestuursfunctie": {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20120419090248275" },
+              "datumAanvang": "19980325",
+              "datumEinde": "20120412"
+            },
+            "functietitel": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20120419090248275" },
+                "datumAanvang": "19980325",
+                "datumEinde": "20120412"
+              },
+              "titel": "Voorzitter",
+              "isStatutaireTitel": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": { "extraElement": { "attributes": { "naam": "achternaam" }, "$value": "Gullick" } },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19690402"
+                },
+                "volledigeNaam": "Chassidy Gullick",
+                "geslachtsnaam": "Gullick",
+                "voornamen": "Chassidy",
+                "geboortedatum": "19690402"
+              }
+            },
+            "functie": { "code": "02", "omschrijving": "Bestuurder", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20120419090248275" },
+                "datumAanvang": "19980325",
+                "datumEinde": "20120412"
+              },
+              "soort": {
+                "code": "azb",
+                "omschrijving": "Alleen/zelfstandig bevoegd",
+                "referentieType": "SoortBevoegdheidBestuurder"
+              },
+              "isBevoegdMetAnderePersonen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        },
+        {
+          "bestuursfunctie": {
+            "registratie": {
+              "attributes": { "registratieTijdstip": "20120419090248275" },
+              "datumAanvang": "19980325",
+              "datumEinde": "20120412"
+            },
+            "functietitel": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20120419090248275" },
+                "datumAanvang": "19980325",
+                "datumEinde": "20120412"
+              },
+              "titel": "Penningmeester",
+              "isStatutaireTitel": { "code": "J", "omschrijving": "Ja", "referentieType": "geenRT" }
+            },
+            "door": {
+              "natuurlijkPersoon": {
+                "extraElementen": { "extraElement": { "attributes": { "naam": "achternaam" }, "$value": "Kearl" } },
+                "registratie": {
+                  "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                  "datumAanvang": "19950507"
+                },
+                "volledigeNaam": "Alita Kearl",
+                "geslachtsnaam": "Kearl",
+                "voornamen": "Alita",
+                "geboortedatum": "19950507"
+              }
+            },
+            "functie": { "code": "02", "omschrijving": "Bestuurder", "referentieType": "FunctionarisRol" },
+            "bevoegdheid": {
+              "registratie": {
+                "attributes": { "registratieTijdstip": "20120419090248275" },
+                "datumAanvang": "19980325",
+                "datumEinde": "20120412"
+              },
+              "soort": {
+                "code": "azb",
+                "omschrijving": "Alleen/zelfstandig bevoegd",
+                "referentieType": "SoortBevoegdheidBestuurder"
+              },
+              "isBevoegdMetAnderePersonen": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
+            }
+          }
+        }
+      ],
+      "rsin": "992693287",
+      "naamgeving": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20120419090248275" },
+          "datumAanvang": "19980325",
+          "datumEinde": "20120412"
+        },
+        "naam": "Company Zapbezoom Coöperatie"
+      },
+      "ontbinding": {
+        "registratie": { "attributes": { "registratieTijdstip": "20120419090248275" }, "datumAanvang": "20120412" },
+        "aanleiding": {
+          "code": "SL",
+          "omschrijving": "Staat van insolventie",
+          "referentieType": "AanleidingOntbinding"
+        }
+      },
+      "rechtsvorm": { "code": "COP", "omschrijving": "Coöperatie", "referentieType": "Rechtsvorm" },
+      "statutaireZetel": "Eindhoven",
+      "aanvangStatutaireZetel": "19980325",
+      "datumAkteOprichting": "19980325",
+      "datumAkteStatutenwijziging": "19980325",
+      "structuur": { "code": "GS", "omschrijving": "Gewone structuur", "referentieType": "RechtsvormStructuur" },
+      "bezoekLocatie": {
+        "registratie": {
+          "attributes": { "registratieTijdstip": "20120419090248275" },
+          "datumAanvang": "19980325",
+          "datumEinde": "20120412"
+        },
+        "afgeschermd": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" },
+        "adres": {
+          "binnenlandsAdres": {
+            "straatnaam": "Willy Brandtlaan",
+            "huisnummer": 10,
+            "postcode": { "cijfercombinatie": "6716", "lettercombinatie": "RP" },
+            "plaats": "Ede"
+          }
+        },
+        "volledigAdres": "Willy Brandtlaan 106716RP Ede"
+      }
+    }
+  }
+}
