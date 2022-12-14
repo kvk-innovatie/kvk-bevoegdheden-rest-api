@@ -1,295 +1,874 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 20070831,
-      "DatumEinde": 20131228,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90002164,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20070831,
-        "DatumEinde": 20131228,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Verdistraat",
-          "Huisnummer": 7,
-          "Postcode": {
-            "Cijfercombinatie": 4614,
-            "Lettercombinatie": "BJ"
-          },
-          "Plaats": "Bergen op Zoom",
-          "BagId": null,
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-4b3439878e42b90600e8870f4ccfa9bb",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90002164"
         }
       },
-      "VolledigAdres": "Verdistraat 7 4614BJ Bergen op Zoom"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 0,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Verdistraat",
-          "Huisnummer": 7,
-          "Postcode": {
-            "Cijfercombinatie": 4614,
-            "Lettercombinatie": "BJ"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "20070831",
+            "datumEinde": "20131228"
           },
-          "Plaats": "Bergen op Zoom",
-          "BagId": null,
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Verdistraat 7 4614BJ Bergen op Zoom"
-    },
-    "Communicatiegegevens": null,
-    "Naam": "Local Canjob",
-    "ManifesteertZichAls": null,
-    "WordtGeleidVanuit": null,
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20070831,
-        "RegistratieTijdstipNoValue": null
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": {
-        "VoornemenTotOntbinding": null,
-        "ActiviteitenGestaaktPer": null,
-        "Rechtsvorm": {
-          "Code": "NV",
-          "Omschrijving": "Naamloze Vennootschap"
-        },
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": {
-              "Registratie": {
-                "DatumAanvang": 20080820,
-                "DatumEinde": 20131228,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Door": {
-                "NaamPersoon": {
-                  "VolledigeNaam": "Jan Klaasen",
-                  "BezoekLocatiePersoon": {
-                    "Registratie": {
-                      "DatumAanvang": 0,
-                      "DatumEinde": 0,
-                      "RegistratieTijdstipNoValue": null
-                    },
-                    "Afgeschermd": {
-                      "Code": "N",
-                      "Omschrijving": "Nee",
-                      "ReferentieType": "geenRT"
-                    },
-                    "Adres": {
-                      "BinnenlandsAdres": {
-                        "Straatnaam": "Verdistraat",
-                        "Huisnummer": 7,
-                        "Postcode": {
-                          "Cijfercombinatie": 4614,
-                          "Lettercombinatie": "BJ"
-                        },
-                        "Plaats": "Bergen op Zoom",
-                        "BagId": null,
-                        "HuisnummerToevoeging": null
-                      }
-                    },
-                    "VolledigAdres": "Verdistraat 7 4614BJ Bergen op Zoom"
-                  },
-                  "Naam": "mr. Jocelyn Midgette",
-                  "Telefoonnummer": null
+          "kvkNummer": "90002164",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
+          },
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
+          },
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20140113075728751",
+              "datumAanvang": "20070831",
+              "datumEinde": "20131228"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Verdistraat",
+                "huisnummer": "7",
+                "postcode": {
+                  "cijfercombinatie": "4614",
+                  "lettercombinatie": "BJ"
                 },
-                "NatuurlijkPersoon": null,
-                "Rechtspersoon": null
-              },
-              "Functie": {
-                "Code": "07",
-                "Omschrijving": "Curator",
-                "ReferentieType": "FunctionarisRol"
+                "plaats": "Bergen op Zoom"
               }
             },
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
+            "volledigAdres": "Verdistraat 7 4614BJ Bergen op Zoom"
           },
-          {
-            "FunctionarisBijzondereRechtstoestand": {
-              "Registratie": {
-                "DatumAanvang": 20080820,
-                "DatumEinde": 20131228,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Door": {
-                "NaamPersoon": {
-                  "VolledigeNaam": "Jan Klaasen",
-                  "BezoekLocatiePersoon": {
-                    "Registratie": {
-                      "DatumAanvang": 0,
-                      "DatumEinde": 0,
-                      "RegistratieTijdstipNoValue": null
-                    },
-                    "Afgeschermd": {
-                      "Code": "N",
-                      "Omschrijving": "Nee",
-                      "ReferentieType": "geenRT"
-                    },
-                    "Adres": {
-                      "BinnenlandsAdres": {
-                        "Straatnaam": "Groeneweg",
-                        "Huisnummer": 4,
-                        "Postcode": {
-                          "Cijfercombinatie": 4794,
-                          "Lettercombinatie": "RP"
-                        },
-                        "Plaats": "Heijningen",
-                        "BagId": null,
-                        "HuisnummerToevoeging": null
-                      }
-                    },
-                    "VolledigAdres": "Groeneweg 4 4794RP Heijningen"
-                  },
-                  "Naam": "mr. Vivien Deere",
-                  "Telefoonnummer": null
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Verdistraat",
+                "huisnummer": "7",
+                "postcode": {
+                  "cijfercombinatie": "4614",
+                  "lettercombinatie": "BJ"
                 },
-                "NatuurlijkPersoon": null,
-                "Rechtspersoon": null
-              },
-              "Functie": {
-                "Code": "07",
-                "Omschrijving": "Curator",
-                "ReferentieType": "FunctionarisRol"
+                "plaats": "Bergen op Zoom"
               }
             },
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
+            "volledigAdres": "Verdistraat 7 4614BJ Bergen op Zoom"
           },
-          {
-            "FunctionarisBijzondereRechtstoestand": {
-              "Registratie": {
-                "DatumAanvang": 20080819,
-                "DatumEinde": 20131228,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Door": {
-                "NaamPersoon": {
-                  "VolledigeNaam": "Jan Klaasen",
-                  "BezoekLocatiePersoon": {
-                    "Registratie": {
-                      "DatumAanvang": 0,
-                      "DatumEinde": 0,
-                      "RegistratieTijdstipNoValue": null
-                    },
-                    "Afgeschermd": {
-                      "Code": "N",
-                      "Omschrijving": "Nee",
-                      "ReferentieType": "geenRT"
-                    },
-                    "Adres": {
-                      "BinnenlandsAdres": {
-                        "Straatnaam": "Kerkstraat",
-                        "Huisnummer": 10,
-                        "Postcode": {
-                          "Cijfercombinatie": 2201,
-                          "Lettercombinatie": "KM"
-                        },
-                        "Plaats": "Noordwijk",
-                        "BagId": {
-                          "IdentificatieNummeraanduiding": 74999999884088,
-                          "IdentificatieAdresseerbaarObject": 74999999543684
-                        },
-                        "HuisnummerToevoeging": null
-                      }
-                    },
-                    "VolledigAdres": "Kerkstraat 10 2201KM Noordwijk"
-                  },
-                  "Naam": "mr. Barrett Drennon",
-                  "Telefoonnummer": null
-                },
-                "NatuurlijkPersoon": null,
-                "Rechtspersoon": null
-              },
-              "Functie": {
-                "Code": "11",
-                "Omschrijving": "Rechter-commissaris",
-                "ReferentieType": "FunctionarisRol"
-              }
+          "naam": "Local Canjob",
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20140113075728751",
+              "datumAanvang": "20070831",
+              "datumEinde": "20131228"
             },
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
+            "rechtspersoon": {
+              "extraElementen": {
+                "extraElement": [
+                  {
+                    "@naam": "datumAanvangStatuten",
+                    "#text": "20070831"
+                  },
+                  {
+                    "@naam": "datumAkteStatuten",
+                    "#text": "20070831"
+                  }
+                ]
               },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19411227,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20070831",
+                "datumEinde": "20131228"
+              },
+              "bijzondereRechtstoestand": {
+                "registratie": {
+                  "@registratieTijdstip": "20140113075728751",
+                  "datumAanvang": "20080820",
+                  "datumEinde": "20131228"
                 },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "azb",
-                  "Omschrijving": "Alleen/zelfstandig bevoegd"
+                "soort": {
+                  "code": "FAIL",
+                  "omschrijving": "Faillissement",
+                  "referentieType": "geenRT"
+                },
+                "uitspraakEinde": {
+                  "datum": "20131228",
+                  "naam": "Rechtbank Oost-Brabant",
+                  "plaats": "'s Hertogenbosch"
                 }
               },
-              "Functietitel": {
-                "Titel": "Algemeen directeur"
+              "persoonRechtsvorm": "Naamloze Vennootschap",
+              "volledigeNaam": "Local Canjob N.V.",
+              "uitgebreideRechtsvorm": "Naamloze Vennootschap",
+              "heeft": [
+                {
+                  "functionarisBijzondereRechtstoestand": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080820",
+                      "datumEinde": "20131228"
+                    },
+                    "door": {
+                      "naamPersoon": {
+                        "volledigeNaam": "mr. Jocelyn Midgette",
+                        "bezoekLocatiePersoon": {
+                          "registratie": {
+                            "@registratieTijdstipNoValue": "vastgesteldOnbekend"
+                          },
+                          "afgeschermd": {
+                            "code": "N",
+                            "omschrijving": "Nee",
+                            "referentieType": "geenRT"
+                          },
+                          "adres": {
+                            "binnenlandsAdres": {
+                              "straatnaam": "Verdistraat",
+                              "huisnummer": "7",
+                              "postcode": {
+                                "cijfercombinatie": "4614",
+                                "lettercombinatie": "BJ"
+                              },
+                              "plaats": "Bergen op Zoom"
+                            }
+                          },
+                          "volledigAdres": "Verdistraat 7 4614BJ Bergen op Zoom"
+                        },
+                        "naam": "mr. Jocelyn Midgette"
+                      }
+                    },
+                    "functie": {
+                      "code": "07",
+                      "omschrijving": "Curator",
+                      "referentieType": "FunctionarisRol"
+                    }
+                  }
+                },
+                {
+                  "functionarisBijzondereRechtstoestand": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080820",
+                      "datumEinde": "20131228"
+                    },
+                    "door": {
+                      "naamPersoon": {
+                        "volledigeNaam": "mr. Vivien Deere",
+                        "bezoekLocatiePersoon": {
+                          "registratie": {
+                            "@registratieTijdstipNoValue": "vastgesteldOnbekend"
+                          },
+                          "afgeschermd": {
+                            "code": "N",
+                            "omschrijving": "Nee",
+                            "referentieType": "geenRT"
+                          },
+                          "adres": {
+                            "binnenlandsAdres": {
+                              "straatnaam": "Groeneweg",
+                              "huisnummer": "4",
+                              "postcode": {
+                                "cijfercombinatie": "4794",
+                                "lettercombinatie": "RP"
+                              },
+                              "plaats": "Heijningen"
+                            }
+                          },
+                          "volledigAdres": "Groeneweg 4 4794RP Heijningen"
+                        },
+                        "naam": "mr. Vivien Deere"
+                      }
+                    },
+                    "functie": {
+                      "code": "07",
+                      "omschrijving": "Curator",
+                      "referentieType": "FunctionarisRol"
+                    }
+                  }
+                },
+                {
+                  "functionarisBijzondereRechtstoestand": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080819",
+                      "datumEinde": "20131228"
+                    },
+                    "door": {
+                      "naamPersoon": {
+                        "volledigeNaam": "mr. Barrett Drennon",
+                        "bezoekLocatiePersoon": {
+                          "registratie": {
+                            "@registratieTijdstipNoValue": "vastgesteldOnbekend"
+                          },
+                          "afgeschermd": {
+                            "code": "N",
+                            "omschrijving": "Nee",
+                            "referentieType": "geenRT"
+                          },
+                          "adres": {
+                            "binnenlandsAdres": {
+                              "straatnaam": "Kerkstraat",
+                              "huisnummer": "10",
+                              "postcode": {
+                                "cijfercombinatie": "2201",
+                                "lettercombinatie": "KM"
+                              },
+                              "plaats": "Noordwijk",
+                              "bagId": {
+                                "identificatieNummeraanduiding": "0074999999884088",
+                                "identificatieAdresseerbaarObject": "0074999999543684"
+                              }
+                            }
+                          },
+                          "volledigAdres": "Kerkstraat 10 2201KM Noordwijk"
+                        },
+                        "naam": "mr. Barrett Drennon"
+                      }
+                    },
+                    "functie": {
+                      "code": "11",
+                      "omschrijving": "Rechter-commissaris",
+                      "referentieType": "FunctionarisRol"
+                    }
+                  }
+                },
+                {
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20070831",
+                      "datumEinde": "20131228"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstip": "20140113075728751",
+                        "datumAanvang": "20070831",
+                        "datumEinde": "20131228"
+                      },
+                      "titel": "Algemeen directeur",
+                      "isStatutaireTitel": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Kesselman"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19411227"
+                        },
+                        "volledigeNaam": "Santina Kesselman",
+                        "geslachtsnaam": "Klaasen",
+"voornamen": "Jan",
+"geboortedatum": "20000101"
+                      }
+                    },
+                    "functie": {
+                      "code": "02",
+                      "omschrijving": "Bestuurder",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstip": "20140113075728751",
+                        "datumAanvang": "20070831",
+                        "datumEinde": "20131228"
+                      },
+                      "soort": {
+                        "code": "azb",
+                        "omschrijving": "Alleen/zelfstandig bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                }
+              ],
+              "rsin": "992370887",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstip": "20140113075728751",
+                  "datumAanvang": "20070831",
+                  "datumEinde": "20131228"
+                },
+                "naam": "Local Canjob N.V."
+              },
+              "ontbinding": {
+                "registratie": {
+                  "@registratieTijdstip": "20140113075728751",
+                  "datumAanvang": "20131228"
+                },
+                "aanleiding": {
+                  "code": "SL",
+                  "omschrijving": "Staat van insolventie",
+                  "referentieType": "AanleidingOntbinding"
+                }
+              },
+              "rechtsvorm": {
+                "code": "NV",
+                "omschrijving": "Naamloze Vennootschap",
+                "referentieType": "Rechtsvorm"
+              },
+              "statutaireZetel": "Nepplaats",
+              "aanvangStatutaireZetel": "20070831",
+              "datumAkteOprichting": "20070831",
+              "bedragKostenOprichting": {
+                "waarde": "1275",
+                "valuta": {
+                  "code": "EUR",
+                  "omschrijving": "Euro",
+                  "referentieType": "Valuta"
+                }
+              },
+              "datumEersteInschrijvingHandelsregister": "20070904",
+              "datumAkteStatutenwijziging": "20070831",
+              "beleggingsMijMetVeranderlijkKapitaal": {
+                "code": "N",
+                "omschrijving": "Nee",
+                "referentieType": "geenRT"
+              },
+              "stelselInrichting": {
+                "code": "D",
+                "omschrijving": "Dualistisch",
+                "referentieType": "StelselInrichting"
+              },
+              "structuur": {
+                "code": "GS",
+                "omschrijving": "Gewone structuur",
+                "referentieType": "RechtsvormStructuur"
+              },
+              "maatschappelijkKapitaal": {
+                "registratie": {
+                  "@registratieTijdstip": "20140113075728751",
+                  "datumAanvang": "20070831",
+                  "datumEinde": "20131228"
+                },
+                "bedrag": {
+                  "waarde": "1500000",
+                  "valuta": {
+                    "code": "EUR",
+                    "omschrijving": "Euro",
+                    "referentieType": "Valuta"
+                  }
+                },
+                "aandeelSamenstelling": [
+                  {
+                    "aantal": "149999100.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 01",
+                      "waarde": {
+                        "waarde": "0.01",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 02",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 03",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 04",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 05",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 06",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 07",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 08",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 09",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 10",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "geplaatstKapitaal": {
+                "registratie": {
+                  "@registratieTijdstip": "20140113075728751",
+                  "datumEinde": "20131228"
+                },
+                "bedrag": {
+                  "waarde": "360000",
+                  "valuta": {
+                    "code": "EUR",
+                    "omschrijving": "Euro",
+                    "referentieType": "Valuta"
+                  }
+                },
+                "aandeelSamenstelling": [
+                  {
+                    "aantal": "35999100.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 01",
+                      "waarde": {
+                        "waarde": "0.01",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 02",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 03",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 04",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 05",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 06",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 07",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 08",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 09",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 10",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "gestortKapitaal": {
+                "registratie": {
+                  "@registratieTijdstip": "20140113075728751",
+                  "datumEinde": "20131228"
+                },
+                "bedrag": {
+                  "waarde": "360000",
+                  "valuta": {
+                    "code": "EUR",
+                    "omschrijving": "Euro",
+                    "referentieType": "Valuta"
+                  }
+                },
+                "aandeelSamenstelling": [
+                  {
+                    "aantal": "35999100.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 01",
+                      "waarde": {
+                        "waarde": "0.01",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 02",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 03",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 04",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 05",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 06",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 07",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 08",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 09",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "aantal": "1.0000",
+                    "aandeel": {
+                      "soort": "Migratie Aandeel 10",
+                      "waarde": {
+                        "waarde": "1",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20140113075728751",
+                  "datumAanvang": "20070831",
+                  "datumEinde": "20131228"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Verdistraat",
+                    "huisnummer": "7",
+                    "postcode": {
+                      "cijfercombinatie": "4614",
+                      "lettercombinatie": "BJ"
+                    },
+                    "plaats": "Bergen op Zoom"
+                  }
+                },
+                "volledigAdres": "Verdistraat 7 4614BJ Bergen op Zoom"
               }
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
+            }
           }
-        ],
-        "VolledigeNaam": "Jan Klaasen",
-        "Rsin": "992370887"
+        }
       }
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

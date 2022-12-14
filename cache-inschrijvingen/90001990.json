@@ -1,355 +1,503 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 20030205,
-      "DatumEinde": 20100601,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90001990,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20030205,
-        "DatumEinde": 20100601,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Landweerstraat-Zuid",
-          "Huisnummer": 125,
-          "Postcode": {
-            "Cijfercombinatie": 5349,
-            "Lettercombinatie": "AK"
-          },
-          "Plaats": "Oss",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999432560,
-            "IdentificatieAdresseerbaarObject": 74999999941608
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-e8e1551ef2f8b16c418d67e13d8c4fd9",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90001990"
         }
       },
-      "VolledigAdres": "Landweerstraat-Zuid 125 5349AK Oss"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20030205,
-        "DatumEinde": 20100601,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": null
-      },
-      "VolledigAdres": "Flinton road 26 78562V London"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 20030205,
-        "DatumEinde": 20100601,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 49,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        }
-      ],
-      "EmailAdres": null
-    },
-    "Naam": "Grand Temptech",
-    "ManifesteertZichAls": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20030205,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Onderneming": {
-        "Registratie": {
-          "DatumAanvang": 20030205,
-          "DatumEinde": 20100601,
-          "RegistratieTijdstipNoValue": null
-        },
-        "KvkNummer": 90001990,
-        "SbiActiviteit": [
-          {
-            "Registratie": {
-              "DatumAanvang": 20030205,
-              "DatumEinde": 20100601,
-              "RegistratieTijdstipNoValue": null
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "20030205",
+            "datumEinde": "20100601"
+          },
+          "kvkNummer": "90001990",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
+          },
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
+          },
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20100601113614053",
+              "datumAanvang": "20030205",
+              "datumEinde": "20100601"
             },
-            "SbiCode": {
-              "Code": 4941,
-              "Omschrijving": "Goederenvervoer over de weg (geen verhuizingen)",
-              "ReferentieType": "ActiviteitCode"
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
             },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Landweerstraat-Zuid",
+                "huisnummer": "125",
+                "postcode": {
+                  "cijfercombinatie": "5349",
+                  "lettercombinatie": "AK"
+                },
+                "plaats": "Oss",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999432560",
+                  "identificatieAdresseerbaarObject": "0074999999941608"
+                }
+              }
+            },
+            "volledigAdres": "Landweerstraat-Zuid 125 5349AK Oss"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20100601113614053",
+              "datumAanvang": "20030205",
+              "datumEinde": "20100601"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "buitenlandsAdres": {
+                "straatHuisnummer": "Flinton road 26",
+                "postcodeWoonplaats": "78562V London",
+                "land": {
+                  "code": "6029",
+                  "omschrijving": "Duitsland",
+                  "referentieType": "Land"
+                }
+              }
+            },
+            "volledigAdres": "Flinton road 26 78562V London"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstip": "20100601113614053",
+              "datumAanvang": "20030205",
+              "datumEinde": "20100601"
+            },
+            "communicatienummer": {
+              "toegangscode": "+49",
+              "nummer": "0209999999",
+              "soort": {
+                "code": "T",
+                "omschrijving": "Telefoon"
+              }
             }
-          }
-        ],
-        "VoltijdWerkzamePersonen": 3,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 3,
-        "HandeltOnder": [
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20030205,
-                "DatumEinde": 20100601,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "Grand Temptech",
-              "Volgorde": 0
-            },
-            "RelatieRegistratie": null
-          }
-        ],
-        "WordtUitgeoefendIn": {
-          "RelatieRegistratie": {
-            "DatumAanvang": 20030205,
-            "RegistratieTijdstipNoValue": null
           },
-          "CommercieleVestiging": {
-            "Registratie": {
-              "DatumAanvang": 20030205,
-              "DatumEinde": 20100601,
-              "RegistratieTijdstipNoValue": null
+          "naam": "Grand Temptech",
+          "manifesteertZichAls": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20100601113614053",
+              "datumAanvang": "20030205",
+              "datumEinde": "20100601"
             },
-            "Vestigingsnummer": 990000540047,
-            "BezoekLocatie": {
-              "Registratie": {
-                "DatumAanvang": 20030205,
-                "DatumEinde": 20100601,
-                "RegistratieTijdstipNoValue": null
+            "onderneming": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20030205",
+                "datumEinde": "20100601"
               },
-              "Afgeschermd": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Adres": {
-                "BinnenlandsAdres": {
-                  "Straatnaam": "Landweerstraat-Zuid",
-                  "Huisnummer": 125,
-                  "Postcode": {
-                    "Cijfercombinatie": 5349,
-                    "Lettercombinatie": "AK"
-                  },
-                  "Plaats": "Oss",
-                  "BagId": {
-                    "IdentificatieNummeraanduiding": 74999999432560,
-                    "IdentificatieAdresseerbaarObject": 74999999941608
-                  },
-                  "HuisnummerToevoeging": null
+              "kvkNummer": "90001990",
+              "sbiActiviteit": {
+                "registratie": {
+                  "@registratieTijdstip": "20100601113614053",
+                  "datumAanvang": "20030205",
+                  "datumEinde": "20100601"
+                },
+                "sbiCode": {
+                  "code": "4941",
+                  "omschrijving": "Goederenvervoer over de weg (geen verhuizingen)",
+                  "referentieType": "ActiviteitCode"
+                },
+                "isHoofdactiviteit": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
                 }
               },
-              "VolledigAdres": "Landweerstraat-Zuid 125 5349AK Oss"
-            },
-            "Communicatiegegevens": {
-              "Registratie": {
-                "DatumAanvang": 20030205,
-                "DatumEinde": 20100601,
-                "RegistratieTijdstipNoValue": null
+              "voltijdWerkzamePersonen": "3",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "3",
+              "handeltOnder": {
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20030205",
+                    "datumEinde": "20100601"
+                  },
+                  "naam": "Grand Temptech",
+                  "volgorde": "0"
+                }
               },
-              "Communicatienummer": [
-                {
-                  "Toegangscode": 49,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
+              "wordtUitgeoefendIn": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20100601113614053",
+                  "datumAanvang": "20030205",
+                  "datumEinde": "20100601"
+                },
+                "commercieleVestiging": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20030205",
+                    "datumEinde": "20100601"
+                  },
+                  "vestigingsnummer": "990000540047",
+                  "bezoekLocatie": {
+                    "registratie": {
+                      "@registratieTijdstip": "20100601113614053",
+                      "datumAanvang": "20030205",
+                      "datumEinde": "20100601"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "straatnaam": "Landweerstraat-Zuid",
+                        "huisnummer": "125",
+                        "postcode": {
+                          "cijfercombinatie": "5349",
+                          "lettercombinatie": "AK"
+                        },
+                        "plaats": "Oss",
+                        "bagId": {
+                          "identificatieNummeraanduiding": "0074999999432560",
+                          "identificatieAdresseerbaarObject": "0074999999941608"
+                        }
+                      }
+                    },
+                    "volledigAdres": "Landweerstraat-Zuid 125 5349AK Oss"
+                  },
+                  "postLocatie": {
+                    "registratie": {
+                      "@registratieTijdstip": "20100601113614053",
+                      "datumAanvang": "20030205",
+                      "datumEinde": "20100601"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "buitenlandsAdres": {
+                        "straatHuisnummer": "Flinton road 26",
+                        "postcodeWoonplaats": "78562V London",
+                        "land": {
+                          "code": "6029",
+                          "omschrijving": "Duitsland",
+                          "referentieType": "Land"
+                        }
+                      }
+                    },
+                    "volledigAdres": "Flinton road 26 78562V London"
+                  },
+                  "communicatiegegevens": {
+                    "registratie": {
+                      "@registratieTijdstip": "20100601113614053",
+                      "datumAanvang": "20030205",
+                      "datumEinde": "20100601"
+                    },
+                    "communicatienummer": {
+                      "toegangscode": "+49",
+                      "nummer": "0209999999",
+                      "soort": {
+                        "code": "T",
+                        "omschrijving": "Telefoon"
+                      }
+                    }
+                  },
+                  "eersteHandelsnaam": "Grand Temptech",
+                  "voltijdWerkzamePersonen": "3",
+                  "deeltijdWerkzamePersonen": "0",
+                  "totaalWerkzamePersonen": "3",
+                  "activiteiten": {
+                    "omschrijving": "Internationaal transportbedrijf",
+                    "sbiActiviteit": {
+                      "registratie": {
+                        "@registratieTijdstip": "20100601113614053",
+                        "datumAanvang": "20030205",
+                        "datumEinde": "20100601"
+                      },
+                      "sbiCode": {
+                        "code": "4941",
+                        "omschrijving": "Goederenvervoer over de weg (geen verhuizingen)",
+                        "referentieType": "ActiviteitCode"
+                      },
+                      "isHoofdactiviteit": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "exporteert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "importeert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  "handeltOnder": {
+                    "relatieRegistratie": {
+                      "@registratieTijdstip": "20100601113614053",
+                      "datumAanvang": "20030205",
+                      "datumEinde": "20100601"
+                    },
+                    "handelsnaam": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20030205",
+                        "datumEinde": "20100601"
+                      },
+                      "naam": "Grand Temptech",
+                      "volgorde": "0"
+                    }
                   }
                 }
-              ],
-              "EmailAdres": null
-            },
-            "EersteHandelsnaam": "Grand Temptech",
-            "VoltijdWerkzamePersonen": 3,
-            "DeeltijdWerkzamePersonen": 0,
-            "TotaalWerkzamePersonen": 3,
-            "Activiteiten": {
-              "Omschrijving": "Internationaal transportbedrijf",
-              "SbiActiviteit": {
-                "Registratie": {
-                  "DatumAanvang": 20030205,
-                  "DatumEinde": 20100601,
-                  "RegistratieTijdstipNoValue": null
+              }
+            }
+          },
+          "wordtGeleidVanuit": {
+            "commercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20030205",
+                "datumEinde": "20100601"
+              },
+              "vestigingsnummer": "990000540047",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20100601113614053",
+                  "datumAanvang": "20030205",
+                  "datumEinde": "20100601"
                 },
-                "SbiCode": {
-                  "Code": 4941,
-                  "Omschrijving": "Goederenvervoer over de weg (geen verhuizingen)",
-                  "ReferentieType": "ActiviteitCode"
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
                 },
-                "IsHoofdactiviteit": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Landweerstraat-Zuid",
+                    "huisnummer": "125",
+                    "postcode": {
+                      "cijfercombinatie": "5349",
+                      "lettercombinatie": "AK"
+                    },
+                    "plaats": "Oss",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999432560",
+                      "identificatieAdresseerbaarObject": "0074999999941608"
+                    }
+                  }
+                },
+                "volledigAdres": "Landweerstraat-Zuid 125 5349AK Oss"
+              },
+              "postLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20100601113614053",
+                  "datumAanvang": "20030205",
+                  "datumEinde": "20100601"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "buitenlandsAdres": {
+                    "straatHuisnummer": "Flinton road 26",
+                    "postcodeWoonplaats": "78562V London",
+                    "land": {
+                      "code": "6029",
+                      "omschrijving": "Duitsland",
+                      "referentieType": "Land"
+                    }
+                  }
+                },
+                "volledigAdres": "Flinton road 26 78562V London"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstip": "20100601113614053",
+                  "datumAanvang": "20030205",
+                  "datumEinde": "20100601"
+                },
+                "communicatienummer": {
+                  "toegangscode": "+49",
+                  "nummer": "0209999999",
+                  "soort": {
+                    "code": "T",
+                    "omschrijving": "Telefoon"
+                  }
                 }
               },
-              "Exporteert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Importeert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              }
-            },
-            "HandeltOnder": {
-              "Handelsnaam": {
-                "Registratie": {
-                  "DatumAanvang": 20030205,
-                  "DatumEinde": 20100601,
-                  "RegistratieTijdstipNoValue": null
+              "eersteHandelsnaam": "Grand Temptech",
+              "voltijdWerkzamePersonen": "3",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "3",
+              "activiteiten": {
+                "omschrijving": "Internationaal transportbedrijf",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstip": "20100601113614053",
+                    "datumAanvang": "20030205",
+                    "datumEinde": "20100601"
+                  },
+                  "sbiCode": {
+                    "code": "4941",
+                    "omschrijving": "Goederenvervoer over de weg (geen verhuizingen)",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
                 },
-                "Naam": "Grand Temptech",
-                "Volgorde": 0
+                "exporteert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "importeert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                }
               },
-              "RelatieRegistratie": {
-                "DatumAanvang": 20030205,
-                "RegistratieTijdstipNoValue": null
+              "handeltOnder": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20100601113614053",
+                  "datumAanvang": "20030205",
+                  "datumEinde": "20100601"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20030205",
+                    "datumEinde": "20100601"
+                  },
+                  "naam": "Grand Temptech",
+                  "volgorde": "0"
+                }
+              }
+            }
+          },
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20100601113614053",
+              "datumAanvang": "20030205",
+              "datumEinde": "20100601"
+            },
+            "buitenlandseVennootschap": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend"
+              },
+              "persoonRechtsvorm": "Kapitaalvennootschap binnen EER",
+              "volledigeNaam": "Grand Temptech",
+              "uitgebreideRechtsvorm": "Private limited company (Verenigd Koninkrijk)",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20030205"
+                },
+                "naam": "Grand Temptech"
+              },
+              "buitenlandseRegistratieGegevens": {
+                "naam": "Companies Registration Office",
+                "plaats": "Nepplaats",
+                "land": {
+                  "code": "6039",
+                  "omschrijving": "Verenigd Koninkrijk",
+                  "referentieType": "Land"
+                },
+                "inschrijfnummer": "4657609",
+                "buitenlandseRegistratie": "Companies Registration Office\nNepplaats, Verenigd Koninkrijk\nOnder nummer 4657609"
+              },
+              "landVanOprichting": {
+                "code": "9998",
+                "omschrijving": "Tijdelijk: Migratie",
+                "referentieType": "Land"
+              },
+              "landVanVestiging": {
+                "code": "6039",
+                "omschrijving": "Verenigd Koninkrijk",
+                "referentieType": "Land"
+              },
+              "buitenlandseVennootschapGegevens": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend"
+                },
+                "heeftHoofdvestigingBuitenNederland": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "omschrijvingRechtsvorm": "Private limited company",
+                "zetel": "Nepplaats",
+                "rechtsvormcategorie": {
+                  "code": "0001",
+                  "omschrijving": "Kapitaalvennootschap binnen EER",
+                  "referentieType": "geenRT"
+                },
+                "datumAkteOprichting": "20030205"
+              },
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20100601113614053",
+                  "datumAanvang": "20030205",
+                  "datumEinde": "20100601"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Landweerstraat-Zuid",
+                    "huisnummer": "125",
+                    "postcode": {
+                      "cijfercombinatie": "5349",
+                      "lettercombinatie": "AK"
+                    },
+                    "plaats": "Oss",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999432560",
+                      "identificatieAdresseerbaarObject": "0074999999941608"
+                    }
+                  }
+                },
+                "volledigAdres": "Voorstad Sint Jacob 104\n6041LN Roermond"
               }
             }
           }
         }
       }
-    },
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": {
-        "Registratie": {
-          "DatumAanvang": 20030205,
-          "DatumEinde": 20100601,
-          "RegistratieTijdstipNoValue": null
-        },
-        "Vestigingsnummer": 990000540047,
-        "BezoekLocatie": {
-          "Registratie": {
-            "DatumAanvang": 20030205,
-            "DatumEinde": 20100601,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Afgeschermd": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Adres": {
-            "BinnenlandsAdres": {
-              "Straatnaam": "Landweerstraat-Zuid",
-              "Huisnummer": 125,
-              "Postcode": {
-                "Cijfercombinatie": 5349,
-                "Lettercombinatie": "AK"
-              },
-              "Plaats": "Oss",
-              "BagId": {
-                "IdentificatieNummeraanduiding": 74999999432560,
-                "IdentificatieAdresseerbaarObject": 74999999941608
-              },
-              "HuisnummerToevoeging": null
-            }
-          },
-          "VolledigAdres": "Landweerstraat-Zuid 125 5349AK Oss"
-        },
-        "Communicatiegegevens": {
-          "Registratie": {
-            "DatumAanvang": 20030205,
-            "DatumEinde": 20100601,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Communicatienummer": [
-            {
-              "Toegangscode": 49,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            }
-          ],
-          "EmailAdres": null
-        },
-        "EersteHandelsnaam": "Grand Temptech",
-        "VoltijdWerkzamePersonen": 3,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 3,
-        "Activiteiten": {
-          "Omschrijving": "Internationaal transportbedrijf",
-          "SbiActiviteit": {
-            "Registratie": {
-              "DatumAanvang": 20030205,
-              "DatumEinde": 20100601,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 4941,
-              "Omschrijving": "Goederenvervoer over de weg (geen verhuizingen)",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          },
-          "Exporteert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Importeert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          }
-        },
-        "HandeltOnder": {
-          "Handelsnaam": {
-            "Registratie": {
-              "DatumAanvang": 20030205,
-              "DatumEinde": 20100601,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Naam": "Grand Temptech",
-            "Volgorde": 0
-          },
-          "RelatieRegistratie": {
-            "DatumAanvang": 20030205,
-            "RegistratieTijdstipNoValue": null
-          }
-        }
-      }
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20030205,
-        "RegistratieTijdstipNoValue": null
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": {
-        "BuitenlandseVennootschapGegevens": {
-          "Rechtsvormcategorie": {
-            "Code": "0001",
-            "Omschrijving": "Kapitaalvennootschap binnen EER"
-          }
-        },
-        "Heeft": []
-      },
-      "Rechtspersoon": null
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

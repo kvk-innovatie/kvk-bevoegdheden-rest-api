@@ -1,424 +1,579 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 20140515,
-      "DatumEinde": 0,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90003888,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20140701,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Gerrit Jan van der Veenstraat",
-          "Huisnummer": 65,
-          "Postcode": {
-            "Cijfercombinatie": 2264,
-            "Lettercombinatie": "DT"
-          },
-          "Plaats": "Leidschendam",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999423677,
-            "IdentificatieAdresseerbaarObject": 74999999848005
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-cb0de5e66f7a768a6732ca216b6c44b3",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90003888"
         }
       },
-      "VolledigAdres": "Gerrit Jan van der Veenstraat 65 2264DT Leidschendam"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20140701,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Cort van der Lindenlaan",
-          "Huisnummer": 40,
-          "Postcode": {
-            "Cijfercombinatie": 3843,
-            "Lettercombinatie": "VM"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstip": "20140515155952805",
+            "datumAanvang": "20140515"
           },
-          "Plaats": "Harderwijk",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999197134,
-            "IdentificatieAdresseerbaarObject": 74999999157304
+          "kvkNummer": "90003888",
+          "nonMailing": {
+            "code": "J",
+            "omschrijving": "Ja",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Cort van der Lindenlaan 40 3843VM Harderwijk"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 20140515,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        }
-      ],
-      "EmailAdres": "nepemailadres@kvk.nl"
-    },
-    "Naam": "Local Tripplegreen",
-    "ManifesteertZichAls": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20140515,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Onderneming": {
-        "Registratie": {
-          "DatumAanvang": 20140515,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "KvkNummer": 90003888,
-        "SbiActiviteit": [
-          {
-            "Registratie": {
-              "DatumAanvang": 20140515,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 5630,
-              "Omschrijving": "Caf\u00E9s",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          {
-            "Registratie": {
-              "DatumAanvang": 20150709,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20150413152404769",
+              "datumAanvang": "20140701"
             },
-            "SbiCode": {
-              "Code": 4726,
-              "Omschrijving": "Winkels in tabaksproducten",
-              "ReferentieType": "ActiviteitCode"
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
             },
-            "IsHoofdactiviteit": {
-              "Code": "N",
-              "Omschrijving": "Nee",
-              "ReferentieType": "geenRT"
-            }
-          },
-          {
-            "Registratie": {
-              "DatumAanvang": 20150709,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 4762,
-              "Omschrijving": "Winkels in kranten, tijdschriften en kantoorbehoeften",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "N",
-              "Omschrijving": "Nee",
-              "ReferentieType": "geenRT"
-            }
-          }
-        ],
-        "VoltijdWerkzamePersonen": 2,
-        "DeeltijdWerkzamePersonen": 8,
-        "TotaalWerkzamePersonen": 10,
-        "HandeltOnder": [
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20140515,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "Local Tripplegreen Eenmanszaak",
-              "Volgorde": 0
-            },
-            "RelatieRegistratie": null
-          },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20150709,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "Local Tripplegreen Eenmanszaak de tweede",
-              "Volgorde": 1
-            },
-            "RelatieRegistratie": null
-          }
-        ],
-        "WordtUitgeoefendIn": {
-          "RelatieRegistratie": {
-            "DatumAanvang": 20140515,
-            "RegistratieTijdstipNoValue": null
-          },
-          "CommercieleVestiging": {
-            "Registratie": {
-              "DatumAanvang": 20140515,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Vestigingsnummer": 990000380789,
-            "BezoekLocatie": {
-              "Registratie": {
-                "DatumAanvang": 20140701,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Afgeschermd": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Adres": {
-                "BinnenlandsAdres": {
-                  "Straatnaam": "Gerrit Jan van der Veenstraat",
-                  "Huisnummer": 65,
-                  "Postcode": {
-                    "Cijfercombinatie": 2264,
-                    "Lettercombinatie": "DT"
-                  },
-                  "Plaats": "Leidschendam",
-                  "BagId": {
-                    "IdentificatieNummeraanduiding": 74999999423677,
-                    "IdentificatieAdresseerbaarObject": 74999999848005
-                  },
-                  "HuisnummerToevoeging": null
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Gerrit Jan van der Veenstraat",
+                "huisnummer": "65",
+                "postcode": {
+                  "cijfercombinatie": "2264",
+                  "lettercombinatie": "DT"
+                },
+                "plaats": "Leidschendam",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999423677",
+                  "identificatieAdresseerbaarObject": "0074999999848005"
                 }
-              },
-              "VolledigAdres": "Gerrit Jan van der Veenstraat 65 2264DT Leidschendam"
+              }
             },
-            "Communicatiegegevens": {
-              "Registratie": {
-                "DatumAanvang": 20140515,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
+            "volledigAdres": "Gerrit Jan van der Veenstraat 65 2264DT Leidschendam"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20150413152404769",
+              "datumAanvang": "20140701"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Cort van der Lindenlaan",
+                "huisnummer": "40",
+                "postcode": {
+                  "cijfercombinatie": "3843",
+                  "lettercombinatie": "VM"
+                },
+                "plaats": "Harderwijk",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999197134",
+                  "identificatieAdresseerbaarObject": "0074999999157304"
+                }
+              }
+            },
+            "volledigAdres": "Cort van der Lindenlaan 40 3843VM Harderwijk"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstip": "20140515155952805",
+              "datumAanvang": "20140515"
+            },
+            "communicatienummer": {
+              "toegangscode": "+31",
+              "nummer": "0209999999",
+              "soort": {
+                "code": "T",
+                "omschrijving": "Telefoon"
+              }
+            },
+            "emailAdres": "nepemailadres@kvk.nl",
+            "domeinNaam": "www.kvk.nl"
+          },
+          "naam": "Local Tripplegreen",
+          "manifesteertZichAls": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20140515155952805",
+              "datumAanvang": "20140515"
+            },
+            "onderneming": {
+              "registratie": {
+                "@registratieTijdstip": "20140515155952805",
+                "datumAanvang": "20140515"
               },
-              "Communicatienummer": [
+              "kvkNummer": "90003888",
+              "sbiActiviteit": [
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
+                  "registratie": {
+                    "@registratieTijdstip": "20140515155952805",
+                    "datumAanvang": "20140515"
+                  },
+                  "sbiCode": {
+                    "code": "5630",
+                    "omschrijving": "Cafés",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                },
+                {
+                  "registratie": {
+                    "@registratieTijdstip": "20150709110844280",
+                    "datumAanvang": "20150709"
+                  },
+                  "sbiCode": {
+                    "code": "4726",
+                    "omschrijving": "Winkels in tabaksproducten",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "N",
+                    "omschrijving": "Nee",
+                    "referentieType": "geenRT"
+                  }
+                },
+                {
+                  "registratie": {
+                    "@registratieTijdstip": "20150709110844280",
+                    "datumAanvang": "20150709"
+                  },
+                  "sbiCode": {
+                    "code": "4762",
+                    "omschrijving": "Winkels in kranten, tijdschriften en kantoorbehoeften",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "N",
+                    "omschrijving": "Nee",
+                    "referentieType": "geenRT"
                   }
                 }
               ],
-              "EmailAdres": "nepemailadres@kvk.nl"
-            },
-            "EersteHandelsnaam": "Local Tripplegreen Eenmanszaak",
-            "VoltijdWerkzamePersonen": 2,
-            "DeeltijdWerkzamePersonen": 8,
-            "TotaalWerkzamePersonen": 10,
-            "Activiteiten": {
-              "Omschrijving": "Stationsrestauratie, alsmede het treffen van voorbereidingshandelingen in het kader van een te starten detailhandel in rookwaren, tijdschriften, boeken, kaarten etc.",
-              "SbiActiviteit": {
-                "Registratie": {
-                  "DatumAanvang": 20140515,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
+              "voltijdWerkzamePersonen": "2",
+              "deeltijdWerkzamePersonen": "8",
+              "totaalWerkzamePersonen": "10",
+              "handeltOnder": [
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstip": "20140515155952805",
+                      "datumAanvang": "20140515"
+                    },
+                    "naam": "Local Tripplegreen Eenmanszaak",
+                    "volgorde": "0"
+                  }
                 },
-                "SbiCode": {
-                  "Code": 5630,
-                  "Omschrijving": "Caf\u00E9s",
-                  "ReferentieType": "ActiviteitCode"
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstip": "20150709110844280",
+                      "datumAanvang": "20150709"
+                    },
+                    "naam": "Local Tripplegreen Eenmanszaak de tweede",
+                    "volgorde": "1"
+                  }
+                }
+              ],
+              "wordtUitgeoefendIn": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20140515155952805",
+                  "datumAanvang": "20140515"
                 },
-                "IsHoofdactiviteit": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
+                "commercieleVestiging": {
+                  "registratie": {
+                    "@registratieTijdstip": "20140515155952805",
+                    "datumAanvang": "20140515"
+                  },
+                  "vestigingsnummer": "990000380789",
+                  "bezoekLocatie": {
+                    "registratie": {
+                      "@registratieTijdstip": "20150413152404769",
+                      "datumAanvang": "20140701"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "straatnaam": "Gerrit Jan van der Veenstraat",
+                        "huisnummer": "65",
+                        "postcode": {
+                          "cijfercombinatie": "2264",
+                          "lettercombinatie": "DT"
+                        },
+                        "plaats": "Leidschendam",
+                        "bagId": {
+                          "identificatieNummeraanduiding": "0074999999423677",
+                          "identificatieAdresseerbaarObject": "0074999999848005"
+                        }
+                      }
+                    },
+                    "volledigAdres": "Gerrit Jan van der Veenstraat 65 2264DT Leidschendam"
+                  },
+                  "postLocatie": {
+                    "registratie": {
+                      "@registratieTijdstip": "20150413152404769",
+                      "datumAanvang": "20140701"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "straatnaam": "Cort van der Lindenlaan",
+                        "huisnummer": "40",
+                        "postcode": {
+                          "cijfercombinatie": "3843",
+                          "lettercombinatie": "VM"
+                        },
+                        "plaats": "Harderwijk",
+                        "bagId": {
+                          "identificatieNummeraanduiding": "0074999999197134",
+                          "identificatieAdresseerbaarObject": "0074999999157304"
+                        }
+                      }
+                    },
+                    "volledigAdres": "Cort van der Lindenlaan 40 3843VM Harderwijk"
+                  },
+                  "communicatiegegevens": {
+                    "registratie": {
+                      "@registratieTijdstip": "20140515155952805",
+                      "datumAanvang": "20140515"
+                    },
+                    "communicatienummer": {
+                      "toegangscode": "+31",
+                      "nummer": "0209999999",
+                      "soort": {
+                        "code": "T",
+                        "omschrijving": "Telefoon"
+                      }
+                    },
+                    "emailAdres": "nepemailadres@kvk.nl",
+                    "domeinNaam": "www.kvk.nl"
+                  },
+                  "eersteHandelsnaam": "Local Tripplegreen Eenmanszaak",
+                  "voltijdWerkzamePersonen": "2",
+                  "deeltijdWerkzamePersonen": "8",
+                  "totaalWerkzamePersonen": "10",
+                  "activiteiten": {
+                    "omschrijving": "Stationsrestauratie, alsmede het treffen van voorbereidingshandelingen in het kader van een te starten detailhandel in rookwaren, tijdschriften, boeken, kaarten etc.",
+                    "sbiActiviteit": [
+                      {
+                        "registratie": {
+                          "@registratieTijdstip": "20140515155952805",
+                          "datumAanvang": "20140515"
+                        },
+                        "sbiCode": {
+                          "code": "5630",
+                          "omschrijving": "Cafés",
+                          "referentieType": "ActiviteitCode"
+                        },
+                        "isHoofdactiviteit": {
+                          "code": "J",
+                          "omschrijving": "Ja",
+                          "referentieType": "geenRT"
+                        }
+                      },
+                      {
+                        "registratie": {
+                          "@registratieTijdstip": "20150709110844280",
+                          "datumAanvang": "20150709"
+                        },
+                        "sbiCode": {
+                          "code": "4726",
+                          "omschrijving": "Winkels in tabaksproducten",
+                          "referentieType": "ActiviteitCode"
+                        },
+                        "isHoofdactiviteit": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        }
+                      },
+                      {
+                        "registratie": {
+                          "@registratieTijdstip": "20150709110844280",
+                          "datumAanvang": "20150709"
+                        },
+                        "sbiCode": {
+                          "code": "4762",
+                          "omschrijving": "Winkels in kranten, tijdschriften en kantoorbehoeften",
+                          "referentieType": "ActiviteitCode"
+                        },
+                        "isHoofdactiviteit": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        }
+                      }
+                    ],
+                    "exporteert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "importeert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  "handeltOnder": [
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstip": "20140515155952805",
+                        "datumAanvang": "20140515"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstip": "20140515155952805",
+                          "datumAanvang": "20140515"
+                        },
+                        "naam": "Local Tripplegreen Eenmanszaak",
+                        "volgorde": "0"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstip": "20150709110844280",
+                        "datumAanvang": "20150709"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstip": "20150709110844280",
+                          "datumAanvang": "20150709"
+                        },
+                        "naam": "Local Tripplegreen Eenmanszaak de tweede",
+                        "volgorde": "1"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "wordtGeleidVanuit": {
+            "commercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstip": "20140515155952805",
+                "datumAanvang": "20140515"
+              },
+              "vestigingsnummer": "990000380789",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20150413152404769",
+                  "datumAanvang": "20140701"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Gerrit Jan van der Veenstraat",
+                    "huisnummer": "65",
+                    "postcode": {
+                      "cijfercombinatie": "2264",
+                      "lettercombinatie": "DT"
+                    },
+                    "plaats": "Leidschendam",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999423677",
+                      "identificatieAdresseerbaarObject": "0074999999848005"
+                    }
+                  }
+                },
+                "volledigAdres": "Gerrit Jan van der Veenstraat 65 2264DT Leidschendam"
+              },
+              "postLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20150413152404769",
+                  "datumAanvang": "20140701"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Cort van der Lindenlaan",
+                    "huisnummer": "40",
+                    "postcode": {
+                      "cijfercombinatie": "3843",
+                      "lettercombinatie": "VM"
+                    },
+                    "plaats": "Harderwijk",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999197134",
+                      "identificatieAdresseerbaarObject": "0074999999157304"
+                    }
+                  }
+                },
+                "volledigAdres": "Cort van der Lindenlaan 40 3843VM Harderwijk"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstip": "20140515155952805",
+                  "datumAanvang": "20140515"
+                },
+                "communicatienummer": {
+                  "toegangscode": "+31",
+                  "nummer": "0209999999",
+                  "soort": {
+                    "code": "T",
+                    "omschrijving": "Telefoon"
+                  }
+                },
+                "emailAdres": "nepemailadres@kvk.nl",
+                "domeinNaam": "www.kvk.nl"
+              },
+              "eersteHandelsnaam": "Local Tripplegreen Eenmanszaak",
+              "voltijdWerkzamePersonen": "2",
+              "deeltijdWerkzamePersonen": "8",
+              "totaalWerkzamePersonen": "10",
+              "activiteiten": {
+                "omschrijving": "Stationsrestauratie, alsmede het treffen van voorbereidingshandelingen in het kader van een te starten detailhandel in rookwaren, tijdschriften, boeken, kaarten etc.",
+                "sbiActiviteit": [
+                  {
+                    "registratie": {
+                      "@registratieTijdstip": "20140515155952805",
+                      "datumAanvang": "20140515"
+                    },
+                    "sbiCode": {
+                      "code": "5630",
+                      "omschrijving": "Cafés",
+                      "referentieType": "ActiviteitCode"
+                    },
+                    "isHoofdactiviteit": {
+                      "code": "J",
+                      "omschrijving": "Ja",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  {
+                    "registratie": {
+                      "@registratieTijdstip": "20150709110844280",
+                      "datumAanvang": "20150709"
+                    },
+                    "sbiCode": {
+                      "code": "4726",
+                      "omschrijving": "Winkels in tabaksproducten",
+                      "referentieType": "ActiviteitCode"
+                    },
+                    "isHoofdactiviteit": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  {
+                    "registratie": {
+                      "@registratieTijdstip": "20150709110844280",
+                      "datumAanvang": "20150709"
+                    },
+                    "sbiCode": {
+                      "code": "4762",
+                      "omschrijving": "Winkels in kranten, tijdschriften en kantoorbehoeften",
+                      "referentieType": "ActiviteitCode"
+                    },
+                    "isHoofdactiviteit": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  }
+                ],
+                "exporteert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "importeert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
                 }
               },
-              "Exporteert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Importeert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              }
-            },
-            "HandeltOnder": {
-              "Handelsnaam": {
-                "Registratie": {
-                  "DatumAanvang": 20140515,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
+              "handeltOnder": [
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstip": "20140515155952805",
+                    "datumAanvang": "20140515"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstip": "20140515155952805",
+                      "datumAanvang": "20140515"
+                    },
+                    "naam": "Local Tripplegreen Eenmanszaak",
+                    "volgorde": "0"
+                  }
                 },
-                "Naam": "Local Tripplegreen Eenmanszaak",
-                "Volgorde": 0
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstip": "20150709110844280",
+                    "datumAanvang": "20150709"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstip": "20150709110844280",
+                      "datumAanvang": "20150709"
+                    },
+                    "naam": "Local Tripplegreen Eenmanszaak de tweede",
+                    "volgorde": "1"
+                  }
+                }
+              ]
+            }
+          },
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20140515155952805",
+              "datumAanvang": "20140515"
+            },
+            "natuurlijkPersoon": {
+              "extraElementen": {
+                "extraElement": {
+                  "@naam": "achternaam",
+                  "#text": "Spagnolo"
+                }
               },
-              "RelatieRegistratie": {
-                "DatumAanvang": 20140515,
-                "RegistratieTijdstipNoValue": null
-              }
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19580111"
+              },
+              "persoonRechtsvorm": "Eenmanszaak",
+              "volledigeNaam": "Karla Spagnolo",
+              "uitgebreideRechtsvorm": "Eenmanszaak",
+              "geslachtsnaam": "Klaasen",
+"voornamen": "Jan",
+"geboortedatum": "20000101"
             }
           }
         }
       }
-    },
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": {
-        "Registratie": {
-          "DatumAanvang": 20140515,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "Vestigingsnummer": 990000380789,
-        "BezoekLocatie": {
-          "Registratie": {
-            "DatumAanvang": 20140701,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Afgeschermd": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Adres": {
-            "BinnenlandsAdres": {
-              "Straatnaam": "Gerrit Jan van der Veenstraat",
-              "Huisnummer": 65,
-              "Postcode": {
-                "Cijfercombinatie": 2264,
-                "Lettercombinatie": "DT"
-              },
-              "Plaats": "Leidschendam",
-              "BagId": {
-                "IdentificatieNummeraanduiding": 74999999423677,
-                "IdentificatieAdresseerbaarObject": 74999999848005
-              },
-              "HuisnummerToevoeging": null
-            }
-          },
-          "VolledigAdres": "Gerrit Jan van der Veenstraat 65 2264DT Leidschendam"
-        },
-        "Communicatiegegevens": {
-          "Registratie": {
-            "DatumAanvang": 20140515,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Communicatienummer": [
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            }
-          ],
-          "EmailAdres": "nepemailadres@kvk.nl"
-        },
-        "EersteHandelsnaam": "Local Tripplegreen Eenmanszaak",
-        "VoltijdWerkzamePersonen": 2,
-        "DeeltijdWerkzamePersonen": 8,
-        "TotaalWerkzamePersonen": 10,
-        "Activiteiten": {
-          "Omschrijving": "Stationsrestauratie, alsmede het treffen van voorbereidingshandelingen in het kader van een te starten detailhandel in rookwaren, tijdschriften, boeken, kaarten etc.",
-          "SbiActiviteit": {
-            "Registratie": {
-              "DatumAanvang": 20140515,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 5630,
-              "Omschrijving": "Caf\u00E9s",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          },
-          "Exporteert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Importeert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          }
-        },
-        "HandeltOnder": {
-          "Handelsnaam": {
-            "Registratie": {
-              "DatumAanvang": 20140515,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Naam": "Local Tripplegreen Eenmanszaak",
-            "Volgorde": 0
-          },
-          "RelatieRegistratie": {
-            "DatumAanvang": 20140515,
-            "RegistratieTijdstipNoValue": null
-          }
-        }
-      }
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20140515,
-        "RegistratieTijdstipNoValue": null
-      },
-      "NatuurlijkPersoon": {
-        "ExtraElementen": {
-          "ExtraElement": {
-            "Naam": "achternaam"
-          }
-        },
-        "Registratie": {
-          "DatumAanvang": 19580111,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "PersoonRechtsvorm": "Eenmanszaak",
-        "VolledigeNaam": "Jan Klaasen",
-        "UitgebreideRechtsvorm": "Eenmanszaak",
-        "Geslachtsnaam": "Klaasen",
-        "Voornamen": "Jan",
-        "Heeft": [],
-        "Geboortedatum": "20000101"
-      },
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": null
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

@@ -1,416 +1,629 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 19930429,
-      "DatumEinde": 20120417,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90001966,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 19930429,
-        "DatumEinde": 20120417,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Adriaansdreef",
-          "Huisnummer": 18,
-          "Postcode": {
-            "Cijfercombinatie": 5503,
-            "Lettercombinatie": "EB"
-          },
-          "Plaats": "Veldhoven",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999796250,
-            "IdentificatieAdresseerbaarObject": 74999999724151
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-646f4b3a1d934a8d34dfa88c306b86f3",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90001966"
         }
       },
-      "VolledigAdres": "Adriaansdreef 18 5503EB Veldhoven"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 19930429,
-        "DatumEinde": 20120417,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": null,
-          "Huisnummer": 0,
-          "Postcode": {
-            "Cijfercombinatie": 8261,
-            "Lettercombinatie": "VS"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "19930429",
+            "datumEinde": "20120417"
           },
-          "Plaats": "Kampen",
-          "BagId": null,
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Postbus 99999 8261VS Kampen"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 19930429,
-        "DatumEinde": 20120417,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        }
-      ],
-      "EmailAdres": null
-    },
-    "Naam": "International Movelax",
-    "ManifesteertZichAls": null,
-    "WordtGeleidVanuit": null,
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 19930429,
-        "RegistratieTijdstipNoValue": null
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": {
-        "VoornemenTotOntbinding": null,
-        "ActiviteitenGestaaktPer": null,
-        "Rechtsvorm": {
-          "Code": "ST",
-          "Omschrijving": "Stichting"
-        },
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": {
-              "Registratie": {
-                "DatumAanvang": 20110927,
-                "DatumEinde": 20120417,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Door": {
-                "NaamPersoon": {
-                  "VolledigeNaam": "Jan Klaasen",
-                  "BezoekLocatiePersoon": null,
-                  "Naam": "mr. Eli Mayville",
-                  "Telefoonnummer": null
+          "kvkNummer": "90001966",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
+          },
+          "sbiActiviteit": {
+            "registratie": {
+              "@registratieTijdstip": "20120419141021030",
+              "datumAanvang": "19930429",
+              "datumEinde": "20120417"
+            },
+            "sbiCode": {
+              "code": "94997",
+              "omschrijving": "Overige belangenbehartiging n.e.g.",
+              "referentieType": "ActiviteitCode"
+            },
+            "isHoofdactiviteit": {
+              "code": "J",
+              "omschrijving": "Ja",
+              "referentieType": "geenRT"
+            }
+          },
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
+          },
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20120419141021030",
+              "datumAanvang": "19930429",
+              "datumEinde": "20120417"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Adriaansdreef",
+                "huisnummer": "18",
+                "postcode": {
+                  "cijfercombinatie": "5503",
+                  "lettercombinatie": "EB"
                 },
-                "NatuurlijkPersoon": null,
-                "Rechtspersoon": null
-              },
-              "Functie": {
-                "Code": "11",
-                "Omschrijving": "Rechter-commissaris",
-                "ReferentieType": "FunctionarisRol"
+                "plaats": "Veldhoven",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999796250",
+                  "identificatieAdresseerbaarObject": "0074999999724151"
+                }
               }
             },
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
+            "volledigAdres": "Adriaansdreef 18 5503EB Veldhoven"
           },
-          {
-            "FunctionarisBijzondereRechtstoestand": {
-              "Registratie": {
-                "DatumAanvang": 20110927,
-                "DatumEinde": 20120417,
-                "RegistratieTijdstipNoValue": null
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20120419141021030",
+              "datumAanvang": "19930429",
+              "datumEinde": "20120417"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "postbusnummer": "99999",
+                "postcode": {
+                  "cijfercombinatie": "8261",
+                  "lettercombinatie": "VS"
+                },
+                "plaats": "Kampen"
+              }
+            },
+            "volledigAdres": "Postbus 99999 8261VS Kampen"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstip": "20120419141021030",
+              "datumAanvang": "19930429",
+              "datumEinde": "20120417"
+            },
+            "communicatienummer": {
+              "toegangscode": "+31",
+              "nummer": "0209999999",
+              "soort": {
+                "code": "T",
+                "omschrijving": "Telefoon"
+              }
+            }
+          },
+          "naam": "International Movelax",
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20120419141021030",
+              "datumAanvang": "19930429",
+              "datumEinde": "20120417"
+            },
+            "rechtspersoon": {
+              "extraElementen": {
+                "extraElement": [
+                  {
+                    "@naam": "datumAanvangStatuten",
+                    "#text": "19930429"
+                  },
+                  {
+                    "@naam": "datumAkteStatuten",
+                    "#text": "19930429"
+                  }
+                ]
               },
-              "Door": {
-                "NaamPersoon": {
-                  "VolledigeNaam": "Jan Klaasen",
-                  "BezoekLocatiePersoon": {
-                    "Registratie": {
-                      "DatumAanvang": 20110927,
-                      "DatumEinde": 0,
-                      "RegistratieTijdstipNoValue": null
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19930429",
+                "datumEinde": "20120417"
+              },
+              "persoonRechtsvorm": "Stichting",
+              "volledigeNaam": "Stichting International Movelax",
+              "uitgebreideRechtsvorm": "Stichting",
+              "heeft": [
+                {
+                  "functionarisBijzondereRechtstoestand": {
+                    "registratie": {
+                      "@registratieTijdstip": "20110929104439921",
+                      "datumAanvang": "20110927",
+                      "datumEinde": "20120417"
                     },
-                    "Afgeschermd": {
-                      "Code": "N",
-                      "Omschrijving": "Nee",
-                      "ReferentieType": "geenRT"
-                    },
-                    "Adres": {
-                      "BinnenlandsAdres": {
-                        "Straatnaam": null,
-                        "Huisnummer": 0,
-                        "Postcode": {
-                          "Cijfercombinatie": 6031,
-                          "Lettercombinatie": "PR"
+                    "door": {
+                      "naamPersoon": {
+                        "registratie": {
+                          "@registratieTijdstip": "20110929104439921",
+                          "datumAanvang": "20110927"
                         },
-                        "Plaats": "Nederweert",
-                        "BagId": null,
-                        "HuisnummerToevoeging": null
+                        "volledigeNaam": "mr. Eli Mayville",
+                        "naam": "mr. Eli Mayville"
                       }
                     },
-                    "VolledigAdres": "Postbus 99999 6031PR Nederweert"
-                  },
-                  "Naam": "mr. Senaida Labounty",
-                  "Telefoonnummer": {
-                    "Toegangscode": 31,
-                    "Nummer": 205460606
+                    "functie": {
+                      "code": "11",
+                      "omschrijving": "Rechter-commissaris",
+                      "referentieType": "FunctionarisRol"
+                    }
                   }
                 },
-                "NatuurlijkPersoon": null,
-                "Rechtspersoon": null
+                {
+                  "functionarisBijzondereRechtstoestand": {
+                    "registratie": {
+                      "@registratieTijdstip": "20110929104439921",
+                      "datumAanvang": "20110927",
+                      "datumEinde": "20120417"
+                    },
+                    "door": {
+                      "naamPersoon": {
+                        "registratie": {
+                          "@registratieTijdstip": "20110929104439921",
+                          "datumAanvang": "20110927"
+                        },
+                        "volledigeNaam": "mr. Senaida Labounty",
+                        "bezoekLocatiePersoon": {
+                          "registratie": {
+                            "@registratieTijdstip": "20110929104439921",
+                            "datumAanvang": "20110927"
+                          },
+                          "afgeschermd": {
+                            "code": "N",
+                            "omschrijving": "Nee",
+                            "referentieType": "geenRT"
+                          },
+                          "adres": {
+                            "binnenlandsAdres": {
+                              "postbusnummer": "99999",
+                              "postcode": {
+                                "cijfercombinatie": "6031",
+                                "lettercombinatie": "PR"
+                              },
+                              "plaats": "Nederweert"
+                            }
+                          },
+                          "volledigAdres": "Postbus 99999 6031PR Nederweert"
+                        },
+                        "naam": "mr. Senaida Labounty",
+                        "telefoonnummer": {
+                          "toegangscode": "+31",
+                          "nummer": "0205460606"
+                        }
+                      }
+                    },
+                    "functie": {
+                      "code": "07",
+                      "omschrijving": "Curator",
+                      "referentieType": "FunctionarisRol"
+                    }
+                  }
+                },
+                {
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19930429",
+                      "datumEinde": "20120417"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstip": "20120419141021030",
+                        "datumAanvang": "19930429",
+                        "datumEinde": "20120417"
+                      },
+                      "titel": "Penningmeester",
+                      "isStatutaireTitel": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Terrill"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19550524"
+                        },
+                        "volledigeNaam": "Britany Terrill",
+                        "geslachtsnaam": "Terrill",
+                        "voornamen": "Britany",
+                        "geboortedatum": "19550524"
+                      }
+                    },
+                    "functie": {
+                      "code": "02",
+                      "omschrijving": "Bestuurder",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstip": "20120419141021030",
+                        "datumAanvang": "19930429",
+                        "datumEinde": "20120417"
+                      },
+                      "soort": {
+                        "code": "gb",
+                        "omschrijving": "Gezamenlijk bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                },
+                {
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19930429",
+                      "datumEinde": "20120417"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstip": "20120419141021030",
+                        "datumAanvang": "19930429",
+                        "datumEinde": "20120417"
+                      },
+                      "titel": "Voorzitter",
+                      "isStatutaireTitel": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Bynoe"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19600418"
+                        },
+                        "volledigeNaam": "Ezra Bynoe",
+                        "geslachtsnaam": "Bynoe",
+                        "voornamen": "Ezra",
+                        "geboortedatum": "19600418"
+                      }
+                    },
+                    "functie": {
+                      "code": "02",
+                      "omschrijving": "Bestuurder",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstip": "20120419141021030",
+                        "datumAanvang": "19930429",
+                        "datumEinde": "20120417"
+                      },
+                      "soort": {
+                        "code": "gb",
+                        "omschrijving": "Gezamenlijk bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                },
+                {
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19930429",
+                      "datumEinde": "20120417"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstip": "20120419141021030",
+                        "datumAanvang": "19930429",
+                        "datumEinde": "20120417"
+                      },
+                      "titel": "Secretaris",
+                      "isStatutaireTitel": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Mcroy"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19810129"
+                        },
+                        "volledigeNaam": "Easter Mcroy",
+                        "geslachtsnaam": "Mcroy",
+                        "voornamen": "Easter",
+                        "geboortedatum": "19810129"
+                      }
+                    },
+                    "functie": {
+                      "code": "02",
+                      "omschrijving": "Bestuurder",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstip": "20120419141021030",
+                        "datumAanvang": "19930429",
+                        "datumEinde": "20120417"
+                      },
+                      "soort": {
+                        "code": "gb",
+                        "omschrijving": "Gezamenlijk bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                },
+                {
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20001203",
+                      "datumEinde": "20120417"
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Gore"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19590212"
+                        },
+                        "volledigeNaam": "Georgiana Gore",
+                        "geslachtsnaam": "Klaasen",
+"voornamen": "Jan",
+"geboortedatum": "20000101"
+                      }
+                    },
+                    "functie": {
+                      "code": "02",
+                      "omschrijving": "Bestuurder",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstip": "20120419141021030",
+                        "datumAanvang": "20001203",
+                        "datumEinde": "20120417"
+                      },
+                      "soort": {
+                        "code": "gb",
+                        "omschrijving": "Gezamenlijk bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                },
+                {
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20001203",
+                      "datumEinde": "20120417"
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Calvin"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19470819"
+                        },
+                        "volledigeNaam": "Karissa Calvin",
+                        "geslachtsnaam": "Calvin",
+                        "voornamen": "Karissa",
+                        "geboortedatum": "19470819"
+                      }
+                    },
+                    "functie": {
+                      "code": "02",
+                      "omschrijving": "Bestuurder",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstip": "20120419141021030",
+                        "datumAanvang": "20001203",
+                        "datumEinde": "20120417"
+                      },
+                      "soort": {
+                        "code": "gb",
+                        "omschrijving": "Gezamenlijk bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                }
+              ],
+              "rsin": "992989917",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstip": "20120419141021030",
+                  "datumAanvang": "19930429",
+                  "datumEinde": "20120417"
+                },
+                "naam": "Stichting International Movelax"
               },
-              "Functie": {
-                "Code": "07",
-                "Omschrijving": "Curator",
-                "ReferentieType": "FunctionarisRol"
+              "ontbinding": {
+                "registratie": {
+                  "@registratieTijdstip": "20120419141021030",
+                  "datumAanvang": "20120417"
+                },
+                "aanleiding": {
+                  "code": "OF",
+                  "omschrijving": "Opheffing faillissement wegens toestand van de boedel",
+                  "referentieType": "AanleidingOntbinding"
+                }
+              },
+              "rechtsvorm": {
+                "code": "ST",
+                "omschrijving": "Stichting",
+                "referentieType": "Rechtsvorm"
+              },
+              "statutaireZetel": "Nepplaats",
+              "aanvangStatutaireZetel": "19930429",
+              "datumAkteOprichting": "19930429",
+              "datumAkteStatutenwijziging": "19930429",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20120419141021030",
+                  "datumAanvang": "19930429",
+                  "datumEinde": "20120417"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Eikenlaan",
+                    "huisnummer": "50",
+                    "postcode": {
+                      "cijfercombinatie": "1702",
+                      "lettercombinatie": "TB"
+                    },
+                    "plaats": "Heerhugowaard",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999930047",
+                      "identificatieAdresseerbaarObject": "0074999999785733"
+                    }
+                  }
+                },
+                "volledigAdres": "Eikenlaan 50 1702TB Heerhugowaard"
+              },
+              "postLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20120419141021030",
+                  "datumAanvang": "19930429",
+                  "datumEinde": "20120417"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "postbusnummer": "99999",
+                    "postcode": {
+                      "cijfercombinatie": "8261",
+                      "lettercombinatie": "VS"
+                    },
+                    "plaats": "Kampen"
+                  }
+                },
+                "volledigAdres": "Postbus 99999 8261VS Kampen"
+              },
+              "activiteiten": {
+                "omschrijving": "Belangenverenigingen",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstip": "20120419141021030",
+                    "datumAanvang": "19930429",
+                    "datumEinde": "20120417"
+                  },
+                  "sbiCode": {
+                    "code": "94997",
+                    "omschrijving": "Overige belangenbehartiging n.e.g.",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                }
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstip": "20120419141021030",
+                  "datumAanvang": "19930429",
+                  "datumEinde": "20120417"
+                },
+                "communicatienummer": {
+                  "toegangscode": "+31",
+                  "nummer": "0209999999",
+                  "soort": {
+                    "code": "T",
+                    "omschrijving": "Telefoon"
+                  }
+                }
               }
-            },
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19550524,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "gb",
-                  "Omschrijving": "Gezamenlijk bevoegd"
-                }
-              },
-              "Functietitel": {
-                "Titel": "Penningmeester"
-              }
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19600418,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "gb",
-                  "Omschrijving": "Gezamenlijk bevoegd"
-                }
-              },
-              "Functietitel": {
-                "Titel": "Voorzitter"
-              }
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19810129,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "gb",
-                  "Omschrijving": "Gezamenlijk bevoegd"
-                }
-              },
-              "Functietitel": {
-                "Titel": "Secretaris"
-              }
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19590212,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "gb",
-                  "Omschrijving": "Gezamenlijk bevoegd"
-                }
-              },
-              "Functietitel": null
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19470819,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "gb",
-                  "Omschrijving": "Gezamenlijk bevoegd"
-                }
-              },
-              "Functietitel": null
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
+            }
           }
-        ],
-        "VolledigeNaam": "Jan Klaasen",
-        "Rsin": "992989917"
+        }
       }
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

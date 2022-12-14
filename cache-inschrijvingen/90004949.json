@@ -1,515 +1,672 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 19950608,
-      "DatumEinde": 20101231,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90004949,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 19950608,
-        "DatumEinde": 20101231,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Leverkruidweg",
-          "Huisnummer": 379,
-          "Postcode": {
-            "Cijfercombinatie": 1508,
-            "Lettercombinatie": "WN"
-          },
-          "Plaats": "Zaandam",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999499489,
-            "IdentificatieAdresseerbaarObject": 74999999650073
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-b6eb89b651e669ae334bf286c9cff244",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90004949"
         }
       },
-      "VolledigAdres": "Leverkruidweg 379 1508WN Zaandam"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 19950608,
-        "DatumEinde": 20101231,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Leverkruidweg",
-          "Huisnummer": 379,
-          "Postcode": {
-            "Cijfercombinatie": 1508,
-            "Lettercombinatie": "WN"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "19950608",
+            "datumEinde": "20101231"
           },
-          "Plaats": "Zaandam",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999499489,
-            "IdentificatieAdresseerbaarObject": 74999999650073
+          "kvkNummer": "90004949",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Leverkruidweg 379 1508WN Zaandam"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 19950608,
-        "DatumEinde": 20101231,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        },
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "F",
-            "Omschrijving": "Fax"
-          }
-        }
-      ],
-      "EmailAdres": null
-    },
-    "Naam": "International bio-dom",
-    "ManifesteertZichAls": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 19950608,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Onderneming": {
-        "Registratie": {
-          "DatumAanvang": 19950608,
-          "DatumEinde": 20101231,
-          "RegistratieTijdstipNoValue": null
-        },
-        "KvkNummer": 90004949,
-        "SbiActiviteit": [
-          {
-            "Registratie": {
-              "DatumAanvang": 19950608,
-              "DatumEinde": 20101231,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 7500,
-              "Omschrijving": "Veterinaire dienstverlening",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          }
-        ],
-        "VoltijdWerkzamePersonen": 0,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 0,
-        "HandeltOnder": [
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 19950608,
-                "DatumEinde": 20101231,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International bio-dom",
-              "Volgorde": 0
-            },
-            "RelatieRegistratie": null
-          }
-        ],
-        "WordtUitgeoefendIn": {
-          "RelatieRegistratie": {
-            "DatumAanvang": 19950608,
-            "RegistratieTijdstipNoValue": null
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "CommercieleVestiging": {
-            "Registratie": {
-              "DatumAanvang": 19950608,
-              "DatumEinde": 20101231,
-              "RegistratieTijdstipNoValue": null
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20101231105810229",
+              "datumAanvang": "19950608",
+              "datumEinde": "20101231"
             },
-            "Vestigingsnummer": 990000071180,
-            "BezoekLocatie": {
-              "Registratie": {
-                "DatumAanvang": 19950608,
-                "DatumEinde": 20101231,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Afgeschermd": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Adres": {
-                "BinnenlandsAdres": {
-                  "Straatnaam": "Leverkruidweg",
-                  "Huisnummer": 379,
-                  "Postcode": {
-                    "Cijfercombinatie": 1508,
-                    "Lettercombinatie": "WN"
-                  },
-                  "Plaats": "Zaandam",
-                  "BagId": {
-                    "IdentificatieNummeraanduiding": 74999999499489,
-                    "IdentificatieAdresseerbaarObject": 74999999650073
-                  },
-                  "HuisnummerToevoeging": null
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Leverkruidweg",
+                "huisnummer": "379",
+                "postcode": {
+                  "cijfercombinatie": "1508",
+                  "lettercombinatie": "WN"
+                },
+                "plaats": "Zaandam",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999499489",
+                  "identificatieAdresseerbaarObject": "0074999999650073"
+                }
+              }
+            },
+            "volledigAdres": "Leverkruidweg 379 1508WN Zaandam"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20101231105810229",
+              "datumAanvang": "19950608",
+              "datumEinde": "20101231"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Leverkruidweg",
+                "huisnummer": "379",
+                "postcode": {
+                  "cijfercombinatie": "1508",
+                  "lettercombinatie": "WN"
+                },
+                "plaats": "Zaandam",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999499489",
+                  "identificatieAdresseerbaarObject": "0074999999650073"
+                }
+              }
+            },
+            "volledigAdres": "Leverkruidweg 379 1508WN Zaandam"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstip": "20101231105810229",
+              "datumAanvang": "19950608",
+              "datumEinde": "20101231"
+            },
+            "communicatienummer": [
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "T",
+                  "omschrijving": "Telefoon"
                 }
               },
-              "VolledigAdres": "Leverkruidweg 379 1508WN Zaandam"
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "F",
+                  "omschrijving": "Fax"
+                }
+              }
+            ],
+            "domeinNaam": "www.kvk.nl"
+          },
+          "naam": "International bio-dom",
+          "manifesteertZichAls": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20101231105810229",
+              "datumAanvang": "19950608",
+              "datumEinde": "20101231"
             },
-            "Communicatiegegevens": {
-              "Registratie": {
-                "DatumAanvang": 19950608,
-                "DatumEinde": 20101231,
-                "RegistratieTijdstipNoValue": null
+            "onderneming": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19950608",
+                "datumEinde": "20101231"
               },
-              "Communicatienummer": [
+              "kvkNummer": "90004949",
+              "sbiActiviteit": {
+                "registratie": {
+                  "@registratieTijdstip": "20101231105810229",
+                  "datumAanvang": "19950608",
+                  "datumEinde": "20101231"
+                },
+                "sbiCode": {
+                  "code": "7500",
+                  "omschrijving": "Veterinaire dienstverlening",
+                  "referentieType": "ActiviteitCode"
+                },
+                "isHoofdactiviteit": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
+                }
+              },
+              "voltijdWerkzamePersonen": "0",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "0",
+              "handeltOnder": {
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19950608",
+                    "datumEinde": "20101231"
+                  },
+                  "naam": "International bio-dom",
+                  "volgorde": "0"
+                }
+              },
+              "wordtUitgeoefendIn": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20101231105810229",
+                  "datumAanvang": "19950608",
+                  "datumEinde": "20101231"
+                },
+                "commercieleVestiging": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19950608",
+                    "datumEinde": "20101231"
+                  },
+                  "vestigingsnummer": "990000071180",
+                  "bezoekLocatie": {
+                    "registratie": {
+                      "@registratieTijdstip": "20101231105810229",
+                      "datumAanvang": "19950608",
+                      "datumEinde": "20101231"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "straatnaam": "Leverkruidweg",
+                        "huisnummer": "379",
+                        "postcode": {
+                          "cijfercombinatie": "1508",
+                          "lettercombinatie": "WN"
+                        },
+                        "plaats": "Zaandam",
+                        "bagId": {
+                          "identificatieNummeraanduiding": "0074999999499489",
+                          "identificatieAdresseerbaarObject": "0074999999650073"
+                        }
+                      }
+                    },
+                    "volledigAdres": "Leverkruidweg 379 1508WN Zaandam"
+                  },
+                  "communicatiegegevens": {
+                    "registratie": {
+                      "@registratieTijdstip": "20101231105810229",
+                      "datumAanvang": "19950608",
+                      "datumEinde": "20101231"
+                    },
+                    "communicatienummer": [
+                      {
+                        "toegangscode": "+31",
+                        "nummer": "0209999999",
+                        "soort": {
+                          "code": "T",
+                          "omschrijving": "Telefoon"
+                        }
+                      },
+                      {
+                        "toegangscode": "+31",
+                        "nummer": "0209999999",
+                        "soort": {
+                          "code": "F",
+                          "omschrijving": "Fax"
+                        }
+                      }
+                    ],
+                    "domeinNaam": "www.kvk.nl"
+                  },
+                  "eersteHandelsnaam": "International bio-dom",
+                  "voltijdWerkzamePersonen": "0",
+                  "deeltijdWerkzamePersonen": "0",
+                  "totaalWerkzamePersonen": "0",
+                  "activiteiten": {
+                    "omschrijving": "Dienstverlening aan dierenartsen; kwaliteitsbewaking m.b.t. Veterinairfarmaceutische produkten; bevordering en ondersteuning van de internationale activiteiten van de leden",
+                    "sbiActiviteit": {
+                      "registratie": {
+                        "@registratieTijdstip": "20101231105810229",
+                        "datumAanvang": "19950608",
+                        "datumEinde": "20101231"
+                      },
+                      "sbiCode": {
+                        "code": "7500",
+                        "omschrijving": "Veterinaire dienstverlening",
+                        "referentieType": "ActiviteitCode"
+                      },
+                      "isHoofdactiviteit": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "exporteert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "importeert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  "handeltOnder": {
+                    "relatieRegistratie": {
+                      "@registratieTijdstip": "20101231105810229",
+                      "datumAanvang": "19950608",
+                      "datumEinde": "20101231"
+                    },
+                    "handelsnaam": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19950608",
+                        "datumEinde": "20101231"
+                      },
+                      "naam": "International bio-dom",
+                      "volgorde": "0"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "wordtGeleidVanuit": {
+            "commercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19950608",
+                "datumEinde": "20101231"
+              },
+              "vestigingsnummer": "990000071180",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20101231105810229",
+                  "datumAanvang": "19950608",
+                  "datumEinde": "20101231"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Leverkruidweg",
+                    "huisnummer": "379",
+                    "postcode": {
+                      "cijfercombinatie": "1508",
+                      "lettercombinatie": "WN"
+                    },
+                    "plaats": "Zaandam",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999499489",
+                      "identificatieAdresseerbaarObject": "0074999999650073"
+                    }
+                  }
+                },
+                "volledigAdres": "Leverkruidweg 379 1508WN Zaandam"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstip": "20101231105810229",
+                  "datumAanvang": "19950608",
+                  "datumEinde": "20101231"
+                },
+                "communicatienummer": [
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "T",
+                      "omschrijving": "Telefoon"
+                    }
+                  },
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "F",
+                      "omschrijving": "Fax"
+                    }
+                  }
+                ],
+                "domeinNaam": "www.kvk.nl"
+              },
+              "eersteHandelsnaam": "International bio-dom",
+              "voltijdWerkzamePersonen": "0",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "0",
+              "activiteiten": {
+                "omschrijving": "Dienstverlening aan dierenartsen; kwaliteitsbewaking m.b.t. Veterinairfarmaceutische produkten; bevordering en ondersteuning van de internationale activiteiten van de leden",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstip": "20101231105810229",
+                    "datumAanvang": "19950608",
+                    "datumEinde": "20101231"
+                  },
+                  "sbiCode": {
+                    "code": "7500",
+                    "omschrijving": "Veterinaire dienstverlening",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                },
+                "exporteert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "importeert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                }
+              },
+              "handeltOnder": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20101231105810229",
+                  "datumAanvang": "19950608",
+                  "datumEinde": "20101231"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19950608",
+                    "datumEinde": "20101231"
+                  },
+                  "naam": "International bio-dom",
+                  "volgorde": "0"
+                }
+              }
+            }
+          },
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20101231105810229",
+              "datumAanvang": "19950608",
+              "datumEinde": "20101231"
+            },
+            "rechtspersoon": {
+              "extraElementen": {
+                "extraElement": [
+                  {
+                    "@naam": "datumAanvangStatuten",
+                    "#text": "19950608"
+                  },
+                  {
+                    "@naam": "datumAkteStatuten",
+                    "#text": "19950608"
+                  }
+                ]
+              },
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19950608",
+                "datumEinde": "20101231"
+              },
+              "persoonRechtsvorm": "Europees economisch samenwerkingsverband",
+              "volledigeNaam": "International bio-dom",
+              "uitgebreideRechtsvorm": "Europees economisch samenwerkingsverband",
+              "heeft": [
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20030322",
+                      "datumEinde": "20101231"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstip": "20101231105810229",
+                        "datumAanvang": "20030322",
+                        "datumEinde": "20101231"
+                      },
+                      "titel": "Voorzitter",
+                      "isStatutaireTitel": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Lapine"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19490723"
+                        },
+                        "volledigeNaam": "Hai Lapine",
+                        "geslachtsnaam": "Klaasen",
+"voornamen": "Jan",
+"geboortedatum": "20000101"
+                      }
+                    },
+                    "functie": {
+                      "code": "02",
+                      "omschrijving": "Bestuurder",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstip": "20101231105810229",
+                        "datumAanvang": "20030322",
+                        "datumEinde": "20101231"
+                      },
+                      "soort": {
+                        "code": "gb",
+                        "omschrijving": "Gezamenlijk bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
                   }
                 },
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "F",
-                    "Omschrijving": "Fax"
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19950608",
+                      "datumEinde": "20101231"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstip": "20101231105810229",
+                        "datumAanvang": "19950608",
+                        "datumEinde": "20101231"
+                      },
+                      "titel": "Algemeen secretaris",
+                      "isStatutaireTitel": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Everts"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19711011"
+                        },
+                        "volledigeNaam": "Beverly Everts",
+                        "geslachtsnaam": "Everts",
+                        "voornamen": "Beverly",
+                        "geboortedatum": "19711011"
+                      }
+                    },
+                    "functie": {
+                      "code": "02",
+                      "omschrijving": "Bestuurder",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstip": "20101231105810229",
+                        "datumAanvang": "19950608",
+                        "datumEinde": "20101231"
+                      },
+                      "soort": {
+                        "code": "gb",
+                        "omschrijving": "Gezamenlijk bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                },
+                {
+                  "overigeFunctionaris": {
+                    "registratie": {
+                      "@registratieTijdstip": "20101231105810229",
+                      "datumAanvang": "20101231"
+                    },
+                    "door": {
+                      "rechtspersoon": {
+                        "persoonRechtsvorm": "Besloten Vennootschap",
+                        "volledigeNaam": "Global Apgozim B.V.",
+                        "bezoekLocatiePersoon": {
+                          "registratie": {
+                            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                            "datumAanvang": "19941024"
+                          },
+                          "afgeschermd": {
+                            "code": "N",
+                            "omschrijving": "Nee",
+                            "referentieType": "geenRT"
+                          },
+                          "adres": {
+                            "binnenlandsAdres": {
+                              "straatnaam": "Leverkruidweg",
+                              "huisnummer": "379",
+                              "postcode": {
+                                "cijfercombinatie": "1508",
+                                "lettercombinatie": "WN"
+                              },
+                              "plaats": "Zaandam",
+                              "bagId": {
+                                "identificatieNummeraanduiding": "0074999999499489",
+                                "identificatieAdresseerbaarObject": "0074999999650073"
+                              }
+                            }
+                          },
+                          "volledigAdres": "Leverkruidweg 379 1508WN Zaandam"
+                        },
+                        "isEigenaarVan": {
+                          "maatschappelijkeActiviteit": {
+                            "kvkNummer": "90002962",
+                            "nonMailing": {
+                              "code": "N",
+                              "omschrijving": "Nee",
+                              "referentieType": "geenRT"
+                            }
+                          }
+                        },
+                        "rsin": "992743229"
+                      }
+                    },
+                    "functie": {
+                      "code": "10",
+                      "omschrijving": "Bewaarder boeken en bescheiden",
+                      "referentieType": "FunctionarisRol"
+                    }
                   }
                 }
               ],
-              "EmailAdres": null
-            },
-            "EersteHandelsnaam": "International bio-dom",
-            "VoltijdWerkzamePersonen": 0,
-            "DeeltijdWerkzamePersonen": 0,
-            "TotaalWerkzamePersonen": 0,
-            "Activiteiten": {
-              "Omschrijving": "Dienstverlening aan dierenartsen; kwaliteitsbewaking m.b.t. Veterinairfarmaceutische produkten; bevordering en ondersteuning van de internationale activiteiten van de leden",
-              "SbiActiviteit": {
-                "Registratie": {
-                  "DatumAanvang": 19950608,
-                  "DatumEinde": 20101231,
-                  "RegistratieTijdstipNoValue": null
+              "rsin": "992067339",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstip": "20101231105810229",
+                  "datumAanvang": "19950608",
+                  "datumEinde": "20101231"
                 },
-                "SbiCode": {
-                  "Code": 7500,
-                  "Omschrijving": "Veterinaire dienstverlening",
-                  "ReferentieType": "ActiviteitCode"
+                "naam": "International bio-dom"
+              },
+              "ontbinding": {
+                "registratie": {
+                  "@registratieTijdstip": "20101231105810229",
+                  "datumAanvang": "20101231"
                 },
-                "IsHoofdactiviteit": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
+                "aanleiding": {
+                  "code": "OB",
+                  "omschrijving": "Ontbindingsbesluit",
+                  "referentieType": "AanleidingOntbinding"
                 }
               },
-              "Exporteert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
+              "rechtsvorm": {
+                "code": "EESV",
+                "omschrijving": "Europees economisch samenwerkingsverband",
+                "referentieType": "Rechtsvorm"
               },
-              "Importeert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              }
-            },
-            "HandeltOnder": {
-              "Handelsnaam": {
-                "Registratie": {
-                  "DatumAanvang": 19950608,
-                  "DatumEinde": 20101231,
-                  "RegistratieTijdstipNoValue": null
+              "statutaireZetel": "Nepplaats",
+              "aanvangStatutaireZetel": "19950608",
+              "datumAkteOprichting": "19950608",
+              "datumAkteStatutenwijziging": "19950608",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20101231105810229",
+                  "datumAanvang": "19950608",
+                  "datumEinde": "20101231"
                 },
-                "Naam": "International bio-dom",
-                "Volgorde": 0
-              },
-              "RelatieRegistratie": {
-                "DatumAanvang": 19950608,
-                "RegistratieTijdstipNoValue": null
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Leverkruidweg",
+                    "huisnummer": "379",
+                    "postcode": {
+                      "cijfercombinatie": "1508",
+                      "lettercombinatie": "WN"
+                    },
+                    "plaats": "Zaandam",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999499489",
+                      "identificatieAdresseerbaarObject": "0074999999650073"
+                    }
+                  }
+                },
+                "volledigAdres": "Leverkruidweg 379 1508WN Zaandam"
               }
             }
           }
         }
-      }
-    },
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": {
-        "Registratie": {
-          "DatumAanvang": 19950608,
-          "DatumEinde": 20101231,
-          "RegistratieTijdstipNoValue": null
-        },
-        "Vestigingsnummer": 990000071180,
-        "BezoekLocatie": {
-          "Registratie": {
-            "DatumAanvang": 19950608,
-            "DatumEinde": 20101231,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Afgeschermd": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Adres": {
-            "BinnenlandsAdres": {
-              "Straatnaam": "Leverkruidweg",
-              "Huisnummer": 379,
-              "Postcode": {
-                "Cijfercombinatie": 1508,
-                "Lettercombinatie": "WN"
-              },
-              "Plaats": "Zaandam",
-              "BagId": {
-                "IdentificatieNummeraanduiding": 74999999499489,
-                "IdentificatieAdresseerbaarObject": 74999999650073
-              },
-              "HuisnummerToevoeging": null
-            }
-          },
-          "VolledigAdres": "Leverkruidweg 379 1508WN Zaandam"
-        },
-        "Communicatiegegevens": {
-          "Registratie": {
-            "DatumAanvang": 19950608,
-            "DatumEinde": 20101231,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Communicatienummer": [
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            },
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "F",
-                "Omschrijving": "Fax"
-              }
-            }
-          ],
-          "EmailAdres": null
-        },
-        "EersteHandelsnaam": "International bio-dom",
-        "VoltijdWerkzamePersonen": 0,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 0,
-        "Activiteiten": {
-          "Omschrijving": "Dienstverlening aan dierenartsen; kwaliteitsbewaking m.b.t. Veterinairfarmaceutische produkten; bevordering en ondersteuning van de internationale activiteiten van de leden",
-          "SbiActiviteit": {
-            "Registratie": {
-              "DatumAanvang": 19950608,
-              "DatumEinde": 20101231,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 7500,
-              "Omschrijving": "Veterinaire dienstverlening",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          },
-          "Exporteert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Importeert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          }
-        },
-        "HandeltOnder": {
-          "Handelsnaam": {
-            "Registratie": {
-              "DatumAanvang": 19950608,
-              "DatumEinde": 20101231,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Naam": "International bio-dom",
-            "Volgorde": 0
-          },
-          "RelatieRegistratie": {
-            "DatumAanvang": 19950608,
-            "RegistratieTijdstipNoValue": null
-          }
-        }
-      }
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 19950608,
-        "RegistratieTijdstipNoValue": null
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": {
-        "VoornemenTotOntbinding": null,
-        "ActiviteitenGestaaktPer": null,
-        "Rechtsvorm": {
-          "Code": "EESV",
-          "Omschrijving": "Europees economisch samenwerkingsverband"
-        },
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19490723,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "gb",
-                  "Omschrijving": "Gezamenlijk bevoegd"
-                }
-              },
-              "Functietitel": {
-                "Titel": "Voorzitter"
-              }
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19711011,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "gb",
-                  "Omschrijving": "Gezamenlijk bevoegd"
-                }
-              },
-              "Functietitel": {
-                "Titel": "Algemeen secretaris"
-              }
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": {
-              "Functie": {
-                "Code": "10",
-                "Omschrijving": "Bewaarder boeken en bescheiden",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": null,
-                "Rechtspersoon": {
-                  "VoornemenTotOntbinding": null,
-                  "ActiviteitenGestaaktPer": null,
-                  "Rechtsvorm": null,
-                  "Heeft": [],
-                  "VolledigeNaam": "Jan Klaasen",
-                  "Rsin": "992743229"
-                }
-              },
-              "Bevoegdheid": null,
-              "Functietitel": null
-            },
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          }
-        ],
-        "VolledigeNaam": "Jan Klaasen",
-        "Rsin": "992067339"
       }
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

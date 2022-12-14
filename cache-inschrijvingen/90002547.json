@@ -1,517 +1,611 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 20050201,
-      "DatumEinde": 0,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90002547,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20110101,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Huizum-Dorp",
-          "Huisnummer": 79,
-          "Postcode": {
-            "Cijfercombinatie": 8934,
-            "Lettercombinatie": "BS"
-          },
-          "Plaats": "Leeuwarden",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999304661,
-            "IdentificatieAdresseerbaarObject": 74999999551039
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-c7a6321794ba64ea6e4b8b336c8282e2",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90002547"
         }
       },
-      "VolledigAdres": "Huizum-Dorp 79 8934BS Leeuwarden"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20110101,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Huizum-Dorp",
-          "Huisnummer": 79,
-          "Postcode": {
-            "Cijfercombinatie": 8934,
-            "Lettercombinatie": "BS"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "20050201"
           },
-          "Plaats": "Leeuwarden",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999304661,
-            "IdentificatieAdresseerbaarObject": 74999999551039
+          "kvkNummer": "90002547",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Huizum-Dorp 79 8934BS Leeuwarden"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 20110101,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        }
-      ],
-      "EmailAdres": "nepemailadres@kvk.nl"
-    },
-    "Naam": "International Haysunfind",
-    "ManifesteertZichAls": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20050201,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "Onderneming": {
-        "Registratie": {
-          "DatumAanvang": 20050201,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "KvkNummer": 90002547,
-        "SbiActiviteit": [
-          {
-            "Registratie": {
-              "DatumAanvang": 20050201,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 45112,
-              "Omschrijving": "Handel in en reparatie van personenauto s en lichte bedrijfsauto\u0027s (geen import van nieuwe)",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          }
-        ],
-        "VoltijdWerkzamePersonen": 2,
-        "DeeltijdWerkzamePersonen": 1,
-        "TotaalWerkzamePersonen": 3,
-        "HandeltOnder": [
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20110101,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Haysunfind",
-              "Volgorde": 0
-            },
-            "RelatieRegistratie": null
-          }
-        ],
-        "WordtUitgeoefendIn": {
-          "RelatieRegistratie": {
-            "DatumAanvang": 20050201,
-            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "CommercieleVestiging": {
-            "Registratie": {
-              "DatumAanvang": 20050201,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20110218135310293",
+              "datumAanvang": "20110101"
             },
-            "Vestigingsnummer": 990000368210,
-            "BezoekLocatie": {
-              "Registratie": {
-                "DatumAanvang": 20110101,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Huizum-Dorp",
+                "huisnummer": "79",
+                "postcode": {
+                  "cijfercombinatie": "8934",
+                  "lettercombinatie": "BS"
+                },
+                "plaats": "Leeuwarden",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999304661",
+                  "identificatieAdresseerbaarObject": "0074999999551039"
+                }
+              }
+            },
+            "volledigAdres": "Huizum-Dorp 79 8934BS Leeuwarden"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20110218135310293",
+              "datumAanvang": "20110101"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Huizum-Dorp",
+                "huisnummer": "79",
+                "postcode": {
+                  "cijfercombinatie": "8934",
+                  "lettercombinatie": "BS"
+                },
+                "plaats": "Leeuwarden",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999304661",
+                  "identificatieAdresseerbaarObject": "0074999999551039"
+                }
+              }
+            },
+            "volledigAdres": "Huizum-Dorp 79 8934BS Leeuwarden"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstip": "20110218135310293",
+              "datumAanvang": "20110101"
+            },
+            "communicatienummer": {
+              "toegangscode": "+31",
+              "nummer": "0209999999",
+              "soort": {
+                "code": "T",
+                "omschrijving": "Telefoon"
+              }
+            },
+            "emailAdres": "nepemailadres@kvk.nl",
+            "domeinNaam": "www.kvk.nl"
+          },
+          "naam": "International Haysunfind",
+          "manifesteertZichAls": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20050201"
+            },
+            "onderneming": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20050201"
               },
-              "Afgeschermd": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Adres": {
-                "BinnenlandsAdres": {
-                  "Straatnaam": "Huizum-Dorp",
-                  "Huisnummer": 79,
-                  "Postcode": {
-                    "Cijfercombinatie": 8934,
-                    "Lettercombinatie": "BS"
-                  },
-                  "Plaats": "Leeuwarden",
-                  "BagId": {
-                    "IdentificatieNummeraanduiding": 74999999304661,
-                    "IdentificatieAdresseerbaarObject": 74999999551039
-                  },
-                  "HuisnummerToevoeging": null
+              "kvkNummer": "90002547",
+              "sbiActiviteit": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20050201"
+                },
+                "sbiCode": {
+                  "code": "45112",
+                  "omschrijving": "Handel in en reparatie van personenauto s en lichte bedrijfsauto's (geen import van nieuwe)",
+                  "referentieType": "ActiviteitCode"
+                },
+                "isHoofdactiviteit": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
                 }
               },
-              "VolledigAdres": "Huizum-Dorp 79 8934BS Leeuwarden"
-            },
-            "Communicatiegegevens": {
-              "Registratie": {
-                "DatumAanvang": 20110101,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
+              "voltijdWerkzamePersonen": "2",
+              "deeltijdWerkzamePersonen": "1",
+              "totaalWerkzamePersonen": "3",
+              "handeltOnder": {
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstip": "20110218135310293",
+                    "datumAanvang": "20110101"
+                  },
+                  "naam": "International Haysunfind",
+                  "volgorde": "0"
+                }
               },
-              "Communicatienummer": [
+              "wordtUitgeoefendIn": [
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20050201"
+                  },
+                  "commercieleVestiging": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20050201"
+                    },
+                    "vestigingsnummer": "990000368210",
+                    "bezoekLocatie": {
+                      "registratie": {
+                        "@registratieTijdstip": "20110218135310293",
+                        "datumAanvang": "20110101"
+                      },
+                      "afgeschermd": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "adres": {
+                        "binnenlandsAdres": {
+                          "straatnaam": "Huizum-Dorp",
+                          "huisnummer": "79",
+                          "postcode": {
+                            "cijfercombinatie": "8934",
+                            "lettercombinatie": "BS"
+                          },
+                          "plaats": "Leeuwarden",
+                          "bagId": {
+                            "identificatieNummeraanduiding": "0074999999304661",
+                            "identificatieAdresseerbaarObject": "0074999999551039"
+                          }
+                        }
+                      },
+                      "volledigAdres": "Huizum-Dorp 79 8934BS Leeuwarden"
+                    },
+                    "communicatiegegevens": {
+                      "registratie": {
+                        "@registratieTijdstip": "20110218135310293",
+                        "datumAanvang": "20110101"
+                      },
+                      "communicatienummer": {
+                        "toegangscode": "+31",
+                        "nummer": "0209999999",
+                        "soort": {
+                          "code": "T",
+                          "omschrijving": "Telefoon"
+                        }
+                      },
+                      "emailAdres": "nepemailadres@kvk.nl",
+                      "domeinNaam": "www.kvk.nl"
+                    },
+                    "eersteHandelsnaam": "International Haysunfind",
+                    "voltijdWerkzamePersonen": "2",
+                    "deeltijdWerkzamePersonen": "1",
+                    "totaalWerkzamePersonen": "3",
+                    "activiteiten": {
+                      "omschrijving": "Onderhouden van automobielen en motorfietsen Het verrichten van APK-keuringen voor automobielen. In- en verkoop van automobielen en bromfietsen/scooters en het onderhouden van bromfietsen/scooters.",
+                      "sbiActiviteit": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20050201"
+                        },
+                        "sbiCode": {
+                          "code": "45112",
+                          "omschrijving": "Handel in en reparatie van personenauto s en lichte bedrijfsauto's (geen import van nieuwe)",
+                          "referentieType": "ActiviteitCode"
+                        },
+                        "isHoofdactiviteit": {
+                          "code": "J",
+                          "omschrijving": "Ja",
+                          "referentieType": "geenRT"
+                        }
+                      },
+                      "exporteert": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "importeert": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "handeltOnder": {
+                      "relatieRegistratie": {
+                        "@registratieTijdstip": "20110218135310293",
+                        "datumAanvang": "20110101"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstip": "20110218135310293",
+                          "datumAanvang": "20110101"
+                        },
+                        "naam": "International Haysunfind",
+                        "volgorde": "0"
+                      }
+                    }
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstip": "20110218135310293",
+                    "datumAanvang": "20110101"
+                  },
+                  "commercieleVestiging": {
+                    "registratie": {
+                      "@registratieTijdstip": "20110218135310293",
+                      "datumAanvang": "20110101"
+                    },
+                    "vestigingsnummer": "990000051909",
+                    "bezoekLocatie": {
+                      "registratie": {
+                        "@registratieTijdstip": "20110218135310293",
+                        "datumAanvang": "20110101"
+                      },
+                      "afgeschermd": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "adres": {
+                        "binnenlandsAdres": {
+                          "straatnaam": "Park de Kotten",
+                          "huisnummer": "125",
+                          "postcode": {
+                            "cijfercombinatie": "7522",
+                            "lettercombinatie": "EG"
+                          },
+                          "plaats": "Enschede",
+                          "bagId": {
+                            "identificatieNummeraanduiding": "0074999999528253",
+                            "identificatieAdresseerbaarObject": "0074999999359392"
+                          }
+                        }
+                      },
+                      "volledigAdres": "Park de Kotten 125 7522EG Enschede"
+                    },
+                    "communicatiegegevens": {
+                      "registratie": {
+                        "@registratieTijdstip": "20110218135310293",
+                        "datumAanvang": "20110101"
+                      },
+                      "communicatienummer": {
+                        "toegangscode": "+31",
+                        "nummer": "0209999999",
+                        "soort": {
+                          "code": "T",
+                          "omschrijving": "Telefoon"
+                        }
+                      },
+                      "emailAdres": "nepemailadres@kvk.nl",
+                      "domeinNaam": "www.kvk.nl"
+                    },
+                    "eersteHandelsnaam": "International Haysunfind",
+                    "voltijdWerkzamePersonen": "0",
+                    "deeltijdWerkzamePersonen": "0",
+                    "totaalWerkzamePersonen": "0",
+                    "activiteiten": {
+                      "omschrijving": "Onderhouden van automobielen en motorfietsen Het verrichten van APK-keuringen voor automobielen. In- en verkoop van automobielen en bromfietsen/scooters en het onderhouden van bromfietsen/scooters.",
+                      "sbiActiviteit": {
+                        "registratie": {
+                          "@registratieTijdstip": "20110218135310293",
+                          "datumAanvang": "20110101"
+                        },
+                        "sbiCode": {
+                          "code": "45112",
+                          "omschrijving": "Handel in en reparatie van personenauto s en lichte bedrijfsauto's (geen import van nieuwe)",
+                          "referentieType": "ActiviteitCode"
+                        },
+                        "isHoofdactiviteit": {
+                          "code": "J",
+                          "omschrijving": "Ja",
+                          "referentieType": "geenRT"
+                        }
+                      },
+                      "exporteert": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "importeert": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "handeltOnder": {
+                      "relatieRegistratie": {
+                        "@registratieTijdstip": "20110218135310293",
+                        "datumAanvang": "20110101"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstip": "20110218135310293",
+                          "datumAanvang": "20110101"
+                        },
+                        "naam": "International Haysunfind",
+                        "volgorde": "0"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "wordtGeleidVanuit": {
+            "commercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20050201"
+              },
+              "vestigingsnummer": "990000368210",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20110218135310293",
+                  "datumAanvang": "20110101"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Huizum-Dorp",
+                    "huisnummer": "79",
+                    "postcode": {
+                      "cijfercombinatie": "8934",
+                      "lettercombinatie": "BS"
+                    },
+                    "plaats": "Leeuwarden",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999304661",
+                      "identificatieAdresseerbaarObject": "0074999999551039"
+                    }
+                  }
+                },
+                "volledigAdres": "Huizum-Dorp 79 8934BS Leeuwarden"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstip": "20110218135310293",
+                  "datumAanvang": "20110101"
+                },
+                "communicatienummer": {
+                  "toegangscode": "+31",
+                  "nummer": "0209999999",
+                  "soort": {
+                    "code": "T",
+                    "omschrijving": "Telefoon"
+                  }
+                },
+                "emailAdres": "nepemailadres@kvk.nl",
+                "domeinNaam": "www.kvk.nl"
+              },
+              "eersteHandelsnaam": "International Haysunfind",
+              "voltijdWerkzamePersonen": "2",
+              "deeltijdWerkzamePersonen": "1",
+              "totaalWerkzamePersonen": "3",
+              "activiteiten": {
+                "omschrijving": "Onderhouden van automobielen en motorfietsen Het verrichten van APK-keuringen voor automobielen. In- en verkoop van automobielen en bromfietsen/scooters en het onderhouden van bromfietsen/scooters.",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20050201"
+                  },
+                  "sbiCode": {
+                    "code": "45112",
+                    "omschrijving": "Handel in en reparatie van personenauto s en lichte bedrijfsauto's (geen import van nieuwe)",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                },
+                "exporteert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "importeert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                }
+              },
+              "handeltOnder": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20110218135310293",
+                  "datumAanvang": "20110101"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstip": "20110218135310293",
+                    "datumAanvang": "20110101"
+                  },
+                  "naam": "International Haysunfind",
+                  "volgorde": "0"
+                }
+              }
+            }
+          },
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20050201"
+            },
+            "samenwerkingsverband": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20050201"
+              },
+              "persoonRechtsvorm": "Vennootschap Onder Firma",
+              "volledigeNaam": "International Haysunfind",
+              "uitgebreideRechtsvorm": "Vennootschap Onder Firma",
+              "heeft": [
+                {
+                  "aansprakelijke": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20050201"
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Bing"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19700522"
+                        },
+                        "volledigeNaam": "Otha Bing",
+                        "geslachtsnaam": "Bing",
+                        "voornamen": "Otha",
+                        "geboortedatum": "19700522"
+                      }
+                    },
+                    "functie": {
+                      "code": "13",
+                      "omschrijving": "Vennoot",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20050201"
+                      },
+                      "soort": {
+                        "code": "bb",
+                        "omschrijving": "Beperkt bevoegd",
+                        "referentieType": "SoortBevoegdheidAansprakelijkeBijSamenwerkingsverband"
+                      },
+                      "beperkingInEuros": {
+                        "waarde": "5000",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      },
+                      "overigeBeperking": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                },
+                {
+                  "aansprakelijke": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20050201"
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Lovell"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19560505"
+                        },
+                        "volledigeNaam": "Wilson Lovell",
+                        "geslachtsnaam": "Klaasen",
+"voornamen": "Jan",
+"geboortedatum": "20000101"
+                      }
+                    },
+                    "functie": {
+                      "code": "13",
+                      "omschrijving": "Vennoot",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20050201"
+                      },
+                      "soort": {
+                        "code": "bb",
+                        "omschrijving": "Beperkt bevoegd",
+                        "referentieType": "SoortBevoegdheidAansprakelijkeBijSamenwerkingsverband"
+                      },
+                      "beperkingInEuros": {
+                        "waarde": "5000",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      },
+                      "overigeBeperking": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    }
                   }
                 }
               ],
-              "EmailAdres": "nepemailadres@kvk.nl"
-            },
-            "EersteHandelsnaam": "International Haysunfind",
-            "VoltijdWerkzamePersonen": 2,
-            "DeeltijdWerkzamePersonen": 1,
-            "TotaalWerkzamePersonen": 3,
-            "Activiteiten": {
-              "Omschrijving": "Onderhouden van automobielen en motorfietsen Het verrichten van APK-keuringen voor automobielen. In- en verkoop van automobielen en bromfietsen/scooters en het onderhouden van bromfietsen/scooters.",
-              "SbiActiviteit": {
-                "Registratie": {
-                  "DatumAanvang": 20050201,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
+              "rsin": "992959731",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20050201"
                 },
-                "SbiCode": {
-                  "Code": 45112,
-                  "Omschrijving": "Handel in en reparatie van personenauto s en lichte bedrijfsauto\u0027s (geen import van nieuwe)",
-                  "ReferentieType": "ActiviteitCode"
+                "naam": "International Haysunfind"
+              },
+              "rechtsvorm": {
+                "code": "VOF",
+                "omschrijving": "Vennootschap Onder Firma",
+                "referentieType": "Rechtsvorm"
+              },
+              "duur": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20050201"
                 },
-                "IsHoofdactiviteit": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
+                "heeftOnbepaaldeDuur": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
                 }
-              },
-              "Exporteert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Importeert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              }
-            },
-            "HandeltOnder": {
-              "Handelsnaam": {
-                "Registratie": {
-                  "DatumAanvang": 20110101,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "Naam": "International Haysunfind",
-                "Volgorde": 0
-              },
-              "RelatieRegistratie": {
-                "DatumAanvang": 20110101,
-                "RegistratieTijdstipNoValue": null
               }
             }
           }
         }
       }
-    },
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": {
-        "Registratie": {
-          "DatumAanvang": 20050201,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "Vestigingsnummer": 990000368210,
-        "BezoekLocatie": {
-          "Registratie": {
-            "DatumAanvang": 20110101,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Afgeschermd": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Adres": {
-            "BinnenlandsAdres": {
-              "Straatnaam": "Huizum-Dorp",
-              "Huisnummer": 79,
-              "Postcode": {
-                "Cijfercombinatie": 8934,
-                "Lettercombinatie": "BS"
-              },
-              "Plaats": "Leeuwarden",
-              "BagId": {
-                "IdentificatieNummeraanduiding": 74999999304661,
-                "IdentificatieAdresseerbaarObject": 74999999551039
-              },
-              "HuisnummerToevoeging": null
-            }
-          },
-          "VolledigAdres": "Huizum-Dorp 79 8934BS Leeuwarden"
-        },
-        "Communicatiegegevens": {
-          "Registratie": {
-            "DatumAanvang": 20110101,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Communicatienummer": [
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            }
-          ],
-          "EmailAdres": "nepemailadres@kvk.nl"
-        },
-        "EersteHandelsnaam": "International Haysunfind",
-        "VoltijdWerkzamePersonen": 2,
-        "DeeltijdWerkzamePersonen": 1,
-        "TotaalWerkzamePersonen": 3,
-        "Activiteiten": {
-          "Omschrijving": "Onderhouden van automobielen en motorfietsen Het verrichten van APK-keuringen voor automobielen. In- en verkoop van automobielen en bromfietsen/scooters en het onderhouden van bromfietsen/scooters.",
-          "SbiActiviteit": {
-            "Registratie": {
-              "DatumAanvang": 20050201,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 45112,
-              "Omschrijving": "Handel in en reparatie van personenauto s en lichte bedrijfsauto\u0027s (geen import van nieuwe)",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          },
-          "Exporteert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Importeert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          }
-        },
-        "HandeltOnder": {
-          "Handelsnaam": {
-            "Registratie": {
-              "DatumAanvang": 20110101,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Naam": "International Haysunfind",
-            "Volgorde": 0
-          },
-          "RelatieRegistratie": {
-            "DatumAanvang": 20110101,
-            "RegistratieTijdstipNoValue": null
-          }
-        }
-      }
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20050201,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": {
-        "Registratie": {
-          "DatumAanvang": 20050201,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "BijzondereRechtstoestand": null,
-        "PersoonRechtsvorm": "Vennootschap Onder Firma",
-        "VolledigeNaam": "Jan Klaasen",
-        "UitgebreideRechtsvorm": "Vennootschap Onder Firma",
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": {
-              "Registratie": {
-                "DatumAanvang": 20050201,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19700522,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Functie": {
-                "Code": "13",
-                "Omschrijving": "Vennoot",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Bevoegdheid": {
-                "Registratie": {
-                  "DatumAanvang": 20050201,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "Soort": {
-                  "Code": "bb",
-                  "Omschrijving": "Beperkt bevoegd"
-                },
-                "OverigeBeperking": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
-                }
-              },
-              "Functietitel": null
-            },
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": {
-              "Registratie": {
-                "DatumAanvang": 20050201,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19560505,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Functie": {
-                "Code": "13",
-                "Omschrijving": "Vennoot",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Bevoegdheid": {
-                "Registratie": {
-                  "DatumAanvang": 20050201,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "Soort": {
-                  "Code": "bb",
-                  "Omschrijving": "Beperkt bevoegd"
-                },
-                "OverigeBeperking": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
-                }
-              },
-              "Functietitel": null
-            },
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          }
-        ],
-        "Rsin": 992959731,
-        "Naamgeving": {
-          "Registratie": {
-            "DatumAanvang": 20050201,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Naam": "International Haysunfind"
-        },
-        "Ontbinding": null,
-        "Rechtsvorm": {
-          "Code": "VOF",
-          "Omschrijving": "Vennootschap Onder Firma",
-          "ReferentieType": "Rechtsvorm"
-        },
-        "Duur": {
-          "Registratie": {
-            "DatumAanvang": 20050201,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "HeeftOnbepaaldeDuur": {
-            "Code": "J",
-            "Omschrijving": "Ja",
-            "ReferentieType": "geenRT"
-          }
-        }
-      },
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": null
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

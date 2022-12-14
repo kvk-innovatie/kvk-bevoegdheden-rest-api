@@ -1,114 +1,252 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 20081120,
-      "DatumEinde": 0,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90004787,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20120415,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Mr. H. Marsmanstraat",
-          "Huisnummer": 60,
-          "Postcode": {
-            "Cijfercombinatie": 3702,
-            "Lettercombinatie": "BS"
-          },
-          "Plaats": "Zeist",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999408078,
-            "IdentificatieAdresseerbaarObject": 74999999788534
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-83791c735c9a2e041db7a32d37d8323d",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90004787"
         }
       },
-      "VolledigAdres": "Mr. H. Marsmanstraat 60 3702BS Zeist"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20120415,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Mr. H. Marsmanstraat",
-          "Huisnummer": 60,
-          "Postcode": {
-            "Cijfercombinatie": 3702,
-            "Lettercombinatie": "BS"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "20081120"
           },
-          "Plaats": "Zeist",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999408078,
-            "IdentificatieAdresseerbaarObject": 74999999788534
+          "kvkNummer": "90004787",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Mr. H. Marsmanstraat 60 3702BS Zeist"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 20081120,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
+          "sbiActiviteit": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20081120"
+            },
+            "sbiCode": {
+              "code": "94911",
+              "omschrijving": "Religieuze organisaties",
+              "referentieType": "ActiviteitCode"
+            },
+            "isHoofdactiviteit": {
+              "code": "J",
+              "omschrijving": "Ja",
+              "referentieType": "geenRT"
+            }
+          },
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
+          },
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20120525075315640",
+              "datumAanvang": "20120415"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Mr. H. Marsmanstraat",
+                "huisnummer": "60",
+                "postcode": {
+                  "cijfercombinatie": "3702",
+                  "lettercombinatie": "BS"
+                },
+                "plaats": "Zeist",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999408078",
+                  "identificatieAdresseerbaarObject": "0074999999788534"
+                }
+              }
+            },
+            "volledigAdres": "Mr. H. Marsmanstraat 60 3702BS Zeist"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20120525075315640",
+              "datumAanvang": "20120415"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Mr. H. Marsmanstraat",
+                "huisnummer": "60",
+                "postcode": {
+                  "cijfercombinatie": "3702",
+                  "lettercombinatie": "BS"
+                },
+                "plaats": "Zeist",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999408078",
+                  "identificatieAdresseerbaarObject": "0074999999788534"
+                }
+              }
+            },
+            "volledigAdres": "Mr. H. Marsmanstraat 60 3702BS Zeist"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20081120"
+            },
+            "communicatienummer": [
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "T",
+                  "omschrijving": "Telefoon"
+                }
+              },
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "F",
+                  "omschrijving": "Fax"
+                }
+              }
+            ],
+            "emailAdres": "nepemailadres@kvk.nl",
+            "domeinNaam": "www.kvk.nl"
+          },
+          "naam": "Free Sanphase",
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20081120"
+            },
+            "rechtspersoon": {
+              "extraElementen": {
+                "extraElement": [
+                  {
+                    "@naam": "datumAanvangStatuten",
+                    "#text": "20081120"
+                  },
+                  {
+                    "@naam": "datumAkteStatuten",
+                    "#text": "20081120"
+                  }
+                ]
+              },
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20081120"
+              },
+              "persoonRechtsvorm": "Kerkgenootschap",
+              "volledigeNaam": "Free Sanphase",
+              "uitgebreideRechtsvorm": "Kerkgenootschap",
+              "rsin": "992552631",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20081120"
+                },
+                "naam": "Free Sanphase"
+              },
+              "rechtsvorm": {
+                "code": "KG",
+                "omschrijving": "Kerkgenootschap",
+                "referentieType": "Rechtsvorm"
+              },
+              "statutaireZetel": "Nepplaats",
+              "aanvangStatutaireZetel": "20081120",
+              "datumAkteStatutenwijziging": "20081120",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20120525075315640",
+                  "datumAanvang": "20120415"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Mr. H. Marsmanstraat",
+                    "huisnummer": "60",
+                    "postcode": {
+                      "cijfercombinatie": "3702",
+                      "lettercombinatie": "BS"
+                    },
+                    "plaats": "Zeist",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999408078",
+                      "identificatieAdresseerbaarObject": "0074999999788534"
+                    }
+                  }
+                },
+                "volledigAdres": "Mr. H. Marsmanstraat 60 3702BS Zeist"
+              },
+              "activiteiten": {
+                "omschrijving": "Religieuze organisatie",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20081120"
+                  },
+                  "sbiCode": {
+                    "code": "94911",
+                    "omschrijving": "Religieuze organisaties",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                }
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20081120"
+                },
+                "communicatienummer": [
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "T",
+                      "omschrijving": "Telefoon"
+                    }
+                  },
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "F",
+                      "omschrijving": "Fax"
+                    }
+                  }
+                ],
+                "emailAdres": "nepemailadres@kvk.nl",
+                "domeinNaam": "www.kvk.nl"
+              }
+            }
           }
-        },
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "F",
-            "Omschrijving": "Fax"
-          }
         }
-      ],
-      "EmailAdres": "nepemailadres@kvk.nl"
-    },
-    "Naam": "Free Sanphase",
-    "ManifesteertZichAls": null,
-    "WordtGeleidVanuit": null,
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20081120,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": {
-        "VoornemenTotOntbinding": null,
-        "ActiviteitenGestaaktPer": null,
-        "Rechtsvorm": {
-          "Code": "KG",
-          "Omschrijving": "Kerkgenootschap"
-        },
-        "Heeft": [],
-        "VolledigeNaam": "Jan Klaasen",
-        "Rsin": "992552631"
       }
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

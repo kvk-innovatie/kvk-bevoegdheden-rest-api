@@ -1,595 +1,825 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 20090706,
-      "DatumEinde": 20120514,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90004329,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20120101,
-        "DatumEinde": 20120514,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Tuinstraat",
-          "Huisnummer": 75,
-          "Postcode": {
-            "Cijfercombinatie": 9404,
-            "Lettercombinatie": "KK"
-          },
-          "Plaats": "Assen",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999932345,
-            "IdentificatieAdresseerbaarObject": 74999999976209
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-e5456eb3696c4a2f227543d6e9831a6c",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90004329"
         }
       },
-      "VolledigAdres": "Tuinstraat 75 9404KK Assen"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20120101,
-        "DatumEinde": 20120514,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Tuinstraat",
-          "Huisnummer": 75,
-          "Postcode": {
-            "Cijfercombinatie": 9404,
-            "Lettercombinatie": "KK"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "20090706",
+            "datumEinde": "20120514"
           },
-          "Plaats": "Assen",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999932345,
-            "IdentificatieAdresseerbaarObject": 74999999976209
+          "kvkNummer": "90004329",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Tuinstraat 75 9404KK Assen"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 20090706,
-        "DatumEinde": 20120514,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        }
-      ],
-      "EmailAdres": null
-    },
-    "Naam": "Global Bigdublane B.V.",
-    "ManifesteertZichAls": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20090706,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Onderneming": {
-        "Registratie": {
-          "DatumAanvang": 20090706,
-          "DatumEinde": 20120514,
-          "RegistratieTijdstipNoValue": null
-        },
-        "KvkNummer": 90004329,
-        "SbiActiviteit": [
-          {
-            "Registratie": {
-              "DatumAanvang": 20090706,
-              "DatumEinde": 20120514,
-              "RegistratieTijdstipNoValue": null
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
+          },
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20120523110151603",
+              "datumAanvang": "20120101",
+              "datumEinde": "20120514"
             },
-            "SbiCode": {
-              "Code": 6420,
-              "Omschrijving": "Financi\u00EBle holdings",
-              "ReferentieType": "ActiviteitCode"
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
             },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Tuinstraat",
+                "huisnummer": "75",
+                "postcode": {
+                  "cijfercombinatie": "9404",
+                  "lettercombinatie": "KK"
+                },
+                "plaats": "Assen",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999932345",
+                  "identificatieAdresseerbaarObject": "0074999999976209"
+                }
+              }
+            },
+            "volledigAdres": "Tuinstraat 75 9404KK Assen"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20120523110151603",
+              "datumAanvang": "20120101",
+              "datumEinde": "20120514"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Tuinstraat",
+                "huisnummer": "75",
+                "postcode": {
+                  "cijfercombinatie": "9404",
+                  "lettercombinatie": "KK"
+                },
+                "plaats": "Assen",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999932345",
+                  "identificatieAdresseerbaarObject": "0074999999976209"
+                }
+              }
+            },
+            "volledigAdres": "Tuinstraat 75 9404KK Assen"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstip": "20120523110151603",
+              "datumAanvang": "20090706",
+              "datumEinde": "20120514"
+            },
+            "communicatienummer": {
+              "toegangscode": "+31",
+              "nummer": "0209999999",
+              "soort": {
+                "code": "T",
+                "omschrijving": "Telefoon"
+              }
             }
-          }
-        ],
-        "VoltijdWerkzamePersonen": 0,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 0,
-        "HandeltOnder": [
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20090706,
-                "DatumEinde": 20120514,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "Global Bigdublane B.V.",
-              "Volgorde": 0
-            },
-            "RelatieRegistratie": null
-          }
-        ],
-        "WordtUitgeoefendIn": {
-          "RelatieRegistratie": {
-            "DatumAanvang": 20090706,
-            "RegistratieTijdstipNoValue": null
           },
-          "CommercieleVestiging": {
-            "Registratie": {
-              "DatumAanvang": 20090706,
-              "DatumEinde": 20120514,
-              "RegistratieTijdstipNoValue": null
+          "naam": "Global Bigdublane B.V.",
+          "manifesteertZichAls": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20120523110151603",
+              "datumAanvang": "20090706",
+              "datumEinde": "20120514"
             },
-            "Vestigingsnummer": 990000762186,
-            "BezoekLocatie": {
-              "Registratie": {
-                "DatumAanvang": 20120101,
-                "DatumEinde": 20120514,
-                "RegistratieTijdstipNoValue": null
+            "onderneming": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20090706",
+                "datumEinde": "20120514"
               },
-              "Afgeschermd": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Adres": {
-                "BinnenlandsAdres": {
-                  "Straatnaam": "Tuinstraat",
-                  "Huisnummer": 75,
-                  "Postcode": {
-                    "Cijfercombinatie": 9404,
-                    "Lettercombinatie": "KK"
-                  },
-                  "Plaats": "Assen",
-                  "BagId": {
-                    "IdentificatieNummeraanduiding": 74999999932345,
-                    "IdentificatieAdresseerbaarObject": 74999999976209
-                  },
-                  "HuisnummerToevoeging": null
+              "kvkNummer": "90004329",
+              "sbiActiviteit": {
+                "registratie": {
+                  "@registratieTijdstip": "20120523110151603",
+                  "datumAanvang": "20090706",
+                  "datumEinde": "20120514"
+                },
+                "sbiCode": {
+                  "code": "6420",
+                  "omschrijving": "Financiële holdings",
+                  "referentieType": "ActiviteitCode"
+                },
+                "isHoofdactiviteit": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
                 }
               },
-              "VolledigAdres": "Tuinstraat 75 9404KK Assen"
-            },
-            "Communicatiegegevens": {
-              "Registratie": {
-                "DatumAanvang": 20090706,
-                "DatumEinde": 20120514,
-                "RegistratieTijdstipNoValue": null
+              "voltijdWerkzamePersonen": "0",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "0",
+              "handeltOnder": {
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20090706",
+                    "datumEinde": "20120514"
+                  },
+                  "naam": "Global Bigdublane B.V.",
+                  "volgorde": "0"
+                }
               },
-              "Communicatienummer": [
+              "wordtUitgeoefendIn": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20120523110151603",
+                  "datumAanvang": "20090706",
+                  "datumEinde": "20120514"
+                },
+                "commercieleVestiging": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20090706",
+                    "datumEinde": "20120514"
+                  },
+                  "vestigingsnummer": "990000762186",
+                  "bezoekLocatie": {
+                    "registratie": {
+                      "@registratieTijdstip": "20120523110151603",
+                      "datumAanvang": "20120101",
+                      "datumEinde": "20120514"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "straatnaam": "Tuinstraat",
+                        "huisnummer": "75",
+                        "postcode": {
+                          "cijfercombinatie": "9404",
+                          "lettercombinatie": "KK"
+                        },
+                        "plaats": "Assen",
+                        "bagId": {
+                          "identificatieNummeraanduiding": "0074999999932345",
+                          "identificatieAdresseerbaarObject": "0074999999976209"
+                        }
+                      }
+                    },
+                    "volledigAdres": "Tuinstraat 75 9404KK Assen"
+                  },
+                  "communicatiegegevens": {
+                    "registratie": {
+                      "@registratieTijdstip": "20120523110151603",
+                      "datumAanvang": "20090706",
+                      "datumEinde": "20120514"
+                    },
+                    "communicatienummer": {
+                      "toegangscode": "+31",
+                      "nummer": "0209999999",
+                      "soort": {
+                        "code": "T",
+                        "omschrijving": "Telefoon"
+                      }
+                    }
+                  },
+                  "eersteHandelsnaam": "Global Bigdublane B.V.",
+                  "voltijdWerkzamePersonen": "0",
+                  "deeltijdWerkzamePersonen": "0",
+                  "totaalWerkzamePersonen": "0",
+                  "activiteiten": {
+                    "omschrijving": "Beheer eigen vermogen",
+                    "sbiActiviteit": {
+                      "registratie": {
+                        "@registratieTijdstip": "20120523110151603",
+                        "datumAanvang": "20090706",
+                        "datumEinde": "20120514"
+                      },
+                      "sbiCode": {
+                        "code": "6420",
+                        "omschrijving": "Financiële holdings",
+                        "referentieType": "ActiviteitCode"
+                      },
+                      "isHoofdactiviteit": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "exporteert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "importeert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  "handeltOnder": {
+                    "relatieRegistratie": {
+                      "@registratieTijdstip": "20120523110151603",
+                      "datumAanvang": "20090706",
+                      "datumEinde": "20120514"
+                    },
+                    "handelsnaam": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20090706",
+                        "datumEinde": "20120514"
+                      },
+                      "naam": "Global Bigdublane B.V.",
+                      "volgorde": "0"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "wordtGeleidVanuit": {
+            "commercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20090706",
+                "datumEinde": "20120514"
+              },
+              "vestigingsnummer": "990000762186",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20120523110151603",
+                  "datumAanvang": "20120101",
+                  "datumEinde": "20120514"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Tuinstraat",
+                    "huisnummer": "75",
+                    "postcode": {
+                      "cijfercombinatie": "9404",
+                      "lettercombinatie": "KK"
+                    },
+                    "plaats": "Assen",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999932345",
+                      "identificatieAdresseerbaarObject": "0074999999976209"
+                    }
+                  }
+                },
+                "volledigAdres": "Tuinstraat 75 9404KK Assen"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstip": "20120523110151603",
+                  "datumAanvang": "20090706",
+                  "datumEinde": "20120514"
+                },
+                "communicatienummer": {
+                  "toegangscode": "+31",
+                  "nummer": "0209999999",
+                  "soort": {
+                    "code": "T",
+                    "omschrijving": "Telefoon"
+                  }
+                }
+              },
+              "eersteHandelsnaam": "Global Bigdublane B.V.",
+              "voltijdWerkzamePersonen": "0",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "0",
+              "activiteiten": {
+                "omschrijving": "Beheer eigen vermogen",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstip": "20120523110151603",
+                    "datumAanvang": "20090706",
+                    "datumEinde": "20120514"
+                  },
+                  "sbiCode": {
+                    "code": "6420",
+                    "omschrijving": "Financiële holdings",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                },
+                "exporteert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "importeert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                }
+              },
+              "handeltOnder": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20120523110151603",
+                  "datumAanvang": "20090706",
+                  "datumEinde": "20120514"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20090706",
+                    "datumEinde": "20120514"
+                  },
+                  "naam": "Global Bigdublane B.V.",
+                  "volgorde": "0"
+                }
+              }
+            }
+          },
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20120523110151603",
+              "datumAanvang": "20090706",
+              "datumEinde": "20120514"
+            },
+            "rechtspersoon": {
+              "extraElementen": {
+                "extraElement": [
+                  {
+                    "@naam": "datumAanvangStatuten",
+                    "#text": "20090706"
+                  },
+                  {
+                    "@naam": "datumAkteStatuten",
+                    "#text": "20090706"
+                  }
+                ]
+              },
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20090706",
+                "datumEinde": "20120514"
+              },
+              "persoonRechtsvorm": "Besloten Vennootschap",
+              "volledigeNaam": "Global Bigdublane B.V.",
+              "uitgebreideRechtsvorm": "Besloten Vennootschap",
+              "heeft": [
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20090706",
+                      "datumEinde": "20120514"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstip": "20120523110151603",
+                        "datumAanvang": "20090706",
+                        "datumEinde": "20120514"
+                      },
+                      "titel": "Directeur",
+                      "isStatutaireTitel": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Levan"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19840930"
+                        },
+                        "volledigeNaam": "Dodie Levan",
+                        "geslachtsnaam": "Levan",
+                        "voornamen": "Dodie",
+                        "geboortedatum": "19840930"
+                      }
+                    },
+                    "functie": {
+                      "code": "02",
+                      "omschrijving": "Bestuurder",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstip": "20120523110151603",
+                        "datumAanvang": "20090706",
+                        "datumEinde": "20120514"
+                      },
+                      "soort": {
+                        "code": "gb",
+                        "omschrijving": "Gezamenlijk bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                },
+                {
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20090706",
+                      "datumEinde": "20120514"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstip": "20120523110151603",
+                        "datumAanvang": "20090706",
+                        "datumEinde": "20120514"
+                      },
+                      "titel": "Directeur",
+                      "isStatutaireTitel": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Quinney"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19900424"
+                        },
+                        "volledigeNaam": "Jasmin Quinney",
+                        "geslachtsnaam": "Quinney",
+                        "voornamen": "Jasmin",
+                        "geboortedatum": "19900424"
+                      }
+                    },
+                    "functie": {
+                      "code": "02",
+                      "omschrijving": "Bestuurder",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstip": "20120523110151603",
+                        "datumAanvang": "20090706",
+                        "datumEinde": "20120514"
+                      },
+                      "soort": {
+                        "code": "gb",
+                        "omschrijving": "Gezamenlijk bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                },
+                {
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20090706",
+                      "datumEinde": "20120514"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstip": "20120523110151603",
+                        "datumAanvang": "20090706",
+                        "datumEinde": "20120514"
+                      },
+                      "titel": "Directeur",
+                      "isStatutaireTitel": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Mesa"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19800421"
+                        },
+                        "volledigeNaam": "Terry Mesa",
+                        "geslachtsnaam": "Klaasen",
+"voornamen": "Jan",
+"geboortedatum": "20000101"
+                      }
+                    },
+                    "functie": {
+                      "code": "02",
+                      "omschrijving": "Bestuurder",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstip": "20120523110151603",
+                        "datumAanvang": "20090706",
+                        "datumEinde": "20120514"
+                      },
+                      "soort": {
+                        "code": "gb",
+                        "omschrijving": "Gezamenlijk bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                },
+                {
+                  "gemachtigde": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20090717",
+                      "datumEinde": "20120514"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstip": "20120523110151603",
+                        "datumAanvang": "20090717",
+                        "datumEinde": "20120514"
+                      },
+                      "titel": "mede directeur",
+                      "isStatutaireTitel": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Quinney"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19900424"
+                        },
+                        "volledigeNaam": "Jasmin Quinney",
+                        "geslachtsnaam": "Quinney",
+                        "voornamen": "Jasmin",
+                        "geboortedatum": "19900424"
+                      }
+                    },
+                    "functie": {
+                      "code": "01",
+                      "omschrijving": "Gevolmachtigde",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "volmacht": {
+                      "registratie": {
+                        "@registratieTijdstip": "20120523110151603",
+                        "datumAanvang": "20090717",
+                        "datumEinde": "20120514"
+                      },
+                      "typeVolmacht": {
+                        "code": "v",
+                        "omschrijving": "Volledige volmacht",
+                        "referentieType": "VolmachtType"
+                      },
+                      "isStatutair": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                },
+                {
+                  "overigeFunctionaris": {
+                    "registratie": {
+                      "@registratieTijdstip": "20120523110151603",
+                      "datumAanvang": "20120514"
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Levan"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19840930"
+                        },
+                        "volledigeNaam": "Dodie Levan",
+                        "bezoekLocatiePersoon": {
+                          "registratie": {
+                            "@registratieTijdstipNoValue": "vastgesteldOnbekend"
+                          },
+                          "afgeschermd": {
+                            "code": "N",
+                            "omschrijving": "Nee",
+                            "referentieType": "geenRT"
+                          },
+                          "adres": {
+                            "binnenlandsAdres": {
+                              "straatnaam": "Burgemeester Boeremalaan",
+                              "huisnummer": "3",
+                              "postcode": {
+                                "cijfercombinatie": "9934",
+                                "lettercombinatie": "EM"
+                              },
+                              "plaats": "Delfzijl",
+                              "bagId": {
+                                "identificatieNummeraanduiding": "0074999999726833",
+                                "identificatieAdresseerbaarObject": "0074999999358494"
+                              }
+                            }
+                          },
+                          "volledigAdres": "Tuinstraat 75 9404KK Assen"
+                        },
+                        "geslachtsnaam": "Levan",
+                        "voornamen": "Dodie",
+                        "geboortedatum": "19840930"
+                      }
+                    },
+                    "functie": {
+                      "code": "10",
+                      "omschrijving": "Bewaarder boeken en bescheiden",
+                      "referentieType": "FunctionarisRol"
+                    }
                   }
                 }
               ],
-              "EmailAdres": null
-            },
-            "EersteHandelsnaam": "Global Bigdublane B.V.",
-            "VoltijdWerkzamePersonen": 0,
-            "DeeltijdWerkzamePersonen": 0,
-            "TotaalWerkzamePersonen": 0,
-            "Activiteiten": {
-              "Omschrijving": "Beheer eigen vermogen",
-              "SbiActiviteit": {
-                "Registratie": {
-                  "DatumAanvang": 20090706,
-                  "DatumEinde": 20120514,
-                  "RegistratieTijdstipNoValue": null
+              "rsin": "992138826",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstip": "20120523110151603",
+                  "datumAanvang": "20090706",
+                  "datumEinde": "20120514"
                 },
-                "SbiCode": {
-                  "Code": 6420,
-                  "Omschrijving": "Financi\u00EBle holdings",
-                  "ReferentieType": "ActiviteitCode"
+                "naam": "Global Bigdublane B.V."
+              },
+              "ontbinding": {
+                "registratie": {
+                  "@registratieTijdstip": "20120523110151603",
+                  "datumAanvang": "20120514"
                 },
-                "IsHoofdactiviteit": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
+                "aanleiding": {
+                  "code": "OB",
+                  "omschrijving": "Ontbindingsbesluit",
+                  "referentieType": "AanleidingOntbinding"
                 }
               },
-              "Exporteert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
+              "rechtsvorm": {
+                "code": "BV",
+                "omschrijving": "Besloten Vennootschap",
+                "referentieType": "Rechtsvorm"
               },
-              "Importeert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              }
-            },
-            "HandeltOnder": {
-              "Handelsnaam": {
-                "Registratie": {
-                  "DatumAanvang": 20090706,
-                  "DatumEinde": 20120514,
-                  "RegistratieTijdstipNoValue": null
+              "statutaireZetel": "Nepplaats",
+              "aanvangStatutaireZetel": "20090706",
+              "datumAkteOprichting": "20090706",
+              "bedragKostenOprichting": {
+                "waarde": "425",
+                "valuta": {
+                  "code": "EUR",
+                  "omschrijving": "Euro",
+                  "referentieType": "Valuta"
+                }
+              },
+              "datumEersteInschrijvingHandelsregister": "20090707",
+              "datumAkteStatutenwijziging": "20090706",
+              "stelselInrichting": {
+                "code": "D",
+                "omschrijving": "Dualistisch",
+                "referentieType": "StelselInrichting"
+              },
+              "structuur": {
+                "code": "GS",
+                "omschrijving": "Gewone structuur",
+                "referentieType": "RechtsvormStructuur"
+              },
+              "maatschappelijkKapitaal": {
+                "registratie": {
+                  "@registratieTijdstip": "20120523110151603",
+                  "datumAanvang": "20090706",
+                  "datumEinde": "20120514"
                 },
-                "Naam": "Global Bigdublane B.V.",
-                "Volgorde": 0
+                "bedrag": {
+                  "waarde": "90000",
+                  "valuta": {
+                    "code": "EUR",
+                    "omschrijving": "Euro",
+                    "referentieType": "Valuta"
+                  }
+                }
               },
-              "RelatieRegistratie": {
-                "DatumAanvang": 20090706,
-                "RegistratieTijdstipNoValue": null
+              "geplaatstKapitaal": {
+                "registratie": {
+                  "@registratieTijdstip": "20120523110151603",
+                  "datumEinde": "20120514"
+                },
+                "bedrag": {
+                  "waarde": "18000",
+                  "valuta": {
+                    "code": "EUR",
+                    "omschrijving": "Euro",
+                    "referentieType": "Valuta"
+                  }
+                }
+              },
+              "gestortKapitaal": {
+                "registratie": {
+                  "@registratieTijdstip": "20120523110151603",
+                  "datumEinde": "20120514"
+                },
+                "bedrag": {
+                  "waarde": "18000",
+                  "valuta": {
+                    "code": "EUR",
+                    "omschrijving": "Euro",
+                    "referentieType": "Valuta"
+                  }
+                }
+              },
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20120523110151603",
+                  "datumAanvang": "20120101",
+                  "datumEinde": "20120514"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Tuinstraat",
+                    "huisnummer": "75",
+                    "postcode": {
+                      "cijfercombinatie": "9404",
+                      "lettercombinatie": "KK"
+                    },
+                    "plaats": "Assen",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999932345",
+                      "identificatieAdresseerbaarObject": "0074999999976209"
+                    }
+                  }
+                },
+                "volledigAdres": "Tuinstraat 75 9404KK Assen"
               }
             }
           }
         }
-      }
-    },
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": {
-        "Registratie": {
-          "DatumAanvang": 20090706,
-          "DatumEinde": 20120514,
-          "RegistratieTijdstipNoValue": null
-        },
-        "Vestigingsnummer": 990000762186,
-        "BezoekLocatie": {
-          "Registratie": {
-            "DatumAanvang": 20120101,
-            "DatumEinde": 20120514,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Afgeschermd": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Adres": {
-            "BinnenlandsAdres": {
-              "Straatnaam": "Tuinstraat",
-              "Huisnummer": 75,
-              "Postcode": {
-                "Cijfercombinatie": 9404,
-                "Lettercombinatie": "KK"
-              },
-              "Plaats": "Assen",
-              "BagId": {
-                "IdentificatieNummeraanduiding": 74999999932345,
-                "IdentificatieAdresseerbaarObject": 74999999976209
-              },
-              "HuisnummerToevoeging": null
-            }
-          },
-          "VolledigAdres": "Tuinstraat 75 9404KK Assen"
-        },
-        "Communicatiegegevens": {
-          "Registratie": {
-            "DatumAanvang": 20090706,
-            "DatumEinde": 20120514,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Communicatienummer": [
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            }
-          ],
-          "EmailAdres": null
-        },
-        "EersteHandelsnaam": "Global Bigdublane B.V.",
-        "VoltijdWerkzamePersonen": 0,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 0,
-        "Activiteiten": {
-          "Omschrijving": "Beheer eigen vermogen",
-          "SbiActiviteit": {
-            "Registratie": {
-              "DatumAanvang": 20090706,
-              "DatumEinde": 20120514,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 6420,
-              "Omschrijving": "Financi\u00EBle holdings",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          },
-          "Exporteert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Importeert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          }
-        },
-        "HandeltOnder": {
-          "Handelsnaam": {
-            "Registratie": {
-              "DatumAanvang": 20090706,
-              "DatumEinde": 20120514,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Naam": "Global Bigdublane B.V.",
-            "Volgorde": 0
-          },
-          "RelatieRegistratie": {
-            "DatumAanvang": 20090706,
-            "RegistratieTijdstipNoValue": null
-          }
-        }
-      }
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20090706,
-        "RegistratieTijdstipNoValue": null
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": {
-        "VoornemenTotOntbinding": null,
-        "ActiviteitenGestaaktPer": null,
-        "Rechtsvorm": {
-          "Code": "BV",
-          "Omschrijving": "Besloten Vennootschap"
-        },
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19840930,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "gb",
-                  "Omschrijving": "Gezamenlijk bevoegd"
-                }
-              },
-              "Functietitel": {
-                "Titel": "Directeur"
-              }
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19900424,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "gb",
-                  "Omschrijving": "Gezamenlijk bevoegd"
-                }
-              },
-              "Functietitel": {
-                "Titel": "Directeur"
-              }
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19800421,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "gb",
-                  "Omschrijving": "Gezamenlijk bevoegd"
-                }
-              },
-              "Functietitel": {
-                "Titel": "Directeur"
-              }
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": {
-              "Functie": {
-                "Code": "01",
-                "Omschrijving": "Gevolmachtigde",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19900424,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Volmacht": {
-                "TypeVolmacht": {
-                  "Code": "v",
-                  "Omschrijving": "Volledige volmacht"
-                }
-              },
-              "Bevoegdheid": null,
-              "Functietitel": {
-                "Titel": "mede directeur"
-              }
-            },
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": {
-              "Functie": {
-                "Code": "10",
-                "Omschrijving": "Bewaarder boeken en bescheiden",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19840930,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": null,
-              "Functietitel": null
-            },
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          }
-        ],
-        "VolledigeNaam": "Jan Klaasen",
-        "Rsin": "992138826"
       }
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

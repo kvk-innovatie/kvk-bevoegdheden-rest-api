@@ -1,378 +1,383 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 19920501,
-      "DatumEinde": 0,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90001834,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 19991201,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Kievitstraat",
-          "Huisnummer": 12,
-          "Postcode": {
-            "Cijfercombinatie": 8916,
-            "Lettercombinatie": "BX"
-          },
-          "Plaats": "Leeuwarden",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999417414,
-            "IdentificatieAdresseerbaarObject": 74999999680868
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-cfe45f499f0410a1f652253721597bec",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90001834"
         }
       },
-      "VolledigAdres": "Kievitstraat 12 8916BX Leeuwarden"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 19991201,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Kievitstraat",
-          "Huisnummer": 12,
-          "Postcode": {
-            "Cijfercombinatie": 8916,
-            "Lettercombinatie": "BX"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "19920501"
           },
-          "Plaats": "Leeuwarden",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999417414,
-            "IdentificatieAdresseerbaarObject": 74999999680868
+          "kvkNummer": "90001834",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Kievitstraat 12 8916BX Leeuwarden"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 19920501,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        }
-      ],
-      "EmailAdres": "nepemailadres@kvk.nl"
-    },
-    "Naam": "Company Zimzimtam",
-    "ManifesteertZichAls": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 19920501,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "Onderneming": {
-        "Registratie": {
-          "DatumAanvang": 19920501,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "KvkNummer": 90001834,
-        "SbiActiviteit": [
-          {
-            "Registratie": {
-              "DatumAanvang": 19920501,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 5221,
-              "Omschrijving": "Dienstverlening voor vervoer over land",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          }
-        ],
-        "VoltijdWerkzamePersonen": 0,
-        "DeeltijdWerkzamePersonen": 2,
-        "TotaalWerkzamePersonen": 2,
-        "HandeltOnder": [
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 19920501,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "Company Zimzimtam Eenmanszaak",
-              "Volgorde": 0
-            },
-            "RelatieRegistratie": null
-          }
-        ],
-        "WordtUitgeoefendIn": {
-          "RelatieRegistratie": {
-            "DatumAanvang": 19920501,
-            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "CommercieleVestiging": {
-            "Registratie": {
-              "DatumAanvang": 19920501,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19991201"
             },
-            "Vestigingsnummer": 990000837261,
-            "BezoekLocatie": {
-              "Registratie": {
-                "DatumAanvang": 19991201,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Kievitstraat",
+                "huisnummer": "12",
+                "postcode": {
+                  "cijfercombinatie": "8916",
+                  "lettercombinatie": "BX"
+                },
+                "plaats": "Leeuwarden",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999417414",
+                  "identificatieAdresseerbaarObject": "0074999999680868"
+                }
+              }
+            },
+            "volledigAdres": "Kievitstraat 12 8916BX Leeuwarden"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19991201"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Kievitstraat",
+                "huisnummer": "12",
+                "postcode": {
+                  "cijfercombinatie": "8916",
+                  "lettercombinatie": "BX"
+                },
+                "plaats": "Leeuwarden",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999417414",
+                  "identificatieAdresseerbaarObject": "0074999999680868"
+                }
+              }
+            },
+            "volledigAdres": "Kievitstraat 12 8916BX Leeuwarden"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19920501"
+            },
+            "communicatienummer": {
+              "toegangscode": "+31",
+              "nummer": "0209999999",
+              "soort": {
+                "code": "T",
+                "omschrijving": "Telefoon"
+              }
+            },
+            "emailAdres": "nepemailadres@kvk.nl"
+          },
+          "naam": "Company Zimzimtam",
+          "manifesteertZichAls": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19920501"
+            },
+            "onderneming": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19920501"
               },
-              "Afgeschermd": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Adres": {
-                "BinnenlandsAdres": {
-                  "Straatnaam": "Kievitstraat",
-                  "Huisnummer": 12,
-                  "Postcode": {
-                    "Cijfercombinatie": 8916,
-                    "Lettercombinatie": "BX"
-                  },
-                  "Plaats": "Leeuwarden",
-                  "BagId": {
-                    "IdentificatieNummeraanduiding": 74999999417414,
-                    "IdentificatieAdresseerbaarObject": 74999999680868
-                  },
-                  "HuisnummerToevoeging": null
+              "kvkNummer": "90001834",
+              "sbiActiviteit": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19920501"
+                },
+                "sbiCode": {
+                  "code": "5221",
+                  "omschrijving": "Dienstverlening voor vervoer over land",
+                  "referentieType": "ActiviteitCode"
+                },
+                "isHoofdactiviteit": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
                 }
               },
-              "VolledigAdres": "Kievitstraat 12 8916BX Leeuwarden"
-            },
-            "Communicatiegegevens": {
-              "Registratie": {
-                "DatumAanvang": 19920501,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
+              "voltijdWerkzamePersonen": "0",
+              "deeltijdWerkzamePersonen": "2",
+              "totaalWerkzamePersonen": "2",
+              "handeltOnder": {
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19920501"
+                  },
+                  "naam": "Company Zimzimtam Eenmanszaak",
+                  "volgorde": "0"
+                }
               },
-              "Communicatienummer": [
-                {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
+              "wordtUitgeoefendIn": {
+                "relatieRegistratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19920501"
+                },
+                "commercieleVestiging": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19920501"
+                  },
+                  "vestigingsnummer": "990000837261",
+                  "bezoekLocatie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19991201"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "straatnaam": "Kievitstraat",
+                        "huisnummer": "12",
+                        "postcode": {
+                          "cijfercombinatie": "8916",
+                          "lettercombinatie": "BX"
+                        },
+                        "plaats": "Leeuwarden",
+                        "bagId": {
+                          "identificatieNummeraanduiding": "0074999999417414",
+                          "identificatieAdresseerbaarObject": "0074999999680868"
+                        }
+                      }
+                    },
+                    "volledigAdres": "Kievitstraat 12 8916BX Leeuwarden"
+                  },
+                  "communicatiegegevens": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19920501"
+                    },
+                    "communicatienummer": {
+                      "toegangscode": "+31",
+                      "nummer": "0209999999",
+                      "soort": {
+                        "code": "T",
+                        "omschrijving": "Telefoon"
+                      }
+                    },
+                    "emailAdres": "nepemailadres@kvk.nl"
+                  },
+                  "eersteHandelsnaam": "Company Zimzimtam Eenmanszaak",
+                  "voltijdWerkzamePersonen": "0",
+                  "deeltijdWerkzamePersonen": "2",
+                  "totaalWerkzamePersonen": "2",
+                  "activiteiten": {
+                    "omschrijving": "Verhuur van garageboxen",
+                    "sbiActiviteit": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19920501"
+                      },
+                      "sbiCode": {
+                        "code": "5221",
+                        "omschrijving": "Dienstverlening voor vervoer over land",
+                        "referentieType": "ActiviteitCode"
+                      },
+                      "isHoofdactiviteit": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "exporteert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "importeert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  "handeltOnder": {
+                    "relatieRegistratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19920501"
+                    },
+                    "handelsnaam": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19920501"
+                      },
+                      "naam": "Company Zimzimtam Eenmanszaak",
+                      "volgorde": "0"
+                    }
                   }
                 }
-              ],
-              "EmailAdres": "nepemailadres@kvk.nl"
-            },
-            "EersteHandelsnaam": "Company Zimzimtam Eenmanszaak",
-            "VoltijdWerkzamePersonen": 0,
-            "DeeltijdWerkzamePersonen": 2,
-            "TotaalWerkzamePersonen": 2,
-            "Activiteiten": {
-              "Omschrijving": "Verhuur van garageboxen",
-              "SbiActiviteit": {
-                "Registratie": {
-                  "DatumAanvang": 19920501,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
+              }
+            }
+          },
+          "wordtGeleidVanuit": {
+            "commercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19920501"
+              },
+              "vestigingsnummer": "990000837261",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19991201"
                 },
-                "SbiCode": {
-                  "Code": 5221,
-                  "Omschrijving": "Dienstverlening voor vervoer over land",
-                  "ReferentieType": "ActiviteitCode"
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
                 },
-                "IsHoofdactiviteit": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Kievitstraat",
+                    "huisnummer": "12",
+                    "postcode": {
+                      "cijfercombinatie": "8916",
+                      "lettercombinatie": "BX"
+                    },
+                    "plaats": "Leeuwarden",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999417414",
+                      "identificatieAdresseerbaarObject": "0074999999680868"
+                    }
+                  }
+                },
+                "volledigAdres": "Kievitstraat 12 8916BX Leeuwarden"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19920501"
+                },
+                "communicatienummer": {
+                  "toegangscode": "+31",
+                  "nummer": "0209999999",
+                  "soort": {
+                    "code": "T",
+                    "omschrijving": "Telefoon"
+                  }
+                },
+                "emailAdres": "nepemailadres@kvk.nl"
+              },
+              "eersteHandelsnaam": "Company Zimzimtam Eenmanszaak",
+              "voltijdWerkzamePersonen": "0",
+              "deeltijdWerkzamePersonen": "2",
+              "totaalWerkzamePersonen": "2",
+              "activiteiten": {
+                "omschrijving": "Verhuur van garageboxen",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19920501"
+                  },
+                  "sbiCode": {
+                    "code": "5221",
+                    "omschrijving": "Dienstverlening voor vervoer over land",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                },
+                "exporteert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "importeert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
                 }
               },
-              "Exporteert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Importeert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              }
-            },
-            "HandeltOnder": {
-              "Handelsnaam": {
-                "Registratie": {
-                  "DatumAanvang": 19920501,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
+              "handeltOnder": {
+                "relatieRegistratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19920501"
                 },
-                "Naam": "Company Zimzimtam Eenmanszaak",
-                "Volgorde": 0
-              },
-              "RelatieRegistratie": {
-                "DatumAanvang": 19920501,
-                "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19920501"
+                  },
+                  "naam": "Company Zimzimtam Eenmanszaak",
+                  "volgorde": "0"
+                }
               }
+            }
+          },
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19920501"
+            },
+            "natuurlijkPersoon": {
+              "extraElementen": {
+                "extraElement": [
+                  {
+                    "@naam": "voorvoegsel",
+                    "#text": "de"
+                  },
+                  {
+                    "@naam": "achternaam",
+                    "#text": "Gaines"
+                  }
+                ]
+              },
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19691021"
+              },
+              "persoonRechtsvorm": "Eenmanszaak",
+              "volledigeNaam": "Mallie Gaines",
+              "uitgebreideRechtsvorm": "Eenmanszaak",
+              "geslachtsnaam": "Gaines",
+              "voorvoegselGeslachtsnaam": "de",
+              "voornamen": "Mallie",
+              "geboortedatum": "19691021"
             }
           }
         }
       }
-    },
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": {
-        "Registratie": {
-          "DatumAanvang": 19920501,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "Vestigingsnummer": 990000837261,
-        "BezoekLocatie": {
-          "Registratie": {
-            "DatumAanvang": 19991201,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Afgeschermd": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Adres": {
-            "BinnenlandsAdres": {
-              "Straatnaam": "Kievitstraat",
-              "Huisnummer": 12,
-              "Postcode": {
-                "Cijfercombinatie": 8916,
-                "Lettercombinatie": "BX"
-              },
-              "Plaats": "Leeuwarden",
-              "BagId": {
-                "IdentificatieNummeraanduiding": 74999999417414,
-                "IdentificatieAdresseerbaarObject": 74999999680868
-              },
-              "HuisnummerToevoeging": null
-            }
-          },
-          "VolledigAdres": "Kievitstraat 12 8916BX Leeuwarden"
-        },
-        "Communicatiegegevens": {
-          "Registratie": {
-            "DatumAanvang": 19920501,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Communicatienummer": [
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            }
-          ],
-          "EmailAdres": "nepemailadres@kvk.nl"
-        },
-        "EersteHandelsnaam": "Company Zimzimtam Eenmanszaak",
-        "VoltijdWerkzamePersonen": 0,
-        "DeeltijdWerkzamePersonen": 2,
-        "TotaalWerkzamePersonen": 2,
-        "Activiteiten": {
-          "Omschrijving": "Verhuur van garageboxen",
-          "SbiActiviteit": {
-            "Registratie": {
-              "DatumAanvang": 19920501,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 5221,
-              "Omschrijving": "Dienstverlening voor vervoer over land",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          },
-          "Exporteert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Importeert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          }
-        },
-        "HandeltOnder": {
-          "Handelsnaam": {
-            "Registratie": {
-              "DatumAanvang": 19920501,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Naam": "Company Zimzimtam Eenmanszaak",
-            "Volgorde": 0
-          },
-          "RelatieRegistratie": {
-            "DatumAanvang": 19920501,
-            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-          }
-        }
-      }
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 19920501,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "NatuurlijkPersoon": {
-        "ExtraElementen": {
-          "ExtraElement": {
-            "Naam": "voorvoegsel"
-          }
-        },
-        "Registratie": {
-          "DatumAanvang": 19691021,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "PersoonRechtsvorm": "Eenmanszaak",
-        "VolledigeNaam": "Jan Klaasen",
-        "UitgebreideRechtsvorm": "Eenmanszaak",
-        "Geslachtsnaam": "Klaasen",
-        "Voornamen": "Jan",
-        "Heeft": [],
-        "Geboortedatum": "20000101"
-      },
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": null
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

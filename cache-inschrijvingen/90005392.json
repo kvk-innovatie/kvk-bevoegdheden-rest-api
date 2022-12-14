@@ -1,253 +1,437 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 20051104,
-      "DatumEinde": 0,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90005392,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20051104,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Apeldoornseweg",
-          "Huisnummer": 148,
-          "Postcode": {
-            "Cijfercombinatie": 6733,
-            "Lettercombinatie": "SC"
-          },
-          "Plaats": "Wekerom",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999159356,
-            "IdentificatieAdresseerbaarObject": 74999999607331
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-cbf42fbed86e0915de8943338c17cac8",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90005392"
         }
       },
-      "VolledigAdres": "Apeldoornseweg 148 6733SC Wekerom"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20051104,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Apeldoornseweg",
-          "Huisnummer": 148,
-          "Postcode": {
-            "Cijfercombinatie": 6733,
-            "Lettercombinatie": "SC"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "20051104"
           },
-          "Plaats": "Wekerom",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999159356,
-            "IdentificatieAdresseerbaarObject": 74999999607331
+          "kvkNummer": "90005392",
+          "nonMailing": {
+            "code": "J",
+            "omschrijving": "Ja",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
+          "sbiActiviteit": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20051104"
+            },
+            "sbiCode": {
+              "code": "94997",
+              "omschrijving": "Overige belangenbehartiging n.e.g.",
+              "referentieType": "ActiviteitCode"
+            },
+            "isHoofdactiviteit": {
+              "code": "J",
+              "omschrijving": "Ja",
+              "referentieType": "geenRT"
+            }
+          },
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
+          },
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20051104"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Apeldoornseweg",
+                "huisnummer": "148",
+                "postcode": {
+                  "cijfercombinatie": "6733",
+                  "lettercombinatie": "SC"
+                },
+                "plaats": "Wekerom",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999159356",
+                  "identificatieAdresseerbaarObject": "0074999999607331"
+                }
+              }
+            },
+            "volledigAdres": "Apeldoornseweg 148 6733SC Wekerom"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20051104"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Apeldoornseweg",
+                "huisnummer": "148",
+                "postcode": {
+                  "cijfercombinatie": "6733",
+                  "lettercombinatie": "SC"
+                },
+                "plaats": "Wekerom",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999159356",
+                  "identificatieAdresseerbaarObject": "0074999999607331"
+                }
+              }
+            },
+            "volledigAdres": "Apeldoornseweg 148 6733SC Wekerom"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20051104"
+            },
+            "communicatienummer": [
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "T",
+                  "omschrijving": "Telefoon"
+                }
+              },
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "T",
+                  "omschrijving": "Telefoon"
+                }
+              }
+            ],
+            "emailAdres": "nepemailadres@kvk.nl"
+          },
+          "naam": "Grand Medunodox",
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20051104"
+            },
+            "rechtspersoon": {
+              "extraElementen": {
+                "extraElement": [
+                  {
+                    "@naam": "datumAanvangStatuten",
+                    "#text": "20051104"
+                  },
+                  {
+                    "@naam": "datumAkteStatuten",
+                    "#text": "20051104"
+                  }
+                ]
+              },
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20051104"
+              },
+              "persoonRechtsvorm": "Vereniging van Eigenaars",
+              "volledigeNaam": "Grand Medunodox",
+              "uitgebreideRechtsvorm": "Vereniging van Eigenaars",
+              "heeft": [
+                {
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20071114"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20071114"
+                      },
+                      "titel": "Voorzitter",
+                      "isStatutaireTitel": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": [
+                            {
+                              "@naam": "voorvoegsel",
+                              "#text": "van de"
+                            },
+                            {
+                              "@naam": "achternaam",
+                              "#text": "Apodaca"
+                            }
+                          ]
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19851003"
+                        },
+                        "volledigeNaam": "Raye Apodaca",
+                        "geslachtsnaam": "Apodaca",
+                        "voorvoegselGeslachtsnaam": "van de",
+                        "voornamen": "Raye",
+                        "geboortedatum": "19851003"
+                      }
+                    },
+                    "functie": {
+                      "code": "02",
+                      "omschrijving": "Bestuurder",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20071114"
+                      },
+                      "soort": {
+                        "code": "azb",
+                        "omschrijving": "Alleen/zelfstandig bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                },
+                {
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20071114"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20071114"
+                      },
+                      "titel": "Penningmeester",
+                      "isStatutaireTitel": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Daye"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19710506"
+                        },
+                        "volledigeNaam": "Rudolph Daye",
+                        "geslachtsnaam": "Klaasen",
+"voornamen": "Jan",
+"geboortedatum": "20000101"
+                      }
+                    },
+                    "functie": {
+                      "code": "02",
+                      "omschrijving": "Bestuurder",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20071114"
+                      },
+                      "soort": {
+                        "code": "azb",
+                        "omschrijving": "Alleen/zelfstandig bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                },
+                {
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstip": "20120222111230271",
+                      "datumAanvang": "20111214"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstip": "20120222111230271",
+                        "datumAanvang": "20111214"
+                      },
+                      "titel": "Secretaris",
+                      "isStatutaireTitel": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Atterberry"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19851022"
+                        },
+                        "volledigeNaam": "Jefferson Atterberry",
+                        "geslachtsnaam": "Atterberry",
+                        "voornamen": "Jefferson",
+                        "geboortedatum": "19851022"
+                      }
+                    },
+                    "functie": {
+                      "code": "02",
+                      "omschrijving": "Bestuurder",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstip": "20120222111230271",
+                        "datumAanvang": "20111214"
+                      },
+                      "soort": {
+                        "code": "gb",
+                        "omschrijving": "Gezamenlijk bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                }
+              ],
+              "rsin": "992621082",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20051104"
+                },
+                "naam": "Grand Medunodox"
+              },
+              "rechtsvorm": {
+                "code": "VvE",
+                "omschrijving": "Vereniging van Eigenaars",
+                "referentieType": "Rechtsvorm"
+              },
+              "statutaireZetel": "Nepplaats",
+              "aanvangStatutaireZetel": "20051104",
+              "datumAkteOprichting": "20051104",
+              "datumAkteStatutenwijziging": "20051104",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20051104"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Apeldoornseweg",
+                    "huisnummer": "148",
+                    "postcode": {
+                      "cijfercombinatie": "6733",
+                      "lettercombinatie": "SC"
+                    },
+                    "plaats": "Wekerom",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999159356",
+                      "identificatieAdresseerbaarObject": "0074999999607331"
+                    }
+                  }
+                },
+                "volledigAdres": "Apeldoornseweg 148 6733SC Wekerom"
+              },
+              "activiteiten": {
+                "omschrijving": "Het behartigen van de gemeenschappelijke belangen van de eigenaars",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20051104"
+                  },
+                  "sbiCode": {
+                    "code": "94997",
+                    "omschrijving": "Overige belangenbehartiging n.e.g.",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                }
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20051104"
+                },
+                "communicatienummer": [
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "T",
+                      "omschrijving": "Telefoon"
+                    }
+                  },
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "T",
+                      "omschrijving": "Telefoon"
+                    }
+                  }
+                ],
+                "emailAdres": "nepemailadres@kvk.nl"
+              }
+            }
+          }
         }
-      },
-      "VolledigAdres": "Apeldoornseweg 148 6733SC Wekerom"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 20051104,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        },
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        }
-      ],
-      "EmailAdres": "nepemailadres@kvk.nl"
-    },
-    "Naam": "Grand Medunodox",
-    "ManifesteertZichAls": null,
-    "WordtGeleidVanuit": null,
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20051104,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": {
-        "VoornemenTotOntbinding": null,
-        "ActiviteitenGestaaktPer": null,
-        "Rechtsvorm": {
-          "Code": "VvE",
-          "Omschrijving": "Vereniging van Eigenaars"
-        },
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "voorvoegsel"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19851003,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "azb",
-                  "Omschrijving": "Alleen/zelfstandig bevoegd"
-                }
-              },
-              "Functietitel": {
-                "Titel": "Voorzitter"
-              }
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19710506,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "azb",
-                  "Omschrijving": "Alleen/zelfstandig bevoegd"
-                }
-              },
-              "Functietitel": {
-                "Titel": "Penningmeester"
-              }
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19851022,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "gb",
-                  "Omschrijving": "Gezamenlijk bevoegd"
-                }
-              },
-              "Functietitel": {
-                "Titel": "Secretaris"
-              }
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          }
-        ],
-        "VolledigeNaam": "Jan Klaasen",
-        "Rsin": "992621082"
       }
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

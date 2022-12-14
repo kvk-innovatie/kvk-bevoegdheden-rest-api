@@ -1,378 +1,401 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 20100401,
-      "DatumEinde": 20120221,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90003020,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20100422,
-        "DatumEinde": 20120221,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Pastoor Bontestraat",
-          "Huisnummer": 14,
-          "Postcode": {
-            "Cijfercombinatie": 4891,
-            "Lettercombinatie": "BG"
-          },
-          "Plaats": "Rijsbergen",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999395804,
-            "IdentificatieAdresseerbaarObject": 74999999742479
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-b9f765024815f86b59b1861e24acc1f0",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90003020"
         }
       },
-      "VolledigAdres": "Pastoor Bontestraat 14 4891BG Rijsbergen"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20100422,
-        "DatumEinde": 20120221,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Pastoor Bontestraat",
-          "Huisnummer": 14,
-          "Postcode": {
-            "Cijfercombinatie": 4891,
-            "Lettercombinatie": "BG"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "20100401",
+            "datumEinde": "20120221"
           },
-          "Plaats": "Rijsbergen",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999395804,
-            "IdentificatieAdresseerbaarObject": 74999999742479
+          "kvkNummer": "90003020",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Pastoor Bontestraat 14 4891BG Rijsbergen"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 20100401,
-        "DatumEinde": 20120221,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        }
-      ],
-      "EmailAdres": "nepemailadres@kvk.nl"
-    },
-    "Naam": "Regional Lamtech",
-    "ManifesteertZichAls": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20100401,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Onderneming": {
-        "Registratie": {
-          "DatumAanvang": 20100401,
-          "DatumEinde": 20120221,
-          "RegistratieTijdstipNoValue": null
-        },
-        "KvkNummer": 90003020,
-        "SbiActiviteit": [
-          {
-            "Registratie": {
-              "DatumAanvang": 20100401,
-              "DatumEinde": 20120221,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 47919,
-              "Omschrijving": "Detailhandel via postorder en internet in een algemeen assortiment non-food",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          }
-        ],
-        "VoltijdWerkzamePersonen": 1,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 1,
-        "HandeltOnder": [
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20100401,
-                "DatumEinde": 20120221,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "Regional Lamtech Eenmanszaak",
-              "Volgorde": 0
-            },
-            "RelatieRegistratie": null
-          }
-        ],
-        "WordtUitgeoefendIn": {
-          "RelatieRegistratie": {
-            "DatumAanvang": 20100401,
-            "RegistratieTijdstipNoValue": null
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "CommercieleVestiging": {
-            "Registratie": {
-              "DatumAanvang": 20100401,
-              "DatumEinde": 20120221,
-              "RegistratieTijdstipNoValue": null
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20120404100133889",
+              "datumAanvang": "20100422",
+              "datumEinde": "20120221"
             },
-            "Vestigingsnummer": 990000246510,
-            "BezoekLocatie": {
-              "Registratie": {
-                "DatumAanvang": 20100422,
-                "DatumEinde": 20120221,
-                "RegistratieTijdstipNoValue": null
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Pastoor Bontestraat",
+                "huisnummer": "14",
+                "postcode": {
+                  "cijfercombinatie": "4891",
+                  "lettercombinatie": "BG"
+                },
+                "plaats": "Rijsbergen",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999395804",
+                  "identificatieAdresseerbaarObject": "0074999999742479"
+                }
+              }
+            },
+            "volledigAdres": "Pastoor Bontestraat 14 4891BG Rijsbergen"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20120404100133889",
+              "datumAanvang": "20100422",
+              "datumEinde": "20120221"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Pastoor Bontestraat",
+                "huisnummer": "14",
+                "postcode": {
+                  "cijfercombinatie": "4891",
+                  "lettercombinatie": "BG"
+                },
+                "plaats": "Rijsbergen",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999395804",
+                  "identificatieAdresseerbaarObject": "0074999999742479"
+                }
+              }
+            },
+            "volledigAdres": "Pastoor Bontestraat 14 4891BG Rijsbergen"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstip": "20120404100133889",
+              "datumAanvang": "20100401",
+              "datumEinde": "20120221"
+            },
+            "communicatienummer": {
+              "toegangscode": "+31",
+              "nummer": "0209999999",
+              "soort": {
+                "code": "T",
+                "omschrijving": "Telefoon"
+              }
+            },
+            "emailAdres": "nepemailadres@kvk.nl",
+            "domeinNaam": "www.kvk.nl"
+          },
+          "naam": "Regional Lamtech",
+          "manifesteertZichAls": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20120404100133889",
+              "datumAanvang": "20100401",
+              "datumEinde": "20120221"
+            },
+            "onderneming": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20100401",
+                "datumEinde": "20120221"
               },
-              "Afgeschermd": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Adres": {
-                "BinnenlandsAdres": {
-                  "Straatnaam": "Pastoor Bontestraat",
-                  "Huisnummer": 14,
-                  "Postcode": {
-                    "Cijfercombinatie": 4891,
-                    "Lettercombinatie": "BG"
-                  },
-                  "Plaats": "Rijsbergen",
-                  "BagId": {
-                    "IdentificatieNummeraanduiding": 74999999395804,
-                    "IdentificatieAdresseerbaarObject": 74999999742479
-                  },
-                  "HuisnummerToevoeging": null
+              "kvkNummer": "90003020",
+              "sbiActiviteit": {
+                "registratie": {
+                  "@registratieTijdstip": "20120404100133889",
+                  "datumAanvang": "20100401",
+                  "datumEinde": "20120221"
+                },
+                "sbiCode": {
+                  "code": "47919",
+                  "omschrijving": "Detailhandel via postorder en internet in een algemeen assortiment non-food",
+                  "referentieType": "ActiviteitCode"
+                },
+                "isHoofdactiviteit": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
                 }
               },
-              "VolledigAdres": "Pastoor Bontestraat 14 4891BG Rijsbergen"
-            },
-            "Communicatiegegevens": {
-              "Registratie": {
-                "DatumAanvang": 20100401,
-                "DatumEinde": 20120221,
-                "RegistratieTijdstipNoValue": null
+              "voltijdWerkzamePersonen": "1",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "1",
+              "handeltOnder": {
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20100401",
+                    "datumEinde": "20120221"
+                  },
+                  "naam": "Regional Lamtech Eenmanszaak",
+                  "volgorde": "0"
+                }
               },
-              "Communicatienummer": [
-                {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
+              "wordtUitgeoefendIn": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20120404100133889",
+                  "datumAanvang": "20100401",
+                  "datumEinde": "20120221"
+                },
+                "commercieleVestiging": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20100401",
+                    "datumEinde": "20120221"
+                  },
+                  "vestigingsnummer": "990000246510",
+                  "bezoekLocatie": {
+                    "registratie": {
+                      "@registratieTijdstip": "20120404100133889",
+                      "datumAanvang": "20100422",
+                      "datumEinde": "20120221"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "straatnaam": "Pastoor Bontestraat",
+                        "huisnummer": "14",
+                        "postcode": {
+                          "cijfercombinatie": "4891",
+                          "lettercombinatie": "BG"
+                        },
+                        "plaats": "Rijsbergen",
+                        "bagId": {
+                          "identificatieNummeraanduiding": "0074999999395804",
+                          "identificatieAdresseerbaarObject": "0074999999742479"
+                        }
+                      }
+                    },
+                    "volledigAdres": "Pastoor Bontestraat 14 4891BG Rijsbergen"
+                  },
+                  "communicatiegegevens": {
+                    "registratie": {
+                      "@registratieTijdstip": "20120404100133889",
+                      "datumAanvang": "20100401",
+                      "datumEinde": "20120221"
+                    },
+                    "communicatienummer": {
+                      "toegangscode": "+31",
+                      "nummer": "0209999999",
+                      "soort": {
+                        "code": "T",
+                        "omschrijving": "Telefoon"
+                      }
+                    },
+                    "emailAdres": "nepemailadres@kvk.nl",
+                    "domeinNaam": "www.kvk.nl"
+                  },
+                  "eersteHandelsnaam": "Regional Lamtech Eenmanszaak",
+                  "voltijdWerkzamePersonen": "1",
+                  "deeltijdWerkzamePersonen": "0",
+                  "totaalWerkzamePersonen": "1",
+                  "activiteiten": {
+                    "omschrijving": "In- en verkoop van ongeregelde goederen en partijen via internet",
+                    "sbiActiviteit": {
+                      "registratie": {
+                        "@registratieTijdstip": "20120404100133889",
+                        "datumAanvang": "20100401",
+                        "datumEinde": "20120221"
+                      },
+                      "sbiCode": {
+                        "code": "47919",
+                        "omschrijving": "Detailhandel via postorder en internet in een algemeen assortiment non-food",
+                        "referentieType": "ActiviteitCode"
+                      },
+                      "isHoofdactiviteit": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "exporteert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "importeert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  "handeltOnder": {
+                    "relatieRegistratie": {
+                      "@registratieTijdstip": "20120404100133889",
+                      "datumAanvang": "20100401",
+                      "datumEinde": "20120221"
+                    },
+                    "handelsnaam": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20100401",
+                        "datumEinde": "20120221"
+                      },
+                      "naam": "Regional Lamtech Eenmanszaak",
+                      "volgorde": "0"
+                    }
                   }
                 }
-              ],
-              "EmailAdres": "nepemailadres@kvk.nl"
-            },
-            "EersteHandelsnaam": "Regional Lamtech Eenmanszaak",
-            "VoltijdWerkzamePersonen": 1,
-            "DeeltijdWerkzamePersonen": 0,
-            "TotaalWerkzamePersonen": 1,
-            "Activiteiten": {
-              "Omschrijving": "In- en verkoop van ongeregelde goederen en partijen via internet",
-              "SbiActiviteit": {
-                "Registratie": {
-                  "DatumAanvang": 20100401,
-                  "DatumEinde": 20120221,
-                  "RegistratieTijdstipNoValue": null
+              }
+            }
+          },
+          "wordtGeleidVanuit": {
+            "commercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20100401",
+                "datumEinde": "20120221"
+              },
+              "vestigingsnummer": "990000246510",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20120404100133889",
+                  "datumAanvang": "20100422",
+                  "datumEinde": "20120221"
                 },
-                "SbiCode": {
-                  "Code": 47919,
-                  "Omschrijving": "Detailhandel via postorder en internet in een algemeen assortiment non-food",
-                  "ReferentieType": "ActiviteitCode"
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
                 },
-                "IsHoofdactiviteit": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Pastoor Bontestraat",
+                    "huisnummer": "14",
+                    "postcode": {
+                      "cijfercombinatie": "4891",
+                      "lettercombinatie": "BG"
+                    },
+                    "plaats": "Rijsbergen",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999395804",
+                      "identificatieAdresseerbaarObject": "0074999999742479"
+                    }
+                  }
+                },
+                "volledigAdres": "Pastoor Bontestraat 14 4891BG Rijsbergen"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstip": "20120404100133889",
+                  "datumAanvang": "20100401",
+                  "datumEinde": "20120221"
+                },
+                "communicatienummer": {
+                  "toegangscode": "+31",
+                  "nummer": "0209999999",
+                  "soort": {
+                    "code": "T",
+                    "omschrijving": "Telefoon"
+                  }
+                },
+                "emailAdres": "nepemailadres@kvk.nl",
+                "domeinNaam": "www.kvk.nl"
+              },
+              "eersteHandelsnaam": "Regional Lamtech Eenmanszaak",
+              "voltijdWerkzamePersonen": "1",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "1",
+              "activiteiten": {
+                "omschrijving": "In- en verkoop van ongeregelde goederen en partijen via internet",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstip": "20120404100133889",
+                    "datumAanvang": "20100401",
+                    "datumEinde": "20120221"
+                  },
+                  "sbiCode": {
+                    "code": "47919",
+                    "omschrijving": "Detailhandel via postorder en internet in een algemeen assortiment non-food",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                },
+                "exporteert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "importeert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
                 }
               },
-              "Exporteert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Importeert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              }
-            },
-            "HandeltOnder": {
-              "Handelsnaam": {
-                "Registratie": {
-                  "DatumAanvang": 20100401,
-                  "DatumEinde": 20120221,
-                  "RegistratieTijdstipNoValue": null
+              "handeltOnder": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20120404100133889",
+                  "datumAanvang": "20100401",
+                  "datumEinde": "20120221"
                 },
-                "Naam": "Regional Lamtech Eenmanszaak",
-                "Volgorde": 0
-              },
-              "RelatieRegistratie": {
-                "DatumAanvang": 20100401,
-                "RegistratieTijdstipNoValue": null
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20100401",
+                    "datumEinde": "20120221"
+                  },
+                  "naam": "Regional Lamtech Eenmanszaak",
+                  "volgorde": "0"
+                }
               }
+            }
+          },
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20120404100133889",
+              "datumAanvang": "20100401",
+              "datumEinde": "20120221"
+            },
+            "natuurlijkPersoon": {
+              "extraElementen": {
+                "extraElement": {
+                  "@naam": "achternaam",
+                  "#text": "Northern"
+                }
+              },
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19731125"
+              },
+              "persoonRechtsvorm": "Eenmanszaak",
+              "volledigeNaam": "Jerrold Northern",
+              "uitgebreideRechtsvorm": "Eenmanszaak",
+              "geslachtsnaam": "Klaasen",
+"voornamen": "Jan",
+"geboortedatum": "20000101"
             }
           }
         }
       }
-    },
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": {
-        "Registratie": {
-          "DatumAanvang": 20100401,
-          "DatumEinde": 20120221,
-          "RegistratieTijdstipNoValue": null
-        },
-        "Vestigingsnummer": 990000246510,
-        "BezoekLocatie": {
-          "Registratie": {
-            "DatumAanvang": 20100422,
-            "DatumEinde": 20120221,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Afgeschermd": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Adres": {
-            "BinnenlandsAdres": {
-              "Straatnaam": "Pastoor Bontestraat",
-              "Huisnummer": 14,
-              "Postcode": {
-                "Cijfercombinatie": 4891,
-                "Lettercombinatie": "BG"
-              },
-              "Plaats": "Rijsbergen",
-              "BagId": {
-                "IdentificatieNummeraanduiding": 74999999395804,
-                "IdentificatieAdresseerbaarObject": 74999999742479
-              },
-              "HuisnummerToevoeging": null
-            }
-          },
-          "VolledigAdres": "Pastoor Bontestraat 14 4891BG Rijsbergen"
-        },
-        "Communicatiegegevens": {
-          "Registratie": {
-            "DatumAanvang": 20100401,
-            "DatumEinde": 20120221,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Communicatienummer": [
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            }
-          ],
-          "EmailAdres": "nepemailadres@kvk.nl"
-        },
-        "EersteHandelsnaam": "Regional Lamtech Eenmanszaak",
-        "VoltijdWerkzamePersonen": 1,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 1,
-        "Activiteiten": {
-          "Omschrijving": "In- en verkoop van ongeregelde goederen en partijen via internet",
-          "SbiActiviteit": {
-            "Registratie": {
-              "DatumAanvang": 20100401,
-              "DatumEinde": 20120221,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 47919,
-              "Omschrijving": "Detailhandel via postorder en internet in een algemeen assortiment non-food",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          },
-          "Exporteert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Importeert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          }
-        },
-        "HandeltOnder": {
-          "Handelsnaam": {
-            "Registratie": {
-              "DatumAanvang": 20100401,
-              "DatumEinde": 20120221,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Naam": "Regional Lamtech Eenmanszaak",
-            "Volgorde": 0
-          },
-          "RelatieRegistratie": {
-            "DatumAanvang": 20100401,
-            "RegistratieTijdstipNoValue": null
-          }
-        }
-      }
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20100401,
-        "RegistratieTijdstipNoValue": null
-      },
-      "NatuurlijkPersoon": {
-        "ExtraElementen": {
-          "ExtraElement": {
-            "Naam": "achternaam"
-          }
-        },
-        "Registratie": {
-          "DatumAanvang": 19731125,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "PersoonRechtsvorm": "Eenmanszaak",
-        "VolledigeNaam": "Jan Klaasen",
-        "UitgebreideRechtsvorm": "Eenmanszaak",
-        "Geslachtsnaam": "Klaasen",
-        "Voornamen": "Jan",
-        "Heeft": [],
-        "Geboortedatum": "20000101"
-      },
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": null
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

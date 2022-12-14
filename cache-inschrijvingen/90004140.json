@@ -1,417 +1,529 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 20051031,
-      "DatumEinde": 0,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90004140,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20051031,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Servatiusstraat",
-          "Huisnummer": 7,
-          "Postcode": {
-            "Cijfercombinatie": 6462,
-            "Lettercombinatie": "XC"
-          },
-          "Plaats": "Kerkrade",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999357103,
-            "IdentificatieAdresseerbaarObject": 74999999879869
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-a743ffa3071e5135feb83d246660eaca",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90004140"
         }
       },
-      "VolledigAdres": "Servatiusstraat 7 6462XC Kerkrade"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20051031,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Servatiusstraat",
-          "Huisnummer": 7,
-          "Postcode": {
-            "Cijfercombinatie": 6462,
-            "Lettercombinatie": "XC"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "20051031"
           },
-          "Plaats": "Kerkrade",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999357103,
-            "IdentificatieAdresseerbaarObject": 74999999879869
+          "kvkNummer": "90004140",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Servatiusstraat 7 6462XC Kerkrade"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 20120717,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        }
-      ],
-      "EmailAdres": null
-    },
-    "Naam": "Regional Truecore",
-    "ManifesteertZichAls": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20051031,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "Onderneming": {
-        "Registratie": {
-          "DatumAanvang": 20051031,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "KvkNummer": 90004140,
-        "SbiActiviteit": [
-          {
-            "Registratie": {
-              "DatumAanvang": 20051031,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
+          "sbiActiviteit": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20051031"
             },
-            "SbiCode": {
-              "Code": 5630,
-              "Omschrijving": "Caf\u00E9s",
-              "ReferentieType": "ActiviteitCode"
+            "sbiCode": {
+              "code": "70102",
+              "omschrijving": "Holdings (geen financiële)",
+              "referentieType": "ActiviteitCode"
             },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
+            "isHoofdactiviteit": {
+              "code": "J",
+              "omschrijving": "Ja",
+              "referentieType": "geenRT"
             }
-          }
-        ],
-        "VoltijdWerkzamePersonen": 1,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 1,
-        "HandeltOnder": [
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20051031,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "Stichting Regional Truecore",
-              "Volgorde": 0
-            },
-            "RelatieRegistratie": null
-          }
-        ],
-        "WordtUitgeoefendIn": {
-          "RelatieRegistratie": {
-            "DatumAanvang": 20051031,
-            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
           },
-          "CommercieleVestiging": {
-            "Registratie": {
-              "DatumAanvang": 20051031,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
+          },
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20051031"
             },
-            "Vestigingsnummer": 990000132277,
-            "BezoekLocatie": {
-              "Registratie": {
-                "DatumAanvang": 20051031,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Servatiusstraat",
+                "huisnummer": "7",
+                "postcode": {
+                  "cijfercombinatie": "6462",
+                  "lettercombinatie": "XC"
+                },
+                "plaats": "Kerkrade",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999357103",
+                  "identificatieAdresseerbaarObject": "0074999999879869"
+                }
+              }
+            },
+            "volledigAdres": "Servatiusstraat 7 6462XC Kerkrade"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20051031"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Servatiusstraat",
+                "huisnummer": "7",
+                "postcode": {
+                  "cijfercombinatie": "6462",
+                  "lettercombinatie": "XC"
+                },
+                "plaats": "Kerkrade",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999357103",
+                  "identificatieAdresseerbaarObject": "0074999999879869"
+                }
+              }
+            },
+            "volledigAdres": "Servatiusstraat 7 6462XC Kerkrade"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstip": "20120717122021538",
+              "datumAanvang": "20120717"
+            },
+            "communicatienummer": {
+              "toegangscode": "+31",
+              "nummer": "0209999999",
+              "soort": {
+                "code": "T",
+                "omschrijving": "Telefoon"
+              }
+            }
+          },
+          "naam": "Regional Truecore",
+          "manifesteertZichAls": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20051031"
+            },
+            "onderneming": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20051031"
               },
-              "Afgeschermd": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
+              "kvkNummer": "90004140",
+              "sbiActiviteit": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20051031"
+                },
+                "sbiCode": {
+                  "code": "5630",
+                  "omschrijving": "Cafés",
+                  "referentieType": "ActiviteitCode"
+                },
+                "isHoofdactiviteit": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
+                }
               },
-              "Adres": {
-                "BinnenlandsAdres": {
-                  "Straatnaam": "Servatiusstraat",
-                  "Huisnummer": 7,
-                  "Postcode": {
-                    "Cijfercombinatie": 6462,
-                    "Lettercombinatie": "XC"
+              "voltijdWerkzamePersonen": "1",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "1",
+              "handeltOnder": {
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20051031"
                   },
-                  "Plaats": "Kerkrade",
-                  "BagId": {
-                    "IdentificatieNummeraanduiding": 74999999357103,
-                    "IdentificatieAdresseerbaarObject": 74999999879869
+                  "naam": "Stichting Regional Truecore",
+                  "volgorde": "0"
+                }
+              },
+              "wordtUitgeoefendIn": {
+                "relatieRegistratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20051031"
+                },
+                "commercieleVestiging": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20051031"
                   },
-                  "HuisnummerToevoeging": null
-                }
-              },
-              "VolledigAdres": "Servatiusstraat 7 6462XC Kerkrade"
-            },
-            "Communicatiegegevens": {
-              "Registratie": {
-                "DatumAanvang": 20120717,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Communicatienummer": [
-                {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
-                  }
-                }
-              ],
-              "EmailAdres": null
-            },
-            "EersteHandelsnaam": "Stichting Regional Truecore",
-            "VoltijdWerkzamePersonen": 1,
-            "DeeltijdWerkzamePersonen": 0,
-            "TotaalWerkzamePersonen": 1,
-            "Activiteiten": {
-              "Omschrijving": "Horeca activiteiten, t.w. caf\u00E9 bedrijf.",
-              "SbiActiviteit": {
-                "Registratie": {
-                  "DatumAanvang": 20051031,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "SbiCode": {
-                  "Code": 5630,
-                  "Omschrijving": "Caf\u00E9s",
-                  "ReferentieType": "ActiviteitCode"
-                },
-                "IsHoofdactiviteit": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
-                }
-              },
-              "Exporteert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Importeert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              }
-            },
-            "HandeltOnder": {
-              "Handelsnaam": {
-                "Registratie": {
-                  "DatumAanvang": 20051031,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "Naam": "Stichting Regional Truecore",
-                "Volgorde": 0
-              },
-              "RelatieRegistratie": {
-                "DatumAanvang": 20051031,
-                "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-              }
-            }
-          }
-        }
-      }
-    },
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": {
-        "Registratie": {
-          "DatumAanvang": 20051031,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "Vestigingsnummer": 990000132277,
-        "BezoekLocatie": {
-          "Registratie": {
-            "DatumAanvang": 20051031,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Afgeschermd": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Adres": {
-            "BinnenlandsAdres": {
-              "Straatnaam": "Servatiusstraat",
-              "Huisnummer": 7,
-              "Postcode": {
-                "Cijfercombinatie": 6462,
-                "Lettercombinatie": "XC"
-              },
-              "Plaats": "Kerkrade",
-              "BagId": {
-                "IdentificatieNummeraanduiding": 74999999357103,
-                "IdentificatieAdresseerbaarObject": 74999999879869
-              },
-              "HuisnummerToevoeging": null
-            }
-          },
-          "VolledigAdres": "Servatiusstraat 7 6462XC Kerkrade"
-        },
-        "Communicatiegegevens": {
-          "Registratie": {
-            "DatumAanvang": 20120717,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Communicatienummer": [
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            }
-          ],
-          "EmailAdres": null
-        },
-        "EersteHandelsnaam": "Stichting Regional Truecore",
-        "VoltijdWerkzamePersonen": 1,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 1,
-        "Activiteiten": {
-          "Omschrijving": "Horeca activiteiten, t.w. caf\u00E9 bedrijf.",
-          "SbiActiviteit": {
-            "Registratie": {
-              "DatumAanvang": 20051031,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 5630,
-              "Omschrijving": "Caf\u00E9s",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          },
-          "Exporteert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Importeert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          }
-        },
-        "HandeltOnder": {
-          "Handelsnaam": {
-            "Registratie": {
-              "DatumAanvang": 20051031,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Naam": "Stichting Regional Truecore",
-            "Volgorde": 0
-          },
-          "RelatieRegistratie": {
-            "DatumAanvang": 20051031,
-            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-          }
-        }
-      }
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20051031,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": {
-        "VoornemenTotOntbinding": null,
-        "ActiviteitenGestaaktPer": null,
-        "Rechtsvorm": {
-          "Code": "ST",
-          "Omschrijving": "Stichting"
-        },
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
+                  "vestigingsnummer": "990000132277",
+                  "bezoekLocatie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20051031"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "straatnaam": "Servatiusstraat",
+                        "huisnummer": "7",
+                        "postcode": {
+                          "cijfercombinatie": "6462",
+                          "lettercombinatie": "XC"
+                        },
+                        "plaats": "Kerkrade",
+                        "bagId": {
+                          "identificatieNummeraanduiding": "0074999999357103",
+                          "identificatieAdresseerbaarObject": "0074999999879869"
+                        }
+                      }
+                    },
+                    "volledigAdres": "Servatiusstraat 7 6462XC Kerkrade"
+                  },
+                  "communicatiegegevens": {
+                    "registratie": {
+                      "@registratieTijdstip": "20120717122021538",
+                      "datumAanvang": "20120717"
+                    },
+                    "communicatienummer": {
+                      "toegangscode": "+31",
+                      "nummer": "0209999999",
+                      "soort": {
+                        "code": "T",
+                        "omschrijving": "Telefoon"
+                      }
                     }
                   },
-                  "Registratie": {
-                    "DatumAanvang": 19760405,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
+                  "eersteHandelsnaam": "Stichting Regional Truecore",
+                  "voltijdWerkzamePersonen": "1",
+                  "deeltijdWerkzamePersonen": "0",
+                  "totaalWerkzamePersonen": "1",
+                  "activiteiten": {
+                    "omschrijving": "Horeca activiteiten, t.w. café bedrijf.",
+                    "sbiActiviteit": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20051031"
+                      },
+                      "sbiCode": {
+                        "code": "5630",
+                        "omschrijving": "Cafés",
+                        "referentieType": "ActiviteitCode"
+                      },
+                      "isHoofdactiviteit": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "exporteert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "importeert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
                   },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
+                  "handeltOnder": {
+                    "relatieRegistratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20051031"
+                    },
+                    "handelsnaam": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20051031"
+                      },
+                      "naam": "Stichting Regional Truecore",
+                      "volgorde": "0"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "wordtGeleidVanuit": {
+            "commercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20051031"
               },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "azb",
-                  "Omschrijving": "Alleen/zelfstandig bevoegd"
+              "vestigingsnummer": "990000132277",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20051031"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Servatiusstraat",
+                    "huisnummer": "7",
+                    "postcode": {
+                      "cijfercombinatie": "6462",
+                      "lettercombinatie": "XC"
+                    },
+                    "plaats": "Kerkrade",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999357103",
+                      "identificatieAdresseerbaarObject": "0074999999879869"
+                    }
+                  }
+                },
+                "volledigAdres": "Servatiusstraat 7 6462XC Kerkrade"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstip": "20120717122021538",
+                  "datumAanvang": "20120717"
+                },
+                "communicatienummer": {
+                  "toegangscode": "+31",
+                  "nummer": "0209999999",
+                  "soort": {
+                    "code": "T",
+                    "omschrijving": "Telefoon"
+                  }
                 }
               },
-              "Functietitel": {
-                "Titel": "Voorzitter"
+              "eersteHandelsnaam": "Stichting Regional Truecore",
+              "voltijdWerkzamePersonen": "1",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "1",
+              "activiteiten": {
+                "omschrijving": "Horeca activiteiten, t.w. café bedrijf.",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20051031"
+                  },
+                  "sbiCode": {
+                    "code": "5630",
+                    "omschrijving": "Cafés",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                },
+                "exporteert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "importeert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                }
+              },
+              "handeltOnder": {
+                "relatieRegistratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20051031"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20051031"
+                  },
+                  "naam": "Stichting Regional Truecore",
+                  "volgorde": "0"
+                }
               }
+            }
+          },
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20051031"
             },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
+            "rechtspersoon": {
+              "extraElementen": {
+                "extraElement": [
+                  {
+                    "@naam": "datumAanvangStatuten",
+                    "#text": "20051031"
+                  },
+                  {
+                    "@naam": "datumAkteStatuten",
+                    "#text": "20051031"
+                  }
+                ]
+              },
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20051031"
+              },
+              "persoonRechtsvorm": "Stichting",
+              "volledigeNaam": "Stichting Regional Truecore",
+              "uitgebreideRechtsvorm": "Stichting",
+              "heeft": {
+                "bestuursfunctie": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20061012"
+                  },
+                  "functietitel": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20061012"
+                    },
+                    "titel": "Voorzitter",
+                    "isStatutaireTitel": {
+                      "code": "J",
+                      "omschrijving": "Ja",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  "door": {
+                    "natuurlijkPersoon": {
+                      "extraElementen": {
+                        "extraElement": {
+                          "@naam": "achternaam",
+                          "#text": "Matthies"
+                        }
+                      },
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19760405"
+                      },
+                      "volledigeNaam": "Dagny Matthies",
+                      "geslachtsnaam": "Klaasen",
+"voornamen": "Jan",
+"geboortedatum": "20000101"
+                    }
+                  },
+                  "functie": {
+                    "code": "02",
+                    "omschrijving": "Bestuurder",
+                    "referentieType": "FunctionarisRol"
+                  },
+                  "bevoegdheid": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20061012"
+                    },
+                    "soort": {
+                      "code": "azb",
+                      "omschrijving": "Alleen/zelfstandig bevoegd",
+                      "referentieType": "SoortBevoegdheidBestuurder"
+                    },
+                    "isBevoegdMetAnderePersonen": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  }
+                }
+              },
+              "rsin": "992995784",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20051031"
+                },
+                "naam": "Stichting Regional Truecore"
+              },
+              "rechtsvorm": {
+                "code": "ST",
+                "omschrijving": "Stichting",
+                "referentieType": "Rechtsvorm"
+              },
+              "statutaireZetel": "Nepplaats",
+              "aanvangStatutaireZetel": "20051031",
+              "datumAkteOprichting": "20051031",
+              "datumEersteInschrijvingHandelsregister": "20051107",
+              "datumAkteStatutenwijziging": "20051031",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20051031"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Servatiusstraat",
+                    "huisnummer": "7",
+                    "postcode": {
+                      "cijfercombinatie": "6462",
+                      "lettercombinatie": "XC"
+                    },
+                    "plaats": "Kerkrade",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999357103",
+                      "identificatieAdresseerbaarObject": "0074999999879869"
+                    }
+                  }
+                },
+                "volledigAdres": "Servatiusstraat 7 6462XC Kerkrade"
+              },
+              "activiteiten": {
+                "omschrijving": "Het beheren van ondernemingen.",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20051031"
+                  },
+                  "sbiCode": {
+                    "code": "70102",
+                    "omschrijving": "Holdings (geen financiële)",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                }
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20051031"
+                },
+                "communicatienummer": {
+                  "toegangscode": "+31",
+                  "nummer": "0209999999",
+                  "soort": {
+                    "code": "T",
+                    "omschrijving": "Telefoon"
+                  }
+                }
+              }
+            }
           }
-        ],
-        "VolledigeNaam": "Jan Klaasen",
-        "Rsin": "992995784"
+        }
       }
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

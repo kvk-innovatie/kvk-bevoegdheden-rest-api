@@ -1,222 +1,346 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 20060406,
-      "DatumEinde": 0,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90001931,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20060406,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Oostduinlaan",
-          "Huisnummer": 185,
-          "Postcode": {
-            "Cijfercombinatie": 2596,
-            "Lettercombinatie": "JL"
-          },
-          "Plaats": "\u0027s-Gravenhage",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999985226,
-            "IdentificatieAdresseerbaarObject": 74999999979624
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-3a94fcf3048eff21fe49c86a0da0c5ac",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90001931"
         }
       },
-      "VolledigAdres": "Oostduinlaan 185 2596JL \u0027s-Gravenhage"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20060406,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Oostduinlaan",
-          "Huisnummer": 185,
-          "Postcode": {
-            "Cijfercombinatie": 2596,
-            "Lettercombinatie": "JL"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "20060406"
           },
-          "Plaats": "\u0027s-Gravenhage",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999985226,
-            "IdentificatieAdresseerbaarObject": 74999999979624
+          "kvkNummer": "90001931",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Oostduinlaan 185 2596JL \u0027s-Gravenhage"
-    },
-    "Communicatiegegevens": null,
-    "Naam": "Grand Streetplanet Co\u00F6peratie",
-    "ManifesteertZichAls": null,
-    "WordtGeleidVanuit": null,
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20060406,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": {
-        "VoornemenTotOntbinding": null,
-        "ActiviteitenGestaaktPer": null,
-        "Rechtsvorm": {
-          "Code": "COP",
-          "Omschrijving": "Co\u00F6peratie"
-        },
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "09",
-                "Omschrijving": "Vereffenaar",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "voorvoegsel"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19580820,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
+          },
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20060406"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Oostduinlaan",
+                "huisnummer": "185",
+                "postcode": {
+                  "cijfercombinatie": "2596",
+                  "lettercombinatie": "JL"
                 },
-                "Rechtspersoon": null
+                "plaats": "'s-Gravenhage",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999985226",
+                  "identificatieAdresseerbaarObject": "0074999999979624"
+                }
+              }
+            },
+            "volledigAdres": "Oostduinlaan 185 2596JL 's-Gravenhage"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20060406"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Oostduinlaan",
+                "huisnummer": "185",
+                "postcode": {
+                  "cijfercombinatie": "2596",
+                  "lettercombinatie": "JL"
+                },
+                "plaats": "'s-Gravenhage",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999985226",
+                  "identificatieAdresseerbaarObject": "0074999999979624"
+                }
+              }
+            },
+            "volledigAdres": "Oostduinlaan 185 2596JL 's-Gravenhage"
+          },
+          "naam": "Grand Streetplanet Coöperatie",
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20060406"
+            },
+            "rechtspersoon": {
+              "extraElementen": {
+                "extraElement": [
+                  {
+                    "@naam": "datumAanvangStatuten",
+                    "#text": "20060406"
+                  },
+                  {
+                    "@naam": "datumAkteStatuten",
+                    "#text": "20060406"
+                  }
+                ]
               },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "gb",
-                  "Omschrijving": "Gezamenlijk bevoegd"
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20060406"
+              },
+              "persoonRechtsvorm": "Coöperatie",
+              "volledigeNaam": "Grand Streetplanet Coöperatie",
+              "uitgebreideRechtsvorm": "Coöperatie",
+              "heeft": [
+                {
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20091231"
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": [
+                            {
+                              "@naam": "voorvoegsel",
+                              "#text": "van"
+                            },
+                            {
+                              "@naam": "achternaam",
+                              "#text": "Carrico"
+                            }
+                          ]
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19580820"
+                        },
+                        "volledigeNaam": "Enriqueta Carrico",
+                        "geslachtsnaam": "Carrico",
+                        "voorvoegselGeslachtsnaam": "van",
+                        "voornamen": "Enriqueta",
+                        "geboortedatum": "19580820"
+                      }
+                    },
+                    "functie": {
+                      "code": "09",
+                      "omschrijving": "Vereffenaar",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20091231"
+                      },
+                      "soort": {
+                        "code": "gb",
+                        "omschrijving": "Gezamenlijk bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                },
+                {
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20091231"
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Lubinski"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19730521"
+                        },
+                        "volledigeNaam": "Lavonia Lubinski",
+                        "geslachtsnaam": "Klaasen",
+"voornamen": "Jan",
+"geboortedatum": "20000101"
+                      }
+                    },
+                    "functie": {
+                      "code": "09",
+                      "omschrijving": "Vereffenaar",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20091231"
+                      },
+                      "soort": {
+                        "code": "gb",
+                        "omschrijving": "Gezamenlijk bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                },
+                {
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20091231"
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": [
+                            {
+                              "@naam": "voorvoegsel",
+                              "#text": "van"
+                            },
+                            {
+                              "@naam": "achternaam",
+                              "#text": "Snelling"
+                            }
+                          ]
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19680613"
+                        },
+                        "volledigeNaam": "Ivette Snelling",
+                        "geslachtsnaam": "Snelling",
+                        "voorvoegselGeslachtsnaam": "van",
+                        "voornamen": "Ivette",
+                        "geboortedatum": "19680613"
+                      }
+                    },
+                    "functie": {
+                      "code": "09",
+                      "omschrijving": "Vereffenaar",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20091231"
+                      },
+                      "soort": {
+                        "code": "gb",
+                        "omschrijving": "Gezamenlijk bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                }
+              ],
+              "rsin": "992373591",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20060406"
+                },
+                "naam": "Grand Streetplanet Coöperatie"
+              },
+              "ontbinding": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20091231"
+                },
+                "aanleiding": {
+                  "code": "OB",
+                  "omschrijving": "Ontbindingsbesluit",
+                  "referentieType": "AanleidingOntbinding"
+                },
+                "liquidatie": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20091231"
+                  }
                 }
               },
-              "Functietitel": null
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "09",
-                "Omschrijving": "Vereffenaar",
-                "ReferentieType": "FunctionarisRol"
+              "rechtsvorm": {
+                "code": "COP",
+                "omschrijving": "Coöperatie",
+                "referentieType": "Rechtsvorm"
               },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19730521,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
+              "statutaireZetel": "Nepplaats",
+              "aanvangStatutaireZetel": "20060406",
+              "datumAkteOprichting": "20060406",
+              "datumEersteInschrijvingHandelsregister": "20060410",
+              "datumAkteStatutenwijziging": "20060406",
+              "structuur": {
+                "code": "GS",
+                "omschrijving": "Gewone structuur",
+                "referentieType": "RechtsvormStructuur"
+              },
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20060406"
                 },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "gb",
-                  "Omschrijving": "Gezamenlijk bevoegd"
-                }
-              },
-              "Functietitel": null
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "09",
-                "Omschrijving": "Vereffenaar",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "voorvoegsel"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19680613,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
                 },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "gb",
-                  "Omschrijving": "Gezamenlijk bevoegd"
-                }
-              },
-              "Functietitel": null
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Oostduinlaan",
+                    "huisnummer": "185",
+                    "postcode": {
+                      "cijfercombinatie": "2596",
+                      "lettercombinatie": "JL"
+                    },
+                    "plaats": "'s-Gravenhage",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999985226",
+                      "identificatieAdresseerbaarObject": "0074999999979624"
+                    }
+                  }
+                },
+                "volledigAdres": "Oostduinlaan 185 2596JL 's-Gravenhage"
+              }
+            }
           }
-        ],
-        "VolledigeNaam": "Jan Klaasen",
-        "Rsin": "992373591"
+        }
       }
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

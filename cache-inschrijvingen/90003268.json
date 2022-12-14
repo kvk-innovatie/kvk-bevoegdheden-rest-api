@@ -1,346 +1,630 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 20091104,
-      "DatumEinde": 20110331,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90003268,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20091104,
-        "DatumEinde": 20110331,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Hinkelingestraat",
-          "Huisnummer": 5,
-          "Postcode": {
-            "Cijfercombinatie": 4413,
-            "Lettercombinatie": "AE"
-          },
-          "Plaats": "Krabbendijke",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999959984,
-            "IdentificatieAdresseerbaarObject": 74999999343106
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-3b8024335109729e58ea16475945ecf0",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90003268"
         }
       },
-      "VolledigAdres": "Hinkelingestraat 5 4413AE Krabbendijke"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20091104,
-        "DatumEinde": 20110331,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Groeze",
-          "Huisnummer": 11,
-          "Postcode": {
-            "Cijfercombinatie": 5986,
-            "Lettercombinatie": "NT"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "20091104",
+            "datumEinde": "20110331"
           },
-          "Plaats": "Beringe",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999197021,
-            "IdentificatieAdresseerbaarObject": 74999999994560
+          "kvkNummer": "90003268",
+          "nonMailing": {
+            "code": "J",
+            "omschrijving": "Ja",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
+          "sbiActiviteit": {
+            "registratie": {
+              "@registratieTijdstip": "20110331112947540",
+              "datumAanvang": "20091104",
+              "datumEinde": "20110331"
+            },
+            "sbiCode": {
+              "code": "94991",
+              "omschrijving": "Gezelligheidsverenigingen",
+              "referentieType": "ActiviteitCode"
+            },
+            "isHoofdactiviteit": {
+              "code": "J",
+              "omschrijving": "Ja",
+              "referentieType": "geenRT"
+            }
+          },
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
+          },
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20110331112947540",
+              "datumAanvang": "20091104",
+              "datumEinde": "20110331"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Hinkelingestraat",
+                "huisnummer": "5",
+                "postcode": {
+                  "cijfercombinatie": "4413",
+                  "lettercombinatie": "AE"
+                },
+                "plaats": "Krabbendijke",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999959984",
+                  "identificatieAdresseerbaarObject": "0074999999343106"
+                }
+              }
+            },
+            "volledigAdres": "Hinkelingestraat 5 4413AE Krabbendijke"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20110331112947540",
+              "datumAanvang": "20091104",
+              "datumEinde": "20110331"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Groeze",
+                "huisnummer": "11",
+                "postcode": {
+                  "cijfercombinatie": "5986",
+                  "lettercombinatie": "NT"
+                },
+                "plaats": "Beringe",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999197021",
+                  "identificatieAdresseerbaarObject": "0074999999994560"
+                }
+              }
+            },
+            "volledigAdres": "Groeze 11 5986NT Beringe"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstip": "20110331112947540",
+              "datumAanvang": "20091104",
+              "datumEinde": "20110331"
+            },
+            "communicatienummer": [
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "T",
+                  "omschrijving": "Telefoon"
+                }
+              },
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "T",
+                  "omschrijving": "Telefoon"
+                }
+              },
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "F",
+                  "omschrijving": "Fax"
+                }
+              }
+            ],
+            "emailAdres": "nepemailadres@kvk.nl"
+          },
+          "naam": "Global Bigelectronics",
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20110331112947540",
+              "datumAanvang": "20091104",
+              "datumEinde": "20110331"
+            },
+            "rechtspersoon": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20091104",
+                "datumEinde": "20110331"
+              },
+              "persoonRechtsvorm": "Vereniging",
+              "volledigeNaam": "Global Bigelectronics",
+              "uitgebreideRechtsvorm": "Vereniging (met beperkte rechtsbevoegdheid)",
+              "heeft": [
+                {
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20091104",
+                      "datumEinde": "20110331"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstip": "20110331112947540",
+                        "datumAanvang": "20091104",
+                        "datumEinde": "20110331"
+                      },
+                      "titel": "Bestuurslid",
+                      "isStatutaireTitel": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": [
+                            {
+                              "@naam": "voorvoegsel",
+                              "#text": "der"
+                            },
+                            {
+                              "@naam": "achternaam",
+                              "#text": "England"
+                            }
+                          ]
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19621215"
+                        },
+                        "volledigeNaam": "Otelia England",
+                        "geslachtsnaam": "England",
+                        "voorvoegselGeslachtsnaam": "der",
+                        "voornamen": "Otelia",
+                        "geboortedatum": "19621215"
+                      }
+                    },
+                    "functie": {
+                      "code": "02",
+                      "omschrijving": "Bestuurder",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstip": "20110331112947540",
+                        "datumAanvang": "20091104",
+                        "datumEinde": "20110331"
+                      },
+                      "soort": {
+                        "code": "gb",
+                        "omschrijving": "Gezamenlijk bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                },
+                {
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20091104",
+                      "datumEinde": "20110331"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstip": "20110331112947540",
+                        "datumAanvang": "20091104",
+                        "datumEinde": "20110331"
+                      },
+                      "titel": "Bestuurslid",
+                      "isStatutaireTitel": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": [
+                            {
+                              "@naam": "voorvoegsel",
+                              "#text": "van"
+                            },
+                            {
+                              "@naam": "achternaam",
+                              "#text": "Hedberg"
+                            }
+                          ]
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19860416"
+                        },
+                        "volledigeNaam": "Londa Hedberg",
+                        "geslachtsnaam": "Hedberg",
+                        "voorvoegselGeslachtsnaam": "van",
+                        "voornamen": "Londa",
+                        "geboortedatum": "19860416"
+                      }
+                    },
+                    "functie": {
+                      "code": "02",
+                      "omschrijving": "Bestuurder",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstip": "20110331112947540",
+                        "datumAanvang": "20091104",
+                        "datumEinde": "20110331"
+                      },
+                      "soort": {
+                        "code": "gb",
+                        "omschrijving": "Gezamenlijk bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                },
+                {
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20091104",
+                      "datumEinde": "20110331"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstip": "20110331112947540",
+                        "datumAanvang": "20091104",
+                        "datumEinde": "20110331"
+                      },
+                      "titel": "Bestuurslid",
+                      "isStatutaireTitel": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Hankinson"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19420118"
+                        },
+                        "volledigeNaam": "Maynard Hankinson",
+                        "geslachtsnaam": "Klaasen",
+"voornamen": "Jan",
+"geboortedatum": "20000101"
+                      }
+                    },
+                    "functie": {
+                      "code": "02",
+                      "omschrijving": "Bestuurder",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstip": "20110331112947540",
+                        "datumAanvang": "20091104",
+                        "datumEinde": "20110331"
+                      },
+                      "soort": {
+                        "code": "gb",
+                        "omschrijving": "Gezamenlijk bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                },
+                {
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20091104",
+                      "datumEinde": "20110331"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstip": "20110331112947540",
+                        "datumAanvang": "20091104",
+                        "datumEinde": "20110331"
+                      },
+                      "titel": "Voorzitter",
+                      "isStatutaireTitel": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Mirabito"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19700911"
+                        },
+                        "volledigeNaam": "Polly Mirabito",
+                        "geslachtsnaam": "Mirabito",
+                        "voornamen": "Polly",
+                        "geboortedatum": "19700911"
+                      }
+                    },
+                    "functie": {
+                      "code": "02",
+                      "omschrijving": "Bestuurder",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstip": "20110331112947540",
+                        "datumAanvang": "20091104",
+                        "datumEinde": "20110331"
+                      },
+                      "soort": {
+                        "code": "azb",
+                        "omschrijving": "Alleen/zelfstandig bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                },
+                {
+                  "overigeFunctionaris": {
+                    "registratie": {
+                      "@registratieTijdstip": "20110331112947540",
+                      "datumAanvang": "20110331"
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Mirabito"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19700911"
+                        },
+                        "volledigeNaam": "Polly Mirabito",
+                        "bezoekLocatiePersoon": {
+                          "registratie": {
+                            "@registratieTijdstipNoValue": "vastgesteldOnbekend"
+                          },
+                          "afgeschermd": {
+                            "code": "N",
+                            "omschrijving": "Nee",
+                            "referentieType": "geenRT"
+                          },
+                          "adres": {
+                            "binnenlandsAdres": {
+                              "straatnaam": "Philips Vingboonsstraat",
+                              "huisnummer": "26",
+                              "postcode": {
+                                "cijfercombinatie": "5041",
+                                "lettercombinatie": "GG"
+                              },
+                              "plaats": "Tilburg",
+                              "bagId": {
+                                "identificatieNummeraanduiding": "0074999999637149",
+                                "identificatieAdresseerbaarObject": "0074999999979068"
+                              }
+                            }
+                          },
+                          "volledigAdres": "Groeze 11 5986NT Beringe"
+                        },
+                        "geslachtsnaam": "Mirabito",
+                        "voornamen": "Polly",
+                        "geboortedatum": "19700911"
+                      }
+                    },
+                    "functie": {
+                      "code": "10",
+                      "omschrijving": "Bewaarder boeken en bescheiden",
+                      "referentieType": "FunctionarisRol"
+                    }
+                  }
+                }
+              ],
+              "rsin": "992138498",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstip": "20110331112947540",
+                  "datumAanvang": "20091104",
+                  "datumEinde": "20110331"
+                },
+                "naam": "Global Bigelectronics"
+              },
+              "ontbinding": {
+                "registratie": {
+                  "@registratieTijdstip": "20110331112947540",
+                  "datumAanvang": "20110331"
+                },
+                "aanleiding": {
+                  "code": "OB",
+                  "omschrijving": "Ontbindingsbesluit",
+                  "referentieType": "AanleidingOntbinding"
+                }
+              },
+              "rechtsvorm": {
+                "code": "VER",
+                "omschrijving": "Vereniging",
+                "referentieType": "Rechtsvorm"
+              },
+              "statutaireZetel": "Nepplaats",
+              "aanvangStatutaireZetel": "20091104",
+              "datumEersteInschrijvingHandelsregister": "20091111",
+              "rechtsbevoegdheidVereniging": {
+                "code": "beperkt",
+                "omschrijving": "Beperkt",
+                "referentieType": "RechtsbevoegdheidVerenigingCode"
+              },
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20110331112947540",
+                  "datumAanvang": "20091104",
+                  "datumEinde": "20110331"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Groenendijkstraat",
+                    "huisnummer": "3",
+                    "postcode": {
+                      "cijfercombinatie": "2351",
+                      "lettercombinatie": "PK"
+                    },
+                    "plaats": "Leiderdorp",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999451137",
+                      "identificatieAdresseerbaarObject": "0074999999803504"
+                    }
+                  }
+                },
+                "volledigAdres": "Groenendijkstraat 3 2351PK Leiderdorp"
+              },
+              "postLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20110331112947540",
+                  "datumAanvang": "20091104",
+                  "datumEinde": "20110331"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Groeze",
+                    "huisnummer": "11",
+                    "postcode": {
+                      "cijfercombinatie": "5986",
+                      "lettercombinatie": "NT"
+                    },
+                    "plaats": "Beringe",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999197021",
+                      "identificatieAdresseerbaarObject": "0074999999994560"
+                    }
+                  }
+                },
+                "volledigAdres": "Groeze 11 5986NT Beringe"
+              },
+              "activiteiten": {
+                "omschrijving": "Organiseren van activiteiten voor de bevorde- ring van de saamhorigheid.",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstip": "20110331112947540",
+                    "datumAanvang": "20091104",
+                    "datumEinde": "20110331"
+                  },
+                  "sbiCode": {
+                    "code": "94991",
+                    "omschrijving": "Gezelligheidsverenigingen",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                }
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstip": "20110331112947540",
+                  "datumAanvang": "20091104",
+                  "datumEinde": "20110331"
+                },
+                "communicatienummer": [
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "T",
+                      "omschrijving": "Telefoon"
+                    }
+                  },
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "T",
+                      "omschrijving": "Telefoon"
+                    }
+                  },
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "F",
+                      "omschrijving": "Fax"
+                    }
+                  }
+                ],
+                "emailAdres": "nepemailadres@kvk.nl"
+              }
+            }
+          }
         }
-      },
-      "VolledigAdres": "Groeze 11 5986NT Beringe"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 20091104,
-        "DatumEinde": 20110331,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        },
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        },
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "F",
-            "Omschrijving": "Fax"
-          }
-        }
-      ],
-      "EmailAdres": "nepemailadres@kvk.nl"
-    },
-    "Naam": "Global Bigelectronics",
-    "ManifesteertZichAls": null,
-    "WordtGeleidVanuit": null,
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20091104,
-        "RegistratieTijdstipNoValue": null
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": {
-        "VoornemenTotOntbinding": null,
-        "ActiviteitenGestaaktPer": null,
-        "Rechtsvorm": {
-          "Code": "VER",
-          "Omschrijving": "Vereniging"
-        },
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "voorvoegsel"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19621215,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "gb",
-                  "Omschrijving": "Gezamenlijk bevoegd"
-                }
-              },
-              "Functietitel": {
-                "Titel": "Bestuurslid"
-              }
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "voorvoegsel"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19860416,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "gb",
-                  "Omschrijving": "Gezamenlijk bevoegd"
-                }
-              },
-              "Functietitel": {
-                "Titel": "Bestuurslid"
-              }
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19420118,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "gb",
-                  "Omschrijving": "Gezamenlijk bevoegd"
-                }
-              },
-              "Functietitel": {
-                "Titel": "Bestuurslid"
-              }
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19700911,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "azb",
-                  "Omschrijving": "Alleen/zelfstandig bevoegd"
-                }
-              },
-              "Functietitel": {
-                "Titel": "Voorzitter"
-              }
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": {
-              "Functie": {
-                "Code": "10",
-                "Omschrijving": "Bewaarder boeken en bescheiden",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19700911,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": null,
-              "Functietitel": null
-            },
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          }
-        ],
-        "VolledigeNaam": "Jan Klaasen",
-        "Rsin": "992138498"
       }
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

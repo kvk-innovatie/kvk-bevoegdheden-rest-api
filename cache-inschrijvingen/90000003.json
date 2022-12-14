@@ -1,6 +1,6 @@
 {
   "wstxns8:Body": {
-    "@wsu:Id": "id-1-b4c994ac232bc4c60f904b8ebed63c4a",
+    "@wsu:Id": "id-1-129cd3bed8c5d746695e221147988ee0",
     "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
     "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
     "ophalenInschrijvingResponse": {
@@ -102,7 +102,7 @@
                 }
               }
             ],
-            "emailAdres": "nepemailadres@kvk.nl"
+            "emailAdres": ["nepemailadres@kvk.nl"]
           },
           "naam": "Regional Superfase",
           "manifesteertZichAls": {
@@ -936,23 +936,31 @@
                       "extraElementen": {
                         "extraElement": {
                           "@naam": "achternaam",
-                          "#text": "Cupit"
+                          "#text": "Klaasen"
                         }
                       },
                       "registratie": {
                         "@registratieTijdstipNoValue": "vastgesteldOnbekend",
                         "datumAanvang": "19690709"
                       },
-                      "volledigeNaam": "Francisca Cupit",
+                      "volledigeNaam": "Jan Klaasen",
                       "geslachtsnaam": "Klaasen",
-"voornamen": "Jan",
-"geboortedatum": "20000101"
+                      "voornamen": "Jan",
+                      "geboortedatum": "20000101"
                     }
                   },
                   "functie": {
                     "code": "01",
                     "omschrijving": "Gevolmachtigde",
                     "referentieType": "FunctionarisRol"
+                  },
+                  "volmacht": {
+                    "registratie": {
+                      "attributes": { "registratieTijdstipNoValue": "vastgesteldOnbekend" },
+                      "datumAanvang": "19970616"
+                    },
+                    "typeVolmacht": { "code": "v", "omschrijving": "Volledige volmacht", "referentieType": "VolmachtType" },
+                    "isStatutair": { "code": "N", "omschrijving": "Nee", "referentieType": "geenRT" }
                   }
                 }
               },

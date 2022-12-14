@@ -1,462 +1,461 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 19980101,
-      "DatumEinde": 0,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90005058,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20120810,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Nijenkamp",
-          "Huisnummer": 147,
-          "Postcode": {
-            "Cijfercombinatie": 6651,
-            "Lettercombinatie": "HJ"
-          },
-          "Plaats": "Druten",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999242522,
-            "IdentificatieAdresseerbaarObject": 74999999383399
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-4d05d87242479f77f4ff17436e60ed94",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90005058"
         }
       },
-      "VolledigAdres": "Nijenkamp 147 6651HJ Druten"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20120810,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Nijenkamp",
-          "Huisnummer": 147,
-          "Postcode": {
-            "Cijfercombinatie": 6651,
-            "Lettercombinatie": "HJ"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstip": "20110817151929022",
+            "datumAanvang": "19980101"
           },
-          "Plaats": "Druten",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999242522,
-            "IdentificatieAdresseerbaarObject": 74999999383399
+          "kvkNummer": "90005058",
+          "nonMailing": {
+            "code": "J",
+            "omschrijving": "Ja",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Nijenkamp 147 6651HJ Druten"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 19980101,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        }
-      ],
-      "EmailAdres": null
-    },
-    "Naam": "Regional Conron",
-    "ManifesteertZichAls": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 19980101,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Onderneming": {
-        "Registratie": {
-          "DatumAanvang": 19980101,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "KvkNummer": 90005058,
-        "SbiActiviteit": [
-          {
-            "Registratie": {
-              "DatumAanvang": 20140412,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
+          },
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20120810131818897",
+              "datumAanvang": "20120810"
             },
-            "SbiCode": {
-              "Code": 119,
-              "Omschrijving": "Teelt van overige eenjarige gewassen",
-              "ReferentieType": "ActiviteitCode"
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
             },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Nijenkamp",
+                "huisnummer": "147",
+                "postcode": {
+                  "cijfercombinatie": "6651",
+                  "lettercombinatie": "HJ"
+                },
+                "plaats": "Druten",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999242522",
+                  "identificatieAdresseerbaarObject": "0074999999383399"
+                }
+              }
+            },
+            "volledigAdres": "Nijenkamp 147 6651HJ Druten"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20120810131818897",
+              "datumAanvang": "20120810"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Nijenkamp",
+                "huisnummer": "147",
+                "postcode": {
+                  "cijfercombinatie": "6651",
+                  "lettercombinatie": "HJ"
+                },
+                "plaats": "Druten",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999242522",
+                  "identificatieAdresseerbaarObject": "0074999999383399"
+                }
+              }
+            },
+            "volledigAdres": "Nijenkamp 147 6651HJ Druten"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstip": "20110817151929022",
+              "datumAanvang": "19980101"
+            },
+            "communicatienummer": {
+              "toegangscode": "+31",
+              "nummer": "0209999999",
+              "soort": {
+                "code": "T",
+                "omschrijving": "Telefoon"
+              }
             }
-          }
-        ],
-        "VoltijdWerkzamePersonen": 1,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 1,
-        "HandeltOnder": [
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 19980101,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "Regional Conron Eenmanszaak",
-              "Volgorde": 0
-            },
-            "RelatieRegistratie": null
-          }
-        ],
-        "WordtUitgeoefendIn": {
-          "RelatieRegistratie": {
-            "DatumAanvang": 19980101,
-            "RegistratieTijdstipNoValue": null
           },
-          "CommercieleVestiging": {
-            "Registratie": {
-              "DatumAanvang": 19980101,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
+          "naam": "Regional Conron",
+          "manifesteertZichAls": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20110817151929022",
+              "datumAanvang": "19980101"
             },
-            "Vestigingsnummer": 990000734198,
-            "BezoekLocatie": {
-              "Registratie": {
-                "DatumAanvang": 20120810,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
+            "onderneming": {
+              "registratie": {
+                "@registratieTijdstip": "20110817151929022",
+                "datumAanvang": "19980101"
               },
-              "Afgeschermd": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Adres": {
-                "BinnenlandsAdres": {
-                  "Straatnaam": "Nijenkamp",
-                  "Huisnummer": 147,
-                  "Postcode": {
-                    "Cijfercombinatie": 6651,
-                    "Lettercombinatie": "HJ"
-                  },
-                  "Plaats": "Druten",
-                  "BagId": {
-                    "IdentificatieNummeraanduiding": 74999999242522,
-                    "IdentificatieAdresseerbaarObject": 74999999383399
-                  },
-                  "HuisnummerToevoeging": null
+              "kvkNummer": "90005058",
+              "sbiActiviteit": {
+                "registratie": {
+                  "@registratieTijdstip": "20140412135343133",
+                  "datumAanvang": "20140412"
+                },
+                "sbiCode": {
+                  "code": "0119",
+                  "omschrijving": "Teelt van overige eenjarige gewassen",
+                  "referentieType": "ActiviteitCode"
+                },
+                "isHoofdactiviteit": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
                 }
               },
-              "VolledigAdres": "Nijenkamp 147 6651HJ Druten"
-            },
-            "Communicatiegegevens": {
-              "Registratie": {
-                "DatumAanvang": 19980101,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
+              "voltijdWerkzamePersonen": "1",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "1",
+              "handeltOnder": {
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstip": "20110817151929022",
+                    "datumAanvang": "19980101"
+                  },
+                  "naam": "Regional Conron Eenmanszaak",
+                  "volgorde": "0"
+                }
               },
-              "Communicatienummer": [
+              "wordtUitgeoefendIn": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20110817151929022",
+                  "datumAanvang": "19980101"
+                },
+                "commercieleVestiging": {
+                  "registratie": {
+                    "@registratieTijdstip": "20110817151929022",
+                    "datumAanvang": "19980101"
+                  },
+                  "vestigingsnummer": "990000734198",
+                  "bezoekLocatie": {
+                    "registratie": {
+                      "@registratieTijdstip": "20120810131818897",
+                      "datumAanvang": "20120810"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "straatnaam": "Nijenkamp",
+                        "huisnummer": "147",
+                        "postcode": {
+                          "cijfercombinatie": "6651",
+                          "lettercombinatie": "HJ"
+                        },
+                        "plaats": "Druten",
+                        "bagId": {
+                          "identificatieNummeraanduiding": "0074999999242522",
+                          "identificatieAdresseerbaarObject": "0074999999383399"
+                        }
+                      }
+                    },
+                    "volledigAdres": "Nijenkamp 147 6651HJ Druten"
+                  },
+                  "communicatiegegevens": {
+                    "registratie": {
+                      "@registratieTijdstip": "20110817151929022",
+                      "datumAanvang": "19980101"
+                    },
+                    "communicatienummer": {
+                      "toegangscode": "+31",
+                      "nummer": "0209999999",
+                      "soort": {
+                        "code": "T",
+                        "omschrijving": "Telefoon"
+                      }
+                    }
+                  },
+                  "eersteHandelsnaam": "Regional Conron Eenmanszaak",
+                  "voltijdWerkzamePersonen": "1",
+                  "deeltijdWerkzamePersonen": "0",
+                  "totaalWerkzamePersonen": "1",
+                  "activiteiten": {
+                    "omschrijving": "Bloemenkwekerij.",
+                    "sbiActiviteit": {
+                      "registratie": {
+                        "@registratieTijdstip": "20140412135343133",
+                        "datumAanvang": "20140412"
+                      },
+                      "sbiCode": {
+                        "code": "0119",
+                        "omschrijving": "Teelt van overige eenjarige gewassen",
+                        "referentieType": "ActiviteitCode"
+                      },
+                      "isHoofdactiviteit": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "exporteert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "importeert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  "handeltOnder": {
+                    "relatieRegistratie": {
+                      "@registratieTijdstip": "20110817151929022",
+                      "datumAanvang": "19980101"
+                    },
+                    "handelsnaam": {
+                      "registratie": {
+                        "@registratieTijdstip": "20110817151929022",
+                        "datumAanvang": "19980101"
+                      },
+                      "naam": "Regional Conron Eenmanszaak",
+                      "volgorde": "0"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "wordtGeleidVanuit": {
+            "commercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstip": "20110817151929022",
+                "datumAanvang": "19980101"
+              },
+              "vestigingsnummer": "990000734198",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20120810131818897",
+                  "datumAanvang": "20120810"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Nijenkamp",
+                    "huisnummer": "147",
+                    "postcode": {
+                      "cijfercombinatie": "6651",
+                      "lettercombinatie": "HJ"
+                    },
+                    "plaats": "Druten",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999242522",
+                      "identificatieAdresseerbaarObject": "0074999999383399"
+                    }
+                  }
+                },
+                "volledigAdres": "Nijenkamp 147 6651HJ Druten"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstip": "20110817151929022",
+                  "datumAanvang": "19980101"
+                },
+                "communicatienummer": {
+                  "toegangscode": "+31",
+                  "nummer": "0209999999",
+                  "soort": {
+                    "code": "T",
+                    "omschrijving": "Telefoon"
+                  }
+                }
+              },
+              "eersteHandelsnaam": "Regional Conron Eenmanszaak",
+              "voltijdWerkzamePersonen": "1",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "1",
+              "activiteiten": {
+                "omschrijving": "Bloemenkwekerij.",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstip": "20140412135343133",
+                    "datumAanvang": "20140412"
+                  },
+                  "sbiCode": {
+                    "code": "0119",
+                    "omschrijving": "Teelt van overige eenjarige gewassen",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                },
+                "exporteert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "importeert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                }
+              },
+              "handeltOnder": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20110817151929022",
+                  "datumAanvang": "19980101"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstip": "20110817151929022",
+                    "datumAanvang": "19980101"
+                  },
+                  "naam": "Regional Conron Eenmanszaak",
+                  "volgorde": "0"
+                }
+              }
+            }
+          },
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20110817151929022",
+              "datumAanvang": "19980101"
+            },
+            "natuurlijkPersoon": {
+              "extraElementen": {
+                "extraElement": {
+                  "@naam": "achternaam",
+                  "#text": "Kohen"
+                }
+              },
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19840422"
+              },
+              "bijzondereRechtstoestand": {
+                "registratie": {
+                  "@registratieTijdstip": "20131211134729755",
+                  "datumAanvang": "20131209"
+                },
+                "soort": {
+                  "code": "SURS",
+                  "omschrijving": "Surseance van betaling",
+                  "referentieType": "geenRT"
+                },
+                "uitspraakAanvang": {
+                  "datum": "20131209",
+                  "naam": "Rechtbank Midden-Nederland",
+                  "plaats": "Utrecht"
+                },
+                "status": {
+                  "code": "001",
+                  "omschrijving": "Voorlopig",
+                  "referentieType": "InsolventieStatus"
+                },
+                "isVerlengd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                }
+              },
+              "persoonRechtsvorm": "Eenmanszaak",
+              "volledigeNaam": "Luke Kohen",
+              "uitgebreideRechtsvorm": "Eenmanszaak",
+              "heeft": [
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
+                  "functionarisBijzondereRechtstoestand": {
+                    "registratie": {
+                      "@registratieTijdstip": "20131211134729755",
+                      "datumAanvang": "20131209"
+                    },
+                    "door": {
+                      "naamPersoon": {
+                        "volledigeNaam": "mr. Agustin Bloomer",
+                        "bezoekLocatiePersoon": {
+                          "registratie": {
+                            "@registratieTijdstip": "20131211134729755",
+                            "datumAanvang": "20131209"
+                          },
+                          "afgeschermd": {
+                            "code": "N",
+                            "omschrijving": "Nee",
+                            "referentieType": "geenRT"
+                          },
+                          "adres": {
+                            "binnenlandsAdres": {
+                              "postbusnummer": "99999",
+                              "postcode": {
+                                "cijfercombinatie": "2408",
+                                "lettercombinatie": "TK"
+                              },
+                              "plaats": "Alphen aan den Rijn"
+                            }
+                          },
+                          "volledigAdres": "Postbus 99999 2408TK Alphen aan den Rijn"
+                        },
+                        "naam": "mr. Agustin Bloomer"
+                      }
+                    },
+                    "functie": {
+                      "code": "06",
+                      "omschrijving": "Bewindvoerder",
+                      "referentieType": "FunctionarisRol"
+                    }
+                  }
+                },
+                {
+                  "functionarisBijzondereRechtstoestand": {
+                    "registratie": {
+                      "@registratieTijdstip": "20131211134729755",
+                      "datumAanvang": "20131209"
+                    },
+                    "door": {
+                      "naamPersoon": {
+                        "volledigeNaam": "mr. Santo Kalb",
+                        "naam": "mr. Santo Kalb"
+                      }
+                    },
+                    "functie": {
+                      "code": "11",
+                      "omschrijving": "Rechter-commissaris",
+                      "referentieType": "FunctionarisRol"
+                    }
                   }
                 }
               ],
-              "EmailAdres": null
-            },
-            "EersteHandelsnaam": "Regional Conron Eenmanszaak",
-            "VoltijdWerkzamePersonen": 1,
-            "DeeltijdWerkzamePersonen": 0,
-            "TotaalWerkzamePersonen": 1,
-            "Activiteiten": {
-              "Omschrijving": "Bloemenkwekerij.",
-              "SbiActiviteit": {
-                "Registratie": {
-                  "DatumAanvang": 20140412,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "SbiCode": {
-                  "Code": 119,
-                  "Omschrijving": "Teelt van overige eenjarige gewassen",
-                  "ReferentieType": "ActiviteitCode"
-                },
-                "IsHoofdactiviteit": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
-                }
-              },
-              "Exporteert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Importeert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              }
-            },
-            "HandeltOnder": {
-              "Handelsnaam": {
-                "Registratie": {
-                  "DatumAanvang": 19980101,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "Naam": "Regional Conron Eenmanszaak",
-                "Volgorde": 0
-              },
-              "RelatieRegistratie": {
-                "DatumAanvang": 19980101,
-                "RegistratieTijdstipNoValue": null
-              }
+              "geslachtsnaam": "Klaasen",
+"voornamen": "Jan",
+"geboortedatum": "20000101"
             }
           }
         }
       }
-    },
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": {
-        "Registratie": {
-          "DatumAanvang": 19980101,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "Vestigingsnummer": 990000734198,
-        "BezoekLocatie": {
-          "Registratie": {
-            "DatumAanvang": 20120810,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Afgeschermd": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Adres": {
-            "BinnenlandsAdres": {
-              "Straatnaam": "Nijenkamp",
-              "Huisnummer": 147,
-              "Postcode": {
-                "Cijfercombinatie": 6651,
-                "Lettercombinatie": "HJ"
-              },
-              "Plaats": "Druten",
-              "BagId": {
-                "IdentificatieNummeraanduiding": 74999999242522,
-                "IdentificatieAdresseerbaarObject": 74999999383399
-              },
-              "HuisnummerToevoeging": null
-            }
-          },
-          "VolledigAdres": "Nijenkamp 147 6651HJ Druten"
-        },
-        "Communicatiegegevens": {
-          "Registratie": {
-            "DatumAanvang": 19980101,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Communicatienummer": [
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            }
-          ],
-          "EmailAdres": null
-        },
-        "EersteHandelsnaam": "Regional Conron Eenmanszaak",
-        "VoltijdWerkzamePersonen": 1,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 1,
-        "Activiteiten": {
-          "Omschrijving": "Bloemenkwekerij.",
-          "SbiActiviteit": {
-            "Registratie": {
-              "DatumAanvang": 20140412,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 119,
-              "Omschrijving": "Teelt van overige eenjarige gewassen",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          },
-          "Exporteert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Importeert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          }
-        },
-        "HandeltOnder": {
-          "Handelsnaam": {
-            "Registratie": {
-              "DatumAanvang": 19980101,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Naam": "Regional Conron Eenmanszaak",
-            "Volgorde": 0
-          },
-          "RelatieRegistratie": {
-            "DatumAanvang": 19980101,
-            "RegistratieTijdstipNoValue": null
-          }
-        }
-      }
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 19980101,
-        "RegistratieTijdstipNoValue": null
-      },
-      "NatuurlijkPersoon": {
-        "ExtraElementen": {
-          "ExtraElement": {
-            "Naam": "achternaam"
-          }
-        },
-        "Registratie": {
-          "DatumAanvang": 19840422,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "PersoonRechtsvorm": "Eenmanszaak",
-        "VolledigeNaam": "Jan Klaasen",
-        "UitgebreideRechtsvorm": "Eenmanszaak",
-        "Geslachtsnaam": "Klaasen",
-        "Voornamen": "Jan",
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": {
-              "Registratie": {
-                "DatumAanvang": 20131209,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Door": {
-                "NaamPersoon": {
-                  "VolledigeNaam": "Jan Klaasen",
-                  "BezoekLocatiePersoon": {
-                    "Registratie": {
-                      "DatumAanvang": 20131209,
-                      "DatumEinde": 0,
-                      "RegistratieTijdstipNoValue": null
-                    },
-                    "Afgeschermd": {
-                      "Code": "N",
-                      "Omschrijving": "Nee",
-                      "ReferentieType": "geenRT"
-                    },
-                    "Adres": {
-                      "BinnenlandsAdres": {
-                        "Straatnaam": null,
-                        "Huisnummer": 0,
-                        "Postcode": {
-                          "Cijfercombinatie": 2408,
-                          "Lettercombinatie": "TK"
-                        },
-                        "Plaats": "Alphen aan den Rijn",
-                        "BagId": null,
-                        "HuisnummerToevoeging": null
-                      }
-                    },
-                    "VolledigAdres": "Postbus 99999 2408TK Alphen aan den Rijn"
-                  },
-                  "Naam": "mr. Agustin Bloomer",
-                  "Telefoonnummer": null
-                },
-                "NatuurlijkPersoon": null,
-                "Rechtspersoon": null
-              },
-              "Functie": {
-                "Code": "06",
-                "Omschrijving": "Bewindvoerder",
-                "ReferentieType": "FunctionarisRol"
-              }
-            },
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": {
-              "Registratie": {
-                "DatumAanvang": 20131209,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Door": {
-                "NaamPersoon": {
-                  "VolledigeNaam": "Jan Klaasen",
-                  "BezoekLocatiePersoon": null,
-                  "Naam": "mr. Santo Kalb",
-                  "Telefoonnummer": null
-                },
-                "NatuurlijkPersoon": null,
-                "Rechtspersoon": null
-              },
-              "Functie": {
-                "Code": "11",
-                "Omschrijving": "Rechter-commissaris",
-                "ReferentieType": "FunctionarisRol"
-              }
-            },
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          }
-        ],
-        "Geboortedatum": "20000101"
-      },
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": null
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

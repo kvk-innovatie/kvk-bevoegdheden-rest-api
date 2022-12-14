@@ -1,541 +1,538 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 20080101,
-      "DatumEinde": 0,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90004809,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20130218,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Groenedijkplein",
-          "Huisnummer": 26,
-          "Postcode": {
-            "Cijfercombinatie": 4827,
-            "Lettercombinatie": "LP"
-          },
-          "Plaats": "Breda",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999183725,
-            "IdentificatieAdresseerbaarObject": 74999999730530
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-a0ff3a96a3492f51b65305736cd39927",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90004809"
         }
       },
-      "VolledigAdres": "Groenedijkplein 26 4827LP Breda"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20130218,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Groenedijkplein",
-          "Huisnummer": 26,
-          "Postcode": {
-            "Cijfercombinatie": 4827,
-            "Lettercombinatie": "LP"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "20080101"
           },
-          "Plaats": "Breda",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999183725,
-            "IdentificatieAdresseerbaarObject": 74999999730530
+          "kvkNummer": "90004809",
+          "nonMailing": {
+            "code": "J",
+            "omschrijving": "Ja",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Groenedijkplein 26 4827LP Breda"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 20080101,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        },
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "F",
-            "Omschrijving": "Fax"
-          }
-        }
-      ],
-      "EmailAdres": "nepemailadres@kvk.nl"
-    },
-    "Naam": "International Intechi",
-    "ManifesteertZichAls": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20080101,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "Onderneming": {
-        "Registratie": {
-          "DatumAanvang": 20080101,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "KvkNummer": 90004809,
-        "SbiActiviteit": [
-          {
-            "Registratie": {
-              "DatumAanvang": 20140412,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 7112,
-              "Omschrijving": "Ingenieurs en overig technisch ontwerp en advies",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          }
-        ],
-        "VoltijdWerkzamePersonen": 0,
-        "DeeltijdWerkzamePersonen": 2,
-        "TotaalWerkzamePersonen": 2,
-        "HandeltOnder": [
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20130701,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Intechi",
-              "Volgorde": 0
-            },
-            "RelatieRegistratie": null
-          }
-        ],
-        "WordtUitgeoefendIn": {
-          "RelatieRegistratie": {
-            "DatumAanvang": 20080101,
-            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "CommercieleVestiging": {
-            "Registratie": {
-              "DatumAanvang": 20080101,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20130220121757417",
+              "datumAanvang": "20130218"
             },
-            "Vestigingsnummer": 990000932541,
-            "BezoekLocatie": {
-              "Registratie": {
-                "DatumAanvang": 20130218,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Afgeschermd": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Adres": {
-                "BinnenlandsAdres": {
-                  "Straatnaam": "Groenedijkplein",
-                  "Huisnummer": 26,
-                  "Postcode": {
-                    "Cijfercombinatie": 4827,
-                    "Lettercombinatie": "LP"
-                  },
-                  "Plaats": "Breda",
-                  "BagId": {
-                    "IdentificatieNummeraanduiding": 74999999183725,
-                    "IdentificatieAdresseerbaarObject": 74999999730530
-                  },
-                  "HuisnummerToevoeging": null
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Groenedijkplein",
+                "huisnummer": "26",
+                "huisletter": "D",
+                "postcode": {
+                  "cijfercombinatie": "4827",
+                  "lettercombinatie": "LP"
+                },
+                "plaats": "Breda",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999183725",
+                  "identificatieAdresseerbaarObject": "0074999999730530"
+                }
+              }
+            },
+            "volledigAdres": "Groenedijkplein 26 4827LP Breda"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20130220121757417",
+              "datumAanvang": "20130218"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Groenedijkplein",
+                "huisnummer": "26",
+                "huisletter": "D",
+                "postcode": {
+                  "cijfercombinatie": "4827",
+                  "lettercombinatie": "LP"
+                },
+                "plaats": "Breda",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999183725",
+                  "identificatieAdresseerbaarObject": "0074999999730530"
+                }
+              }
+            },
+            "volledigAdres": "Groenedijkplein 26 4827LP Breda"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20080101"
+            },
+            "communicatienummer": [
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "T",
+                  "omschrijving": "Telefoon"
                 }
               },
-              "VolledigAdres": "Groenedijkplein 26 4827LP Breda"
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "F",
+                  "omschrijving": "Fax"
+                }
+              }
+            ],
+            "emailAdres": "nepemailadres@kvk.nl",
+            "domeinNaam": "www.kvk.nl"
+          },
+          "naam": "International Intechi",
+          "manifesteertZichAls": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20080101"
             },
-            "Communicatiegegevens": {
-              "Registratie": {
-                "DatumAanvang": 20080101,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
+            "onderneming": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20080101"
               },
-              "Communicatienummer": [
+              "kvkNummer": "90004809",
+              "sbiActiviteit": {
+                "registratie": {
+                  "@registratieTijdstip": "20140412051831574",
+                  "datumAanvang": "20140412"
+                },
+                "sbiCode": {
+                  "code": "7112",
+                  "omschrijving": "Ingenieurs en overig technisch ontwerp en advies",
+                  "referentieType": "ActiviteitCode"
+                },
+                "isHoofdactiviteit": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
+                }
+              },
+              "voltijdWerkzamePersonen": "0",
+              "deeltijdWerkzamePersonen": "2",
+              "totaalWerkzamePersonen": "2",
+              "handeltOnder": {
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstip": "20130701090545241",
+                    "datumAanvang": "20130701"
+                  },
+                  "naam": "International Intechi",
+                  "volgorde": "0"
+                }
+              },
+              "wordtUitgeoefendIn": {
+                "relatieRegistratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20080101"
+                },
+                "commercieleVestiging": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20080101"
+                  },
+                  "vestigingsnummer": "990000932541",
+                  "bezoekLocatie": {
+                    "registratie": {
+                      "@registratieTijdstip": "20130220121757417",
+                      "datumAanvang": "20130218"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "straatnaam": "Groenedijkplein",
+                        "huisnummer": "26",
+                        "huisletter": "D",
+                        "postcode": {
+                          "cijfercombinatie": "4827",
+                          "lettercombinatie": "LP"
+                        },
+                        "plaats": "Breda",
+                        "bagId": {
+                          "identificatieNummeraanduiding": "0074999999183725",
+                          "identificatieAdresseerbaarObject": "0074999999730530"
+                        }
+                      }
+                    },
+                    "volledigAdres": "Groenedijkplein 26 4827LP Breda"
+                  },
+                  "communicatiegegevens": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080101"
+                    },
+                    "communicatienummer": [
+                      {
+                        "toegangscode": "+31",
+                        "nummer": "0209999999",
+                        "soort": {
+                          "code": "T",
+                          "omschrijving": "Telefoon"
+                        }
+                      },
+                      {
+                        "toegangscode": "+31",
+                        "nummer": "0209999999",
+                        "soort": {
+                          "code": "F",
+                          "omschrijving": "Fax"
+                        }
+                      }
+                    ],
+                    "emailAdres": "nepemailadres@kvk.nl",
+                    "domeinNaam": "www.kvk.nl"
+                  },
+                  "eersteHandelsnaam": "International Intechi",
+                  "voltijdWerkzamePersonen": "0",
+                  "deeltijdWerkzamePersonen": "2",
+                  "totaalWerkzamePersonen": "2",
+                  "activiteiten": {
+                    "omschrijving": "Overig technisch ontwerp en advies",
+                    "sbiActiviteit": {
+                      "registratie": {
+                        "@registratieTijdstip": "20140412051831574",
+                        "datumAanvang": "20140412"
+                      },
+                      "sbiCode": {
+                        "code": "7112",
+                        "omschrijving": "Ingenieurs en overig technisch ontwerp en advies",
+                        "referentieType": "ActiviteitCode"
+                      },
+                      "isHoofdactiviteit": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "exporteert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "importeert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  "handeltOnder": {
+                    "relatieRegistratie": {
+                      "@registratieTijdstip": "20130701090545241",
+                      "datumAanvang": "20130701"
+                    },
+                    "handelsnaam": {
+                      "registratie": {
+                        "@registratieTijdstip": "20130701090545241",
+                        "datumAanvang": "20130701"
+                      },
+                      "naam": "International Intechi",
+                      "volgorde": "0"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "wordtGeleidVanuit": {
+            "commercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20080101"
+              },
+              "vestigingsnummer": "990000932541",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20130220121757417",
+                  "datumAanvang": "20130218"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Groenedijkplein",
+                    "huisnummer": "26",
+                    "huisletter": "D",
+                    "postcode": {
+                      "cijfercombinatie": "4827",
+                      "lettercombinatie": "LP"
+                    },
+                    "plaats": "Breda",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999183725",
+                      "identificatieAdresseerbaarObject": "0074999999730530"
+                    }
+                  }
+                },
+                "volledigAdres": "Groenedijkplein 26 4827LP Breda"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20080101"
+                },
+                "communicatienummer": [
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "T",
+                      "omschrijving": "Telefoon"
+                    }
+                  },
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "F",
+                      "omschrijving": "Fax"
+                    }
+                  }
+                ],
+                "emailAdres": "nepemailadres@kvk.nl",
+                "domeinNaam": "www.kvk.nl"
+              },
+              "eersteHandelsnaam": "International Intechi",
+              "voltijdWerkzamePersonen": "0",
+              "deeltijdWerkzamePersonen": "2",
+              "totaalWerkzamePersonen": "2",
+              "activiteiten": {
+                "omschrijving": "Overig technisch ontwerp en advies",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstip": "20140412051831574",
+                    "datumAanvang": "20140412"
+                  },
+                  "sbiCode": {
+                    "code": "7112",
+                    "omschrijving": "Ingenieurs en overig technisch ontwerp en advies",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                },
+                "exporteert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "importeert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                }
+              },
+              "handeltOnder": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20130701090545241",
+                  "datumAanvang": "20130701"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstip": "20130701090545241",
+                    "datumAanvang": "20130701"
+                  },
+                  "naam": "International Intechi",
+                  "volgorde": "0"
+                }
+              }
+            }
+          },
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20080101"
+            },
+            "samenwerkingsverband": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20080101"
+              },
+              "persoonRechtsvorm": "Maatschap",
+              "volledigeNaam": "International Intechi",
+              "uitgebreideRechtsvorm": "Maatschap",
+              "heeft": [
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
+                  "aansprakelijke": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080101"
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": [
+                            {
+                              "@naam": "voorvoegsel",
+                              "#text": "van der"
+                            },
+                            {
+                              "@naam": "achternaam",
+                              "#text": "Elling"
+                            }
+                          ]
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19720718"
+                        },
+                        "volledigeNaam": "Norene Elling",
+                        "geslachtsnaam": "Elling",
+                        "voorvoegselGeslachtsnaam": "van der",
+                        "voornamen": "Norene",
+                        "geboortedatum": "19720718"
+                      }
+                    },
+                    "functie": {
+                      "code": "15",
+                      "omschrijving": "Maat",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20080101"
+                      },
+                      "soort": {
+                        "code": "bb",
+                        "omschrijving": "Beperkt bevoegd",
+                        "referentieType": "SoortBevoegdheidAansprakelijkeBijSamenwerkingsverband"
+                      },
+                      "overigeBeperking": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    }
                   }
                 },
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "F",
-                    "Omschrijving": "Fax"
+                  "aansprakelijke": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080101"
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": [
+                            {
+                              "@naam": "voorvoegsel",
+                              "#text": "de"
+                            },
+                            {
+                              "@naam": "achternaam",
+                              "#text": "Toomer"
+                            }
+                          ]
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19651221"
+                        },
+                        "volledigeNaam": "Arnold Toomer",
+                        "geslachtsnaam": "Toomer",
+                        "voorvoegselGeslachtsnaam": "de",
+                        "voornamen": "Arnold",
+                        "geboortedatum": "19651221"
+                      }
+                    },
+                    "functie": {
+                      "code": "15",
+                      "omschrijving": "Maat",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20080101"
+                      },
+                      "soort": {
+                        "code": "bb",
+                        "omschrijving": "Beperkt bevoegd",
+                        "referentieType": "SoortBevoegdheidAansprakelijkeBijSamenwerkingsverband"
+                      },
+                      "overigeBeperking": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    }
                   }
                 }
               ],
-              "EmailAdres": "nepemailadres@kvk.nl"
-            },
-            "EersteHandelsnaam": "International Intechi",
-            "VoltijdWerkzamePersonen": 0,
-            "DeeltijdWerkzamePersonen": 2,
-            "TotaalWerkzamePersonen": 2,
-            "Activiteiten": {
-              "Omschrijving": "Overig technisch ontwerp en advies",
-              "SbiActiviteit": {
-                "Registratie": {
-                  "DatumAanvang": 20140412,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
+              "rsin": "992830540",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20080101"
                 },
-                "SbiCode": {
-                  "Code": 7112,
-                  "Omschrijving": "Ingenieurs en overig technisch ontwerp en advies",
-                  "ReferentieType": "ActiviteitCode"
+                "naam": "International Intechi"
+              },
+              "rechtsvorm": {
+                "code": "MA",
+                "omschrijving": "Maatschap",
+                "referentieType": "Rechtsvorm"
+              },
+              "duur": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20080101"
                 },
-                "IsHoofdactiviteit": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
+                "heeftOnbepaaldeDuur": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
                 }
-              },
-              "Exporteert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Importeert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              }
-            },
-            "HandeltOnder": {
-              "Handelsnaam": {
-                "Registratie": {
-                  "DatumAanvang": 20130701,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "Naam": "International Intechi",
-                "Volgorde": 0
-              },
-              "RelatieRegistratie": {
-                "DatumAanvang": 20130701,
-                "RegistratieTijdstipNoValue": null
               }
             }
           }
         }
       }
-    },
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": {
-        "Registratie": {
-          "DatumAanvang": 20080101,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "Vestigingsnummer": 990000932541,
-        "BezoekLocatie": {
-          "Registratie": {
-            "DatumAanvang": 20130218,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Afgeschermd": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Adres": {
-            "BinnenlandsAdres": {
-              "Straatnaam": "Groenedijkplein",
-              "Huisnummer": 26,
-              "Postcode": {
-                "Cijfercombinatie": 4827,
-                "Lettercombinatie": "LP"
-              },
-              "Plaats": "Breda",
-              "BagId": {
-                "IdentificatieNummeraanduiding": 74999999183725,
-                "IdentificatieAdresseerbaarObject": 74999999730530
-              },
-              "HuisnummerToevoeging": null
-            }
-          },
-          "VolledigAdres": "Groenedijkplein 26 4827LP Breda"
-        },
-        "Communicatiegegevens": {
-          "Registratie": {
-            "DatumAanvang": 20080101,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Communicatienummer": [
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            },
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "F",
-                "Omschrijving": "Fax"
-              }
-            }
-          ],
-          "EmailAdres": "nepemailadres@kvk.nl"
-        },
-        "EersteHandelsnaam": "International Intechi",
-        "VoltijdWerkzamePersonen": 0,
-        "DeeltijdWerkzamePersonen": 2,
-        "TotaalWerkzamePersonen": 2,
-        "Activiteiten": {
-          "Omschrijving": "Overig technisch ontwerp en advies",
-          "SbiActiviteit": {
-            "Registratie": {
-              "DatumAanvang": 20140412,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 7112,
-              "Omschrijving": "Ingenieurs en overig technisch ontwerp en advies",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          },
-          "Exporteert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Importeert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          }
-        },
-        "HandeltOnder": {
-          "Handelsnaam": {
-            "Registratie": {
-              "DatumAanvang": 20130701,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Naam": "International Intechi",
-            "Volgorde": 0
-          },
-          "RelatieRegistratie": {
-            "DatumAanvang": 20130701,
-            "RegistratieTijdstipNoValue": null
-          }
-        }
-      }
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20080101,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": {
-        "Registratie": {
-          "DatumAanvang": 20080101,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "BijzondereRechtstoestand": null,
-        "PersoonRechtsvorm": "Maatschap",
-        "VolledigeNaam": "Jan Klaasen",
-        "UitgebreideRechtsvorm": "Maatschap",
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": {
-              "Registratie": {
-                "DatumAanvang": 20080101,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "voorvoegsel"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19720718,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Functie": {
-                "Code": "15",
-                "Omschrijving": "Maat",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Bevoegdheid": {
-                "Registratie": {
-                  "DatumAanvang": 20080101,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "Soort": {
-                  "Code": "bb",
-                  "Omschrijving": "Beperkt bevoegd"
-                },
-                "OverigeBeperking": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
-                }
-              },
-              "Functietitel": null
-            },
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": {
-              "Registratie": {
-                "DatumAanvang": 20080101,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "voorvoegsel"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19651221,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Functie": {
-                "Code": "15",
-                "Omschrijving": "Maat",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Bevoegdheid": {
-                "Registratie": {
-                  "DatumAanvang": 20080101,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "Soort": {
-                  "Code": "bb",
-                  "Omschrijving": "Beperkt bevoegd"
-                },
-                "OverigeBeperking": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
-                }
-              },
-              "Functietitel": null
-            },
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          }
-        ],
-        "Rsin": 992830540,
-        "Naamgeving": {
-          "Registratie": {
-            "DatumAanvang": 20080101,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Naam": "International Intechi"
-        },
-        "Ontbinding": null,
-        "Rechtsvorm": {
-          "Code": "MA",
-          "Omschrijving": "Maatschap",
-          "ReferentieType": "Rechtsvorm"
-        },
-        "Duur": {
-          "Registratie": {
-            "DatumAanvang": 20080101,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "HeeftOnbepaaldeDuur": {
-            "Code": "J",
-            "Omschrijving": "Ja",
-            "ReferentieType": "geenRT"
-          }
-        }
-      },
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": null
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

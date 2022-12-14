@@ -1,553 +1,576 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 19980101,
-      "DatumEinde": 0,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90004361,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20030508,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Achterweg",
-          "Huisnummer": 10,
-          "Postcode": {
-            "Cijfercombinatie": 8081,
-            "Lettercombinatie": "RV"
-          },
-          "Plaats": "Elburg",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999131263,
-            "IdentificatieAdresseerbaarObject": 74999999696993
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-fdb02a3143d0527379c1d82889fa4de5",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90004361"
         }
       },
-      "VolledigAdres": "Achterweg 10 a 8081RV Elburg"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20030508,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Achterweg",
-          "Huisnummer": 10,
-          "Postcode": {
-            "Cijfercombinatie": 8081,
-            "Lettercombinatie": "RV"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "19980101"
           },
-          "Plaats": "Elburg",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999131263,
-            "IdentificatieAdresseerbaarObject": 74999999696993
+          "kvkNummer": "90004361",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Achterweg 10 a 8081RV Elburg"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 19840701,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        },
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "F",
-            "Omschrijving": "Fax"
-          }
-        }
-      ],
-      "EmailAdres": null
-    },
-    "Naam": "Free Fintandax",
-    "ManifesteertZichAls": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 19980101,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "Onderneming": {
-        "Registratie": {
-          "DatumAanvang": 19840701,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "KvkNummer": 90004361,
-        "SbiActiviteit": [
-          {
-            "Registratie": {
-              "DatumAanvang": 19840701,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 47999,
-              "Omschrijving": "Detailhandel via overige distributievormen",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          }
-        ],
-        "VoltijdWerkzamePersonen": 3,
-        "DeeltijdWerkzamePersonen": 1,
-        "TotaalWerkzamePersonen": 4,
-        "HandeltOnder": [
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 19980101,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "Free Fintandax",
-              "Volgorde": 0
-            },
-            "RelatieRegistratie": null
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 19980101,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "Free Fintandax de tweede",
-              "Volgorde": 1
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20150407111615420",
+              "datumAanvang": "20030508"
             },
-            "RelatieRegistratie": null
-          }
-        ],
-        "WordtUitgeoefendIn": {
-          "RelatieRegistratie": {
-            "DatumAanvang": 19980101,
-            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Achterweg",
+                "huisnummer": "10",
+                "huisletter": "a",
+                "postcode": {
+                  "cijfercombinatie": "8081",
+                  "lettercombinatie": "RV"
+                },
+                "plaats": "Elburg",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999131263",
+                  "identificatieAdresseerbaarObject": "0074999999696993"
+                }
+              }
+            },
+            "volledigAdres": "Achterweg 10 a 8081RV Elburg"
           },
-          "CommercieleVestiging": {
-            "Registratie": {
-              "DatumAanvang": 19840701,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20150407111615420",
+              "datumAanvang": "20030508"
             },
-            "Vestigingsnummer": 990000076609,
-            "BezoekLocatie": {
-              "Registratie": {
-                "DatumAanvang": 20030508,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Afgeschermd": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Adres": {
-                "BinnenlandsAdres": {
-                  "Straatnaam": "Achterweg",
-                  "Huisnummer": 10,
-                  "Postcode": {
-                    "Cijfercombinatie": 8081,
-                    "Lettercombinatie": "RV"
-                  },
-                  "Plaats": "Elburg",
-                  "BagId": {
-                    "IdentificatieNummeraanduiding": 74999999131263,
-                    "IdentificatieAdresseerbaarObject": 74999999696993
-                  },
-                  "HuisnummerToevoeging": null
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Achterweg",
+                "huisnummer": "10",
+                "huisletter": "a",
+                "postcode": {
+                  "cijfercombinatie": "8081",
+                  "lettercombinatie": "RV"
+                },
+                "plaats": "Elburg",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999131263",
+                  "identificatieAdresseerbaarObject": "0074999999696993"
+                }
+              }
+            },
+            "volledigAdres": "Achterweg 10 a 8081RV Elburg"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19840701"
+            },
+            "communicatienummer": [
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "T",
+                  "omschrijving": "Telefoon"
                 }
               },
-              "VolledigAdres": "Achterweg 10 a 8081RV Elburg"
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "F",
+                  "omschrijving": "Fax"
+                }
+              }
+            ]
+          },
+          "naam": "Free Fintandax",
+          "manifesteertZichAls": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19980101"
             },
-            "Communicatiegegevens": {
-              "Registratie": {
-                "DatumAanvang": 19840701,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
+            "onderneming": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19840701"
               },
-              "Communicatienummer": [
+              "kvkNummer": "90004361",
+              "sbiActiviteit": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19840701"
+                },
+                "sbiCode": {
+                  "code": "47999",
+                  "omschrijving": "Detailhandel via overige distributievormen",
+                  "referentieType": "ActiviteitCode"
+                },
+                "isHoofdactiviteit": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
+                }
+              },
+              "voltijdWerkzamePersonen": "3",
+              "deeltijdWerkzamePersonen": "1",
+              "totaalWerkzamePersonen": "4",
+              "handeltOnder": [
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19980101"
+                    },
+                    "naam": "Free Fintandax",
+                    "volgorde": "0"
                   }
                 },
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "F",
-                    "Omschrijving": "Fax"
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19980101"
+                    },
+                    "naam": "Free Fintandax de tweede",
+                    "volgorde": "1"
                   }
                 }
               ],
-              "EmailAdres": null
-            },
-            "EersteHandelsnaam": "Free Fintandax",
-            "VoltijdWerkzamePersonen": 3,
-            "DeeltijdWerkzamePersonen": 1,
-            "TotaalWerkzamePersonen": 4,
-            "Activiteiten": {
-              "Omschrijving": "Fabricage van hondensportartikelen en detailhandel in dierbenodigdheden en hondensportartikelen; verkoop van sportprijzen, bloemen, planten en aanverwante artikelen",
-              "SbiActiviteit": {
-                "Registratie": {
-                  "DatumAanvang": 19840701,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
+              "wordtUitgeoefendIn": {
+                "relatieRegistratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19980101"
                 },
-                "SbiCode": {
-                  "Code": 47999,
-                  "Omschrijving": "Detailhandel via overige distributievormen",
-                  "ReferentieType": "ActiviteitCode"
+                "commercieleVestiging": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19840701"
+                  },
+                  "vestigingsnummer": "990000076609",
+                  "bezoekLocatie": {
+                    "registratie": {
+                      "@registratieTijdstip": "20150407111615420",
+                      "datumAanvang": "20030508"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "straatnaam": "Achterweg",
+                        "huisnummer": "10",
+                        "huisletter": "a",
+                        "postcode": {
+                          "cijfercombinatie": "8081",
+                          "lettercombinatie": "RV"
+                        },
+                        "plaats": "Elburg",
+                        "bagId": {
+                          "identificatieNummeraanduiding": "0074999999131263",
+                          "identificatieAdresseerbaarObject": "0074999999696993"
+                        }
+                      }
+                    },
+                    "volledigAdres": "Achterweg 10 a 8081RV Elburg"
+                  },
+                  "communicatiegegevens": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19840701"
+                    },
+                    "communicatienummer": [
+                      {
+                        "toegangscode": "+31",
+                        "nummer": "0209999999",
+                        "soort": {
+                          "code": "T",
+                          "omschrijving": "Telefoon"
+                        }
+                      },
+                      {
+                        "toegangscode": "+31",
+                        "nummer": "0209999999",
+                        "soort": {
+                          "code": "F",
+                          "omschrijving": "Fax"
+                        }
+                      }
+                    ]
+                  },
+                  "eersteHandelsnaam": "Free Fintandax",
+                  "voltijdWerkzamePersonen": "3",
+                  "deeltijdWerkzamePersonen": "1",
+                  "totaalWerkzamePersonen": "4",
+                  "activiteiten": {
+                    "omschrijving": "Fabricage van hondensportartikelen en detailhandel in dierbenodigdheden en hondensportartikelen; verkoop van sportprijzen, bloemen, planten en aanverwante artikelen",
+                    "sbiActiviteit": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19840701"
+                      },
+                      "sbiCode": {
+                        "code": "47999",
+                        "omschrijving": "Detailhandel via overige distributievormen",
+                        "referentieType": "ActiviteitCode"
+                      },
+                      "isHoofdactiviteit": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "exporteert": {
+                      "code": "J",
+                      "omschrijving": "Ja",
+                      "referentieType": "geenRT"
+                    },
+                    "importeert": {
+                      "code": "J",
+                      "omschrijving": "Ja",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  "handeltOnder": [
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19980101"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19980101"
+                        },
+                        "naam": "Free Fintandax",
+                        "volgorde": "0"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19980101"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19980101"
+                        },
+                        "naam": "Free Fintandax de tweede",
+                        "volgorde": "1"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "wordtGeleidVanuit": {
+            "commercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19840701"
+              },
+              "vestigingsnummer": "990000076609",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20150407111615420",
+                  "datumAanvang": "20030508"
                 },
-                "IsHoofdactiviteit": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Achterweg",
+                    "huisnummer": "10",
+                    "huisletter": "a",
+                    "postcode": {
+                      "cijfercombinatie": "8081",
+                      "lettercombinatie": "RV"
+                    },
+                    "plaats": "Elburg",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999131263",
+                      "identificatieAdresseerbaarObject": "0074999999696993"
+                    }
+                  }
+                },
+                "volledigAdres": "Achterweg 10 a 8081RV Elburg"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19840701"
+                },
+                "communicatienummer": [
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "T",
+                      "omschrijving": "Telefoon"
+                    }
+                  },
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "F",
+                      "omschrijving": "Fax"
+                    }
+                  }
+                ]
+              },
+              "eersteHandelsnaam": "Free Fintandax",
+              "voltijdWerkzamePersonen": "3",
+              "deeltijdWerkzamePersonen": "1",
+              "totaalWerkzamePersonen": "4",
+              "activiteiten": {
+                "omschrijving": "Fabricage van hondensportartikelen en detailhandel in dierbenodigdheden en hondensportartikelen; verkoop van sportprijzen, bloemen, planten en aanverwante artikelen",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19840701"
+                  },
+                  "sbiCode": {
+                    "code": "47999",
+                    "omschrijving": "Detailhandel via overige distributievormen",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                },
+                "exporteert": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
+                },
+                "importeert": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
                 }
               },
-              "Exporteert": {
-                "Code": "J",
-                "Omschrijving": "Ja",
-                "ReferentieType": "geenRT"
-              },
-              "Importeert": {
-                "Code": "J",
-                "Omschrijving": "Ja",
-                "ReferentieType": "geenRT"
-              }
-            },
-            "HandeltOnder": {
-              "Handelsnaam": {
-                "Registratie": {
-                  "DatumAanvang": 19980101,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
+              "handeltOnder": [
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19980101"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19980101"
+                    },
+                    "naam": "Free Fintandax",
+                    "volgorde": "0"
+                  }
                 },
-                "Naam": "Free Fintandax",
-                "Volgorde": 0
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19980101"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19980101"
+                    },
+                    "naam": "Free Fintandax de tweede",
+                    "volgorde": "1"
+                  }
+                }
+              ]
+            }
+          },
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19980101"
+            },
+            "samenwerkingsverband": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19980101"
               },
-              "RelatieRegistratie": {
-                "DatumAanvang": 19980101,
-                "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+              "persoonRechtsvorm": "Vennootschap Onder Firma",
+              "volledigeNaam": "Free Fintandax",
+              "uitgebreideRechtsvorm": "Vennootschap Onder Firma",
+              "heeft": [
+                {
+                  "aansprakelijke": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19980101"
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": [
+                            {
+                              "@naam": "voorvoegsel",
+                              "#text": "van"
+                            },
+                            {
+                              "@naam": "achternaam",
+                              "#text": "Nickols - Nickols"
+                            }
+                          ]
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19890216"
+                        },
+                        "volledigeNaam": "Cyrstal Nickols",
+                        "geslachtsnaam": "Nickols - Nickols",
+                        "voorvoegselGeslachtsnaam": "van",
+                        "voornamen": "Cyrstal",
+                        "geboortedatum": "19890216"
+                      }
+                    },
+                    "functie": {
+                      "code": "13",
+                      "omschrijving": "Vennoot",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19980101"
+                      },
+                      "soort": {
+                        "code": "bb",
+                        "omschrijving": "Beperkt bevoegd",
+                        "referentieType": "SoortBevoegdheidAansprakelijkeBijSamenwerkingsverband"
+                      },
+                      "overigeBeperking": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                },
+                {
+                  "aansprakelijke": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19980101"
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": [
+                            {
+                              "@naam": "voorvoegsel",
+                              "#text": "van"
+                            },
+                            {
+                              "@naam": "achternaam",
+                              "#text": "Vartanian - van Vartanian"
+                            }
+                          ]
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19480710"
+                        },
+                        "volledigeNaam": "Madaline Vartanian",
+                        "geslachtsnaam": "Vartanian - van Vartanian",
+                        "voorvoegselGeslachtsnaam": "van",
+                        "voornamen": "Madaline",
+                        "geboortedatum": "19480710"
+                      }
+                    },
+                    "functie": {
+                      "code": "13",
+                      "omschrijving": "Vennoot",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19980101"
+                      },
+                      "soort": {
+                        "code": "bb",
+                        "omschrijving": "Beperkt bevoegd",
+                        "referentieType": "SoortBevoegdheidAansprakelijkeBijSamenwerkingsverband"
+                      },
+                      "overigeBeperking": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                }
+              ],
+              "rsin": "992867836",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19980101"
+                },
+                "naam": "Free Fintandax"
+              },
+              "rechtsvorm": {
+                "code": "VOF",
+                "omschrijving": "Vennootschap Onder Firma",
+                "referentieType": "Rechtsvorm"
+              },
+              "duur": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19980101"
+                },
+                "heeftOnbepaaldeDuur": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
+                }
               }
             }
           }
         }
       }
-    },
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": {
-        "Registratie": {
-          "DatumAanvang": 19840701,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "Vestigingsnummer": 990000076609,
-        "BezoekLocatie": {
-          "Registratie": {
-            "DatumAanvang": 20030508,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Afgeschermd": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Adres": {
-            "BinnenlandsAdres": {
-              "Straatnaam": "Achterweg",
-              "Huisnummer": 10,
-              "Postcode": {
-                "Cijfercombinatie": 8081,
-                "Lettercombinatie": "RV"
-              },
-              "Plaats": "Elburg",
-              "BagId": {
-                "IdentificatieNummeraanduiding": 74999999131263,
-                "IdentificatieAdresseerbaarObject": 74999999696993
-              },
-              "HuisnummerToevoeging": null
-            }
-          },
-          "VolledigAdres": "Achterweg 10 a 8081RV Elburg"
-        },
-        "Communicatiegegevens": {
-          "Registratie": {
-            "DatumAanvang": 19840701,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Communicatienummer": [
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            },
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "F",
-                "Omschrijving": "Fax"
-              }
-            }
-          ],
-          "EmailAdres": null
-        },
-        "EersteHandelsnaam": "Free Fintandax",
-        "VoltijdWerkzamePersonen": 3,
-        "DeeltijdWerkzamePersonen": 1,
-        "TotaalWerkzamePersonen": 4,
-        "Activiteiten": {
-          "Omschrijving": "Fabricage van hondensportartikelen en detailhandel in dierbenodigdheden en hondensportartikelen; verkoop van sportprijzen, bloemen, planten en aanverwante artikelen",
-          "SbiActiviteit": {
-            "Registratie": {
-              "DatumAanvang": 19840701,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 47999,
-              "Omschrijving": "Detailhandel via overige distributievormen",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          },
-          "Exporteert": {
-            "Code": "J",
-            "Omschrijving": "Ja",
-            "ReferentieType": "geenRT"
-          },
-          "Importeert": {
-            "Code": "J",
-            "Omschrijving": "Ja",
-            "ReferentieType": "geenRT"
-          }
-        },
-        "HandeltOnder": {
-          "Handelsnaam": {
-            "Registratie": {
-              "DatumAanvang": 19980101,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Naam": "Free Fintandax",
-            "Volgorde": 0
-          },
-          "RelatieRegistratie": {
-            "DatumAanvang": 19980101,
-            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-          }
-        }
-      }
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 19980101,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": {
-        "Registratie": {
-          "DatumAanvang": 19980101,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "BijzondereRechtstoestand": null,
-        "PersoonRechtsvorm": "Vennootschap Onder Firma",
-        "VolledigeNaam": "Jan Klaasen",
-        "UitgebreideRechtsvorm": "Vennootschap Onder Firma",
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": {
-              "Registratie": {
-                "DatumAanvang": 19980101,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "voorvoegsel"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19890216,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Functie": {
-                "Code": "13",
-                "Omschrijving": "Vennoot",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Bevoegdheid": {
-                "Registratie": {
-                  "DatumAanvang": 19980101,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "Soort": {
-                  "Code": "bb",
-                  "Omschrijving": "Beperkt bevoegd"
-                },
-                "OverigeBeperking": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
-                }
-              },
-              "Functietitel": null
-            },
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": {
-              "Registratie": {
-                "DatumAanvang": 19980101,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "voorvoegsel"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19480710,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Functie": {
-                "Code": "13",
-                "Omschrijving": "Vennoot",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Bevoegdheid": {
-                "Registratie": {
-                  "DatumAanvang": 19980101,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "Soort": {
-                  "Code": "bb",
-                  "Omschrijving": "Beperkt bevoegd"
-                },
-                "OverigeBeperking": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
-                }
-              },
-              "Functietitel": null
-            },
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          }
-        ],
-        "Rsin": 992867836,
-        "Naamgeving": {
-          "Registratie": {
-            "DatumAanvang": 19980101,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Naam": "Free Fintandax"
-        },
-        "Ontbinding": null,
-        "Rechtsvorm": {
-          "Code": "VOF",
-          "Omschrijving": "Vennootschap Onder Firma",
-          "ReferentieType": "Rechtsvorm"
-        },
-        "Duur": {
-          "Registratie": {
-            "DatumAanvang": 19980101,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "HeeftOnbepaaldeDuur": {
-            "Code": "J",
-            "Omschrijving": "Ja",
-            "ReferentieType": "geenRT"
-          }
-        }
-      },
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": null
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

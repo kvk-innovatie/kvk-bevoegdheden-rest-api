@@ -1,548 +1,589 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 20080101,
-      "DatumEinde": 20130701,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90004515,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20080101,
-        "DatumEinde": 20130701,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Veldsweg",
-          "Huisnummer": 100,
-          "Postcode": {
-            "Cijfercombinatie": 7441,
-            "Lettercombinatie": "CN"
-          },
-          "Plaats": "Nijverdal",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999435400,
-            "IdentificatieAdresseerbaarObject": 74999999664489
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-f42ad09e05b467e9d6dbbbd0ea1f07f9",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90004515"
         }
       },
-      "VolledigAdres": "Veldsweg 100 7441CN Nijverdal"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20080101,
-        "DatumEinde": 20130701,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Veldsweg",
-          "Huisnummer": 100,
-          "Postcode": {
-            "Cijfercombinatie": 7441,
-            "Lettercombinatie": "CN"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "20080101",
+            "datumEinde": "20130701"
           },
-          "Plaats": "Nijverdal",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999435400,
-            "IdentificatieAdresseerbaarObject": 74999999664489
+          "kvkNummer": "90004515",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Veldsweg 100 7441CN Nijverdal"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 20080101,
-        "DatumEinde": 20130701,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        },
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "F",
-            "Omschrijving": "Fax"
-          }
-        }
-      ],
-      "EmailAdres": "nepemailadres@kvk.nl"
-    },
-    "Naam": "Local Quote-lab",
-    "ManifesteertZichAls": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20080101,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Onderneming": {
-        "Registratie": {
-          "DatumAanvang": 20080101,
-          "DatumEinde": 20130701,
-          "RegistratieTijdstipNoValue": null
-        },
-        "KvkNummer": 90004515,
-        "SbiActiviteit": [
-          {
-            "Registratie": {
-              "DatumAanvang": 20080101,
-              "DatumEinde": 20130701,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 146,
-              "Omschrijving": "Fokken en houden van varkens",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          }
-        ],
-        "VoltijdWerkzamePersonen": 2,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 2,
-        "HandeltOnder": [
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20080101,
-                "DatumEinde": 20130701,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "Local Quote-lab",
-              "Volgorde": 0
-            },
-            "RelatieRegistratie": null
-          }
-        ],
-        "WordtUitgeoefendIn": {
-          "RelatieRegistratie": {
-            "DatumAanvang": 20080101,
-            "RegistratieTijdstipNoValue": null
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "CommercieleVestiging": {
-            "Registratie": {
-              "DatumAanvang": 20080101,
-              "DatumEinde": 20130701,
-              "RegistratieTijdstipNoValue": null
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20130806111530556",
+              "datumAanvang": "20080101",
+              "datumEinde": "20130701"
             },
-            "Vestigingsnummer": 990000266694,
-            "BezoekLocatie": {
-              "Registratie": {
-                "DatumAanvang": 20080101,
-                "DatumEinde": 20130701,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Afgeschermd": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Adres": {
-                "BinnenlandsAdres": {
-                  "Straatnaam": "Veldsweg",
-                  "Huisnummer": 100,
-                  "Postcode": {
-                    "Cijfercombinatie": 7441,
-                    "Lettercombinatie": "CN"
-                  },
-                  "Plaats": "Nijverdal",
-                  "BagId": {
-                    "IdentificatieNummeraanduiding": 74999999435400,
-                    "IdentificatieAdresseerbaarObject": 74999999664489
-                  },
-                  "HuisnummerToevoeging": null
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Veldsweg",
+                "huisnummer": "100",
+                "postcode": {
+                  "cijfercombinatie": "7441",
+                  "lettercombinatie": "CN"
+                },
+                "plaats": "Nijverdal",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999435400",
+                  "identificatieAdresseerbaarObject": "0074999999664489"
+                }
+              }
+            },
+            "volledigAdres": "Veldsweg 100 7441CN Nijverdal"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20130806111530556",
+              "datumAanvang": "20080101",
+              "datumEinde": "20130701"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Veldsweg",
+                "huisnummer": "100",
+                "postcode": {
+                  "cijfercombinatie": "7441",
+                  "lettercombinatie": "CN"
+                },
+                "plaats": "Nijverdal",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999435400",
+                  "identificatieAdresseerbaarObject": "0074999999664489"
+                }
+              }
+            },
+            "volledigAdres": "Veldsweg 100 7441CN Nijverdal"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstip": "20130806111530556",
+              "datumAanvang": "20080101",
+              "datumEinde": "20130701"
+            },
+            "communicatienummer": [
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "T",
+                  "omschrijving": "Telefoon"
                 }
               },
-              "VolledigAdres": "Veldsweg 100 7441CN Nijverdal"
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "F",
+                  "omschrijving": "Fax"
+                }
+              }
+            ],
+            "emailAdres": "nepemailadres@kvk.nl"
+          },
+          "naam": "Local Quote-lab",
+          "manifesteertZichAls": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20130806111530556",
+              "datumAanvang": "20080101",
+              "datumEinde": "20130701"
             },
-            "Communicatiegegevens": {
-              "Registratie": {
-                "DatumAanvang": 20080101,
-                "DatumEinde": 20130701,
-                "RegistratieTijdstipNoValue": null
+            "onderneming": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20080101",
+                "datumEinde": "20130701"
               },
-              "Communicatienummer": [
+              "kvkNummer": "90004515",
+              "sbiActiviteit": {
+                "registratie": {
+                  "@registratieTijdstip": "20130806111530556",
+                  "datumAanvang": "20080101",
+                  "datumEinde": "20130701"
+                },
+                "sbiCode": {
+                  "code": "0146",
+                  "omschrijving": "Fokken en houden van varkens",
+                  "referentieType": "ActiviteitCode"
+                },
+                "isHoofdactiviteit": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
+                }
+              },
+              "voltijdWerkzamePersonen": "2",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "2",
+              "handeltOnder": {
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20080101",
+                    "datumEinde": "20130701"
+                  },
+                  "naam": "Local Quote-lab",
+                  "volgorde": "0"
+                }
+              },
+              "wordtUitgeoefendIn": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20130806111530556",
+                  "datumAanvang": "20080101",
+                  "datumEinde": "20130701"
+                },
+                "commercieleVestiging": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20080101",
+                    "datumEinde": "20130701"
+                  },
+                  "vestigingsnummer": "990000266694",
+                  "bezoekLocatie": {
+                    "registratie": {
+                      "@registratieTijdstip": "20130806111530556",
+                      "datumAanvang": "20080101",
+                      "datumEinde": "20130701"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "straatnaam": "Veldsweg",
+                        "huisnummer": "100",
+                        "postcode": {
+                          "cijfercombinatie": "7441",
+                          "lettercombinatie": "CN"
+                        },
+                        "plaats": "Nijverdal",
+                        "bagId": {
+                          "identificatieNummeraanduiding": "0074999999435400",
+                          "identificatieAdresseerbaarObject": "0074999999664489"
+                        }
+                      }
+                    },
+                    "volledigAdres": "Veldsweg 100 7441CN Nijverdal"
+                  },
+                  "communicatiegegevens": {
+                    "registratie": {
+                      "@registratieTijdstip": "20130806111530556",
+                      "datumAanvang": "20080101",
+                      "datumEinde": "20130701"
+                    },
+                    "communicatienummer": [
+                      {
+                        "toegangscode": "+31",
+                        "nummer": "0209999999",
+                        "soort": {
+                          "code": "T",
+                          "omschrijving": "Telefoon"
+                        }
+                      },
+                      {
+                        "toegangscode": "+31",
+                        "nummer": "0209999999",
+                        "soort": {
+                          "code": "F",
+                          "omschrijving": "Fax"
+                        }
+                      }
+                    ],
+                    "emailAdres": "nepemailadres@kvk.nl"
+                  },
+                  "eersteHandelsnaam": "Local Quote-lab",
+                  "voltijdWerkzamePersonen": "2",
+                  "deeltijdWerkzamePersonen": "0",
+                  "totaalWerkzamePersonen": "2",
+                  "activiteiten": {
+                    "omschrijving": "Varkenshouderij bedrijf",
+                    "sbiActiviteit": {
+                      "registratie": {
+                        "@registratieTijdstip": "20130806111530556",
+                        "datumAanvang": "20080101",
+                        "datumEinde": "20130701"
+                      },
+                      "sbiCode": {
+                        "code": "0146",
+                        "omschrijving": "Fokken en houden van varkens",
+                        "referentieType": "ActiviteitCode"
+                      },
+                      "isHoofdactiviteit": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "exporteert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "importeert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  "handeltOnder": {
+                    "relatieRegistratie": {
+                      "@registratieTijdstip": "20130806111530556",
+                      "datumAanvang": "20080101",
+                      "datumEinde": "20130701"
+                    },
+                    "handelsnaam": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20080101",
+                        "datumEinde": "20130701"
+                      },
+                      "naam": "Local Quote-lab",
+                      "volgorde": "0"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "wordtGeleidVanuit": {
+            "commercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20080101",
+                "datumEinde": "20130701"
+              },
+              "vestigingsnummer": "990000266694",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20130806111530556",
+                  "datumAanvang": "20080101",
+                  "datumEinde": "20130701"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Veldsweg",
+                    "huisnummer": "100",
+                    "postcode": {
+                      "cijfercombinatie": "7441",
+                      "lettercombinatie": "CN"
+                    },
+                    "plaats": "Nijverdal",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999435400",
+                      "identificatieAdresseerbaarObject": "0074999999664489"
+                    }
+                  }
+                },
+                "volledigAdres": "Veldsweg 100 7441CN Nijverdal"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstip": "20130806111530556",
+                  "datumAanvang": "20080101",
+                  "datumEinde": "20130701"
+                },
+                "communicatienummer": [
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "T",
+                      "omschrijving": "Telefoon"
+                    }
+                  },
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "F",
+                      "omschrijving": "Fax"
+                    }
+                  }
+                ],
+                "emailAdres": "nepemailadres@kvk.nl"
+              },
+              "eersteHandelsnaam": "Local Quote-lab",
+              "voltijdWerkzamePersonen": "2",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "2",
+              "activiteiten": {
+                "omschrijving": "Varkenshouderij bedrijf",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstip": "20130806111530556",
+                    "datumAanvang": "20080101",
+                    "datumEinde": "20130701"
+                  },
+                  "sbiCode": {
+                    "code": "0146",
+                    "omschrijving": "Fokken en houden van varkens",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                },
+                "exporteert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "importeert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                }
+              },
+              "handeltOnder": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20130806111530556",
+                  "datumAanvang": "20080101",
+                  "datumEinde": "20130701"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20080101",
+                    "datumEinde": "20130701"
+                  },
+                  "naam": "Local Quote-lab",
+                  "volgorde": "0"
+                }
+              }
+            }
+          },
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20130806111530556",
+              "datumAanvang": "20080101",
+              "datumEinde": "20130701"
+            },
+            "samenwerkingsverband": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20080101",
+                "datumEinde": "20130701"
+              },
+              "persoonRechtsvorm": "Vennootschap Onder Firma",
+              "volledigeNaam": "Local Quote-lab",
+              "uitgebreideRechtsvorm": "Vennootschap Onder Firma",
+              "heeft": [
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
+                  "aansprakelijke": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080101",
+                      "datumEinde": "20130701"
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": [
+                            {
+                              "@naam": "voorvoegsel",
+                              "#text": "van de"
+                            },
+                            {
+                              "@naam": "achternaam",
+                              "#text": "Saville"
+                            }
+                          ]
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19490515"
+                        },
+                        "bijzondereRechtstoestand": {
+                          "soort": {
+                            "code": "SURS",
+                            "omschrijving": "Surseance van betaling",
+                            "referentieType": "geenRT"
+                          }
+                        },
+                        "volledigeNaam": "Brad Saville",
+                        "geslachtsnaam": "Saville",
+                        "voorvoegselGeslachtsnaam": "van de",
+                        "voornamen": "Brad",
+                        "geboortedatum": "19490515"
+                      }
+                    },
+                    "functie": {
+                      "code": "13",
+                      "omschrijving": "Vennoot",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstip": "20130806111530556",
+                        "datumAanvang": "20080101",
+                        "datumEinde": "20130701"
+                      },
+                      "soort": {
+                        "code": "bb",
+                        "omschrijving": "Beperkt bevoegd",
+                        "referentieType": "SoortBevoegdheidAansprakelijkeBijSamenwerkingsverband"
+                      },
+                      "beperkingInEuros": {
+                        "waarde": "15000",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      },
+                      "overigeBeperking": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    }
                   }
                 },
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "F",
-                    "Omschrijving": "Fax"
+                  "aansprakelijke": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080101",
+                      "datumEinde": "20130701"
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": [
+                            {
+                              "@naam": "voorvoegsel",
+                              "#text": "van de"
+                            },
+                            {
+                              "@naam": "achternaam",
+                              "#text": "Clouse"
+                            }
+                          ]
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19651126"
+                        },
+                        "volledigeNaam": "Virgie Clouse",
+                        "geslachtsnaam": "Clouse",
+                        "voorvoegselGeslachtsnaam": "van de",
+                        "voornamen": "Virgie",
+                        "geboortedatum": "19651126"
+                      }
+                    },
+                    "functie": {
+                      "code": "13",
+                      "omschrijving": "Vennoot",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstip": "20130806111530556",
+                        "datumAanvang": "20080101",
+                        "datumEinde": "20130701"
+                      },
+                      "soort": {
+                        "code": "bb",
+                        "omschrijving": "Beperkt bevoegd",
+                        "referentieType": "SoortBevoegdheidAansprakelijkeBijSamenwerkingsverband"
+                      },
+                      "beperkingInEuros": {
+                        "waarde": "15000",
+                        "valuta": {
+                          "code": "EUR",
+                          "omschrijving": "Euro",
+                          "referentieType": "Valuta"
+                        }
+                      },
+                      "overigeBeperking": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    }
                   }
                 }
               ],
-              "EmailAdres": "nepemailadres@kvk.nl"
-            },
-            "EersteHandelsnaam": "Local Quote-lab",
-            "VoltijdWerkzamePersonen": 2,
-            "DeeltijdWerkzamePersonen": 0,
-            "TotaalWerkzamePersonen": 2,
-            "Activiteiten": {
-              "Omschrijving": "Varkenshouderij bedrijf",
-              "SbiActiviteit": {
-                "Registratie": {
-                  "DatumAanvang": 20080101,
-                  "DatumEinde": 20130701,
-                  "RegistratieTijdstipNoValue": null
+              "rsin": "992056937",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstip": "20130806111530556",
+                  "datumAanvang": "20080101",
+                  "datumEinde": "20130701"
                 },
-                "SbiCode": {
-                  "Code": 146,
-                  "Omschrijving": "Fokken en houden van varkens",
-                  "ReferentieType": "ActiviteitCode"
-                },
-                "IsHoofdactiviteit": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
+                "naam": "Local Quote-lab"
+              },
+              "ontbinding": {
+                "registratie": {
+                  "@registratieTijdstip": "20130806111530556",
+                  "datumAanvang": "20130701"
                 }
               },
-              "Exporteert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
+              "rechtsvorm": {
+                "code": "VOF",
+                "omschrijving": "Vennootschap Onder Firma",
+                "referentieType": "Rechtsvorm"
               },
-              "Importeert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              }
-            },
-            "HandeltOnder": {
-              "Handelsnaam": {
-                "Registratie": {
-                  "DatumAanvang": 20080101,
-                  "DatumEinde": 20130701,
-                  "RegistratieTijdstipNoValue": null
+              "duur": {
+                "registratie": {
+                  "@registratieTijdstip": "20130806111530556",
+                  "datumAanvang": "20080101",
+                  "datumEinde": "20130701"
                 },
-                "Naam": "Local Quote-lab",
-                "Volgorde": 0
-              },
-              "RelatieRegistratie": {
-                "DatumAanvang": 20080101,
-                "RegistratieTijdstipNoValue": null
+                "heeftOnbepaaldeDuur": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
+                }
               }
             }
           }
         }
       }
-    },
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": {
-        "Registratie": {
-          "DatumAanvang": 20080101,
-          "DatumEinde": 20130701,
-          "RegistratieTijdstipNoValue": null
-        },
-        "Vestigingsnummer": 990000266694,
-        "BezoekLocatie": {
-          "Registratie": {
-            "DatumAanvang": 20080101,
-            "DatumEinde": 20130701,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Afgeschermd": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Adres": {
-            "BinnenlandsAdres": {
-              "Straatnaam": "Veldsweg",
-              "Huisnummer": 100,
-              "Postcode": {
-                "Cijfercombinatie": 7441,
-                "Lettercombinatie": "CN"
-              },
-              "Plaats": "Nijverdal",
-              "BagId": {
-                "IdentificatieNummeraanduiding": 74999999435400,
-                "IdentificatieAdresseerbaarObject": 74999999664489
-              },
-              "HuisnummerToevoeging": null
-            }
-          },
-          "VolledigAdres": "Veldsweg 100 7441CN Nijverdal"
-        },
-        "Communicatiegegevens": {
-          "Registratie": {
-            "DatumAanvang": 20080101,
-            "DatumEinde": 20130701,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Communicatienummer": [
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            },
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "F",
-                "Omschrijving": "Fax"
-              }
-            }
-          ],
-          "EmailAdres": "nepemailadres@kvk.nl"
-        },
-        "EersteHandelsnaam": "Local Quote-lab",
-        "VoltijdWerkzamePersonen": 2,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 2,
-        "Activiteiten": {
-          "Omschrijving": "Varkenshouderij bedrijf",
-          "SbiActiviteit": {
-            "Registratie": {
-              "DatumAanvang": 20080101,
-              "DatumEinde": 20130701,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 146,
-              "Omschrijving": "Fokken en houden van varkens",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          },
-          "Exporteert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Importeert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          }
-        },
-        "HandeltOnder": {
-          "Handelsnaam": {
-            "Registratie": {
-              "DatumAanvang": 20080101,
-              "DatumEinde": 20130701,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Naam": "Local Quote-lab",
-            "Volgorde": 0
-          },
-          "RelatieRegistratie": {
-            "DatumAanvang": 20080101,
-            "RegistratieTijdstipNoValue": null
-          }
-        }
-      }
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20080101,
-        "RegistratieTijdstipNoValue": null
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": {
-        "Registratie": {
-          "DatumAanvang": 20080101,
-          "DatumEinde": 20130701,
-          "RegistratieTijdstipNoValue": null
-        },
-        "BijzondereRechtstoestand": null,
-        "PersoonRechtsvorm": "Vennootschap Onder Firma",
-        "VolledigeNaam": "Jan Klaasen",
-        "UitgebreideRechtsvorm": "Vennootschap Onder Firma",
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": {
-              "Registratie": {
-                "DatumAanvang": 20080101,
-                "DatumEinde": 20130701,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "voorvoegsel"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19490515,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Functie": {
-                "Code": "13",
-                "Omschrijving": "Vennoot",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Bevoegdheid": {
-                "Registratie": {
-                  "DatumAanvang": 20080101,
-                  "DatumEinde": 20130701,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "Soort": {
-                  "Code": "bb",
-                  "Omschrijving": "Beperkt bevoegd"
-                },
-                "OverigeBeperking": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
-                }
-              },
-              "Functietitel": null
-            },
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": {
-              "Registratie": {
-                "DatumAanvang": 20080101,
-                "DatumEinde": 20130701,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "voorvoegsel"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19651126,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Functie": {
-                "Code": "13",
-                "Omschrijving": "Vennoot",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Bevoegdheid": {
-                "Registratie": {
-                  "DatumAanvang": 20080101,
-                  "DatumEinde": 20130701,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "Soort": {
-                  "Code": "bb",
-                  "Omschrijving": "Beperkt bevoegd"
-                },
-                "OverigeBeperking": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
-                }
-              },
-              "Functietitel": null
-            },
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          }
-        ],
-        "Rsin": 992056937,
-        "Naamgeving": {
-          "Registratie": {
-            "DatumAanvang": 20080101,
-            "DatumEinde": 20130701,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Naam": "Local Quote-lab"
-        },
-        "Ontbinding": {
-          "Registratie": {
-            "DatumAanvang": 20130701,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "aanleiding": null
-        },
-        "Rechtsvorm": {
-          "Code": "VOF",
-          "Omschrijving": "Vennootschap Onder Firma",
-          "ReferentieType": "Rechtsvorm"
-        },
-        "Duur": {
-          "Registratie": {
-            "DatumAanvang": 20080101,
-            "DatumEinde": 20130701,
-            "RegistratieTijdstipNoValue": null
-          },
-          "HeeftOnbepaaldeDuur": {
-            "Code": "J",
-            "Omschrijving": "Ja",
-            "ReferentieType": "geenRT"
-          }
-        }
-      },
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": null
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

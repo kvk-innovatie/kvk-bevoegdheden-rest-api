@@ -1,147 +1,641 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 20001220,
-      "DatumEinde": 0,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90001605,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20150801,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Frederik Hendrikhof",
-          "Huisnummer": 44,
-          "Postcode": {
-            "Cijfercombinatie": 5141,
-            "Lettercombinatie": "SG"
-          },
-          "Plaats": "Waalwijk",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999495758,
-            "IdentificatieAdresseerbaarObject": 74999999708531
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-4ce24f9c8aba64c80c4176ced1e37055",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90001605"
         }
       },
-      "VolledigAdres": "Frederik Hendrikhof 44 5141SG Waalwijk"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20150801,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": null,
-          "Huisnummer": 0,
-          "Postcode": {
-            "Cijfercombinatie": 6671,
-            "Lettercombinatie": "BR"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "20001220"
           },
-          "Plaats": "Zetten",
-          "BagId": null,
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Postbus 99999 6671BR Zetten"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 20001220,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        },
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "F",
-            "Omschrijving": "Fax"
-          }
-        }
-      ],
-      "EmailAdres": "nepemailadres@kvk.nl"
-    },
-    "Naam": "Stichting International Voltware",
-    "ManifesteertZichAls": null,
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": null
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20001220,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": {
-        "VoornemenTotOntbinding": null,
-        "ActiviteitenGestaaktPer": null,
-        "Rechtsvorm": {
-          "Code": "ST",
-          "Omschrijving": "Stichting"
-        },
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
+          "kvkNummer": "90001605",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
+          },
+          "sbiActiviteit": [
+            {
+              "registratie": {
+                "@registratieTijdstip": "20140412120232652",
+                "datumAanvang": "20140412"
               },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": null,
-                "Rechtspersoon": {
-                  "VoornemenTotOntbinding": null,
-                  "ActiviteitenGestaaktPer": null,
-                  "Rechtsvorm": null,
-                  "Heeft": [],
-                  "VolledigeNaam": "Jan Klaasen",
-                  "Rsin": "992890615"
-                }
+              "sbiCode": {
+                "code": "88993",
+                "omschrijving": "Lokaal welzijnswerk",
+                "referentieType": "ActiviteitCode"
               },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "azb",
-                  "Omschrijving": "Alleen/zelfstandig bevoegd"
-                }
-              },
-              "Functietitel": null
+              "isHoofdactiviteit": {
+                "code": "J",
+                "omschrijving": "Ja",
+                "referentieType": "geenRT"
+              }
             },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
+            {
+              "registratie": {
+                "@registratieTijdstip": "20140412120232652",
+                "datumAanvang": "20140412"
+              },
+              "sbiCode": {
+                "code": "88999",
+                "omschrijving": "Overig maatschappelijk advies, gemeenschapshuizen en samenwerkingsorganen op het gebied van welzijn",
+                "referentieType": "ActiviteitCode"
+              },
+              "isHoofdactiviteit": {
+                "code": "J",
+                "omschrijving": "Ja",
+                "referentieType": "geenRT"
+              }
+            }
+          ],
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "J",
+            "omschrijving": "Ja",
+            "referentieType": "geenRT"
+          },
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20150812125119366",
+              "datumAanvang": "20150801"
+            },
+            "toevoegingAdres": "1e verdieping",
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Frederik Hendrikhof",
+                "huisnummer": "44",
+                "postcode": {
+                  "cijfercombinatie": "5141",
+                  "lettercombinatie": "SG"
+                },
+                "plaats": "Waalwijk",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999495758",
+                  "identificatieAdresseerbaarObject": "0074999999708531"
+                }
+              }
+            },
+            "volledigAdres": "Frederik Hendrikhof 44 5141SG Waalwijk"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20150812125119366",
+              "datumAanvang": "20150801"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "postbusnummer": "99999",
+                "postcode": {
+                  "cijfercombinatie": "6671",
+                  "lettercombinatie": "BR"
+                },
+                "plaats": "Zetten"
+              }
+            },
+            "volledigAdres": "Postbus 99999 6671BR Zetten"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstip": "20120312083101808",
+              "datumAanvang": "20001220"
+            },
+            "communicatienummer": [
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "T",
+                  "omschrijving": "Telefoon"
+                }
+              },
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "F",
+                  "omschrijving": "Fax"
+                }
+              }
+            ],
+            "emailAdres": "nepemailadres@kvk.nl",
+            "domeinNaam": "www.kvk.nl"
+          },
+          "naam": "Stichting International Voltware",
+          "wordtUitgeoefendIn": [
+            {
+              "relatieRegistratie": {
+                "@registratieTijdstip": "20120312083101808",
+                "datumAanvang": "20001220"
+              },
+              "nietCommercieleVestiging": {
+                "registratie": {
+                  "@registratieTijdstip": "20120312083101808",
+                  "datumAanvang": "20001220"
+                },
+                "vestigingsnummer": "990000789076",
+                "bezoekLocatie": {
+                  "registratie": {
+                    "@registratieTijdstip": "20150812125119366",
+                    "datumAanvang": "20150801"
+                  },
+                  "toevoegingAdres": "1e verdieping",
+                  "afgeschermd": {
+                    "code": "N",
+                    "omschrijving": "Nee",
+                    "referentieType": "geenRT"
+                  },
+                  "adres": {
+                    "binnenlandsAdres": {
+                      "straatnaam": "Frederik Hendrikhof",
+                      "huisnummer": "44",
+                      "postcode": {
+                        "cijfercombinatie": "5141",
+                        "lettercombinatie": "SG"
+                      },
+                      "plaats": "Waalwijk",
+                      "bagId": {
+                        "identificatieNummeraanduiding": "0074999999495758",
+                        "identificatieAdresseerbaarObject": "0074999999708531"
+                      }
+                    }
+                  },
+                  "volledigAdres": "Frederik Hendrikhof 44 5141SG Waalwijk"
+                },
+                "postLocatie": {
+                  "registratie": {
+                    "@registratieTijdstip": "20150812125119366",
+                    "datumAanvang": "20150801"
+                  },
+                  "afgeschermd": {
+                    "code": "N",
+                    "omschrijving": "Nee",
+                    "referentieType": "geenRT"
+                  },
+                  "adres": {
+                    "binnenlandsAdres": {
+                      "postbusnummer": "99999",
+                      "postcode": {
+                        "cijfercombinatie": "6671",
+                        "lettercombinatie": "BR"
+                      },
+                      "plaats": "Zetten"
+                    }
+                  },
+                  "volledigAdres": "Postbus 99999 6671BR Zetten"
+                },
+                "communicatiegegevens": {
+                  "registratie": {
+                    "@registratieTijdstip": "20120312083101808",
+                    "datumAanvang": "20001220"
+                  },
+                  "communicatienummer": [
+                    {
+                      "toegangscode": "+31",
+                      "nummer": "0209999999",
+                      "soort": {
+                        "code": "T",
+                        "omschrijving": "Telefoon"
+                      }
+                    },
+                    {
+                      "toegangscode": "+31",
+                      "nummer": "0209999999",
+                      "soort": {
+                        "code": "F",
+                        "omschrijving": "Fax"
+                      }
+                    }
+                  ],
+                  "emailAdres": "nepemailadres@kvk.nl",
+                  "domeinNaam": "www.kvk.nl"
+                },
+                "eersteHandelsnaam": "Stichting International Voltware",
+                "naamgeving": {
+                  "registratie": {
+                    "@registratieTijdstip": "20130521124534825",
+                    "datumAanvang": "20130517"
+                  },
+                  "naam": "Stichting International Voltware"
+                },
+                "activiteiten": {
+                  "omschrijving": "Bevorderen van een optimale kwaliteit van de samenleving d.m.v. uitvoering van integraal welzijnsbeleid. Het bieden van sport- en beweegprogramma's en -onderwijs; exploiteren van gemeenschapsaccomodaties.",
+                  "sbiActiviteit": {
+                    "registratie": {
+                      "@registratieTijdstip": "20140412120232652",
+                      "datumAanvang": "20140412"
+                    },
+                    "sbiCode": {
+                      "code": "88993",
+                      "omschrijving": "Lokaal welzijnswerk",
+                      "referentieType": "ActiviteitCode"
+                    },
+                    "isHoofdactiviteit": {
+                      "code": "J",
+                      "omschrijving": "Ja",
+                      "referentieType": "geenRT"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "relatieRegistratie": {
+                "@registratieTijdstip": "20120312083101808",
+                "datumAanvang": "20120307"
+              },
+              "nietCommercieleVestiging": {
+                "registratie": {
+                  "@registratieTijdstip": "20120312083101808",
+                  "datumAanvang": "20120307"
+                },
+                "vestigingsnummer": "990000204616",
+                "bezoekLocatie": {
+                  "registratie": {
+                    "@registratieTijdstip": "20120312083101808",
+                    "datumAanvang": "20120307"
+                  },
+                  "afgeschermd": {
+                    "code": "N",
+                    "omschrijving": "Nee",
+                    "referentieType": "geenRT"
+                  },
+                  "adres": {
+                    "binnenlandsAdres": {
+                      "straatnaam": "3e Saskiadwarsstraat",
+                      "huisnummer": "5",
+                      "postcode": {
+                        "cijfercombinatie": "8921",
+                        "lettercombinatie": "CV"
+                      },
+                      "plaats": "Leeuwarden",
+                      "bagId": {
+                        "identificatieNummeraanduiding": "0074999999889379",
+                        "identificatieAdresseerbaarObject": "0074999999461246"
+                      }
+                    }
+                  },
+                  "volledigAdres": "3e Saskiadwarsstraat 5 8921CV Leeuwarden"
+                },
+                "postLocatie": {
+                  "registratie": {
+                    "@registratieTijdstip": "20120312083101808",
+                    "datumAanvang": "20120307"
+                  },
+                  "afgeschermd": {
+                    "code": "N",
+                    "omschrijving": "Nee",
+                    "referentieType": "geenRT"
+                  },
+                  "adres": {
+                    "binnenlandsAdres": {
+                      "postbusnummer": "99999",
+                      "postcode": {
+                        "cijfercombinatie": "6671",
+                        "lettercombinatie": "BR"
+                      },
+                      "plaats": "Zetten"
+                    }
+                  },
+                  "volledigAdres": "Postbus 99999 6671BR Zetten"
+                },
+                "communicatiegegevens": {
+                  "registratie": {
+                    "@registratieTijdstip": "20120312083101808",
+                    "datumAanvang": "20120307"
+                  },
+                  "communicatienummer": [
+                    {
+                      "toegangscode": "+31",
+                      "nummer": "0209999999",
+                      "soort": {
+                        "code": "T",
+                        "omschrijving": "Telefoon"
+                      }
+                    },
+                    {
+                      "toegangscode": "+31",
+                      "nummer": "0209999999",
+                      "soort": {
+                        "code": "F",
+                        "omschrijving": "Fax"
+                      }
+                    }
+                  ],
+                  "emailAdres": "nepemailadres@kvk.nl",
+                  "domeinNaam": "www.kvk.nl"
+                },
+                "eersteHandelsnaam": "Stichting International Voltware Vestiging:9157",
+                "naamgeving": {
+                  "registratie": {
+                    "@registratieTijdstip": "20120312083101808",
+                    "datumAanvang": "20120307"
+                  },
+                  "naam": "Stichting International Voltware Vestiging:9157"
+                },
+                "activiteiten": {
+                  "omschrijving": "Buurthuis.",
+                  "sbiActiviteit": {
+                    "registratie": {
+                      "@registratieTijdstip": "20140412120232652",
+                      "datumAanvang": "20140412"
+                    },
+                    "sbiCode": {
+                      "code": "88999",
+                      "omschrijving": "Overig maatschappelijk advies, gemeenschapshuizen en samenwerkingsorganen op het gebied van welzijn",
+                      "referentieType": "ActiviteitCode"
+                    },
+                    "isHoofdactiviteit": {
+                      "code": "J",
+                      "omschrijving": "Ja",
+                      "referentieType": "geenRT"
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "wordtGeleidVanuit": {
+            "nietCommercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstip": "20120312083101808",
+                "datumAanvang": "20001220"
+              },
+              "vestigingsnummer": "990000789076",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20150812125119366",
+                  "datumAanvang": "20150801"
+                },
+                "toevoegingAdres": "1e verdieping",
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Frederik Hendrikhof",
+                    "huisnummer": "44",
+                    "postcode": {
+                      "cijfercombinatie": "5141",
+                      "lettercombinatie": "SG"
+                    },
+                    "plaats": "Waalwijk",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999495758",
+                      "identificatieAdresseerbaarObject": "0074999999708531"
+                    }
+                  }
+                },
+                "volledigAdres": "Frederik Hendrikhof 44 5141SG Waalwijk"
+              },
+              "postLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20150812125119366",
+                  "datumAanvang": "20150801"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "postbusnummer": "99999",
+                    "postcode": {
+                      "cijfercombinatie": "6671",
+                      "lettercombinatie": "BR"
+                    },
+                    "plaats": "Zetten"
+                  }
+                },
+                "volledigAdres": "Postbus 99999 6671BR Zetten"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstip": "20120312083101808",
+                  "datumAanvang": "20001220"
+                },
+                "communicatienummer": [
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "T",
+                      "omschrijving": "Telefoon"
+                    }
+                  },
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "F",
+                      "omschrijving": "Fax"
+                    }
+                  }
+                ],
+                "emailAdres": "nepemailadres@kvk.nl",
+                "domeinNaam": "www.kvk.nl"
+              },
+              "eersteHandelsnaam": "Stichting International Voltware",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstip": "20130521124534825",
+                  "datumAanvang": "20130517"
+                },
+                "naam": "Stichting International Voltware"
+              },
+              "activiteiten": {
+                "omschrijving": "Bevorderen van een optimale kwaliteit van de samenleving d.m.v. uitvoering van integraal welzijnsbeleid. Het bieden van sport- en beweegprogramma's en -onderwijs; exploiteren van gemeenschapsaccomodaties.",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstip": "20140412120232652",
+                    "datumAanvang": "20140412"
+                  },
+                  "sbiCode": {
+                    "code": "88993",
+                    "omschrijving": "Lokaal welzijnswerk",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                }
+              }
+            }
+          },
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20001220"
+            },
+            "rechtspersoon": {
+              "extraElementen": {
+                "extraElement": [
+                  {
+                    "@naam": "datumAanvangStatuten",
+                    "#text": "20130517"
+                  },
+                  {
+                    "@naam": "datumAkteStatuten",
+                    "#text": "20130517"
+                  }
+                ]
+              },
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20001220"
+              },
+              "persoonRechtsvorm": "Stichting",
+              "volledigeNaam": "Stichting International Voltware",
+              "uitgebreideRechtsvorm": "Stichting",
+              "heeft": {
+                "bestuursfunctie": {
+                  "registratie": {
+                    "@registratieTijdstip": "20100625141455226",
+                    "datumAanvang": "20090722"
+                  },
+                  "door": {
+                    "rechtspersoon": {
+                      "persoonRechtsvorm": "Stichting",
+                      "volledigeNaam": "Stichting Regional Tamcare",
+                      "bezoekLocatiePersoon": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20090722"
+                        },
+                        "afgeschermd": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        },
+                        "adres": {
+                          "binnenlandsAdres": {
+                            "straatnaam": "Oostersingel",
+                            "huisnummer": "68",
+                            "postcode": {
+                              "cijfercombinatie": "9711",
+                              "lettercombinatie": "XE"
+                            },
+                            "plaats": "Groningen",
+                            "bagId": {
+                              "identificatieNummeraanduiding": "0074999999984957",
+                              "identificatieAdresseerbaarObject": "0074999999361470"
+                            }
+                          }
+                        },
+                        "volledigAdres": "Oostersingel 68 9711XE Groningen"
+                      },
+                      "isEigenaarVan": {
+                        "maatschappelijkeActiviteit": {
+                          "kvkNummer": "90000595",
+                          "nonMailing": {
+                            "code": "N",
+                            "omschrijving": "Nee",
+                            "referentieType": "geenRT"
+                          }
+                        }
+                      },
+                      "rsin": "992890615"
+                    }
+                  },
+                  "functie": {
+                    "code": "02",
+                    "omschrijving": "Bestuurder",
+                    "referentieType": "FunctionarisRol"
+                  },
+                  "bevoegdheid": {
+                    "registratie": {
+                      "@registratieTijdstip": "20100625141455226",
+                      "datumAanvang": "20090722"
+                    },
+                    "soort": {
+                      "code": "azb",
+                      "omschrijving": "Alleen/zelfstandig bevoegd",
+                      "referentieType": "SoortBevoegdheidBestuurder"
+                    },
+                    "isBevoegdMetAnderePersonen": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  }
+                }
+              },
+              "rsin": "992012594",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstip": "20130521124534825",
+                  "datumAanvang": "20130517"
+                },
+                "naam": "Stichting International Voltware"
+              },
+              "rechtsvorm": {
+                "code": "ST",
+                "omschrijving": "Stichting",
+                "referentieType": "Rechtsvorm"
+              },
+              "statutaireZetel": "Nepplaats",
+              "aanvangStatutaireZetel": "20130517",
+              "datumAkteOprichting": "20001220",
+              "datumAkteStatutenwijziging": "20130517",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20150812125119366",
+                  "datumAanvang": "20150801"
+                },
+                "toevoegingAdres": "1e verdieping",
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Frederik Hendrikhof",
+                    "huisnummer": "44",
+                    "postcode": {
+                      "cijfercombinatie": "5141",
+                      "lettercombinatie": "SG"
+                    },
+                    "plaats": "Waalwijk",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999495758",
+                      "identificatieAdresseerbaarObject": "0074999999708531"
+                    }
+                  }
+                },
+                "volledigAdres": "Frederik Hendrikhof 44 5141SG Waalwijk"
+              }
+            }
           }
-        ],
-        "VolledigeNaam": "Jan Klaasen",
-        "Rsin": "992012594"
+        }
       }
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

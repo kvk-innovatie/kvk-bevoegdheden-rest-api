@@ -1,395 +1,434 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 19140501,
-      "DatumEinde": 0,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90003802,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 19140501,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Beetsstraat",
-          "Huisnummer": 49,
-          "Postcode": {
-            "Cijfercombinatie": 2524,
-            "Lettercombinatie": "PJ"
-          },
-          "Plaats": "\u0027s-Gravenhage",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999485609,
-            "IdentificatieAdresseerbaarObject": 74999999632311
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-d715e0b8bc4c4b5928b54cf3ce5d68a2",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90003802"
         }
       },
-      "VolledigAdres": "Beetsstraat 49 2524PJ \u0027s-Gravenhage"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 19140501,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Beetsstraat",
-          "Huisnummer": 49,
-          "Postcode": {
-            "Cijfercombinatie": 2524,
-            "Lettercombinatie": "PJ"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "19140501"
           },
-          "Plaats": "\u0027s-Gravenhage",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999485609,
-            "IdentificatieAdresseerbaarObject": 74999999632311
+          "kvkNummer": "90003802",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Beetsstraat 49 2524PJ \u0027s-Gravenhage"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 19140501,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        }
-      ],
-      "EmailAdres": null
-    },
-    "Naam": "Company Siliconmedia",
-    "ManifesteertZichAls": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 19980101,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "Onderneming": {
-        "Registratie": {
-          "DatumAanvang": 19140501,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "KvkNummer": 90003802,
-        "SbiActiviteit": [
-          {
-            "Registratie": {
-              "DatumAanvang": 19140501,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 55101,
-              "Omschrijving": "Hotel-restaurants",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          {
-            "Registratie": {
-              "DatumAanvang": 19140501,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19140501"
             },
-            "SbiCode": {
-              "Code": 5630,
-              "Omschrijving": "Caf\u00E9s",
-              "ReferentieType": "ActiviteitCode"
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
             },
-            "IsHoofdactiviteit": {
-              "Code": "N",
-              "Omschrijving": "Nee",
-              "ReferentieType": "geenRT"
-            }
-          }
-        ],
-        "VoltijdWerkzamePersonen": 4,
-        "DeeltijdWerkzamePersonen": 4,
-        "TotaalWerkzamePersonen": 8,
-        "HandeltOnder": [
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 19140501,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "Company Siliconmedia Eenmanszaak",
-              "Volgorde": 0
-            },
-            "RelatieRegistratie": null
-          }
-        ],
-        "WordtUitgeoefendIn": {
-          "RelatieRegistratie": {
-            "DatumAanvang": 19980101,
-            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-          },
-          "CommercieleVestiging": {
-            "Registratie": {
-              "DatumAanvang": 19140501,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Vestigingsnummer": 990000598791,
-            "BezoekLocatie": {
-              "Registratie": {
-                "DatumAanvang": 19140501,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Afgeschermd": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Adres": {
-                "BinnenlandsAdres": {
-                  "Straatnaam": "Beetsstraat",
-                  "Huisnummer": 49,
-                  "Postcode": {
-                    "Cijfercombinatie": 2524,
-                    "Lettercombinatie": "PJ"
-                  },
-                  "Plaats": "\u0027s-Gravenhage",
-                  "BagId": {
-                    "IdentificatieNummeraanduiding": 74999999485609,
-                    "IdentificatieAdresseerbaarObject": 74999999632311
-                  },
-                  "HuisnummerToevoeging": null
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Beetsstraat",
+                "huisnummer": "49",
+                "postcode": {
+                  "cijfercombinatie": "2524",
+                  "lettercombinatie": "PJ"
+                },
+                "plaats": "'s-Gravenhage",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999485609",
+                  "identificatieAdresseerbaarObject": "0074999999632311"
                 }
-              },
-              "VolledigAdres": "Beetsstraat 49 2524PJ \u0027s-Gravenhage"
+              }
             },
-            "Communicatiegegevens": {
-              "Registratie": {
-                "DatumAanvang": 19140501,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
+            "volledigAdres": "Beetsstraat 49 2524PJ 's-Gravenhage"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19140501"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Beetsstraat",
+                "huisnummer": "49",
+                "postcode": {
+                  "cijfercombinatie": "2524",
+                  "lettercombinatie": "PJ"
+                },
+                "plaats": "'s-Gravenhage",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999485609",
+                  "identificatieAdresseerbaarObject": "0074999999632311"
+                }
+              }
+            },
+            "volledigAdres": "Beetsstraat 49 2524PJ 's-Gravenhage"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19140501"
+            },
+            "communicatienummer": {
+              "toegangscode": "+31",
+              "nummer": "0209999999",
+              "soort": {
+                "code": "T",
+                "omschrijving": "Telefoon"
+              }
+            }
+          },
+          "naam": "Company Siliconmedia",
+          "manifesteertZichAls": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19980101"
+            },
+            "onderneming": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19140501"
               },
-              "Communicatienummer": [
+              "kvkNummer": "90003802",
+              "sbiActiviteit": [
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19140501"
+                  },
+                  "sbiCode": {
+                    "code": "55101",
+                    "omschrijving": "Hotel-restaurants",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                },
+                {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19140501"
+                  },
+                  "sbiCode": {
+                    "code": "5630",
+                    "omschrijving": "Cafés",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "N",
+                    "omschrijving": "Nee",
+                    "referentieType": "geenRT"
                   }
                 }
               ],
-              "EmailAdres": null
-            },
-            "EersteHandelsnaam": "Company Siliconmedia Eenmanszaak",
-            "VoltijdWerkzamePersonen": 4,
-            "DeeltijdWerkzamePersonen": 4,
-            "TotaalWerkzamePersonen": 8,
-            "Activiteiten": {
-              "Omschrijving": "Hotel, caf\u00E9, restaurant.",
-              "SbiActiviteit": {
-                "Registratie": {
-                  "DatumAanvang": 19140501,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "SbiCode": {
-                  "Code": 55101,
-                  "Omschrijving": "Hotel-restaurants",
-                  "ReferentieType": "ActiviteitCode"
-                },
-                "IsHoofdactiviteit": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
+              "voltijdWerkzamePersonen": "4",
+              "deeltijdWerkzamePersonen": "4",
+              "totaalWerkzamePersonen": "8",
+              "handeltOnder": {
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19140501"
+                  },
+                  "naam": "Company Siliconmedia Eenmanszaak",
+                  "volgorde": "0"
                 }
               },
-              "Exporteert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Importeert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              }
-            },
-            "HandeltOnder": {
-              "Handelsnaam": {
-                "Registratie": {
-                  "DatumAanvang": 19140501,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
+              "wordtUitgeoefendIn": {
+                "relatieRegistratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19980101"
                 },
-                "Naam": "Company Siliconmedia Eenmanszaak",
-                "Volgorde": 0
-              },
-              "RelatieRegistratie": {
-                "DatumAanvang": 19140501,
-                "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+                "commercieleVestiging": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19140501"
+                  },
+                  "vestigingsnummer": "990000598791",
+                  "bezoekLocatie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19140501"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "straatnaam": "Beetsstraat",
+                        "huisnummer": "49",
+                        "postcode": {
+                          "cijfercombinatie": "2524",
+                          "lettercombinatie": "PJ"
+                        },
+                        "plaats": "'s-Gravenhage",
+                        "bagId": {
+                          "identificatieNummeraanduiding": "0074999999485609",
+                          "identificatieAdresseerbaarObject": "0074999999632311"
+                        }
+                      }
+                    },
+                    "volledigAdres": "Beetsstraat 49 2524PJ 's-Gravenhage"
+                  },
+                  "communicatiegegevens": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19140501"
+                    },
+                    "communicatienummer": {
+                      "toegangscode": "+31",
+                      "nummer": "0209999999",
+                      "soort": {
+                        "code": "T",
+                        "omschrijving": "Telefoon"
+                      }
+                    }
+                  },
+                  "eersteHandelsnaam": "Company Siliconmedia Eenmanszaak",
+                  "voltijdWerkzamePersonen": "4",
+                  "deeltijdWerkzamePersonen": "4",
+                  "totaalWerkzamePersonen": "8",
+                  "activiteiten": {
+                    "omschrijving": "Hotel, café, restaurant.",
+                    "sbiActiviteit": [
+                      {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19140501"
+                        },
+                        "sbiCode": {
+                          "code": "55101",
+                          "omschrijving": "Hotel-restaurants",
+                          "referentieType": "ActiviteitCode"
+                        },
+                        "isHoofdactiviteit": {
+                          "code": "J",
+                          "omschrijving": "Ja",
+                          "referentieType": "geenRT"
+                        }
+                      },
+                      {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19140501"
+                        },
+                        "sbiCode": {
+                          "code": "5630",
+                          "omschrijving": "Cafés",
+                          "referentieType": "ActiviteitCode"
+                        },
+                        "isHoofdactiviteit": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        }
+                      }
+                    ],
+                    "exporteert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "importeert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  "handeltOnder": {
+                    "relatieRegistratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19140501"
+                    },
+                    "handelsnaam": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19140501"
+                      },
+                      "naam": "Company Siliconmedia Eenmanszaak",
+                      "volgorde": "0"
+                    }
+                  }
+                }
               }
+            }
+          },
+          "wordtGeleidVanuit": {
+            "commercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19140501"
+              },
+              "vestigingsnummer": "990000598791",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19140501"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Beetsstraat",
+                    "huisnummer": "49",
+                    "postcode": {
+                      "cijfercombinatie": "2524",
+                      "lettercombinatie": "PJ"
+                    },
+                    "plaats": "'s-Gravenhage",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999485609",
+                      "identificatieAdresseerbaarObject": "0074999999632311"
+                    }
+                  }
+                },
+                "volledigAdres": "Beetsstraat 49 2524PJ 's-Gravenhage"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19140501"
+                },
+                "communicatienummer": {
+                  "toegangscode": "+31",
+                  "nummer": "0209999999",
+                  "soort": {
+                    "code": "T",
+                    "omschrijving": "Telefoon"
+                  }
+                }
+              },
+              "eersteHandelsnaam": "Company Siliconmedia Eenmanszaak",
+              "voltijdWerkzamePersonen": "4",
+              "deeltijdWerkzamePersonen": "4",
+              "totaalWerkzamePersonen": "8",
+              "activiteiten": {
+                "omschrijving": "Hotel, café, restaurant.",
+                "sbiActiviteit": [
+                  {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19140501"
+                    },
+                    "sbiCode": {
+                      "code": "55101",
+                      "omschrijving": "Hotel-restaurants",
+                      "referentieType": "ActiviteitCode"
+                    },
+                    "isHoofdactiviteit": {
+                      "code": "J",
+                      "omschrijving": "Ja",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19140501"
+                    },
+                    "sbiCode": {
+                      "code": "5630",
+                      "omschrijving": "Cafés",
+                      "referentieType": "ActiviteitCode"
+                    },
+                    "isHoofdactiviteit": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  }
+                ],
+                "exporteert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "importeert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                }
+              },
+              "handeltOnder": {
+                "relatieRegistratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19140501"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19140501"
+                  },
+                  "naam": "Company Siliconmedia Eenmanszaak",
+                  "volgorde": "0"
+                }
+              }
+            }
+          },
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19980101"
+            },
+            "natuurlijkPersoon": {
+              "extraElementen": {
+                "extraElement": [
+                  {
+                    "@naam": "voorvoegsel",
+                    "#text": "van der"
+                  },
+                  {
+                    "@naam": "achternaam",
+                    "#text": "Mirabito"
+                  }
+                ]
+              },
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19580711"
+              },
+              "persoonRechtsvorm": "Eenmanszaak",
+              "volledigeNaam": "Polly Mirabito",
+              "uitgebreideRechtsvorm": "Eenmanszaak",
+              "geslachtsnaam": "Mirabito",
+              "voorvoegselGeslachtsnaam": "van der",
+              "voornamen": "Polly",
+              "geboortedatum": "19580711"
             }
           }
         }
       }
-    },
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": {
-        "Registratie": {
-          "DatumAanvang": 19140501,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "Vestigingsnummer": 990000598791,
-        "BezoekLocatie": {
-          "Registratie": {
-            "DatumAanvang": 19140501,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Afgeschermd": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Adres": {
-            "BinnenlandsAdres": {
-              "Straatnaam": "Beetsstraat",
-              "Huisnummer": 49,
-              "Postcode": {
-                "Cijfercombinatie": 2524,
-                "Lettercombinatie": "PJ"
-              },
-              "Plaats": "\u0027s-Gravenhage",
-              "BagId": {
-                "IdentificatieNummeraanduiding": 74999999485609,
-                "IdentificatieAdresseerbaarObject": 74999999632311
-              },
-              "HuisnummerToevoeging": null
-            }
-          },
-          "VolledigAdres": "Beetsstraat 49 2524PJ \u0027s-Gravenhage"
-        },
-        "Communicatiegegevens": {
-          "Registratie": {
-            "DatumAanvang": 19140501,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Communicatienummer": [
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            }
-          ],
-          "EmailAdres": null
-        },
-        "EersteHandelsnaam": "Company Siliconmedia Eenmanszaak",
-        "VoltijdWerkzamePersonen": 4,
-        "DeeltijdWerkzamePersonen": 4,
-        "TotaalWerkzamePersonen": 8,
-        "Activiteiten": {
-          "Omschrijving": "Hotel, caf\u00E9, restaurant.",
-          "SbiActiviteit": {
-            "Registratie": {
-              "DatumAanvang": 19140501,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 55101,
-              "Omschrijving": "Hotel-restaurants",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          },
-          "Exporteert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Importeert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          }
-        },
-        "HandeltOnder": {
-          "Handelsnaam": {
-            "Registratie": {
-              "DatumAanvang": 19140501,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Naam": "Company Siliconmedia Eenmanszaak",
-            "Volgorde": 0
-          },
-          "RelatieRegistratie": {
-            "DatumAanvang": 19140501,
-            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-          }
-        }
-      }
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 19980101,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "NatuurlijkPersoon": {
-        "ExtraElementen": {
-          "ExtraElement": {
-            "Naam": "voorvoegsel"
-          }
-        },
-        "Registratie": {
-          "DatumAanvang": 19580711,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "PersoonRechtsvorm": "Eenmanszaak",
-        "VolledigeNaam": "Jan Klaasen",
-        "UitgebreideRechtsvorm": "Eenmanszaak",
-        "Geslachtsnaam": "Klaasen",
-        "Voornamen": "Jan",
-        "Heeft": [],
-        "Geboortedatum": "20000101"
-      },
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": null
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

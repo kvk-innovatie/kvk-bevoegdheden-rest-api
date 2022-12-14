@@ -1,368 +1,460 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 20090918,
-      "DatumEinde": 20120806,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90002881,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20090918,
-        "DatumEinde": 20120806,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Prins Hendrikstraat",
-          "Huisnummer": 15,
-          "Postcode": {
-            "Cijfercombinatie": 3751,
-            "Lettercombinatie": "CT"
-          },
-          "Plaats": "Bunschoten-Spakenburg",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999665732,
-            "IdentificatieAdresseerbaarObject": 74999999449358
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-b1c4236c407a2660da96166c49677a71",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90002881"
         }
       },
-      "VolledigAdres": "Prins Hendrikstraat 15 3751CT Bunschoten-Spakenburg"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20090918,
-        "DatumEinde": 20120806,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Prins Hendrikstraat",
-          "Huisnummer": 15,
-          "Postcode": {
-            "Cijfercombinatie": 3751,
-            "Lettercombinatie": "CT"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "20090918",
+            "datumEinde": "20120806"
           },
-          "Plaats": "Bunschoten-Spakenburg",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999665732,
-            "IdentificatieAdresseerbaarObject": 74999999449358
+          "kvkNummer": "90002881",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Prins Hendrikstraat 15 3751CT Bunschoten-Spakenburg"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 20090918,
-        "DatumEinde": 20120806,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        }
-      ],
-      "EmailAdres": null
-    },
-    "Naam": "Grand Tripple-in",
-    "ManifesteertZichAls": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20090918,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Onderneming": {
-        "Registratie": {
-          "DatumAanvang": 20090918,
-          "DatumEinde": 20120806,
-          "RegistratieTijdstipNoValue": null
-        },
-        "KvkNummer": 90002881,
-        "SbiActiviteit": [
-          {
-            "Registratie": {
-              "DatumAanvang": 20090918,
-              "DatumEinde": 20120806,
-              "RegistratieTijdstipNoValue": null
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
+          },
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20120806104633613",
+              "datumAanvang": "20090918",
+              "datumEinde": "20120806"
             },
-            "SbiCode": {
-              "Code": 6420,
-              "Omschrijving": "Financi\u00EBle holdings",
-              "ReferentieType": "ActiviteitCode"
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
             },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Prins Hendrikstraat",
+                "huisnummer": "15",
+                "postcode": {
+                  "cijfercombinatie": "3751",
+                  "lettercombinatie": "CT"
+                },
+                "plaats": "Bunschoten-Spakenburg",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999665732",
+                  "identificatieAdresseerbaarObject": "0074999999449358"
+                }
+              }
+            },
+            "volledigAdres": "Prins Hendrikstraat 15 3751CT Bunschoten-Spakenburg"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20120806104633613",
+              "datumAanvang": "20090918",
+              "datumEinde": "20120806"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Prins Hendrikstraat",
+                "huisnummer": "15",
+                "postcode": {
+                  "cijfercombinatie": "3751",
+                  "lettercombinatie": "CT"
+                },
+                "plaats": "Bunschoten-Spakenburg",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999665732",
+                  "identificatieAdresseerbaarObject": "0074999999449358"
+                }
+              }
+            },
+            "volledigAdres": "Prins Hendrikstraat 15 3751CT Bunschoten-Spakenburg"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstip": "20120806104633613",
+              "datumAanvang": "20090918",
+              "datumEinde": "20120806"
+            },
+            "communicatienummer": {
+              "toegangscode": "+31",
+              "nummer": "0209999999",
+              "soort": {
+                "code": "T",
+                "omschrijving": "Telefoon"
+              }
             }
-          }
-        ],
-        "VoltijdWerkzamePersonen": 0,
-        "DeeltijdWerkzamePersonen": 1,
-        "TotaalWerkzamePersonen": 1,
-        "HandeltOnder": [
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20090918,
-                "DatumEinde": 20120806,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "Grand Tripple-in",
-              "Volgorde": 0
-            },
-            "RelatieRegistratie": null
-          }
-        ],
-        "WordtUitgeoefendIn": {
-          "RelatieRegistratie": {
-            "DatumAanvang": 20090918,
-            "RegistratieTijdstipNoValue": null
           },
-          "CommercieleVestiging": {
-            "Registratie": {
-              "DatumAanvang": 20090918,
-              "DatumEinde": 20120806,
-              "RegistratieTijdstipNoValue": null
+          "naam": "Grand Tripple-in",
+          "manifesteertZichAls": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20120806104633613",
+              "datumAanvang": "20090918",
+              "datumEinde": "20120806"
             },
-            "Vestigingsnummer": 990000601178,
-            "BezoekLocatie": {
-              "Registratie": {
-                "DatumAanvang": 20090918,
-                "DatumEinde": 20120806,
-                "RegistratieTijdstipNoValue": null
+            "onderneming": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20090918",
+                "datumEinde": "20120806"
               },
-              "Afgeschermd": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Adres": {
-                "BinnenlandsAdres": {
-                  "Straatnaam": "Prins Hendrikstraat",
-                  "Huisnummer": 15,
-                  "Postcode": {
-                    "Cijfercombinatie": 3751,
-                    "Lettercombinatie": "CT"
-                  },
-                  "Plaats": "Bunschoten-Spakenburg",
-                  "BagId": {
-                    "IdentificatieNummeraanduiding": 74999999665732,
-                    "IdentificatieAdresseerbaarObject": 74999999449358
-                  },
-                  "HuisnummerToevoeging": null
+              "kvkNummer": "90002881",
+              "sbiActiviteit": {
+                "registratie": {
+                  "@registratieTijdstip": "20120806104633613",
+                  "datumAanvang": "20090918",
+                  "datumEinde": "20120806"
+                },
+                "sbiCode": {
+                  "code": "6420",
+                  "omschrijving": "Financiële holdings",
+                  "referentieType": "ActiviteitCode"
+                },
+                "isHoofdactiviteit": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
                 }
               },
-              "VolledigAdres": "Prins Hendrikstraat 15 3751CT Bunschoten-Spakenburg"
-            },
-            "Communicatiegegevens": {
-              "Registratie": {
-                "DatumAanvang": 20090918,
-                "DatumEinde": 20120806,
-                "RegistratieTijdstipNoValue": null
+              "voltijdWerkzamePersonen": "0",
+              "deeltijdWerkzamePersonen": "1",
+              "totaalWerkzamePersonen": "1",
+              "handeltOnder": {
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20090918",
+                    "datumEinde": "20120806"
+                  },
+                  "naam": "Grand Tripple-in",
+                  "volgorde": "0"
+                }
               },
-              "Communicatienummer": [
-                {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
+              "wordtUitgeoefendIn": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20120806104633613",
+                  "datumAanvang": "20090918",
+                  "datumEinde": "20120806"
+                },
+                "commercieleVestiging": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20090918",
+                    "datumEinde": "20120806"
+                  },
+                  "vestigingsnummer": "990000601178",
+                  "bezoekLocatie": {
+                    "registratie": {
+                      "@registratieTijdstip": "20120806104633613",
+                      "datumAanvang": "20090918",
+                      "datumEinde": "20120806"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "straatnaam": "Prins Hendrikstraat",
+                        "huisnummer": "15",
+                        "postcode": {
+                          "cijfercombinatie": "3751",
+                          "lettercombinatie": "CT"
+                        },
+                        "plaats": "Bunschoten-Spakenburg",
+                        "bagId": {
+                          "identificatieNummeraanduiding": "0074999999665732",
+                          "identificatieAdresseerbaarObject": "0074999999449358"
+                        }
+                      }
+                    },
+                    "volledigAdres": "Prins Hendrikstraat 15 3751CT Bunschoten-Spakenburg"
+                  },
+                  "communicatiegegevens": {
+                    "registratie": {
+                      "@registratieTijdstip": "20120806104633613",
+                      "datumAanvang": "20090918",
+                      "datumEinde": "20120806"
+                    },
+                    "communicatienummer": {
+                      "toegangscode": "+31",
+                      "nummer": "0209999999",
+                      "soort": {
+                        "code": "T",
+                        "omschrijving": "Telefoon"
+                      }
+                    }
+                  },
+                  "eersteHandelsnaam": "Grand Tripple-in",
+                  "voltijdWerkzamePersonen": "0",
+                  "deeltijdWerkzamePersonen": "1",
+                  "totaalWerkzamePersonen": "1",
+                  "activiteiten": {
+                    "omschrijving": "Holding.",
+                    "sbiActiviteit": {
+                      "registratie": {
+                        "@registratieTijdstip": "20120806104633613",
+                        "datumAanvang": "20090918",
+                        "datumEinde": "20120806"
+                      },
+                      "sbiCode": {
+                        "code": "6420",
+                        "omschrijving": "Financiële holdings",
+                        "referentieType": "ActiviteitCode"
+                      },
+                      "isHoofdactiviteit": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "exporteert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "importeert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  "handeltOnder": {
+                    "relatieRegistratie": {
+                      "@registratieTijdstip": "20120806104633613",
+                      "datumAanvang": "20090918",
+                      "datumEinde": "20120806"
+                    },
+                    "handelsnaam": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20090918",
+                        "datumEinde": "20120806"
+                      },
+                      "naam": "Grand Tripple-in",
+                      "volgorde": "0"
+                    }
                   }
                 }
-              ],
-              "EmailAdres": null
-            },
-            "EersteHandelsnaam": "Grand Tripple-in",
-            "VoltijdWerkzamePersonen": 0,
-            "DeeltijdWerkzamePersonen": 1,
-            "TotaalWerkzamePersonen": 1,
-            "Activiteiten": {
-              "Omschrijving": "Holding.",
-              "SbiActiviteit": {
-                "Registratie": {
-                  "DatumAanvang": 20090918,
-                  "DatumEinde": 20120806,
-                  "RegistratieTijdstipNoValue": null
+              }
+            }
+          },
+          "wordtGeleidVanuit": {
+            "commercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20090918",
+                "datumEinde": "20120806"
+              },
+              "vestigingsnummer": "990000601178",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20120806104633613",
+                  "datumAanvang": "20090918",
+                  "datumEinde": "20120806"
                 },
-                "SbiCode": {
-                  "Code": 6420,
-                  "Omschrijving": "Financi\u00EBle holdings",
-                  "ReferentieType": "ActiviteitCode"
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
                 },
-                "IsHoofdactiviteit": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Prins Hendrikstraat",
+                    "huisnummer": "15",
+                    "postcode": {
+                      "cijfercombinatie": "3751",
+                      "lettercombinatie": "CT"
+                    },
+                    "plaats": "Bunschoten-Spakenburg",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999665732",
+                      "identificatieAdresseerbaarObject": "0074999999449358"
+                    }
+                  }
+                },
+                "volledigAdres": "Prins Hendrikstraat 15 3751CT Bunschoten-Spakenburg"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstip": "20120806104633613",
+                  "datumAanvang": "20090918",
+                  "datumEinde": "20120806"
+                },
+                "communicatienummer": {
+                  "toegangscode": "+31",
+                  "nummer": "0209999999",
+                  "soort": {
+                    "code": "T",
+                    "omschrijving": "Telefoon"
+                  }
                 }
               },
-              "Exporteert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Importeert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              }
-            },
-            "HandeltOnder": {
-              "Handelsnaam": {
-                "Registratie": {
-                  "DatumAanvang": 20090918,
-                  "DatumEinde": 20120806,
-                  "RegistratieTijdstipNoValue": null
+              "eersteHandelsnaam": "Grand Tripple-in",
+              "voltijdWerkzamePersonen": "0",
+              "deeltijdWerkzamePersonen": "1",
+              "totaalWerkzamePersonen": "1",
+              "activiteiten": {
+                "omschrijving": "Holding.",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstip": "20120806104633613",
+                    "datumAanvang": "20090918",
+                    "datumEinde": "20120806"
+                  },
+                  "sbiCode": {
+                    "code": "6420",
+                    "omschrijving": "Financiële holdings",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
                 },
-                "Naam": "Grand Tripple-in",
-                "Volgorde": 0
+                "exporteert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "importeert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                }
               },
-              "RelatieRegistratie": {
-                "DatumAanvang": 20090918,
-                "RegistratieTijdstipNoValue": null
+              "handeltOnder": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20120806104633613",
+                  "datumAanvang": "20090918",
+                  "datumEinde": "20120806"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20090918",
+                    "datumEinde": "20120806"
+                  },
+                  "naam": "Grand Tripple-in",
+                  "volgorde": "0"
+                }
+              }
+            }
+          },
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20120806104633613",
+              "datumAanvang": "20090918",
+              "datumEinde": "20120806"
+            },
+            "buitenlandseVennootschap": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend"
+              },
+              "persoonRechtsvorm": "Kapitaalvennootschap binnen EER",
+              "volledigeNaam": "Grand Tripple-in",
+              "uitgebreideRechtsvorm": "Private limited company (Verenigd Koninkrijk)",
+              "rsin": "992270558",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20090918"
+                },
+                "naam": "Grand Tripple-in"
+              },
+              "buitenlandseRegistratieGegevens": {
+                "naam": "Companies Registration Office",
+                "plaats": "Nepplaats",
+                "land": {
+                  "code": "6039",
+                  "omschrijving": "Verenigd Koninkrijk",
+                  "referentieType": "Land"
+                },
+                "inschrijfnummer": "7023427",
+                "buitenlandseRegistratie": "Companies Registration Office\nNepplaats, Verenigd Koninkrijk\nOnder nummer 7023427"
+              },
+              "landVanOprichting": {
+                "code": "9998",
+                "omschrijving": "Tijdelijk: Migratie",
+                "referentieType": "Land"
+              },
+              "landVanVestiging": {
+                "code": "6039",
+                "omschrijving": "Verenigd Koninkrijk",
+                "referentieType": "Land"
+              },
+              "buitenlandseVennootschapGegevens": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend"
+                },
+                "heeftHoofdvestigingBuitenNederland": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "omschrijvingRechtsvorm": "Private limited company",
+                "zetel": "Nepplaats",
+                "rechtsvormcategorie": {
+                  "code": "0001",
+                  "omschrijving": "Kapitaalvennootschap binnen EER",
+                  "referentieType": "geenRT"
+                },
+                "datumAkteOprichting": "20090918"
+              },
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20120806104633613",
+                  "datumAanvang": "20090918",
+                  "datumEinde": "20120806"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Prins Hendrikstraat",
+                    "huisnummer": "15",
+                    "postcode": {
+                      "cijfercombinatie": "3751",
+                      "lettercombinatie": "CT"
+                    },
+                    "plaats": "Bunschoten-Spakenburg",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999665732",
+                      "identificatieAdresseerbaarObject": "0074999999449358"
+                    }
+                  }
+                },
+                "volledigAdres": "Geelgorslaan 10\n6823CH Arnhem"
               }
             }
           }
         }
       }
-    },
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": {
-        "Registratie": {
-          "DatumAanvang": 20090918,
-          "DatumEinde": 20120806,
-          "RegistratieTijdstipNoValue": null
-        },
-        "Vestigingsnummer": 990000601178,
-        "BezoekLocatie": {
-          "Registratie": {
-            "DatumAanvang": 20090918,
-            "DatumEinde": 20120806,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Afgeschermd": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Adres": {
-            "BinnenlandsAdres": {
-              "Straatnaam": "Prins Hendrikstraat",
-              "Huisnummer": 15,
-              "Postcode": {
-                "Cijfercombinatie": 3751,
-                "Lettercombinatie": "CT"
-              },
-              "Plaats": "Bunschoten-Spakenburg",
-              "BagId": {
-                "IdentificatieNummeraanduiding": 74999999665732,
-                "IdentificatieAdresseerbaarObject": 74999999449358
-              },
-              "HuisnummerToevoeging": null
-            }
-          },
-          "VolledigAdres": "Prins Hendrikstraat 15 3751CT Bunschoten-Spakenburg"
-        },
-        "Communicatiegegevens": {
-          "Registratie": {
-            "DatumAanvang": 20090918,
-            "DatumEinde": 20120806,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Communicatienummer": [
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            }
-          ],
-          "EmailAdres": null
-        },
-        "EersteHandelsnaam": "Grand Tripple-in",
-        "VoltijdWerkzamePersonen": 0,
-        "DeeltijdWerkzamePersonen": 1,
-        "TotaalWerkzamePersonen": 1,
-        "Activiteiten": {
-          "Omschrijving": "Holding.",
-          "SbiActiviteit": {
-            "Registratie": {
-              "DatumAanvang": 20090918,
-              "DatumEinde": 20120806,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 6420,
-              "Omschrijving": "Financi\u00EBle holdings",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          },
-          "Exporteert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Importeert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          }
-        },
-        "HandeltOnder": {
-          "Handelsnaam": {
-            "Registratie": {
-              "DatumAanvang": 20090918,
-              "DatumEinde": 20120806,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Naam": "Grand Tripple-in",
-            "Volgorde": 0
-          },
-          "RelatieRegistratie": {
-            "DatumAanvang": 20090918,
-            "RegistratieTijdstipNoValue": null
-          }
-        }
-      }
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20090918,
-        "RegistratieTijdstipNoValue": null
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": {
-        "BuitenlandseVennootschapGegevens": {
-          "Rechtsvormcategorie": {
-            "Code": "0001",
-            "Omschrijving": "Kapitaalvennootschap binnen EER"
-          }
-        },
-        "Heeft": []
-      },
-      "Rechtspersoon": null
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

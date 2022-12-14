@@ -1,425 +1,567 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 20061129,
-      "DatumEinde": 0,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90002253,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20061129,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Wielingen",
-          "Huisnummer": 19,
-          "Postcode": {
-            "Cijfercombinatie": 5751,
-            "Lettercombinatie": "SG"
-          },
-          "Plaats": "Deurne",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999498961,
-            "IdentificatieAdresseerbaarObject": 74999999720950
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-277c7eac7baa898976640272863edd87",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90002253"
         }
       },
-      "VolledigAdres": "Wielingen 19 5751SG Deurne"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20061129,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": null,
-          "Huisnummer": 0,
-          "Postcode": {
-            "Cijfercombinatie": 1083,
-            "Lettercombinatie": "XK"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "20061129"
           },
-          "Plaats": "Amsterdam",
-          "BagId": null,
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Postbus 99999 1083XK Amsterdam"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 20061129,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        },
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "F",
-            "Omschrijving": "Fax"
-          }
-        }
-      ],
-      "EmailAdres": null
-    },
-    "Naam": "Grand Hot-quote Co\u00F6peratie",
-    "ManifesteertZichAls": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20061129,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "Onderneming": {
-        "Registratie": {
-          "DatumAanvang": 20061129,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "KvkNummer": 90002253,
-        "SbiActiviteit": [
-          {
-            "Registratie": {
-              "DatumAanvang": 20061129,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 70102,
-              "Omschrijving": "Holdings (geen financi\u00EBle)",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          }
-        ],
-        "VoltijdWerkzamePersonen": 0,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 0,
-        "HandeltOnder": [
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20061129,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "Grand Hot-quote Co\u00F6peratie",
-              "Volgorde": 0
-            },
-            "RelatieRegistratie": null
-          }
-        ],
-        "WordtUitgeoefendIn": {
-          "RelatieRegistratie": {
-            "DatumAanvang": 20061129,
-            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+          "kvkNummer": "90002253",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "CommercieleVestiging": {
-            "Registratie": {
-              "DatumAanvang": 20061129,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
+          },
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20061129"
             },
-            "Vestigingsnummer": 990000276693,
-            "BezoekLocatie": {
-              "Registratie": {
-                "DatumAanvang": 20061129,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Afgeschermd": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Adres": {
-                "BinnenlandsAdres": {
-                  "Straatnaam": "Wielingen",
-                  "Huisnummer": 19,
-                  "Postcode": {
-                    "Cijfercombinatie": 5751,
-                    "Lettercombinatie": "SG"
-                  },
-                  "Plaats": "Deurne",
-                  "BagId": {
-                    "IdentificatieNummeraanduiding": 74999999498961,
-                    "IdentificatieAdresseerbaarObject": 74999999720950
-                  },
-                  "HuisnummerToevoeging": null
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Wielingen",
+                "huisnummer": "19",
+                "postcode": {
+                  "cijfercombinatie": "5751",
+                  "lettercombinatie": "SG"
+                },
+                "plaats": "Deurne",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999498961",
+                  "identificatieAdresseerbaarObject": "0074999999720950"
+                }
+              }
+            },
+            "volledigAdres": "Wielingen 19 5751SG Deurne"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20061129"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "postbusnummer": "99999",
+                "postcode": {
+                  "cijfercombinatie": "1083",
+                  "lettercombinatie": "XK"
+                },
+                "plaats": "Amsterdam"
+              }
+            },
+            "volledigAdres": "Postbus 99999 1083XK Amsterdam"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20061129"
+            },
+            "communicatienummer": [
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "T",
+                  "omschrijving": "Telefoon"
                 }
               },
-              "VolledigAdres": "Wielingen 19 5751SG Deurne"
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "F",
+                  "omschrijving": "Fax"
+                }
+              }
+            ]
+          },
+          "naam": "Grand Hot-quote Coöperatie",
+          "manifesteertZichAls": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20061129"
             },
-            "Communicatiegegevens": {
-              "Registratie": {
-                "DatumAanvang": 20061129,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
+            "onderneming": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20061129"
               },
-              "Communicatienummer": [
-                {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
+              "kvkNummer": "90002253",
+              "sbiActiviteit": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20061129"
+                },
+                "sbiCode": {
+                  "code": "70102",
+                  "omschrijving": "Holdings (geen financiële)",
+                  "referentieType": "ActiviteitCode"
+                },
+                "isHoofdactiviteit": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
+                }
+              },
+              "voltijdWerkzamePersonen": "0",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "0",
+              "handeltOnder": {
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20061129"
+                  },
+                  "naam": "Grand Hot-quote Coöperatie",
+                  "volgorde": "0"
+                }
+              },
+              "wordtUitgeoefendIn": {
+                "relatieRegistratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20061129"
+                },
+                "commercieleVestiging": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20061129"
+                  },
+                  "vestigingsnummer": "990000276693",
+                  "bezoekLocatie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20061129"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "straatnaam": "Wielingen",
+                        "huisnummer": "19",
+                        "postcode": {
+                          "cijfercombinatie": "5751",
+                          "lettercombinatie": "SG"
+                        },
+                        "plaats": "Deurne",
+                        "bagId": {
+                          "identificatieNummeraanduiding": "0074999999498961",
+                          "identificatieAdresseerbaarObject": "0074999999720950"
+                        }
+                      }
+                    },
+                    "volledigAdres": "Wielingen 19 5751SG Deurne"
+                  },
+                  "postLocatie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20061129"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "postbusnummer": "99999",
+                        "postcode": {
+                          "cijfercombinatie": "1083",
+                          "lettercombinatie": "XK"
+                        },
+                        "plaats": "Amsterdam"
+                      }
+                    },
+                    "volledigAdres": "Postbus 99999 1083XK Amsterdam"
+                  },
+                  "communicatiegegevens": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20061129"
+                    },
+                    "communicatienummer": [
+                      {
+                        "toegangscode": "+31",
+                        "nummer": "0209999999",
+                        "soort": {
+                          "code": "T",
+                          "omschrijving": "Telefoon"
+                        }
+                      },
+                      {
+                        "toegangscode": "+31",
+                        "nummer": "0209999999",
+                        "soort": {
+                          "code": "F",
+                          "omschrijving": "Fax"
+                        }
+                      }
+                    ]
+                  },
+                  "eersteHandelsnaam": "Grand Hot-quote Coöperatie",
+                  "voltijdWerkzamePersonen": "0",
+                  "deeltijdWerkzamePersonen": "0",
+                  "totaalWerkzamePersonen": "0",
+                  "activiteiten": {
+                    "omschrijving": "Het deelnemen in, het financieren van en beleg- gen in ondernemingen, werkzaam op het gebied van chemische, medische en farmaceutische producten.",
+                    "sbiActiviteit": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20061129"
+                      },
+                      "sbiCode": {
+                        "code": "70102",
+                        "omschrijving": "Holdings (geen financiële)",
+                        "referentieType": "ActiviteitCode"
+                      },
+                      "isHoofdactiviteit": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "exporteert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "importeert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  "handeltOnder": {
+                    "relatieRegistratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20061129"
+                    },
+                    "handelsnaam": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20061129"
+                      },
+                      "naam": "Grand Hot-quote Coöperatie",
+                      "volgorde": "0"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "wordtGeleidVanuit": {
+            "commercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20061129"
+              },
+              "vestigingsnummer": "990000276693",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20061129"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Wielingen",
+                    "huisnummer": "19",
+                    "postcode": {
+                      "cijfercombinatie": "5751",
+                      "lettercombinatie": "SG"
+                    },
+                    "plaats": "Deurne",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999498961",
+                      "identificatieAdresseerbaarObject": "0074999999720950"
+                    }
                   }
                 },
-                {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "F",
-                    "Omschrijving": "Fax"
+                "volledigAdres": "Wielingen 19 5751SG Deurne"
+              },
+              "postLocatie": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20061129"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "postbusnummer": "99999",
+                    "postcode": {
+                      "cijfercombinatie": "1083",
+                      "lettercombinatie": "XK"
+                    },
+                    "plaats": "Amsterdam"
+                  }
+                },
+                "volledigAdres": "Postbus 99999 1083XK Amsterdam"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20061129"
+                },
+                "communicatienummer": [
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "T",
+                      "omschrijving": "Telefoon"
+                    }
+                  },
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "F",
+                      "omschrijving": "Fax"
+                    }
+                  }
+                ]
+              },
+              "eersteHandelsnaam": "Grand Hot-quote Coöperatie",
+              "voltijdWerkzamePersonen": "0",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "0",
+              "activiteiten": {
+                "omschrijving": "Het deelnemen in, het financieren van en beleg- gen in ondernemingen, werkzaam op het gebied van chemische, medische en farmaceutische producten.",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20061129"
+                  },
+                  "sbiCode": {
+                    "code": "70102",
+                    "omschrijving": "Holdings (geen financiële)",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                },
+                "exporteert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "importeert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                }
+              },
+              "handeltOnder": {
+                "relatieRegistratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20061129"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20061129"
+                  },
+                  "naam": "Grand Hot-quote Coöperatie",
+                  "volgorde": "0"
+                }
+              }
+            }
+          },
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20061129"
+            },
+            "rechtspersoon": {
+              "extraElementen": {
+                "extraElement": [
+                  {
+                    "@naam": "datumAanvangStatuten",
+                    "#text": "20100827"
+                  },
+                  {
+                    "@naam": "datumAkteStatuten",
+                    "#text": "20100827"
+                  }
+                ]
+              },
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20061129"
+              },
+              "persoonRechtsvorm": "Coöperatie",
+              "volledigeNaam": "Grand Hot-quote Coöperatie",
+              "uitgebreideRechtsvorm": "Coöperatie",
+              "heeft": {
+                "bestuursfunctie": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20061129"
+                  },
+                  "door": {
+                    "rechtspersoon": {
+                      "persoonRechtsvorm": "Besloten Vennootschap",
+                      "volledigeNaam": "Regional Vaiaex B.V.",
+                      "bezoekLocatiePersoon": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19991119"
+                        },
+                        "afgeschermd": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        },
+                        "adres": {
+                          "binnenlandsAdres": {
+                            "straatnaam": "Wielingen",
+                            "huisnummer": "19",
+                            "postcode": {
+                              "cijfercombinatie": "5751",
+                              "lettercombinatie": "SG"
+                            },
+                            "plaats": "Deurne",
+                            "bagId": {
+                              "identificatieNummeraanduiding": "0074999999498961",
+                              "identificatieAdresseerbaarObject": "0074999999720950"
+                            }
+                          }
+                        },
+                        "volledigAdres": "Wielingen 19 5751SG Deurne"
+                      },
+                      "isEigenaarVan": {
+                        "maatschappelijkeActiviteit": {
+                          "kvkNummer": "90001036",
+                          "nonMailing": {
+                            "code": "N",
+                            "omschrijving": "Nee",
+                            "referentieType": "geenRT"
+                          }
+                        }
+                      },
+                      "rsin": "992504478"
+                    }
+                  },
+                  "functie": {
+                    "code": "02",
+                    "omschrijving": "Bestuurder",
+                    "referentieType": "FunctionarisRol"
+                  },
+                  "bevoegdheid": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20061129"
+                    },
+                    "soort": {
+                      "code": "azb",
+                      "omschrijving": "Alleen/zelfstandig bevoegd",
+                      "referentieType": "SoortBevoegdheidBestuurder"
+                    },
+                    "isBevoegdMetAnderePersonen": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
                   }
                 }
-              ],
-              "EmailAdres": null
-            },
-            "EersteHandelsnaam": "Grand Hot-quote Co\u00F6peratie",
-            "VoltijdWerkzamePersonen": 0,
-            "DeeltijdWerkzamePersonen": 0,
-            "TotaalWerkzamePersonen": 0,
-            "Activiteiten": {
-              "Omschrijving": "Het deelnemen in, het financieren van en beleg- gen in ondernemingen, werkzaam op het gebied van chemische, medische en farmaceutische producten.",
-              "SbiActiviteit": {
-                "Registratie": {
-                  "DatumAanvang": 20061129,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "SbiCode": {
-                  "Code": 70102,
-                  "Omschrijving": "Holdings (geen financi\u00EBle)",
-                  "ReferentieType": "ActiviteitCode"
-                },
-                "IsHoofdactiviteit": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
-                }
               },
-              "Exporteert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Importeert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              }
-            },
-            "HandeltOnder": {
-              "Handelsnaam": {
-                "Registratie": {
-                  "DatumAanvang": 20061129,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
+              "rsin": "992838952",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20061129"
                 },
-                "Naam": "Grand Hot-quote Co\u00F6peratie",
-                "Volgorde": 0
+                "naam": "Grand Hot-quote Coöperatie"
               },
-              "RelatieRegistratie": {
-                "DatumAanvang": 20061129,
-                "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+              "rechtsvorm": {
+                "code": "COP",
+                "omschrijving": "Coöperatie",
+                "referentieType": "Rechtsvorm"
+              },
+              "statutaireZetel": "Nepplaats",
+              "aanvangStatutaireZetel": "20061129",
+              "datumAkteOprichting": "20061129",
+              "datumEersteInschrijvingHandelsregister": "20061207",
+              "structuur": {
+                "code": "GS",
+                "omschrijving": "Gewone structuur",
+                "referentieType": "RechtsvormStructuur"
+              },
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20061129"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Wielingen",
+                    "huisnummer": "19",
+                    "postcode": {
+                      "cijfercombinatie": "5751",
+                      "lettercombinatie": "SG"
+                    },
+                    "plaats": "Deurne",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999498961",
+                      "identificatieAdresseerbaarObject": "0074999999720950"
+                    }
+                  }
+                },
+                "volledigAdres": "Wielingen 19 5751SG Deurne"
               }
             }
           }
         }
-      }
-    },
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": {
-        "Registratie": {
-          "DatumAanvang": 20061129,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "Vestigingsnummer": 990000276693,
-        "BezoekLocatie": {
-          "Registratie": {
-            "DatumAanvang": 20061129,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Afgeschermd": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Adres": {
-            "BinnenlandsAdres": {
-              "Straatnaam": "Wielingen",
-              "Huisnummer": 19,
-              "Postcode": {
-                "Cijfercombinatie": 5751,
-                "Lettercombinatie": "SG"
-              },
-              "Plaats": "Deurne",
-              "BagId": {
-                "IdentificatieNummeraanduiding": 74999999498961,
-                "IdentificatieAdresseerbaarObject": 74999999720950
-              },
-              "HuisnummerToevoeging": null
-            }
-          },
-          "VolledigAdres": "Wielingen 19 5751SG Deurne"
-        },
-        "Communicatiegegevens": {
-          "Registratie": {
-            "DatumAanvang": 20061129,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Communicatienummer": [
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            },
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "F",
-                "Omschrijving": "Fax"
-              }
-            }
-          ],
-          "EmailAdres": null
-        },
-        "EersteHandelsnaam": "Grand Hot-quote Co\u00F6peratie",
-        "VoltijdWerkzamePersonen": 0,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 0,
-        "Activiteiten": {
-          "Omschrijving": "Het deelnemen in, het financieren van en beleg- gen in ondernemingen, werkzaam op het gebied van chemische, medische en farmaceutische producten.",
-          "SbiActiviteit": {
-            "Registratie": {
-              "DatumAanvang": 20061129,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 70102,
-              "Omschrijving": "Holdings (geen financi\u00EBle)",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          },
-          "Exporteert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Importeert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          }
-        },
-        "HandeltOnder": {
-          "Handelsnaam": {
-            "Registratie": {
-              "DatumAanvang": 20061129,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Naam": "Grand Hot-quote Co\u00F6peratie",
-            "Volgorde": 0
-          },
-          "RelatieRegistratie": {
-            "DatumAanvang": 20061129,
-            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-          }
-        }
-      }
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20061129,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": {
-        "VoornemenTotOntbinding": null,
-        "ActiviteitenGestaaktPer": null,
-        "Rechtsvorm": {
-          "Code": "COP",
-          "Omschrijving": "Co\u00F6peratie"
-        },
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": null,
-                "Rechtspersoon": {
-                  "VoornemenTotOntbinding": null,
-                  "ActiviteitenGestaaktPer": null,
-                  "Rechtsvorm": null,
-                  "Heeft": [],
-                  "VolledigeNaam": "Jan Klaasen",
-                  "Rsin": "992504478"
-                }
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "azb",
-                  "Omschrijving": "Alleen/zelfstandig bevoegd"
-                }
-              },
-              "Functietitel": null
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          }
-        ],
-        "VolledigeNaam": "Jan Klaasen",
-        "Rsin": "992838952"
       }
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

@@ -1,424 +1,433 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 20110502,
-      "DatumEinde": 0,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90000811,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20110502,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Goorstraat",
-          "Huisnummer": 5,
-          "Postcode": {
-            "Cijfercombinatie": 5131,
-            "Lettercombinatie": "RG"
-          },
-          "Plaats": "Alphen",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999229877,
-            "IdentificatieAdresseerbaarObject": 74999999287391
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-800066f454faf41032f57c8ee28cad83",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90000811"
         }
       },
-      "VolledigAdres": "Goorstraat 5 5131RG Alphen"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20110502,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Goorstraat",
-          "Huisnummer": 5,
-          "Postcode": {
-            "Cijfercombinatie": 5131,
-            "Lettercombinatie": "RG"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstip": "20110426083921835",
+            "datumAanvang": "20110502"
           },
-          "Plaats": "Alphen",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999229877,
-            "IdentificatieAdresseerbaarObject": 74999999287391
+          "kvkNummer": "90000811",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Goorstraat 5 5131RG Alphen"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 20110502,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        }
-      ],
-      "EmailAdres": "nepemailadres@kvk.nl"
-    },
-    "Naam": "Company Bioware",
-    "ManifesteertZichAls": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20110502,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Onderneming": {
-        "Registratie": {
-          "DatumAanvang": 20110502,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "KvkNummer": 90000811,
-        "SbiActiviteit": [
-          {
-            "Registratie": {
-              "DatumAanvang": 20110502,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 31011,
-              "Omschrijving": "Interieurbouw",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          }
-        ],
-        "VoltijdWerkzamePersonen": 1,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 1,
-        "HandeltOnder": [
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20110502,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "Company Bioware Eenmanszaak",
-              "Volgorde": 0
-            },
-            "RelatieRegistratie": null
-          }
-        ],
-        "WordtUitgeoefendIn": {
-          "RelatieRegistratie": {
-            "DatumAanvang": 20110502,
-            "RegistratieTijdstipNoValue": null
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "CommercieleVestiging": {
-            "Registratie": {
-              "DatumAanvang": 20110502,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20110426083921835",
+              "datumAanvang": "20110502"
             },
-            "Vestigingsnummer": 990000651747,
-            "BezoekLocatie": {
-              "Registratie": {
-                "DatumAanvang": 20110502,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Goorstraat",
+                "huisnummer": "5",
+                "postcode": {
+                  "cijfercombinatie": "5131",
+                  "lettercombinatie": "RG"
+                },
+                "plaats": "Alphen",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999229877",
+                  "identificatieAdresseerbaarObject": "0074999999287391"
+                }
+              }
+            },
+            "volledigAdres": "Goorstraat 5 5131RG Alphen"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20110426083921835",
+              "datumAanvang": "20110502"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Goorstraat",
+                "huisnummer": "5",
+                "postcode": {
+                  "cijfercombinatie": "5131",
+                  "lettercombinatie": "RG"
+                },
+                "plaats": "Alphen",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999229877",
+                  "identificatieAdresseerbaarObject": "0074999999287391"
+                }
+              }
+            },
+            "volledigAdres": "Goorstraat 5 5131RG Alphen"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstip": "20110426083921835",
+              "datumAanvang": "20110502"
+            },
+            "communicatienummer": {
+              "toegangscode": "+31",
+              "nummer": "0209999999",
+              "soort": {
+                "code": "T",
+                "omschrijving": "Telefoon"
+              }
+            },
+            "emailAdres": "nepemailadres@kvk.nl",
+            "domeinNaam": "www.kvk.nl"
+          },
+          "naam": "Company Bioware",
+          "manifesteertZichAls": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20110426083921835",
+              "datumAanvang": "20110502"
+            },
+            "onderneming": {
+              "registratie": {
+                "@registratieTijdstip": "20110426083921835",
+                "datumAanvang": "20110502"
               },
-              "Afgeschermd": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
+              "kvkNummer": "90000811",
+              "sbiActiviteit": {
+                "registratie": {
+                  "@registratieTijdstip": "20110426083921835",
+                  "datumAanvang": "20110502"
+                },
+                "sbiCode": {
+                  "code": "31011",
+                  "omschrijving": "Interieurbouw",
+                  "referentieType": "ActiviteitCode"
+                },
+                "isHoofdactiviteit": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
+                }
               },
-              "Adres": {
-                "BinnenlandsAdres": {
-                  "Straatnaam": "Goorstraat",
-                  "Huisnummer": 5,
-                  "Postcode": {
-                    "Cijfercombinatie": 5131,
-                    "Lettercombinatie": "RG"
+              "voltijdWerkzamePersonen": "1",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "1",
+              "handeltOnder": {
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstip": "20110426083921835",
+                    "datumAanvang": "20110502"
                   },
-                  "Plaats": "Alphen",
-                  "BagId": {
-                    "IdentificatieNummeraanduiding": 74999999229877,
-                    "IdentificatieAdresseerbaarObject": 74999999287391
+                  "naam": "Company Bioware Eenmanszaak",
+                  "volgorde": "0"
+                }
+              },
+              "wordtUitgeoefendIn": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20110426083921835",
+                  "datumAanvang": "20110502"
+                },
+                "commercieleVestiging": {
+                  "registratie": {
+                    "@registratieTijdstip": "20110426083921835",
+                    "datumAanvang": "20110502"
                   },
-                  "HuisnummerToevoeging": null
-                }
-              },
-              "VolledigAdres": "Goorstraat 5 5131RG Alphen"
-            },
-            "Communicatiegegevens": {
-              "Registratie": {
-                "DatumAanvang": 20110502,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Communicatienummer": [
-                {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
-                  }
-                }
-              ],
-              "EmailAdres": "nepemailadres@kvk.nl"
-            },
-            "EersteHandelsnaam": "Company Bioware Eenmanszaak",
-            "VoltijdWerkzamePersonen": 1,
-            "DeeltijdWerkzamePersonen": 0,
-            "TotaalWerkzamePersonen": 1,
-            "Activiteiten": {
-              "Omschrijving": "Maatwerk op het gebied van interieurbouw, maar ook montage.",
-              "SbiActiviteit": {
-                "Registratie": {
-                  "DatumAanvang": 20110502,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "SbiCode": {
-                  "Code": 31011,
-                  "Omschrijving": "Interieurbouw",
-                  "ReferentieType": "ActiviteitCode"
-                },
-                "IsHoofdactiviteit": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
-                }
-              },
-              "Exporteert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Importeert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              }
-            },
-            "HandeltOnder": {
-              "Handelsnaam": {
-                "Registratie": {
-                  "DatumAanvang": 20110502,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "Naam": "Company Bioware Eenmanszaak",
-                "Volgorde": 0
-              },
-              "RelatieRegistratie": {
-                "DatumAanvang": 20110502,
-                "RegistratieTijdstipNoValue": null
-              }
-            }
-          }
-        }
-      }
-    },
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": {
-        "Registratie": {
-          "DatumAanvang": 20110502,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "Vestigingsnummer": 990000651747,
-        "BezoekLocatie": {
-          "Registratie": {
-            "DatumAanvang": 20110502,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Afgeschermd": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Adres": {
-            "BinnenlandsAdres": {
-              "Straatnaam": "Goorstraat",
-              "Huisnummer": 5,
-              "Postcode": {
-                "Cijfercombinatie": 5131,
-                "Lettercombinatie": "RG"
-              },
-              "Plaats": "Alphen",
-              "BagId": {
-                "IdentificatieNummeraanduiding": 74999999229877,
-                "IdentificatieAdresseerbaarObject": 74999999287391
-              },
-              "HuisnummerToevoeging": null
-            }
-          },
-          "VolledigAdres": "Goorstraat 5 5131RG Alphen"
-        },
-        "Communicatiegegevens": {
-          "Registratie": {
-            "DatumAanvang": 20110502,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Communicatienummer": [
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            }
-          ],
-          "EmailAdres": "nepemailadres@kvk.nl"
-        },
-        "EersteHandelsnaam": "Company Bioware Eenmanszaak",
-        "VoltijdWerkzamePersonen": 1,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 1,
-        "Activiteiten": {
-          "Omschrijving": "Maatwerk op het gebied van interieurbouw, maar ook montage.",
-          "SbiActiviteit": {
-            "Registratie": {
-              "DatumAanvang": 20110502,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 31011,
-              "Omschrijving": "Interieurbouw",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          },
-          "Exporteert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Importeert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          }
-        },
-        "HandeltOnder": {
-          "Handelsnaam": {
-            "Registratie": {
-              "DatumAanvang": 20110502,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Naam": "Company Bioware Eenmanszaak",
-            "Volgorde": 0
-          },
-          "RelatieRegistratie": {
-            "DatumAanvang": 20110502,
-            "RegistratieTijdstipNoValue": null
-          }
-        }
-      }
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20110502,
-        "RegistratieTijdstipNoValue": null
-      },
-      "NatuurlijkPersoon": {
-        "ExtraElementen": {
-          "ExtraElement": {
-            "Naam": "voorvoegsel"
-          }
-        },
-        "Registratie": {
-          "DatumAanvang": 19541124,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "PersoonRechtsvorm": "Eenmanszaak",
-        "VolledigeNaam": "Jan Klaasen",
-        "UitgebreideRechtsvorm": "Eenmanszaak",
-        "Geslachtsnaam": "Klaasen",
-        "Voornamen": "Jan",
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": {
-              "Functie": {
-                "Code": "01",
-                "Omschrijving": "Gevolmachtigde",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
+                  "vestigingsnummer": "990000651747",
+                  "bezoekLocatie": {
+                    "registratie": {
+                      "@registratieTijdstip": "20110426083921835",
+                      "datumAanvang": "20110502"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "straatnaam": "Goorstraat",
+                        "huisnummer": "5",
+                        "postcode": {
+                          "cijfercombinatie": "5131",
+                          "lettercombinatie": "RG"
+                        },
+                        "plaats": "Alphen",
+                        "bagId": {
+                          "identificatieNummeraanduiding": "0074999999229877",
+                          "identificatieAdresseerbaarObject": "0074999999287391"
+                        }
+                      }
+                    },
+                    "volledigAdres": "Goorstraat 5 5131RG Alphen"
+                  },
+                  "communicatiegegevens": {
+                    "registratie": {
+                      "@registratieTijdstip": "20110426083921835",
+                      "datumAanvang": "20110502"
+                    },
+                    "communicatienummer": {
+                      "toegangscode": "+31",
+                      "nummer": "0209999999",
+                      "soort": {
+                        "code": "T",
+                        "omschrijving": "Telefoon"
+                      }
+                    },
+                    "emailAdres": "nepemailadres@kvk.nl",
+                    "domeinNaam": "www.kvk.nl"
+                  },
+                  "eersteHandelsnaam": "Company Bioware Eenmanszaak",
+                  "voltijdWerkzamePersonen": "1",
+                  "deeltijdWerkzamePersonen": "0",
+                  "totaalWerkzamePersonen": "1",
+                  "activiteiten": {
+                    "omschrijving": "Maatwerk op het gebied van interieurbouw, maar ook montage.",
+                    "sbiActiviteit": {
+                      "registratie": {
+                        "@registratieTijdstip": "20110426083921835",
+                        "datumAanvang": "20110502"
+                      },
+                      "sbiCode": {
+                        "code": "31011",
+                        "omschrijving": "Interieurbouw",
+                        "referentieType": "ActiviteitCode"
+                      },
+                      "isHoofdactiviteit": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "exporteert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "importeert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
                     }
                   },
-                  "Registratie": {
-                    "DatumAanvang": 19850414,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
+                  "handeltOnder": {
+                    "relatieRegistratie": {
+                      "@registratieTijdstip": "20110426083921835",
+                      "datumAanvang": "20110502"
+                    },
+                    "handelsnaam": {
+                      "registratie": {
+                        "@registratieTijdstip": "20110426083921835",
+                        "datumAanvang": "20110502"
+                      },
+                      "naam": "Company Bioware Eenmanszaak",
+                      "volgorde": "0"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "wordtGeleidVanuit": {
+            "commercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstip": "20110426083921835",
+                "datumAanvang": "20110502"
               },
-              "Volmacht": {
-                "TypeVolmacht": {
-                  "Code": "v",
-                  "Omschrijving": "Volledige volmacht"
+              "vestigingsnummer": "990000651747",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20110426083921835",
+                  "datumAanvang": "20110502"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Goorstraat",
+                    "huisnummer": "5",
+                    "postcode": {
+                      "cijfercombinatie": "5131",
+                      "lettercombinatie": "RG"
+                    },
+                    "plaats": "Alphen",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999229877",
+                      "identificatieAdresseerbaarObject": "0074999999287391"
+                    }
+                  }
+                },
+                "volledigAdres": "Goorstraat 5 5131RG Alphen"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstip": "20110426083921835",
+                  "datumAanvang": "20110502"
+                },
+                "communicatienummer": {
+                  "toegangscode": "+31",
+                  "nummer": "0209999999",
+                  "soort": {
+                    "code": "T",
+                    "omschrijving": "Telefoon"
+                  }
+                },
+                "emailAdres": "nepemailadres@kvk.nl",
+                "domeinNaam": "www.kvk.nl"
+              },
+              "eersteHandelsnaam": "Company Bioware Eenmanszaak",
+              "voltijdWerkzamePersonen": "1",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "1",
+              "activiteiten": {
+                "omschrijving": "Maatwerk op het gebied van interieurbouw, maar ook montage.",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstip": "20110426083921835",
+                    "datumAanvang": "20110502"
+                  },
+                  "sbiCode": {
+                    "code": "31011",
+                    "omschrijving": "Interieurbouw",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                },
+                "exporteert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "importeert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
                 }
               },
-              "Bevoegdheid": null,
-              "Functietitel": null
+              "handeltOnder": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20110426083921835",
+                  "datumAanvang": "20110502"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstip": "20110426083921835",
+                    "datumAanvang": "20110502"
+                  },
+                  "naam": "Company Bioware Eenmanszaak",
+                  "volgorde": "0"
+                }
+              }
+            }
+          },
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20110426083921835",
+              "datumAanvang": "20110502"
             },
-            "PubliekrechtelijkeFunctionaris": null
+            "natuurlijkPersoon": {
+              "extraElementen": {
+                "extraElement": [
+                  {
+                    "@naam": "voorvoegsel",
+                    "#text": "van der"
+                  },
+                  {
+                    "@naam": "achternaam",
+                    "#text": "Henkle"
+                  }
+                ]
+              },
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19541124"
+              },
+              "persoonRechtsvorm": "Eenmanszaak",
+              "volledigeNaam": "Elida Henkle",
+              "uitgebreideRechtsvorm": "Eenmanszaak",
+              "heeft": {
+                "gemachtigde": {
+                  "registratie": {
+                    "@registratieTijdstip": "20110426083921835",
+                    "datumAanvang": "20110502"
+                  },
+                  "door": {
+                    "natuurlijkPersoon": {
+                      "extraElementen": {
+                        "extraElement": {
+                          "@naam": "achternaam",
+                          "#text": "Tuner"
+                        }
+                      },
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19850414"
+                      },
+                      "volledigeNaam": "Christeen Tuner",
+                      "geslachtsnaam": "Klaasen",
+"voornamen": "Jan",
+"geboortedatum": "20000101"
+                    }
+                  },
+                  "functie": {
+                    "code": "01",
+                    "omschrijving": "Gevolmachtigde",
+                    "referentieType": "FunctionarisRol"
+                  },
+                  "volmacht": {
+                    "registratie": {
+                      "@registratieTijdstip": "20110426083921835",
+                      "datumAanvang": "20110502"
+                    },
+                    "typeVolmacht": {
+                      "code": "v",
+                      "omschrijving": "Volledige volmacht",
+                      "referentieType": "VolmachtType"
+                    },
+                    "isStatutair": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  }
+                }
+              },
+              "geslachtsnaam": "Henkle",
+              "voorvoegselGeslachtsnaam": "van der",
+              "voornamen": "Elida",
+              "geboortedatum": "19541124"
+            }
           }
-        ],
-        "Geboortedatum": "20000101"
-      },
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": null
+        }
+      }
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

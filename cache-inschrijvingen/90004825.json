@@ -1,395 +1,586 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 19931201,
-      "DatumEinde": 0,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90004825,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 19931201,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Dragonstraat",
-          "Huisnummer": 9,
-          "Postcode": {
-            "Cijfercombinatie": 6833,
-            "Lettercombinatie": "GM"
-          },
-          "Plaats": "Arnhem",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999173388,
-            "IdentificatieAdresseerbaarObject": 74999999598376
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-6d6ac480f9ab5c393985e267e39d1746",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90004825"
         }
       },
-      "VolledigAdres": "Dragonstraat 9 6833GM Arnhem"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 19931201,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Dragonstraat",
-          "Huisnummer": 9,
-          "Postcode": {
-            "Cijfercombinatie": 6833,
-            "Lettercombinatie": "GM"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "19931201"
           },
-          "Plaats": "Arnhem",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999173388,
-            "IdentificatieAdresseerbaarObject": 74999999598376
+          "kvkNummer": "90004825",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Dragonstraat 9 6833GM Arnhem"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 19931201,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        }
-      ],
-      "EmailAdres": "nepemailadres@kvk.nl"
-    },
-    "Naam": "Grand Reholdings",
-    "ManifesteertZichAls": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 19931201,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "Onderneming": {
-        "Registratie": {
-          "DatumAanvang": 19931201,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "KvkNummer": 90004825,
-        "SbiActiviteit": [
-          {
-            "Registratie": {
-              "DatumAanvang": 19931201,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 8621,
-              "Omschrijving": "Praktijken van huisartsen",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          {
-            "Registratie": {
-              "DatumAanvang": 20140412,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19931201"
             },
-            "SbiCode": {
-              "Code": 86919,
-              "Omschrijving": "Overige paramedische praktijken (geen fysiotherapie en psychologie) en alternatieve genezers",
-              "ReferentieType": "ActiviteitCode"
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
             },
-            "IsHoofdactiviteit": {
-              "Code": "N",
-              "Omschrijving": "Nee",
-              "ReferentieType": "geenRT"
-            }
-          }
-        ],
-        "VoltijdWerkzamePersonen": 1,
-        "DeeltijdWerkzamePersonen": 2,
-        "TotaalWerkzamePersonen": 3,
-        "HandeltOnder": [
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 19931201,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "Grand Reholdings Eenmanszaak",
-              "Volgorde": 0
-            },
-            "RelatieRegistratie": null
-          }
-        ],
-        "WordtUitgeoefendIn": {
-          "RelatieRegistratie": {
-            "DatumAanvang": 19931201,
-            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-          },
-          "CommercieleVestiging": {
-            "Registratie": {
-              "DatumAanvang": 19931201,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Vestigingsnummer": 990000077518,
-            "BezoekLocatie": {
-              "Registratie": {
-                "DatumAanvang": 19931201,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Afgeschermd": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Adres": {
-                "BinnenlandsAdres": {
-                  "Straatnaam": "Dragonstraat",
-                  "Huisnummer": 9,
-                  "Postcode": {
-                    "Cijfercombinatie": 6833,
-                    "Lettercombinatie": "GM"
-                  },
-                  "Plaats": "Arnhem",
-                  "BagId": {
-                    "IdentificatieNummeraanduiding": 74999999173388,
-                    "IdentificatieAdresseerbaarObject": 74999999598376
-                  },
-                  "HuisnummerToevoeging": null
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Dragonstraat",
+                "huisnummer": "9",
+                "postcode": {
+                  "cijfercombinatie": "6833",
+                  "lettercombinatie": "GM"
+                },
+                "plaats": "Arnhem",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999173388",
+                  "identificatieAdresseerbaarObject": "0074999999598376"
                 }
-              },
-              "VolledigAdres": "Dragonstraat 9 6833GM Arnhem"
+              }
             },
-            "Communicatiegegevens": {
-              "Registratie": {
-                "DatumAanvang": 19931201,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
+            "volledigAdres": "Dragonstraat 9 6833GM Arnhem"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19931201"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Dragonstraat",
+                "huisnummer": "9",
+                "postcode": {
+                  "cijfercombinatie": "6833",
+                  "lettercombinatie": "GM"
+                },
+                "plaats": "Arnhem",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999173388",
+                  "identificatieAdresseerbaarObject": "0074999999598376"
+                }
+              }
+            },
+            "volledigAdres": "Dragonstraat 9 6833GM Arnhem"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19931201"
+            },
+            "communicatienummer": {
+              "toegangscode": "+31",
+              "nummer": "0209999999",
+              "soort": {
+                "code": "T",
+                "omschrijving": "Telefoon"
+              }
+            },
+            "emailAdres": "nepemailadres@kvk.nl"
+          },
+          "naam": "Grand Reholdings",
+          "manifesteertZichAls": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19931201"
+            },
+            "onderneming": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19931201"
               },
-              "Communicatienummer": [
+              "kvkNummer": "90004825",
+              "sbiActiviteit": [
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19931201"
+                  },
+                  "sbiCode": {
+                    "code": "8621",
+                    "omschrijving": "Praktijken van huisartsen",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                },
+                {
+                  "registratie": {
+                    "@registratieTijdstip": "20140412110826963",
+                    "datumAanvang": "20140412"
+                  },
+                  "sbiCode": {
+                    "code": "86919",
+                    "omschrijving": "Overige paramedische praktijken (geen fysiotherapie en psychologie) en alternatieve genezers",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "N",
+                    "omschrijving": "Nee",
+                    "referentieType": "geenRT"
                   }
                 }
               ],
-              "EmailAdres": "nepemailadres@kvk.nl"
-            },
-            "EersteHandelsnaam": "Grand Reholdings Eenmanszaak",
-            "VoltijdWerkzamePersonen": 1,
-            "DeeltijdWerkzamePersonen": 1,
-            "TotaalWerkzamePersonen": 2,
-            "Activiteiten": {
-              "Omschrijving": "Artsenpraktijk, gespecialiseerd in homeopathie, niet-toxische tumortherapie en complementaire geneeskunde.",
-              "SbiActiviteit": {
-                "Registratie": {
-                  "DatumAanvang": 19931201,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "SbiCode": {
-                  "Code": 8621,
-                  "Omschrijving": "Praktijken van huisartsen",
-                  "ReferentieType": "ActiviteitCode"
-                },
-                "IsHoofdactiviteit": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
+              "voltijdWerkzamePersonen": "1",
+              "deeltijdWerkzamePersonen": "2",
+              "totaalWerkzamePersonen": "3",
+              "handeltOnder": {
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19931201"
+                  },
+                  "naam": "Grand Reholdings Eenmanszaak",
+                  "volgorde": "0"
                 }
               },
-              "Exporteert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Importeert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              }
-            },
-            "HandeltOnder": {
-              "Handelsnaam": {
-                "Registratie": {
-                  "DatumAanvang": 19931201,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
+              "wordtUitgeoefendIn": [
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19931201"
+                  },
+                  "commercieleVestiging": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19931201"
+                    },
+                    "vestigingsnummer": "990000077518",
+                    "bezoekLocatie": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19931201"
+                      },
+                      "afgeschermd": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "adres": {
+                        "binnenlandsAdres": {
+                          "straatnaam": "Dragonstraat",
+                          "huisnummer": "9",
+                          "postcode": {
+                            "cijfercombinatie": "6833",
+                            "lettercombinatie": "GM"
+                          },
+                          "plaats": "Arnhem",
+                          "bagId": {
+                            "identificatieNummeraanduiding": "0074999999173388",
+                            "identificatieAdresseerbaarObject": "0074999999598376"
+                          }
+                        }
+                      },
+                      "volledigAdres": "Dragonstraat 9 6833GM Arnhem"
+                    },
+                    "communicatiegegevens": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19931201"
+                      },
+                      "communicatienummer": {
+                        "toegangscode": "+31",
+                        "nummer": "0209999999",
+                        "soort": {
+                          "code": "T",
+                          "omschrijving": "Telefoon"
+                        }
+                      },
+                      "emailAdres": "nepemailadres@kvk.nl"
+                    },
+                    "eersteHandelsnaam": "Grand Reholdings Eenmanszaak",
+                    "voltijdWerkzamePersonen": "1",
+                    "deeltijdWerkzamePersonen": "1",
+                    "totaalWerkzamePersonen": "2",
+                    "activiteiten": {
+                      "omschrijving": "Artsenpraktijk, gespecialiseerd in homeopathie, niet-toxische tumortherapie en complementaire geneeskunde.",
+                      "sbiActiviteit": [
+                        {
+                          "registratie": {
+                            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                            "datumAanvang": "19931201"
+                          },
+                          "sbiCode": {
+                            "code": "8621",
+                            "omschrijving": "Praktijken van huisartsen",
+                            "referentieType": "ActiviteitCode"
+                          },
+                          "isHoofdactiviteit": {
+                            "code": "J",
+                            "omschrijving": "Ja",
+                            "referentieType": "geenRT"
+                          }
+                        },
+                        {
+                          "registratie": {
+                            "@registratieTijdstip": "20140412110826963",
+                            "datumAanvang": "20140412"
+                          },
+                          "sbiCode": {
+                            "code": "86919",
+                            "omschrijving": "Overige paramedische praktijken (geen fysiotherapie en psychologie) en alternatieve genezers",
+                            "referentieType": "ActiviteitCode"
+                          },
+                          "isHoofdactiviteit": {
+                            "code": "N",
+                            "omschrijving": "Nee",
+                            "referentieType": "geenRT"
+                          }
+                        }
+                      ],
+                      "exporteert": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "importeert": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "handeltOnder": {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19931201"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19931201"
+                        },
+                        "naam": "Grand Reholdings Eenmanszaak",
+                        "volgorde": "0"
+                      }
+                    }
+                  }
                 },
-                "Naam": "Grand Reholdings Eenmanszaak",
-                "Volgorde": 0
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19970701"
+                  },
+                  "commercieleVestiging": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19970701"
+                    },
+                    "vestigingsnummer": "990000264982",
+                    "bezoekLocatie": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19970701"
+                      },
+                      "afgeschermd": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "adres": {
+                        "binnenlandsAdres": {
+                          "straatnaam": "Castorstraat",
+                          "huisnummer": "146",
+                          "postcode": {
+                            "cijfercombinatie": "9742",
+                            "lettercombinatie": "BT"
+                          },
+                          "plaats": "Groningen",
+                          "bagId": {
+                            "identificatieNummeraanduiding": "0074999999838093",
+                            "identificatieAdresseerbaarObject": "0074999999763253"
+                          }
+                        }
+                      },
+                      "volledigAdres": "Castorstraat 146 9742BT Groningen"
+                    },
+                    "postLocatie": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19970701"
+                      },
+                      "afgeschermd": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "adres": {
+                        "binnenlandsAdres": {
+                          "straatnaam": "Dragonstraat",
+                          "huisnummer": "9",
+                          "postcode": {
+                            "cijfercombinatie": "6833",
+                            "lettercombinatie": "GM"
+                          },
+                          "plaats": "Arnhem",
+                          "bagId": {
+                            "identificatieNummeraanduiding": "0074999999173388",
+                            "identificatieAdresseerbaarObject": "0074999999598376"
+                          }
+                        }
+                      },
+                      "volledigAdres": "Dragonstraat 9 6833GM Arnhem"
+                    },
+                    "communicatiegegevens": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19970701"
+                      },
+                      "communicatienummer": {
+                        "toegangscode": "+31",
+                        "nummer": "0209999999",
+                        "soort": {
+                          "code": "T",
+                          "omschrijving": "Telefoon"
+                        }
+                      },
+                      "emailAdres": "nepemailadres@kvk.nl"
+                    },
+                    "eersteHandelsnaam": "Grand Reholdings Eenmanszaak",
+                    "voltijdWerkzamePersonen": "0",
+                    "deeltijdWerkzamePersonen": "1",
+                    "totaalWerkzamePersonen": "1",
+                    "activiteiten": {
+                      "omschrijving": "Artsenpraktijk, gespecialiseerd in homeopathie, niet-toxische tumortherapie en complementaire geneeskunde.",
+                      "sbiActiviteit": [
+                        {
+                          "registratie": {
+                            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                            "datumAanvang": "19970701"
+                          },
+                          "sbiCode": {
+                            "code": "8621",
+                            "omschrijving": "Praktijken van huisartsen",
+                            "referentieType": "ActiviteitCode"
+                          },
+                          "isHoofdactiviteit": {
+                            "code": "J",
+                            "omschrijving": "Ja",
+                            "referentieType": "geenRT"
+                          }
+                        },
+                        {
+                          "registratie": {
+                            "@registratieTijdstip": "20140412110826963",
+                            "datumAanvang": "20140412"
+                          },
+                          "sbiCode": {
+                            "code": "86919",
+                            "omschrijving": "Overige paramedische praktijken (geen fysiotherapie en psychologie) en alternatieve genezers",
+                            "referentieType": "ActiviteitCode"
+                          },
+                          "isHoofdactiviteit": {
+                            "code": "N",
+                            "omschrijving": "Nee",
+                            "referentieType": "geenRT"
+                          }
+                        }
+                      ],
+                      "exporteert": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "importeert": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "handeltOnder": {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19970701"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19931201"
+                        },
+                        "naam": "Grand Reholdings Eenmanszaak",
+                        "volgorde": "0"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "wordtGeleidVanuit": {
+            "commercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19931201"
               },
-              "RelatieRegistratie": {
-                "DatumAanvang": 19931201,
-                "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+              "vestigingsnummer": "990000077518",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19931201"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Dragonstraat",
+                    "huisnummer": "9",
+                    "postcode": {
+                      "cijfercombinatie": "6833",
+                      "lettercombinatie": "GM"
+                    },
+                    "plaats": "Arnhem",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999173388",
+                      "identificatieAdresseerbaarObject": "0074999999598376"
+                    }
+                  }
+                },
+                "volledigAdres": "Dragonstraat 9 6833GM Arnhem"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19931201"
+                },
+                "communicatienummer": {
+                  "toegangscode": "+31",
+                  "nummer": "0209999999",
+                  "soort": {
+                    "code": "T",
+                    "omschrijving": "Telefoon"
+                  }
+                },
+                "emailAdres": "nepemailadres@kvk.nl"
+              },
+              "eersteHandelsnaam": "Grand Reholdings Eenmanszaak",
+              "voltijdWerkzamePersonen": "1",
+              "deeltijdWerkzamePersonen": "1",
+              "totaalWerkzamePersonen": "2",
+              "activiteiten": {
+                "omschrijving": "Artsenpraktijk, gespecialiseerd in homeopathie, niet-toxische tumortherapie en complementaire geneeskunde.",
+                "sbiActiviteit": [
+                  {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19931201"
+                    },
+                    "sbiCode": {
+                      "code": "8621",
+                      "omschrijving": "Praktijken van huisartsen",
+                      "referentieType": "ActiviteitCode"
+                    },
+                    "isHoofdactiviteit": {
+                      "code": "J",
+                      "omschrijving": "Ja",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  {
+                    "registratie": {
+                      "@registratieTijdstip": "20140412110826963",
+                      "datumAanvang": "20140412"
+                    },
+                    "sbiCode": {
+                      "code": "86919",
+                      "omschrijving": "Overige paramedische praktijken (geen fysiotherapie en psychologie) en alternatieve genezers",
+                      "referentieType": "ActiviteitCode"
+                    },
+                    "isHoofdactiviteit": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  }
+                ],
+                "exporteert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "importeert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                }
+              },
+              "handeltOnder": {
+                "relatieRegistratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19931201"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19931201"
+                  },
+                  "naam": "Grand Reholdings Eenmanszaak",
+                  "volgorde": "0"
+                }
               }
+            }
+          },
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19931201"
+            },
+            "natuurlijkPersoon": {
+              "extraElementen": {
+                "extraElement": [
+                  {
+                    "@naam": "voorvoegsel",
+                    "#text": "de"
+                  },
+                  {
+                    "@naam": "achternaam",
+                    "#text": "Pergande"
+                  }
+                ]
+              },
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19881029"
+              },
+              "persoonRechtsvorm": "Eenmanszaak",
+              "volledigeNaam": "Nohemi Pergande",
+              "uitgebreideRechtsvorm": "Eenmanszaak",
+              "geslachtsnaam": "Pergande",
+              "voorvoegselGeslachtsnaam": "de",
+              "voornamen": "Nohemi",
+              "geboortedatum": "19881029"
             }
           }
         }
       }
-    },
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": {
-        "Registratie": {
-          "DatumAanvang": 19931201,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "Vestigingsnummer": 990000077518,
-        "BezoekLocatie": {
-          "Registratie": {
-            "DatumAanvang": 19931201,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Afgeschermd": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Adres": {
-            "BinnenlandsAdres": {
-              "Straatnaam": "Dragonstraat",
-              "Huisnummer": 9,
-              "Postcode": {
-                "Cijfercombinatie": 6833,
-                "Lettercombinatie": "GM"
-              },
-              "Plaats": "Arnhem",
-              "BagId": {
-                "IdentificatieNummeraanduiding": 74999999173388,
-                "IdentificatieAdresseerbaarObject": 74999999598376
-              },
-              "HuisnummerToevoeging": null
-            }
-          },
-          "VolledigAdres": "Dragonstraat 9 6833GM Arnhem"
-        },
-        "Communicatiegegevens": {
-          "Registratie": {
-            "DatumAanvang": 19931201,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Communicatienummer": [
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            }
-          ],
-          "EmailAdres": "nepemailadres@kvk.nl"
-        },
-        "EersteHandelsnaam": "Grand Reholdings Eenmanszaak",
-        "VoltijdWerkzamePersonen": 1,
-        "DeeltijdWerkzamePersonen": 1,
-        "TotaalWerkzamePersonen": 2,
-        "Activiteiten": {
-          "Omschrijving": "Artsenpraktijk, gespecialiseerd in homeopathie, niet-toxische tumortherapie en complementaire geneeskunde.",
-          "SbiActiviteit": {
-            "Registratie": {
-              "DatumAanvang": 19931201,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 8621,
-              "Omschrijving": "Praktijken van huisartsen",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          },
-          "Exporteert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Importeert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          }
-        },
-        "HandeltOnder": {
-          "Handelsnaam": {
-            "Registratie": {
-              "DatumAanvang": 19931201,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Naam": "Grand Reholdings Eenmanszaak",
-            "Volgorde": 0
-          },
-          "RelatieRegistratie": {
-            "DatumAanvang": 19931201,
-            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-          }
-        }
-      }
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 19931201,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "NatuurlijkPersoon": {
-        "ExtraElementen": {
-          "ExtraElement": {
-            "Naam": "voorvoegsel"
-          }
-        },
-        "Registratie": {
-          "DatumAanvang": 19881029,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "PersoonRechtsvorm": "Eenmanszaak",
-        "VolledigeNaam": "Jan Klaasen",
-        "UitgebreideRechtsvorm": "Eenmanszaak",
-        "Geslachtsnaam": "Klaasen",
-        "Voornamen": "Jan",
-        "Heeft": [],
-        "Geboortedatum": "20000101"
-      },
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": null
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

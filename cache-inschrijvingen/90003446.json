@@ -1,534 +1,586 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 20060330,
-      "DatumEinde": 20110412,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90003446,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20061124,
-        "DatumEinde": 20110412,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Hegelhof",
-          "Huisnummer": 46,
-          "Postcode": {
-            "Cijfercombinatie": 1064,
-            "Lettercombinatie": "VX"
-          },
-          "Plaats": "Amsterdam",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999225029,
-            "IdentificatieAdresseerbaarObject": 74999999162095
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-faf4be5acd5bd9a79147b4c505e589ec",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90003446"
         }
       },
-      "VolledigAdres": "Hegelhof 46 1064VX Amsterdam"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20061124,
-        "DatumEinde": 20110412,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Hegelhof",
-          "Huisnummer": 46,
-          "Postcode": {
-            "Cijfercombinatie": 1064,
-            "Lettercombinatie": "VX"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "20060330",
+            "datumEinde": "20110412"
           },
-          "Plaats": "Amsterdam",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999225029,
-            "IdentificatieAdresseerbaarObject": 74999999162095
+          "kvkNummer": "90003446",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Hegelhof 46 1064VX Amsterdam"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 20050101,
-        "DatumEinde": 20110412,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        },
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "F",
-            "Omschrijving": "Fax"
-          }
-        }
-      ],
-      "EmailAdres": "nepemailadres@kvk.nl"
-    },
-    "Naam": "Grand Istamfan",
-    "ManifesteertZichAls": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20060330,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Onderneming": {
-        "Registratie": {
-          "DatumAanvang": 20050101,
-          "DatumEinde": 20110412,
-          "RegistratieTijdstipNoValue": null
-        },
-        "KvkNummer": 90003446,
-        "SbiActiviteit": [
-          {
-            "Registratie": {
-              "DatumAanvang": 20050101,
-              "DatumEinde": 20110412,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 4941,
-              "Omschrijving": "Goederenvervoer over de weg (geen verhuizingen)",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          }
-        ],
-        "VoltijdWerkzamePersonen": 5,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 5,
-        "HandeltOnder": [
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20051207,
-                "DatumEinde": 20110412,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "Grand Istamfan",
-              "Volgorde": 0
-            },
-            "RelatieRegistratie": null
-          }
-        ],
-        "WordtUitgeoefendIn": {
-          "RelatieRegistratie": {
-            "DatumAanvang": 20060330,
-            "RegistratieTijdstipNoValue": null
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "CommercieleVestiging": {
-            "Registratie": {
-              "DatumAanvang": 20050101,
-              "DatumEinde": 20110412,
-              "RegistratieTijdstipNoValue": null
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20110412113406238",
+              "datumAanvang": "20061124",
+              "datumEinde": "20110412"
             },
-            "Vestigingsnummer": 990000092636,
-            "BezoekLocatie": {
-              "Registratie": {
-                "DatumAanvang": 20061124,
-                "DatumEinde": 20110412,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Afgeschermd": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Adres": {
-                "BinnenlandsAdres": {
-                  "Straatnaam": "Hegelhof",
-                  "Huisnummer": 46,
-                  "Postcode": {
-                    "Cijfercombinatie": 1064,
-                    "Lettercombinatie": "VX"
-                  },
-                  "Plaats": "Amsterdam",
-                  "BagId": {
-                    "IdentificatieNummeraanduiding": 74999999225029,
-                    "IdentificatieAdresseerbaarObject": 74999999162095
-                  },
-                  "HuisnummerToevoeging": null
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Hegelhof",
+                "huisnummer": "46",
+                "postcode": {
+                  "cijfercombinatie": "1064",
+                  "lettercombinatie": "VX"
+                },
+                "plaats": "Amsterdam",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999225029",
+                  "identificatieAdresseerbaarObject": "0074999999162095"
+                }
+              }
+            },
+            "volledigAdres": "Hegelhof 46 1064VX Amsterdam"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20110412113406238",
+              "datumAanvang": "20061124",
+              "datumEinde": "20110412"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Hegelhof",
+                "huisnummer": "46",
+                "postcode": {
+                  "cijfercombinatie": "1064",
+                  "lettercombinatie": "VX"
+                },
+                "plaats": "Amsterdam",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999225029",
+                  "identificatieAdresseerbaarObject": "0074999999162095"
+                }
+              }
+            },
+            "volledigAdres": "Hegelhof 46 1064VX Amsterdam"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstip": "20110412113406238",
+              "datumAanvang": "20050101",
+              "datumEinde": "20110412"
+            },
+            "communicatienummer": [
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "T",
+                  "omschrijving": "Telefoon"
                 }
               },
-              "VolledigAdres": "Hegelhof 46 1064VX Amsterdam"
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "F",
+                  "omschrijving": "Fax"
+                }
+              }
+            ],
+            "emailAdres": "nepemailadres@kvk.nl"
+          },
+          "naam": "Grand Istamfan",
+          "manifesteertZichAls": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20110412113406238",
+              "datumAanvang": "20060330",
+              "datumEinde": "20110412"
             },
-            "Communicatiegegevens": {
-              "Registratie": {
-                "DatumAanvang": 20050101,
-                "DatumEinde": 20110412,
-                "RegistratieTijdstipNoValue": null
+            "onderneming": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20050101",
+                "datumEinde": "20110412"
               },
-              "Communicatienummer": [
+              "kvkNummer": "90003446",
+              "sbiActiviteit": {
+                "registratie": {
+                  "@registratieTijdstip": "20110412113406238",
+                  "datumAanvang": "20050101",
+                  "datumEinde": "20110412"
+                },
+                "sbiCode": {
+                  "code": "4941",
+                  "omschrijving": "Goederenvervoer over de weg (geen verhuizingen)",
+                  "referentieType": "ActiviteitCode"
+                },
+                "isHoofdactiviteit": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
+                }
+              },
+              "voltijdWerkzamePersonen": "5",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "5",
+              "handeltOnder": {
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20051207",
+                    "datumEinde": "20110412"
+                  },
+                  "naam": "Grand Istamfan",
+                  "volgorde": "0"
+                }
+              },
+              "wordtUitgeoefendIn": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20110412113406238",
+                  "datumAanvang": "20060330",
+                  "datumEinde": "20110412"
+                },
+                "commercieleVestiging": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20050101",
+                    "datumEinde": "20110412"
+                  },
+                  "vestigingsnummer": "990000092636",
+                  "bezoekLocatie": {
+                    "registratie": {
+                      "@registratieTijdstip": "20110412113406238",
+                      "datumAanvang": "20061124",
+                      "datumEinde": "20110412"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "straatnaam": "Hegelhof",
+                        "huisnummer": "46",
+                        "postcode": {
+                          "cijfercombinatie": "1064",
+                          "lettercombinatie": "VX"
+                        },
+                        "plaats": "Amsterdam",
+                        "bagId": {
+                          "identificatieNummeraanduiding": "0074999999225029",
+                          "identificatieAdresseerbaarObject": "0074999999162095"
+                        }
+                      }
+                    },
+                    "volledigAdres": "Hegelhof 46 1064VX Amsterdam"
+                  },
+                  "communicatiegegevens": {
+                    "registratie": {
+                      "@registratieTijdstip": "20110412113406238",
+                      "datumAanvang": "20050101",
+                      "datumEinde": "20110412"
+                    },
+                    "communicatienummer": [
+                      {
+                        "toegangscode": "+31",
+                        "nummer": "0209999999",
+                        "soort": {
+                          "code": "T",
+                          "omschrijving": "Telefoon"
+                        }
+                      },
+                      {
+                        "toegangscode": "+31",
+                        "nummer": "0209999999",
+                        "soort": {
+                          "code": "F",
+                          "omschrijving": "Fax"
+                        }
+                      }
+                    ],
+                    "emailAdres": "nepemailadres@kvk.nl"
+                  },
+                  "eersteHandelsnaam": "Grand Istamfan",
+                  "voltijdWerkzamePersonen": "5",
+                  "deeltijdWerkzamePersonen": "0",
+                  "totaalWerkzamePersonen": "5",
+                  "activiteiten": {
+                    "omschrijving": "Transportbedrijf (met name zeecontainervervoer).",
+                    "sbiActiviteit": {
+                      "registratie": {
+                        "@registratieTijdstip": "20110412113406238",
+                        "datumAanvang": "20050101",
+                        "datumEinde": "20110412"
+                      },
+                      "sbiCode": {
+                        "code": "4941",
+                        "omschrijving": "Goederenvervoer over de weg (geen verhuizingen)",
+                        "referentieType": "ActiviteitCode"
+                      },
+                      "isHoofdactiviteit": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "exporteert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "importeert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  "handeltOnder": {
+                    "relatieRegistratie": {
+                      "@registratieTijdstip": "20110412113406238",
+                      "datumAanvang": "20051207",
+                      "datumEinde": "20110412"
+                    },
+                    "handelsnaam": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20051207",
+                        "datumEinde": "20110412"
+                      },
+                      "naam": "Grand Istamfan",
+                      "volgorde": "0"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "wordtGeleidVanuit": {
+            "commercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20050101",
+                "datumEinde": "20110412"
+              },
+              "vestigingsnummer": "990000092636",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20110412113406238",
+                  "datumAanvang": "20061124",
+                  "datumEinde": "20110412"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Hegelhof",
+                    "huisnummer": "46",
+                    "postcode": {
+                      "cijfercombinatie": "1064",
+                      "lettercombinatie": "VX"
+                    },
+                    "plaats": "Amsterdam",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999225029",
+                      "identificatieAdresseerbaarObject": "0074999999162095"
+                    }
+                  }
+                },
+                "volledigAdres": "Hegelhof 46 1064VX Amsterdam"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstip": "20110412113406238",
+                  "datumAanvang": "20050101",
+                  "datumEinde": "20110412"
+                },
+                "communicatienummer": [
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "T",
+                      "omschrijving": "Telefoon"
+                    }
+                  },
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "F",
+                      "omschrijving": "Fax"
+                    }
+                  }
+                ],
+                "emailAdres": "nepemailadres@kvk.nl"
+              },
+              "eersteHandelsnaam": "Grand Istamfan",
+              "voltijdWerkzamePersonen": "5",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "5",
+              "activiteiten": {
+                "omschrijving": "Transportbedrijf (met name zeecontainervervoer).",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstip": "20110412113406238",
+                    "datumAanvang": "20050101",
+                    "datumEinde": "20110412"
+                  },
+                  "sbiCode": {
+                    "code": "4941",
+                    "omschrijving": "Goederenvervoer over de weg (geen verhuizingen)",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                },
+                "exporteert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "importeert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                }
+              },
+              "handeltOnder": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20110412113406238",
+                  "datumAanvang": "20051207",
+                  "datumEinde": "20110412"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20051207",
+                    "datumEinde": "20110412"
+                  },
+                  "naam": "Grand Istamfan",
+                  "volgorde": "0"
+                }
+              }
+            }
+          },
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20110412113406238",
+              "datumAanvang": "20060330",
+              "datumEinde": "20110412"
+            },
+            "samenwerkingsverband": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20060330",
+                "datumEinde": "20110412"
+              },
+              "persoonRechtsvorm": "Commanditaire Vennootschap",
+              "volledigeNaam": "Grand Istamfan",
+              "uitgebreideRechtsvorm": "Commanditaire Vennootschap",
+              "heeft": [
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
+                  "aansprakelijke": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20061010",
+                      "datumEinde": "20110412"
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Gordy - Gordy"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19490512"
+                        },
+                        "volledigeNaam": "Katelin Gordy",
+                        "geslachtsnaam": "Gordy - Gordy",
+                        "voornamen": "Katelin",
+                        "geboortedatum": "19490512"
+                      }
+                    },
+                    "functie": {
+                      "code": "13",
+                      "omschrijving": "Vennoot",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstip": "20110412113406238",
+                        "datumAanvang": "20061010",
+                        "datumEinde": "20110412"
+                      },
+                      "soort": {
+                        "code": "ob",
+                        "omschrijving": "Onbeperkt bevoegd",
+                        "referentieType": "SoortBevoegdheidAansprakelijkeBijSamenwerkingsverband"
+                      },
+                      "overigeBeperking": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
                   }
                 },
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "F",
-                    "Omschrijving": "Fax"
+                  "gemachtigde": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20070521",
+                      "datumEinde": "20110412"
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Andry"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19600714"
+                        },
+                        "volledigeNaam": "Kathie Andry",
+                        "geslachtsnaam": "Klaasen",
+"voornamen": "Jan",
+"geboortedatum": "20000101"
+                      }
+                    },
+                    "functie": {
+                      "code": "01",
+                      "omschrijving": "Gevolmachtigde",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "volmacht": {
+                      "registratie": {
+                        "@registratieTijdstip": "20110412113406238",
+                        "datumAanvang": "20070521",
+                        "datumEinde": "20110412"
+                      },
+                      "typeVolmacht": {
+                        "code": "b",
+                        "omschrijving": "Beperkte volmacht",
+                        "referentieType": "VolmachtType"
+                      },
+                      "isStatutair": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "beperkteVolmacht": {
+                        "magOpgaveHandelsregisterDoen": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        },
+                        "heeftOverigeVolmacht": {
+                          "code": "J",
+                          "omschrijving": "Ja",
+                          "referentieType": "geenRT"
+                        },
+                        "omschrijvingOverigeVolmacht": "Slechts bevoegd samen met en uitsluitend met\nP. Nelemans"
+                      }
+                    }
                   }
                 }
               ],
-              "EmailAdres": "nepemailadres@kvk.nl"
-            },
-            "EersteHandelsnaam": "Grand Istamfan",
-            "VoltijdWerkzamePersonen": 5,
-            "DeeltijdWerkzamePersonen": 0,
-            "TotaalWerkzamePersonen": 5,
-            "Activiteiten": {
-              "Omschrijving": "Transportbedrijf (met name zeecontainervervoer).",
-              "SbiActiviteit": {
-                "Registratie": {
-                  "DatumAanvang": 20050101,
-                  "DatumEinde": 20110412,
-                  "RegistratieTijdstipNoValue": null
+              "rsin": "992243403",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstip": "20110412113406238",
+                  "datumAanvang": "20060330",
+                  "datumEinde": "20110412"
                 },
-                "SbiCode": {
-                  "Code": 4941,
-                  "Omschrijving": "Goederenvervoer over de weg (geen verhuizingen)",
-                  "ReferentieType": "ActiviteitCode"
-                },
-                "IsHoofdactiviteit": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
+                "naam": "Grand Istamfan"
+              },
+              "ontbinding": {
+                "registratie": {
+                  "@registratieTijdstip": "20110412113406238",
+                  "datumAanvang": "20110412"
                 }
               },
-              "Exporteert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
+              "rechtsvorm": {
+                "code": "CV",
+                "omschrijving": "Commanditaire Vennootschap",
+                "referentieType": "Rechtsvorm"
               },
-              "Importeert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              }
-            },
-            "HandeltOnder": {
-              "Handelsnaam": {
-                "Registratie": {
-                  "DatumAanvang": 20051207,
-                  "DatumEinde": 20110412,
-                  "RegistratieTijdstipNoValue": null
+              "aantalCommanditaireVennoten": "1",
+              "duur": {
+                "registratie": {
+                  "@registratieTijdstip": "20110412113406238",
+                  "datumAanvang": "20060330",
+                  "datumEinde": "20110412"
                 },
-                "Naam": "Grand Istamfan",
-                "Volgorde": 0
+                "heeftOnbepaaldeDuur": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
+                }
               },
-              "RelatieRegistratie": {
-                "DatumAanvang": 20051207,
-                "RegistratieTijdstipNoValue": null
+              "commanditairKapitaal": {
+                "registratie": {
+                  "@registratieTijdstip": "20110412113406238",
+                  "datumAanvang": "20060330",
+                  "datumEinde": "20110412"
+                },
+                "bedrag": {
+                  "waarde": "2000",
+                  "valuta": {
+                    "code": "EUR",
+                    "omschrijving": "Euro",
+                    "referentieType": "Valuta"
+                  }
+                },
+                "soort": {
+                  "code": "geld",
+                  "omschrijving": "Geld",
+                  "referentieType": "SoortCommanditairKapitaal"
+                }
               }
             }
           }
         }
       }
-    },
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": {
-        "Registratie": {
-          "DatumAanvang": 20050101,
-          "DatumEinde": 20110412,
-          "RegistratieTijdstipNoValue": null
-        },
-        "Vestigingsnummer": 990000092636,
-        "BezoekLocatie": {
-          "Registratie": {
-            "DatumAanvang": 20061124,
-            "DatumEinde": 20110412,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Afgeschermd": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Adres": {
-            "BinnenlandsAdres": {
-              "Straatnaam": "Hegelhof",
-              "Huisnummer": 46,
-              "Postcode": {
-                "Cijfercombinatie": 1064,
-                "Lettercombinatie": "VX"
-              },
-              "Plaats": "Amsterdam",
-              "BagId": {
-                "IdentificatieNummeraanduiding": 74999999225029,
-                "IdentificatieAdresseerbaarObject": 74999999162095
-              },
-              "HuisnummerToevoeging": null
-            }
-          },
-          "VolledigAdres": "Hegelhof 46 1064VX Amsterdam"
-        },
-        "Communicatiegegevens": {
-          "Registratie": {
-            "DatumAanvang": 20050101,
-            "DatumEinde": 20110412,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Communicatienummer": [
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            },
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "F",
-                "Omschrijving": "Fax"
-              }
-            }
-          ],
-          "EmailAdres": "nepemailadres@kvk.nl"
-        },
-        "EersteHandelsnaam": "Grand Istamfan",
-        "VoltijdWerkzamePersonen": 5,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 5,
-        "Activiteiten": {
-          "Omschrijving": "Transportbedrijf (met name zeecontainervervoer).",
-          "SbiActiviteit": {
-            "Registratie": {
-              "DatumAanvang": 20050101,
-              "DatumEinde": 20110412,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 4941,
-              "Omschrijving": "Goederenvervoer over de weg (geen verhuizingen)",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          },
-          "Exporteert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Importeert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          }
-        },
-        "HandeltOnder": {
-          "Handelsnaam": {
-            "Registratie": {
-              "DatumAanvang": 20051207,
-              "DatumEinde": 20110412,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Naam": "Grand Istamfan",
-            "Volgorde": 0
-          },
-          "RelatieRegistratie": {
-            "DatumAanvang": 20051207,
-            "RegistratieTijdstipNoValue": null
-          }
-        }
-      }
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20060330,
-        "RegistratieTijdstipNoValue": null
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": {
-        "Registratie": {
-          "DatumAanvang": 20060330,
-          "DatumEinde": 20110412,
-          "RegistratieTijdstipNoValue": null
-        },
-        "BijzondereRechtstoestand": null,
-        "PersoonRechtsvorm": "Commanditaire Vennootschap",
-        "VolledigeNaam": "Jan Klaasen",
-        "UitgebreideRechtsvorm": "Commanditaire Vennootschap",
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": {
-              "Registratie": {
-                "DatumAanvang": 20061010,
-                "DatumEinde": 20110412,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19490512,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Functie": {
-                "Code": "13",
-                "Omschrijving": "Vennoot",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Bevoegdheid": {
-                "Registratie": {
-                  "DatumAanvang": 20061010,
-                  "DatumEinde": 20110412,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "Soort": {
-                  "Code": "ob",
-                  "Omschrijving": "Onbeperkt bevoegd"
-                },
-                "OverigeBeperking": {
-                  "Code": "N",
-                  "Omschrijving": "Nee",
-                  "ReferentieType": "geenRT"
-                }
-              },
-              "Functietitel": null
-            },
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": {
-              "Functie": {
-                "Code": "01",
-                "Omschrijving": "Gevolmachtigde",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19600714,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Volmacht": {
-                "TypeVolmacht": {
-                  "Code": "b",
-                  "Omschrijving": "Beperkte volmacht"
-                }
-              },
-              "Bevoegdheid": null,
-              "Functietitel": null
-            },
-            "PubliekrechtelijkeFunctionaris": null
-          }
-        ],
-        "Rsin": 992243403,
-        "Naamgeving": {
-          "Registratie": {
-            "DatumAanvang": 20060330,
-            "DatumEinde": 20110412,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Naam": "Grand Istamfan"
-        },
-        "Ontbinding": {
-          "Registratie": {
-            "DatumAanvang": 20110412,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "aanleiding": null
-        },
-        "Rechtsvorm": {
-          "Code": "CV",
-          "Omschrijving": "Commanditaire Vennootschap",
-          "ReferentieType": "Rechtsvorm"
-        },
-        "Duur": {
-          "Registratie": {
-            "DatumAanvang": 20060330,
-            "DatumEinde": 20110412,
-            "RegistratieTijdstipNoValue": null
-          },
-          "HeeftOnbepaaldeDuur": {
-            "Code": "J",
-            "Omschrijving": "Ja",
-            "ReferentieType": "geenRT"
-          }
-        }
-      },
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": null
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

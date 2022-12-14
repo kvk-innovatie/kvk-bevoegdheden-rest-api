@@ -1,547 +1,664 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 20050101,
-      "DatumEinde": 20101231,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90005449,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 19850501,
-        "DatumEinde": 20101231,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Hoeksedijk",
-          "Huisnummer": 18,
-          "Postcode": {
-            "Cijfercombinatie": 3299,
-            "Lettercombinatie": "AG"
-          },
-          "Plaats": "Maasdam",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999668990,
-            "IdentificatieAdresseerbaarObject": 74999999622725
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-2e735c5848bcad94ea45ec15579d0d54",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90005449"
         }
       },
-      "VolledigAdres": "Hoeksedijk 18 3299AG Maasdam"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 19850501,
-        "DatumEinde": 20101231,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Hoeksedijk",
-          "Huisnummer": 18,
-          "Postcode": {
-            "Cijfercombinatie": 3299,
-            "Lettercombinatie": "AG"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "20050101",
+            "datumEinde": "20101231"
           },
-          "Plaats": "Maasdam",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999668990,
-            "IdentificatieAdresseerbaarObject": 74999999622725
+          "kvkNummer": "90005449",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Hoeksedijk 18 3299AG Maasdam"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 19850501,
-        "DatumEinde": 20101231,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        },
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        },
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "F",
-            "Omschrijving": "Fax"
-          }
-        }
-      ],
-      "EmailAdres": "nepemailadres@kvk.nl"
-    },
-    "Naam": "Global Labannix",
-    "ManifesteertZichAls": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20050101,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Onderneming": {
-        "Registratie": {
-          "DatumAanvang": 19850501,
-          "DatumEinde": 20101231,
-          "RegistratieTijdstipNoValue": null
-        },
-        "KvkNummer": 90005449,
-        "SbiActiviteit": [
-          {
-            "Registratie": {
-              "DatumAanvang": 19850501,
-              "DatumEinde": 20101231,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 150,
-              "Omschrijving": "Akker- en/of tuinbouw in combinatie met het fokken en houden van dieren",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          {
-            "Registratie": {
-              "DatumAanvang": 19850501,
-              "DatumEinde": 20101231,
-              "RegistratieTijdstipNoValue": null
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20110103084643467",
+              "datumAanvang": "19850501",
+              "datumEinde": "20101231"
             },
-            "SbiCode": {
-              "Code": 5530,
-              "Omschrijving": "Kampeerterreinen",
-              "ReferentieType": "ActiviteitCode"
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
             },
-            "IsHoofdactiviteit": {
-              "Code": "N",
-              "Omschrijving": "Nee",
-              "ReferentieType": "geenRT"
-            }
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Hoeksedijk",
+                "huisnummer": "18",
+                "postcode": {
+                  "cijfercombinatie": "3299",
+                  "lettercombinatie": "AG"
+                },
+                "plaats": "Maasdam",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999668990",
+                  "identificatieAdresseerbaarObject": "0074999999622725"
+                }
+              }
+            },
+            "volledigAdres": "Hoeksedijk 18 3299AG Maasdam"
           },
-          {
-            "Registratie": {
-              "DatumAanvang": 19850501,
-              "DatumEinde": 20101231,
-              "RegistratieTijdstipNoValue": null
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20110103084643467",
+              "datumAanvang": "19850501",
+              "datumEinde": "20101231"
             },
-            "SbiCode": {
-              "Code": 4721,
-              "Omschrijving": "Winkels in aardappelen, groenten en fruit",
-              "ReferentieType": "ActiviteitCode"
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
             },
-            "IsHoofdactiviteit": {
-              "Code": "N",
-              "Omschrijving": "Nee",
-              "ReferentieType": "geenRT"
-            }
-          }
-        ],
-        "VoltijdWerkzamePersonen": 1,
-        "DeeltijdWerkzamePersonen": 1,
-        "TotaalWerkzamePersonen": 2,
-        "HandeltOnder": [
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20050101,
-                "DatumEinde": 20101231,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "Global Labannix",
-              "Volgorde": 0
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Hoeksedijk",
+                "huisnummer": "18",
+                "postcode": {
+                  "cijfercombinatie": "3299",
+                  "lettercombinatie": "AG"
+                },
+                "plaats": "Maasdam",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999668990",
+                  "identificatieAdresseerbaarObject": "0074999999622725"
+                }
+              }
             },
-            "RelatieRegistratie": null
-          }
-        ],
-        "WordtUitgeoefendIn": {
-          "RelatieRegistratie": {
-            "DatumAanvang": 20050101,
-            "RegistratieTijdstipNoValue": null
+            "volledigAdres": "Hoeksedijk 18 3299AG Maasdam"
           },
-          "CommercieleVestiging": {
-            "Registratie": {
-              "DatumAanvang": 19850501,
-              "DatumEinde": 20101231,
-              "RegistratieTijdstipNoValue": null
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstip": "20110103084643467",
+              "datumAanvang": "19850501",
+              "datumEinde": "20101231"
             },
-            "Vestigingsnummer": 990000807612,
-            "BezoekLocatie": {
-              "Registratie": {
-                "DatumAanvang": 19850501,
-                "DatumEinde": 20101231,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Afgeschermd": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Adres": {
-                "BinnenlandsAdres": {
-                  "Straatnaam": "Hoeksedijk",
-                  "Huisnummer": 18,
-                  "Postcode": {
-                    "Cijfercombinatie": 3299,
-                    "Lettercombinatie": "AG"
-                  },
-                  "Plaats": "Maasdam",
-                  "BagId": {
-                    "IdentificatieNummeraanduiding": 74999999668990,
-                    "IdentificatieAdresseerbaarObject": 74999999622725
-                  },
-                  "HuisnummerToevoeging": null
+            "communicatienummer": [
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "T",
+                  "omschrijving": "Telefoon"
                 }
               },
-              "VolledigAdres": "Hoeksedijk 18 3299AG Maasdam"
-            },
-            "Communicatiegegevens": {
-              "Registratie": {
-                "DatumAanvang": 19850501,
-                "DatumEinde": 20101231,
-                "RegistratieTijdstipNoValue": null
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "T",
+                  "omschrijving": "Telefoon"
+                }
               },
-              "Communicatienummer": [
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "F",
+                  "omschrijving": "Fax"
+                }
+              }
+            ],
+            "emailAdres": "nepemailadres@kvk.nl",
+            "domeinNaam": "www.kvk.nl"
+          },
+          "naam": "Global Labannix",
+          "manifesteertZichAls": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20110103084643467",
+              "datumAanvang": "20050101",
+              "datumEinde": "20101231"
+            },
+            "onderneming": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19850501",
+                "datumEinde": "20101231"
+              },
+              "kvkNummer": "90005449",
+              "sbiActiviteit": [
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
+                  "registratie": {
+                    "@registratieTijdstip": "20110103084643467",
+                    "datumAanvang": "19850501",
+                    "datumEinde": "20101231"
+                  },
+                  "sbiCode": {
+                    "code": "0150",
+                    "omschrijving": "Akker- en/of tuinbouw in combinatie met het fokken en houden van dieren",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
                   }
                 },
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
+                  "registratie": {
+                    "@registratieTijdstip": "20110103084643467",
+                    "datumAanvang": "19850501",
+                    "datumEinde": "20101231"
+                  },
+                  "sbiCode": {
+                    "code": "5530",
+                    "omschrijving": "Kampeerterreinen",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "N",
+                    "omschrijving": "Nee",
+                    "referentieType": "geenRT"
                   }
                 },
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "F",
-                    "Omschrijving": "Fax"
+                  "registratie": {
+                    "@registratieTijdstip": "20110103084643467",
+                    "datumAanvang": "19850501",
+                    "datumEinde": "20101231"
+                  },
+                  "sbiCode": {
+                    "code": "4721",
+                    "omschrijving": "Winkels in aardappelen, groenten en fruit",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "N",
+                    "omschrijving": "Nee",
+                    "referentieType": "geenRT"
                   }
                 }
               ],
-              "EmailAdres": "nepemailadres@kvk.nl"
-            },
-            "EersteHandelsnaam": "Global Labannix",
-            "VoltijdWerkzamePersonen": 1,
-            "DeeltijdWerkzamePersonen": 1,
-            "TotaalWerkzamePersonen": 2,
-            "Activiteiten": {
-              "Omschrijving": "Land- en tuinbouwbedrijf, fruitkwekersbedrijf, detailhandel in aardappelen, groenten, fruit en streekproducten. Minicamping",
-              "SbiActiviteit": {
-                "Registratie": {
-                  "DatumAanvang": 19850501,
-                  "DatumEinde": 20101231,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "SbiCode": {
-                  "Code": 5530,
-                  "Omschrijving": "Kampeerterreinen",
-                  "ReferentieType": "ActiviteitCode"
-                },
-                "IsHoofdactiviteit": {
-                  "Code": "N",
-                  "Omschrijving": "Nee",
-                  "ReferentieType": "geenRT"
+              "voltijdWerkzamePersonen": "1",
+              "deeltijdWerkzamePersonen": "1",
+              "totaalWerkzamePersonen": "2",
+              "handeltOnder": {
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20050101",
+                    "datumEinde": "20101231"
+                  },
+                  "naam": "Global Labannix",
+                  "volgorde": "0"
                 }
               },
-              "Exporteert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Importeert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              }
-            },
-            "HandeltOnder": {
-              "Handelsnaam": {
-                "Registratie": {
-                  "DatumAanvang": 20050101,
-                  "DatumEinde": 20101231,
-                  "RegistratieTijdstipNoValue": null
+              "wordtUitgeoefendIn": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20110103084643467",
+                  "datumAanvang": "20050101",
+                  "datumEinde": "20101231"
                 },
-                "Naam": "Global Labannix",
-                "Volgorde": 0
-              },
-              "RelatieRegistratie": {
-                "DatumAanvang": 20050101,
-                "RegistratieTijdstipNoValue": null
-              }
-            }
-          }
-        }
-      }
-    },
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": {
-        "Registratie": {
-          "DatumAanvang": 19850501,
-          "DatumEinde": 20101231,
-          "RegistratieTijdstipNoValue": null
-        },
-        "Vestigingsnummer": 990000807612,
-        "BezoekLocatie": {
-          "Registratie": {
-            "DatumAanvang": 19850501,
-            "DatumEinde": 20101231,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Afgeschermd": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Adres": {
-            "BinnenlandsAdres": {
-              "Straatnaam": "Hoeksedijk",
-              "Huisnummer": 18,
-              "Postcode": {
-                "Cijfercombinatie": 3299,
-                "Lettercombinatie": "AG"
-              },
-              "Plaats": "Maasdam",
-              "BagId": {
-                "IdentificatieNummeraanduiding": 74999999668990,
-                "IdentificatieAdresseerbaarObject": 74999999622725
-              },
-              "HuisnummerToevoeging": null
-            }
-          },
-          "VolledigAdres": "Hoeksedijk 18 3299AG Maasdam"
-        },
-        "Communicatiegegevens": {
-          "Registratie": {
-            "DatumAanvang": 19850501,
-            "DatumEinde": 20101231,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Communicatienummer": [
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            },
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            },
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "F",
-                "Omschrijving": "Fax"
-              }
-            }
-          ],
-          "EmailAdres": "nepemailadres@kvk.nl"
-        },
-        "EersteHandelsnaam": "Global Labannix",
-        "VoltijdWerkzamePersonen": 1,
-        "DeeltijdWerkzamePersonen": 1,
-        "TotaalWerkzamePersonen": 2,
-        "Activiteiten": {
-          "Omschrijving": "Land- en tuinbouwbedrijf, fruitkwekersbedrijf, detailhandel in aardappelen, groenten, fruit en streekproducten. Minicamping",
-          "SbiActiviteit": {
-            "Registratie": {
-              "DatumAanvang": 19850501,
-              "DatumEinde": 20101231,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 5530,
-              "Omschrijving": "Kampeerterreinen",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "N",
-              "Omschrijving": "Nee",
-              "ReferentieType": "geenRT"
-            }
-          },
-          "Exporteert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Importeert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          }
-        },
-        "HandeltOnder": {
-          "Handelsnaam": {
-            "Registratie": {
-              "DatumAanvang": 20050101,
-              "DatumEinde": 20101231,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Naam": "Global Labannix",
-            "Volgorde": 0
-          },
-          "RelatieRegistratie": {
-            "DatumAanvang": 20050101,
-            "RegistratieTijdstipNoValue": null
-          }
-        }
-      }
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20050101,
-        "RegistratieTijdstipNoValue": null
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": {
-        "Registratie": {
-          "DatumAanvang": 20050101,
-          "DatumEinde": 20101231,
-          "RegistratieTijdstipNoValue": null
-        },
-        "BijzondereRechtstoestand": null,
-        "PersoonRechtsvorm": "Commanditaire Vennootschap",
-        "VolledigeNaam": "Jan Klaasen",
-        "UitgebreideRechtsvorm": "Commanditaire Vennootschap",
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": {
-              "Registratie": {
-                "DatumAanvang": 20050101,
-                "DatumEinde": 20101231,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "voorvoegsel"
+                "commercieleVestiging": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19850501",
+                    "datumEinde": "20101231"
+                  },
+                  "vestigingsnummer": "990000807612",
+                  "bezoekLocatie": {
+                    "registratie": {
+                      "@registratieTijdstip": "20110103084643467",
+                      "datumAanvang": "19850501",
+                      "datumEinde": "20101231"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "straatnaam": "Hoeksedijk",
+                        "huisnummer": "18",
+                        "postcode": {
+                          "cijfercombinatie": "3299",
+                          "lettercombinatie": "AG"
+                        },
+                        "plaats": "Maasdam",
+                        "bagId": {
+                          "identificatieNummeraanduiding": "0074999999668990",
+                          "identificatieAdresseerbaarObject": "0074999999622725"
+                        }
+                      }
+                    },
+                    "volledigAdres": "Hoeksedijk 18 3299AG Maasdam"
+                  },
+                  "communicatiegegevens": {
+                    "registratie": {
+                      "@registratieTijdstip": "20110103084643467",
+                      "datumAanvang": "19850501",
+                      "datumEinde": "20101231"
+                    },
+                    "communicatienummer": [
+                      {
+                        "toegangscode": "+31",
+                        "nummer": "0209999999",
+                        "soort": {
+                          "code": "T",
+                          "omschrijving": "Telefoon"
+                        }
+                      },
+                      {
+                        "toegangscode": "+31",
+                        "nummer": "0209999999",
+                        "soort": {
+                          "code": "T",
+                          "omschrijving": "Telefoon"
+                        }
+                      },
+                      {
+                        "toegangscode": "+31",
+                        "nummer": "0209999999",
+                        "soort": {
+                          "code": "F",
+                          "omschrijving": "Fax"
+                        }
+                      }
+                    ],
+                    "emailAdres": "nepemailadres@kvk.nl",
+                    "domeinNaam": "www.kvk.nl"
+                  },
+                  "eersteHandelsnaam": "Global Labannix",
+                  "voltijdWerkzamePersonen": "1",
+                  "deeltijdWerkzamePersonen": "1",
+                  "totaalWerkzamePersonen": "2",
+                  "activiteiten": {
+                    "omschrijving": "Land- en tuinbouwbedrijf, fruitkwekersbedrijf, detailhandel in aardappelen, groenten, fruit en streekproducten. Minicamping",
+                    "sbiActiviteit": [
+                      {
+                        "registratie": {
+                          "@registratieTijdstip": "20110103084643467",
+                          "datumAanvang": "19850501",
+                          "datumEinde": "20101231"
+                        },
+                        "sbiCode": {
+                          "code": "5530",
+                          "omschrijving": "Kampeerterreinen",
+                          "referentieType": "ActiviteitCode"
+                        },
+                        "isHoofdactiviteit": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        }
+                      },
+                      {
+                        "registratie": {
+                          "@registratieTijdstip": "20110103084643467",
+                          "datumAanvang": "19850501",
+                          "datumEinde": "20101231"
+                        },
+                        "sbiCode": {
+                          "code": "4721",
+                          "omschrijving": "Winkels in aardappelen, groenten en fruit",
+                          "referentieType": "ActiviteitCode"
+                        },
+                        "isHoofdactiviteit": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        }
+                      },
+                      {
+                        "registratie": {
+                          "@registratieTijdstip": "20110103084643467",
+                          "datumAanvang": "19850501",
+                          "datumEinde": "20101231"
+                        },
+                        "sbiCode": {
+                          "code": "0150",
+                          "omschrijving": "Akker- en/of tuinbouw in combinatie met het fokken en houden van dieren",
+                          "referentieType": "ActiviteitCode"
+                        },
+                        "isHoofdactiviteit": {
+                          "code": "J",
+                          "omschrijving": "Ja",
+                          "referentieType": "geenRT"
+                        }
+                      }
+                    ],
+                    "exporteert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "importeert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
                     }
                   },
-                  "Registratie": {
-                    "DatumAanvang": 19470212,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
+                  "handeltOnder": {
+                    "relatieRegistratie": {
+                      "@registratieTijdstip": "20110103084643467",
+                      "datumAanvang": "20050101",
+                      "datumEinde": "20101231"
+                    },
+                    "handelsnaam": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20050101",
+                        "datumEinde": "20101231"
+                      },
+                      "naam": "Global Labannix",
+                      "volgorde": "0"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "wordtGeleidVanuit": {
+            "commercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19850501",
+                "datumEinde": "20101231"
+              },
+              "vestigingsnummer": "990000807612",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20110103084643467",
+                  "datumAanvang": "19850501",
+                  "datumEinde": "20101231"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Hoeksedijk",
+                    "huisnummer": "18",
+                    "postcode": {
+                      "cijfercombinatie": "3299",
+                      "lettercombinatie": "AG"
+                    },
+                    "plaats": "Maasdam",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999668990",
+                      "identificatieAdresseerbaarObject": "0074999999622725"
+                    }
+                  }
+                },
+                "volledigAdres": "Hoeksedijk 18 3299AG Maasdam"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstip": "20110103084643467",
+                  "datumAanvang": "19850501",
+                  "datumEinde": "20101231"
+                },
+                "communicatienummer": [
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "T",
+                      "omschrijving": "Telefoon"
+                    }
                   },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "T",
+                      "omschrijving": "Telefoon"
+                    }
+                  },
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "F",
+                      "omschrijving": "Fax"
+                    }
+                  }
+                ],
+                "emailAdres": "nepemailadres@kvk.nl",
+                "domeinNaam": "www.kvk.nl"
               },
-              "Functie": {
-                "Code": "13",
-                "Omschrijving": "Vennoot",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Bevoegdheid": {
-                "Registratie": {
-                  "DatumAanvang": 20050101,
-                  "DatumEinde": 20101231,
-                  "RegistratieTijdstipNoValue": null
+              "eersteHandelsnaam": "Global Labannix",
+              "voltijdWerkzamePersonen": "1",
+              "deeltijdWerkzamePersonen": "1",
+              "totaalWerkzamePersonen": "2",
+              "activiteiten": {
+                "omschrijving": "Land- en tuinbouwbedrijf, fruitkwekersbedrijf, detailhandel in aardappelen, groenten, fruit en streekproducten. Minicamping",
+                "sbiActiviteit": [
+                  {
+                    "registratie": {
+                      "@registratieTijdstip": "20110103084643467",
+                      "datumAanvang": "19850501",
+                      "datumEinde": "20101231"
+                    },
+                    "sbiCode": {
+                      "code": "5530",
+                      "omschrijving": "Kampeerterreinen",
+                      "referentieType": "ActiviteitCode"
+                    },
+                    "isHoofdactiviteit": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  {
+                    "registratie": {
+                      "@registratieTijdstip": "20110103084643467",
+                      "datumAanvang": "19850501",
+                      "datumEinde": "20101231"
+                    },
+                    "sbiCode": {
+                      "code": "4721",
+                      "omschrijving": "Winkels in aardappelen, groenten en fruit",
+                      "referentieType": "ActiviteitCode"
+                    },
+                    "isHoofdactiviteit": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  {
+                    "registratie": {
+                      "@registratieTijdstip": "20110103084643467",
+                      "datumAanvang": "19850501",
+                      "datumEinde": "20101231"
+                    },
+                    "sbiCode": {
+                      "code": "0150",
+                      "omschrijving": "Akker- en/of tuinbouw in combinatie met het fokken en houden van dieren",
+                      "referentieType": "ActiviteitCode"
+                    },
+                    "isHoofdactiviteit": {
+                      "code": "J",
+                      "omschrijving": "Ja",
+                      "referentieType": "geenRT"
+                    }
+                  }
+                ],
+                "exporteert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
                 },
-                "Soort": {
-                  "Code": "ob",
-                  "Omschrijving": "Onbeperkt bevoegd"
-                },
-                "OverigeBeperking": {
-                  "Code": "N",
-                  "Omschrijving": "Nee",
-                  "ReferentieType": "geenRT"
+                "importeert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
                 }
               },
-              "Functietitel": null
+              "handeltOnder": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20110103084643467",
+                  "datumAanvang": "20050101",
+                  "datumEinde": "20101231"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20050101",
+                    "datumEinde": "20101231"
+                  },
+                  "naam": "Global Labannix",
+                  "volgorde": "0"
+                }
+              }
+            }
+          },
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20110103084643467",
+              "datumAanvang": "20050101",
+              "datumEinde": "20101231"
             },
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          }
-        ],
-        "Rsin": 992582003,
-        "Naamgeving": {
-          "Registratie": {
-            "DatumAanvang": 20050101,
-            "DatumEinde": 20101231,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Naam": "Global Labannix"
-        },
-        "Ontbinding": {
-          "Registratie": {
-            "DatumAanvang": 20101231,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "aanleiding": null
-        },
-        "Rechtsvorm": {
-          "Code": "CV",
-          "Omschrijving": "Commanditaire Vennootschap",
-          "ReferentieType": "Rechtsvorm"
-        },
-        "Duur": {
-          "Registratie": {
-            "DatumAanvang": 20050101,
-            "DatumEinde": 20101231,
-            "RegistratieTijdstipNoValue": null
-          },
-          "HeeftOnbepaaldeDuur": {
-            "Code": "J",
-            "Omschrijving": "Ja",
-            "ReferentieType": "geenRT"
+            "samenwerkingsverband": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20050101",
+                "datumEinde": "20101231"
+              },
+              "persoonRechtsvorm": "Commanditaire Vennootschap",
+              "volledigeNaam": "Global Labannix",
+              "uitgebreideRechtsvorm": "Commanditaire Vennootschap",
+              "heeft": {
+                "aansprakelijke": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20050101",
+                    "datumEinde": "20101231"
+                  },
+                  "door": {
+                    "natuurlijkPersoon": {
+                      "extraElementen": {
+                        "extraElement": [
+                          {
+                            "@naam": "voorvoegsel",
+                            "#text": "van de"
+                          },
+                          {
+                            "@naam": "achternaam",
+                            "#text": "Lohr"
+                          }
+                        ]
+                      },
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19470212"
+                      },
+                      "volledigeNaam": "Eduardo Lohr",
+                      "geslachtsnaam": "Lohr",
+                      "voorvoegselGeslachtsnaam": "van de",
+                      "voornamen": "Eduardo",
+                      "geboortedatum": "19470212"
+                    }
+                  },
+                  "functie": {
+                    "code": "13",
+                    "omschrijving": "Vennoot",
+                    "referentieType": "FunctionarisRol"
+                  },
+                  "bevoegdheid": {
+                    "registratie": {
+                      "@registratieTijdstip": "20110103084643467",
+                      "datumAanvang": "20050101",
+                      "datumEinde": "20101231"
+                    },
+                    "soort": {
+                      "code": "ob",
+                      "omschrijving": "Onbeperkt bevoegd",
+                      "referentieType": "SoortBevoegdheidAansprakelijkeBijSamenwerkingsverband"
+                    },
+                    "overigeBeperking": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  }
+                }
+              },
+              "rsin": "992582003",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstip": "20110103084643467",
+                  "datumAanvang": "20050101",
+                  "datumEinde": "20101231"
+                },
+                "naam": "Global Labannix"
+              },
+              "ontbinding": {
+                "registratie": {
+                  "@registratieTijdstip": "20110103084643467",
+                  "datumAanvang": "20101231"
+                }
+              },
+              "rechtsvorm": {
+                "code": "CV",
+                "omschrijving": "Commanditaire Vennootschap",
+                "referentieType": "Rechtsvorm"
+              },
+              "aantalCommanditaireVennoten": "2",
+              "duur": {
+                "registratie": {
+                  "@registratieTijdstip": "20110103084643467",
+                  "datumAanvang": "20050101",
+                  "datumEinde": "20101231"
+                },
+                "heeftOnbepaaldeDuur": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
+                }
+              },
+              "commanditairKapitaal": {
+                "registratie": {
+                  "@registratieTijdstip": "20110103084643467",
+                  "datumAanvang": "20050101",
+                  "datumEinde": "20101231"
+                },
+                "bedrag": {
+                  "waarde": "168000",
+                  "valuta": {
+                    "code": "EUR",
+                    "omschrijving": "Euro",
+                    "referentieType": "Valuta"
+                  }
+                },
+                "soort": {
+                  "code": "geld",
+                  "omschrijving": "Geld",
+                  "referentieType": "SoortCommanditairKapitaal"
+                }
+              }
+            }
           }
         }
-      },
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": null
+      }
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

@@ -1,198 +1,382 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 20060704,
-      "DatumEinde": 20141030,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90002687,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20060704,
-        "DatumEinde": 20141030,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Boslaan",
-          "Huisnummer": 59,
-          "Postcode": {
-            "Cijfercombinatie": 8253,
-            "Lettercombinatie": "AH"
-          },
-          "Plaats": "Dronten",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999880791,
-            "IdentificatieAdresseerbaarObject": 74999999699953
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-274e183dbb40ffe97c47c82bfa3c86ba",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90002687"
         }
       },
-      "VolledigAdres": "Boslaan 59 8253AH Dronten"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20060704,
-        "DatumEinde": 20141030,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Boslaan",
-          "Huisnummer": 59,
-          "Postcode": {
-            "Cijfercombinatie": 8253,
-            "Lettercombinatie": "AH"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "20060704",
+            "datumEinde": "20141030"
           },
-          "Plaats": "Dronten",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999880791,
-            "IdentificatieAdresseerbaarObject": 74999999699953
+          "kvkNummer": "90002687",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Boslaan 59 8253AH Dronten"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 20060704,
-        "DatumEinde": 20141030,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        },
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "F",
-            "Omschrijving": "Fax"
-          }
-        }
-      ],
-      "EmailAdres": "nepemailadres@kvk.nl"
-    },
-    "Naam": "Stichting International Gogostrip",
-    "ManifesteertZichAls": null,
-    "WordtGeleidVanuit": null,
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20060704,
-        "RegistratieTijdstipNoValue": null
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": {
-        "VoornemenTotOntbinding": null,
-        "ActiviteitenGestaaktPer": null,
-        "Rechtsvorm": {
-          "Code": "ST",
-          "Omschrijving": "Stichting"
-        },
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19640603,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
+          "sbiActiviteit": {
+            "registratie": {
+              "@registratieTijdstip": "20141103101618152",
+              "datumAanvang": "20060704",
+              "datumEinde": "20141030"
+            },
+            "sbiCode": {
+              "code": "66191",
+              "omschrijving": "Administratiekantoren voor aandelen en obligaties",
+              "referentieType": "ActiviteitCode"
+            },
+            "isHoofdactiviteit": {
+              "code": "J",
+              "omschrijving": "Ja",
+              "referentieType": "geenRT"
+            }
+          },
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
+          },
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20141103101618152",
+              "datumAanvang": "20060704",
+              "datumEinde": "20141030"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Boslaan",
+                "huisnummer": "59",
+                "postcode": {
+                  "cijfercombinatie": "8253",
+                  "lettercombinatie": "AH"
                 },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "azb",
-                  "Omschrijving": "Alleen/zelfstandig bevoegd"
+                "plaats": "Dronten",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999880791",
+                  "identificatieAdresseerbaarObject": "0074999999699953"
+                }
+              }
+            },
+            "volledigAdres": "Boslaan 59 8253AH Dronten"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20141103101618152",
+              "datumAanvang": "20060704",
+              "datumEinde": "20141030"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Boslaan",
+                "huisnummer": "59",
+                "postcode": {
+                  "cijfercombinatie": "8253",
+                  "lettercombinatie": "AH"
+                },
+                "plaats": "Dronten",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999880791",
+                  "identificatieAdresseerbaarObject": "0074999999699953"
+                }
+              }
+            },
+            "volledigAdres": "Boslaan 59 8253AH Dronten"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstip": "20141103101618152",
+              "datumAanvang": "20060704",
+              "datumEinde": "20141030"
+            },
+            "communicatienummer": [
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "T",
+                  "omschrijving": "Telefoon"
                 }
               },
-              "Functietitel": null
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "F",
+                  "omschrijving": "Fax"
+                }
+              }
+            ],
+            "emailAdres": "nepemailadres@kvk.nl"
           },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": {
-              "Functie": {
-                "Code": "10",
-                "Omschrijving": "Bewaarder boeken en bescheiden",
-                "ReferentieType": "FunctionarisRol"
+          "naam": "Stichting International Gogostrip",
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20141103101618152",
+              "datumAanvang": "20060704",
+              "datumEinde": "20141030"
+            },
+            "rechtspersoon": {
+              "extraElementen": {
+                "extraElement": [
+                  {
+                    "@naam": "datumAanvangStatuten",
+                    "#text": "20131228"
+                  },
+                  {
+                    "@naam": "datumAkteStatuten",
+                    "#text": "20131228"
+                  }
+                ]
               },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20060704",
+                "datumEinde": "20141030"
+              },
+              "persoonRechtsvorm": "Stichting",
+              "volledigeNaam": "Stichting International Gogostrip",
+              "uitgebreideRechtsvorm": "Stichting",
+              "heeft": [
+                {
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20060704",
+                      "datumEinde": "20141030"
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Winkleman"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19640603"
+                        },
+                        "volledigeNaam": "Wei Winkleman",
+                        "geslachtsnaam": "Winkleman",
+                        "voornamen": "Wei",
+                        "geboortedatum": "19640603"
+                      }
+                    },
+                    "functie": {
+                      "code": "02",
+                      "omschrijving": "Bestuurder",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstip": "20141103101618152",
+                        "datumAanvang": "20060704",
+                        "datumEinde": "20141030"
+                      },
+                      "soort": {
+                        "code": "azb",
+                        "omschrijving": "Alleen/zelfstandig bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                },
+                {
+                  "overigeFunctionaris": {
+                    "registratie": {
+                      "@registratieTijdstip": "20141103101618152",
+                      "datumAanvang": "20141030"
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Winkleman"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19640603"
+                        },
+                        "volledigeNaam": "Wei Winkleman",
+                        "bezoekLocatiePersoon": {
+                          "registratie": {
+                            "@registratieTijdstipNoValue": "vastgesteldOnbekend"
+                          },
+                          "afgeschermd": {
+                            "code": "N",
+                            "omschrijving": "Nee",
+                            "referentieType": "geenRT"
+                          },
+                          "adres": {
+                            "binnenlandsAdres": {
+                              "straatnaam": "Giervalk",
+                              "huisnummer": "38",
+                              "postcode": {
+                                "cijfercombinatie": "7827",
+                                "lettercombinatie": "HX"
+                              },
+                              "plaats": "Emmen",
+                              "bagId": {
+                                "identificatieNummeraanduiding": "0074999999799648",
+                                "identificatieAdresseerbaarObject": "0074999999334745"
+                              }
+                            }
+                          },
+                          "volledigAdres": "Boslaan 59 8253AH Dronten"
+                        },
+                        "geslachtsnaam": "Klaasen",
+"voornamen": "Jan",
+"geboortedatum": "20000101"
+                      }
+                    },
+                    "functie": {
+                      "code": "10",
+                      "omschrijving": "Bewaarder boeken en bescheiden",
+                      "referentieType": "FunctionarisRol"
+                    }
+                  }
+                }
+              ],
+              "rsin": "992771596",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstip": "20141103101618152",
+                  "datumAanvang": "20060704",
+                  "datumEinde": "20141030"
+                },
+                "naam": "Stichting International Gogostrip"
+              },
+              "ontbinding": {
+                "registratie": {
+                  "@registratieTijdstip": "20141103101618152",
+                  "datumAanvang": "20141030"
+                },
+                "aanleiding": {
+                  "code": "OB",
+                  "omschrijving": "Ontbindingsbesluit",
+                  "referentieType": "AanleidingOntbinding"
+                }
+              },
+              "rechtsvorm": {
+                "code": "ST",
+                "omschrijving": "Stichting",
+                "referentieType": "Rechtsvorm"
+              },
+              "statutaireZetel": "Nepplaats",
+              "aanvangStatutaireZetel": "20060704",
+              "datumAkteOprichting": "20060704",
+              "datumEersteInschrijvingHandelsregister": "20060706",
+              "datumAkteStatutenwijziging": "20131228",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20141103101618152",
+                  "datumAanvang": "20060704",
+                  "datumEinde": "20141030"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Giervalk",
+                    "huisnummer": "38",
+                    "postcode": {
+                      "cijfercombinatie": "7827",
+                      "lettercombinatie": "HX"
+                    },
+                    "plaats": "Emmen",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999799648",
+                      "identificatieAdresseerbaarObject": "0074999999334745"
+                    }
+                  }
+                },
+                "volledigAdres": "Giervalk 38 7827HX Emmen"
+              },
+              "activiteiten": {
+                "omschrijving": "Het bevorderen van de bloei en continuïteit van A.H.C. Beheer B.V.",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstip": "20141103101618152",
+                    "datumAanvang": "20060704",
+                    "datumEinde": "20141030"
+                  },
+                  "sbiCode": {
+                    "code": "66191",
+                    "omschrijving": "Administratiekantoren voor aandelen en obligaties",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                }
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstip": "20141103101618152",
+                  "datumAanvang": "20060704",
+                  "datumEinde": "20141030"
+                },
+                "communicatienummer": [
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "T",
+                      "omschrijving": "Telefoon"
                     }
                   },
-                  "Registratie": {
-                    "DatumAanvang": 19640603,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": null,
-              "Functietitel": null
-            },
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "F",
+                      "omschrijving": "Fax"
+                    }
+                  }
+                ],
+                "emailAdres": "nepemailadres@kvk.nl"
+              }
+            }
           }
-        ],
-        "VolledigeNaam": "Jan Klaasen",
-        "Rsin": "992771596"
+        }
       }
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

@@ -10,9 +10,9 @@ import (
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
-	kvkBevoegdheden "github.com/kvk-innovatie/kvk-bevoegdheden"
-	"github.com/kvk-innovatie/kvk-bevoegdheden/models"
 	"github.com/unrolled/render"
+	kvkBevoegdheden "gitlab.com/signicat/orange-stack/ciam/kvk-issuer/kvk-extract"
+	"gitlab.com/signicat/orange-stack/ciam/kvk-issuer/kvk-extract/models"
 )
 
 func main() {
@@ -46,7 +46,7 @@ func main() {
 		identityNP := models.IdentityNP{}
 		json.NewDecoder(r.Body).Decode(&identityNP)
 
-		bevoegdheidResponse, err := kvkBevoegdheden.GetBevoegdheid(kvkNummer, identityNP, os.Getenv("CERTIFICATE_KVK"), os.Getenv("PRIVATE_KEY_KVK"), true, "preprd")
+		bevoegdheidResponse, err := kvkBevoegdheden.GetBevoegdheid(kvkNummer, identityNP, os.Getenv("KVKDATASERVICE_CLIENTID"), os.Getenv("KVKDATASERVICE_CLIENTSECRET"), os.Getenv("KVKDATASERVICE_AUTHSERVER_URL"), true, "preprd")
 
 		if err == kvkBevoegdheden.ErrInschrijvingNotFound {
 			rend.JSON(w, http.StatusNotFound, err)

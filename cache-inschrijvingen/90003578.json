@@ -1,153 +1,299 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 20120628,
-      "DatumEinde": 0,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90003578,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20140124,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Lange Nieuwstraat",
-          "Huisnummer": 29,
-          "Postcode": {
-            "Cijfercombinatie": 4587,
-            "Lettercombinatie": "RH"
-          },
-          "Plaats": "Kloosterzande",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999788641,
-            "IdentificatieAdresseerbaarObject": 74999999294265
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-c98542dc9da6c6d959a1b845a614b5b7",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90003578"
         }
       },
-      "VolledigAdres": "Lange Nieuwstraat 29 4587RH Kloosterzande"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20140124,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Lange Nieuwstraat",
-          "Huisnummer": 29,
-          "Postcode": {
-            "Cijfercombinatie": 4587,
-            "Lettercombinatie": "RH"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstip": "20120628114234626",
+            "datumAanvang": "20120628"
           },
-          "Plaats": "Kloosterzande",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999788641,
-            "IdentificatieAdresseerbaarObject": 74999999294265
+          "kvkNummer": "90003578",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Lange Nieuwstraat 29 4587RH Kloosterzande"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 20120628,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        }
-      ],
-      "EmailAdres": "nepemailadres@kvk.nl"
-    },
-    "Naam": "Global Meding",
-    "ManifesteertZichAls": null,
-    "WordtGeleidVanuit": null,
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20120628,
-        "RegistratieTijdstipNoValue": null
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": {
-        "VoornemenTotOntbinding": null,
-        "ActiviteitenGestaaktPer": null,
-        "Rechtsvorm": {
-          "Code": "ST",
-          "Omschrijving": "Stichting"
-        },
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "voorvoegsel"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19551125,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
+          "sbiActiviteit": {
+            "registratie": {
+              "@registratieTijdstip": "20120628114234626",
+              "datumAanvang": "20120628"
+            },
+            "sbiCode": {
+              "code": "6420",
+              "omschrijving": "Financiële holdings",
+              "referentieType": "ActiviteitCode"
+            },
+            "isHoofdactiviteit": {
+              "code": "J",
+              "omschrijving": "Ja",
+              "referentieType": "geenRT"
+            }
+          },
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
+          },
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20140127142211017",
+              "datumAanvang": "20140124"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Lange Nieuwstraat",
+                "huisnummer": "29",
+                "postcode": {
+                  "cijfercombinatie": "4587",
+                  "lettercombinatie": "RH"
                 },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "azb",
-                  "Omschrijving": "Alleen/zelfstandig bevoegd"
+                "plaats": "Kloosterzande",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999788641",
+                  "identificatieAdresseerbaarObject": "0074999999294265"
                 }
-              },
-              "Functietitel": {
-                "Titel": "Voorzitter, Secretaris, Penningmeester"
               }
             },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
+            "volledigAdres": "Lange Nieuwstraat 29 4587RH Kloosterzande"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20140127142211017",
+              "datumAanvang": "20140124"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Lange Nieuwstraat",
+                "huisnummer": "29",
+                "postcode": {
+                  "cijfercombinatie": "4587",
+                  "lettercombinatie": "RH"
+                },
+                "plaats": "Kloosterzande",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999788641",
+                  "identificatieAdresseerbaarObject": "0074999999294265"
+                }
+              }
+            },
+            "volledigAdres": "Lange Nieuwstraat 29 4587RH Kloosterzande"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstip": "20120628114234626",
+              "datumAanvang": "20120628"
+            },
+            "communicatienummer": {
+              "toegangscode": "+31",
+              "nummer": "0209999999",
+              "soort": {
+                "code": "T",
+                "omschrijving": "Telefoon"
+              }
+            },
+            "emailAdres": "nepemailadres@kvk.nl"
+          },
+          "naam": "Global Meding",
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20120628114234626",
+              "datumAanvang": "20120628"
+            },
+            "rechtspersoon": {
+              "extraElementen": {
+                "extraElement": [
+                  {
+                    "@naam": "datumAanvangStatuten",
+                    "#text": "20120628"
+                  },
+                  {
+                    "@naam": "datumAkteStatuten",
+                    "#text": "20120628"
+                  }
+                ]
+              },
+              "registratie": {
+                "@registratieTijdstip": "20120628114234626",
+                "datumAanvang": "20120628"
+              },
+              "persoonRechtsvorm": "Stichting",
+              "volledigeNaam": "Stichting Global Meding",
+              "uitgebreideRechtsvorm": "Stichting",
+              "heeft": {
+                "bestuursfunctie": {
+                  "registratie": {
+                    "@registratieTijdstip": "20120628114234626",
+                    "datumAanvang": "20120628"
+                  },
+                  "functietitel": {
+                    "registratie": {
+                      "@registratieTijdstip": "20120628114234626",
+                      "datumAanvang": "20120628"
+                    },
+                    "titel": "Voorzitter, Secretaris, Penningmeester",
+                    "isStatutaireTitel": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  "door": {
+                    "natuurlijkPersoon": {
+                      "extraElementen": {
+                        "extraElement": [
+                          {
+                            "@naam": "voorvoegsel",
+                            "#text": "van"
+                          },
+                          {
+                            "@naam": "achternaam",
+                            "#text": "Barge"
+                          }
+                        ]
+                      },
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19551125"
+                      },
+                      "volledigeNaam": "Cornell Barge",
+                      "geslachtsnaam": "Barge",
+                      "voorvoegselGeslachtsnaam": "van",
+                      "voornamen": "Cornell",
+                      "geboortedatum": "19551125"
+                    }
+                  },
+                  "functie": {
+                    "code": "02",
+                    "omschrijving": "Bestuurder",
+                    "referentieType": "FunctionarisRol"
+                  },
+                  "bevoegdheid": {
+                    "registratie": {
+                      "@registratieTijdstip": "20120628114234626",
+                      "datumAanvang": "20120628"
+                    },
+                    "soort": {
+                      "code": "azb",
+                      "omschrijving": "Alleen/zelfstandig bevoegd",
+                      "referentieType": "SoortBevoegdheidBestuurder"
+                    },
+                    "isBevoegdMetAnderePersonen": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  }
+                }
+              },
+              "rsin": "992952608",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstip": "20120628114234626",
+                  "datumAanvang": "20120628"
+                },
+                "naam": "Stichting Global Meding"
+              },
+              "rechtsvorm": {
+                "code": "ST",
+                "omschrijving": "Stichting",
+                "referentieType": "Rechtsvorm"
+              },
+              "statutaireZetel": "Nepplaats",
+              "aanvangStatutaireZetel": "20120628",
+              "datumAkteOprichting": "20120628",
+              "datumOprichting": "20120628",
+              "datumEersteInschrijvingHandelsregister": "20120628",
+              "datumAkteStatutenwijziging": "20120628",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20140127142211017",
+                  "datumAanvang": "20140124"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Lange Nieuwstraat",
+                    "huisnummer": "29",
+                    "postcode": {
+                      "cijfercombinatie": "4587",
+                      "lettercombinatie": "RH"
+                    },
+                    "plaats": "Kloosterzande",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999788641",
+                      "identificatieAdresseerbaarObject": "0074999999294265"
+                    }
+                  }
+                },
+                "volledigAdres": "Lange Nieuwstraat 29 4587RH Kloosterzande"
+              },
+              "activiteiten": {
+                "omschrijving": "Het verwerven en administreren van aandelen.",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstip": "20120628114234626",
+                    "datumAanvang": "20120628"
+                  },
+                  "sbiCode": {
+                    "code": "6420",
+                    "omschrijving": "Financiële holdings",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                }
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstip": "20120628114234626",
+                  "datumAanvang": "20120628"
+                },
+                "communicatienummer": {
+                  "toegangscode": "+31",
+                  "nummer": "0209999999",
+                  "soort": {
+                    "code": "T",
+                    "omschrijving": "Telefoon"
+                  }
+                },
+                "emailAdres": "nepemailadres@kvk.nl"
+              }
+            }
           }
-        ],
-        "VolledigeNaam": "Jan Klaasen",
-        "Rsin": "992952608"
+        }
       }
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

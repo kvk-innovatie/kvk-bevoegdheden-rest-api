@@ -1,615 +1,614 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 20060401,
-      "DatumEinde": 20110617,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90002695,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20100701,
-        "DatumEinde": 20110617,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Hysopveld",
-          "Huisnummer": 10,
-          "Postcode": {
-            "Cijfercombinatie": 5467,
-            "Lettercombinatie": "KJ"
-          },
-          "Plaats": "Veghel",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999598608,
-            "IdentificatieAdresseerbaarObject": 74999999991661
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-4a3b0afbd7f4acdd45eb5fbe976d0820",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90002695"
         }
       },
-      "VolledigAdres": "Hysopveld 10 5467KJ Veghel"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20110913,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": null,
-          "Huisnummer": 0,
-          "Postcode": {
-            "Cijfercombinatie": 3513,
-            "Lettercombinatie": "XE"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "20060401",
+            "datumEinde": "20110617"
           },
-          "Plaats": "Utrecht",
-          "BagId": null,
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Postbus 99999 3513XE Utrecht"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 20100701,
-        "DatumEinde": 20110617,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        }
-      ],
-      "EmailAdres": "nepemailadres@kvk.nl"
-    },
-    "Naam": "Global Indicone",
-    "ManifesteertZichAls": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20060401,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Onderneming": {
-        "Registratie": {
-          "DatumAanvang": 20060401,
-          "DatumEinde": 20110617,
-          "RegistratieTijdstipNoValue": null
-        },
-        "KvkNummer": 90002695,
-        "SbiActiviteit": [
-          {
-            "Registratie": {
-              "DatumAanvang": 20060401,
-              "DatumEinde": 20110617,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 5630,
-              "Omschrijving": "Caf\u00E9s",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          }
-        ],
-        "VoltijdWerkzamePersonen": 2,
-        "DeeltijdWerkzamePersonen": 1,
-        "TotaalWerkzamePersonen": 3,
-        "HandeltOnder": [
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20100701,
-                "DatumEinde": 20110617,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "Global Indicone",
-              "Volgorde": 0
-            },
-            "RelatieRegistratie": null
-          }
-        ],
-        "WordtUitgeoefendIn": {
-          "RelatieRegistratie": {
-            "DatumAanvang": 20060401,
-            "RegistratieTijdstipNoValue": null
+          "kvkNummer": "90002695",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "CommercieleVestiging": {
-            "Registratie": {
-              "DatumAanvang": 20060401,
-              "DatumEinde": 20110617,
-              "RegistratieTijdstipNoValue": null
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
+          },
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20110809144250468",
+              "datumAanvang": "20100701",
+              "datumEinde": "20110617"
             },
-            "Vestigingsnummer": 990000568396,
-            "BezoekLocatie": {
-              "Registratie": {
-                "DatumAanvang": 20100701,
-                "DatumEinde": 20110617,
-                "RegistratieTijdstipNoValue": null
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Hysopveld",
+                "huisnummer": "10",
+                "postcode": {
+                  "cijfercombinatie": "5467",
+                  "lettercombinatie": "KJ"
+                },
+                "plaats": "Veghel",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999598608",
+                  "identificatieAdresseerbaarObject": "0074999999991661"
+                }
+              }
+            },
+            "volledigAdres": "Hysopveld 10 5467KJ Veghel"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20110914144939040",
+              "datumAanvang": "20110913"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "postbusnummer": "99999",
+                "postcode": {
+                  "cijfercombinatie": "3513",
+                  "lettercombinatie": "XE"
+                },
+                "plaats": "Utrecht"
+              }
+            },
+            "volledigAdres": "Postbus 99999 3513XE Utrecht"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstip": "20110809144250468",
+              "datumAanvang": "20100701",
+              "datumEinde": "20110617"
+            },
+            "communicatienummer": {
+              "toegangscode": "+31",
+              "nummer": "0209999999",
+              "soort": {
+                "code": "T",
+                "omschrijving": "Telefoon"
+              }
+            },
+            "emailAdres": "nepemailadres@kvk.nl"
+          },
+          "naam": "Global Indicone",
+          "manifesteertZichAls": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20110809144250468",
+              "datumAanvang": "20060401",
+              "datumEinde": "20110617"
+            },
+            "onderneming": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20060401",
+                "datumEinde": "20110617"
               },
-              "Afgeschermd": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Adres": {
-                "BinnenlandsAdres": {
-                  "Straatnaam": "Hysopveld",
-                  "Huisnummer": 10,
-                  "Postcode": {
-                    "Cijfercombinatie": 5467,
-                    "Lettercombinatie": "KJ"
-                  },
-                  "Plaats": "Veghel",
-                  "BagId": {
-                    "IdentificatieNummeraanduiding": 74999999598608,
-                    "IdentificatieAdresseerbaarObject": 74999999991661
-                  },
-                  "HuisnummerToevoeging": null
+              "kvkNummer": "90002695",
+              "sbiActiviteit": {
+                "registratie": {
+                  "@registratieTijdstip": "20110809144250468",
+                  "datumAanvang": "20060401",
+                  "datumEinde": "20110617"
+                },
+                "sbiCode": {
+                  "code": "5630",
+                  "omschrijving": "Cafés",
+                  "referentieType": "ActiviteitCode"
+                },
+                "isHoofdactiviteit": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
                 }
               },
-              "VolledigAdres": "Hysopveld 10 5467KJ Veghel"
-            },
-            "Communicatiegegevens": {
-              "Registratie": {
-                "DatumAanvang": 20100701,
-                "DatumEinde": 20110617,
-                "RegistratieTijdstipNoValue": null
+              "voltijdWerkzamePersonen": "2",
+              "deeltijdWerkzamePersonen": "1",
+              "totaalWerkzamePersonen": "3",
+              "handeltOnder": {
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstip": "20100708112128431",
+                    "datumAanvang": "20100701",
+                    "datumEinde": "20110617"
+                  },
+                  "naam": "Global Indicone",
+                  "volgorde": "0"
+                }
               },
-              "Communicatienummer": [
+              "wordtUitgeoefendIn": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20110809144250468",
+                  "datumAanvang": "20060401",
+                  "datumEinde": "20110617"
+                },
+                "commercieleVestiging": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20060401",
+                    "datumEinde": "20110617"
+                  },
+                  "vestigingsnummer": "990000568396",
+                  "bezoekLocatie": {
+                    "registratie": {
+                      "@registratieTijdstip": "20110809144250468",
+                      "datumAanvang": "20100701",
+                      "datumEinde": "20110617"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "straatnaam": "Hysopveld",
+                        "huisnummer": "10",
+                        "postcode": {
+                          "cijfercombinatie": "5467",
+                          "lettercombinatie": "KJ"
+                        },
+                        "plaats": "Veghel",
+                        "bagId": {
+                          "identificatieNummeraanduiding": "0074999999598608",
+                          "identificatieAdresseerbaarObject": "0074999999991661"
+                        }
+                      }
+                    },
+                    "volledigAdres": "Hysopveld 10 5467KJ Veghel"
+                  },
+                  "communicatiegegevens": {
+                    "registratie": {
+                      "@registratieTijdstip": "20110809144250468",
+                      "datumAanvang": "20100701",
+                      "datumEinde": "20110617"
+                    },
+                    "communicatienummer": {
+                      "toegangscode": "+31",
+                      "nummer": "0209999999",
+                      "soort": {
+                        "code": "T",
+                        "omschrijving": "Telefoon"
+                      }
+                    },
+                    "emailAdres": "nepemailadres@kvk.nl"
+                  },
+                  "eersteHandelsnaam": "Global Indicone",
+                  "voltijdWerkzamePersonen": "2",
+                  "deeltijdWerkzamePersonen": "1",
+                  "totaalWerkzamePersonen": "3",
+                  "activiteiten": {
+                    "omschrijving": "Cafe.",
+                    "sbiActiviteit": {
+                      "registratie": {
+                        "@registratieTijdstip": "20110809144250468",
+                        "datumAanvang": "20060401",
+                        "datumEinde": "20110617"
+                      },
+                      "sbiCode": {
+                        "code": "5630",
+                        "omschrijving": "Cafés",
+                        "referentieType": "ActiviteitCode"
+                      },
+                      "isHoofdactiviteit": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "exporteert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "importeert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  "handeltOnder": {
+                    "relatieRegistratie": {
+                      "@registratieTijdstip": "20110809144250468",
+                      "datumAanvang": "20100701",
+                      "datumEinde": "20110617"
+                    },
+                    "handelsnaam": {
+                      "registratie": {
+                        "@registratieTijdstip": "20100708112128431",
+                        "datumAanvang": "20100701",
+                        "datumEinde": "20110617"
+                      },
+                      "naam": "Global Indicone",
+                      "volgorde": "0"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "wordtGeleidVanuit": {
+            "commercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20060401",
+                "datumEinde": "20110617"
+              },
+              "vestigingsnummer": "990000568396",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20110809144250468",
+                  "datumAanvang": "20100701",
+                  "datumEinde": "20110617"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Hysopveld",
+                    "huisnummer": "10",
+                    "postcode": {
+                      "cijfercombinatie": "5467",
+                      "lettercombinatie": "KJ"
+                    },
+                    "plaats": "Veghel",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999598608",
+                      "identificatieAdresseerbaarObject": "0074999999991661"
+                    }
+                  }
+                },
+                "volledigAdres": "Hysopveld 10 5467KJ Veghel"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstip": "20110809144250468",
+                  "datumAanvang": "20100701",
+                  "datumEinde": "20110617"
+                },
+                "communicatienummer": {
+                  "toegangscode": "+31",
+                  "nummer": "0209999999",
+                  "soort": {
+                    "code": "T",
+                    "omschrijving": "Telefoon"
+                  }
+                },
+                "emailAdres": "nepemailadres@kvk.nl"
+              },
+              "eersteHandelsnaam": "Global Indicone",
+              "voltijdWerkzamePersonen": "2",
+              "deeltijdWerkzamePersonen": "1",
+              "totaalWerkzamePersonen": "3",
+              "activiteiten": {
+                "omschrijving": "Cafe.",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstip": "20110809144250468",
+                    "datumAanvang": "20060401",
+                    "datumEinde": "20110617"
+                  },
+                  "sbiCode": {
+                    "code": "5630",
+                    "omschrijving": "Cafés",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                },
+                "exporteert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "importeert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                }
+              },
+              "handeltOnder": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20110809144250468",
+                  "datumAanvang": "20100701",
+                  "datumEinde": "20110617"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstip": "20100708112128431",
+                    "datumAanvang": "20100701",
+                    "datumEinde": "20110617"
+                  },
+                  "naam": "Global Indicone",
+                  "volgorde": "0"
+                }
+              }
+            }
+          },
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20110809144250468",
+              "datumAanvang": "20060401",
+              "datumEinde": "20110617"
+            },
+            "samenwerkingsverband": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20060401",
+                "datumEinde": "20110617"
+              },
+              "bijzondereRechtstoestand": {
+                "registratie": {
+                  "@registratieTijdstip": "20110914144939040",
+                  "datumAanvang": "20110913"
+                },
+                "soort": {
+                  "code": "FAIL",
+                  "omschrijving": "Faillissement",
+                  "referentieType": "geenRT"
+                },
+                "uitspraakAanvang": {
+                  "datum": "20110913",
+                  "naam": "Rechtbank Roermond",
+                  "plaats": "Roermond"
+                }
+              },
+              "persoonRechtsvorm": "Vennootschap Onder Firma",
+              "volledigeNaam": "Global Indicone",
+              "uitgebreideRechtsvorm": "Vennootschap Onder Firma",
+              "heeft": [
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
+                  "aansprakelijke": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20060401",
+                      "datumEinde": "20110617"
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Awad - Awad"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19880422"
+                        },
+                        "bijzondereRechtstoestand": {
+                          "soort": {
+                            "code": "FAIL",
+                            "omschrijving": "Faillissement",
+                            "referentieType": "geenRT"
+                          }
+                        },
+                        "volledigeNaam": "Derick Awad",
+                        "geslachtsnaam": "Klaasen",
+"voornamen": "Jan",
+"geboortedatum": "20000101"
+                      }
+                    },
+                    "functie": {
+                      "code": "13",
+                      "omschrijving": "Vennoot",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstip": "20110809144250468",
+                        "datumAanvang": "20060401",
+                        "datumEinde": "20110617"
+                      },
+                      "soort": {
+                        "code": "ob",
+                        "omschrijving": "Onbeperkt bevoegd",
+                        "referentieType": "SoortBevoegdheidAansprakelijkeBijSamenwerkingsverband"
+                      },
+                      "overigeBeperking": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                },
+                {
+                  "aansprakelijke": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20060401",
+                      "datumEinde": "20110617"
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Walcott"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19411201"
+                        },
+                        "bijzondereRechtstoestand": {
+                          "soort": {
+                            "code": "FAIL",
+                            "omschrijving": "Faillissement",
+                            "referentieType": "geenRT"
+                          }
+                        },
+                        "volledigeNaam": "Arianne Walcott",
+                        "geslachtsnaam": "Walcott",
+                        "voornamen": "Arianne",
+                        "geboortedatum": "19411201"
+                      }
+                    },
+                    "functie": {
+                      "code": "13",
+                      "omschrijving": "Vennoot",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstip": "20110809144250468",
+                        "datumAanvang": "20060401",
+                        "datumEinde": "20110617"
+                      },
+                      "soort": {
+                        "code": "ob",
+                        "omschrijving": "Onbeperkt bevoegd",
+                        "referentieType": "SoortBevoegdheidAansprakelijkeBijSamenwerkingsverband"
+                      },
+                      "overigeBeperking": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                },
+                {
+                  "functionarisBijzondereRechtstoestand": {
+                    "registratie": {
+                      "@registratieTijdstip": "20110914144939040",
+                      "datumAanvang": "20110913"
+                    },
+                    "door": {
+                      "naamPersoon": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "991615840"
+                        },
+                        "volledigeNaam": "mr. Rosio Ditzler",
+                        "naam": "mr. Rosio Ditzler"
+                      }
+                    },
+                    "functie": {
+                      "code": "11",
+                      "omschrijving": "Rechter-commissaris",
+                      "referentieType": "FunctionarisRol"
+                    }
+                  }
+                },
+                {
+                  "functionarisBijzondereRechtstoestand": {
+                    "registratie": {
+                      "@registratieTijdstip": "20110914144939040",
+                      "datumAanvang": "20110913"
+                    },
+                    "door": {
+                      "naamPersoon": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "991615840"
+                        },
+                        "volledigeNaam": "mr. Gertie Haughton",
+                        "bezoekLocatiePersoon": {
+                          "registratie": {
+                            "@registratieTijdstip": "20110914144939040",
+                            "datumAanvang": "20110913"
+                          },
+                          "afgeschermd": {
+                            "code": "N",
+                            "omschrijving": "Nee",
+                            "referentieType": "geenRT"
+                          },
+                          "adres": {
+                            "binnenlandsAdres": {
+                              "postbusnummer": "99999",
+                              "postcode": {
+                                "cijfercombinatie": "3513",
+                                "lettercombinatie": "XE"
+                              },
+                              "plaats": "Utrecht"
+                            }
+                          },
+                          "volledigAdres": "Postbus 99999 3513XE Utrecht"
+                        },
+                        "naam": "mr. Gertie Haughton"
+                      }
+                    },
+                    "functie": {
+                      "code": "07",
+                      "omschrijving": "Curator",
+                      "referentieType": "FunctionarisRol"
+                    }
                   }
                 }
               ],
-              "EmailAdres": "nepemailadres@kvk.nl"
-            },
-            "EersteHandelsnaam": "Global Indicone",
-            "VoltijdWerkzamePersonen": 2,
-            "DeeltijdWerkzamePersonen": 1,
-            "TotaalWerkzamePersonen": 3,
-            "Activiteiten": {
-              "Omschrijving": "Cafe.",
-              "SbiActiviteit": {
-                "Registratie": {
-                  "DatumAanvang": 20060401,
-                  "DatumEinde": 20110617,
-                  "RegistratieTijdstipNoValue": null
+              "rsin": "992649195",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstip": "20110809144250468",
+                  "datumAanvang": "20100701",
+                  "datumEinde": "20110617"
                 },
-                "SbiCode": {
-                  "Code": 5630,
-                  "Omschrijving": "Caf\u00E9s",
-                  "ReferentieType": "ActiviteitCode"
-                },
-                "IsHoofdactiviteit": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
+                "naam": "Global Indicone"
+              },
+              "ontbinding": {
+                "registratie": {
+                  "@registratieTijdstip": "20110809144250468",
+                  "datumAanvang": "20110617"
                 }
               },
-              "Exporteert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
+              "rechtsvorm": {
+                "code": "VOF",
+                "omschrijving": "Vennootschap Onder Firma",
+                "referentieType": "Rechtsvorm"
               },
-              "Importeert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              }
-            },
-            "HandeltOnder": {
-              "Handelsnaam": {
-                "Registratie": {
-                  "DatumAanvang": 20100701,
-                  "DatumEinde": 20110617,
-                  "RegistratieTijdstipNoValue": null
+              "duur": {
+                "registratie": {
+                  "@registratieTijdstip": "20110809144250468",
+                  "datumAanvang": "20060401",
+                  "datumEinde": "20110617"
                 },
-                "Naam": "Global Indicone",
-                "Volgorde": 0
-              },
-              "RelatieRegistratie": {
-                "DatumAanvang": 20100701,
-                "RegistratieTijdstipNoValue": null
+                "heeftOnbepaaldeDuur": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
+                }
               }
             }
           }
         }
       }
-    },
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": {
-        "Registratie": {
-          "DatumAanvang": 20060401,
-          "DatumEinde": 20110617,
-          "RegistratieTijdstipNoValue": null
-        },
-        "Vestigingsnummer": 990000568396,
-        "BezoekLocatie": {
-          "Registratie": {
-            "DatumAanvang": 20100701,
-            "DatumEinde": 20110617,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Afgeschermd": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Adres": {
-            "BinnenlandsAdres": {
-              "Straatnaam": "Hysopveld",
-              "Huisnummer": 10,
-              "Postcode": {
-                "Cijfercombinatie": 5467,
-                "Lettercombinatie": "KJ"
-              },
-              "Plaats": "Veghel",
-              "BagId": {
-                "IdentificatieNummeraanduiding": 74999999598608,
-                "IdentificatieAdresseerbaarObject": 74999999991661
-              },
-              "HuisnummerToevoeging": null
-            }
-          },
-          "VolledigAdres": "Hysopveld 10 5467KJ Veghel"
-        },
-        "Communicatiegegevens": {
-          "Registratie": {
-            "DatumAanvang": 20100701,
-            "DatumEinde": 20110617,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Communicatienummer": [
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            }
-          ],
-          "EmailAdres": "nepemailadres@kvk.nl"
-        },
-        "EersteHandelsnaam": "Global Indicone",
-        "VoltijdWerkzamePersonen": 2,
-        "DeeltijdWerkzamePersonen": 1,
-        "TotaalWerkzamePersonen": 3,
-        "Activiteiten": {
-          "Omschrijving": "Cafe.",
-          "SbiActiviteit": {
-            "Registratie": {
-              "DatumAanvang": 20060401,
-              "DatumEinde": 20110617,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 5630,
-              "Omschrijving": "Caf\u00E9s",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          },
-          "Exporteert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Importeert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          }
-        },
-        "HandeltOnder": {
-          "Handelsnaam": {
-            "Registratie": {
-              "DatumAanvang": 20100701,
-              "DatumEinde": 20110617,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Naam": "Global Indicone",
-            "Volgorde": 0
-          },
-          "RelatieRegistratie": {
-            "DatumAanvang": 20100701,
-            "RegistratieTijdstipNoValue": null
-          }
-        }
-      }
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20060401,
-        "RegistratieTijdstipNoValue": null
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": {
-        "Registratie": {
-          "DatumAanvang": 20060401,
-          "DatumEinde": 20110617,
-          "RegistratieTijdstipNoValue": null
-        },
-        "BijzondereRechtstoestand": {
-          "Registratie": {
-            "DatumAanvang": 20110913,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Soort": {
-            "Code": "FAIL",
-            "Omschrijving": "Faillissement"
-          },
-          "UitspraakEinde": null
-        },
-        "PersoonRechtsvorm": "Vennootschap Onder Firma",
-        "VolledigeNaam": "Jan Klaasen",
-        "UitgebreideRechtsvorm": "Vennootschap Onder Firma",
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": {
-              "Registratie": {
-                "DatumAanvang": 20060401,
-                "DatumEinde": 20110617,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19880422,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Functie": {
-                "Code": "13",
-                "Omschrijving": "Vennoot",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Bevoegdheid": {
-                "Registratie": {
-                  "DatumAanvang": 20060401,
-                  "DatumEinde": 20110617,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "Soort": {
-                  "Code": "ob",
-                  "Omschrijving": "Onbeperkt bevoegd"
-                },
-                "OverigeBeperking": {
-                  "Code": "N",
-                  "Omschrijving": "Nee",
-                  "ReferentieType": "geenRT"
-                }
-              },
-              "Functietitel": null
-            },
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": {
-              "Registratie": {
-                "DatumAanvang": 20060401,
-                "DatumEinde": 20110617,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19411201,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Functie": {
-                "Code": "13",
-                "Omschrijving": "Vennoot",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Bevoegdheid": {
-                "Registratie": {
-                  "DatumAanvang": 20060401,
-                  "DatumEinde": 20110617,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "Soort": {
-                  "Code": "ob",
-                  "Omschrijving": "Onbeperkt bevoegd"
-                },
-                "OverigeBeperking": {
-                  "Code": "N",
-                  "Omschrijving": "Nee",
-                  "ReferentieType": "geenRT"
-                }
-              },
-              "Functietitel": null
-            },
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": {
-              "Registratie": {
-                "DatumAanvang": 20110913,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Door": {
-                "NaamPersoon": {
-                  "VolledigeNaam": "Jan Klaasen",
-                  "BezoekLocatiePersoon": null,
-                  "Naam": "mr. Rosio Ditzler",
-                  "Telefoonnummer": null
-                },
-                "NatuurlijkPersoon": null,
-                "Rechtspersoon": null
-              },
-              "Functie": {
-                "Code": "11",
-                "Omschrijving": "Rechter-commissaris",
-                "ReferentieType": "FunctionarisRol"
-              }
-            },
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": {
-              "Registratie": {
-                "DatumAanvang": 20110913,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Door": {
-                "NaamPersoon": {
-                  "VolledigeNaam": "Jan Klaasen",
-                  "BezoekLocatiePersoon": {
-                    "Registratie": {
-                      "DatumAanvang": 20110913,
-                      "DatumEinde": 0,
-                      "RegistratieTijdstipNoValue": null
-                    },
-                    "Afgeschermd": {
-                      "Code": "N",
-                      "Omschrijving": "Nee",
-                      "ReferentieType": "geenRT"
-                    },
-                    "Adres": {
-                      "BinnenlandsAdres": {
-                        "Straatnaam": null,
-                        "Huisnummer": 0,
-                        "Postcode": {
-                          "Cijfercombinatie": 3513,
-                          "Lettercombinatie": "XE"
-                        },
-                        "Plaats": "Utrecht",
-                        "BagId": null,
-                        "HuisnummerToevoeging": null
-                      }
-                    },
-                    "VolledigAdres": "Postbus 99999 3513XE Utrecht"
-                  },
-                  "Naam": "mr. Gertie Haughton",
-                  "Telefoonnummer": null
-                },
-                "NatuurlijkPersoon": null,
-                "Rechtspersoon": null
-              },
-              "Functie": {
-                "Code": "07",
-                "Omschrijving": "Curator",
-                "ReferentieType": "FunctionarisRol"
-              }
-            },
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          }
-        ],
-        "Rsin": 992649195,
-        "Naamgeving": {
-          "Registratie": {
-            "DatumAanvang": 20100701,
-            "DatumEinde": 20110617,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Naam": "Global Indicone"
-        },
-        "Ontbinding": {
-          "Registratie": {
-            "DatumAanvang": 20110617,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "aanleiding": null
-        },
-        "Rechtsvorm": {
-          "Code": "VOF",
-          "Omschrijving": "Vennootschap Onder Firma",
-          "ReferentieType": "Rechtsvorm"
-        },
-        "Duur": {
-          "Registratie": {
-            "DatumAanvang": 20060401,
-            "DatumEinde": 20110617,
-            "RegistratieTijdstipNoValue": null
-          },
-          "HeeftOnbepaaldeDuur": {
-            "Code": "J",
-            "Omschrijving": "Ja",
-            "ReferentieType": "geenRT"
-          }
-        }
-      },
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": null
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

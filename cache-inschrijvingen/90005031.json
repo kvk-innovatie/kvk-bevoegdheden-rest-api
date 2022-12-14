@@ -1,392 +1,506 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 20051222,
-      "DatumEinde": 20110329,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90005031,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20060123,
-        "DatumEinde": 20110329,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Wilsondreef",
-          "Huisnummer": 22,
-          "Postcode": {
-            "Cijfercombinatie": 6716,
-            "Lettercombinatie": "DP"
-          },
-          "Plaats": "Ede",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999696741,
-            "IdentificatieAdresseerbaarObject": 74999999934518
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-8b14c3dc58aaf4174fe41cf95c1276b2",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90005031"
         }
       },
-      "VolledigAdres": "Wilsondreef 22 6716DP Ede"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20060123,
-        "DatumEinde": 20110329,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Wilsondreef",
-          "Huisnummer": 22,
-          "Postcode": {
-            "Cijfercombinatie": 6716,
-            "Lettercombinatie": "DP"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "20051222",
+            "datumEinde": "20110329"
           },
-          "Plaats": "Ede",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999696741,
-            "IdentificatieAdresseerbaarObject": 74999999934518
+          "kvkNummer": "90005031",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Wilsondreef 22 6716DP Ede"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 20060123,
-        "DatumEinde": 20110329,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        },
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "F",
-            "Omschrijving": "Fax"
-          }
-        }
-      ],
-      "EmailAdres": null
-    },
-    "Naam": "Global E-con",
-    "ManifesteertZichAls": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20060123,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Onderneming": {
-        "Registratie": {
-          "DatumAanvang": 20060123,
-          "DatumEinde": 20110329,
-          "RegistratieTijdstipNoValue": null
-        },
-        "KvkNummer": 90005031,
-        "SbiActiviteit": [
-          {
-            "Registratie": {
-              "DatumAanvang": 20060123,
-              "DatumEinde": 20110329,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 47819,
-              "Omschrijving": "Markthandel in overige voedings- en genotmiddelen",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          }
-        ],
-        "VoltijdWerkzamePersonen": 5,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 5,
-        "HandeltOnder": [
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20060123,
-                "DatumEinde": 20110329,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "Global E-con",
-              "Volgorde": 0
-            },
-            "RelatieRegistratie": null
-          }
-        ],
-        "WordtUitgeoefendIn": {
-          "RelatieRegistratie": {
-            "DatumAanvang": 20060123,
-            "RegistratieTijdstipNoValue": null
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "CommercieleVestiging": {
-            "Registratie": {
-              "DatumAanvang": 20060123,
-              "DatumEinde": 20110329,
-              "RegistratieTijdstipNoValue": null
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20110411133240985",
+              "datumAanvang": "20060123",
+              "datumEinde": "20110329"
             },
-            "Vestigingsnummer": 990000738802,
-            "BezoekLocatie": {
-              "Registratie": {
-                "DatumAanvang": 20060123,
-                "DatumEinde": 20110329,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Afgeschermd": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Adres": {
-                "BinnenlandsAdres": {
-                  "Straatnaam": "Wilsondreef",
-                  "Huisnummer": 22,
-                  "Postcode": {
-                    "Cijfercombinatie": 6716,
-                    "Lettercombinatie": "DP"
-                  },
-                  "Plaats": "Ede",
-                  "BagId": {
-                    "IdentificatieNummeraanduiding": 74999999696741,
-                    "IdentificatieAdresseerbaarObject": 74999999934518
-                  },
-                  "HuisnummerToevoeging": null
-                }
-              },
-              "VolledigAdres": "Wilsondreef 22 6716DP Ede"
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
             },
-            "Communicatiegegevens": {
-              "Registratie": {
-                "DatumAanvang": 20060123,
-                "DatumEinde": 20110329,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Communicatienummer": [
-                {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
-                  }
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Wilsondreef",
+                "huisnummer": "22",
+                "postcode": {
+                  "cijfercombinatie": "6716",
+                  "lettercombinatie": "DP"
                 },
-                {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "F",
-                    "Omschrijving": "Fax"
-                  }
+                "plaats": "Ede",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999696741",
+                  "identificatieAdresseerbaarObject": "0074999999934518"
                 }
-              ],
-              "EmailAdres": null
-            },
-            "EersteHandelsnaam": "Global E-con",
-            "VoltijdWerkzamePersonen": 5,
-            "DeeltijdWerkzamePersonen": 0,
-            "TotaalWerkzamePersonen": 5,
-            "Activiteiten": {
-              "Omschrijving": "Handel in vis en aanverwante producten",
-              "SbiActiviteit": {
-                "Registratie": {
-                  "DatumAanvang": 20060123,
-                  "DatumEinde": 20110329,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "SbiCode": {
-                  "Code": 47819,
-                  "Omschrijving": "Markthandel in overige voedings- en genotmiddelen",
-                  "ReferentieType": "ActiviteitCode"
-                },
-                "IsHoofdactiviteit": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
-                }
-              },
-              "Exporteert": {
-                "Code": "J",
-                "Omschrijving": "Ja",
-                "ReferentieType": "geenRT"
-              },
-              "Importeert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
               }
             },
-            "HandeltOnder": {
-              "Handelsnaam": {
-                "Registratie": {
-                  "DatumAanvang": 20060123,
-                  "DatumEinde": 20110329,
-                  "RegistratieTijdstipNoValue": null
+            "volledigAdres": "Wilsondreef 22 6716DP Ede"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20110411133240985",
+              "datumAanvang": "20060123",
+              "datumEinde": "20110329"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Wilsondreef",
+                "huisnummer": "22",
+                "postcode": {
+                  "cijfercombinatie": "6716",
+                  "lettercombinatie": "DP"
                 },
-                "Naam": "Global E-con",
-                "Volgorde": 0
+                "plaats": "Ede",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999696741",
+                  "identificatieAdresseerbaarObject": "0074999999934518"
+                }
+              }
+            },
+            "volledigAdres": "Wilsondreef 22 6716DP Ede"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstip": "20110411133240985",
+              "datumAanvang": "20060123",
+              "datumEinde": "20110329"
+            },
+            "communicatienummer": [
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "T",
+                  "omschrijving": "Telefoon"
+                }
               },
-              "RelatieRegistratie": {
-                "DatumAanvang": 20060123,
-                "RegistratieTijdstipNoValue": null
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "F",
+                  "omschrijving": "Fax"
+                }
+              }
+            ]
+          },
+          "naam": "Global E-con",
+          "manifesteertZichAls": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20110411133240985",
+              "datumAanvang": "20060123",
+              "datumEinde": "20110329"
+            },
+            "onderneming": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20060123",
+                "datumEinde": "20110329"
+              },
+              "kvkNummer": "90005031",
+              "sbiActiviteit": {
+                "registratie": {
+                  "@registratieTijdstip": "20110411133240985",
+                  "datumAanvang": "20060123",
+                  "datumEinde": "20110329"
+                },
+                "sbiCode": {
+                  "code": "47819",
+                  "omschrijving": "Markthandel in overige voedings- en genotmiddelen",
+                  "referentieType": "ActiviteitCode"
+                },
+                "isHoofdactiviteit": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
+                }
+              },
+              "voltijdWerkzamePersonen": "5",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "5",
+              "handeltOnder": {
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20060123",
+                    "datumEinde": "20110329"
+                  },
+                  "naam": "Global E-con",
+                  "volgorde": "0"
+                }
+              },
+              "wordtUitgeoefendIn": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20110411133240985",
+                  "datumAanvang": "20060123",
+                  "datumEinde": "20110329"
+                },
+                "commercieleVestiging": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20060123",
+                    "datumEinde": "20110329"
+                  },
+                  "vestigingsnummer": "990000738802",
+                  "bezoekLocatie": {
+                    "registratie": {
+                      "@registratieTijdstip": "20110411133240985",
+                      "datumAanvang": "20060123",
+                      "datumEinde": "20110329"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "straatnaam": "Wilsondreef",
+                        "huisnummer": "22",
+                        "postcode": {
+                          "cijfercombinatie": "6716",
+                          "lettercombinatie": "DP"
+                        },
+                        "plaats": "Ede",
+                        "bagId": {
+                          "identificatieNummeraanduiding": "0074999999696741",
+                          "identificatieAdresseerbaarObject": "0074999999934518"
+                        }
+                      }
+                    },
+                    "volledigAdres": "Wilsondreef 22 6716DP Ede"
+                  },
+                  "communicatiegegevens": {
+                    "registratie": {
+                      "@registratieTijdstip": "20110411133240985",
+                      "datumAanvang": "20060123",
+                      "datumEinde": "20110329"
+                    },
+                    "communicatienummer": [
+                      {
+                        "toegangscode": "+31",
+                        "nummer": "0209999999",
+                        "soort": {
+                          "code": "T",
+                          "omschrijving": "Telefoon"
+                        }
+                      },
+                      {
+                        "toegangscode": "+31",
+                        "nummer": "0209999999",
+                        "soort": {
+                          "code": "F",
+                          "omschrijving": "Fax"
+                        }
+                      }
+                    ]
+                  },
+                  "eersteHandelsnaam": "Global E-con",
+                  "voltijdWerkzamePersonen": "5",
+                  "deeltijdWerkzamePersonen": "0",
+                  "totaalWerkzamePersonen": "5",
+                  "activiteiten": {
+                    "omschrijving": "Handel in vis en aanverwante producten",
+                    "sbiActiviteit": {
+                      "registratie": {
+                        "@registratieTijdstip": "20110411133240985",
+                        "datumAanvang": "20060123",
+                        "datumEinde": "20110329"
+                      },
+                      "sbiCode": {
+                        "code": "47819",
+                        "omschrijving": "Markthandel in overige voedings- en genotmiddelen",
+                        "referentieType": "ActiviteitCode"
+                      },
+                      "isHoofdactiviteit": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "exporteert": {
+                      "code": "J",
+                      "omschrijving": "Ja",
+                      "referentieType": "geenRT"
+                    },
+                    "importeert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  "handeltOnder": {
+                    "relatieRegistratie": {
+                      "@registratieTijdstip": "20110411133240985",
+                      "datumAanvang": "20060123",
+                      "datumEinde": "20110329"
+                    },
+                    "handelsnaam": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20060123",
+                        "datumEinde": "20110329"
+                      },
+                      "naam": "Global E-con",
+                      "volgorde": "0"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "wordtGeleidVanuit": {
+            "commercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20060123",
+                "datumEinde": "20110329"
+              },
+              "vestigingsnummer": "990000738802",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20110411133240985",
+                  "datumAanvang": "20060123",
+                  "datumEinde": "20110329"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Wilsondreef",
+                    "huisnummer": "22",
+                    "postcode": {
+                      "cijfercombinatie": "6716",
+                      "lettercombinatie": "DP"
+                    },
+                    "plaats": "Ede",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999696741",
+                      "identificatieAdresseerbaarObject": "0074999999934518"
+                    }
+                  }
+                },
+                "volledigAdres": "Wilsondreef 22 6716DP Ede"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstip": "20110411133240985",
+                  "datumAanvang": "20060123",
+                  "datumEinde": "20110329"
+                },
+                "communicatienummer": [
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "T",
+                      "omschrijving": "Telefoon"
+                    }
+                  },
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "F",
+                      "omschrijving": "Fax"
+                    }
+                  }
+                ]
+              },
+              "eersteHandelsnaam": "Global E-con",
+              "voltijdWerkzamePersonen": "5",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "5",
+              "activiteiten": {
+                "omschrijving": "Handel in vis en aanverwante producten",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstip": "20110411133240985",
+                    "datumAanvang": "20060123",
+                    "datumEinde": "20110329"
+                  },
+                  "sbiCode": {
+                    "code": "47819",
+                    "omschrijving": "Markthandel in overige voedings- en genotmiddelen",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                },
+                "exporteert": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
+                },
+                "importeert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                }
+              },
+              "handeltOnder": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20110411133240985",
+                  "datumAanvang": "20060123",
+                  "datumEinde": "20110329"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20060123",
+                    "datumEinde": "20110329"
+                  },
+                  "naam": "Global E-con",
+                  "volgorde": "0"
+                }
+              }
+            }
+          },
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20110411133240985",
+              "datumAanvang": "20051222",
+              "datumEinde": "20110329"
+            },
+            "buitenlandseVennootschap": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend"
+              },
+              "bijzondereRechtstoestand": {
+                "registratie": {
+                  "@registratieTijdstip": "20110330145224348",
+                  "datumAanvang": "20110329"
+                },
+                "soort": {
+                  "code": "FAIL",
+                  "omschrijving": "Faillissement",
+                  "referentieType": "geenRT"
+                },
+                "uitspraakAanvang": {
+                  "datum": "20110329",
+                  "naam": "Rechtbank Roermond",
+                  "plaats": "Roermond"
+                }
+              },
+              "persoonRechtsvorm": "Kapitaalvennootschap binnen EER",
+              "volledigeNaam": "Global E-con",
+              "uitgebreideRechtsvorm": "Private limited company (Verenigd Koninkrijk)",
+              "rsin": "992338712",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20060123"
+                },
+                "naam": "Global E-con"
+              },
+              "buitenlandseRegistratieGegevens": {
+                "naam": "Companies Registration Office",
+                "plaats": "Nepplaats",
+                "land": {
+                  "code": "6039",
+                  "omschrijving": "Verenigd Koninkrijk",
+                  "referentieType": "Land"
+                },
+                "inschrijfnummer": "05661808",
+                "buitenlandseRegistratie": "Companies Registration Office\nNepplaats, Verenigd Koninkrijk\nOnder nummer 05661808"
+              },
+              "landVanOprichting": {
+                "code": "9998",
+                "omschrijving": "Tijdelijk: Migratie",
+                "referentieType": "Land"
+              },
+              "landVanVestiging": {
+                "code": "6039",
+                "omschrijving": "Verenigd Koninkrijk",
+                "referentieType": "Land"
+              },
+              "buitenlandseVennootschapGegevens": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend"
+                },
+                "heeftHoofdvestigingBuitenNederland": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "omschrijvingRechtsvorm": "Private limited company",
+                "zetel": "Nepplaats",
+                "rechtsvormcategorie": {
+                  "code": "0001",
+                  "omschrijving": "Kapitaalvennootschap binnen EER",
+                  "referentieType": "geenRT"
+                },
+                "datumAkteOprichting": "20051222"
+              },
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20110411133240985",
+                  "datumAanvang": "20060123",
+                  "datumEinde": "20110329"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Wilsondreef",
+                    "huisnummer": "22",
+                    "postcode": {
+                      "cijfercombinatie": "6716",
+                      "lettercombinatie": "DP"
+                    },
+                    "plaats": "Ede",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999696741",
+                      "identificatieAdresseerbaarObject": "0074999999934518"
+                    }
+                  }
+                },
+                "volledigAdres": "Rijnaakkade 15\n5928PT Venlo"
               }
             }
           }
         }
       }
-    },
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": {
-        "Registratie": {
-          "DatumAanvang": 20060123,
-          "DatumEinde": 20110329,
-          "RegistratieTijdstipNoValue": null
-        },
-        "Vestigingsnummer": 990000738802,
-        "BezoekLocatie": {
-          "Registratie": {
-            "DatumAanvang": 20060123,
-            "DatumEinde": 20110329,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Afgeschermd": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Adres": {
-            "BinnenlandsAdres": {
-              "Straatnaam": "Wilsondreef",
-              "Huisnummer": 22,
-              "Postcode": {
-                "Cijfercombinatie": 6716,
-                "Lettercombinatie": "DP"
-              },
-              "Plaats": "Ede",
-              "BagId": {
-                "IdentificatieNummeraanduiding": 74999999696741,
-                "IdentificatieAdresseerbaarObject": 74999999934518
-              },
-              "HuisnummerToevoeging": null
-            }
-          },
-          "VolledigAdres": "Wilsondreef 22 6716DP Ede"
-        },
-        "Communicatiegegevens": {
-          "Registratie": {
-            "DatumAanvang": 20060123,
-            "DatumEinde": 20110329,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Communicatienummer": [
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            },
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "F",
-                "Omschrijving": "Fax"
-              }
-            }
-          ],
-          "EmailAdres": null
-        },
-        "EersteHandelsnaam": "Global E-con",
-        "VoltijdWerkzamePersonen": 5,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 5,
-        "Activiteiten": {
-          "Omschrijving": "Handel in vis en aanverwante producten",
-          "SbiActiviteit": {
-            "Registratie": {
-              "DatumAanvang": 20060123,
-              "DatumEinde": 20110329,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 47819,
-              "Omschrijving": "Markthandel in overige voedings- en genotmiddelen",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          },
-          "Exporteert": {
-            "Code": "J",
-            "Omschrijving": "Ja",
-            "ReferentieType": "geenRT"
-          },
-          "Importeert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          }
-        },
-        "HandeltOnder": {
-          "Handelsnaam": {
-            "Registratie": {
-              "DatumAanvang": 20060123,
-              "DatumEinde": 20110329,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Naam": "Global E-con",
-            "Volgorde": 0
-          },
-          "RelatieRegistratie": {
-            "DatumAanvang": 20060123,
-            "RegistratieTijdstipNoValue": null
-          }
-        }
-      }
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20051222,
-        "RegistratieTijdstipNoValue": null
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": {
-        "BuitenlandseVennootschapGegevens": {
-          "Rechtsvormcategorie": {
-            "Code": "0001",
-            "Omschrijving": "Kapitaalvennootschap binnen EER"
-          }
-        },
-        "Heeft": []
-      },
-      "Rechtspersoon": null
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

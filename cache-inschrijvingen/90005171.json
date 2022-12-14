@@ -1,272 +1,420 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 20110224,
-      "DatumEinde": 0,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90005171,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20130326,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Aletta Jacobsstraat",
-          "Huisnummer": 40,
-          "Postcode": {
-            "Cijfercombinatie": 1433,
-            "Lettercombinatie": "PE"
-          },
-          "Plaats": "Kudelstaart",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999516914,
-            "IdentificatieAdresseerbaarObject": 74999999948556
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-b097cc87d98fa14ed2cd95048343c6a9",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90005171"
         }
       },
-      "VolledigAdres": "Aletta Jacobsstraat 40 1433PE Kudelstaart"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20130326,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": null,
-          "Huisnummer": 0,
-          "Postcode": {
-            "Cijfercombinatie": 2555,
-            "Lettercombinatie": "XL"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstip": "20110225092922523",
+            "datumAanvang": "20110224"
           },
-          "Plaats": "\u0027s-Gravenhage",
-          "BagId": null,
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Postbus 99999 2555XL \u0027s-Gravenhage"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 20130326,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        }
-      ],
-      "EmailAdres": null
-    },
-    "Naam": "International Groovehouse",
-    "ManifesteertZichAls": null,
-    "WordtGeleidVanuit": null,
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20110224,
-        "RegistratieTijdstipNoValue": null
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": {
-        "VoornemenTotOntbinding": null,
-        "ActiviteitenGestaaktPer": "20130326",
-        "Rechtsvorm": {
-          "Code": "BV",
-          "Omschrijving": "Besloten Vennootschap"
-        },
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19840416,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
+          "kvkNummer": "90005171",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
+          },
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
+          },
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20130404110000234",
+              "datumAanvang": "20130326"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Aletta Jacobsstraat",
+                "huisnummer": "40",
+                "postcode": {
+                  "cijfercombinatie": "1433",
+                  "lettercombinatie": "PE"
                 },
-                "Rechtspersoon": null
+                "plaats": "Kudelstaart",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999516914",
+                  "identificatieAdresseerbaarObject": "0074999999948556"
+                }
+              }
+            },
+            "volledigAdres": "Aletta Jacobsstraat 40 1433PE Kudelstaart"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20130328125616381",
+              "datumAanvang": "20130326"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "postbusnummer": "99999",
+                "postcode": {
+                  "cijfercombinatie": "2555",
+                  "lettercombinatie": "XL"
+                },
+                "plaats": "'s-Gravenhage"
+              }
+            },
+            "volledigAdres": "Postbus 99999 2555XL 's-Gravenhage"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstip": "20130404110000234",
+              "datumAanvang": "20130326"
+            },
+            "communicatienummer": {
+              "toegangscode": "+31",
+              "nummer": "0209999999",
+              "soort": {
+                "code": "T",
+                "omschrijving": "Telefoon"
+              }
+            }
+          },
+          "naam": "International Groovehouse",
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20110225092922523",
+              "datumAanvang": "20110224"
+            },
+            "rechtspersoon": {
+              "extraElementen": {
+                "extraElement": [
+                  {
+                    "@naam": "datumAanvangStatuten",
+                    "#text": "20110224"
+                  },
+                  {
+                    "@naam": "datumAkteStatuten",
+                    "#text": "20110224"
+                  }
+                ]
               },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "azb",
-                  "Omschrijving": "Alleen/zelfstandig bevoegd"
+              "registratie": {
+                "@registratieTijdstip": "20110225092922523",
+                "datumAanvang": "20110224"
+              },
+              "bijzondereRechtstoestand": {
+                "registratie": {
+                  "@registratieTijdstip": "20130328125616381",
+                  "datumAanvang": "20130326"
+                },
+                "soort": {
+                  "code": "FAIL",
+                  "omschrijving": "Faillissement",
+                  "referentieType": "geenRT"
+                },
+                "uitspraakAanvang": {
+                  "datum": "20130326",
+                  "naam": "Rechtbank Oost-Brabant",
+                  "plaats": "'s Hertogenbosch"
                 }
               },
-              "Functietitel": {
-                "Titel": "Algemeen directeur"
-              }
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": {
-              "Functie": {
-                "Code": "08",
-                "Omschrijving": "Enig aandeelhouder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19840416,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": null,
-              "Functietitel": null
-            },
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": {
-              "Registratie": {
-                "DatumAanvang": 20130326,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Door": {
-                "NaamPersoon": {
-                  "VolledigeNaam": "Jan Klaasen",
-                  "BezoekLocatiePersoon": {
-                    "Registratie": {
-                      "DatumAanvang": 20130326,
-                      "DatumEinde": 0,
-                      "RegistratieTijdstipNoValue": null
+              "persoonRechtsvorm": "Besloten Vennootschap",
+              "volledigeNaam": "International Groovehouse B.V.",
+              "uitgebreideRechtsvorm": "Besloten Vennootschap",
+              "heeft": [
+                {
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstip": "20121011163309431",
+                      "datumAanvang": "20121008"
                     },
-                    "Afgeschermd": {
-                      "Code": "N",
-                      "Omschrijving": "Nee",
-                      "ReferentieType": "geenRT"
-                    },
-                    "Adres": {
-                      "BinnenlandsAdres": {
-                        "Straatnaam": null,
-                        "Huisnummer": 0,
-                        "Postcode": {
-                          "Cijfercombinatie": 2555,
-                          "Lettercombinatie": "XL"
-                        },
-                        "Plaats": "\u0027s-Gravenhage",
-                        "BagId": null,
-                        "HuisnummerToevoeging": null
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstip": "20121011163309431",
+                        "datumAanvang": "20121008"
+                      },
+                      "titel": "Algemeen directeur",
+                      "isStatutaireTitel": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
                       }
                     },
-                    "VolledigAdres": "Postbus 99999 2555XL \u0027s-Gravenhage"
-                  },
-                  "Naam": "mr. Shaunda Mcmains",
-                  "Telefoonnummer": null
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Essex"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19840416"
+                        },
+                        "volledigeNaam": "Carmelina Essex",
+                        "geslachtsnaam": "Essex",
+                        "voornamen": "Carmelina",
+                        "geboortedatum": "19840416"
+                      }
+                    },
+                    "functie": {
+                      "code": "02",
+                      "omschrijving": "Bestuurder",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstip": "20121011163309431",
+                        "datumAanvang": "20121008"
+                      },
+                      "soort": {
+                        "code": "azb",
+                        "omschrijving": "Alleen/zelfstandig bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
                 },
-                "NatuurlijkPersoon": null,
-                "Rechtspersoon": null
-              },
-              "Functie": {
-                "Code": "07",
-                "Omschrijving": "Curator",
-                "ReferentieType": "FunctionarisRol"
-              }
-            },
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": {
-              "Registratie": {
-                "DatumAanvang": 20130326,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Door": {
-                "NaamPersoon": {
-                  "VolledigeNaam": "Jan Klaasen",
-                  "BezoekLocatiePersoon": null,
-                  "Naam": "mr. Isaura Mroz",
-                  "Telefoonnummer": null
+                {
+                  "overigeFunctionaris": {
+                    "registratie": {
+                      "@registratieTijdstip": "20121011163309431",
+                      "datumAanvang": "20121008"
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Essex"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19840416"
+                        },
+                        "volledigeNaam": "Carmelina Essex",
+                        "geslachtsnaam": "Klaasen",
+"voornamen": "Jan",
+"geboortedatum": "20000101"
+                      }
+                    },
+                    "functie": {
+                      "code": "08",
+                      "omschrijving": "Enig aandeelhouder",
+                      "referentieType": "FunctionarisRol"
+                    }
+                  }
                 },
-                "NatuurlijkPersoon": null,
-                "Rechtspersoon": null
+                {
+                  "functionarisBijzondereRechtstoestand": {
+                    "registratie": {
+                      "@registratieTijdstip": "20130328125616381",
+                      "datumAanvang": "20130326"
+                    },
+                    "door": {
+                      "naamPersoon": {
+                        "volledigeNaam": "mr. Shaunda Mcmains",
+                        "bezoekLocatiePersoon": {
+                          "registratie": {
+                            "@registratieTijdstip": "20130328125616381",
+                            "datumAanvang": "20130326"
+                          },
+                          "afgeschermd": {
+                            "code": "N",
+                            "omschrijving": "Nee",
+                            "referentieType": "geenRT"
+                          },
+                          "adres": {
+                            "binnenlandsAdres": {
+                              "postbusnummer": "99999",
+                              "postcode": {
+                                "cijfercombinatie": "2555",
+                                "lettercombinatie": "XL"
+                              },
+                              "plaats": "'s-Gravenhage"
+                            }
+                          },
+                          "volledigAdres": "Postbus 99999 2555XL 's-Gravenhage"
+                        },
+                        "naam": "mr. Shaunda Mcmains"
+                      }
+                    },
+                    "functie": {
+                      "code": "07",
+                      "omschrijving": "Curator",
+                      "referentieType": "FunctionarisRol"
+                    }
+                  }
+                },
+                {
+                  "functionarisBijzondereRechtstoestand": {
+                    "registratie": {
+                      "@registratieTijdstip": "20130328125616381",
+                      "datumAanvang": "20130326"
+                    },
+                    "door": {
+                      "naamPersoon": {
+                        "volledigeNaam": "mr. Isaura Mroz",
+                        "naam": "mr. Isaura Mroz"
+                      }
+                    },
+                    "functie": {
+                      "code": "11",
+                      "omschrijving": "Rechter-commissaris",
+                      "referentieType": "FunctionarisRol"
+                    }
+                  }
+                }
+              ],
+              "rsin": "992045083",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstip": "20110225092922523",
+                  "datumAanvang": "20110224"
+                },
+                "naam": "International Groovehouse B.V."
               },
-              "Functie": {
-                "Code": "11",
-                "Omschrijving": "Rechter-commissaris",
-                "ReferentieType": "FunctionarisRol"
-              }
-            },
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
+              "rechtsvorm": {
+                "code": "BV",
+                "omschrijving": "Besloten Vennootschap",
+                "referentieType": "Rechtsvorm"
+              },
+              "statutaireZetel": "Nepplaats",
+              "aanvangStatutaireZetel": "20110224",
+              "datumAkteOprichting": "20110224",
+              "datumOprichting": "20110224",
+              "datumEersteInschrijvingHandelsregister": "20110225",
+              "datumAkteStatutenwijziging": "20110224",
+              "stelselInrichting": {
+                "code": "D",
+                "omschrijving": "Dualistisch",
+                "referentieType": "StelselInrichting"
+              },
+              "structuur": {
+                "code": "GS",
+                "omschrijving": "Gewone structuur",
+                "referentieType": "RechtsvormStructuur"
+              },
+              "geplaatstKapitaal": {
+                "registratie": {
+                  "@registratieTijdstip": "20110225092922523",
+                  "datumAanvang": "20110224"
+                },
+                "bedrag": {
+                  "waarde": "18000",
+                  "valuta": {
+                    "code": "EUR",
+                    "omschrijving": "Euro",
+                    "referentieType": "Valuta"
+                  }
+                }
+              },
+              "gestortKapitaal": {
+                "registratie": {
+                  "@registratieTijdstip": "20110225092922523",
+                  "datumAanvang": "20110224"
+                },
+                "bedrag": {
+                  "waarde": "18000",
+                  "valuta": {
+                    "code": "EUR",
+                    "omschrijving": "Euro",
+                    "referentieType": "Valuta"
+                  }
+                }
+              },
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20130404110000234",
+                  "datumAanvang": "20130326"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Aletta Jacobsstraat",
+                    "huisnummer": "40",
+                    "postcode": {
+                      "cijfercombinatie": "1433",
+                      "lettercombinatie": "PE"
+                    },
+                    "plaats": "Kudelstaart",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999516914",
+                      "identificatieAdresseerbaarObject": "0074999999948556"
+                    }
+                  }
+                },
+                "volledigAdres": "Aletta Jacobsstraat 40 1433PE Kudelstaart"
+              },
+              "postLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20130404110000234",
+                  "datumAanvang": "20130326"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "postbusnummer": "99999",
+                    "postcode": {
+                      "cijfercombinatie": "2555",
+                      "lettercombinatie": "XL"
+                    },
+                    "plaats": "'s-Gravenhage"
+                  }
+                },
+                "volledigAdres": "Postbus 99999 2555XL 's-Gravenhage"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstip": "20130404110000234",
+                  "datumAanvang": "20130326"
+                },
+                "communicatienummer": {
+                  "toegangscode": "+31",
+                  "nummer": "0209999999",
+                  "soort": {
+                    "code": "T",
+                    "omschrijving": "Telefoon"
+                  }
+                }
+              },
+              "activiteitenGestaaktPer": "20130326"
+            }
           }
-        ],
-        "VolledigeNaam": "Jan Klaasen",
-        "Rsin": "992045083"
+        }
       }
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

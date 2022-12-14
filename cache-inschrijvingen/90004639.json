@@ -1,520 +1,1241 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 19840927,
-      "DatumEinde": 0,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90004639,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 19951218,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Esdoornstraat",
-          "Huisnummer": 15,
-          "Postcode": {
-            "Cijfercombinatie": 4431,
-            "Lettercombinatie": "DH"
-          },
-          "Plaats": "\u0027s-Gravenpolder",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999985659,
-            "IdentificatieAdresseerbaarObject": 74999999823293
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-16263d2376db6cc3a6485645fdb37713",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90004639"
         }
       },
-      "VolledigAdres": "Esdoornstraat 15 4431DH \u0027s-Gravenpolder"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 19811223,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": null,
-          "Huisnummer": 0,
-          "Postcode": {
-            "Cijfercombinatie": 7884,
-            "Lettercombinatie": "TB"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "19840927"
           },
-          "Plaats": "Barger-Compascuum",
-          "BagId": null,
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Postbus 99999 7884TB Barger-Compascuum"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 20101007,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        },
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "F",
-            "Omschrijving": "Fax"
-          }
-        }
-      ],
-      "EmailAdres": "nepemailadres@kvk.nl"
-    },
-    "Naam": "Free mediahex B.V.",
-    "ManifesteertZichAls": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 19840927,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "Onderneming": {
-        "Registratie": {
-          "DatumAanvang": 19811223,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "KvkNummer": 90004639,
-        "SbiActiviteit": [
-          {
-            "Registratie": {
-              "DatumAanvang": 19811223,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 6832,
-              "Omschrijving": "Beheer van onroerend goed",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
+          "kvkNummer": "90004639",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          {
-            "Registratie": {
-              "DatumAanvang": 20090101,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 6831,
-              "Omschrijving": "Bemiddeling bij handel, huur of verhuur van onroerend goed",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          {
-            "Registratie": {
-              "DatumAanvang": 20130101,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19951218"
             },
-            "SbiCode": {
-              "Code": 6832,
-              "Omschrijving": "Beheer van onroerend goed",
-              "ReferentieType": "ActiviteitCode"
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
             },
-            "IsHoofdactiviteit": {
-              "Code": "N",
-              "Omschrijving": "Nee",
-              "ReferentieType": "geenRT"
-            }
-          }
-        ],
-        "VoltijdWerkzamePersonen": 55,
-        "DeeltijdWerkzamePersonen": 1,
-        "TotaalWerkzamePersonen": 56,
-        "HandeltOnder": [
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20091030,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "Free mediahex B.V.",
-              "Volgorde": 0
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Esdoornstraat",
+                "huisnummer": "15",
+                "postcode": {
+                  "cijfercombinatie": "4431",
+                  "lettercombinatie": "DH"
+                },
+                "plaats": "'s-Gravenpolder",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999985659",
+                  "identificatieAdresseerbaarObject": "0074999999823293"
+                }
+              }
             },
-            "RelatieRegistratie": null
+            "volledigAdres": "Esdoornstraat 15 4431DH 's-Gravenpolder"
           },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20130101,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "Free mediahex B.V. de tweede",
-              "Volgorde": 1
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19811223"
             },
-            "RelatieRegistratie": null
-          }
-        ],
-        "WordtUitgeoefendIn": {
-          "RelatieRegistratie": {
-            "DatumAanvang": 19840927,
-            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "postbusnummer": "99999",
+                "postcode": {
+                  "cijfercombinatie": "7884",
+                  "lettercombinatie": "TB"
+                },
+                "plaats": "Barger-Compascuum"
+              }
+            },
+            "volledigAdres": "Postbus 99999 7884TB Barger-Compascuum"
           },
-          "CommercieleVestiging": {
-            "Registratie": {
-              "DatumAanvang": 19811223,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstip": "20101022143151030",
+              "datumAanvang": "20101007"
             },
-            "Vestigingsnummer": 990000125304,
-            "BezoekLocatie": {
-              "Registratie": {
-                "DatumAanvang": 19951218,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Afgeschermd": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Adres": {
-                "BinnenlandsAdres": {
-                  "Straatnaam": "Esdoornstraat",
-                  "Huisnummer": 15,
-                  "Postcode": {
-                    "Cijfercombinatie": 4431,
-                    "Lettercombinatie": "DH"
-                  },
-                  "Plaats": "\u0027s-Gravenpolder",
-                  "BagId": {
-                    "IdentificatieNummeraanduiding": 74999999985659,
-                    "IdentificatieAdresseerbaarObject": 74999999823293
-                  },
-                  "HuisnummerToevoeging": null
+            "communicatienummer": [
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "T",
+                  "omschrijving": "Telefoon"
                 }
               },
-              "VolledigAdres": "Esdoornstraat 15 4431DH \u0027s-Gravenpolder"
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "F",
+                  "omschrijving": "Fax"
+                }
+              }
+            ],
+            "emailAdres": "nepemailadres@kvk.nl",
+            "domeinNaam": "www.kvk.nl"
+          },
+          "naam": "Free mediahex B.V.",
+          "manifesteertZichAls": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19840927"
             },
-            "Communicatiegegevens": {
-              "Registratie": {
-                "DatumAanvang": 20101007,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
+            "onderneming": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19811223"
               },
-              "Communicatienummer": [
+              "kvkNummer": "90004639",
+              "sbiActiviteit": [
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19811223"
+                  },
+                  "sbiCode": {
+                    "code": "6832",
+                    "omschrijving": "Beheer van onroerend goed",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
                   }
                 },
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "F",
-                    "Omschrijving": "Fax"
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20090101"
+                  },
+                  "sbiCode": {
+                    "code": "6831",
+                    "omschrijving": "Bemiddeling bij handel, huur of verhuur van onroerend goed",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                },
+                {
+                  "registratie": {
+                    "@registratieTijdstip": "20130821170641182",
+                    "datumAanvang": "20130101"
+                  },
+                  "sbiCode": {
+                    "code": "6832",
+                    "omschrijving": "Beheer van onroerend goed",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "N",
+                    "omschrijving": "Nee",
+                    "referentieType": "geenRT"
                   }
                 }
               ],
-              "EmailAdres": "nepemailadres@kvk.nl"
-            },
-            "EersteHandelsnaam": "Free mediahex B.V. de tweede",
-            "VoltijdWerkzamePersonen": 45,
-            "DeeltijdWerkzamePersonen": 0,
-            "TotaalWerkzamePersonen": 45,
-            "Activiteiten": {
-              "Omschrijving": "Het in opdracht van derden beheren en administreren van onroerende goederen",
-              "SbiActiviteit": {
-                "Registratie": {
-                  "DatumAanvang": 19811223,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
+              "voltijdWerkzamePersonen": "55",
+              "deeltijdWerkzamePersonen": "1",
+              "totaalWerkzamePersonen": "56",
+              "handeltOnder": [
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20091030"
+                    },
+                    "naam": "Free mediahex B.V.",
+                    "volgorde": "0"
+                  }
                 },
-                "SbiCode": {
-                  "Code": 6832,
-                  "Omschrijving": "Beheer van onroerend goed",
-                  "ReferentieType": "ActiviteitCode"
-                },
-                "IsHoofdactiviteit": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstip": "20130821170641182",
+                      "datumAanvang": "20130101"
+                    },
+                    "naam": "Free mediahex B.V. de tweede",
+                    "volgorde": "1"
+                  }
                 }
-              },
-              "Exporteert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Importeert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              }
-            },
-            "HandeltOnder": {
-              "Handelsnaam": {
-                "Registratie": {
-                  "DatumAanvang": 20091030,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
+              ],
+              "wordtUitgeoefendIn": [
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19840927"
+                  },
+                  "commercieleVestiging": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19811223"
+                    },
+                    "vestigingsnummer": "990000125304",
+                    "bezoekLocatie": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19951218"
+                      },
+                      "afgeschermd": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "adres": {
+                        "binnenlandsAdres": {
+                          "straatnaam": "Esdoornstraat",
+                          "huisnummer": "15",
+                          "postcode": {
+                            "cijfercombinatie": "4431",
+                            "lettercombinatie": "DH"
+                          },
+                          "plaats": "'s-Gravenpolder",
+                          "bagId": {
+                            "identificatieNummeraanduiding": "0074999999985659",
+                            "identificatieAdresseerbaarObject": "0074999999823293"
+                          }
+                        }
+                      },
+                      "volledigAdres": "Esdoornstraat 15 4431DH 's-Gravenpolder"
+                    },
+                    "postLocatie": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19811223"
+                      },
+                      "afgeschermd": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "adres": {
+                        "binnenlandsAdres": {
+                          "postbusnummer": "99999",
+                          "postcode": {
+                            "cijfercombinatie": "7884",
+                            "lettercombinatie": "TB"
+                          },
+                          "plaats": "Barger-Compascuum"
+                        }
+                      },
+                      "volledigAdres": "Postbus 99999 7884TB Barger-Compascuum"
+                    },
+                    "communicatiegegevens": {
+                      "registratie": {
+                        "@registratieTijdstip": "20101022143151030",
+                        "datumAanvang": "20101007"
+                      },
+                      "communicatienummer": [
+                        {
+                          "toegangscode": "+31",
+                          "nummer": "0209999999",
+                          "soort": {
+                            "code": "T",
+                            "omschrijving": "Telefoon"
+                          }
+                        },
+                        {
+                          "toegangscode": "+31",
+                          "nummer": "0209999999",
+                          "soort": {
+                            "code": "F",
+                            "omschrijving": "Fax"
+                          }
+                        }
+                      ],
+                      "emailAdres": "nepemailadres@kvk.nl",
+                      "domeinNaam": "www.kvk.nl"
+                    },
+                    "eersteHandelsnaam": "Free mediahex B.V. de tweede",
+                    "voltijdWerkzamePersonen": "45",
+                    "deeltijdWerkzamePersonen": "0",
+                    "totaalWerkzamePersonen": "45",
+                    "activiteiten": {
+                      "omschrijving": "Het in opdracht van derden beheren en administreren van onroerende goederen",
+                      "sbiActiviteit": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19811223"
+                        },
+                        "sbiCode": {
+                          "code": "6832",
+                          "omschrijving": "Beheer van onroerend goed",
+                          "referentieType": "ActiviteitCode"
+                        },
+                        "isHoofdactiviteit": {
+                          "code": "J",
+                          "omschrijving": "Ja",
+                          "referentieType": "geenRT"
+                        }
+                      },
+                      "exporteert": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "importeert": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "handeltOnder": {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20091030"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20091030"
+                        },
+                        "naam": "Free mediahex B.V. de tweede",
+                        "volgorde": "1"
+                      }
+                    }
+                  }
                 },
-                "Naam": "Free mediahex B.V. de tweede",
-                "Volgorde": 1
-              },
-              "RelatieRegistratie": {
-                "DatumAanvang": 20091030,
-                "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-              }
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20000101"
+                  },
+                  "commercieleVestiging": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20000101"
+                    },
+                    "vestigingsnummer": "990000818799",
+                    "bezoekLocatie": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20000101"
+                      },
+                      "afgeschermd": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "adres": {
+                        "binnenlandsAdres": {
+                          "straatnaam": "Kleine Beer",
+                          "huisnummer": "50",
+                          "postcode": {
+                            "cijfercombinatie": "7904",
+                            "lettercombinatie": "LV"
+                          },
+                          "plaats": "Hoogeveen",
+                          "bagId": {
+                            "identificatieNummeraanduiding": "0074999999485423",
+                            "identificatieAdresseerbaarObject": "0074999999493174"
+                          }
+                        }
+                      },
+                      "volledigAdres": "Kleine Beer 50 7904LV Hoogeveen"
+                    },
+                    "postLocatie": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20000101"
+                      },
+                      "afgeschermd": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "adres": {
+                        "binnenlandsAdres": {
+                          "postbusnummer": "99999",
+                          "postcode": {
+                            "cijfercombinatie": "7884",
+                            "lettercombinatie": "TB"
+                          },
+                          "plaats": "Barger-Compascuum"
+                        }
+                      },
+                      "volledigAdres": "Postbus 99999 7884TB Barger-Compascuum"
+                    },
+                    "communicatiegegevens": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20000101"
+                      },
+                      "communicatienummer": [
+                        {
+                          "toegangscode": "+31",
+                          "nummer": "0209999999",
+                          "soort": {
+                            "code": "T",
+                            "omschrijving": "Telefoon"
+                          }
+                        },
+                        {
+                          "toegangscode": "+31",
+                          "nummer": "0209999999",
+                          "soort": {
+                            "code": "F",
+                            "omschrijving": "Fax"
+                          }
+                        }
+                      ],
+                      "emailAdres": "nepemailadres@kvk.nl",
+                      "domeinNaam": "www.kvk.nl"
+                    },
+                    "eersteHandelsnaam": "Free mediahex B.V. de tweede",
+                    "voltijdWerkzamePersonen": "4",
+                    "deeltijdWerkzamePersonen": "0",
+                    "totaalWerkzamePersonen": "4",
+                    "activiteiten": {
+                      "omschrijving": "Het in opdracht van derden beheren en administreren van onroerende goederen",
+                      "sbiActiviteit": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20000101"
+                        },
+                        "sbiCode": {
+                          "code": "6832",
+                          "omschrijving": "Beheer van onroerend goed",
+                          "referentieType": "ActiviteitCode"
+                        },
+                        "isHoofdactiviteit": {
+                          "code": "J",
+                          "omschrijving": "Ja",
+                          "referentieType": "geenRT"
+                        }
+                      },
+                      "exporteert": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "importeert": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "handeltOnder": {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20091030"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20091030"
+                        },
+                        "naam": "Free mediahex B.V. de tweede",
+                        "volgorde": "1"
+                      }
+                    }
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20090101"
+                  },
+                  "commercieleVestiging": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20090101"
+                    },
+                    "vestigingsnummer": "990000149263",
+                    "bezoekLocatie": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20090101"
+                      },
+                      "afgeschermd": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "adres": {
+                        "binnenlandsAdres": {
+                          "straatnaam": "Wielewaalstraat",
+                          "huisnummer": "7",
+                          "postcode": {
+                            "cijfercombinatie": "2623",
+                            "lettercombinatie": "GT"
+                          },
+                          "plaats": "Delft",
+                          "bagId": {
+                            "identificatieNummeraanduiding": "0074999999721993",
+                            "identificatieAdresseerbaarObject": "0074999999354432"
+                          }
+                        }
+                      },
+                      "volledigAdres": "Wielewaalstraat 7 2623GT Delft"
+                    },
+                    "communicatiegegevens": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20090101"
+                      },
+                      "communicatienummer": [
+                        {
+                          "toegangscode": "+31",
+                          "nummer": "0209999999",
+                          "soort": {
+                            "code": "T",
+                            "omschrijving": "Telefoon"
+                          }
+                        },
+                        {
+                          "toegangscode": "+31",
+                          "nummer": "0209999999",
+                          "soort": {
+                            "code": "F",
+                            "omschrijving": "Fax"
+                          }
+                        }
+                      ],
+                      "emailAdres": "nepemailadres@kvk.nl"
+                    },
+                    "eersteHandelsnaam": "Free mediahex B.V. de derde",
+                    "voltijdWerkzamePersonen": "4",
+                    "deeltijdWerkzamePersonen": "0",
+                    "totaalWerkzamePersonen": "4",
+                    "activiteiten": {
+                      "omschrijving": "Het in opdracht van derden beheren van onroerende goederen. Het uitoefenen van makelaardij in onroerende goederen.",
+                      "sbiActiviteit": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20090101"
+                        },
+                        "sbiCode": {
+                          "code": "6831",
+                          "omschrijving": "Bemiddeling bij handel, huur of verhuur van onroerend goed",
+                          "referentieType": "ActiviteitCode"
+                        },
+                        "isHoofdactiviteit": {
+                          "code": "J",
+                          "omschrijving": "Ja",
+                          "referentieType": "geenRT"
+                        }
+                      },
+                      "exporteert": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "importeert": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "handeltOnder": {
+                      "relatieRegistratie": {
+                        "@registratieTijdstip": "20101022143151030",
+                        "datumAanvang": "20101007"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20091030"
+                        },
+                        "naam": "Free mediahex B.V. de derde",
+                        "volgorde": "2"
+                      }
+                    }
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstip": "20101022143151030",
+                    "datumAanvang": "20101007"
+                  },
+                  "commercieleVestiging": {
+                    "registratie": {
+                      "@registratieTijdstip": "20101022143151030",
+                      "datumAanvang": "20101007"
+                    },
+                    "vestigingsnummer": "990000379169",
+                    "bezoekLocatie": {
+                      "registratie": {
+                        "@registratieTijdstip": "20101022143151030",
+                        "datumAanvang": "20101007"
+                      },
+                      "afgeschermd": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "adres": {
+                        "binnenlandsAdres": {
+                          "straatnaam": "Zomertaling",
+                          "huisnummer": "15",
+                          "postcode": {
+                            "cijfercombinatie": "8532",
+                            "lettercombinatie": "BB"
+                          },
+                          "plaats": "Lemmer",
+                          "bagId": {
+                            "identificatieNummeraanduiding": "0074999999791226",
+                            "identificatieAdresseerbaarObject": "0074999999847383"
+                          }
+                        }
+                      },
+                      "volledigAdres": "Zomertaling 15 8532BB Lemmer"
+                    },
+                    "communicatiegegevens": {
+                      "registratie": {
+                        "@registratieTijdstip": "20101022143151030",
+                        "datumAanvang": "20101007"
+                      },
+                      "communicatienummer": [
+                        {
+                          "toegangscode": "+31",
+                          "nummer": "0209999999",
+                          "soort": {
+                            "code": "T",
+                            "omschrijving": "Telefoon"
+                          }
+                        },
+                        {
+                          "toegangscode": "+31",
+                          "nummer": "0209999999",
+                          "soort": {
+                            "code": "F",
+                            "omschrijving": "Fax"
+                          }
+                        }
+                      ],
+                      "emailAdres": "nepemailadres@kvk.nl",
+                      "domeinNaam": "www.kvk.nl"
+                    },
+                    "eersteHandelsnaam": "Free mediahex B.V.",
+                    "voltijdWerkzamePersonen": "0",
+                    "deeltijdWerkzamePersonen": "0",
+                    "totaalWerkzamePersonen": "0",
+                    "activiteiten": {
+                      "omschrijving": "Het in opdracht van derden beheren en administreren van onroerende goederen.",
+                      "sbiActiviteit": {
+                        "registratie": {
+                          "@registratieTijdstip": "20101022143151030",
+                          "datumAanvang": "20101007"
+                        },
+                        "sbiCode": {
+                          "code": "6832",
+                          "omschrijving": "Beheer van onroerend goed",
+                          "referentieType": "ActiviteitCode"
+                        },
+                        "isHoofdactiviteit": {
+                          "code": "J",
+                          "omschrijving": "Ja",
+                          "referentieType": "geenRT"
+                        }
+                      },
+                      "exporteert": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "importeert": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "handeltOnder": {
+                      "relatieRegistratie": {
+                        "@registratieTijdstip": "20101022143151030",
+                        "datumAanvang": "20101007"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20091030"
+                        },
+                        "naam": "Free mediahex B.V.",
+                        "volgorde": "0"
+                      }
+                    }
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstip": "20130821170641182",
+                    "datumAanvang": "20130101"
+                  },
+                  "commercieleVestiging": {
+                    "registratie": {
+                      "@registratieTijdstip": "20130821170641182",
+                      "datumAanvang": "20130101"
+                    },
+                    "vestigingsnummer": "990000331214",
+                    "bezoekLocatie": {
+                      "registratie": {
+                        "@registratieTijdstip": "20130821170641182",
+                        "datumAanvang": "20130101"
+                      },
+                      "afgeschermd": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "adres": {
+                        "binnenlandsAdres": {
+                          "straatnaam": "Nude",
+                          "huisnummer": "23",
+                          "postcode": {
+                            "cijfercombinatie": "6702",
+                            "lettercombinatie": "DJ"
+                          },
+                          "plaats": "Wageningen",
+                          "bagId": {
+                            "identificatieNummeraanduiding": "0074999999745055",
+                            "identificatieAdresseerbaarObject": "0074999999419820"
+                          }
+                        }
+                      },
+                      "volledigAdres": "Nude 23 6702DJ Wageningen"
+                    },
+                    "communicatiegegevens": {
+                      "registratie": {
+                        "@registratieTijdstip": "20130821170641182",
+                        "datumAanvang": "20130101"
+                      },
+                      "communicatienummer": {
+                        "toegangscode": "+31",
+                        "nummer": "0209999999",
+                        "soort": {
+                          "code": "T",
+                          "omschrijving": "Telefoon"
+                        }
+                      },
+                      "emailAdres": "nepemailadres@kvk.nl",
+                      "domeinNaam": "www.kvk.nl"
+                    },
+                    "eersteHandelsnaam": "Free mediahex B.V.",
+                    "voltijdWerkzamePersonen": "2",
+                    "deeltijdWerkzamePersonen": "1",
+                    "totaalWerkzamePersonen": "3",
+                    "activiteiten": {
+                      "omschrijving": "Beheer van onroerend goed alsmede bemiddeling bij handel, huur of verhuur van onroerend goed",
+                      "sbiActiviteit": [
+                        {
+                          "registratie": {
+                            "@registratieTijdstip": "20130821170641182",
+                            "datumAanvang": "20130101"
+                          },
+                          "sbiCode": {
+                            "code": "6831",
+                            "omschrijving": "Bemiddeling bij handel, huur of verhuur van onroerend goed",
+                            "referentieType": "ActiviteitCode"
+                          },
+                          "isHoofdactiviteit": {
+                            "code": "J",
+                            "omschrijving": "Ja",
+                            "referentieType": "geenRT"
+                          }
+                        },
+                        {
+                          "registratie": {
+                            "@registratieTijdstip": "20130821170641182",
+                            "datumAanvang": "20130101"
+                          },
+                          "sbiCode": {
+                            "code": "6832",
+                            "omschrijving": "Beheer van onroerend goed",
+                            "referentieType": "ActiviteitCode"
+                          },
+                          "isHoofdactiviteit": {
+                            "code": "N",
+                            "omschrijving": "Nee",
+                            "referentieType": "geenRT"
+                          }
+                        }
+                      ],
+                      "exporteert": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "importeert": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "handeltOnder": [
+                      {
+                        "relatieRegistratie": {
+                          "@registratieTijdstip": "20130821170641182",
+                          "datumAanvang": "20130101"
+                        },
+                        "handelsnaam": {
+                          "registratie": {
+                            "@registratieTijdstip": "20130821170641182",
+                            "datumAanvang": "20130101"
+                          },
+                          "naam": "Free mediahex B.V.",
+                          "volgorde": "0"
+                        }
+                      },
+                      {
+                        "relatieRegistratie": {
+                          "@registratieTijdstip": "20130821170641182",
+                          "datumAanvang": "20130101"
+                        },
+                        "handelsnaam": {
+                          "registratie": {
+                            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                            "datumAanvang": "20091030"
+                          },
+                          "naam": "Free mediahex B.V. de tweede",
+                          "volgorde": "1"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
             }
-          }
-        }
-      }
-    },
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": {
-        "Registratie": {
-          "DatumAanvang": 19811223,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "Vestigingsnummer": 990000125304,
-        "BezoekLocatie": {
-          "Registratie": {
-            "DatumAanvang": 19951218,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
           },
-          "Afgeschermd": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Adres": {
-            "BinnenlandsAdres": {
-              "Straatnaam": "Esdoornstraat",
-              "Huisnummer": 15,
-              "Postcode": {
-                "Cijfercombinatie": 4431,
-                "Lettercombinatie": "DH"
+          "wordtGeleidVanuit": {
+            "commercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19811223"
               },
-              "Plaats": "\u0027s-Gravenpolder",
-              "BagId": {
-                "IdentificatieNummeraanduiding": 74999999985659,
-                "IdentificatieAdresseerbaarObject": 74999999823293
+              "vestigingsnummer": "990000125304",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19951218"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Esdoornstraat",
+                    "huisnummer": "15",
+                    "postcode": {
+                      "cijfercombinatie": "4431",
+                      "lettercombinatie": "DH"
+                    },
+                    "plaats": "'s-Gravenpolder",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999985659",
+                      "identificatieAdresseerbaarObject": "0074999999823293"
+                    }
+                  }
+                },
+                "volledigAdres": "Esdoornstraat 15 4431DH 's-Gravenpolder"
               },
-              "HuisnummerToevoeging": null
-            }
-          },
-          "VolledigAdres": "Esdoornstraat 15 4431DH \u0027s-Gravenpolder"
-        },
-        "Communicatiegegevens": {
-          "Registratie": {
-            "DatumAanvang": 20101007,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Communicatienummer": [
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            },
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "F",
-                "Omschrijving": "Fax"
-              }
-            }
-          ],
-          "EmailAdres": "nepemailadres@kvk.nl"
-        },
-        "EersteHandelsnaam": "Free mediahex B.V. de tweede",
-        "VoltijdWerkzamePersonen": 45,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 45,
-        "Activiteiten": {
-          "Omschrijving": "Het in opdracht van derden beheren en administreren van onroerende goederen",
-          "SbiActiviteit": {
-            "Registratie": {
-              "DatumAanvang": 19811223,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 6832,
-              "Omschrijving": "Beheer van onroerend goed",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          },
-          "Exporteert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Importeert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          }
-        },
-        "HandeltOnder": {
-          "Handelsnaam": {
-            "Registratie": {
-              "DatumAanvang": 20091030,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Naam": "Free mediahex B.V. de tweede",
-            "Volgorde": 1
-          },
-          "RelatieRegistratie": {
-            "DatumAanvang": 20091030,
-            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-          }
-        }
-      }
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 19840927,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": {
-        "VoornemenTotOntbinding": null,
-        "ActiviteitenGestaaktPer": null,
-        "Rechtsvorm": {
-          "Code": "BV",
-          "Omschrijving": "Besloten Vennootschap"
-        },
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": {
-              "Functie": {
-                "Code": "01",
-                "Omschrijving": "Gevolmachtigde",
-                "ReferentieType": "FunctionarisRol"
+              "postLocatie": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19811223"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "postbusnummer": "99999",
+                    "postcode": {
+                      "cijfercombinatie": "7884",
+                      "lettercombinatie": "TB"
+                    },
+                    "plaats": "Barger-Compascuum"
+                  }
+                },
+                "volledigAdres": "Postbus 99999 7884TB Barger-Compascuum"
               },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstip": "20101022143151030",
+                  "datumAanvang": "20101007"
+                },
+                "communicatienummer": [
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "T",
+                      "omschrijving": "Telefoon"
                     }
                   },
-                  "Registratie": {
-                    "DatumAanvang": 19420820,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "F",
+                      "omschrijving": "Fax"
+                    }
+                  }
+                ],
+                "emailAdres": "nepemailadres@kvk.nl",
+                "domeinNaam": "www.kvk.nl"
+              },
+              "eersteHandelsnaam": "Free mediahex B.V. de tweede",
+              "voltijdWerkzamePersonen": "45",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "45",
+              "activiteiten": {
+                "omschrijving": "Het in opdracht van derden beheren en administreren van onroerende goederen",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19811223"
                   },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
+                  "sbiCode": {
+                    "code": "6832",
+                    "omschrijving": "Beheer van onroerend goed",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
                 },
-                "Rechtspersoon": null
-              },
-              "Volmacht": {
-                "TypeVolmacht": {
-                  "Code": "b",
-                  "Omschrijving": "Beperkte volmacht"
+                "exporteert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "importeert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
                 }
               },
-              "Bevoegdheid": null,
-              "Functietitel": {
-                "Titel": "Vestigingsleider"
+              "handeltOnder": {
+                "relatieRegistratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20091030"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20091030"
+                  },
+                  "naam": "Free mediahex B.V. de tweede",
+                  "volgorde": "1"
+                }
               }
-            },
-            "PubliekrechtelijkeFunctionaris": null
+            }
           },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": null,
-                "Rechtspersoon": {
-                  "VoornemenTotOntbinding": null,
-                  "ActiviteitenGestaaktPer": null,
-                  "Rechtsvorm": null,
-                  "Heeft": [],
-                  "VolledigeNaam": "Jan Klaasen",
-                  "Rsin": "992810450"
-                }
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "azb",
-                  "Omschrijving": "Alleen/zelfstandig bevoegd"
-                }
-              },
-              "Functietitel": {
-                "Titel": "Algemeen directeur"
-              }
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19840927"
             },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
+            "rechtspersoon": {
+              "extraElementen": {
+                "extraElement": [
+                  {
+                    "@naam": "datumAanvangStatuten",
+                    "#text": "20091030"
+                  },
+                  {
+                    "@naam": "datumAkteStatuten",
+                    "#text": "20091030"
+                  }
+                ]
+              },
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19840927"
+              },
+              "persoonRechtsvorm": "Besloten Vennootschap",
+              "volledigeNaam": "Free mediahex B.V.",
+              "uitgebreideRechtsvorm": "Besloten Vennootschap",
+              "heeft": [
+                {
+                  "gemachtigde": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20040101"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20040101"
+                      },
+                      "titel": "Vestigingsleider",
+                      "isStatutaireTitel": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Propp"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19420820"
+                        },
+                        "volledigeNaam": "Georgene Propp",
+                        "geslachtsnaam": "Klaasen",
+"voornamen": "Jan",
+"geboortedatum": "20000101"
+                      }
+                    },
+                    "functie": {
+                      "code": "01",
+                      "omschrijving": "Gevolmachtigde",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "volmacht": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20040101"
+                      },
+                      "typeVolmacht": {
+                        "code": "b",
+                        "omschrijving": "Beperkte volmacht",
+                        "referentieType": "VolmachtType"
+                      },
+                      "isStatutair": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "beperkteVolmacht": {
+                        "magOpgaveHandelsregisterDoen": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        },
+                        "heeftOverigeVolmacht": {
+                          "code": "J",
+                          "omschrijving": "Ja",
+                          "referentieType": "geenRT"
+                        }
+                      },
+                      "heeftBetrekkingOp": {
+                        "nietCommercieleVestiging": {
+                          "vestigingsnummer": "000020094426"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstip": "20101022143151030",
+                      "datumAanvang": "20101019"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstip": "20101022143151030",
+                        "datumAanvang": "20101019"
+                      },
+                      "titel": "Algemeen directeur",
+                      "isStatutaireTitel": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "rechtspersoon": {
+                        "persoonRechtsvorm": "Besloten Vennootschap",
+                        "volledigeNaam": "International Groovetechno B.V.",
+                        "bezoekLocatiePersoon": {
+                          "registratie": {
+                            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                            "datumAanvang": "20080522"
+                          },
+                          "afgeschermd": {
+                            "code": "N",
+                            "omschrijving": "Nee",
+                            "referentieType": "geenRT"
+                          },
+                          "adres": {
+                            "binnenlandsAdres": {
+                              "straatnaam": "Esdoornstraat",
+                              "huisnummer": "15",
+                              "postcode": {
+                                "cijfercombinatie": "4431",
+                                "lettercombinatie": "DH"
+                              },
+                              "plaats": "'s-Gravenpolder",
+                              "bagId": {
+                                "identificatieNummeraanduiding": "0074999999985659",
+                                "identificatieAdresseerbaarObject": "0074999999823293"
+                              }
+                            }
+                          },
+                          "volledigAdres": "Esdoornstraat 15 4431DH 's-Gravenpolder"
+                        },
+                        "isEigenaarVan": {
+                          "maatschappelijkeActiviteit": {
+                            "kvkNummer": "90000943",
+                            "nonMailing": {
+                              "code": "N",
+                              "omschrijving": "Nee",
+                              "referentieType": "geenRT"
+                            }
+                          }
+                        },
+                        "rsin": "992810450"
+                      }
+                    },
+                    "functie": {
+                      "code": "02",
+                      "omschrijving": "Bestuurder",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstip": "20101022143151030",
+                        "datumAanvang": "20101019"
+                      },
+                      "soort": {
+                        "code": "azb",
+                        "omschrijving": "Alleen/zelfstandig bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                }
+              ],
+              "rsin": "992462204",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20091030"
+                },
+                "naam": "Free mediahex B.V."
+              },
+              "rechtsvorm": {
+                "code": "BV",
+                "omschrijving": "Besloten Vennootschap",
+                "referentieType": "Rechtsvorm"
+              },
+              "statutaireZetel": "Nepplaats",
+              "aanvangStatutaireZetel": "19840927",
+              "datumAkteOprichting": "19840927",
+              "datumAkteStatutenwijziging": "20091030",
+              "stelselInrichting": {
+                "code": "D",
+                "omschrijving": "Dualistisch",
+                "referentieType": "StelselInrichting"
+              },
+              "structuur": {
+                "code": "GS",
+                "omschrijving": "Gewone structuur",
+                "referentieType": "RechtsvormStructuur"
+              },
+              "geplaatstKapitaal": {
+                "registratie": {
+                  "@registratieTijdstip": "20140903100416517",
+                  "datumAanvang": "20140902"
+                },
+                "bedrag": {
+                  "waarde": "17243.64",
+                  "valuta": {
+                    "code": "EUR",
+                    "omschrijving": "Euro",
+                    "referentieType": "Valuta"
+                  }
+                }
+              },
+              "gestortKapitaal": {
+                "registratie": {
+                  "@registratieTijdstip": "20140903100416517",
+                  "datumAanvang": "20140902"
+                },
+                "bedrag": {
+                  "waarde": "17243.64",
+                  "valuta": {
+                    "code": "EUR",
+                    "omschrijving": "Euro",
+                    "referentieType": "Valuta"
+                  }
+                }
+              },
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19951218"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Esdoornstraat",
+                    "huisnummer": "15",
+                    "postcode": {
+                      "cijfercombinatie": "4431",
+                      "lettercombinatie": "DH"
+                    },
+                    "plaats": "'s-Gravenpolder",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999985659",
+                      "identificatieAdresseerbaarObject": "0074999999823293"
+                    }
+                  }
+                },
+                "volledigAdres": "Esdoornstraat 15 4431DH 's-Gravenpolder"
+              }
+            }
           }
-        ],
-        "VolledigeNaam": "Jan Klaasen",
-        "Rsin": "992462204"
+        }
       }
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

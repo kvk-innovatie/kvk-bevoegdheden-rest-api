@@ -1,1048 +1,2112 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 19940914,
-      "DatumEinde": 0,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90003233,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20020422,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "De Gyselaar",
-          "Huisnummer": 36,
-          "Postcode": {
-            "Cijfercombinatie": 6436,
-            "Lettercombinatie": "AX"
-          },
-          "Plaats": "Amstenrade",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999904988,
-            "IdentificatieAdresseerbaarObject": 74999999901463
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-6d57a924c36cc5b13fb8b01b44104e59",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90003233"
         }
       },
-      "VolledigAdres": "De Gyselaar 36 6436AX Amstenrade"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 19940914,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": null,
-          "Huisnummer": 0,
-          "Postcode": {
-            "Cijfercombinatie": 8076,
-            "Lettercombinatie": "PN"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "19940914"
           },
-          "Plaats": "Vierhouten",
-          "BagId": null,
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Postbus 99999 8076PN Vierhouten"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 20150101,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        },
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "F",
-            "Omschrijving": "Fax"
-          }
-        }
-      ],
-      "EmailAdres": "nepemailadres@kvk.nl"
-    },
-    "Naam": "International Linetone",
-    "ManifesteertZichAls": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 19940914,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "Onderneming": {
-        "Registratie": {
-          "DatumAanvang": 19940914,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "KvkNummer": 90003233,
-        "SbiActiviteit": [
-          {
-            "Registratie": {
-              "DatumAanvang": 20140523,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 6420,
-              "Omschrijving": "Financi\u00EBle holdings",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          }
-        ],
-        "VoltijdWerkzamePersonen": 28,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 28,
-        "HandeltOnder": [
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20141223,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V.",
-              "Volgorde": 0
-            },
-            "RelatieRegistratie": null
+          "kvkNummer": "90003233",
+          "nonMailing": {
+            "code": "J",
+            "omschrijving": "Ja",
+            "referentieType": "geenRT"
           },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20080805,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de tweede",
-              "Volgorde": 1
-            },
-            "RelatieRegistratie": null
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "J",
+            "omschrijving": "Ja",
+            "referentieType": "geenRT"
           },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20080805,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de derde",
-              "Volgorde": 2
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "20020422"
             },
-            "RelatieRegistratie": null
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "De Gyselaar",
+                "huisnummer": "36",
+                "postcode": {
+                  "cijfercombinatie": "6436",
+                  "lettercombinatie": "AX"
+                },
+                "plaats": "Amstenrade",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999904988",
+                  "identificatieAdresseerbaarObject": "0074999999901463"
+                }
+              }
+            },
+            "volledigAdres": "De Gyselaar 36 6436AX Amstenrade"
           },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20080805,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de vierde",
-              "Volgorde": 3
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19940914"
             },
-            "RelatieRegistratie": null
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "postbusnummer": "99999",
+                "postcode": {
+                  "cijfercombinatie": "8076",
+                  "lettercombinatie": "PN"
+                },
+                "plaats": "Vierhouten"
+              }
+            },
+            "volledigAdres": "Postbus 99999 8076PN Vierhouten"
           },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20080805,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de vijfde",
-              "Volgorde": 4
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstip": "20150522140953417",
+              "datumAanvang": "20150101"
             },
-            "RelatieRegistratie": null
-          },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20080805,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de zesde",
-              "Volgorde": 5
-            },
-            "RelatieRegistratie": null
-          },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20080805,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de zevende",
-              "Volgorde": 6
-            },
-            "RelatieRegistratie": null
-          },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20080805,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de achtste",
-              "Volgorde": 7
-            },
-            "RelatieRegistratie": null
-          },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20080805,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de negende",
-              "Volgorde": 8
-            },
-            "RelatieRegistratie": null
-          },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20080805,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de tiende",
-              "Volgorde": 9
-            },
-            "RelatieRegistratie": null
-          },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20080805,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de elfde",
-              "Volgorde": 10
-            },
-            "RelatieRegistratie": null
-          },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20080805,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de twaalfde",
-              "Volgorde": 11
-            },
-            "RelatieRegistratie": null
-          },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20080805,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de dertiende",
-              "Volgorde": 12
-            },
-            "RelatieRegistratie": null
-          },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20081215,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de veertiende",
-              "Volgorde": 13
-            },
-            "RelatieRegistratie": null
-          },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20081215,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de vijftiende",
-              "Volgorde": 14
-            },
-            "RelatieRegistratie": null
-          },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20081215,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de zestiende",
-              "Volgorde": 15
-            },
-            "RelatieRegistratie": null
-          },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20081215,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de zeventiende",
-              "Volgorde": 16
-            },
-            "RelatieRegistratie": null
-          },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20081215,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de achtiende",
-              "Volgorde": 17
-            },
-            "RelatieRegistratie": null
-          },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20081215,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de negentiende",
-              "Volgorde": 18
-            },
-            "RelatieRegistratie": null
-          },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20081215,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de twintigste",
-              "Volgorde": 19
-            },
-            "RelatieRegistratie": null
-          },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20081215,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de zoveelste",
-              "Volgorde": 20
-            },
-            "RelatieRegistratie": null
-          },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20081215,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de zoveelste",
-              "Volgorde": 21
-            },
-            "RelatieRegistratie": null
-          },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20081215,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de zoveelste",
-              "Volgorde": 22
-            },
-            "RelatieRegistratie": null
-          },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20081215,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de zoveelste",
-              "Volgorde": 23
-            },
-            "RelatieRegistratie": null
-          },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20081215,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de zoveelste",
-              "Volgorde": 24
-            },
-            "RelatieRegistratie": null
-          },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20081215,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de zoveelste",
-              "Volgorde": 25
-            },
-            "RelatieRegistratie": null
-          },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20090414,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de zoveelste",
-              "Volgorde": 26
-            },
-            "RelatieRegistratie": null
-          },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20130812,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de zoveelste",
-              "Volgorde": 27
-            },
-            "RelatieRegistratie": null
-          },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20140813,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de zoveelste",
-              "Volgorde": 28
-            },
-            "RelatieRegistratie": null
-          },
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20141223,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "International Linetone B.V. de zoveelste",
-              "Volgorde": 29
-            },
-            "RelatieRegistratie": null
-          }
-        ],
-        "WordtUitgeoefendIn": {
-          "RelatieRegistratie": {
-            "DatumAanvang": 19940914,
-            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-          },
-          "CommercieleVestiging": {
-            "Registratie": {
-              "DatumAanvang": 19940914,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Vestigingsnummer": 990000977556,
-            "BezoekLocatie": {
-              "Registratie": {
-                "DatumAanvang": 20020422,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Afgeschermd": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Adres": {
-                "BinnenlandsAdres": {
-                  "Straatnaam": "De Gyselaar",
-                  "Huisnummer": 36,
-                  "Postcode": {
-                    "Cijfercombinatie": 6436,
-                    "Lettercombinatie": "AX"
-                  },
-                  "Plaats": "Amstenrade",
-                  "BagId": {
-                    "IdentificatieNummeraanduiding": 74999999904988,
-                    "IdentificatieAdresseerbaarObject": 74999999901463
-                  },
-                  "HuisnummerToevoeging": null
+            "communicatienummer": [
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "T",
+                  "omschrijving": "Telefoon"
                 }
               },
-              "VolledigAdres": "De Gyselaar 36 6436AX Amstenrade"
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "F",
+                  "omschrijving": "Fax"
+                }
+              }
+            ],
+            "emailAdres": "nepemailadres@kvk.nl",
+            "domeinNaam": "www.kvk.nl"
+          },
+          "naam": "International Linetone",
+          "manifesteertZichAls": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19940914"
             },
-            "Communicatiegegevens": {
-              "Registratie": {
-                "DatumAanvang": 20150101,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
+            "onderneming": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19940914"
               },
-              "Communicatienummer": [
+              "kvkNummer": "90003233",
+              "sbiActiviteit": {
+                "registratie": {
+                  "@registratieTijdstip": "20140523142711183",
+                  "datumAanvang": "20140523"
+                },
+                "sbiCode": {
+                  "code": "6420",
+                  "omschrijving": "Financiële holdings",
+                  "referentieType": "ActiviteitCode"
+                },
+                "isHoofdactiviteit": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
+                }
+              },
+              "voltijdWerkzamePersonen": "28",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "28",
+              "handeltOnder": [
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstip": "20141229074511741",
+                      "datumAanvang": "20141223"
+                    },
+                    "naam": "International Linetone B.V.",
+                    "volgorde": "0"
                   }
                 },
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "F",
-                    "Omschrijving": "Fax"
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080805"
+                    },
+                    "naam": "International Linetone B.V. de tweede",
+                    "volgorde": "1"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080805"
+                    },
+                    "naam": "International Linetone B.V. de derde",
+                    "volgorde": "2"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080805"
+                    },
+                    "naam": "International Linetone B.V. de vierde",
+                    "volgorde": "3"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080805"
+                    },
+                    "naam": "International Linetone B.V. de vijfde",
+                    "volgorde": "4"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080805"
+                    },
+                    "naam": "International Linetone B.V. de zesde",
+                    "volgorde": "5"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080805"
+                    },
+                    "naam": "International Linetone B.V. de zevende",
+                    "volgorde": "6"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080805"
+                    },
+                    "naam": "International Linetone B.V. de achtste",
+                    "volgorde": "7"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080805"
+                    },
+                    "naam": "International Linetone B.V. de negende",
+                    "volgorde": "8"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080805"
+                    },
+                    "naam": "International Linetone B.V. de tiende",
+                    "volgorde": "9"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080805"
+                    },
+                    "naam": "International Linetone B.V. de elfde",
+                    "volgorde": "10"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080805"
+                    },
+                    "naam": "International Linetone B.V. de twaalfde",
+                    "volgorde": "11"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080805"
+                    },
+                    "naam": "International Linetone B.V. de dertiende",
+                    "volgorde": "12"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20081215"
+                    },
+                    "naam": "International Linetone B.V. de veertiende",
+                    "volgorde": "13"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20081215"
+                    },
+                    "naam": "International Linetone B.V. de vijftiende",
+                    "volgorde": "14"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20081215"
+                    },
+                    "naam": "International Linetone B.V. de zestiende",
+                    "volgorde": "15"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20081215"
+                    },
+                    "naam": "International Linetone B.V. de zeventiende",
+                    "volgorde": "16"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20081215"
+                    },
+                    "naam": "International Linetone B.V. de achtiende",
+                    "volgorde": "17"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20081215"
+                    },
+                    "naam": "International Linetone B.V. de negentiende",
+                    "volgorde": "18"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20081215"
+                    },
+                    "naam": "International Linetone B.V. de twintigste",
+                    "volgorde": "19"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20081215"
+                    },
+                    "naam": "International Linetone B.V. de zoveelste",
+                    "volgorde": "20"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20081215"
+                    },
+                    "naam": "International Linetone B.V. de zoveelste",
+                    "volgorde": "21"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20081215"
+                    },
+                    "naam": "International Linetone B.V. de zoveelste",
+                    "volgorde": "22"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20081215"
+                    },
+                    "naam": "International Linetone B.V. de zoveelste",
+                    "volgorde": "23"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20081215"
+                    },
+                    "naam": "International Linetone B.V. de zoveelste",
+                    "volgorde": "24"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20081215"
+                    },
+                    "naam": "International Linetone B.V. de zoveelste",
+                    "volgorde": "25"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20090414"
+                    },
+                    "naam": "International Linetone B.V. de zoveelste",
+                    "volgorde": "26"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstip": "20130813121416727",
+                      "datumAanvang": "20130812"
+                    },
+                    "naam": "International Linetone B.V. de zoveelste",
+                    "volgorde": "27"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstip": "20140818110515399",
+                      "datumAanvang": "20140813"
+                    },
+                    "naam": "International Linetone B.V. de zoveelste",
+                    "volgorde": "28"
+                  }
+                },
+                {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstip": "20141231102654912",
+                      "datumAanvang": "20141223"
+                    },
+                    "naam": "International Linetone B.V. de zoveelste",
+                    "volgorde": "29"
                   }
                 }
               ],
-              "EmailAdres": "nepemailadres@kvk.nl"
-            },
-            "EersteHandelsnaam": "International Linetone B.V.",
-            "VoltijdWerkzamePersonen": 28,
-            "DeeltijdWerkzamePersonen": 0,
-            "TotaalWerkzamePersonen": 28,
-            "Activiteiten": {
-              "Omschrijving": "Trustmaatschappij alsmede het verlenen van administratieve en management diensten.",
-              "SbiActiviteit": {
-                "Registratie": {
-                  "DatumAanvang": 20140523,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
+              "wordtUitgeoefendIn": {
+                "relatieRegistratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19940914"
                 },
-                "SbiCode": {
-                  "Code": 6420,
-                  "Omschrijving": "Financi\u00EBle holdings",
-                  "ReferentieType": "ActiviteitCode"
+                "commercieleVestiging": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19940914"
+                  },
+                  "vestigingsnummer": "990000977556",
+                  "bezoekLocatie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20020422"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "straatnaam": "De Gyselaar",
+                        "huisnummer": "36",
+                        "postcode": {
+                          "cijfercombinatie": "6436",
+                          "lettercombinatie": "AX"
+                        },
+                        "plaats": "Amstenrade",
+                        "bagId": {
+                          "identificatieNummeraanduiding": "0074999999904988",
+                          "identificatieAdresseerbaarObject": "0074999999901463"
+                        }
+                      }
+                    },
+                    "volledigAdres": "De Gyselaar 36 6436AX Amstenrade"
+                  },
+                  "postLocatie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19940914"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "postbusnummer": "99999",
+                        "postcode": {
+                          "cijfercombinatie": "8076",
+                          "lettercombinatie": "PN"
+                        },
+                        "plaats": "Vierhouten"
+                      }
+                    },
+                    "volledigAdres": "Postbus 99999 8076PN Vierhouten"
+                  },
+                  "communicatiegegevens": {
+                    "registratie": {
+                      "@registratieTijdstip": "20150522140953417",
+                      "datumAanvang": "20150101"
+                    },
+                    "communicatienummer": [
+                      {
+                        "toegangscode": "+31",
+                        "nummer": "0209999999",
+                        "soort": {
+                          "code": "T",
+                          "omschrijving": "Telefoon"
+                        }
+                      },
+                      {
+                        "toegangscode": "+31",
+                        "nummer": "0209999999",
+                        "soort": {
+                          "code": "F",
+                          "omschrijving": "Fax"
+                        }
+                      }
+                    ],
+                    "emailAdres": "nepemailadres@kvk.nl",
+                    "domeinNaam": "www.kvk.nl"
+                  },
+                  "eersteHandelsnaam": "International Linetone B.V.",
+                  "voltijdWerkzamePersonen": "28",
+                  "deeltijdWerkzamePersonen": "0",
+                  "totaalWerkzamePersonen": "28",
+                  "activiteiten": {
+                    "omschrijving": "Trustmaatschappij alsmede het verlenen van administratieve en management diensten.",
+                    "sbiActiviteit": {
+                      "registratie": {
+                        "@registratieTijdstip": "20140523142711183",
+                        "datumAanvang": "20140523"
+                      },
+                      "sbiCode": {
+                        "code": "6420",
+                        "omschrijving": "Financiële holdings",
+                        "referentieType": "ActiviteitCode"
+                      },
+                      "isHoofdactiviteit": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "exporteert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "importeert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  "handeltOnder": [
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstip": "20141229074511741",
+                        "datumAanvang": "20141223"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstip": "20141229074511741",
+                          "datumAanvang": "20141223"
+                        },
+                        "naam": "International Linetone B.V.",
+                        "volgorde": "0"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20080805"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20080805"
+                        },
+                        "naam": "International Linetone B.V. de tweede",
+                        "volgorde": "1"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20080805"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20080805"
+                        },
+                        "naam": "International Linetone B.V. de derde",
+                        "volgorde": "2"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20080805"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20080805"
+                        },
+                        "naam": "International Linetone B.V. de vierde",
+                        "volgorde": "3"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20080805"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20080805"
+                        },
+                        "naam": "International Linetone B.V. de vijfde",
+                        "volgorde": "4"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20080805"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20080805"
+                        },
+                        "naam": "International Linetone B.V. de zesde",
+                        "volgorde": "5"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20080805"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20080805"
+                        },
+                        "naam": "International Linetone B.V. de zevende",
+                        "volgorde": "6"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20080805"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20080805"
+                        },
+                        "naam": "International Linetone B.V. de achtste",
+                        "volgorde": "7"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20080805"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20080805"
+                        },
+                        "naam": "International Linetone B.V. de negende",
+                        "volgorde": "8"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20080805"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20080805"
+                        },
+                        "naam": "International Linetone B.V. de tiende",
+                        "volgorde": "9"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20080805"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20080805"
+                        },
+                        "naam": "International Linetone B.V. de elfde",
+                        "volgorde": "10"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20080805"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20080805"
+                        },
+                        "naam": "International Linetone B.V. de twaalfde",
+                        "volgorde": "11"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20080805"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20080805"
+                        },
+                        "naam": "International Linetone B.V. de dertiende",
+                        "volgorde": "12"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20081215"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20081215"
+                        },
+                        "naam": "International Linetone B.V. de veertiende",
+                        "volgorde": "13"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20081215"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20081215"
+                        },
+                        "naam": "International Linetone B.V. de vijftiende",
+                        "volgorde": "14"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20081215"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20081215"
+                        },
+                        "naam": "International Linetone B.V. de zestiende",
+                        "volgorde": "15"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20081215"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20081215"
+                        },
+                        "naam": "International Linetone B.V. de zeventiende",
+                        "volgorde": "16"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20081215"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20081215"
+                        },
+                        "naam": "International Linetone B.V. de achtiende",
+                        "volgorde": "17"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20081215"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20081215"
+                        },
+                        "naam": "International Linetone B.V. de negentiende",
+                        "volgorde": "18"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20081215"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20081215"
+                        },
+                        "naam": "International Linetone B.V. de twintigste",
+                        "volgorde": "19"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20081215"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20081215"
+                        },
+                        "naam": "International Linetone B.V. de zoveelste",
+                        "volgorde": "20"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20081215"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20081215"
+                        },
+                        "naam": "International Linetone B.V. de zoveelste",
+                        "volgorde": "21"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20081215"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20081215"
+                        },
+                        "naam": "International Linetone B.V. de zoveelste",
+                        "volgorde": "22"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20081215"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20081215"
+                        },
+                        "naam": "International Linetone B.V. de zoveelste",
+                        "volgorde": "23"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20081215"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20081215"
+                        },
+                        "naam": "International Linetone B.V. de zoveelste",
+                        "volgorde": "24"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20081215"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20081215"
+                        },
+                        "naam": "International Linetone B.V. de zoveelste",
+                        "volgorde": "25"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20090414"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20090414"
+                        },
+                        "naam": "International Linetone B.V. de zoveelste",
+                        "volgorde": "26"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstip": "20130813121416727",
+                        "datumAanvang": "20130812"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstip": "20130813121416727",
+                          "datumAanvang": "20130812"
+                        },
+                        "naam": "International Linetone B.V. de zoveelste",
+                        "volgorde": "27"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstip": "20140818110515399",
+                        "datumAanvang": "20140813"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstip": "20140818110515399",
+                          "datumAanvang": "20140813"
+                        },
+                        "naam": "International Linetone B.V. de zoveelste",
+                        "volgorde": "28"
+                      }
+                    },
+                    {
+                      "relatieRegistratie": {
+                        "@registratieTijdstip": "20141231102654912",
+                        "datumAanvang": "20141223"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstip": "20141231102654912",
+                          "datumAanvang": "20141223"
+                        },
+                        "naam": "International Linetone B.V. de zoveelste",
+                        "volgorde": "29"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "wordtGeleidVanuit": {
+            "commercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19940914"
+              },
+              "vestigingsnummer": "990000977556",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20020422"
                 },
-                "IsHoofdactiviteit": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "De Gyselaar",
+                    "huisnummer": "36",
+                    "postcode": {
+                      "cijfercombinatie": "6436",
+                      "lettercombinatie": "AX"
+                    },
+                    "plaats": "Amstenrade",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999904988",
+                      "identificatieAdresseerbaarObject": "0074999999901463"
+                    }
+                  }
+                },
+                "volledigAdres": "De Gyselaar 36 6436AX Amstenrade"
+              },
+              "postLocatie": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19940914"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "postbusnummer": "99999",
+                    "postcode": {
+                      "cijfercombinatie": "8076",
+                      "lettercombinatie": "PN"
+                    },
+                    "plaats": "Vierhouten"
+                  }
+                },
+                "volledigAdres": "Postbus 99999 8076PN Vierhouten"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstip": "20150522140953417",
+                  "datumAanvang": "20150101"
+                },
+                "communicatienummer": [
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "T",
+                      "omschrijving": "Telefoon"
+                    }
+                  },
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "F",
+                      "omschrijving": "Fax"
+                    }
+                  }
+                ],
+                "emailAdres": "nepemailadres@kvk.nl",
+                "domeinNaam": "www.kvk.nl"
+              },
+              "eersteHandelsnaam": "International Linetone B.V.",
+              "voltijdWerkzamePersonen": "28",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "28",
+              "activiteiten": {
+                "omschrijving": "Trustmaatschappij alsmede het verlenen van administratieve en management diensten.",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstip": "20140523142711183",
+                    "datumAanvang": "20140523"
+                  },
+                  "sbiCode": {
+                    "code": "6420",
+                    "omschrijving": "Financiële holdings",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                },
+                "exporteert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "importeert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
                 }
               },
-              "Exporteert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Importeert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              }
-            },
-            "HandeltOnder": {
-              "Handelsnaam": {
-                "Registratie": {
-                  "DatumAanvang": 20141223,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
+              "handeltOnder": [
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstip": "20141229074511741",
+                    "datumAanvang": "20141223"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstip": "20141229074511741",
+                      "datumAanvang": "20141223"
+                    },
+                    "naam": "International Linetone B.V.",
+                    "volgorde": "0"
+                  }
                 },
-                "Naam": "International Linetone B.V.",
-                "Volgorde": 0
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20080805"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080805"
+                    },
+                    "naam": "International Linetone B.V. de tweede",
+                    "volgorde": "1"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20080805"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080805"
+                    },
+                    "naam": "International Linetone B.V. de derde",
+                    "volgorde": "2"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20080805"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080805"
+                    },
+                    "naam": "International Linetone B.V. de vierde",
+                    "volgorde": "3"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20080805"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080805"
+                    },
+                    "naam": "International Linetone B.V. de vijfde",
+                    "volgorde": "4"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20080805"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080805"
+                    },
+                    "naam": "International Linetone B.V. de zesde",
+                    "volgorde": "5"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20080805"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080805"
+                    },
+                    "naam": "International Linetone B.V. de zevende",
+                    "volgorde": "6"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20080805"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080805"
+                    },
+                    "naam": "International Linetone B.V. de achtste",
+                    "volgorde": "7"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20080805"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080805"
+                    },
+                    "naam": "International Linetone B.V. de negende",
+                    "volgorde": "8"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20080805"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080805"
+                    },
+                    "naam": "International Linetone B.V. de tiende",
+                    "volgorde": "9"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20080805"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080805"
+                    },
+                    "naam": "International Linetone B.V. de elfde",
+                    "volgorde": "10"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20080805"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080805"
+                    },
+                    "naam": "International Linetone B.V. de twaalfde",
+                    "volgorde": "11"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20080805"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080805"
+                    },
+                    "naam": "International Linetone B.V. de dertiende",
+                    "volgorde": "12"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20081215"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20081215"
+                    },
+                    "naam": "International Linetone B.V. de veertiende",
+                    "volgorde": "13"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20081215"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20081215"
+                    },
+                    "naam": "International Linetone B.V. de vijftiende",
+                    "volgorde": "14"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20081215"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20081215"
+                    },
+                    "naam": "International Linetone B.V. de zestiende",
+                    "volgorde": "15"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20081215"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20081215"
+                    },
+                    "naam": "International Linetone B.V. de zeventiende",
+                    "volgorde": "16"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20081215"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20081215"
+                    },
+                    "naam": "International Linetone B.V. de achtiende",
+                    "volgorde": "17"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20081215"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20081215"
+                    },
+                    "naam": "International Linetone B.V. de negentiende",
+                    "volgorde": "18"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20081215"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20081215"
+                    },
+                    "naam": "International Linetone B.V. de twintigste",
+                    "volgorde": "19"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20081215"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20081215"
+                    },
+                    "naam": "International Linetone B.V. de zoveelste",
+                    "volgorde": "20"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20081215"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20081215"
+                    },
+                    "naam": "International Linetone B.V. de zoveelste",
+                    "volgorde": "21"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20081215"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20081215"
+                    },
+                    "naam": "International Linetone B.V. de zoveelste",
+                    "volgorde": "22"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20081215"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20081215"
+                    },
+                    "naam": "International Linetone B.V. de zoveelste",
+                    "volgorde": "23"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20081215"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20081215"
+                    },
+                    "naam": "International Linetone B.V. de zoveelste",
+                    "volgorde": "24"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20081215"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20081215"
+                    },
+                    "naam": "International Linetone B.V. de zoveelste",
+                    "volgorde": "25"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20090414"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20090414"
+                    },
+                    "naam": "International Linetone B.V. de zoveelste",
+                    "volgorde": "26"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstip": "20130813121416727",
+                    "datumAanvang": "20130812"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstip": "20130813121416727",
+                      "datumAanvang": "20130812"
+                    },
+                    "naam": "International Linetone B.V. de zoveelste",
+                    "volgorde": "27"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstip": "20140818110515399",
+                    "datumAanvang": "20140813"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstip": "20140818110515399",
+                      "datumAanvang": "20140813"
+                    },
+                    "naam": "International Linetone B.V. de zoveelste",
+                    "volgorde": "28"
+                  }
+                },
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstip": "20141231102654912",
+                    "datumAanvang": "20141223"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstip": "20141231102654912",
+                      "datumAanvang": "20141223"
+                    },
+                    "naam": "International Linetone B.V. de zoveelste",
+                    "volgorde": "29"
+                  }
+                }
+              ]
+            }
+          },
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19940914"
+            },
+            "rechtspersoon": {
+              "extraElementen": {
+                "extraElement": [
+                  {
+                    "@naam": "datumAanvangStatuten",
+                    "#text": "20141223"
+                  },
+                  {
+                    "@naam": "datumAkteStatuten",
+                    "#text": "20141223"
+                  }
+                ]
               },
-              "RelatieRegistratie": {
-                "DatumAanvang": 20141223,
-                "RegistratieTijdstipNoValue": null
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19940914"
+              },
+              "persoonRechtsvorm": "Besloten Vennootschap",
+              "volledigeNaam": "International Linetone B.V.",
+              "uitgebreideRechtsvorm": "Besloten Vennootschap",
+              "heeft": [
+                {
+                  "overigeFunctionaris": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20080130"
+                    },
+                    "door": {
+                      "rechtspersoon": {
+                        "persoonRechtsvorm": "Besloten Vennootschap",
+                        "volledigeNaam": "Local Sil-technology B.V.",
+                        "bezoekLocatiePersoon": {
+                          "registratie": {
+                            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                            "datumAanvang": "20080110"
+                          },
+                          "afgeschermd": {
+                            "code": "N",
+                            "omschrijving": "Nee",
+                            "referentieType": "geenRT"
+                          },
+                          "adres": {
+                            "binnenlandsAdres": {
+                              "straatnaam": "De Gyselaar",
+                              "huisnummer": "36",
+                              "postcode": {
+                                "cijfercombinatie": "6436",
+                                "lettercombinatie": "AX"
+                              },
+                              "plaats": "Amstenrade",
+                              "bagId": {
+                                "identificatieNummeraanduiding": "0074999999904988",
+                                "identificatieAdresseerbaarObject": "0074999999901463"
+                              }
+                            }
+                          },
+                          "volledigAdres": "De Gyselaar 36 6436AX Amstenrade"
+                        },
+                        "isEigenaarVan": {
+                          "maatschappelijkeActiviteit": {
+                            "kvkNummer": "90000528",
+                            "nonMailing": {
+                              "code": "N",
+                              "omschrijving": "Nee",
+                              "referentieType": "geenRT"
+                            }
+                          }
+                        },
+                        "rsin": "992598989"
+                      }
+                    },
+                    "functie": {
+                      "code": "08",
+                      "omschrijving": "Enig aandeelhouder",
+                      "referentieType": "FunctionarisRol"
+                    }
+                  }
+                },
+                {
+                  "gemachtigde": {
+                    "registratie": {
+                      "@registratieTijdstip": "20131118100607121",
+                      "datumAanvang": "20131115"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstip": "20131118100607121",
+                        "datumAanvang": "20131115"
+                      },
+                      "titel": "Procuratiehouder A",
+                      "isStatutaireTitel": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Holding"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19570416"
+                        },
+                        "volledigeNaam": "Nancie Holding",
+                        "geslachtsnaam": "Holding",
+                        "voornamen": "Nancie",
+                        "geboortedatum": "19570416"
+                      }
+                    },
+                    "functie": {
+                      "code": "01",
+                      "omschrijving": "Gevolmachtigde",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "volmacht": {
+                      "registratie": {
+                        "@registratieTijdstip": "20131118150434646",
+                        "datumAanvang": "20131115"
+                      },
+                      "typeVolmacht": {
+                        "code": "b",
+                        "omschrijving": "Beperkte volmacht",
+                        "referentieType": "VolmachtType"
+                      },
+                      "isStatutair": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "beperkteVolmacht": {
+                        "magOpgaveHandelsregisterDoen": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        },
+                        "heeftOverigeVolmacht": {
+                          "code": "J",
+                          "omschrijving": "Ja",
+                          "referentieType": "geenRT"
+                        },
+                        "omschrijvingOverigeVolmacht": "Gezamenlijk bevoegd met een directeur, een procuratiehouder A of een procuratiehouder B, mede omvattende de bevoegdheid om deze vertegenwoordigingsbevoegdheid door te geven aan een andere procuratiehouder of directeur of een derde, mits de indeplaatsstelling geschiedt na voldoende beraadslaging en met betrekking tot een concreet doel of concrete transactie"
+                      }
+                    }
+                  }
+                },
+                {
+                  "gemachtigde": {
+                    "registratie": {
+                      "@registratieTijdstip": "20131118100607121",
+                      "datumAanvang": "20131115"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstip": "20131118100607121",
+                        "datumAanvang": "20131115"
+                      },
+                      "titel": "Procuratiehouder B",
+                      "isStatutaireTitel": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": [
+                            {
+                              "@naam": "voorvoegsel",
+                              "#text": "van"
+                            },
+                            {
+                              "@naam": "achternaam",
+                              "#text": "Boese"
+                            }
+                          ]
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19541205"
+                        },
+                        "volledigeNaam": "Cierra Boese",
+                        "geslachtsnaam": "Boese",
+                        "voorvoegselGeslachtsnaam": "van",
+                        "voornamen": "Cierra",
+                        "geboortedatum": "19541205"
+                      }
+                    },
+                    "functie": {
+                      "code": "01",
+                      "omschrijving": "Gevolmachtigde",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "volmacht": {
+                      "registratie": {
+                        "@registratieTijdstip": "20131118150434646",
+                        "datumAanvang": "20131115"
+                      },
+                      "typeVolmacht": {
+                        "code": "b",
+                        "omschrijving": "Beperkte volmacht",
+                        "referentieType": "VolmachtType"
+                      },
+                      "isStatutair": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "beperkteVolmacht": {
+                        "magOpgaveHandelsregisterDoen": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        },
+                        "heeftOverigeVolmacht": {
+                          "code": "J",
+                          "omschrijving": "Ja",
+                          "referentieType": "geenRT"
+                        },
+                        "omschrijvingOverigeVolmacht": "Gezamenlijk bevoegd met een directeur of een procuratiehouder A, mede omvattende de bevoegdheid om deze vertegenwoordigingsbevoegdheid door te geven aan een andere procuratiehouder of directeur of een derde, mits de indeplaatsstelling geschiedt na voldoende beraadslaging en met betrekking tot een concreet doel of concrete transactie"
+                      }
+                    }
+                  }
+                },
+                {
+                  "gemachtigde": {
+                    "registratie": {
+                      "@registratieTijdstip": "20131121092224766",
+                      "datumAanvang": "20131115"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstip": "20131121092224766",
+                        "datumAanvang": "20131115"
+                      },
+                      "titel": "Procuratiehouder A",
+                      "isStatutaireTitel": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Courser"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19400909"
+                        },
+                        "volledigeNaam": "Alice Courser",
+                        "geslachtsnaam": "Courser",
+                        "voornamen": "Alice",
+                        "geboortedatum": "19400909"
+                      }
+                    },
+                    "functie": {
+                      "code": "01",
+                      "omschrijving": "Gevolmachtigde",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "volmacht": {
+                      "registratie": {
+                        "@registratieTijdstip": "20131121092224766",
+                        "datumAanvang": "20131115"
+                      },
+                      "typeVolmacht": {
+                        "code": "b",
+                        "omschrijving": "Beperkte volmacht",
+                        "referentieType": "VolmachtType"
+                      },
+                      "isStatutair": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "beperkteVolmacht": {
+                        "magOpgaveHandelsregisterDoen": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        },
+                        "heeftOverigeVolmacht": {
+                          "code": "J",
+                          "omschrijving": "Ja",
+                          "referentieType": "geenRT"
+                        },
+                        "omschrijvingOverigeVolmacht": "Gezamenlijk bevoegd met een directeur, een procuratiehouder A of een procuratiehouder B, mede omvattende de bevoegdheid om deze vertegenwoordigingsbevoegdheid door te geven aan een andere procuratiehouder of directeur of een derde, mits de indeplaatsstelling geschiedt na voldoende beraadslaging en met betrekking tot een concreet doel of concrete transactie.                                ."
+                      }
+                    }
+                  }
+                },
+                {
+                  "gemachtigde": {
+                    "registratie": {
+                      "@registratieTijdstip": "20131121092224766",
+                      "datumAanvang": "20131115"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstip": "20131121092224766",
+                        "datumAanvang": "20131115"
+                      },
+                      "titel": "Procuratiehouder A",
+                      "isStatutaireTitel": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Tuner"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19830904"
+                        },
+                        "volledigeNaam": "Christeen Tuner",
+                        "geslachtsnaam": "Klaasen",
+"voornamen": "Jan",
+"geboortedatum": "20000101"
+                      }
+                    },
+                    "functie": {
+                      "code": "01",
+                      "omschrijving": "Gevolmachtigde",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "volmacht": {
+                      "registratie": {
+                        "@registratieTijdstip": "20131121092224766",
+                        "datumAanvang": "20131115"
+                      },
+                      "typeVolmacht": {
+                        "code": "b",
+                        "omschrijving": "Beperkte volmacht",
+                        "referentieType": "VolmachtType"
+                      },
+                      "isStatutair": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "beperkteVolmacht": {
+                        "magOpgaveHandelsregisterDoen": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        },
+                        "heeftOverigeVolmacht": {
+                          "code": "J",
+                          "omschrijving": "Ja",
+                          "referentieType": "geenRT"
+                        },
+                        "omschrijvingOverigeVolmacht": "Gezamenlijk bevoegd met een directeur, een procuratiehouder A of een procuratiehouder B, mede omvattende de bevoegdheid om deze vertegenwoordigingsbevoegdheid door te geven aan een andere procuratiehouder of directeur of een derde, mits de indeplaatsstelling geschiedt na voldoende beraadslaging en met betrekking tot een concreet doel of concrete transactie.    "
+                      }
+                    }
+                  }
+                },
+                {
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstip": "20131205093011543",
+                      "datumAanvang": "20131203"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstip": "20141229074511741",
+                        "datumAanvang": "20141223"
+                      },
+                      "titel": "Directeur A",
+                      "isStatutaireTitel": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Catanzaro - Catanzaro"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19811207"
+                        },
+                        "volledigeNaam": "Arvilla Catanzaro",
+                        "geslachtsnaam": "Catanzaro - Catanzaro",
+                        "voornamen": "Arvilla",
+                        "geboortedatum": "19811207"
+                      }
+                    },
+                    "functie": {
+                      "code": "02",
+                      "omschrijving": "Bestuurder",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstip": "20141002155153447",
+                        "datumAanvang": "20141001"
+                      },
+                      "soort": {
+                        "code": "gb",
+                        "omschrijving": "Gezamenlijk bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                },
+                {
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstip": "20141002155153447",
+                      "datumAanvang": "20141001"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstip": "20141229074511741",
+                        "datumAanvang": "20141223"
+                      },
+                      "titel": "Directeur B",
+                      "isStatutaireTitel": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Hixon"
+                          }
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19930514"
+                        },
+                        "volledigeNaam": "Pamelia Hixon",
+                        "geslachtsnaam": "Hixon",
+                        "voornamen": "Pamelia",
+                        "geboortedatum": "19930514"
+                      }
+                    },
+                    "functie": {
+                      "code": "02",
+                      "omschrijving": "Bestuurder",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstip": "20141002155153447",
+                        "datumAanvang": "20141001"
+                      },
+                      "soort": {
+                        "code": "gb",
+                        "omschrijving": "Gezamenlijk bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                }
+              ],
+              "rsin": "992143081",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstip": "20141229074511741",
+                  "datumAanvang": "20141223"
+                },
+                "naam": "International Linetone B.V."
+              },
+              "rechtsvorm": {
+                "code": "BV",
+                "omschrijving": "Besloten Vennootschap",
+                "referentieType": "Rechtsvorm"
+              },
+              "statutaireZetel": "Nepplaats",
+              "aanvangStatutaireZetel": "19940914",
+              "datumAkteOprichting": "19940914",
+              "datumEersteInschrijvingHandelsregister": "19941004",
+              "datumAkteStatutenwijziging": "20141223",
+              "stelselInrichting": {
+                "code": "D",
+                "omschrijving": "Dualistisch",
+                "referentieType": "StelselInrichting"
+              },
+              "structuur": {
+                "code": "GS",
+                "omschrijving": "Gewone structuur",
+                "referentieType": "RechtsvormStructuur"
+              },
+              "geplaatstKapitaal": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend"
+                },
+                "bedrag": {
+                  "waarde": "18400",
+                  "valuta": {
+                    "code": "EUR",
+                    "omschrijving": "Euro",
+                    "referentieType": "Valuta"
+                  }
+                }
+              },
+              "gestortKapitaal": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend"
+                },
+                "bedrag": {
+                  "waarde": "18400",
+                  "valuta": {
+                    "code": "EUR",
+                    "omschrijving": "Euro",
+                    "referentieType": "Valuta"
+                  }
+                }
+              },
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "20020422"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "De Gyselaar",
+                    "huisnummer": "36",
+                    "postcode": {
+                      "cijfercombinatie": "6436",
+                      "lettercombinatie": "AX"
+                    },
+                    "plaats": "Amstenrade",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999904988",
+                      "identificatieAdresseerbaarObject": "0074999999901463"
+                    }
+                  }
+                },
+                "volledigAdres": "De Gyselaar 36 6436AX Amstenrade"
               }
             }
           }
         }
-      }
-    },
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": {
-        "Registratie": {
-          "DatumAanvang": 19940914,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "Vestigingsnummer": 990000977556,
-        "BezoekLocatie": {
-          "Registratie": {
-            "DatumAanvang": 20020422,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Afgeschermd": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Adres": {
-            "BinnenlandsAdres": {
-              "Straatnaam": "De Gyselaar",
-              "Huisnummer": 36,
-              "Postcode": {
-                "Cijfercombinatie": 6436,
-                "Lettercombinatie": "AX"
-              },
-              "Plaats": "Amstenrade",
-              "BagId": {
-                "IdentificatieNummeraanduiding": 74999999904988,
-                "IdentificatieAdresseerbaarObject": 74999999901463
-              },
-              "HuisnummerToevoeging": null
-            }
-          },
-          "VolledigAdres": "De Gyselaar 36 6436AX Amstenrade"
-        },
-        "Communicatiegegevens": {
-          "Registratie": {
-            "DatumAanvang": 20150101,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Communicatienummer": [
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            },
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "F",
-                "Omschrijving": "Fax"
-              }
-            }
-          ],
-          "EmailAdres": "nepemailadres@kvk.nl"
-        },
-        "EersteHandelsnaam": "International Linetone B.V.",
-        "VoltijdWerkzamePersonen": 28,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 28,
-        "Activiteiten": {
-          "Omschrijving": "Trustmaatschappij alsmede het verlenen van administratieve en management diensten.",
-          "SbiActiviteit": {
-            "Registratie": {
-              "DatumAanvang": 20140523,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 6420,
-              "Omschrijving": "Financi\u00EBle holdings",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          },
-          "Exporteert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Importeert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          }
-        },
-        "HandeltOnder": {
-          "Handelsnaam": {
-            "Registratie": {
-              "DatumAanvang": 20141223,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Naam": "International Linetone B.V.",
-            "Volgorde": 0
-          },
-          "RelatieRegistratie": {
-            "DatumAanvang": 20141223,
-            "RegistratieTijdstipNoValue": null
-          }
-        }
-      }
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 19940914,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": {
-        "VoornemenTotOntbinding": null,
-        "ActiviteitenGestaaktPer": null,
-        "Rechtsvorm": {
-          "Code": "BV",
-          "Omschrijving": "Besloten Vennootschap"
-        },
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": {
-              "Functie": {
-                "Code": "08",
-                "Omschrijving": "Enig aandeelhouder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": null,
-                "Rechtspersoon": {
-                  "VoornemenTotOntbinding": null,
-                  "ActiviteitenGestaaktPer": null,
-                  "Rechtsvorm": null,
-                  "Heeft": [],
-                  "VolledigeNaam": "Jan Klaasen",
-                  "Rsin": "992598989"
-                }
-              },
-              "Bevoegdheid": null,
-              "Functietitel": null
-            },
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": {
-              "Functie": {
-                "Code": "01",
-                "Omschrijving": "Gevolmachtigde",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19570416,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Volmacht": {
-                "TypeVolmacht": {
-                  "Code": "b",
-                  "Omschrijving": "Beperkte volmacht"
-                }
-              },
-              "Bevoegdheid": null,
-              "Functietitel": {
-                "Titel": "Procuratiehouder A"
-              }
-            },
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": {
-              "Functie": {
-                "Code": "01",
-                "Omschrijving": "Gevolmachtigde",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "voorvoegsel"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19541205,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Volmacht": {
-                "TypeVolmacht": {
-                  "Code": "b",
-                  "Omschrijving": "Beperkte volmacht"
-                }
-              },
-              "Bevoegdheid": null,
-              "Functietitel": {
-                "Titel": "Procuratiehouder B"
-              }
-            },
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": {
-              "Functie": {
-                "Code": "01",
-                "Omschrijving": "Gevolmachtigde",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19400909,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Volmacht": {
-                "TypeVolmacht": {
-                  "Code": "b",
-                  "Omschrijving": "Beperkte volmacht"
-                }
-              },
-              "Bevoegdheid": null,
-              "Functietitel": {
-                "Titel": "Procuratiehouder A"
-              }
-            },
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": {
-              "Functie": {
-                "Code": "01",
-                "Omschrijving": "Gevolmachtigde",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19830904,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Volmacht": {
-                "TypeVolmacht": {
-                  "Code": "b",
-                  "Omschrijving": "Beperkte volmacht"
-                }
-              },
-              "Bevoegdheid": null,
-              "Functietitel": {
-                "Titel": "Procuratiehouder A"
-              }
-            },
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19811207,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "gb",
-                  "Omschrijving": "Gezamenlijk bevoegd"
-                }
-              },
-              "Functietitel": {
-                "Titel": "Directeur A"
-              }
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19930514,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "gb",
-                  "Omschrijving": "Gezamenlijk bevoegd"
-                }
-              },
-              "Functietitel": {
-                "Titel": "Directeur B"
-              }
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          }
-        ],
-        "VolledigeNaam": "Jan Klaasen",
-        "Rsin": "992143081"
       }
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

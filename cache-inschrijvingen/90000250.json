@@ -1,441 +1,481 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 19970616,
-      "DatumEinde": 0,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90000250,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20000915,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Otterdijkseweg",
-          "Huisnummer": 5,
-          "Postcode": {
-            "Cijfercombinatie": 5715,
-            "Lettercombinatie": "AE"
-          },
-          "Plaats": "Lierop",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999481081,
-            "IdentificatieAdresseerbaarObject": 74999999211422
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-66b895eb398b5a3f1758645d22441ff9",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90000250"
         }
       },
-      "VolledigAdres": "Otterdijkseweg 5 5715AE Lierop"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20000915,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Otterdijkseweg",
-          "Huisnummer": 5,
-          "Postcode": {
-            "Cijfercombinatie": 5715,
-            "Lettercombinatie": "AE"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "19970616"
           },
-          "Plaats": "Lierop",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999481081,
-            "IdentificatieAdresseerbaarObject": 74999999211422
+          "kvkNummer": "90000250",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Otterdijkseweg 5 5715AE Lierop"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 19970616,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        }
-      ],
-      "EmailAdres": null
-    },
-    "Naam": "Local solocom",
-    "ManifesteertZichAls": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 19970616,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "Onderneming": {
-        "Registratie": {
-          "DatumAanvang": 19970616,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "KvkNummer": 90000250,
-        "SbiActiviteit": [
-          {
-            "Registratie": {
-              "DatumAanvang": 20140412,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 3315,
-              "Omschrijving": "Reparatie en onderhoud van schepen",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          {
-            "Registratie": {
-              "DatumAanvang": 19970616,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20130708110448540",
+              "datumAanvang": "20000915"
             },
-            "SbiCode": {
-              "Code": 2562,
-              "Omschrijving": "Algemene metaalbewerking",
-              "ReferentieType": "ActiviteitCode"
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
             },
-            "IsHoofdactiviteit": {
-              "Code": "N",
-              "Omschrijving": "Nee",
-              "ReferentieType": "geenRT"
-            }
-          }
-        ],
-        "VoltijdWerkzamePersonen": 1,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 1,
-        "HandeltOnder": [
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 19980729,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "Local solocom Eenmanszaak",
-              "Volgorde": 0
-            },
-            "RelatieRegistratie": null
-          }
-        ],
-        "WordtUitgeoefendIn": {
-          "RelatieRegistratie": {
-            "DatumAanvang": 19970616,
-            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-          },
-          "CommercieleVestiging": {
-            "Registratie": {
-              "DatumAanvang": 19970616,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Vestigingsnummer": 990000764192,
-            "BezoekLocatie": {
-              "Registratie": {
-                "DatumAanvang": 20000915,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Afgeschermd": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Adres": {
-                "BinnenlandsAdres": {
-                  "Straatnaam": "Otterdijkseweg",
-                  "Huisnummer": 5,
-                  "Postcode": {
-                    "Cijfercombinatie": 5715,
-                    "Lettercombinatie": "AE"
-                  },
-                  "Plaats": "Lierop",
-                  "BagId": {
-                    "IdentificatieNummeraanduiding": 74999999481081,
-                    "IdentificatieAdresseerbaarObject": 74999999211422
-                  },
-                  "HuisnummerToevoeging": null
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Otterdijkseweg",
+                "huisnummer": "5",
+                "postcode": {
+                  "cijfercombinatie": "5715",
+                  "lettercombinatie": "AE"
+                },
+                "plaats": "Lierop",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999481081",
+                  "identificatieAdresseerbaarObject": "0074999999211422"
                 }
-              },
-              "VolledigAdres": "Otterdijkseweg 5 5715AE Lierop"
+              }
             },
-            "Communicatiegegevens": {
-              "Registratie": {
-                "DatumAanvang": 19970616,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
+            "volledigAdres": "Otterdijkseweg 5 5715AE Lierop"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20130708110448540",
+              "datumAanvang": "20000915"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Otterdijkseweg",
+                "huisnummer": "5",
+                "postcode": {
+                  "cijfercombinatie": "5715",
+                  "lettercombinatie": "AE"
+                },
+                "plaats": "Lierop",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999481081",
+                  "identificatieAdresseerbaarObject": "0074999999211422"
+                }
+              }
+            },
+            "volledigAdres": "Otterdijkseweg 5 5715AE Lierop"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19970616"
+            },
+            "communicatienummer": {
+              "toegangscode": "+31",
+              "nummer": "0209999999",
+              "soort": {
+                "code": "T",
+                "omschrijving": "Telefoon"
+              }
+            }
+          },
+          "naam": "Local solocom",
+          "manifesteertZichAls": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19970616"
+            },
+            "onderneming": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19970616"
               },
-              "Communicatienummer": [
+              "kvkNummer": "90000250",
+              "sbiActiviteit": [
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
+                  "registratie": {
+                    "@registratieTijdstip": "20140412030310136",
+                    "datumAanvang": "20140412"
+                  },
+                  "sbiCode": {
+                    "code": "3315",
+                    "omschrijving": "Reparatie en onderhoud van schepen",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                },
+                {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19970616"
+                  },
+                  "sbiCode": {
+                    "code": "2562",
+                    "omschrijving": "Algemene metaalbewerking",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "N",
+                    "omschrijving": "Nee",
+                    "referentieType": "geenRT"
                   }
                 }
               ],
-              "EmailAdres": null
-            },
-            "EersteHandelsnaam": "Local solocom Eenmanszaak",
-            "VoltijdWerkzamePersonen": 1,
-            "DeeltijdWerkzamePersonen": 0,
-            "TotaalWerkzamePersonen": 1,
-            "Activiteiten": {
-              "Omschrijving": "Montagewerkzaamheden in de scheepsbouw. Laswerkzaamheden in de scheepsbouw.",
-              "SbiActiviteit": {
-                "Registratie": {
-                  "DatumAanvang": 19970616,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "SbiCode": {
-                  "Code": 2562,
-                  "Omschrijving": "Algemene metaalbewerking",
-                  "ReferentieType": "ActiviteitCode"
-                },
-                "IsHoofdactiviteit": {
-                  "Code": "N",
-                  "Omschrijving": "Nee",
-                  "ReferentieType": "geenRT"
+              "voltijdWerkzamePersonen": "1",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "1",
+              "handeltOnder": {
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19980729"
+                  },
+                  "naam": "Local solocom Eenmanszaak",
+                  "volgorde": "0"
                 }
               },
-              "Exporteert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Importeert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              }
-            },
-            "HandeltOnder": {
-              "Handelsnaam": {
-                "Registratie": {
-                  "DatumAanvang": 19980729,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
+              "wordtUitgeoefendIn": {
+                "relatieRegistratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19970616"
                 },
-                "Naam": "Local solocom Eenmanszaak",
-                "Volgorde": 0
-              },
-              "RelatieRegistratie": {
-                "DatumAanvang": 19980729,
-                "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-              }
-            }
-          }
-        }
-      }
-    },
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": {
-        "Registratie": {
-          "DatumAanvang": 19970616,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "Vestigingsnummer": 990000764192,
-        "BezoekLocatie": {
-          "Registratie": {
-            "DatumAanvang": 20000915,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Afgeschermd": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Adres": {
-            "BinnenlandsAdres": {
-              "Straatnaam": "Otterdijkseweg",
-              "Huisnummer": 5,
-              "Postcode": {
-                "Cijfercombinatie": 5715,
-                "Lettercombinatie": "AE"
-              },
-              "Plaats": "Lierop",
-              "BagId": {
-                "IdentificatieNummeraanduiding": 74999999481081,
-                "IdentificatieAdresseerbaarObject": 74999999211422
-              },
-              "HuisnummerToevoeging": null
-            }
-          },
-          "VolledigAdres": "Otterdijkseweg 5 5715AE Lierop"
-        },
-        "Communicatiegegevens": {
-          "Registratie": {
-            "DatumAanvang": 19970616,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Communicatienummer": [
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            }
-          ],
-          "EmailAdres": null
-        },
-        "EersteHandelsnaam": "Local solocom Eenmanszaak",
-        "VoltijdWerkzamePersonen": 1,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 1,
-        "Activiteiten": {
-          "Omschrijving": "Montagewerkzaamheden in de scheepsbouw. Laswerkzaamheden in de scheepsbouw.",
-          "SbiActiviteit": {
-            "Registratie": {
-              "DatumAanvang": 19970616,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 2562,
-              "Omschrijving": "Algemene metaalbewerking",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "N",
-              "Omschrijving": "Nee",
-              "ReferentieType": "geenRT"
-            }
-          },
-          "Exporteert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Importeert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          }
-        },
-        "HandeltOnder": {
-          "Handelsnaam": {
-            "Registratie": {
-              "DatumAanvang": 19980729,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Naam": "Local solocom Eenmanszaak",
-            "Volgorde": 0
-          },
-          "RelatieRegistratie": {
-            "DatumAanvang": 19980729,
-            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-          }
-        }
-      }
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 19970616,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "NatuurlijkPersoon": {
-        "ExtraElementen": {
-          "ExtraElement": {
-            "Naam": "voorvoegsel"
-          }
-        },
-        "Registratie": {
-          "DatumAanvang": 19880618,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "PersoonRechtsvorm": "Eenmanszaak",
-        "VolledigeNaam": "Jan Klaasen",
-        "UitgebreideRechtsvorm": "Eenmanszaak",
-        "Geslachtsnaam": "Klaasen",
-        "Voornamen": "Jan",
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": null,
-            "Gemachtigde": {
-              "Functie": {
-                "Code": "01",
-                "Omschrijving": "Gevolmachtigde",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
+                "commercieleVestiging": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19970616"
+                  },
+                  "vestigingsnummer": "990000764192",
+                  "bezoekLocatie": {
+                    "registratie": {
+                      "@registratieTijdstip": "20130708110448540",
+                      "datumAanvang": "20000915"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "straatnaam": "Otterdijkseweg",
+                        "huisnummer": "5",
+                        "postcode": {
+                          "cijfercombinatie": "5715",
+                          "lettercombinatie": "AE"
+                        },
+                        "plaats": "Lierop",
+                        "bagId": {
+                          "identificatieNummeraanduiding": "0074999999481081",
+                          "identificatieAdresseerbaarObject": "0074999999211422"
+                        }
+                      }
+                    },
+                    "volledigAdres": "Otterdijkseweg 5 5715AE Lierop"
+                  },
+                  "communicatiegegevens": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19970616"
+                    },
+                    "communicatienummer": {
+                      "toegangscode": "+31",
+                      "nummer": "0209999999",
+                      "soort": {
+                        "code": "T",
+                        "omschrijving": "Telefoon"
+                      }
                     }
                   },
-                  "Registratie": {
-                    "DatumAanvang": 19720404,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
+                  "eersteHandelsnaam": "Local solocom Eenmanszaak",
+                  "voltijdWerkzamePersonen": "1",
+                  "deeltijdWerkzamePersonen": "0",
+                  "totaalWerkzamePersonen": "1",
+                  "activiteiten": {
+                    "omschrijving": "Montagewerkzaamheden in de scheepsbouw. Laswerkzaamheden in de scheepsbouw.",
+                    "sbiActiviteit": [
+                      {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19970616"
+                        },
+                        "sbiCode": {
+                          "code": "2562",
+                          "omschrijving": "Algemene metaalbewerking",
+                          "referentieType": "ActiviteitCode"
+                        },
+                        "isHoofdactiviteit": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        }
+                      },
+                      {
+                        "registratie": {
+                          "@registratieTijdstip": "20140412030310136",
+                          "datumAanvang": "20140412"
+                        },
+                        "sbiCode": {
+                          "code": "3315",
+                          "omschrijving": "Reparatie en onderhoud van schepen",
+                          "referentieType": "ActiviteitCode"
+                        },
+                        "isHoofdactiviteit": {
+                          "code": "J",
+                          "omschrijving": "Ja",
+                          "referentieType": "geenRT"
+                        }
+                      }
+                    ],
+                    "exporteert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "importeert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
                   },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
+                  "handeltOnder": {
+                    "relatieRegistratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19980729"
+                    },
+                    "handelsnaam": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19980729"
+                      },
+                      "naam": "Local solocom Eenmanszaak",
+                      "volgorde": "0"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "wordtGeleidVanuit": {
+            "commercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19970616"
               },
-              "Volmacht": {
-                "TypeVolmacht": {
-                  "Code": "v",
-                  "Omschrijving": "Volledige volmacht"
+              "vestigingsnummer": "990000764192",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20130708110448540",
+                  "datumAanvang": "20000915"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Otterdijkseweg",
+                    "huisnummer": "5",
+                    "postcode": {
+                      "cijfercombinatie": "5715",
+                      "lettercombinatie": "AE"
+                    },
+                    "plaats": "Lierop",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999481081",
+                      "identificatieAdresseerbaarObject": "0074999999211422"
+                    }
+                  }
+                },
+                "volledigAdres": "Otterdijkseweg 5 5715AE Lierop"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19970616"
+                },
+                "communicatienummer": {
+                  "toegangscode": "+31",
+                  "nummer": "0209999999",
+                  "soort": {
+                    "code": "T",
+                    "omschrijving": "Telefoon"
+                  }
                 }
               },
-              "Bevoegdheid": null,
-              "Functietitel": null
+              "eersteHandelsnaam": "Local solocom Eenmanszaak",
+              "voltijdWerkzamePersonen": "1",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "1",
+              "activiteiten": {
+                "omschrijving": "Montagewerkzaamheden in de scheepsbouw. Laswerkzaamheden in de scheepsbouw.",
+                "sbiActiviteit": [
+                  {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19970616"
+                    },
+                    "sbiCode": {
+                      "code": "2562",
+                      "omschrijving": "Algemene metaalbewerking",
+                      "referentieType": "ActiviteitCode"
+                    },
+                    "isHoofdactiviteit": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  {
+                    "registratie": {
+                      "@registratieTijdstip": "20140412030310136",
+                      "datumAanvang": "20140412"
+                    },
+                    "sbiCode": {
+                      "code": "3315",
+                      "omschrijving": "Reparatie en onderhoud van schepen",
+                      "referentieType": "ActiviteitCode"
+                    },
+                    "isHoofdactiviteit": {
+                      "code": "J",
+                      "omschrijving": "Ja",
+                      "referentieType": "geenRT"
+                    }
+                  }
+                ],
+                "exporteert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "importeert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                }
+              },
+              "handeltOnder": {
+                "relatieRegistratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19980729"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19980729"
+                  },
+                  "naam": "Local solocom Eenmanszaak",
+                  "volgorde": "0"
+                }
+              }
+            }
+          },
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19970616"
             },
-            "PubliekrechtelijkeFunctionaris": null
+            "natuurlijkPersoon": {
+              "extraElementen": {
+                "extraElement": [
+                  {
+                    "@naam": "voorvoegsel",
+                    "#text": "van der"
+                  },
+                  {
+                    "@naam": "achternaam",
+                    "#text": "Ducharme"
+                  }
+                ]
+              },
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19880618"
+              },
+              "persoonRechtsvorm": "Eenmanszaak",
+              "volledigeNaam": "Annalisa van der Ducharme",
+              "uitgebreideRechtsvorm": "Eenmanszaak",
+              "heeft": {
+                "gemachtigde": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19970616"
+                  },
+                  "door": {
+                    "natuurlijkPersoon": {
+                      "extraElementen": {
+                        "extraElement": {
+                          "@naam": "achternaam",
+                          "#text": "Muench"
+                        }
+                      },
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19720404"
+                      },
+                      "volledigeNaam": "Cristobal Muench",
+                      "geslachtsnaam": "Klaasen",
+"voornamen": "Jan",
+"geboortedatum": "20000101"
+                    }
+                  },
+                  "functie": {
+                    "code": "01",
+                    "omschrijving": "Gevolmachtigde",
+                    "referentieType": "FunctionarisRol"
+                  },
+                  "volmacht": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19970616"
+                    },
+                    "typeVolmacht": {
+                      "code": "v",
+                      "omschrijving": "Volledige volmacht",
+                      "referentieType": "VolmachtType"
+                    },
+                    "isStatutair": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  }
+                }
+              },
+              "geslachtsnaam": "Ducharme",
+              "voorvoegselGeslachtsnaam": "van der",
+              "voornamen": "Annalisa",
+              "geboortedatum": "19880618"
+            }
           }
-        ],
-        "Geboortedatum": "20000101"
-      },
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": null
+        }
+      }
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

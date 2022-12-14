@@ -1,543 +1,862 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 19960918,
-      "DatumEinde": 0,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90002768,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20130801,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Gildenburg",
-          "Huisnummer": 16,
-          "Postcode": {
-            "Cijfercombinatie": 3834,
-            "Lettercombinatie": "AT"
-          },
-          "Plaats": "Leusden",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999102424,
-            "IdentificatieAdresseerbaarObject": 74999999631537
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-ff255bdbdfc7b325d465ff1f43e54fa2",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90002768"
         }
       },
-      "VolledigAdres": "Gildenburg 16 3834AT Leusden"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20130801,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Gildenburg",
-          "Huisnummer": 16,
-          "Postcode": {
-            "Cijfercombinatie": 3834,
-            "Lettercombinatie": "AT"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "19960918"
           },
-          "Plaats": "Leusden",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999102424,
-            "IdentificatieAdresseerbaarObject": 74999999631537
+          "kvkNummer": "90002768",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Gildenburg 16 3834AT Leusden"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 20140801,
-        "DatumEinde": 0,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        },
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        }
-      ],
-      "EmailAdres": "nepemailadres@kvk.nl"
-    },
-    "Naam": "Regional Sanjoflex",
-    "ManifesteertZichAls": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 19960918,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "Onderneming": {
-        "Registratie": {
-          "DatumAanvang": 19960918,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "KvkNummer": 90002768,
-        "SbiActiviteit": [
-          {
-            "Registratie": {
-              "DatumAanvang": 19960918,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 150,
-              "Omschrijving": "Akker- en/of tuinbouw in combinatie met het fokken en houden van dieren",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          {
-            "Registratie": {
-              "DatumAanvang": 19960918,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20130819143642909",
+              "datumAanvang": "20130801"
             },
-            "SbiCode": {
-              "Code": 6612,
-              "Omschrijving": "Commissionairs en makelaars in effecten, beleggingsadviseurs e.d.",
-              "ReferentieType": "ActiviteitCode"
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
             },
-            "IsHoofdactiviteit": {
-              "Code": "N",
-              "Omschrijving": "Nee",
-              "ReferentieType": "geenRT"
-            }
-          }
-        ],
-        "VoltijdWerkzamePersonen": 1,
-        "DeeltijdWerkzamePersonen": 1,
-        "TotaalWerkzamePersonen": 2,
-        "HandeltOnder": [
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 19960918,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "Regional Sanjoflex B.V.",
-              "Volgorde": 0
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Gildenburg",
+                "huisnummer": "16",
+                "postcode": {
+                  "cijfercombinatie": "3834",
+                  "lettercombinatie": "AT"
+                },
+                "plaats": "Leusden",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999102424",
+                  "identificatieAdresseerbaarObject": "0074999999631537"
+                }
+              }
             },
-            "RelatieRegistratie": null
-          }
-        ],
-        "WordtUitgeoefendIn": {
-          "RelatieRegistratie": {
-            "DatumAanvang": 19960918,
-            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+            "volledigAdres": "Gildenburg 16 3834AT Leusden"
           },
-          "CommercieleVestiging": {
-            "Registratie": {
-              "DatumAanvang": 19960918,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20130819143642909",
+              "datumAanvang": "20130801"
             },
-            "Vestigingsnummer": 990000218574,
-            "BezoekLocatie": {
-              "Registratie": {
-                "DatumAanvang": 20130801,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Afgeschermd": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Adres": {
-                "BinnenlandsAdres": {
-                  "Straatnaam": "Gildenburg",
-                  "Huisnummer": 16,
-                  "Postcode": {
-                    "Cijfercombinatie": 3834,
-                    "Lettercombinatie": "AT"
-                  },
-                  "Plaats": "Leusden",
-                  "BagId": {
-                    "IdentificatieNummeraanduiding": 74999999102424,
-                    "IdentificatieAdresseerbaarObject": 74999999631537
-                  },
-                  "HuisnummerToevoeging": null
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Gildenburg",
+                "huisnummer": "16",
+                "postcode": {
+                  "cijfercombinatie": "3834",
+                  "lettercombinatie": "AT"
+                },
+                "plaats": "Leusden",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999102424",
+                  "identificatieAdresseerbaarObject": "0074999999631537"
+                }
+              }
+            },
+            "volledigAdres": "Gildenburg 16 3834AT Leusden"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstip": "20140819124110301",
+              "datumAanvang": "20140801"
+            },
+            "communicatienummer": [
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "T",
+                  "omschrijving": "Telefoon"
                 }
               },
-              "VolledigAdres": "Gildenburg 16 3834AT Leusden"
+              {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "T",
+                  "omschrijving": "Telefoon"
+                }
+              }
+            ],
+            "emailAdres": "nepemailadres@kvk.nl"
+          },
+          "naam": "Regional Sanjoflex",
+          "manifesteertZichAls": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19960918"
             },
-            "Communicatiegegevens": {
-              "Registratie": {
-                "DatumAanvang": 20140801,
-                "DatumEinde": 0,
-                "RegistratieTijdstipNoValue": null
+            "onderneming": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19960918"
               },
-              "Communicatienummer": [
+              "kvkNummer": "90002768",
+              "sbiActiviteit": [
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19960918"
+                  },
+                  "sbiCode": {
+                    "code": "0150",
+                    "omschrijving": "Akker- en/of tuinbouw in combinatie met het fokken en houden van dieren",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
                   }
                 },
                 {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19960918"
+                  },
+                  "sbiCode": {
+                    "code": "6612",
+                    "omschrijving": "Commissionairs en makelaars in effecten, beleggingsadviseurs e.d.",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "N",
+                    "omschrijving": "Nee",
+                    "referentieType": "geenRT"
                   }
                 }
               ],
-              "EmailAdres": "nepemailadres@kvk.nl"
-            },
-            "EersteHandelsnaam": "Regional Sanjoflex B.V.",
-            "VoltijdWerkzamePersonen": 1,
-            "DeeltijdWerkzamePersonen": 0,
-            "TotaalWerkzamePersonen": 1,
-            "Activiteiten": {
-              "Omschrijving": "Het uitoefenen van een landbouwbedrijf, alsmede het beheerdoel De handel in roerende en onroerende zaken en tevens bemiddeling hierin (zijnde geen detailhandel)",
-              "SbiActiviteit": {
-                "Registratie": {
-                  "DatumAanvang": 19960918,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "SbiCode": {
-                  "Code": 150,
-                  "Omschrijving": "Akker- en/of tuinbouw in combinatie met het fokken en houden van dieren",
-                  "ReferentieType": "ActiviteitCode"
-                },
-                "IsHoofdactiviteit": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
+              "voltijdWerkzamePersonen": "1",
+              "deeltijdWerkzamePersonen": "1",
+              "totaalWerkzamePersonen": "2",
+              "handeltOnder": {
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19960918"
+                  },
+                  "naam": "Regional Sanjoflex B.V.",
+                  "volgorde": "0"
                 }
               },
-              "Exporteert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Importeert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              }
-            },
-            "HandeltOnder": {
-              "Handelsnaam": {
-                "Registratie": {
-                  "DatumAanvang": 19960918,
-                  "DatumEinde": 0,
-                  "RegistratieTijdstipNoValue": null
+              "wordtUitgeoefendIn": [
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19960918"
+                  },
+                  "commercieleVestiging": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19960918"
+                    },
+                    "vestigingsnummer": "990000218574",
+                    "bezoekLocatie": {
+                      "registratie": {
+                        "@registratieTijdstip": "20130819143642909",
+                        "datumAanvang": "20130801"
+                      },
+                      "afgeschermd": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "adres": {
+                        "binnenlandsAdres": {
+                          "straatnaam": "Gildenburg",
+                          "huisnummer": "16",
+                          "postcode": {
+                            "cijfercombinatie": "3834",
+                            "lettercombinatie": "AT"
+                          },
+                          "plaats": "Leusden",
+                          "bagId": {
+                            "identificatieNummeraanduiding": "0074999999102424",
+                            "identificatieAdresseerbaarObject": "0074999999631537"
+                          }
+                        }
+                      },
+                      "volledigAdres": "Gildenburg 16 3834AT Leusden"
+                    },
+                    "communicatiegegevens": {
+                      "registratie": {
+                        "@registratieTijdstip": "20140819124110301",
+                        "datumAanvang": "20140801"
+                      },
+                      "communicatienummer": [
+                        {
+                          "toegangscode": "+31",
+                          "nummer": "0209999999",
+                          "soort": {
+                            "code": "T",
+                            "omschrijving": "Telefoon"
+                          }
+                        },
+                        {
+                          "toegangscode": "+31",
+                          "nummer": "0209999999",
+                          "soort": {
+                            "code": "T",
+                            "omschrijving": "Telefoon"
+                          }
+                        }
+                      ],
+                      "emailAdres": "nepemailadres@kvk.nl"
+                    },
+                    "eersteHandelsnaam": "Regional Sanjoflex B.V.",
+                    "voltijdWerkzamePersonen": "1",
+                    "deeltijdWerkzamePersonen": "0",
+                    "totaalWerkzamePersonen": "1",
+                    "activiteiten": {
+                      "omschrijving": "Het uitoefenen van een landbouwbedrijf, alsmede het beheerdoel De handel in roerende en onroerende zaken en tevens bemiddeling hierin (zijnde geen detailhandel)",
+                      "sbiActiviteit": [
+                        {
+                          "registratie": {
+                            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                            "datumAanvang": "19960918"
+                          },
+                          "sbiCode": {
+                            "code": "0150",
+                            "omschrijving": "Akker- en/of tuinbouw in combinatie met het fokken en houden van dieren",
+                            "referentieType": "ActiviteitCode"
+                          },
+                          "isHoofdactiviteit": {
+                            "code": "J",
+                            "omschrijving": "Ja",
+                            "referentieType": "geenRT"
+                          }
+                        },
+                        {
+                          "registratie": {
+                            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                            "datumAanvang": "19960918"
+                          },
+                          "sbiCode": {
+                            "code": "6612",
+                            "omschrijving": "Commissionairs en makelaars in effecten, beleggingsadviseurs e.d.",
+                            "referentieType": "ActiviteitCode"
+                          },
+                          "isHoofdactiviteit": {
+                            "code": "N",
+                            "omschrijving": "Nee",
+                            "referentieType": "geenRT"
+                          }
+                        }
+                      ],
+                      "exporteert": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "importeert": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "handeltOnder": {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19960918"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19960918"
+                        },
+                        "naam": "Regional Sanjoflex B.V.",
+                        "volgorde": "0"
+                      }
+                    }
+                  }
                 },
-                "Naam": "Regional Sanjoflex B.V.",
-                "Volgorde": 0
+                {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20020101"
+                  },
+                  "commercieleVestiging": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20020101"
+                    },
+                    "vestigingsnummer": "990000262129",
+                    "bezoekLocatie": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20020101"
+                      },
+                      "afgeschermd": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "adres": {
+                        "binnenlandsAdres": {
+                          "straatnaam": "Kanneke",
+                          "huisnummer": "3",
+                          "huisletter": "B",
+                          "postcode": {
+                            "cijfercombinatie": "5375",
+                            "lettercombinatie": "BS"
+                          },
+                          "plaats": "Reek"
+                        }
+                      },
+                      "volledigAdres": "Kanneke 3 5375BS Reek"
+                    },
+                    "postLocatie": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20020101"
+                      },
+                      "afgeschermd": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "adres": {
+                        "binnenlandsAdres": {
+                          "straatnaam": "Maarten Trompstraat",
+                          "huisnummer": "2",
+                          "postcode": {
+                            "cijfercombinatie": "6372",
+                            "lettercombinatie": "VR"
+                          },
+                          "plaats": "Landgraaf",
+                          "bagId": {
+                            "identificatieNummeraanduiding": "0074999999642947",
+                            "identificatieAdresseerbaarObject": "0074999999737962"
+                          }
+                        }
+                      },
+                      "volledigAdres": "Maarten Trompstraat 2 6372VR Landgraaf"
+                    },
+                    "communicatiegegevens": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20020101"
+                      },
+                      "communicatienummer": {
+                        "toegangscode": "+31",
+                        "nummer": "0209999999",
+                        "soort": {
+                          "code": "T",
+                          "omschrijving": "Telefoon"
+                        }
+                      },
+                      "emailAdres": "nepemailadres@kvk.nl"
+                    },
+                    "eersteHandelsnaam": "Regional Sanjoflex B.V.",
+                    "voltijdWerkzamePersonen": "0",
+                    "deeltijdWerkzamePersonen": "1",
+                    "totaalWerkzamePersonen": "1",
+                    "activiteiten": {
+                      "omschrijving": "Het uitoefenen van een landbouwbedrijf Handel in roerende en onroerende goederen",
+                      "sbiActiviteit": [
+                        {
+                          "registratie": {
+                            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                            "datumAanvang": "20020101"
+                          },
+                          "sbiCode": {
+                            "code": "0150",
+                            "omschrijving": "Akker- en/of tuinbouw in combinatie met het fokken en houden van dieren",
+                            "referentieType": "ActiviteitCode"
+                          },
+                          "isHoofdactiviteit": {
+                            "code": "J",
+                            "omschrijving": "Ja",
+                            "referentieType": "geenRT"
+                          }
+                        },
+                        {
+                          "registratie": {
+                            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                            "datumAanvang": "20020101"
+                          },
+                          "sbiCode": {
+                            "code": "6612",
+                            "omschrijving": "Commissionairs en makelaars in effecten, beleggingsadviseurs e.d.",
+                            "referentieType": "ActiviteitCode"
+                          },
+                          "isHoofdactiviteit": {
+                            "code": "N",
+                            "omschrijving": "Nee",
+                            "referentieType": "geenRT"
+                          }
+                        }
+                      ],
+                      "exporteert": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "importeert": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "handeltOnder": {
+                      "relatieRegistratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20020101"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19960918"
+                        },
+                        "naam": "Regional Sanjoflex B.V.",
+                        "volgorde": "0"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "wordtGeleidVanuit": {
+            "commercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19960918"
               },
-              "RelatieRegistratie": {
-                "DatumAanvang": 19960918,
-                "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
+              "vestigingsnummer": "990000218574",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20130819143642909",
+                  "datumAanvang": "20130801"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Gildenburg",
+                    "huisnummer": "16",
+                    "postcode": {
+                      "cijfercombinatie": "3834",
+                      "lettercombinatie": "AT"
+                    },
+                    "plaats": "Leusden",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999102424",
+                      "identificatieAdresseerbaarObject": "0074999999631537"
+                    }
+                  }
+                },
+                "volledigAdres": "Gildenburg 16 3834AT Leusden"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstip": "20140819124110301",
+                  "datumAanvang": "20140801"
+                },
+                "communicatienummer": [
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "T",
+                      "omschrijving": "Telefoon"
+                    }
+                  },
+                  {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "T",
+                      "omschrijving": "Telefoon"
+                    }
+                  }
+                ],
+                "emailAdres": "nepemailadres@kvk.nl"
+              },
+              "eersteHandelsnaam": "Regional Sanjoflex B.V.",
+              "voltijdWerkzamePersonen": "1",
+              "deeltijdWerkzamePersonen": "0",
+              "totaalWerkzamePersonen": "1",
+              "activiteiten": {
+                "omschrijving": "Het uitoefenen van een landbouwbedrijf, alsmede het beheerdoel De handel in roerende en onroerende zaken en tevens bemiddeling hierin (zijnde geen detailhandel)",
+                "sbiActiviteit": [
+                  {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19960918"
+                    },
+                    "sbiCode": {
+                      "code": "0150",
+                      "omschrijving": "Akker- en/of tuinbouw in combinatie met het fokken en houden van dieren",
+                      "referentieType": "ActiviteitCode"
+                    },
+                    "isHoofdactiviteit": {
+                      "code": "J",
+                      "omschrijving": "Ja",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19960918"
+                    },
+                    "sbiCode": {
+                      "code": "6612",
+                      "omschrijving": "Commissionairs en makelaars in effecten, beleggingsadviseurs e.d.",
+                      "referentieType": "ActiviteitCode"
+                    },
+                    "isHoofdactiviteit": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  }
+                ],
+                "exporteert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "importeert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                }
+              },
+              "handeltOnder": {
+                "relatieRegistratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19960918"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19960918"
+                  },
+                  "naam": "Regional Sanjoflex B.V.",
+                  "volgorde": "0"
+                }
+              }
+            }
+          },
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+              "datumAanvang": "19960918"
+            },
+            "rechtspersoon": {
+              "extraElementen": {
+                "extraElement": [
+                  {
+                    "@naam": "datumAanvangStatuten",
+                    "#text": "19960918"
+                  },
+                  {
+                    "@naam": "datumAkteStatuten",
+                    "#text": "19960918"
+                  }
+                ]
+              },
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19960918"
+              },
+              "persoonRechtsvorm": "Besloten Vennootschap",
+              "volledigeNaam": "Regional Sanjoflex B.V.",
+              "uitgebreideRechtsvorm": "Besloten Vennootschap",
+              "heeft": [
+                {
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19960918"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19960918"
+                      },
+                      "titel": "Algemeen directeur",
+                      "isStatutaireTitel": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": [
+                            {
+                              "@naam": "voorvoegsel",
+                              "#text": "van den"
+                            },
+                            {
+                              "@naam": "achternaam",
+                              "#text": "Petit"
+                            }
+                          ]
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19600223"
+                        },
+                        "volledigeNaam": "Anderson Petit",
+                        "geslachtsnaam": "Klaasen",
+                        "voorvoegselGeslachtsnaam": "",
+                        "voornamen": "Jan",
+                        "geboortedatum": "20000101"
+                      }
+                    },
+                    "functie": {
+                      "code": "02",
+                      "omschrijving": "Bestuurder",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19960918"
+                      },
+                      "soort": {
+                        "code": "azb",
+                        "omschrijving": "Alleen/zelfstandig bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                },
+                {
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19960918"
+                    },
+                    "functietitel": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19960918"
+                      },
+                      "titel": "Algemeen directrice",
+                      "isStatutaireTitel": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": [
+                            {
+                              "@naam": "voorvoegsel",
+                              "#text": "van den"
+                            },
+                            {
+                              "@naam": "achternaam",
+                              "#text": "Garmany - Garmany"
+                            }
+                          ]
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19950610"
+                        },
+                        "volledigeNaam": "Kandace Garmany",
+                        "geslachtsnaam": "Garmany - Garmany",
+                        "voorvoegselGeslachtsnaam": "van den",
+                        "voornamen": "Kandace",
+                        "geboortedatum": "19950610"
+                      }
+                    },
+                    "functie": {
+                      "code": "02",
+                      "omschrijving": "Bestuurder",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19960918"
+                      },
+                      "soort": {
+                        "code": "azb",
+                        "omschrijving": "Alleen/zelfstandig bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
+                      },
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  }
+                },
+                {
+                  "overigeFunctionaris": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19960918"
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": [
+                            {
+                              "@naam": "voorvoegsel",
+                              "#text": "van den"
+                            },
+                            {
+                              "@naam": "achternaam",
+                              "#text": "Petit"
+                            }
+                          ]
+                        },
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19600223"
+                        },
+                        "volledigeNaam": "Anderson Petit",
+                        "geslachtsnaam": "Petit",
+                        "voorvoegselGeslachtsnaam": "van den",
+                        "voornamen": "Anderson",
+                        "geboortedatum": "19600223"
+                      }
+                    },
+                    "functie": {
+                      "code": "08",
+                      "omschrijving": "Enig aandeelhouder",
+                      "referentieType": "FunctionarisRol"
+                    }
+                  }
+                }
+              ],
+              "rsin": "992479940",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19960918"
+                },
+                "naam": "Regional Sanjoflex B.V."
+              },
+              "rechtsvorm": {
+                "code": "BV",
+                "omschrijving": "Besloten Vennootschap",
+                "referentieType": "Rechtsvorm"
+              },
+              "statutaireZetel": "Nepplaats",
+              "aanvangStatutaireZetel": "19960918",
+              "datumAkteOprichting": "19960918",
+              "datumEersteInschrijvingHandelsregister": "19960930",
+              "datumAkteStatutenwijziging": "19960918",
+              "stelselInrichting": {
+                "code": "D",
+                "omschrijving": "Dualistisch",
+                "referentieType": "StelselInrichting"
+              },
+              "structuur": {
+                "code": "GS",
+                "omschrijving": "Gewone structuur",
+                "referentieType": "RechtsvormStructuur"
+              },
+              "geplaatstKapitaal": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend"
+                },
+                "bedrag": {
+                  "waarde": "18151.21",
+                  "valuta": {
+                    "code": "EUR",
+                    "omschrijving": "Euro",
+                    "referentieType": "Valuta"
+                  }
+                }
+              },
+              "gestortKapitaal": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend"
+                },
+                "bedrag": {
+                  "waarde": "18151.21",
+                  "valuta": {
+                    "code": "EUR",
+                    "omschrijving": "Euro",
+                    "referentieType": "Valuta"
+                  }
+                }
+              },
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20130819143642909",
+                  "datumAanvang": "20130801"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Gildenburg",
+                    "huisnummer": "16",
+                    "postcode": {
+                      "cijfercombinatie": "3834",
+                      "lettercombinatie": "AT"
+                    },
+                    "plaats": "Leusden",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999102424",
+                      "identificatieAdresseerbaarObject": "0074999999631537"
+                    }
+                  }
+                },
+                "volledigAdres": "Gildenburg 16 3834AT Leusden"
               }
             }
           }
         }
-      }
-    },
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": {
-        "Registratie": {
-          "DatumAanvang": 19960918,
-          "DatumEinde": 0,
-          "RegistratieTijdstipNoValue": null
-        },
-        "Vestigingsnummer": 990000218574,
-        "BezoekLocatie": {
-          "Registratie": {
-            "DatumAanvang": 20130801,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Afgeschermd": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Adres": {
-            "BinnenlandsAdres": {
-              "Straatnaam": "Gildenburg",
-              "Huisnummer": 16,
-              "Postcode": {
-                "Cijfercombinatie": 3834,
-                "Lettercombinatie": "AT"
-              },
-              "Plaats": "Leusden",
-              "BagId": {
-                "IdentificatieNummeraanduiding": 74999999102424,
-                "IdentificatieAdresseerbaarObject": 74999999631537
-              },
-              "HuisnummerToevoeging": null
-            }
-          },
-          "VolledigAdres": "Gildenburg 16 3834AT Leusden"
-        },
-        "Communicatiegegevens": {
-          "Registratie": {
-            "DatumAanvang": 20140801,
-            "DatumEinde": 0,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Communicatienummer": [
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            },
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            }
-          ],
-          "EmailAdres": "nepemailadres@kvk.nl"
-        },
-        "EersteHandelsnaam": "Regional Sanjoflex B.V.",
-        "VoltijdWerkzamePersonen": 1,
-        "DeeltijdWerkzamePersonen": 0,
-        "TotaalWerkzamePersonen": 1,
-        "Activiteiten": {
-          "Omschrijving": "Het uitoefenen van een landbouwbedrijf, alsmede het beheerdoel De handel in roerende en onroerende zaken en tevens bemiddeling hierin (zijnde geen detailhandel)",
-          "SbiActiviteit": {
-            "Registratie": {
-              "DatumAanvang": 19960918,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 150,
-              "Omschrijving": "Akker- en/of tuinbouw in combinatie met het fokken en houden van dieren",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          },
-          "Exporteert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Importeert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          }
-        },
-        "HandeltOnder": {
-          "Handelsnaam": {
-            "Registratie": {
-              "DatumAanvang": 19960918,
-              "DatumEinde": 0,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Naam": "Regional Sanjoflex B.V.",
-            "Volgorde": 0
-          },
-          "RelatieRegistratie": {
-            "DatumAanvang": 19960918,
-            "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-          }
-        }
-      }
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 19960918,
-        "RegistratieTijdstipNoValue": "vastgesteldOnbekend"
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": {
-        "VoornemenTotOntbinding": null,
-        "ActiviteitenGestaaktPer": null,
-        "Rechtsvorm": {
-          "Code": "BV",
-          "Omschrijving": "Besloten Vennootschap"
-        },
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "voorvoegsel"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19600223,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "azb",
-                  "Omschrijving": "Alleen/zelfstandig bevoegd"
-                }
-              },
-              "Functietitel": {
-                "Titel": "Algemeen directeur"
-              }
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "voorvoegsel"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19950610,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "azb",
-                  "Omschrijving": "Alleen/zelfstandig bevoegd"
-                }
-              },
-              "Functietitel": {
-                "Titel": "Algemeen directrice"
-              }
-            },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          },
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": null,
-            "OverigeFunctionaris": {
-              "Functie": {
-                "Code": "08",
-                "Omschrijving": "Enig aandeelhouder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "voorvoegsel"
-                    }
-                  },
-                  "Registratie": {
-                    "DatumAanvang": 19600223,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
-                  },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
-              },
-              "Bevoegdheid": null,
-              "Functietitel": null
-            },
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
-          }
-        ],
-        "VolledigeNaam": "Jan Klaasen",
-        "Rsin": "992479940"
       }
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }

@@ -1,417 +1,531 @@
 {
-  "MaatschappelijkeActiviteit": {
-    "Registratie": {
-      "DatumAanvang": 20061103,
-      "DatumEinde": 20120320,
-      "RegistratieTijdstipNoValue": null
-    },
-    "KvkNummer": 90003039,
-    "BezoekLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20110301,
-        "DatumEinde": 20120320,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Afgeschermd": {
-        "Code": "N",
-        "Omschrijving": "Nee",
-        "ReferentieType": "geenRT"
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Kerkstraat",
-          "Huisnummer": 237,
-          "Postcode": {
-            "Cijfercombinatie": 1511,
-            "Lettercombinatie": "EG"
-          },
-          "Plaats": "Oostzaan",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999850382,
-            "IdentificatieAdresseerbaarObject": 74999999249940
-          },
-          "HuisnummerToevoeging": null
+  "wstxns8:Body": {
+    "@wsu:Id": "id-1-af9c1d6533bcb85ec7e1d4c2112952b2",
+    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+    "ophalenInschrijvingResponse": {
+      "@peilmoment": "20200924122839746",
+      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+      "meldingen": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "informatie": {
+          "code": "IPD0000",
+          "omschrijving": "Het product is succesvol geproduceerd",
+          "referentie": "90003039"
         }
       },
-      "VolledigAdres": "Kerkstraat 237 1511EG Oostzaan"
-    },
-    "PostLocatie": {
-      "Registratie": {
-        "DatumAanvang": 20110301,
-        "DatumEinde": 20120320,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Adres": {
-        "BinnenlandsAdres": {
-          "Straatnaam": "Kerkstraat",
-          "Huisnummer": 237,
-          "Postcode": {
-            "Cijfercombinatie": 1511,
-            "Lettercombinatie": "EG"
+      "product": {
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "maatschappelijkeActiviteit": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+          "registratie": {
+            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+            "datumAanvang": "20061103",
+            "datumEinde": "20120320"
           },
-          "Plaats": "Oostzaan",
-          "BagId": {
-            "IdentificatieNummeraanduiding": 74999999850382,
-            "IdentificatieAdresseerbaarObject": 74999999249940
+          "kvkNummer": "90003039",
+          "nonMailing": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
           },
-          "HuisnummerToevoeging": null
-        }
-      },
-      "VolledigAdres": "Kerkstraat 237 1511EG Oostzaan"
-    },
-    "Communicatiegegevens": {
-      "Registratie": {
-        "DatumAanvang": 20110301,
-        "DatumEinde": 20120320,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Communicatienummer": [
-        {
-          "Toegangscode": 31,
-          "Nummer": 209999999,
-          "Soort": {
-            "Code": "T",
-            "Omschrijving": "Telefoon"
-          }
-        }
-      ],
-      "EmailAdres": null
-    },
-    "Naam": "Company solocom Co\u00F6peratie",
-    "ManifesteertZichAls": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20061103,
-        "RegistratieTijdstipNoValue": null
-      },
-      "Onderneming": {
-        "Registratie": {
-          "DatumAanvang": 20061103,
-          "DatumEinde": 20120320,
-          "RegistratieTijdstipNoValue": null
-        },
-        "KvkNummer": 90003039,
-        "SbiActiviteit": [
-          {
-            "Registratie": {
-              "DatumAanvang": 20061103,
-              "DatumEinde": 20120320,
-              "RegistratieTijdstipNoValue": null
+          "incidenteelUitlenenArbeidskrachten": {
+            "code": "N",
+            "omschrijving": "Nee",
+            "referentieType": "geenRT"
+          },
+          "bezoekLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20120321090726936",
+              "datumAanvang": "20110301",
+              "datumEinde": "20120320"
             },
-            "SbiCode": {
-              "Code": 9002,
-              "Omschrijving": "Dienstverlening voor uitvoerende kunst",
-              "ReferentieType": "ActiviteitCode"
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
             },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Kerkstraat",
+                "huisnummer": "237",
+                "postcode": {
+                  "cijfercombinatie": "1511",
+                  "lettercombinatie": "EG"
+                },
+                "plaats": "Oostzaan",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999850382",
+                  "identificatieAdresseerbaarObject": "0074999999249940"
+                }
+              }
+            },
+            "volledigAdres": "Kerkstraat 237 1511EG Oostzaan"
+          },
+          "postLocatie": {
+            "registratie": {
+              "@registratieTijdstip": "20120321090726936",
+              "datumAanvang": "20110301",
+              "datumEinde": "20120320"
+            },
+            "afgeschermd": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "adres": {
+              "binnenlandsAdres": {
+                "straatnaam": "Kerkstraat",
+                "huisnummer": "237",
+                "postcode": {
+                  "cijfercombinatie": "1511",
+                  "lettercombinatie": "EG"
+                },
+                "plaats": "Oostzaan",
+                "bagId": {
+                  "identificatieNummeraanduiding": "0074999999850382",
+                  "identificatieAdresseerbaarObject": "0074999999249940"
+                }
+              }
+            },
+            "volledigAdres": "Kerkstraat 237 1511EG Oostzaan"
+          },
+          "communicatiegegevens": {
+            "registratie": {
+              "@registratieTijdstip": "20120321090726936",
+              "datumAanvang": "20110301",
+              "datumEinde": "20120320"
+            },
+            "communicatienummer": {
+              "toegangscode": "+31",
+              "nummer": "0209999999",
+              "soort": {
+                "code": "T",
+                "omschrijving": "Telefoon"
+              }
             }
-          }
-        ],
-        "VoltijdWerkzamePersonen": 2,
-        "DeeltijdWerkzamePersonen": 4,
-        "TotaalWerkzamePersonen": 6,
-        "HandeltOnder": [
-          {
-            "Handelsnaam": {
-              "Registratie": {
-                "DatumAanvang": 20061103,
-                "DatumEinde": 20120320,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Naam": "Company solocom Co\u00F6peratie",
-              "Volgorde": 0
-            },
-            "RelatieRegistratie": null
-          }
-        ],
-        "WordtUitgeoefendIn": {
-          "RelatieRegistratie": {
-            "DatumAanvang": 20061103,
-            "RegistratieTijdstipNoValue": null
           },
-          "CommercieleVestiging": {
-            "Registratie": {
-              "DatumAanvang": 20061103,
-              "DatumEinde": 20120320,
-              "RegistratieTijdstipNoValue": null
+          "naam": "Company solocom Coöperatie",
+          "manifesteertZichAls": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20120321090726936",
+              "datumAanvang": "20061103",
+              "datumEinde": "20120320"
             },
-            "Vestigingsnummer": 990000637837,
-            "BezoekLocatie": {
-              "Registratie": {
-                "DatumAanvang": 20110301,
-                "DatumEinde": 20120320,
-                "RegistratieTijdstipNoValue": null
+            "onderneming": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20061103",
+                "datumEinde": "20120320"
               },
-              "Afgeschermd": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
+              "kvkNummer": "90003039",
+              "sbiActiviteit": {
+                "registratie": {
+                  "@registratieTijdstip": "20120321090726936",
+                  "datumAanvang": "20061103",
+                  "datumEinde": "20120320"
+                },
+                "sbiCode": {
+                  "code": "9002",
+                  "omschrijving": "Dienstverlening voor uitvoerende kunst",
+                  "referentieType": "ActiviteitCode"
+                },
+                "isHoofdactiviteit": {
+                  "code": "J",
+                  "omschrijving": "Ja",
+                  "referentieType": "geenRT"
+                }
               },
-              "Adres": {
-                "BinnenlandsAdres": {
-                  "Straatnaam": "Kerkstraat",
-                  "Huisnummer": 237,
-                  "Postcode": {
-                    "Cijfercombinatie": 1511,
-                    "Lettercombinatie": "EG"
+              "voltijdWerkzamePersonen": "2",
+              "deeltijdWerkzamePersonen": "4",
+              "totaalWerkzamePersonen": "6",
+              "handeltOnder": {
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20061103",
+                    "datumEinde": "20120320"
                   },
-                  "Plaats": "Oostzaan",
-                  "BagId": {
-                    "IdentificatieNummeraanduiding": 74999999850382,
-                    "IdentificatieAdresseerbaarObject": 74999999249940
+                  "naam": "Company solocom Coöperatie",
+                  "volgorde": "0"
+                }
+              },
+              "wordtUitgeoefendIn": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20120321090726936",
+                  "datumAanvang": "20061103",
+                  "datumEinde": "20120320"
+                },
+                "commercieleVestiging": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20061103",
+                    "datumEinde": "20120320"
                   },
-                  "HuisnummerToevoeging": null
-                }
-              },
-              "VolledigAdres": "Kerkstraat 237 1511EG Oostzaan"
-            },
-            "Communicatiegegevens": {
-              "Registratie": {
-                "DatumAanvang": 20110301,
-                "DatumEinde": 20120320,
-                "RegistratieTijdstipNoValue": null
-              },
-              "Communicatienummer": [
-                {
-                  "Toegangscode": 31,
-                  "Nummer": 209999999,
-                  "Soort": {
-                    "Code": "T",
-                    "Omschrijving": "Telefoon"
-                  }
-                }
-              ],
-              "EmailAdres": null
-            },
-            "EersteHandelsnaam": "Company solocom Co\u00F6peratie",
-            "VoltijdWerkzamePersonen": 2,
-            "DeeltijdWerkzamePersonen": 4,
-            "TotaalWerkzamePersonen": 6,
-            "Activiteiten": {
-              "Omschrijving": "Het voorzien in de materi\u00EBle behoefte van de leden door middel van de revenuen uit het door de co\u00F6peratie en met de leden uitgeoefende theaterbedrijf en de belangen van haar leden te behartigen door hen werk en inkomen te verschaffen en te laten delen in de resultaten van het bedrijf, door het distribueren en verhandelen van informatie en zaken op het voormelde gebied, alsmede de kennis welke de lede dienaangaande hebben dan wel vergaren, ter beschikking van de leden te stellen",
-              "SbiActiviteit": {
-                "Registratie": {
-                  "DatumAanvang": 20061103,
-                  "DatumEinde": 20120320,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "SbiCode": {
-                  "Code": 9002,
-                  "Omschrijving": "Dienstverlening voor uitvoerende kunst",
-                  "ReferentieType": "ActiviteitCode"
-                },
-                "IsHoofdactiviteit": {
-                  "Code": "J",
-                  "Omschrijving": "Ja",
-                  "ReferentieType": "geenRT"
-                }
-              },
-              "Exporteert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              },
-              "Importeert": {
-                "Code": "N",
-                "Omschrijving": "Nee",
-                "ReferentieType": "geenRT"
-              }
-            },
-            "HandeltOnder": {
-              "Handelsnaam": {
-                "Registratie": {
-                  "DatumAanvang": 20061103,
-                  "DatumEinde": 20120320,
-                  "RegistratieTijdstipNoValue": null
-                },
-                "Naam": "Company solocom Co\u00F6peratie",
-                "Volgorde": 0
-              },
-              "RelatieRegistratie": {
-                "DatumAanvang": 20061103,
-                "RegistratieTijdstipNoValue": null
-              }
-            }
-          }
-        }
-      }
-    },
-    "WordtGeleidVanuit": {
-      "CommercieleVestiging": {
-        "Registratie": {
-          "DatumAanvang": 20061103,
-          "DatumEinde": 20120320,
-          "RegistratieTijdstipNoValue": null
-        },
-        "Vestigingsnummer": 990000637837,
-        "BezoekLocatie": {
-          "Registratie": {
-            "DatumAanvang": 20110301,
-            "DatumEinde": 20120320,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Afgeschermd": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Adres": {
-            "BinnenlandsAdres": {
-              "Straatnaam": "Kerkstraat",
-              "Huisnummer": 237,
-              "Postcode": {
-                "Cijfercombinatie": 1511,
-                "Lettercombinatie": "EG"
-              },
-              "Plaats": "Oostzaan",
-              "BagId": {
-                "IdentificatieNummeraanduiding": 74999999850382,
-                "IdentificatieAdresseerbaarObject": 74999999249940
-              },
-              "HuisnummerToevoeging": null
-            }
-          },
-          "VolledigAdres": "Kerkstraat 237 1511EG Oostzaan"
-        },
-        "Communicatiegegevens": {
-          "Registratie": {
-            "DatumAanvang": 20110301,
-            "DatumEinde": 20120320,
-            "RegistratieTijdstipNoValue": null
-          },
-          "Communicatienummer": [
-            {
-              "Toegangscode": 31,
-              "Nummer": 209999999,
-              "Soort": {
-                "Code": "T",
-                "Omschrijving": "Telefoon"
-              }
-            }
-          ],
-          "EmailAdres": null
-        },
-        "EersteHandelsnaam": "Company solocom Co\u00F6peratie",
-        "VoltijdWerkzamePersonen": 2,
-        "DeeltijdWerkzamePersonen": 4,
-        "TotaalWerkzamePersonen": 6,
-        "Activiteiten": {
-          "Omschrijving": "Het voorzien in de materi\u00EBle behoefte van de leden door middel van de revenuen uit het door de co\u00F6peratie en met de leden uitgeoefende theaterbedrijf en de belangen van haar leden te behartigen door hen werk en inkomen te verschaffen en te laten delen in de resultaten van het bedrijf, door het distribueren en verhandelen van informatie en zaken op het voormelde gebied, alsmede de kennis welke de lede dienaangaande hebben dan wel vergaren, ter beschikking van de leden te stellen",
-          "SbiActiviteit": {
-            "Registratie": {
-              "DatumAanvang": 20061103,
-              "DatumEinde": 20120320,
-              "RegistratieTijdstipNoValue": null
-            },
-            "SbiCode": {
-              "Code": 9002,
-              "Omschrijving": "Dienstverlening voor uitvoerende kunst",
-              "ReferentieType": "ActiviteitCode"
-            },
-            "IsHoofdactiviteit": {
-              "Code": "J",
-              "Omschrijving": "Ja",
-              "ReferentieType": "geenRT"
-            }
-          },
-          "Exporteert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          },
-          "Importeert": {
-            "Code": "N",
-            "Omschrijving": "Nee",
-            "ReferentieType": "geenRT"
-          }
-        },
-        "HandeltOnder": {
-          "Handelsnaam": {
-            "Registratie": {
-              "DatumAanvang": 20061103,
-              "DatumEinde": 20120320,
-              "RegistratieTijdstipNoValue": null
-            },
-            "Naam": "Company solocom Co\u00F6peratie",
-            "Volgorde": 0
-          },
-          "RelatieRegistratie": {
-            "DatumAanvang": 20061103,
-            "RegistratieTijdstipNoValue": null
-          }
-        }
-      }
-    },
-    "HeeftAlsEigenaar": {
-      "RelatieRegistratie": {
-        "DatumAanvang": 20061103,
-        "RegistratieTijdstipNoValue": null
-      },
-      "NatuurlijkPersoon": null,
-      "Samenwerkingsverband": null,
-      "Persoon": null,
-      "BuitenlandseVennootschap": null,
-      "Rechtspersoon": {
-        "VoornemenTotOntbinding": {},
-        "ActiviteitenGestaaktPer": null,
-        "Rechtsvorm": {
-          "Code": "COP",
-          "Omschrijving": "Co\u00F6peratie"
-        },
-        "Heeft": [
-          {
-            "FunctionarisBijzondereRechtstoestand": null,
-            "Aansprakelijke": null,
-            "BestuursFunctie": {
-              "Functie": {
-                "Code": "02",
-                "Omschrijving": "Bestuurder",
-                "ReferentieType": "FunctionarisRol"
-              },
-              "Door": {
-                "NaamPersoon": null,
-                "NatuurlijkPersoon": {
-                  "ExtraElementen": {
-                    "ExtraElement": {
-                      "Naam": "achternaam"
+                  "vestigingsnummer": "990000637837",
+                  "bezoekLocatie": {
+                    "registratie": {
+                      "@registratieTijdstip": "20120321090726936",
+                      "datumAanvang": "20110301",
+                      "datumEinde": "20120320"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "straatnaam": "Kerkstraat",
+                        "huisnummer": "237",
+                        "postcode": {
+                          "cijfercombinatie": "1511",
+                          "lettercombinatie": "EG"
+                        },
+                        "plaats": "Oostzaan",
+                        "bagId": {
+                          "identificatieNummeraanduiding": "0074999999850382",
+                          "identificatieAdresseerbaarObject": "0074999999249940"
+                        }
+                      }
+                    },
+                    "volledigAdres": "Kerkstraat 237 1511EG Oostzaan"
+                  },
+                  "communicatiegegevens": {
+                    "registratie": {
+                      "@registratieTijdstip": "20120321090726936",
+                      "datumAanvang": "20110301",
+                      "datumEinde": "20120320"
+                    },
+                    "communicatienummer": {
+                      "toegangscode": "+31",
+                      "nummer": "0209999999",
+                      "soort": {
+                        "code": "T",
+                        "omschrijving": "Telefoon"
+                      }
                     }
                   },
-                  "Registratie": {
-                    "DatumAanvang": 19640401,
-                    "DatumEinde": 0,
-                    "RegistratieTijdstipNoValue": null
+                  "eersteHandelsnaam": "Company solocom Coöperatie",
+                  "voltijdWerkzamePersonen": "2",
+                  "deeltijdWerkzamePersonen": "4",
+                  "totaalWerkzamePersonen": "6",
+                  "activiteiten": {
+                    "omschrijving": "Het voorzien in de materiële behoefte van de leden door middel van de revenuen uit het door de coöperatie en met de leden uitgeoefende theaterbedrijf en de belangen van haar leden te behartigen door hen werk en inkomen te verschaffen en te laten delen in de resultaten van het bedrijf, door het distribueren en verhandelen van informatie en zaken op het voormelde gebied, alsmede de kennis welke de lede dienaangaande hebben dan wel vergaren, ter beschikking van de leden te stellen",
+                    "sbiActiviteit": {
+                      "registratie": {
+                        "@registratieTijdstip": "20120321090726936",
+                        "datumAanvang": "20061103",
+                        "datumEinde": "20120320"
+                      },
+                      "sbiCode": {
+                        "code": "9002",
+                        "omschrijving": "Dienstverlening voor uitvoerende kunst",
+                        "referentieType": "ActiviteitCode"
+                      },
+                      "isHoofdactiviteit": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "exporteert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "importeert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
                   },
-                  "PersoonRechtsvorm": null,
-                  "VolledigeNaam": "Jan Klaasen",
-                  "UitgebreideRechtsvorm": null,
-                  "Geslachtsnaam": "Klaasen",
-                  "Voornamen": "Jan",
-                  "Heeft": [],
-                  "Geboortedatum": "20000101"
-                },
-                "Rechtspersoon": null
+                  "handeltOnder": {
+                    "relatieRegistratie": {
+                      "@registratieTijdstip": "20120321090726936",
+                      "datumAanvang": "20061103",
+                      "datumEinde": "20120320"
+                    },
+                    "handelsnaam": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20061103",
+                        "datumEinde": "20120320"
+                      },
+                      "naam": "Company solocom Coöperatie",
+                      "volgorde": "0"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "wordtGeleidVanuit": {
+            "commercieleVestiging": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20061103",
+                "datumEinde": "20120320"
               },
-              "Bevoegdheid": {
-                "Soort": {
-                  "Code": "gb",
-                  "Omschrijving": "Gezamenlijk bevoegd"
+              "vestigingsnummer": "990000637837",
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20120321090726936",
+                  "datumAanvang": "20110301",
+                  "datumEinde": "20120320"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Kerkstraat",
+                    "huisnummer": "237",
+                    "postcode": {
+                      "cijfercombinatie": "1511",
+                      "lettercombinatie": "EG"
+                    },
+                    "plaats": "Oostzaan",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999850382",
+                      "identificatieAdresseerbaarObject": "0074999999249940"
+                    }
+                  }
+                },
+                "volledigAdres": "Kerkstraat 237 1511EG Oostzaan"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstip": "20120321090726936",
+                  "datumAanvang": "20110301",
+                  "datumEinde": "20120320"
+                },
+                "communicatienummer": {
+                  "toegangscode": "+31",
+                  "nummer": "0209999999",
+                  "soort": {
+                    "code": "T",
+                    "omschrijving": "Telefoon"
+                  }
                 }
               },
-              "Functietitel": {
-                "Titel": "Voorzitter"
+              "eersteHandelsnaam": "Company solocom Coöperatie",
+              "voltijdWerkzamePersonen": "2",
+              "deeltijdWerkzamePersonen": "4",
+              "totaalWerkzamePersonen": "6",
+              "activiteiten": {
+                "omschrijving": "Het voorzien in de materiële behoefte van de leden door middel van de revenuen uit het door de coöperatie en met de leden uitgeoefende theaterbedrijf en de belangen van haar leden te behartigen door hen werk en inkomen te verschaffen en te laten delen in de resultaten van het bedrijf, door het distribueren en verhandelen van informatie en zaken op het voormelde gebied, alsmede de kennis welke de lede dienaangaande hebben dan wel vergaren, ter beschikking van de leden te stellen",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstip": "20120321090726936",
+                    "datumAanvang": "20061103",
+                    "datumEinde": "20120320"
+                  },
+                  "sbiCode": {
+                    "code": "9002",
+                    "omschrijving": "Dienstverlening voor uitvoerende kunst",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                },
+                "exporteert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "importeert": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                }
+              },
+              "handeltOnder": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20120321090726936",
+                  "datumAanvang": "20061103",
+                  "datumEinde": "20120320"
+                },
+                "handelsnaam": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20061103",
+                    "datumEinde": "20120320"
+                  },
+                  "naam": "Company solocom Coöperatie",
+                  "volgorde": "0"
+                }
               }
+            }
+          },
+          "heeftAlsEigenaar": {
+            "relatieRegistratie": {
+              "@registratieTijdstip": "20120321090726936",
+              "datumAanvang": "20061103",
+              "datumEinde": "20120320"
             },
-            "OverigeFunctionaris": null,
-            "Gemachtigde": null,
-            "PubliekrechtelijkeFunctionaris": null
+            "rechtspersoon": {
+              "extraElementen": {
+                "extraElement": [
+                  {
+                    "@naam": "datumAanvangStatuten",
+                    "#text": "20061103"
+                  },
+                  {
+                    "@naam": "datumAkteStatuten",
+                    "#text": "20061103"
+                  }
+                ]
+              },
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20061103",
+                "datumEinde": "20120320"
+              },
+              "persoonRechtsvorm": "Coöperatie",
+              "volledigeNaam": "Company solocom Coöperatie",
+              "uitgebreideRechtsvorm": "Coöperatie",
+              "heeft": {
+                "bestuursfunctie": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20061103",
+                    "datumEinde": "20120320"
+                  },
+                  "functietitel": {
+                    "registratie": {
+                      "@registratieTijdstip": "20120321090726936",
+                      "datumAanvang": "20061103",
+                      "datumEinde": "20120320"
+                    },
+                    "titel": "Voorzitter",
+                    "isStatutaireTitel": {
+                      "code": "J",
+                      "omschrijving": "Ja",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  "door": {
+                    "natuurlijkPersoon": {
+                      "extraElementen": {
+                        "extraElement": {
+                          "@naam": "achternaam",
+                          "#text": "Covey - Covey"
+                        }
+                      },
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19640401"
+                      },
+                      "volledigeNaam": "Nigel Covey",
+                      "geslachtsnaam": "Klaasen",
+"voornamen": "Jan",
+"geboortedatum": "20000101"
+                    }
+                  },
+                  "functie": {
+                    "code": "02",
+                    "omschrijving": "Bestuurder",
+                    "referentieType": "FunctionarisRol"
+                  },
+                  "bevoegdheid": {
+                    "registratie": {
+                      "@registratieTijdstip": "20120321090726936",
+                      "datumAanvang": "20061103",
+                      "datumEinde": "20120320"
+                    },
+                    "soort": {
+                      "code": "gb",
+                      "omschrijving": "Gezamenlijk bevoegd",
+                      "referentieType": "SoortBevoegdheidBestuurder"
+                    },
+                    "isBevoegdMetAnderePersonen": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  }
+                }
+              },
+              "rsin": "992809514",
+              "naamgeving": {
+                "registratie": {
+                  "@registratieTijdstip": "20120321090726936",
+                  "datumAanvang": "20061103",
+                  "datumEinde": "20120320"
+                },
+                "naam": "Company solocom Coöperatie"
+              },
+              "ontbinding": {
+                "registratie": {
+                  "@registratieTijdstip": "20120321090726936",
+                  "datumAanvang": "20120320"
+                },
+                "aanleiding": {
+                  "code": "DK",
+                  "omschrijving": "Ontbinding door de Kamer van Koophandel",
+                  "referentieType": "AanleidingOntbinding"
+                }
+              },
+              "rechtsvorm": {
+                "code": "COP",
+                "omschrijving": "Coöperatie",
+                "referentieType": "Rechtsvorm"
+              },
+              "statutaireZetel": "Nepplaats",
+              "aanvangStatutaireZetel": "20061103",
+              "datumAkteOprichting": "20061103",
+              "datumEersteInschrijvingHandelsregister": "20061108",
+              "datumAkteStatutenwijziging": "20061103",
+              "structuur": {
+                "code": "GS",
+                "omschrijving": "Gewone structuur",
+                "referentieType": "RechtsvormStructuur"
+              },
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20120321090726936",
+                  "datumAanvang": "20110301",
+                  "datumEinde": "20120320"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Kerkstraat",
+                    "huisnummer": "237",
+                    "postcode": {
+                      "cijfercombinatie": "1511",
+                      "lettercombinatie": "EG"
+                    },
+                    "plaats": "Oostzaan",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "0074999999850382",
+                      "identificatieAdresseerbaarObject": "0074999999249940"
+                    }
+                  }
+                },
+                "volledigAdres": "Kerkstraat 237 1511EG Oostzaan"
+              },
+              "voornemenTotOntbinding": {
+                "registratie": {
+                  "@registratieTijdstip": "20120321090726936",
+                  "datumAanvang": "20120111",
+                  "datumEinde": "20120320"
+                }
+              }
+            }
           }
-        ],
-        "VolledigeNaam": "Jan Klaasen",
-        "Rsin": "992809514"
+        }
       }
     }
-  },
-  "Url": "https://webservices.preprod.kvk.nl/postbus2"
+  }
 }
