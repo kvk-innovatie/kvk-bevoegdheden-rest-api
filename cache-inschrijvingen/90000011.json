@@ -12,7 +12,7 @@
           "informatie": {
             "code": "IPD0000",
             "omschrijving": "Het product is succesvol geproduceerd",
-            "referentie": "90000501"
+            "referentie": "90000011"
           }
         },
         "product": {
@@ -23,7 +23,7 @@
               "@registratieTijdstipNoValue": "vastgesteldOnbekend",
               "datumAanvang": "19880531"
             },
-            "kvkNummer": "90000501",
+            "kvkNummer": "90000011",
             "nonMailing": {
               "code": "N",
               "omschrijving": "Nee",
@@ -37,8 +37,7 @@
             "bezoekLocatie": {
               "registratie": {
                 "@registratieTijdstip": "20120321091141456",
-                "datumAanvang": "20050125",
-                "datumEinde": "20120320"
+                "datumAanvang": "20050125"
               },
               "afgeschermd": {
                 "code": "N",
@@ -47,26 +46,25 @@
               },
               "adres": {
                 "binnenlandsAdres": {
-                  "straatnaam": "Saturnusstraat",
+                  "straatnaam": "Dorpstraat",
                   "huisnummer": "9",
                   "postcode": {
                     "cijfercombinatie": "2402",
                     "lettercombinatie": "AD"
                   },
-                  "plaats": "Alphen aan den Rijn",
+                  "plaats": "Lutjebroek",
                   "bagId": {
                     "identificatieNummeraanduiding": "0074999999984430",
                     "identificatieAdresseerbaarObject": "0074999999319041"
                   }
                 }
               },
-              "volledigAdres": "Saturnusstraat 9 2402AD Alphen aan den Rijn"
+              "volledigAdres": "Dorpstraat 9 2402AD Lutjebroek"
             },
             "postLocatie": {
               "registratie": {
                 "@registratieTijdstip": "20120321091141456",
-                "datumAanvang": "20050125",
-                "datumEinde": "20120320"
+                "datumAanvang": "20050125"
               },
               "afgeschermd": {
                 "code": "N",
@@ -75,26 +73,25 @@
               },
               "adres": {
                 "binnenlandsAdres": {
-                  "straatnaam": "Saturnusstraat",
+                  "straatnaam": "Dorpstraat",
                   "huisnummer": "9",
                   "postcode": {
                     "cijfercombinatie": "2402",
                     "lettercombinatie": "AD"
                   },
-                  "plaats": "Alphen aan den Rijn",
+                  "plaats": "Lutjebroek",
                   "bagId": {
                     "identificatieNummeraanduiding": "0074999999984430",
                     "identificatieAdresseerbaarObject": "0074999999319041"
                   }
                 }
               },
-              "volledigAdres": "Saturnusstraat 9 2402AD Alphen aan den Rijn"
+              "volledigAdres": "Dorpstraat 9 2402AD Lutjebroek"
             },
             "communicatiegegevens": {
               "registratie": {
                 "@registratieTijdstip": "20120321091141456",
-                "datumAanvang": "19880531",
-                "datumEinde": "20120320"
+                "datumAanvang": "19880531"
               },
               "communicatienummer": {
                 "toegangscode": "+31",
@@ -105,7 +102,7 @@
                 }
               }
             },
-            "naam": "Witbaard machines",
+            "naam": "Veehouderij X",
             "manifesteertZichAls": {
               "relatieRegistratie": {
                 "@registratieTijdstip": "20120321091141456",
@@ -116,17 +113,16 @@
                   "@registratieTijdstipNoValue": "vastgesteldOnbekend",
                   "datumAanvang": "19880531"
                 },
-                "kvkNummer": "90000501",
+                "kvkNummer": "90000011",
                 "sbiActiviteit": [
                   {
                     "registratie": {
                       "@registratieTijdstip": "20120321091141456",
-                      "datumAanvang": "19880531",
-                      "datumEinde": "20120320"
+                      "datumAanvang": "19880531"
                     },
                     "sbiCode": {
                       "code": "6420",
-                      "omschrijving": "Financiële holdings",
+                      "omschrijving": "Akkerbouw en veeteelt",
                       "referentieType": "ActiviteitCode"
                     },
                     "isHoofdactiviteit": {
@@ -138,8 +134,7 @@
                   {
                     "registratie": {
                       "@registratieTijdstip": "20120321091141456",
-                      "datumAanvang": "19880531",
-                      "datumEinde": "20120320"
+                      "datumAanvang": "19880531"
                     },
                     "sbiCode": {
                       "code": "64302",
@@ -155,8 +150,7 @@
                   {
                     "registratie": {
                       "@registratieTijdstip": "20120321091141456",
-                      "datumAanvang": "19880531",
-                      "datumEinde": "20120320"
+                      "datumAanvang": "19880531"
                     },
                     "sbiCode": {
                       "code": "68204",
@@ -177,31 +171,27 @@
                   "handelsnaam": {
                     "registratie": {
                       "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                      "datumAanvang": "19910712",
-                      "datumEinde": "20120320"
+                      "datumAanvang": "19910712"
                     },
-                    "naam": "Witbaard machines",
+                    "naam": "Veehouderij X",
                     "volgorde": "0"
                   }
                 },
                 "wordtUitgeoefendIn": {
                   "relatieRegistratie": {
                     "@registratieTijdstip": "20120321091141456",
-                    "datumAanvang": "19880531",
-                    "datumEinde": "20120320"
+                    "datumAanvang": "19880531"
                   },
                   "commercieleVestiging": {
                     "registratie": {
                       "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                      "datumAanvang": "19880531",
-                      "datumEinde": "20120320"
+                      "datumAanvang": "19880531"
                     },
                     "vestigingsnummer": "990000275636",
                     "bezoekLocatie": {
                       "registratie": {
                         "@registratieTijdstip": "20120321091141456",
-                        "datumAanvang": "20050125",
-                        "datumEinde": "20120320"
+                        "datumAanvang": "20050125"
                       },
                       "afgeschermd": {
                         "code": "N",
@@ -210,26 +200,25 @@
                       },
                       "adres": {
                         "binnenlandsAdres": {
-                          "straatnaam": "Saturnusstraat",
+                          "straatnaam": "Dorpstraat",
                           "huisnummer": "9",
                           "postcode": {
                             "cijfercombinatie": "2402",
                             "lettercombinatie": "AD"
                           },
-                          "plaats": "Alphen aan den Rijn",
+                          "plaats": "Lutjebroek",
                           "bagId": {
                             "identificatieNummeraanduiding": "0074999999984430",
                             "identificatieAdresseerbaarObject": "0074999999319041"
                           }
                         }
                       },
-                      "volledigAdres": "Saturnusstraat 9 2402AD Alphen aan den Rijn"
+                      "volledigAdres": "Dorpstraat 9 2402AD Lutjebroek"
                     },
                     "communicatiegegevens": {
                       "registratie": {
                         "@registratieTijdstip": "20120321091141456",
-                        "datumAanvang": "19880531",
-                        "datumEinde": "20120320"
+                        "datumAanvang": "19880531"
                       },
                       "communicatienummer": {
                         "toegangscode": "+31",
@@ -240,7 +229,7 @@
                         }
                       }
                     },
-                    "eersteHandelsnaam": "Witbaard machines",
+                    "eersteHandelsnaam": "Veehouderij X",
                     "voltijdWerkzamePersonen": "1",
                     "deeltijdWerkzamePersonen": "0",
                     "totaalWerkzamePersonen": "1",
@@ -250,12 +239,11 @@
                         {
                           "registratie": {
                             "@registratieTijdstip": "20120321091141456",
-                            "datumAanvang": "19880531",
-                            "datumEinde": "20120320"
+                            "datumAanvang": "19880531"
                           },
                           "sbiCode": {
                             "code": "6420",
-                            "omschrijving": "Financiële holdings",
+                            "omschrijving": "Akkerbouw en veeteelt",
                             "referentieType": "ActiviteitCode"
                           },
                           "isHoofdactiviteit": {
@@ -267,8 +255,7 @@
                         {
                           "registratie": {
                             "@registratieTijdstip": "20120321091141456",
-                            "datumAanvang": "19880531",
-                            "datumEinde": "20120320"
+                            "datumAanvang": "19880531"
                           },
                           "sbiCode": {
                             "code": "64302",
@@ -284,8 +271,7 @@
                         {
                           "registratie": {
                             "@registratieTijdstip": "20120321091141456",
-                            "datumAanvang": "19880531",
-                            "datumEinde": "20120320"
+                            "datumAanvang": "19880531"
                           },
                           "sbiCode": {
                             "code": "68204",
@@ -313,16 +299,14 @@
                     "handeltOnder": {
                       "relatieRegistratie": {
                         "@registratieTijdstip": "20120321091141456",
-                        "datumAanvang": "19910712",
-                        "datumEinde": "20120320"
+                        "datumAanvang": "19910712"
                       },
                       "handelsnaam": {
                         "registratie": {
                           "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                          "datumAanvang": "19910712",
-                          "datumEinde": "20120320"
+                          "datumAanvang": "19910712"
                         },
-                        "naam": "Witbaard machines",
+                        "naam": "Veehouderij X",
                         "volgorde": "0"
                       }
                     }
@@ -334,15 +318,13 @@
               "commercieleVestiging": {
                 "registratie": {
                   "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                  "datumAanvang": "19880531",
-                  "datumEinde": "20120320"
+                  "datumAanvang": "19880531"
                 },
                 "vestigingsnummer": "990000275636",
                 "bezoekLocatie": {
                   "registratie": {
                     "@registratieTijdstip": "20120321091141456",
-                    "datumAanvang": "20050125",
-                    "datumEinde": "20120320"
+                    "datumAanvang": "20050125"
                   },
                   "afgeschermd": {
                     "code": "N",
@@ -351,26 +333,25 @@
                   },
                   "adres": {
                     "binnenlandsAdres": {
-                      "straatnaam": "Saturnusstraat",
+                      "straatnaam": "Dorpstraat",
                       "huisnummer": "9",
                       "postcode": {
                         "cijfercombinatie": "2402",
                         "lettercombinatie": "AD"
                       },
-                      "plaats": "Alphen aan den Rijn",
+                      "plaats": "Lutjebroek",
                       "bagId": {
                         "identificatieNummeraanduiding": "0074999999984430",
                         "identificatieAdresseerbaarObject": "0074999999319041"
                       }
                     }
                   },
-                  "volledigAdres": "Saturnusstraat 9 2402AD Alphen aan den Rijn"
+                  "volledigAdres": "Dorpstraat 9 2402AD Lutjebroek"
                 },
                 "communicatiegegevens": {
                   "registratie": {
                     "@registratieTijdstip": "20120321091141456",
-                    "datumAanvang": "19880531",
-                    "datumEinde": "20120320"
+                    "datumAanvang": "19880531"
                   },
                   "communicatienummer": {
                     "toegangscode": "+31",
@@ -381,7 +362,7 @@
                     }
                   }
                 },
-                "eersteHandelsnaam": "Witbaard machines",
+                "eersteHandelsnaam": "Veehouderij X",
                 "voltijdWerkzamePersonen": "1",
                 "deeltijdWerkzamePersonen": "0",
                 "totaalWerkzamePersonen": "1",
@@ -391,12 +372,11 @@
                     {
                       "registratie": {
                         "@registratieTijdstip": "20120321091141456",
-                        "datumAanvang": "19880531",
-                        "datumEinde": "20120320"
+                        "datumAanvang": "19880531"
                       },
                       "sbiCode": {
                         "code": "6420",
-                        "omschrijving": "Financiële holdings",
+                        "omschrijving": "Akkerbouw en veeteelt",
                         "referentieType": "ActiviteitCode"
                       },
                       "isHoofdactiviteit": {
@@ -408,8 +388,7 @@
                     {
                       "registratie": {
                         "@registratieTijdstip": "20120321091141456",
-                        "datumAanvang": "19880531",
-                        "datumEinde": "20120320"
+                        "datumAanvang": "19880531"
                       },
                       "sbiCode": {
                         "code": "64302",
@@ -425,8 +404,7 @@
                     {
                       "registratie": {
                         "@registratieTijdstip": "20120321091141456",
-                        "datumAanvang": "19880531",
-                        "datumEinde": "20120320"
+                        "datumAanvang": "19880531"
                       },
                       "sbiCode": {
                         "code": "68204",
@@ -454,16 +432,14 @@
                 "handeltOnder": {
                   "relatieRegistratie": {
                     "@registratieTijdstip": "20120321091141456",
-                    "datumAanvang": "19910712",
-                    "datumEinde": "20120320"
+                    "datumAanvang": "19910712"
                   },
                   "handelsnaam": {
                     "registratie": {
                       "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                      "datumAanvang": "19910712",
-                      "datumEinde": "20120320"
+                      "datumAanvang": "19910712"
                     },
-                    "naam": "Witbaard machines",
+                    "naam": "Veehouderij X",
                     "volgorde": "0"
                   }
                 }
@@ -472,8 +448,7 @@
             "heeftAlsEigenaar": {
               "relatieRegistratie": {
                 "@registratieTijdstip": "20120321091141456",
-                "datumAanvang": "19880531",
-                "datumEinde": "20120320"
+                "datumAanvang": "19880531"
               },
               "rechtspersoon": {
                 "extraElementen": {
@@ -490,19 +465,17 @@
                 },
                 "registratie": {
                   "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                  "datumAanvang": "19880531",
-                  "datumEinde": "20120320"
+                  "datumAanvang": "19880531"
                 },
                 "persoonRechtsvorm": "Besloten Vennootschap",
-                "volledigeNaam": "Witbaard machines",
+                "volledigeNaam": "Veehouderij X",
                 "uitgebreideRechtsvorm": "Besloten Vennootschap",
                 "heeft": [
                   {
                     "bestuursfunctie": {
                       "registratie": {
                         "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                        "datumAanvang": "20010601",
-                        "datumEinde": "20120320"
+                        "datumAanvang": "20010601"
                       },
                       "door": {
                         "natuurlijkPersoon": {
@@ -530,8 +503,7 @@
                       "bevoegdheid": {
                         "registratie": {
                           "@registratieTijdstip": "20120321091141456",
-                          "datumAanvang": "20010601",
-                          "datumEinde": "20120320"
+                          "datumAanvang": "20010601"
                         },
                         "soort": {
                           "code": "azb",
@@ -550,8 +522,7 @@
                     "bestuursfunctie": {
                       "registratie": {
                         "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                        "datumAanvang": "20010601",
-                        "datumEinde": "20120320"
+                        "datumAanvang": "20010601"
                       },
                       "door": {
                         "natuurlijkPersoon": {
@@ -579,8 +550,7 @@
                       "bevoegdheid": {
                         "registratie": {
                           "@registratieTijdstip": "20120321091141456",
-                          "datumAanvang": "20010601",
-                          "datumEinde": "20120320"
+                          "datumAanvang": "20010601"
                         },
                         "soort": {
                           "code": "azb",
@@ -600,10 +570,9 @@
                 "naamgeving": {
                   "registratie": {
                     "@registratieTijdstip": "20120321091141456",
-                    "datumAanvang": "19910712",
-                    "datumEinde": "20120320"
+                    "datumAanvang": "19910712"
                   },
-                  "naam": "Witbaard machines"
+                  "naam": "Veehouderij X"
                 },
                 "ontbinding": {
                   "registratie": {
@@ -639,8 +608,7 @@
                 "maatschappelijkKapitaal": {
                   "registratie": {
                     "@registratieTijdstip": "20120321091141456",
-                    "datumAanvang": "19880531",
-                    "datumEinde": "20120320"
+                    "datumAanvang": "19880531"
                   },
                   "bedrag": {
                     "waarde": "90756.04",
@@ -653,8 +621,7 @@
                 },
                 "geplaatstKapitaal": {
                   "registratie": {
-                    "@registratieTijdstip": "20120321091141456",
-                    "datumEinde": "20120320"
+                    "@registratieTijdstip": "20120321091141456"
                   },
                   "bedrag": {
                     "waarde": "18151.21",
@@ -667,8 +634,7 @@
                 },
                 "gestortKapitaal": {
                   "registratie": {
-                    "@registratieTijdstip": "20120321091141456",
-                    "datumEinde": "20120320"
+                    "@registratieTijdstip": "20120321091141456"
                   },
                   "bedrag": {
                     "waarde": "18151.21",
@@ -682,8 +648,7 @@
                 "bezoekLocatie": {
                   "registratie": {
                     "@registratieTijdstip": "20120321091141456",
-                    "datumAanvang": "20050125",
-                    "datumEinde": "20120320"
+                    "datumAanvang": "20050125"
                   },
                   "afgeschermd": {
                     "code": "N",
@@ -692,26 +657,25 @@
                   },
                   "adres": {
                     "binnenlandsAdres": {
-                      "straatnaam": "Saturnusstraat",
+                      "straatnaam": "Dorpstraat",
                       "huisnummer": "9",
                       "postcode": {
                         "cijfercombinatie": "2402",
                         "lettercombinatie": "AD"
                       },
-                      "plaats": "Alphen aan den Rijn",
+                      "plaats": "Lutjebroek",
                       "bagId": {
                         "identificatieNummeraanduiding": "0074999999984430",
                         "identificatieAdresseerbaarObject": "0074999999319041"
                       }
                     }
                   },
-                  "volledigAdres": "Saturnusstraat 9 2402AD Alphen aan den Rijn"
+                  "volledigAdres": "Dorpstraat 9 2402AD Lutjebroek"
                 },
                 "voornemenTotOntbinding": {
                   "registratie": {
                     "@registratieTijdstip": "20120321091141456",
-                    "datumAanvang": "20120117",
-                    "datumEinde": "20120320"
+                    "datumAanvang": "20120117"
                   }
                 }
               }

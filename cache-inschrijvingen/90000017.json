@@ -1,0 +1,399 @@
+{
+  "soap:Envelope": {
+    "wstxns8:Body": {
+      "@wsu:Id": "id-1-129cd3bed8c5d746695e221147988ee0",
+      "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+      "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+      "ophalenInschrijvingResponse": {
+        "@peilmoment": "20230624122839746",
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "meldingen": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+          "informatie": {
+            "code": "IPD0000",
+            "omschrijving": "Het product is succesvol geproduceerd",
+            "referentie": "90000017"
+          }
+        },
+        "product": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+          "maatschappelijkeActiviteit": {
+            "heeftAlsEigenaar": {
+              "rechtspersoon": {
+                "buitenlandseRechtstoestand": {
+                  "registratie": {
+                    "datumEinde": "",
+                    "registratieTijdstip": "",
+                    "datumAanvang": ""
+                  },
+                  "beschrijving": ""
+                },
+                "bijzondereRechtstoestand": {
+                  "registratie": {
+                    "datumEinde": "",
+                    "registratieTijdstip": "",
+                    "datumAanvang": ""
+                  },
+                  "soort": {
+                    "omschrijving": "",
+                    "referentieType": "",
+                    "code": ""
+                  }
+                },
+                "registratie": {
+                  "datumEinde": "",
+                  "registratieTijdstip": "",
+                  "datumAanvang": "19970521"
+                },
+                "beperkingInRechtshandeling": {
+                  "registratie": {
+                    "datumEinde": "",
+                    "registratieTijdstip": "",
+                    "datumAanvang": ""
+                  },
+                  "soort": {
+                    "omschrijving": "",
+                    "referentieType": "",
+                    "code": ""
+                  }
+                },
+                "datumUitschrijving": "",
+                "persoonRechtsvorm": "Besloten Vennootschap",
+                "ontbinding": {
+                  "liquidatie": {
+                    "registratie": {
+                      "datumEinde": "",
+                      "registratieTijdstip": "",
+                      "datumAanvang": ""
+                    }
+                  },
+                  "aanleiding": {
+                    "omschrijving": "",
+                    "referentieType": "",
+                    "code": ""
+                  },
+                  "registratie": {
+                    "datumEinde": "",
+                    "registratieTijdstip": "",
+                    "datumAanvang": ""
+                  }
+                },
+                "heeft": [
+                  {
+                    "bestuursfunctie": {
+                      "functietitel": {
+                        "titel": "Financieel directeur"
+                      },
+                      "volmacht": {
+                        "beperkteVolmacht": {
+                          "beperkingInGeld": {
+                            "waarde": "",
+                            "valuta": {
+                              "omschrijving": "",
+                              "referentieType": "",
+                              "code": ""
+                            }
+                          },
+                          "magOpgaveHandelsregisterDoen": {
+                            "omschrijving": "",
+                            "referentieType": "",
+                            "code": ""
+                          },
+                          "heeftOverigeVolmacht": {
+                            "omschrijving": "",
+                            "referentieType": "",
+                            "code": ""
+                          },
+                          "omschrijvingOverigeVolmacht": "",
+                          "beperkingInHandeling": {
+                            "soortHandeling": {
+                              "omschrijving": "",
+                              "referentieType": "",
+                              "code": ""
+                            }
+                          }
+                        },
+                        "typeVolmacht": {
+                          "omschrijving": "",
+                          "referentieType": "",
+                          "code": ""
+                        }
+                      },
+                      "door": {
+                        "natuurlijkPersoon": {
+                          "bijzondereRechtstoestand": {
+                            "registratie": {
+                              "datumEinde": "",
+                              "registratieTijdstip": "",
+                              "datumAanvang": ""
+                            },
+                            "soort": {
+                              "omschrijving": "",
+                              "referentieType": "",
+                              "code": ""
+                            }
+                          },
+                          "voornamen": "Jan",
+                          "voorvoegselGeslachtsnaam": "",
+                          "beperkingInRechtshandeling": {
+                            "registratie": {
+                              "datumEinde": "",
+                              "registratieTijdstip": "",
+                              "datumAanvang": ""
+                            },
+                            "soort": {
+                              "omschrijving": "",
+                              "referentieType": "",
+                              "code": ""
+                            }
+                          },
+                          "overlijdensdatum": "",
+                          "geslachtsnaam": "Klaasen",
+                          "volledigeNaam": "Jan Klaasen",
+                          "geboortedatum": "20000101"
+                        }
+                      },
+                      "schorsing": {
+                        "registratie": {
+                          "datumEinde": "",
+                          "registratieTijdstip": "",
+                          "datumAanvang": ""
+                        }
+                      },
+                      "functie": {
+                        "omschrijving": "Bestuurder",
+                        "referentieType": "FunctionarisRol",
+                        "code": "02"
+                      },
+                      "bevoegdheid": {
+                        "isBevoegdMetAnderePersonen": {
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT",
+                          "code": "N"
+                        },
+                        "beperkingInEuros": {
+                          "waarde": "",
+                          "valuta": {
+                            "omschrijving": "",
+                            "referentieType": "",
+                            "code": ""
+                          }
+                        },
+                        "soort": {
+                          "omschrijving": "Gezamenlijk bevoegd",
+                          "referentieType": "SoortBevoegdheidBestuurder",
+                          "code": "gb"
+                        },
+                        "overigeBeperking": {
+                          "omschrijving": "",
+                          "referentieType": "",
+                          "code": ""
+                        }
+                      },
+                      "handlichting": {
+                        "isVerleend": {
+                          "omschrijving": "",
+                          "referentieType": "",
+                          "code": ""
+                        },
+                        "registratie": {
+                          "datumEinde": "",
+                          "registratieTijdstip": "",
+                          "datumAanvang": ""
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "bestuursfunctie": {
+                      "functietitel": {
+                        "titel": "Financieel directeur"
+                      },
+                      "volmacht": {
+                        "beperkteVolmacht": {
+                          "beperkingInGeld": {
+                            "waarde": "",
+                            "valuta": {
+                              "omschrijving": "",
+                              "referentieType": "",
+                              "code": ""
+                            }
+                          },
+                          "magOpgaveHandelsregisterDoen": {
+                            "omschrijving": "",
+                            "referentieType": "",
+                            "code": ""
+                          },
+                          "heeftOverigeVolmacht": {
+                            "omschrijving": "",
+                            "referentieType": "",
+                            "code": ""
+                          },
+                          "omschrijvingOverigeVolmacht": "",
+                          "beperkingInHandeling": {
+                            "soortHandeling": {
+                              "omschrijving": "",
+                              "referentieType": "",
+                              "code": ""
+                            }
+                          }
+                        },
+                        "typeVolmacht": {
+                          "omschrijving": "",
+                          "referentieType": "",
+                          "code": ""
+                        }
+                      },
+                      "door": {
+                        "natuurlijkPersoon": {
+                          "bijzondereRechtstoestand": {
+                            "registratie": {
+                              "datumEinde": "",
+                              "registratieTijdstip": "",
+                              "datumAanvang": ""
+                            },
+                            "soort": {
+                              "omschrijving": "",
+                              "referentieType": "",
+                              "code": ""
+                            }
+                          },
+                          "voornamen": "Frans",
+                          "voorvoegselGeslachtsnaam": "",
+                          "beperkingInRechtshandeling": {
+                            "registratie": {
+                              "datumEinde": "",
+                              "registratieTijdstip": "",
+                              "datumAanvang": ""
+                            },
+                            "soort": {
+                              "omschrijving": "",
+                              "referentieType": "",
+                              "code": ""
+                            }
+                          },
+                          "overlijdensdatum": "",
+                          "geslachtsnaam": "Jansen",
+                          "volledigeNaam": "Frans Jansen",
+                          "geboortedatum": "20000101"
+                        }
+                      },
+                      "schorsing": {
+                        "registratie": {
+                          "datumEinde": "",
+                          "registratieTijdstip": "",
+                          "datumAanvang": ""
+                        }
+                      },
+                      "functie": {
+                        "omschrijving": "Bestuurder",
+                        "referentieType": "FunctionarisRol",
+                        "code": "02"
+                      },
+                      "bevoegdheid": {
+                        "isBevoegdMetAnderePersonen": {
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT",
+                          "code": "N"
+                        },
+                        "beperkingInEuros": {
+                          "waarde": "",
+                          "valuta": {
+                            "omschrijving": "",
+                            "referentieType": "",
+                            "code": ""
+                          }
+                        },
+                        "soort": {
+                          "omschrijving": "Gezamenlijk bevoegd",
+                          "referentieType": "SoortBevoegdheidBestuurder",
+                          "code": "gb"
+                        },
+                        "overigeBeperking": {
+                          "omschrijving": "",
+                          "referentieType": "",
+                          "code": ""
+                        }
+                      },
+                      "handlichting": {
+                        "isVerleend": {
+                          "omschrijving": "",
+                          "referentieType": "",
+                          "code": ""
+                        },
+                        "registratie": {
+                          "datumEinde": "",
+                          "registratieTijdstip": "",
+                          "datumAanvang": ""
+                        }
+                      }
+                    }
+                  }
+                ],
+                "rsin": "806092701"
+              }
+            },
+            "manifesteertZichAls": {
+              "onderneming": {
+                "sbiActiviteit": [
+                  {
+                    "isHoofdactiviteit": {
+                      "omschrijving": "Ja",
+                      "referentieType": "geenRT",
+                      "code": "J"
+                    },
+                    "sbiCode": {
+                      "omschrijving": "Financiële holdings",
+                      "code": "6420"
+                    }
+                  }
+                ],
+                "handeltOnder": [
+                  {
+                    "handelsnaam": {
+                      "naam": "Witbaard Holding Beperkt"
+                    }
+                  }
+                ]
+              }
+            },
+            "naam": "Witbaard Holding Beperkt",
+            "registratie": {
+              "datumEinde": "",
+              "registratieTijdstip": "",
+              "datumAanvang": "19970521"
+            },
+            "bezoekLocatie": {
+              "volledigAdres": "Prins Bernhardplein 173\n1097BL Amsterdam"
+            },
+            "sbiActiviteit": null,
+            "communicatiegegevens": {
+              "emailAdres": ["info@fdmediagroep.nl"],
+              "communicatienummer": [
+                {
+                  "toegangscode": "+31",
+                  "soort": {
+                    "omschrijving": "Telefoon",
+                    "referentieType": "",
+                    "code": "T"
+                  },
+                  "nummer": "0205928888"
+                },
+                {
+                  "toegangscode": "+31",
+                  "soort": {
+                    "omschrijving": "Fax",
+                    "referentieType": "",
+                    "code": "F"
+                  },
+                  "nummer": "0205928800"
+                }
+              ]
+            },
+            "kvkNummer": "90000017"
+          }
+        }
+      }
+    }
+  }
+}

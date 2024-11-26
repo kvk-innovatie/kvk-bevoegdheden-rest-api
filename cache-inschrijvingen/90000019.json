@@ -1,0 +1,818 @@
+{
+  "soap:Envelope": {
+    "wstxns8:Body": {
+      "@wsu:Id": "id-1-6dbf27c2f4ab26b7505dc4d9a0586d0d",
+      "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+      "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+      "ophalenInschrijvingResponse": {
+        "@peilmoment": "20240418122839746",
+        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+        "meldingen": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+          "informatie": {
+            "code": "IPD0000",
+            "omschrijving": "Het product is succesvol geproduceerd",
+            "referentie": "90000019"
+          }
+        },
+        "product": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+          "maatschappelijkeActiviteit": {
+            "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+            "registratie": {
+              "@registratieTijdstip": "20160602103208662",
+              "datumAanvang": "20160601"
+            },
+            "kvkNummer": "90000019",
+            "nonMailing": {
+              "code": "J",
+              "omschrijving": "Ja",
+              "referentieType": "geenRT"
+            },
+            "incidenteelUitlenenArbeidskrachten": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
+            },
+            "bezoekLocatie": {
+              "registratie": {
+                "@registratieTijdstip": "20220406125207797",
+                "datumAanvang": "20220405"
+              },
+              "afgeschermd": {
+                "code": "N",
+                "omschrijving": "Nee",
+                "referentieType": "geenRT"
+              },
+              "adres": {
+                "binnenlandsAdres": {
+                  "straatnaam": "Dorpstraat",
+                  "huisnummer": "21",
+                  "postcode": {
+                    "cijfercombinatie": "1000",
+                    "lettercombinatie": "EL"
+                  },
+                  "plaats": "Lutjebroek",
+                  "bagId": {
+                    "identificatieNummeraanduiding": "0307200000498252",
+                    "identificatieAdresseerbaarObject": "0307010000498253"
+                  }
+                }
+              },
+              "volledigAdres": "Dorpstraat 21\\n1000EL Lutjebroek"
+            },
+            "postLocatie": {
+              "registratie": {
+                "@registratieTijdstip": "20220406125207797",
+                "datumAanvang": "20220405"
+              },
+              "afgeschermd": {
+                "code": "N",
+                "omschrijving": "Nee",
+                "referentieType": "geenRT"
+              },
+              "adres": {
+                "binnenlandsAdres": {
+                  "straatnaam": "Dorpstraat",
+                  "huisnummer": "21",
+                  "postcode": {
+                    "cijfercombinatie": "1000",
+                    "lettercombinatie": "EL"
+                  },
+                  "plaats": "Lutjebroek",
+                  "bagId": {
+                    "identificatieNummeraanduiding": "0307200000498252",
+                    "identificatieAdresseerbaarObject": "0307010000498253"
+                  }
+                }
+              },
+              "volledigAdres": "Dorpstraat 21\\n1000EL Lutjebroek"
+            },
+            "naam": "Witbaard Schoonmaakartikelen natFunc",
+            "manifesteertZichAls": {
+              "relatieRegistratie": {
+                "@registratieTijdstip": "20160602103208662",
+                "datumAanvang": "20160601"
+              },
+              "onderneming": {
+                "registratie": {
+                  "@registratieTijdstip": "20160602103208662",
+                  "datumAanvang": "20160601"
+                },
+                "kvkNummer": "90000019",
+                "sbiActiviteit": {
+                  "registratie": {
+                    "@registratieTijdstip": "20160602103208662",
+                    "datumAanvang": "20160601"
+                  },
+                  "sbiCode": {
+                    "code": "6420",
+                    "omschrijving": "Financiële holdings",
+                    "referentieType": "ActiviteitCode"
+                  },
+                  "isHoofdactiviteit": {
+                    "code": "J",
+                    "omschrijving": "Ja",
+                    "referentieType": "geenRT"
+                  }
+                },
+                "voltijdWerkzamePersonen": "0",
+                "deeltijdWerkzamePersonen": "0",
+                "totaalWerkzamePersonen": "0",
+                "handeltOnder": {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstip": "20160602103208662",
+                      "datumAanvang": "20160601"
+                    },
+                    "naam": "Witbaard Schoonmaakartikelen natFunc",
+                    "volgorde": "0"
+                  }
+                },
+                "wordtUitgeoefendIn": {
+                  "relatieRegistratie": {
+                    "@registratieTijdstip": "20160602103208662",
+                    "datumAanvang": "20160601"
+                  },
+                  "commercieleVestiging": {
+                    "registratie": {
+                      "@registratieTijdstip": "20160602103208662",
+                      "datumAanvang": "20160601"
+                    },
+                    "vestigingsnummer": "000034808329",
+                    "bezoekLocatie": {
+                      "registratie": {
+                        "@registratieTijdstip": "20220406125207797",
+                        "datumAanvang": "20220405"
+                      },
+                      "afgeschermd": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "adres": {
+                        "binnenlandsAdres": {
+                          "straatnaam": "Dorpstraat",
+                          "huisnummer": "21",
+                          "postcode": {
+                            "cijfercombinatie": "1000",
+                            "lettercombinatie": "EL"
+                          },
+                          "plaats": "Lutjebroek",
+                          "bagId": {
+                            "identificatieNummeraanduiding": "0307200000498252",
+                            "identificatieAdresseerbaarObject": "0307010000498253"
+                          }
+                        }
+                      },
+                      "volledigAdres": "Dorpstraat 21\\n1000EL Lutjebroek"
+                    },
+                    "eersteHandelsnaam": "Witbaard Schoonmaakartikelen natFunc",
+                    "voltijdWerkzamePersonen": "0",
+                    "deeltijdWerkzamePersonen": "0",
+                    "totaalWerkzamePersonen": "0",
+                    "activiteiten": {
+                      "omschrijving": "Holding-en financiering",
+                      "sbiActiviteit": {
+                        "registratie": {
+                          "@registratieTijdstip": "20160602103208662",
+                          "datumAanvang": "20160601"
+                        },
+                        "sbiCode": {
+                          "code": "6420",
+                          "omschrijving": "Financiële holdings",
+                          "referentieType": "ActiviteitCode"
+                        },
+                        "isHoofdactiviteit": {
+                          "code": "J",
+                          "omschrijving": "Ja",
+                          "referentieType": "geenRT"
+                        }
+                      },
+                      "exporteert": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "importeert": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "handeltOnder": {
+                      "relatieRegistratie": {
+                        "@registratieTijdstip": "20160602103208662",
+                        "datumAanvang": "20160601"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstip": "20160602103208662",
+                          "datumAanvang": "20160601"
+                        },
+                        "naam": "Witbaard Schoonmaakartikelen natFunc",
+                        "volgorde": "0"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "wordtGeleidVanuit": {
+              "commercieleVestiging": {
+                "registratie": {
+                  "@registratieTijdstip": "20160602103208662",
+                  "datumAanvang": "20160601"
+                },
+                "vestigingsnummer": "000034808329",
+                "bezoekLocatie": {
+                  "registratie": {
+                    "@registratieTijdstip": "20220406125207797",
+                    "datumAanvang": "20220405"
+                  },
+                  "afgeschermd": {
+                    "code": "N",
+                    "omschrijving": "Nee",
+                    "referentieType": "geenRT"
+                  },
+                  "adres": {
+                    "binnenlandsAdres": {
+                      "straatnaam": "Dorpstraat",
+                      "huisnummer": "21",
+                      "postcode": {
+                        "cijfercombinatie": "1000",
+                        "lettercombinatie": "EL"
+                      },
+                      "plaats": "Lutjebroek",
+                      "bagId": {
+                        "identificatieNummeraanduiding": "0307200000498252",
+                        "identificatieAdresseerbaarObject": "0307010000498253"
+                      }
+                    }
+                  },
+                  "volledigAdres": "Dorpstraat 21\\n1000EL Lutjebroek"
+                },
+                "eersteHandelsnaam": "Witbaard Schoonmaakartikelen natFunc",
+                "voltijdWerkzamePersonen": "0",
+                "deeltijdWerkzamePersonen": "0",
+                "totaalWerkzamePersonen": "0",
+                "activiteiten": {
+                  "omschrijving": "Holding-en financiering",
+                  "sbiActiviteit": {
+                    "registratie": {
+                      "@registratieTijdstip": "20160602103208662",
+                      "datumAanvang": "20160601"
+                    },
+                    "sbiCode": {
+                      "code": "6420",
+                      "omschrijving": "Financiële holdings",
+                      "referentieType": "ActiviteitCode"
+                    },
+                    "isHoofdactiviteit": {
+                      "code": "J",
+                      "omschrijving": "Ja",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  "exporteert": {
+                    "code": "N",
+                    "omschrijving": "Nee",
+                    "referentieType": "geenRT"
+                  },
+                  "importeert": {
+                    "code": "N",
+                    "omschrijving": "Nee",
+                    "referentieType": "geenRT"
+                  }
+                },
+                "handeltOnder": {
+                  "relatieRegistratie": {
+                    "@registratieTijdstip": "20160602103208662",
+                    "datumAanvang": "20160601"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstip": "20160602103208662",
+                      "datumAanvang": "20160601"
+                    },
+                    "naam": "Witbaard Schoonmaakartikelen natFunc",
+                    "volgorde": "0"
+                  }
+                }
+              }
+            },
+            "heeftAlsEigenaar": {
+              "relatieRegistratie": {
+                "@registratieTijdstip": "20160602103208662",
+                "datumAanvang": "20160601"
+              },
+              "rechtspersoon": {
+                "extraElementen": {
+                  "extraElement": [
+                    {
+                      "@naam": "datumAanvangStatuten",
+                      "#text": "20160601"
+                    },
+                    {
+                      "@naam": "datumAkteStatuten",
+                      "#text": "20160601"
+                    }
+                  ]
+                },
+                "registratie": {
+                  "@registratieTijdstip": "20160602103208662",
+                  "datumAanvang": "20160601"
+                },
+                "persoonRechtsvorm": "Besloten Vennootschap",
+                "volledigeNaam": "Witbaard Schoonmaakartikelen natFunc",
+                "uitgebreideRechtsvorm": "Besloten Vennootschap",
+                "heeft": [
+                  {
+                    "bestuursfunctie": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20010601"
+                      },
+                      "door": {
+                        "natuurlijkPersoon": {
+                          "extraElementen": {
+                            "extraElement": {
+                              "@naam": "achternaam",
+                              "#text": "Klaassen"
+                            }
+                          },
+                          "registratie": {
+                            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                            "datumAanvang": "19630627"
+                          },
+                          "volledigeNaam": "Piet Klaassen",
+                          "geslachtsnaam": "Klaassen",
+                          "voornamen": "Piet",
+                          "geboortedatum": "20000101"
+                        }
+                      },
+                      "functie": {
+                        "code": "02",
+                        "omschrijving": "Bestuurder",
+                        "referentieType": "FunctionarisRol"
+                      },
+                      "bevoegdheid": {
+                        "registratie": {
+                          "@registratieTijdstip": "20120321091141456",
+                          "datumAanvang": "20010601"
+                        },
+                        "soort": {
+                          "code": "azb",
+                          "omschrijving": "Alleen/zelfstandig bevoegd",
+                          "referentieType": "SoortBevoegdheidBestuurder"
+                        },
+                        "isBevoegdMetAnderePersonen": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "bestuursfunctie": {
+                      "registratie": {
+                        "@registratieTijdstip": "20201127061619221",
+                        "datumAanvang": "20201126"
+                      },
+                      "door": {
+                        "rechtspersoon": {
+                          "persoonRechtsvorm": "Besloten Vennootschap",
+                          "volledigeNaam": "Witbaard Niet Bestaand Holding",
+                          "bezoekLocatiePersoon": {
+                            "registratie": {
+                              "@registratieTijdstip": "20220607094610243",
+                              "datumAanvang": "20220604"
+                            },
+                            "afgeschermd": {
+                              "code": "N",
+                              "omschrijving": "Nee",
+                              "referentieType": "geenRT"
+                            },
+                            "adres": {
+                              "binnenlandsAdres": {
+                                "straatnaam": "Dorpstraat",
+                                "huisnummer": "21",
+                                "postcode": {
+                                  "cijfercombinatie": "1000",
+                                  "lettercombinatie": "EL"
+                                },
+                                "plaats": "Lutjebroek",
+                                "bagId": {
+                                  "identificatieNummeraanduiding": "0307200000498252",
+                                  "identificatieAdresseerbaarObject": "0307010000498253"
+                                }
+                              }
+                            },
+                            "volledigAdres": "Dorpstraat 21\\n1000EL Lutjebroek"
+                          },
+                          "isEigenaarVan": {
+                            "maatschappelijkeActiviteit": {
+                              "kvkNummer": "90000015",
+                              "nonMailing": {
+                                "code": "J",
+                                "omschrijving": "Ja",
+                                "referentieType": "geenRT"
+                              }
+                            }
+                          },
+                          "rsin": "859415971"
+                        }
+                      },
+                      "functie": {
+                        "code": "02",
+                        "omschrijving": "Bestuurder",
+                        "referentieType": "FunctionarisRol"
+                      },
+                      "bevoegdheid": {
+                        "registratie": {
+                          "@registratieTijdstip": "20201127061619221",
+                          "datumAanvang": "20201126"
+                        },
+                        "soort": {
+                          "code": "azb",
+                          "omschrijving": "Alleen/zelfstandig bevoegd",
+                          "referentieType": "SoortBevoegdheidBestuurder"
+                        },
+                        "isBevoegdMetAnderePersonen": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "bestuursfunctie": {
+                      "registratie": {
+                        "@registratieTijdstip": "20201127061619221",
+                        "datumAanvang": "20201126"
+                      },
+                      "door": {
+                        "rechtspersoon": {
+                          "persoonRechtsvorm": "Besloten Vennootschap",
+                          "volledigeNaam": "Witbaard Holding",
+                          "bezoekLocatiePersoon": {
+                            "registratie": {
+                              "@registratieTijdstip": "20220607094610243",
+                              "datumAanvang": "20220604"
+                            },
+                            "afgeschermd": {
+                              "code": "N",
+                              "omschrijving": "Nee",
+                              "referentieType": "geenRT"
+                            },
+                            "adres": {
+                              "binnenlandsAdres": {
+                                "straatnaam": "Dorpstraat",
+                                "huisnummer": "21",
+                                "postcode": {
+                                  "cijfercombinatie": "1000",
+                                  "lettercombinatie": "EL"
+                                },
+                                "plaats": "Lutjebroek",
+                                "bagId": {
+                                  "identificatieNummeraanduiding": "0307200000498252",
+                                  "identificatieAdresseerbaarObject": "0307010000498253"
+                                }
+                              }
+                            },
+                            "volledigAdres": "Dorpstraat 21\\n1000EL Lutjebroek"
+                          },
+                          "isEigenaarVan": {
+                            "maatschappelijkeActiviteit": {
+                              "kvkNummer": "90000016",
+                              "nonMailing": {
+                                "code": "J",
+                                "omschrijving": "Ja",
+                                "referentieType": "geenRT"
+                              }
+                            }
+                          },
+                          "rsin": "859415971"
+                        }
+                      },
+                      "functie": {
+                        "code": "02",
+                        "omschrijving": "Bestuurder",
+                        "referentieType": "FunctionarisRol"
+                      },
+                      "bevoegdheid": {
+                        "registratie": {
+                          "@registratieTijdstip": "20201127061619221",
+                          "datumAanvang": "20201126"
+                        },
+                        "soort": {
+                          "code": "azb",
+                          "omschrijving": "Alleen/zelfstandig bevoegd",
+                          "referentieType": "SoortBevoegdheidBestuurder"
+                        },
+                        "isBevoegdMetAnderePersonen": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "overigeFunctionaris": {
+                      "registratie": {
+                        "@registratieTijdstip": "20201127061619221",
+                        "datumAanvang": "20201126"
+                      },
+                      "door": {
+                        "rechtspersoon": {
+                          "persoonRechtsvorm": "Besloten Vennootschap",
+                          "volledigeNaam": "Witbaard Holding",
+                          "bezoekLocatiePersoon": {
+                            "registratie": {
+                              "@registratieTijdstip": "20220607094610243",
+                              "datumAanvang": "20220604"
+                            },
+                            "afgeschermd": {
+                              "code": "N",
+                              "omschrijving": "Nee",
+                              "referentieType": "geenRT"
+                            },
+                            "adres": {
+                              "binnenlandsAdres": {
+                                "straatnaam": "Dorpstraat",
+                                "huisnummer": "21",
+                                "postcode": {
+                                  "cijfercombinatie": "1000",
+                                  "lettercombinatie": "EL"
+                                },
+                                "plaats": "Lutjebroek",
+                                "bagId": {
+                                  "identificatieNummeraanduiding": "0307200000498252",
+                                  "identificatieAdresseerbaarObject": "0307010000498253"
+                                }
+                              }
+                            },
+                            "volledigAdres": "Dorpstraat 21\\n1000EL Lutjebroek"
+                          },
+                          "isEigenaarVan": {
+                            "maatschappelijkeActiviteit": {
+                              "kvkNummer": "90000016",
+                              "nonMailing": {
+                                "code": "J",
+                                "omschrijving": "Ja",
+                                "referentieType": "geenRT"
+                              }
+                            }
+                          },
+                          "rsin": "859415971"
+                        }
+                      },
+                      "functie": {
+                        "code": "08",
+                        "omschrijving": "Enig aandeelhouder",
+                        "referentieType": "FunctionarisRol"
+                      }
+                    }
+                  },
+                  {
+                    "bestuursfunctie": {
+                      "registratie": {
+                        "@registratieTijdstip": "20201127061619221",
+                        "datumAanvang": "20201126"
+                      },
+                      "door": {
+                        "rechtspersoon": {
+                          "persoonRechtsvorm": "Besloten Vennootschap",
+                          "volledigeNaam": "Witbaard Holding Beperkt",
+                          "bezoekLocatiePersoon": {
+                            "registratie": {
+                              "@registratieTijdstip": "20220607094610243",
+                              "datumAanvang": "20220604"
+                            },
+                            "afgeschermd": {
+                              "code": "N",
+                              "omschrijving": "Nee",
+                              "referentieType": "geenRT"
+                            },
+                            "adres": {
+                              "binnenlandsAdres": {
+                                "straatnaam": "Dorpstraat",
+                                "huisnummer": "21",
+                                "postcode": {
+                                  "cijfercombinatie": "1000",
+                                  "lettercombinatie": "EL"
+                                },
+                                "plaats": "Lutjebroek",
+                                "bagId": {
+                                  "identificatieNummeraanduiding": "0307200000498252",
+                                  "identificatieAdresseerbaarObject": "0307010000498253"
+                                }
+                              }
+                            },
+                            "volledigAdres": "Dorpstraat 21\\n1000EL Lutjebroek"
+                          },
+                          "isEigenaarVan": {
+                            "maatschappelijkeActiviteit": {
+                              "kvkNummer": "90000017",
+                              "nonMailing": {
+                                "code": "J",
+                                "omschrijving": "Ja",
+                                "referentieType": "geenRT"
+                              }
+                            }
+                          },
+                          "rsin": "859415971"
+                        }
+                      },
+                      "functie": {
+                        "code": "02",
+                        "omschrijving": "Bestuurder",
+                        "referentieType": "FunctionarisRol"
+                      },
+                      "bevoegdheid": {
+                        "registratie": {
+                          "@registratieTijdstip": "20201127061619221",
+                          "datumAanvang": "20201126"
+                        },
+                        "soort": {
+                          "code": "azb",
+                          "omschrijving": "Alleen/zelfstandig bevoegd",
+                          "referentieType": "SoortBevoegdheidBestuurder"
+                        },
+                        "isBevoegdMetAnderePersonen": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "bestuursfunctie": {
+                      "registratie": {
+                        "@registratieTijdstip": "20201127061619221",
+                        "datumAanvang": "20201126"
+                      },
+                      "door": {
+                        "rechtspersoon": {
+                          "persoonRechtsvorm": "Besloten Vennootschap",
+                          "volledigeNaam": "Witbaard Holding NoFunct",
+                          "bezoekLocatiePersoon": {
+                            "registratie": {
+                              "@registratieTijdstip": "20220607094610243",
+                              "datumAanvang": "20220604"
+                            },
+                            "afgeschermd": {
+                              "code": "N",
+                              "omschrijving": "Nee",
+                              "referentieType": "geenRT"
+                            },
+                            "adres": {
+                              "binnenlandsAdres": {
+                                "straatnaam": "Dorpstraat",
+                                "huisnummer": "21",
+                                "postcode": {
+                                  "cijfercombinatie": "1000",
+                                  "lettercombinatie": "EL"
+                                },
+                                "plaats": "Lutjebroek",
+                                "bagId": {
+                                  "identificatieNummeraanduiding": "0307200000498252",
+                                  "identificatieAdresseerbaarObject": "0307010000498253"
+                                }
+                              }
+                            },
+                            "volledigAdres": "Dorpstraat 21\\n1000EL Lutjebroek"
+                          },
+                          "isEigenaarVan": {
+                            "maatschappelijkeActiviteit": {
+                              "kvkNummer": "90000018",
+                              "nonMailing": {
+                                "code": "J",
+                                "omschrijving": "Ja",
+                                "referentieType": "geenRT"
+                              }
+                            }
+                          },
+                          "rsin": "859415971"
+                        }
+                      },
+                      "functie": {
+                        "code": "02",
+                        "omschrijving": "Bestuurder",
+                        "referentieType": "FunctionarisRol"
+                      },
+                      "bevoegdheid": {
+                        "registratie": {
+                          "@registratieTijdstip": "20201127061619221",
+                          "datumAanvang": "20201126"
+                        },
+                        "soort": {
+                          "code": "azb",
+                          "omschrijving": "Alleen/zelfstandig bevoegd",
+                          "referentieType": "SoortBevoegdheidBestuurder"
+                        },
+                        "isBevoegdMetAnderePersonen": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "rsin": "856420724",
+                "naamgeving": {
+                  "registratie": {
+                    "@registratieTijdstip": "20160602103208662",
+                    "datumAanvang": "20160601"
+                  },
+                  "naam": "Witbaard Schoonmaakartikelen natFunc"
+                },
+                "rechtsvorm": {
+                  "code": "BV",
+                  "omschrijving": "Besloten Vennootschap",
+                  "referentieType": "Rechtsvorm"
+                },
+                "statutaireZetel": "Lutjebroek",
+                "aanvangStatutaireZetel": "20160601",
+                "datumAkteOprichting": "20160601",
+                "datumOprichting": "20160601",
+                "datumEersteInschrijvingHandelsregister": "20160602",
+                "datumAkteStatutenwijziging": "20160601",
+                "stelselInrichting": {
+                  "code": "D",
+                  "omschrijving": "Dualistisch",
+                  "referentieType": "StelselInrichting"
+                },
+                "structuur": {
+                  "code": "GS",
+                  "omschrijving": "Gewone structuur",
+                  "referentieType": "RechtsvormStructuur"
+                },
+                "geplaatstKapitaal": {
+                  "registratie": {
+                    "@registratieTijdstip": "20160602103208662",
+                    "datumAanvang": "20160601"
+                  },
+                  "bedrag": {
+                    "waarde": "100",
+                    "valuta": {
+                      "code": "EUR",
+                      "omschrijving": "Euro",
+                      "referentieType": "Valuta"
+                    }
+                  }
+                },
+                "gestortKapitaal": {
+                  "registratie": {
+                    "@registratieTijdstip": "20160602103208662",
+                    "datumAanvang": "20160601"
+                  },
+                  "bedrag": {
+                    "waarde": "100",
+                    "valuta": {
+                      "code": "EUR",
+                      "omschrijving": "Euro",
+                      "referentieType": "Valuta"
+                    }
+                  }
+                },
+                "bezoekLocatie": {
+                  "registratie": {
+                    "@registratieTijdstip": "20220406125207797",
+                    "datumAanvang": "20220405"
+                  },
+                  "afgeschermd": {
+                    "code": "N",
+                    "omschrijving": "Nee",
+                    "referentieType": "geenRT"
+                  },
+                  "adres": {
+                    "binnenlandsAdres": {
+                      "straatnaam": "Dorpstraat",
+                      "huisnummer": "21",
+                      "postcode": {
+                        "cijfercombinatie": "1000",
+                        "lettercombinatie": "EL"
+                      },
+                      "plaats": "Lutjebroek",
+                      "bagId": {
+                        "identificatieNummeraanduiding": "0307200000498252",
+                        "identificatieAdresseerbaarObject": "0307010000498253"
+                      }
+                    }
+                  },
+                  "volledigAdres": "Dorpstraat 21\\n1000EL Lutjebroek"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

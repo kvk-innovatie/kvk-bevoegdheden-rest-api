@@ -12,7 +12,7 @@
           "informatie": {
             "code": "IPD0000",
             "omschrijving": "Het product is succesvol geproduceerd",
-            "referentie": "90000501"
+            "referentie": "90000502"
           }
         },
         "product": {
@@ -23,7 +23,7 @@
               "@registratieTijdstipNoValue": "vastgesteldOnbekend",
               "datumAanvang": "19880531"
             },
-            "kvkNummer": "90000501",
+            "kvkNummer": "90000502",
             "nonMailing": {
               "code": "N",
               "omschrijving": "Nee",
@@ -37,8 +37,7 @@
             "bezoekLocatie": {
               "registratie": {
                 "@registratieTijdstip": "20120321091141456",
-                "datumAanvang": "20050125",
-                "datumEinde": "20120320"
+                "datumAanvang": "20050125"
               },
               "afgeschermd": {
                 "code": "N",
@@ -65,8 +64,7 @@
             "postLocatie": {
               "registratie": {
                 "@registratieTijdstip": "20120321091141456",
-                "datumAanvang": "20050125",
-                "datumEinde": "20120320"
+                "datumAanvang": "20050125"
               },
               "afgeschermd": {
                 "code": "N",
@@ -93,8 +91,7 @@
             "communicatiegegevens": {
               "registratie": {
                 "@registratieTijdstip": "20120321091141456",
-                "datumAanvang": "19880531",
-                "datumEinde": "20120320"
+                "datumAanvang": "19880531"
               },
               "communicatienummer": {
                 "toegangscode": "+31",
@@ -105,7 +102,7 @@
                 }
               }
             },
-            "naam": "Witbaard machines",
+            "naam": "Witbaard Vastgoed",
             "manifesteertZichAls": {
               "relatieRegistratie": {
                 "@registratieTijdstip": "20120321091141456",
@@ -116,13 +113,12 @@
                   "@registratieTijdstipNoValue": "vastgesteldOnbekend",
                   "datumAanvang": "19880531"
                 },
-                "kvkNummer": "90000501",
+                "kvkNummer": "90000502",
                 "sbiActiviteit": [
                   {
                     "registratie": {
                       "@registratieTijdstip": "20120321091141456",
-                      "datumAanvang": "19880531",
-                      "datumEinde": "20120320"
+                      "datumAanvang": "19880531"
                     },
                     "sbiCode": {
                       "code": "6420",
@@ -138,8 +134,7 @@
                   {
                     "registratie": {
                       "@registratieTijdstip": "20120321091141456",
-                      "datumAanvang": "19880531",
-                      "datumEinde": "20120320"
+                      "datumAanvang": "19880531"
                     },
                     "sbiCode": {
                       "code": "64302",
@@ -155,8 +150,7 @@
                   {
                     "registratie": {
                       "@registratieTijdstip": "20120321091141456",
-                      "datumAanvang": "19880531",
-                      "datumEinde": "20120320"
+                      "datumAanvang": "19880531"
                     },
                     "sbiCode": {
                       "code": "68204",
@@ -177,31 +171,27 @@
                   "handelsnaam": {
                     "registratie": {
                       "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                      "datumAanvang": "19910712",
-                      "datumEinde": "20120320"
+                      "datumAanvang": "19910712"
                     },
-                    "naam": "Witbaard machines",
+                    "naam": "Witbaard Vastgoed",
                     "volgorde": "0"
                   }
                 },
                 "wordtUitgeoefendIn": {
                   "relatieRegistratie": {
                     "@registratieTijdstip": "20120321091141456",
-                    "datumAanvang": "19880531",
-                    "datumEinde": "20120320"
+                    "datumAanvang": "19880531"
                   },
                   "commercieleVestiging": {
                     "registratie": {
                       "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                      "datumAanvang": "19880531",
-                      "datumEinde": "20120320"
+                      "datumAanvang": "19880531"
                     },
                     "vestigingsnummer": "990000275636",
                     "bezoekLocatie": {
                       "registratie": {
                         "@registratieTijdstip": "20120321091141456",
-                        "datumAanvang": "20050125",
-                        "datumEinde": "20120320"
+                        "datumAanvang": "20050125"
                       },
                       "afgeschermd": {
                         "code": "N",
@@ -228,8 +218,7 @@
                     "communicatiegegevens": {
                       "registratie": {
                         "@registratieTijdstip": "20120321091141456",
-                        "datumAanvang": "19880531",
-                        "datumEinde": "20120320"
+                        "datumAanvang": "19880531"
                       },
                       "communicatienummer": {
                         "toegangscode": "+31",
@@ -240,7 +229,7 @@
                         }
                       }
                     },
-                    "eersteHandelsnaam": "Witbaard machines",
+                    "eersteHandelsnaam": "Witbaard Vastgoed",
                     "voltijdWerkzamePersonen": "1",
                     "deeltijdWerkzamePersonen": "0",
                     "totaalWerkzamePersonen": "1",
@@ -250,8 +239,7 @@
                         {
                           "registratie": {
                             "@registratieTijdstip": "20120321091141456",
-                            "datumAanvang": "19880531",
-                            "datumEinde": "20120320"
+                            "datumAanvang": "19880531"
                           },
                           "sbiCode": {
                             "code": "6420",
@@ -267,8 +255,7 @@
                         {
                           "registratie": {
                             "@registratieTijdstip": "20120321091141456",
-                            "datumAanvang": "19880531",
-                            "datumEinde": "20120320"
+                            "datumAanvang": "19880531"
                           },
                           "sbiCode": {
                             "code": "64302",
@@ -284,8 +271,7 @@
                         {
                           "registratie": {
                             "@registratieTijdstip": "20120321091141456",
-                            "datumAanvang": "19880531",
-                            "datumEinde": "20120320"
+                            "datumAanvang": "19880531"
                           },
                           "sbiCode": {
                             "code": "68204",
@@ -313,16 +299,14 @@
                     "handeltOnder": {
                       "relatieRegistratie": {
                         "@registratieTijdstip": "20120321091141456",
-                        "datumAanvang": "19910712",
-                        "datumEinde": "20120320"
+                        "datumAanvang": "19910712"
                       },
                       "handelsnaam": {
                         "registratie": {
                           "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                          "datumAanvang": "19910712",
-                          "datumEinde": "20120320"
+                          "datumAanvang": "19910712"
                         },
-                        "naam": "Witbaard machines",
+                        "naam": "Witbaard Vastgoed",
                         "volgorde": "0"
                       }
                     }
@@ -334,15 +318,13 @@
               "commercieleVestiging": {
                 "registratie": {
                   "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                  "datumAanvang": "19880531",
-                  "datumEinde": "20120320"
+                  "datumAanvang": "19880531"
                 },
                 "vestigingsnummer": "990000275636",
                 "bezoekLocatie": {
                   "registratie": {
                     "@registratieTijdstip": "20120321091141456",
-                    "datumAanvang": "20050125",
-                    "datumEinde": "20120320"
+                    "datumAanvang": "20050125"
                   },
                   "afgeschermd": {
                     "code": "N",
@@ -369,8 +351,7 @@
                 "communicatiegegevens": {
                   "registratie": {
                     "@registratieTijdstip": "20120321091141456",
-                    "datumAanvang": "19880531",
-                    "datumEinde": "20120320"
+                    "datumAanvang": "19880531"
                   },
                   "communicatienummer": {
                     "toegangscode": "+31",
@@ -381,7 +362,7 @@
                     }
                   }
                 },
-                "eersteHandelsnaam": "Witbaard machines",
+                "eersteHandelsnaam": "Witbaard Vastgoed",
                 "voltijdWerkzamePersonen": "1",
                 "deeltijdWerkzamePersonen": "0",
                 "totaalWerkzamePersonen": "1",
@@ -391,8 +372,7 @@
                     {
                       "registratie": {
                         "@registratieTijdstip": "20120321091141456",
-                        "datumAanvang": "19880531",
-                        "datumEinde": "20120320"
+                        "datumAanvang": "19880531"
                       },
                       "sbiCode": {
                         "code": "6420",
@@ -408,8 +388,7 @@
                     {
                       "registratie": {
                         "@registratieTijdstip": "20120321091141456",
-                        "datumAanvang": "19880531",
-                        "datumEinde": "20120320"
+                        "datumAanvang": "19880531"
                       },
                       "sbiCode": {
                         "code": "64302",
@@ -425,8 +404,7 @@
                     {
                       "registratie": {
                         "@registratieTijdstip": "20120321091141456",
-                        "datumAanvang": "19880531",
-                        "datumEinde": "20120320"
+                        "datumAanvang": "19880531"
                       },
                       "sbiCode": {
                         "code": "68204",
@@ -454,16 +432,14 @@
                 "handeltOnder": {
                   "relatieRegistratie": {
                     "@registratieTijdstip": "20120321091141456",
-                    "datumAanvang": "19910712",
-                    "datumEinde": "20120320"
+                    "datumAanvang": "19910712"
                   },
                   "handelsnaam": {
                     "registratie": {
                       "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                      "datumAanvang": "19910712",
-                      "datumEinde": "20120320"
+                      "datumAanvang": "19910712"
                     },
-                    "naam": "Witbaard machines",
+                    "naam": "Witbaard Vastgoed",
                     "volgorde": "0"
                   }
                 }
@@ -472,8 +448,7 @@
             "heeftAlsEigenaar": {
               "relatieRegistratie": {
                 "@registratieTijdstip": "20120321091141456",
-                "datumAanvang": "19880531",
-                "datumEinde": "20120320"
+                "datumAanvang": "19880531"
               },
               "rechtspersoon": {
                 "extraElementen": {
@@ -490,120 +465,65 @@
                 },
                 "registratie": {
                   "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                  "datumAanvang": "19880531",
-                  "datumEinde": "20120320"
+                  "datumAanvang": "19880531"
                 },
                 "persoonRechtsvorm": "Besloten Vennootschap",
-                "volledigeNaam": "Witbaard machines",
+                "volledigeNaam": "Witbaard Vastgoed",
                 "uitgebreideRechtsvorm": "Besloten Vennootschap",
-                "heeft": [
-                  {
-                    "bestuursfunctie": {
-                      "registratie": {
-                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                        "datumAanvang": "20010601",
-                        "datumEinde": "20120320"
-                      },
-                      "door": {
-                        "natuurlijkPersoon": {
-                          "extraElementen": {
-                            "extraElement": {
-                              "@naam": "achternaam",
-                              "#text": "Klaasen"
-                            }
-                          },
-                          "registratie": {
-                            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                            "datumAanvang": "19630627"
-                          },
-                          "volledigeNaam": "Jan Klaasen",
-                          "geslachtsnaam": "Klaasen",
-                          "voornamen": "Jan",
-                          "geboortedatum": "20000101"
-                        }
-                      },
-                      "functie": {
-                        "code": "02",
-                        "omschrijving": "Bestuurder",
-                        "referentieType": "FunctionarisRol"
-                      },
-                      "bevoegdheid": {
+                "heeft": {
+                  "bestuursfunctie": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "20010601"
+                    },
+                    "door": {
+                      "natuurlijkPersoon": {
+                        "extraElementen": {
+                          "extraElement": {
+                            "@naam": "achternaam",
+                            "#text": "Klaassen"
+                          }
+                        },
                         "registratie": {
-                          "@registratieTijdstip": "20120321091141456",
-                          "datumAanvang": "20010601",
-                          "datumEinde": "20120320"
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19630627"
                         },
-                        "soort": {
-                          "code": "azb",
-                          "omschrijving": "Alleen/zelfstandig bevoegd",
-                          "referentieType": "SoortBevoegdheidBestuurder"
-                        },
-                        "isBevoegdMetAnderePersonen": {
-                          "code": "N",
-                          "omschrijving": "Nee",
-                          "referentieType": "geenRT"
-                        }
+                        "volledigeNaam": "Piet Klaassen",
+                        "geslachtsnaam": "Klaassen",
+                        "voornamen": "Piet",
+                        "geboortedatum": "20000101"
                       }
-                    }
-                  },
-                  {
-                    "bestuursfunctie": {
+                    },
+                    "functie": {
+                      "code": "02",
+                      "omschrijving": "Bestuurder",
+                      "referentieType": "FunctionarisRol"
+                    },
+                    "bevoegdheid": {
                       "registratie": {
-                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                        "datumAanvang": "20010601",
-                        "datumEinde": "20120320"
+                        "@registratieTijdstip": "20120321091141456",
+                        "datumAanvang": "20010601"
                       },
-                      "door": {
-                        "natuurlijkPersoon": {
-                          "extraElementen": {
-                            "extraElement": {
-                              "@naam": "achternaam",
-                              "#text": "Jansen"
-                            }
-                          },
-                          "registratie": {
-                            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                            "datumAanvang": "19630627"
-                          },
-                          "volledigeNaam": "Frans Jansen",
-                          "geslachtsnaam": "Jansen",
-                          "voornamen": "Frans",
-                          "geboortedatum": "20000101"
-                        }
+                      "soort": {
+                        "code": "azb",
+                        "omschrijving": "Alleen/zelfstandig bevoegd",
+                        "referentieType": "SoortBevoegdheidBestuurder"
                       },
-                      "functie": {
-                        "code": "02",
-                        "omschrijving": "Bestuurder",
-                        "referentieType": "FunctionarisRol"
-                      },
-                      "bevoegdheid": {
-                        "registratie": {
-                          "@registratieTijdstip": "20120321091141456",
-                          "datumAanvang": "20010601",
-                          "datumEinde": "20120320"
-                        },
-                        "soort": {
-                          "code": "azb",
-                          "omschrijving": "Alleen/zelfstandig bevoegd",
-                          "referentieType": "SoortBevoegdheidBestuurder"
-                        },
-                        "isBevoegdMetAnderePersonen": {
-                          "code": "N",
-                          "omschrijving": "Nee",
-                          "referentieType": "geenRT"
-                        }
+                      "isBevoegdMetAnderePersonen": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
                       }
                     }
                   }
-                ],
+                },
                 "rsin": "992924807",
                 "naamgeving": {
                   "registratie": {
                     "@registratieTijdstip": "20120321091141456",
-                    "datumAanvang": "19910712",
-                    "datumEinde": "20120320"
+                    "datumAanvang": "19910712"
                   },
-                  "naam": "Witbaard machines"
+                  "naam": "Witbaard Vastgoed"
                 },
                 "ontbinding": {
                   "registratie": {
@@ -639,8 +559,7 @@
                 "maatschappelijkKapitaal": {
                   "registratie": {
                     "@registratieTijdstip": "20120321091141456",
-                    "datumAanvang": "19880531",
-                    "datumEinde": "20120320"
+                    "datumAanvang": "19880531"
                   },
                   "bedrag": {
                     "waarde": "90756.04",
@@ -653,8 +572,7 @@
                 },
                 "geplaatstKapitaal": {
                   "registratie": {
-                    "@registratieTijdstip": "20120321091141456",
-                    "datumEinde": "20120320"
+                    "@registratieTijdstip": "20120321091141456"
                   },
                   "bedrag": {
                     "waarde": "18151.21",
@@ -667,8 +585,7 @@
                 },
                 "gestortKapitaal": {
                   "registratie": {
-                    "@registratieTijdstip": "20120321091141456",
-                    "datumEinde": "20120320"
+                    "@registratieTijdstip": "20120321091141456"
                   },
                   "bedrag": {
                     "waarde": "18151.21",
@@ -682,8 +599,7 @@
                 "bezoekLocatie": {
                   "registratie": {
                     "@registratieTijdstip": "20120321091141456",
-                    "datumAanvang": "20050125",
-                    "datumEinde": "20120320"
+                    "datumAanvang": "20050125"
                   },
                   "afgeschermd": {
                     "code": "N",
@@ -710,8 +626,7 @@
                 "voornemenTotOntbinding": {
                   "registratie": {
                     "@registratieTijdstip": "20120321091141456",
-                    "datumAanvang": "20120117",
-                    "datumEinde": "20120320"
+                    "datumAanvang": "20120117"
                   }
                 }
               }

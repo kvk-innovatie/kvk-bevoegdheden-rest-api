@@ -1,346 +1,115 @@
 {
-  "wstxns8:Body": {
-    "@wsu:Id": "id-1-5778bd7486d56a1796091bb60edaf836",
-    "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
-    "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
-    "ophalenInschrijvingResponse": {
-      "@peilmoment": "20200924122839746",
-      "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
-      "meldingen": {
+  "soap:Envelope": {
+    "wstxns8:Body": {
+      "@wsu:Id": "id-1-d12cbcebdeeb11383dee62514b0b06ca",
+      "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+      "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+      "ophalenInschrijvingResponse": {
+        "@peilmoment": "20240624122839746",
         "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
-        "informatie": {
-          "code": "IPD0000",
-          "omschrijving": "Het product is succesvol geproduceerd",
-          "referentie": "90000129"
-        }
-      },
-      "product": {
-        "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
-        "maatschappelijkeActiviteit": {
-          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
-          "registratie": {
-            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-            "datumAanvang": "19260701"
-          },
-          "kvkNummer": "90000129",
-          "nonMailing": {
-            "code": "N",
-            "omschrijving": "Nee",
-            "referentieType": "geenRT"
-          },
-          "incidenteelUitlenenArbeidskrachten": {
-            "code": "N",
-            "omschrijving": "Nee",
-            "referentieType": "geenRT"
-          },
-          "bezoekLocatie": {
-            "registratie": {
-              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-              "datumAanvang": "19860405"
-            },
-            "afgeschermd": {
-              "code": "N",
-              "omschrijving": "Nee",
-              "referentieType": "geenRT"
-            },
-            "adres": {
-              "binnenlandsAdres": {
-                "straatnaam": "Steegseweg",
-                "huisnummer": "5",
-                "postcode": {
-                  "cijfercombinatie": "7037",
-                  "lettercombinatie": "CS"
-                },
-                "plaats": "Beek",
-                "bagId": {
-                  "identificatieNummeraanduiding": "0074999999864195",
-                  "identificatieAdresseerbaarObject": "0074999999591362"
-                }
-              }
-            },
-            "volledigAdres": "Steegseweg 5 7037CS Beek"
-          },
-          "postLocatie": {
+        "meldingen": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+          "informatie": {
+            "code": "IPD0000",
+            "omschrijving": "Het product is succesvol geproduceerd",
+            "referentie": "90000129"
+          }
+        },
+        "product": {
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+          "maatschappelijkeActiviteit": {
+            "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
             "registratie": {
               "@registratieTijdstipNoValue": "vastgesteldOnbekend",
               "datumAanvang": "19260701"
             },
-            "afgeschermd": {
+            "kvkNummer": "90000129",
+            "nonMailing": {
               "code": "N",
               "omschrijving": "Nee",
               "referentieType": "geenRT"
             },
-            "adres": {
-              "binnenlandsAdres": {
-                "postbusnummer": "99999",
-                "postcode": {
-                  "cijfercombinatie": "1931",
-                  "lettercombinatie": "AG"
-                },
-                "plaats": "Egmond aan Zee"
-              }
+            "incidenteelUitlenenArbeidskrachten": {
+              "code": "N",
+              "omschrijving": "Nee",
+              "referentieType": "geenRT"
             },
-            "volledigAdres": "Postbus 99999 1931AG Egmond aan Zee"
-          },
-          "communicatiegegevens": {
-            "registratie": {
-              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-              "datumAanvang": "19260701"
+            "bezoekLocatie": {
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19860405"
+              },
+              "afgeschermd": {
+                "code": "N",
+                "omschrijving": "Nee",
+                "referentieType": "geenRT"
+              },
+              "adres": {
+                "binnenlandsAdres": {
+                  "straatnaam": "Steegseweg",
+                  "huisnummer": "5",
+                  "postcode": {
+                    "cijfercombinatie": "7037",
+                    "lettercombinatie": "CS"
+                  },
+                  "plaats": "Beek",
+                  "bagId": {
+                    "identificatieNummeraanduiding": "0074999999864195",
+                    "identificatieAdresseerbaarObject": "0074999999591362"
+                  }
+                }
+              },
+              "volledigAdres": "Steegseweg 5 7037CS Beek"
             },
-            "communicatienummer": {
-              "toegangscode": "+31",
-              "nummer": "0209999999",
-              "soort": {
-                "code": "T",
-                "omschrijving": "Telefoon"
-              }
-            },
-            "emailAdres": "nepemailadres@kvk.nl"
-          },
-          "naam": "Onderlinge Waarborgmaatschappij Local Goldencode",
-          "manifesteertZichAls": {
-            "relatieRegistratie": {
-              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-              "datumAanvang": "19810804"
-            },
-            "onderneming": {
+            "postLocatie": {
               "registratie": {
                 "@registratieTijdstipNoValue": "vastgesteldOnbekend",
                 "datumAanvang": "19260701"
               },
-              "kvkNummer": "90000129",
-              "sbiActiviteit": {
-                "registratie": {
-                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                  "datumAanvang": "19260701"
-                },
-                "sbiCode": {
-                  "code": "96031",
-                  "omschrijving": "Uitvaartverzorging",
-                  "referentieType": "ActiviteitCode"
-                },
-                "isHoofdactiviteit": {
-                  "code": "J",
-                  "omschrijving": "Ja",
-                  "referentieType": "geenRT"
+              "afgeschermd": {
+                "code": "N",
+                "omschrijving": "Nee",
+                "referentieType": "geenRT"
+              },
+              "adres": {
+                "binnenlandsAdres": {
+                  "postbusnummer": "99999",
+                  "postcode": {
+                    "cijfercombinatie": "1931",
+                    "lettercombinatie": "AG"
+                  },
+                  "plaats": "Egmond aan Zee"
                 }
               },
-              "voltijdWerkzamePersonen": "1",
-              "deeltijdWerkzamePersonen": "14",
-              "totaalWerkzamePersonen": "15",
-              "handeltOnder": {
-                "handelsnaam": {
-                  "registratie": {
-                    "@registratieTijdstip": "20141020090733138",
-                    "datumAanvang": "19260701"
-                  },
-                  "naam": "Onderlinge Waarborgmaatschappij Local Goldencode",
-                  "volgorde": "0"
-                }
-              },
-              "wordtUitgeoefendIn": {
-                "relatieRegistratie": {
-                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                  "datumAanvang": "19810804"
-                },
-                "commercieleVestiging": {
-                  "registratie": {
-                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                    "datumAanvang": "19260701"
-                  },
-                  "vestigingsnummer": "990000996027",
-                  "bezoekLocatie": {
-                    "registratie": {
-                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                      "datumAanvang": "19860405"
-                    },
-                    "afgeschermd": {
-                      "code": "N",
-                      "omschrijving": "Nee",
-                      "referentieType": "geenRT"
-                    },
-                    "adres": {
-                      "binnenlandsAdres": {
-                        "straatnaam": "Steegseweg",
-                        "huisnummer": "5",
-                        "postcode": {
-                          "cijfercombinatie": "7037",
-                          "lettercombinatie": "CS"
-                        },
-                        "plaats": "Beek",
-                        "bagId": {
-                          "identificatieNummeraanduiding": "0074999999864195",
-                          "identificatieAdresseerbaarObject": "0074999999591362"
-                        }
-                      }
-                    },
-                    "volledigAdres": "Steegseweg 5 7037CS Beek"
-                  },
-                  "postLocatie": {
-                    "registratie": {
-                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                      "datumAanvang": "19260701"
-                    },
-                    "afgeschermd": {
-                      "code": "N",
-                      "omschrijving": "Nee",
-                      "referentieType": "geenRT"
-                    },
-                    "adres": {
-                      "binnenlandsAdres": {
-                        "postbusnummer": "99999",
-                        "postcode": {
-                          "cijfercombinatie": "1931",
-                          "lettercombinatie": "AG"
-                        },
-                        "plaats": "Egmond aan Zee"
-                      }
-                    },
-                    "volledigAdres": "Postbus 99999 1931AG Egmond aan Zee"
-                  },
-                  "communicatiegegevens": {
-                    "registratie": {
-                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                      "datumAanvang": "19260701"
-                    },
-                    "communicatienummer": {
-                      "toegangscode": "+31",
-                      "nummer": "0209999999",
-                      "soort": {
-                        "code": "T",
-                        "omschrijving": "Telefoon"
-                      }
-                    },
-                    "emailAdres": "nepemailadres@kvk.nl"
-                  },
-                  "eersteHandelsnaam": "Onderlinge Waarborgmaatschappij Local Goldencode",
-                  "voltijdWerkzamePersonen": "1",
-                  "deeltijdWerkzamePersonen": "14",
-                  "totaalWerkzamePersonen": "15",
-                  "activiteiten": {
-                    "omschrijving": "Uitvaartverzorging.",
-                    "sbiActiviteit": {
-                      "registratie": {
-                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                        "datumAanvang": "19260701"
-                      },
-                      "sbiCode": {
-                        "code": "96031",
-                        "omschrijving": "Uitvaartverzorging",
-                        "referentieType": "ActiviteitCode"
-                      },
-                      "isHoofdactiviteit": {
-                        "code": "J",
-                        "omschrijving": "Ja",
-                        "referentieType": "geenRT"
-                      }
-                    },
-                    "exporteert": {
-                      "code": "N",
-                      "omschrijving": "Nee",
-                      "referentieType": "geenRT"
-                    },
-                    "importeert": {
-                      "code": "N",
-                      "omschrijving": "Nee",
-                      "referentieType": "geenRT"
-                    }
-                  },
-                  "handeltOnder": {
-                    "relatieRegistratie": {
-                      "@registratieTijdstip": "20141020090733138",
-                      "datumAanvang": "20141015"
-                    },
-                    "handelsnaam": {
-                      "registratie": {
-                        "@registratieTijdstip": "20141020090733138",
-                        "datumAanvang": "19260701"
-                      },
-                      "naam": "Onderlinge Waarborgmaatschappij Local Goldencode",
-                      "volgorde": "0"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "wordtGeleidVanuit": {
-            "commercieleVestiging": {
+              "volledigAdres": "Postbus 99999 1931AG Egmond aan Zee"
+            },
+            "communicatiegegevens": {
               "registratie": {
                 "@registratieTijdstipNoValue": "vastgesteldOnbekend",
                 "datumAanvang": "19260701"
               },
-              "vestigingsnummer": "990000996027",
-              "bezoekLocatie": {
-                "registratie": {
-                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                  "datumAanvang": "19860405"
-                },
-                "afgeschermd": {
-                  "code": "N",
-                  "omschrijving": "Nee",
-                  "referentieType": "geenRT"
-                },
-                "adres": {
-                  "binnenlandsAdres": {
-                    "straatnaam": "Steegseweg",
-                    "huisnummer": "5",
-                    "postcode": {
-                      "cijfercombinatie": "7037",
-                      "lettercombinatie": "CS"
-                    },
-                    "plaats": "Beek",
-                    "bagId": {
-                      "identificatieNummeraanduiding": "0074999999864195",
-                      "identificatieAdresseerbaarObject": "0074999999591362"
-                    }
-                  }
-                },
-                "volledigAdres": "Steegseweg 5 7037CS Beek"
+              "communicatienummer": {
+                "toegangscode": "+31",
+                "nummer": "0209999999",
+                "soort": {
+                  "code": "T",
+                  "omschrijving": "Telefoon"
+                }
               },
-              "postLocatie": {
+              "emailAdres": "nepemailadres@kvk.nl"
+            },
+            "naam": "Witbaard Frisdrank",
+            "manifesteertZichAls": {
+              "relatieRegistratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19810804"
+              },
+              "onderneming": {
                 "registratie": {
                   "@registratieTijdstipNoValue": "vastgesteldOnbekend",
                   "datumAanvang": "19260701"
                 },
-                "afgeschermd": {
-                  "code": "N",
-                  "omschrijving": "Nee",
-                  "referentieType": "geenRT"
-                },
-                "adres": {
-                  "binnenlandsAdres": {
-                    "postbusnummer": "99999",
-                    "postcode": {
-                      "cijfercombinatie": "1931",
-                      "lettercombinatie": "AG"
-                    },
-                    "plaats": "Egmond aan Zee"
-                  }
-                },
-                "volledigAdres": "Postbus 99999 1931AG Egmond aan Zee"
-              },
-              "communicatiegegevens": {
-                "registratie": {
-                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                  "datumAanvang": "19260701"
-                },
-                "communicatienummer": {
-                  "toegangscode": "+31",
-                  "nummer": "0209999999",
-                  "soort": {
-                    "code": "T",
-                    "omschrijving": "Telefoon"
-                  }
-                },
-                "emailAdres": "nepemailadres@kvk.nl"
-              },
-              "eersteHandelsnaam": "Onderlinge Waarborgmaatschappij Local Goldencode",
-              "voltijdWerkzamePersonen": "1",
-              "deeltijdWerkzamePersonen": "14",
-              "totaalWerkzamePersonen": "15",
-              "activiteiten": {
-                "omschrijving": "Uitvaartverzorging.",
+                "kvkNummer": "90000129",
                 "sbiActiviteit": {
                   "registratie": {
                     "@registratieTijdstipNoValue": "vastgesteldOnbekend",
@@ -357,487 +126,779 @@
                     "referentieType": "geenRT"
                   }
                 },
-                "exporteert": {
-                  "code": "N",
-                  "omschrijving": "Nee",
-                  "referentieType": "geenRT"
+                "voltijdWerkzamePersonen": "1",
+                "deeltijdWerkzamePersonen": "14",
+                "totaalWerkzamePersonen": "15",
+                "handeltOnder": {
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstip": "20141020090733138",
+                      "datumAanvang": "19260701"
+                    },
+                    "naam": "Witbaard Frisdrank",
+                    "volgorde": "0"
+                  }
                 },
-                "importeert": {
-                  "code": "N",
-                  "omschrijving": "Nee",
-                  "referentieType": "geenRT"
-                }
-              },
-              "handeltOnder": {
-                "relatieRegistratie": {
-                  "@registratieTijdstip": "20141020090733138",
-                  "datumAanvang": "20141015"
-                },
-                "handelsnaam": {
-                  "registratie": {
-                    "@registratieTijdstip": "20141020090733138",
-                    "datumAanvang": "19260701"
+                "wordtUitgeoefendIn": {
+                  "relatieRegistratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19810804"
                   },
-                  "naam": "Onderlinge Waarborgmaatschappij Local Goldencode",
-                  "volgorde": "0"
+                  "commercieleVestiging": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19260701"
+                    },
+                    "vestigingsnummer": "990000996027",
+                    "bezoekLocatie": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19860405"
+                      },
+                      "afgeschermd": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "adres": {
+                        "binnenlandsAdres": {
+                          "straatnaam": "Steegseweg",
+                          "huisnummer": "5",
+                          "postcode": {
+                            "cijfercombinatie": "7037",
+                            "lettercombinatie": "CS"
+                          },
+                          "plaats": "Beek",
+                          "bagId": {
+                            "identificatieNummeraanduiding": "0074999999864195",
+                            "identificatieAdresseerbaarObject": "0074999999591362"
+                          }
+                        }
+                      },
+                      "volledigAdres": "Steegseweg 5 7037CS Beek"
+                    },
+                    "postLocatie": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19260701"
+                      },
+                      "afgeschermd": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "adres": {
+                        "binnenlandsAdres": {
+                          "postbusnummer": "99999",
+                          "postcode": {
+                            "cijfercombinatie": "1931",
+                            "lettercombinatie": "AG"
+                          },
+                          "plaats": "Egmond aan Zee"
+                        }
+                      },
+                      "volledigAdres": "Postbus 99999 1931AG Egmond aan Zee"
+                    },
+                    "communicatiegegevens": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "19260701"
+                      },
+                      "communicatienummer": {
+                        "toegangscode": "+31",
+                        "nummer": "0209999999",
+                        "soort": {
+                          "code": "T",
+                          "omschrijving": "Telefoon"
+                        }
+                      },
+                      "emailAdres": "nepemailadres@kvk.nl"
+                    },
+                    "eersteHandelsnaam": "Witbaard Frisdrank",
+                    "voltijdWerkzamePersonen": "1",
+                    "deeltijdWerkzamePersonen": "14",
+                    "totaalWerkzamePersonen": "15",
+                    "activiteiten": {
+                      "omschrijving": "Uitvaartverzorging.",
+                      "sbiActiviteit": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "19260701"
+                        },
+                        "sbiCode": {
+                          "code": "96031",
+                          "omschrijving": "Uitvaartverzorging",
+                          "referentieType": "ActiviteitCode"
+                        },
+                        "isHoofdactiviteit": {
+                          "code": "J",
+                          "omschrijving": "Ja",
+                          "referentieType": "geenRT"
+                        }
+                      },
+                      "exporteert": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      },
+                      "importeert": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    "handeltOnder": {
+                      "relatieRegistratie": {
+                        "@registratieTijdstip": "20141020090733138",
+                        "datumAanvang": "20141015"
+                      },
+                      "handelsnaam": {
+                        "registratie": {
+                          "@registratieTijdstip": "20141020090733138",
+                          "datumAanvang": "19260701"
+                        },
+                        "naam": "Witbaard Frisdrank",
+                        "volgorde": "0"
+                      }
+                    }
+                  }
                 }
               }
-            }
-          },
-          "heeftAlsEigenaar": {
-            "relatieRegistratie": {
-              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-              "datumAanvang": "19810804"
             },
-            "rechtspersoon": {
-              "extraElementen": {
-                "extraElement": [
+            "wordtGeleidVanuit": {
+              "commercieleVestiging": {
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19260701"
+                },
+                "vestigingsnummer": "990000996027",
+                "bezoekLocatie": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19860405"
+                  },
+                  "afgeschermd": {
+                    "code": "N",
+                    "omschrijving": "Nee",
+                    "referentieType": "geenRT"
+                  },
+                  "adres": {
+                    "binnenlandsAdres": {
+                      "straatnaam": "Steegseweg",
+                      "huisnummer": "5",
+                      "postcode": {
+                        "cijfercombinatie": "7037",
+                        "lettercombinatie": "CS"
+                      },
+                      "plaats": "Beek",
+                      "bagId": {
+                        "identificatieNummeraanduiding": "0074999999864195",
+                        "identificatieAdresseerbaarObject": "0074999999591362"
+                      }
+                    }
+                  },
+                  "volledigAdres": "Steegseweg 5 7037CS Beek"
+                },
+                "postLocatie": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19260701"
+                  },
+                  "afgeschermd": {
+                    "code": "N",
+                    "omschrijving": "Nee",
+                    "referentieType": "geenRT"
+                  },
+                  "adres": {
+                    "binnenlandsAdres": {
+                      "postbusnummer": "99999",
+                      "postcode": {
+                        "cijfercombinatie": "1931",
+                        "lettercombinatie": "AG"
+                      },
+                      "plaats": "Egmond aan Zee"
+                    }
+                  },
+                  "volledigAdres": "Postbus 99999 1931AG Egmond aan Zee"
+                },
+                "communicatiegegevens": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19260701"
+                  },
+                  "communicatienummer": {
+                    "toegangscode": "+31",
+                    "nummer": "0209999999",
+                    "soort": {
+                      "code": "T",
+                      "omschrijving": "Telefoon"
+                    }
+                  },
+                  "emailAdres": "nepemailadres@kvk.nl"
+                },
+                "eersteHandelsnaam": "Witbaard Frisdrank",
+                "voltijdWerkzamePersonen": "1",
+                "deeltijdWerkzamePersonen": "14",
+                "totaalWerkzamePersonen": "15",
+                "activiteiten": {
+                  "omschrijving": "Uitvaartverzorging.",
+                  "sbiActiviteit": {
+                    "registratie": {
+                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                      "datumAanvang": "19260701"
+                    },
+                    "sbiCode": {
+                      "code": "96031",
+                      "omschrijving": "Uitvaartverzorging",
+                      "referentieType": "ActiviteitCode"
+                    },
+                    "isHoofdactiviteit": {
+                      "code": "J",
+                      "omschrijving": "Ja",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  "exporteert": {
+                    "code": "N",
+                    "omschrijving": "Nee",
+                    "referentieType": "geenRT"
+                  },
+                  "importeert": {
+                    "code": "N",
+                    "omschrijving": "Nee",
+                    "referentieType": "geenRT"
+                  }
+                },
+                "handeltOnder": {
+                  "relatieRegistratie": {
+                    "@registratieTijdstip": "20141020090733138",
+                    "datumAanvang": "20141015"
+                  },
+                  "handelsnaam": {
+                    "registratie": {
+                      "@registratieTijdstip": "20141020090733138",
+                      "datumAanvang": "19260701"
+                    },
+                    "naam": "Witbaard Frisdrank",
+                    "volgorde": "0"
+                  }
+                }
+              }
+            },
+            "heeftAlsEigenaar": {
+              "relatieRegistratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "19810804"
+              },
+              "rechtspersoon": {
+                "extraElementen": {
+                  "extraElement": [
+                    {
+                      "@naam": "datumAanvangStatuten",
+                      "#text": "20141015"
+                    },
+                    {
+                      "@naam": "datumAkteStatuten",
+                      "#text": "20141015"
+                    }
+                  ]
+                },
+                "registratie": {
+                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                  "datumAanvang": "19260701"
+                },
+                "persoonRechtsvorm": "Onderlinge Waarborg Maatschappij",
+                "volledigeNaam": "Witbaard Frisdrank",
+                "uitgebreideRechtsvorm": "Onderlinge Waarborg Maatschappij",
+                "heeft": [
                   {
-                    "@naam": "datumAanvangStatuten",
-                    "#text": "20141015"
+                    "bestuursfunctie": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20030512"
+                      },
+                      "functietitel": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20030512"
+                        },
+                        "titel": "Secretaris",
+                        "isStatutaireTitel": {
+                          "code": "J",
+                          "omschrijving": "Ja",
+                          "referentieType": "geenRT"
+                        }
+                      },
+                      "door": {
+                        "natuurlijkPersoon": {
+                          "extraElementen": {
+                            "extraElement": {
+                              "@naam": "achternaam",
+                              "#text": "Hamp"
+                            }
+                          },
+                          "registratie": {
+                            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                            "datumAanvang": "19841130"
+                          },
+                          "volledigeNaam": "Hettie Hamp",
+                          "geslachtsnaam": "Hamp",
+                          "voornamen": "Hettie",
+                          "geboortedatum": "19841130"
+                        }
+                      },
+                      "functie": {
+                        "code": "02",
+                        "omschrijving": "Bestuurder",
+                        "referentieType": "FunctionarisRol"
+                      },
+                      "bevoegdheid": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20030512"
+                        },
+                        "soort": {
+                          "code": "gb",
+                          "omschrijving": "Gezamenlijk bevoegd",
+                          "referentieType": "SoortBevoegdheidBestuurder"
+                        },
+                        "isBevoegdMetAnderePersonen": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        }
+                      }
+                    }
                   },
                   {
-                    "@naam": "datumAkteStatuten",
-                    "#text": "20141015"
-                  }
-                ]
-              },
-              "registratie": {
-                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                "datumAanvang": "19260701"
-              },
-              "persoonRechtsvorm": "Onderlinge Waarborg Maatschappij",
-              "volledigeNaam": "Onderlinge Waarborgmaatschappij Local Goldencode",
-              "uitgebreideRechtsvorm": "Onderlinge Waarborg Maatschappij",
-              "heeft": [
-                {
-                  "bestuursfunctie": {
-                    "registratie": {
-                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                      "datumAanvang": "20030512"
-                    },
-                    "functietitel": {
-                      "registratie": {
-                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                        "datumAanvang": "20030512"
-                      },
-                      "titel": "Secretaris",
-                      "isStatutaireTitel": {
-                        "code": "J",
-                        "omschrijving": "Ja",
-                        "referentieType": "geenRT"
-                      }
-                    },
-                    "door": {
-                      "natuurlijkPersoon": {
-                        "extraElementen": {
-                          "extraElement": {
-                            "@naam": "achternaam",
-                            "#text": "Hamp"
-                          }
-                        },
-                        "registratie": {
-                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                          "datumAanvang": "19841130"
-                        },
-                        "volledigeNaam": "Hettie Hamp",
-                        "geslachtsnaam": "Hamp",
-                        "voornamen": "Hettie",
-                        "geboortedatum": "19841130"
-                      }
-                    },
-                    "functie": {
-                      "code": "02",
-                      "omschrijving": "Bestuurder",
-                      "referentieType": "FunctionarisRol"
-                    },
-                    "bevoegdheid": {
-                      "registratie": {
-                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                        "datumAanvang": "20030512"
-                      },
-                      "soort": {
-                        "code": "gb",
-                        "omschrijving": "Gezamenlijk bevoegd",
-                        "referentieType": "SoortBevoegdheidBestuurder"
-                      },
-                      "isBevoegdMetAnderePersonen": {
-                        "code": "N",
-                        "omschrijving": "Nee",
-                        "referentieType": "geenRT"
-                      }
-                    }
-                  }
-                },
-                {
-                  "bestuursfunctie": {
-                    "registratie": {
-                      "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                      "datumAanvang": "20080501"
-                    },
-                    "functietitel": {
+                    "bestuursfunctie": {
                       "registratie": {
                         "@registratieTijdstipNoValue": "vastgesteldOnbekend",
                         "datumAanvang": "20080501"
                       },
-                      "titel": "Voorzitter",
-                      "isStatutaireTitel": {
-                        "code": "J",
-                        "omschrijving": "Ja",
-                        "referentieType": "geenRT"
-                      }
-                    },
-                    "door": {
-                      "natuurlijkPersoon": {
-                        "extraElementen": {
-                          "extraElement": [
-                            {
-                              "@naam": "voorvoegsel",
-                              "#text": "van der"
-                            },
-                            {
-                              "@naam": "achternaam",
-                              "#text": "Hufnagel"
-                            }
-                          ]
-                        },
+                      "functietitel": {
                         "registratie": {
                           "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                          "datumAanvang": "19820122"
+                          "datumAanvang": "20080501"
                         },
-                        "volledigeNaam": "Gwenn Hufnagel",
-                        "geslachtsnaam": "Hufnagel",
-                        "voorvoegselGeslachtsnaam": "van der",
-                        "voornamen": "Gwenn",
-                        "geboortedatum": "19820122"
-                      }
-                    },
-                    "functie": {
-                      "code": "02",
-                      "omschrijving": "Bestuurder",
-                      "referentieType": "FunctionarisRol"
-                    },
-                    "bevoegdheid": {
-                      "registratie": {
-                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                        "datumAanvang": "20080501"
+                        "titel": "Voorzitter",
+                        "isStatutaireTitel": {
+                          "code": "J",
+                          "omschrijving": "Ja",
+                          "referentieType": "geenRT"
+                        }
                       },
-                      "soort": {
-                        "code": "gb",
-                        "omschrijving": "Gezamenlijk bevoegd",
-                        "referentieType": "SoortBevoegdheidBestuurder"
+                      "door": {
+                        "natuurlijkPersoon": {
+                          "extraElementen": {
+                            "extraElement": [
+                              {
+                                "@naam": "voorvoegsel",
+                                "#text": "van der"
+                              },
+                              {
+                                "@naam": "achternaam",
+                                "#text": "Hufnagel"
+                              }
+                            ]
+                          },
+                          "registratie": {
+                            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                            "datumAanvang": "19820122"
+                          },
+                          "volledigeNaam": "Gwenn Hufnagel",
+                          "geslachtsnaam": "Hufnagel",
+                          "voorvoegselGeslachtsnaam": "van der",
+                          "voornamen": "Gwenn",
+                          "geboortedatum": "19820122"
+                        }
                       },
-                      "isBevoegdMetAnderePersonen": {
-                        "code": "N",
-                        "omschrijving": "Nee",
-                        "referentieType": "geenRT"
+                      "functie": {
+                        "code": "02",
+                        "omschrijving": "Bestuurder",
+                        "referentieType": "FunctionarisRol"
+                      },
+                      "bevoegdheid": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20080501"
+                        },
+                        "soort": {
+                          "code": "gb",
+                          "omschrijving": "Gezamenlijk bevoegd",
+                          "referentieType": "SoortBevoegdheidBestuurder"
+                        },
+                        "isBevoegdMetAnderePersonen": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        }
                       }
                     }
-                  }
-                },
-                {
-                  "bestuursfunctie": {
-                    "registratie": {
-                      "@registratieTijdstip": "20100714101154553",
-                      "datumAanvang": "20100510"
-                    },
-                    "door": {
-                      "natuurlijkPersoon": {
-                        "extraElementen": {
-                          "extraElement": {
-                            "@naam": "achternaam",
-                            "#text": "Priestly"
-                          }
-                        },
-                        "registratie": {
-                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                          "datumAanvang": "19631019"
-                        },
-                        "volledigeNaam": "Lessie Priestly",
-                        "geslachtsnaam": "Priestly",
-                        "voornamen": "Lessie",
-                        "geboortedatum": "19631019"
-                      }
-                    },
-                    "functie": {
-                      "code": "02",
-                      "omschrijving": "Bestuurder",
-                      "referentieType": "FunctionarisRol"
-                    },
-                    "bevoegdheid": {
+                  },
+                  {
+                    "bestuursfunctie": {
                       "registratie": {
                         "@registratieTijdstip": "20100714101154553",
                         "datumAanvang": "20100510"
                       },
-                      "soort": {
-                        "code": "gb",
-                        "omschrijving": "Gezamenlijk bevoegd",
-                        "referentieType": "SoortBevoegdheidBestuurder"
+                      "door": {
+                        "natuurlijkPersoon": {
+                          "extraElementen": {
+                            "extraElement": {
+                              "@naam": "achternaam",
+                              "#text": "Priestly"
+                            }
+                          },
+                          "registratie": {
+                            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                            "datumAanvang": "19631019"
+                          },
+                          "volledigeNaam": "Lessie Priestly",
+                          "geslachtsnaam": "Priestly",
+                          "voornamen": "Lessie",
+                          "geboortedatum": "19631019"
+                        }
                       },
-                      "isBevoegdMetAnderePersonen": {
-                        "code": "N",
-                        "omschrijving": "Nee",
-                        "referentieType": "geenRT"
+                      "functie": {
+                        "code": "02",
+                        "omschrijving": "Bestuurder",
+                        "referentieType": "FunctionarisRol"
+                      },
+                      "bevoegdheid": {
+                        "registratie": {
+                          "@registratieTijdstip": "20100714101154553",
+                          "datumAanvang": "20100510"
+                        },
+                        "soort": {
+                          "code": "gb",
+                          "omschrijving": "Gezamenlijk bevoegd",
+                          "referentieType": "SoortBevoegdheidBestuurder"
+                        },
+                        "isBevoegdMetAnderePersonen": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        }
                       }
                     }
-                  }
-                },
-                {
-                  "bestuursfunctie": {
-                    "registratie": {
-                      "@registratieTijdstip": "20110802160109579",
-                      "datumAanvang": "20110509"
-                    },
-                    "door": {
-                      "natuurlijkPersoon": {
-                        "extraElementen": {
-                          "extraElement": {
-                            "@naam": "achternaam",
-                            "#text": "Ashley"
-                          }
-                        },
-                        "registratie": {
-                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                          "datumAanvang": "19420112"
-                        },
-                        "volledigeNaam": "Pinkie Ashley",
-                        "geslachtsnaam": "Ashley",
-                        "voornamen": "Pinkie",
-                        "geboortedatum": "19420112"
-                      }
-                    },
-                    "functie": {
-                      "code": "02",
-                      "omschrijving": "Bestuurder",
-                      "referentieType": "FunctionarisRol"
-                    },
-                    "bevoegdheid": {
+                  },
+                  {
+                    "bestuursfunctie": {
                       "registratie": {
                         "@registratieTijdstip": "20110802160109579",
                         "datumAanvang": "20110509"
                       },
-                      "soort": {
-                        "code": "gb",
-                        "omschrijving": "Gezamenlijk bevoegd",
-                        "referentieType": "SoortBevoegdheidBestuurder"
-                      },
-                      "isBevoegdMetAnderePersonen": {
-                        "code": "N",
-                        "omschrijving": "Nee",
-                        "referentieType": "geenRT"
-                      }
-                    }
-                  }
-                },
-                {
-                  "bestuursfunctie": {
-                    "registratie": {
-                      "@registratieTijdstip": "20120917093556937",
-                      "datumAanvang": "20120917"
-                    },
-                    "functietitel": {
-                      "registratie": {
-                        "@registratieTijdstip": "20120917093556937",
-                        "datumAanvang": "20120917"
-                      },
-                      "titel": "Penningmeester",
-                      "isStatutaireTitel": {
-                        "code": "J",
-                        "omschrijving": "Ja",
-                        "referentieType": "geenRT"
-                      }
-                    },
-                    "door": {
-                      "natuurlijkPersoon": {
-                        "extraElementen": {
-                          "extraElement": {
-                            "@naam": "achternaam",
-                            "#text": "Settle"
-                          }
-                        },
-                        "registratie": {
-                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                          "datumAanvang": "19740808"
-                        },
-                        "volledigeNaam": "Earle Settle",
-                        "geslachtsnaam": "Klaasen",
-"voornamen": "Jan",
-"geboortedatum": "20000101"
-                      }
-                    },
-                    "functie": {
-                      "code": "02",
-                      "omschrijving": "Bestuurder",
-                      "referentieType": "FunctionarisRol"
-                    },
-                    "bevoegdheid": {
-                      "registratie": {
-                        "@registratieTijdstip": "20120917093556937",
-                        "datumAanvang": "20120917"
-                      },
-                      "soort": {
-                        "code": "gb",
-                        "omschrijving": "Gezamenlijk bevoegd",
-                        "referentieType": "SoortBevoegdheidBestuurder"
-                      },
-                      "isBevoegdMetAnderePersonen": {
-                        "code": "N",
-                        "omschrijving": "Nee",
-                        "referentieType": "geenRT"
-                      }
-                    }
-                  }
-                },
-                {
-                  "bestuursfunctie": {
-                    "registratie": {
-                      "@registratieTijdstip": "20141205100457746",
-                      "datumAanvang": "20131208"
-                    },
-                    "door": {
-                      "natuurlijkPersoon": {
-                        "extraElementen": {
-                          "extraElement": [
-                            {
-                              "@naam": "voorvoegsel",
-                              "#text": "van der"
-                            },
-                            {
+                      "door": {
+                        "natuurlijkPersoon": {
+                          "extraElementen": {
+                            "extraElement": {
                               "@naam": "achternaam",
-                              "#text": "Wambach - Wambach"
+                              "#text": "Ashley"
                             }
-                          ]
-                        },
+                          },
+                          "registratie": {
+                            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                            "datumAanvang": "19420112"
+                          },
+                          "volledigeNaam": "Pinkie Ashley",
+                          "geslachtsnaam": "Ashley",
+                          "voornamen": "Pinkie",
+                          "geboortedatum": "19420112"
+                        }
+                      },
+                      "functie": {
+                        "code": "02",
+                        "omschrijving": "Bestuurder",
+                        "referentieType": "FunctionarisRol"
+                      },
+                      "bevoegdheid": {
                         "registratie": {
-                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                          "datumAanvang": "19791228"
+                          "@registratieTijdstip": "20110802160109579",
+                          "datumAanvang": "20110509"
                         },
-                        "volledigeNaam": "Adam Wambach",
-                        "geslachtsnaam": "Wambach - Wambach",
-                        "voorvoegselGeslachtsnaam": "van der",
-                        "voornamen": "Adam",
-                        "geboortedatum": "19791228"
+                        "soort": {
+                          "code": "gb",
+                          "omschrijving": "Gezamenlijk bevoegd",
+                          "referentieType": "SoortBevoegdheidBestuurder"
+                        },
+                        "isBevoegdMetAnderePersonen": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        }
                       }
-                    },
-                    "functie": {
-                      "code": "02",
-                      "omschrijving": "Bestuurder",
-                      "referentieType": "FunctionarisRol"
-                    },
-                    "bevoegdheid": {
+                    }
+                  },
+                  {
+                    "bestuursfunctie": {
+                      "registratie": {
+                        "@registratieTijdstip": "20120917093556937",
+                        "datumAanvang": "20120917"
+                      },
+                      "functietitel": {
+                        "registratie": {
+                          "@registratieTijdstip": "20120917093556937",
+                          "datumAanvang": "20120917"
+                        },
+                        "titel": "Penningmeester",
+                        "isStatutaireTitel": {
+                          "code": "J",
+                          "omschrijving": "Ja",
+                          "referentieType": "geenRT"
+                        }
+                      },
+                      "door": {
+                        "natuurlijkPersoon": {
+                          "extraElementen": {
+                            "extraElement": {
+                              "@naam": "achternaam",
+                              "#text": "Klaasen"
+                            }
+                          },
+                          "registratie": {
+                            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                            "datumAanvang": "19740808"
+                          },
+                          "volledigeNaam": "Jan Klaasen",
+                          "geslachtsnaam": "Klaasen",
+                          "voornamen": "Jan",
+                          "geboortedatum": "20000101"
+                        }
+                      },
+                      "functie": {
+                        "code": "02",
+                        "omschrijving": "Bestuurder",
+                        "referentieType": "FunctionarisRol"
+                      },
+                      "bevoegdheid": {
+                        "registratie": {
+                          "@registratieTijdstip": "20120917093556937",
+                          "datumAanvang": "20120917"
+                        },
+                        "soort": {
+                          "code": "gb",
+                          "omschrijving": "Gezamenlijk bevoegd",
+                          "referentieType": "SoortBevoegdheidBestuurder"
+                        },
+                        "isBevoegdMetAnderePersonen": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "bestuursfunctie": {
+                      "registratie": {
+                        "@registratieTijdstip": "20120917093556937",
+                        "datumAanvang": "20120917"
+                      },
+                      "functietitel": {
+                        "registratie": {
+                          "@registratieTijdstip": "20120917093556937",
+                          "datumAanvang": "20120917"
+                        },
+                        "titel": "Penningmeester",
+                        "isStatutaireTitel": {
+                          "code": "J",
+                          "omschrijving": "Ja",
+                          "referentieType": "geenRT"
+                        }
+                      },
+                      "door": {
+                        "natuurlijkPersoon": {
+                          "extraElementen": {
+                            "extraElement": {
+                              "@naam": "achternaam",
+                              "#text": "Jansen"
+                            }
+                          },
+                          "registratie": {
+                            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                            "datumAanvang": "19740808"
+                          },
+                          "volledigeNaam": "Frans Jansen",
+                          "geslachtsnaam": "Jansen",
+                          "voornamen": "Frans",
+                          "geboortedatum": "20000101"
+                        }
+                      },
+                      "functie": {
+                        "code": "02",
+                        "omschrijving": "Bestuurder",
+                        "referentieType": "FunctionarisRol"
+                      },
+                      "bevoegdheid": {
+                        "registratie": {
+                          "@registratieTijdstip": "20120917093556937",
+                          "datumAanvang": "20120917"
+                        },
+                        "soort": {
+                          "code": "gb",
+                          "omschrijving": "Gezamenlijk bevoegd",
+                          "referentieType": "SoortBevoegdheidBestuurder"
+                        },
+                        "isBevoegdMetAnderePersonen": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "bestuursfunctie": {
                       "registratie": {
                         "@registratieTijdstip": "20141205100457746",
                         "datumAanvang": "20131208"
                       },
-                      "soort": {
-                        "code": "gb",
-                        "omschrijving": "Gezamenlijk bevoegd",
-                        "referentieType": "SoortBevoegdheidBestuurder"
+                      "door": {
+                        "natuurlijkPersoon": {
+                          "extraElementen": {
+                            "extraElement": [
+                              {
+                                "@naam": "voorvoegsel",
+                                "#text": "van der"
+                              },
+                              {
+                                "@naam": "achternaam",
+                                "#text": "Wambach - Wambach"
+                              }
+                            ]
+                          },
+                          "registratie": {
+                            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                            "datumAanvang": "19791228"
+                          },
+                          "volledigeNaam": "Adam Wambach",
+                          "geslachtsnaam": "Wambach - Wambach",
+                          "voorvoegselGeslachtsnaam": "van der",
+                          "voornamen": "Adam",
+                          "geboortedatum": "19791228"
+                        }
                       },
-                      "isBevoegdMetAnderePersonen": {
-                        "code": "N",
-                        "omschrijving": "Nee",
-                        "referentieType": "geenRT"
+                      "functie": {
+                        "code": "02",
+                        "omschrijving": "Bestuurder",
+                        "referentieType": "FunctionarisRol"
+                      },
+                      "bevoegdheid": {
+                        "registratie": {
+                          "@registratieTijdstip": "20141205100457746",
+                          "datumAanvang": "20131208"
+                        },
+                        "soort": {
+                          "code": "gb",
+                          "omschrijving": "Gezamenlijk bevoegd",
+                          "referentieType": "SoortBevoegdheidBestuurder"
+                        },
+                        "isBevoegdMetAnderePersonen": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        }
                       }
                     }
-                  }
-                },
-                {
-                  "bestuursfunctie": {
-                    "registratie": {
-                      "@registratieTijdstip": "20141205100457746",
-                      "datumAanvang": "20140901"
-                    },
-                    "door": {
-                      "natuurlijkPersoon": {
-                        "extraElementen": {
-                          "extraElement": {
-                            "@naam": "achternaam",
-                            "#text": "Spivey - Spivey"
-                          }
-                        },
-                        "registratie": {
-                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                          "datumAanvang": "19920810"
-                        },
-                        "volledigeNaam": "Isaiah Spivey",
-                        "geslachtsnaam": "Spivey - Spivey",
-                        "voornamen": "Isaiah",
-                        "geboortedatum": "19920810"
-                      }
-                    },
-                    "functie": {
-                      "code": "02",
-                      "omschrijving": "Bestuurder",
-                      "referentieType": "FunctionarisRol"
-                    },
-                    "bevoegdheid": {
+                  },
+                  {
+                    "bestuursfunctie": {
                       "registratie": {
                         "@registratieTijdstip": "20141205100457746",
                         "datumAanvang": "20140901"
                       },
-                      "soort": {
-                        "code": "gb",
-                        "omschrijving": "Gezamenlijk bevoegd",
-                        "referentieType": "SoortBevoegdheidBestuurder"
+                      "door": {
+                        "natuurlijkPersoon": {
+                          "extraElementen": {
+                            "extraElement": {
+                              "@naam": "achternaam",
+                              "#text": "Spivey - Spivey"
+                            }
+                          },
+                          "registratie": {
+                            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                            "datumAanvang": "19920810"
+                          },
+                          "volledigeNaam": "Isaiah Spivey",
+                          "geslachtsnaam": "Spivey - Spivey",
+                          "voornamen": "Isaiah",
+                          "geboortedatum": "19920810"
+                        }
                       },
-                      "isBevoegdMetAnderePersonen": {
-                        "code": "N",
-                        "omschrijving": "Nee",
-                        "referentieType": "geenRT"
+                      "functie": {
+                        "code": "02",
+                        "omschrijving": "Bestuurder",
+                        "referentieType": "FunctionarisRol"
+                      },
+                      "bevoegdheid": {
+                        "registratie": {
+                          "@registratieTijdstip": "20141205100457746",
+                          "datumAanvang": "20140901"
+                        },
+                        "soort": {
+                          "code": "gb",
+                          "omschrijving": "Gezamenlijk bevoegd",
+                          "referentieType": "SoortBevoegdheidBestuurder"
+                        },
+                        "isBevoegdMetAnderePersonen": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        }
                       }
                     }
                   }
-                }
-              ],
-              "rsin": "992476458",
-              "naamgeving": {
-                "registratie": {
-                  "@registratieTijdstip": "20141020090733138",
-                  "datumAanvang": "20141015"
+                ],
+                "rsin": "992476458",
+                "naamgeving": {
+                  "registratie": {
+                    "@registratieTijdstip": "20141020090733138",
+                    "datumAanvang": "20141015"
+                  },
+                  "naam": "Witbaard Frisdrank"
                 },
-                "naam": "Onderlinge Waarborgmaatschappij Local Goldencode"
-              },
-              "rechtsvorm": {
-                "code": "OWM",
-                "omschrijving": "Onderlinge Waarborg Maatschappij",
-                "referentieType": "Rechtsvorm"
-              },
-              "statutaireZetel": "Nepplaats",
-              "aanvangStatutaireZetel": "19260701",
-              "datumAkteOprichting": "19260701",
-              "datumAkteStatutenwijziging": "20141015",
-              "structuur": {
-                "code": "GS",
-                "omschrijving": "Gewone structuur",
-                "referentieType": "RechtsvormStructuur"
-              },
-              "bezoekLocatie": {
-                "registratie": {
-                  "@registratieTijdstipNoValue": "vastgesteldOnbekend",
-                  "datumAanvang": "19860405"
+                "rechtsvorm": {
+                  "code": "OWM",
+                  "omschrijving": "Onderlinge Waarborg Maatschappij",
+                  "referentieType": "Rechtsvorm"
                 },
-                "afgeschermd": {
-                  "code": "N",
-                  "omschrijving": "Nee",
-                  "referentieType": "geenRT"
+                "statutaireZetel": "Nepplaats",
+                "aanvangStatutaireZetel": "19260701",
+                "datumAkteOprichting": "19260701",
+                "datumAkteStatutenwijziging": "20141015",
+                "structuur": {
+                  "code": "GS",
+                  "omschrijving": "Gewone structuur",
+                  "referentieType": "RechtsvormStructuur"
                 },
-                "adres": {
-                  "binnenlandsAdres": {
-                    "straatnaam": "Steegseweg",
-                    "huisnummer": "5",
-                    "postcode": {
-                      "cijfercombinatie": "7037",
-                      "lettercombinatie": "CS"
-                    },
-                    "plaats": "Beek",
-                    "bagId": {
-                      "identificatieNummeraanduiding": "0074999999864195",
-                      "identificatieAdresseerbaarObject": "0074999999591362"
+                "bezoekLocatie": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "19860405"
+                  },
+                  "afgeschermd": {
+                    "code": "N",
+                    "omschrijving": "Nee",
+                    "referentieType": "geenRT"
+                  },
+                  "adres": {
+                    "binnenlandsAdres": {
+                      "straatnaam": "Steegseweg",
+                      "huisnummer": "5",
+                      "postcode": {
+                        "cijfercombinatie": "7037",
+                        "lettercombinatie": "CS"
+                      },
+                      "plaats": "Beek",
+                      "bagId": {
+                        "identificatieNummeraanduiding": "0074999999864195",
+                        "identificatieAdresseerbaarObject": "0074999999591362"
+                      }
                     }
-                  }
-                },
-                "volledigAdres": "Steegseweg 5 7037CS Beek"
+                  },
+                  "volledigAdres": "Steegseweg 5 7037CS Beek"
+                }
               }
             }
           }
