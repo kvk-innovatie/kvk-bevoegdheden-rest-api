@@ -1,25 +1,33 @@
 package main
 
 import (
+	b64 "encoding/base64"
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
+	"log"
 	"net/http"
 	"os"
+	"strconv"
 	"strings"
 	"time"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
+	"github.com/joho/godotenv"
 	kvkBevoegdheden "github.com/kvk-innovatie/kvk-bevoegdheden"
 	"github.com/kvk-innovatie/kvk-bevoegdheden/models"
 	"github.com/unrolled/render"
-
-	b64 "encoding/base64"
 )
 
 var (
 	bevoegdheidResponseCache map[string]*models.BevoegdheidResponse
 	requestsPerUser          map[string][]time.Time
+	clientID                 string
+	clientSecret             string
+	authServerURL            string
+	enableCaching            bool
+	env                      string
 )
 
 const (
@@ -32,6 +40,18 @@ const (
 func init() {
 	bevoegdheidResponseCache = make(map[string]*models.BevoegdheidResponse)
 	requestsPerUser = make(map[string][]time.Time)
+	godotenv.Load()
+	var err error
+	enableCachingStr := os.Getenv("ENABLE_CACHING")
+	enableCaching, err = strconv.ParseBool(enableCachingStr)
+	if err != nil {
+		log.Printf("Invalid boolean value for ENABLE_CACHING: %s. Defaulting to false.", enableCachingStr)
+		enableCaching = false // Default to false if parsing fails
+	}
+	clientID = os.Getenv("SIGNICAT_CLIENTID")
+	clientSecret = os.Getenv("SIGNICAT_CLIENTSECRET")
+	authServerURL = os.Getenv("SIGNICAT_AUTHSERVER_URL")
+	env = "prod"
 }
 
 func renderJSON(w http.ResponseWriter, status int, data interface{}) {
@@ -80,14 +100,7 @@ func getEncodedNP(iNP *models.IdentityNP) string {
 	strNP := iNP.Voornamen + iNP.VoorvoegselGeslachtsnaam + iNP.Geslachtsnaam + iNP.Geboortedatum
 	return b64.StdEncoding.EncodeToString([]byte(strNP))
 }
-
 func doGetBevoegdheid(identityNP *models.IdentityNP, kvkNummer string) (httpCode int, errorCode string, bevoegdheidResponse *models.BevoegdheidResponse) {
-	enableCaching := os.Getenv("ENABLE_CACHING") == "true"
-
-	env := "prd"
-	if os.Getenv("GO_ENV") == "development" || os.Getenv("GO_ENV") == "test" {
-		env = "preprd"
-	}
 
 	if bevoegdheidResponseCache[kvkNummer] != nil {
 		pm := bevoegdheidResponseCache[kvkNummer].BevoegdheidUittreksel.Peilmoment
@@ -110,7 +123,7 @@ func doGetBevoegdheid(identityNP *models.IdentityNP, kvkNummer string) (httpCode
 		return 400, "limit-exceeded-lt", nil
 	}
 
-	bevoegdheidResponse, err, _ := kvkBevoegdheden.GetBevoegdheid(kvkNummer, *identityNP, os.Getenv("LOOKUP_CLIENTID"), os.Getenv("LOOKUP_CLIENTSECRET"), os.Getenv("LOOKUP_AUTHSERVER_URL"), enableCaching, env)
+	bevoegdheidResponse, err, _ := kvkBevoegdheden.GetBevoegdheid(kvkNummer, *identityNP, clientID, clientSecret, authServerURL, enableCaching, env)
 
 	requestsPerUser[encNP] = append(requestsPerUser[encNP], time.Now())
 	if len(requestsPerUser[encNP]) > maxRequestsPerUserLongTerm {
@@ -132,6 +145,164 @@ func doGetBevoegdheid(identityNP *models.IdentityNP, kvkNummer string) (httpCode
 	bevoegdheidResponseCache[bevoegdheidResponse.BevoegdheidUittreksel.KvkNummer] = bevoegdheidResponse
 
 	return 0, "", bevoegdheidResponse
+}
+
+func handleLPID(identityNP *models.IdentityNP, w http.ResponseWriter, r *http.Request, rend *render.Render) {
+	kvkNummer := chi.URLParam(r, "kvkNummer")
+
+	bevoegdheidResponse, err, _ := kvkBevoegdheden.GetLPID(kvkNummer, *identityNP, clientID, clientSecret, authServerURL, enableCaching, env)
+
+	if err == kvkBevoegdheden.ErrInschrijvingNotFound {
+		rend.JSON(w, http.StatusNotFound, err)
+		return
+	} else if err == kvkBevoegdheden.ErrInvalidInput {
+		rend.JSON(w, http.StatusBadRequest, err)
+		return
+	} else if err != nil {
+		rend.JSON(w, http.StatusInternalServerError, err)
+		return
+	}
+
+	lpidResponse := map[string]interface{}{
+		"data": map[string]interface{}{
+			"id":                "NLNHR." + bevoegdheidResponse.BevoegdheidUittreksel.KvkNummer,
+			"legal_person_name": bevoegdheidResponse.BevoegdheidUittreksel.Naam,
+		},
+		"metadata": generateMetadata(),
+	}
+
+	rend.JSON(w, http.StatusOK, lpidResponse)
+}
+func handleCompanyCertificate(identityNP *models.IdentityNP, w http.ResponseWriter, r *http.Request, rend *render.Render) {
+	kvkNummer := chi.URLParam(r, "kvkNummer")
+
+	bevoegdheidResponse, err, _ := kvkBevoegdheden.GetCompanyCertificate(kvkNummer, *identityNP, clientID, clientSecret, authServerURL, enableCaching, env)
+
+	if err == kvkBevoegdheden.ErrInschrijvingNotFound {
+		rend.JSON(w, http.StatusNotFound, err)
+		return
+	} else if err == kvkBevoegdheden.ErrInvalidInput {
+		rend.JSON(w, http.StatusBadRequest, err)
+		return
+	} else if err != nil {
+		rend.JSON(w, http.StatusInternalServerError, err)
+		return
+	}
+
+	bevoegdheidUittreksel := bevoegdheidResponse.BevoegdheidUittreksel
+
+	companyCertificate := map[string]interface{}{
+		"id":                   "NLNHR." + bevoegdheidUittreksel.KvkNummer,
+		"legal_person_name":    bevoegdheidUittreksel.Naam,
+		"legal_form":           bevoegdheidUittreksel.PersoonRechtsvorm,
+		"registration_number":  bevoegdheidUittreksel.KvkNummer,
+		"registered_country":   "NL",
+		"registered_office":    bevoegdheidUittreksel.Adres,
+		"postal_address":       bevoegdheidUittreksel.Adres,
+		"electronic_address":   bevoegdheidUittreksel.EmailAdres,
+		"date_of_registration": bevoegdheidUittreksel.RegistratieAanvang,
+		"authorized_persons":   extractAuthorizedPersons(*bevoegdheidUittreksel),
+	}
+
+	companyCertificateResponse := map[string]interface{}{
+		"data":     companyCertificate,
+		"metadata": generateMetadata(),
+	}
+
+	rend.JSON(w, http.StatusOK, companyCertificateResponse)
+}
+
+func handleSignatoryRight(inputPersonJSON []byte, bevoegdheidResponse *models.BevoegdheidResponse) string {
+	// Parse the inputPerson JSON into an IdentityNP struct
+	var inputPerson models.IdentityNP
+	err := json.Unmarshal(inputPersonJSON, &inputPerson)
+	if err != nil {
+		log.Printf("Error unmarshaling inputPerson JSON: %v\n", err)
+		return "Error processing input"
+	}
+	log.Printf("Processing inputPerson: %+v\n", inputPerson)
+
+	// Validate that bevoegdheidResponse and its subfields are not nil
+	if bevoegdheidResponse == nil {
+		log.Println("bevoegdheidResponse is nil")
+		return "Error processing response"
+	}
+	if bevoegdheidResponse.BevoegdheidUittreksel == nil {
+		log.Println("bevoegdheidResponse.BevoegdheidUittreksel is nil")
+		return "Error processing response"
+	}
+	log.Println("bevoegdheidResponse and bevoegdheidUittreksel are valid")
+
+	// Flag to track whether a match is found
+	matchFound := false
+
+	// Iterate over all natural person functionaries
+	for index, functionaris := range bevoegdheidResponse.BevoegdheidUittreksel.AlleFunctionarissen {
+		log.Printf("Checking functionaris at index %d: %+v\n", index, functionaris)
+
+		// Check if geslachtsnaam matches
+		if functionaris.Geslachtsnaam != inputPerson.Geslachtsnaam {
+			log.Printf("Mismatch in geslachtsnaam: input=%s, functionaris=%s\n",
+				inputPerson.Geslachtsnaam, functionaris.Geslachtsnaam)
+			continue
+		}
+		log.Println("Geslachtsnaam matches")
+
+		// Check if voornamen matches
+		if functionaris.Voornamen != inputPerson.Voornamen {
+			log.Printf("Mismatch in voornamen: input=%s, functionaris=%s\n",
+				inputPerson.Voornamen, functionaris.Voornamen)
+			continue
+		}
+		log.Println("Voornamen matches")
+
+		// Check if geboortedatum matches
+		if functionaris.Geboortedatum != inputPerson.Geboortedatum {
+			log.Printf("Mismatch in geboortedatum: input=%s, functionaris=%s\n",
+				inputPerson.Geboortedatum, functionaris.Geboortedatum)
+			continue
+		}
+		log.Println("Geboortedatum matches")
+
+		// Check if isBevoegd is "Ja" or "True"
+		if functionaris.Interpretatie.IsBevoegd != "Ja" && functionaris.Interpretatie.IsBevoegd != "True" {
+			log.Printf("isBevoegd check failed: functionaris.Interpretatie.IsBevoegd=%s\n",
+				functionaris.Interpretatie.IsBevoegd)
+			continue
+		}
+		log.Println("isBevoegd check passed")
+
+		// If all checks pass for this functionaris
+		log.Printf("Match found for inputPerson: %s\n", inputPersonJSON)
+		matchFound = true
+	}
+
+	// Final decision based on matchFound flag
+	if matchFound {
+		log.Println("At least one match found for inputPerson in bevoegdheidResponse")
+		return "Yes"
+	}
+
+	log.Println("No match found for inputPerson in bevoegdheidResponse")
+	return "No"
+}
+
+func extractAuthorizedPersons(bevoegdheidUittreksel models.BevoegdheidUittreksel) []map[string]interface{} {
+	prunedAuthorizedPersons := []map[string]interface{}{}
+	for _, person := range bevoegdheidUittreksel.AlleFunctionarissen {
+		prunedAuthorizedPersons = append(prunedAuthorizedPersons, map[string]interface{}{
+			"full_name":     person.Voornamen + " " + person.Geslachtsnaam,
+			"date_of_birth": person.Geboortedatum,
+		})
+	}
+	return prunedAuthorizedPersons
+}
+func generateMetadata() map[string]interface{} {
+	return map[string]interface{}{
+		"issuing_authority_name": "Kamer van Koophandel",
+		"issuer_id":              "NLNHR.59581883",
+		"issuing_country":        "NL",
+	}
 }
 
 func main() {
@@ -173,6 +344,56 @@ func main() {
 
 		rend.JSON(w, http.StatusOK, bevoegdheidResponse)
 	})
+	r.Get("/api/lpid/{kvkNummer}", func(w http.ResponseWriter, r *http.Request) {
+		identityNP := models.IdentityNP{}
+		handleLPID(&identityNP, w, r, rend)
+	})
+	r.Get("/api/company-certificate/{kvkNummer}", func(w http.ResponseWriter, r *http.Request) {
+		identityNP := models.IdentityNP{}
+		handleCompanyCertificate(&identityNP, w, r, rend)
+	})
 
+	r.Post("/api/signatory-right/{kvkNummer}", func(w http.ResponseWriter, r *http.Request) {
+		kvkNummer := chi.URLParam(r, "kvkNummer")
+		identityNP := models.IdentityNP{}
+		err := json.NewDecoder(r.Body).Decode(&identityNP)
+		if err != nil {
+			log.Printf("Error decoding JSON: %v\n", err)
+			sendErrorResponse(w, http.StatusBadRequest, "Invalid JSON")
+			return
+		}
+
+		// Log the inputPerson as JSON
+		inputPersonJSON, err := json.Marshal(identityNP)
+		if err != nil {
+			log.Printf("Error marshaling JSON: %v\n", err)
+			sendErrorResponse(w, http.StatusInternalServerError, "Error processing input")
+			return
+		}
+
+		httpCode, errorCode, bevoegdheidResponse := doGetBevoegdheid(&identityNP, kvkNummer)
+		if httpCode != 0 {
+			sendErrorResponse(w, httpCode, errorCode)
+			return
+		}
+		result := handleSignatoryRight(inputPersonJSON, bevoegdheidResponse)
+		if result == "Yes" {
+			// If a match is found, construct the response with the full name
+			fullName := fmt.Sprintf("%s %s %s",
+				identityNP.VoorvoegselGeslachtsnaam,
+				identityNP.Voornamen,
+				identityNP.Geslachtsnaam,
+			)
+			response := map[string]string{
+				"fullName":     strings.TrimSpace(fullName),
+				"isAuthorized": "Yes",
+			}
+			rend.JSON(w, http.StatusOK, response)
+			return
+		}
+
+		// If no match is found, send an appropriate error response
+		sendErrorResponse(w, http.StatusNotFound, "No match found or not authorized")
+	})
 	http.ListenAndServe(":3333", r)
 }

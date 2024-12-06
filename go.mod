@@ -4,7 +4,7 @@ go 1.22.2
 
 toolchain go1.23.3
 
-replace github.com/kvk-innovatie/kvk-bevoegdheden => /Users/michielmayer/gitlab/kvk-irma/kvk-bevoegdheden
+replace github.com/kvk-innovatie/kvk-bevoegdheden => "C:/Users/Erwin Nieuwlaar/Documents/KVK/Archipels/kvk-bevoegdheden"
 
 require (
 	github.com/go-chi/chi/v5 v5.0.7
@@ -14,6 +14,7 @@ require (
 
 require (
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
+	github.com/joho/godotenv v1.5.1 // indirect
 	golang.org/x/oauth2 v0.19.0 // indirect
 	golang.org/x/sys v0.2.0 // indirect
 )
