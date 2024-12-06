@@ -1,6 +1,7 @@
 __debug_bin
 /.vscode
 .DS_Store
+__debug_bin*
 
 /keys
 .env
