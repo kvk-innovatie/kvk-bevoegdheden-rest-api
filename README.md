@@ -80,8 +80,11 @@ Make sure you have cloned the dependency project https://github.com/kvk-innovati
 
 ### Env variables:
 SIGNICAT_CLIENTID= <your CLIENTID>
+
 SIGNICAT_CLIENTSECRET= <your CLIENTSECRET>
+
 SIGNICAT_AUTHSERVER_URL=https://api.signicat.com/auth/open/connect
+
 ENABLE_CACHING=true
 
 ## To run locally
