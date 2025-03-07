@@ -14,6 +14,7 @@ import (
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
+	"github.com/go-chi/cors"
 	"github.com/joho/godotenv"
 	kvkBevoegdheden "github.com/kvk-innovatie/kvk-bevoegdheden"
 	"github.com/kvk-innovatie/kvk-bevoegdheden/models"
@@ -149,6 +150,9 @@ func doGetBevoegdheid(identityNP *models.IdentityNP, kvkNummer string) (httpCode
 
 func handleLPID(identityNP *models.IdentityNP, w http.ResponseWriter, r *http.Request, rend *render.Render) {
 	kvkNummer := chi.URLParam(r, "kvkNummer")
+	if kvkNummer == "" {
+		kvkNummer = "90000021"
+	}
 
 	bevoegdheidResponse, err, _ := kvkBevoegdheden.GetLPID(kvkNummer, *identityNP, clientID, clientSecret, authServerURL, enableCaching, env)
 
@@ -175,6 +179,9 @@ func handleLPID(identityNP *models.IdentityNP, w http.ResponseWriter, r *http.Re
 }
 func handleCompanyCertificate(identityNP *models.IdentityNP, w http.ResponseWriter, r *http.Request, rend *render.Render) {
 	kvkNummer := chi.URLParam(r, "kvkNummer")
+	if kvkNummer == "" {
+		kvkNummer = "90000021"
+	}
 
 	bevoegdheidResponse, err, _ := kvkBevoegdheden.GetCompanyCertificate(kvkNummer, *identityNP, clientID, clientSecret, authServerURL, enableCaching, env)
 
@@ -305,6 +312,14 @@ func generateMetadata() map[string]interface{} {
 	}
 }
 
+func getKvkNummer(r *http.Request) string {
+	kvkNummer := chi.URLParam(r, "kvkNummer")
+	if kvkNummer == "" {
+		return "90000021" // Default KVK number
+	}
+	return kvkNummer
+}
+
 func main() {
 	// runAll()
 	r := chi.NewRouter()
@@ -315,6 +330,14 @@ func main() {
 	r.Use(middleware.Logger)
 	r.Use(middleware.Recoverer)
 	r.Use(middleware.Timeout(60 * time.Second))
+	r.Use(cors.Handler(cors.Options{
+		AllowedOrigins:   []string{"http://localhost:5173"}, // Replace with your frontend's URL
+		AllowedMethods:   []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
+		AllowedHeaders:   []string{"Accept", "Authorization", "Content-Type", "X-CSRF-Token"},
+		ExposedHeaders:   []string{"Link"},
+		AllowCredentials: true,
+		MaxAge:           300, // Maximum value for preflight requests caching
+	}))
 
 	r.Get("/api/test-inschrijvingen", func(w http.ResponseWriter, r *http.Request) {
 		files, err := ioutil.ReadDir("./cache-inschrijvingen/")
@@ -348,13 +371,25 @@ func main() {
 		identityNP := models.IdentityNP{}
 		handleLPID(&identityNP, w, r, rend)
 	})
+	r.Get("/api/lpid", func(w http.ResponseWriter, r *http.Request) {
+		identityNP := models.IdentityNP{}
+		handleLPID(&identityNP, w, r, rend)
+	})
+
 	r.Get("/api/company-certificate/{kvkNummer}", func(w http.ResponseWriter, r *http.Request) {
+		identityNP := models.IdentityNP{}
+		handleCompanyCertificate(&identityNP, w, r, rend)
+	})
+	r.Get("/api/company-certificate", func(w http.ResponseWriter, r *http.Request) {
 		identityNP := models.IdentityNP{}
 		handleCompanyCertificate(&identityNP, w, r, rend)
 	})
 
 	r.Post("/api/signatory-right/{kvkNummer}", func(w http.ResponseWriter, r *http.Request) {
 		kvkNummer := chi.URLParam(r, "kvkNummer")
+		if kvkNummer == "" {
+			kvkNummer = "90000021"
+		}
 		identityNP := models.IdentityNP{}
 		err := json.NewDecoder(r.Body).Decode(&identityNP)
 		if err != nil {
@@ -393,6 +428,45 @@ func main() {
 		}
 
 		// If no match is found, send an appropriate error response
+		sendErrorResponse(w, http.StatusNotFound, "No match found or not authorized")
+	})
+	r.Post("/api/signatory-right", func(w http.ResponseWriter, r *http.Request) {
+		identityNP := models.IdentityNP{}
+		err := json.NewDecoder(r.Body).Decode(&identityNP)
+		if err != nil {
+			log.Printf("Error decoding JSON: %v\n", err)
+			sendErrorResponse(w, http.StatusBadRequest, "Invalid JSON")
+			return
+		}
+
+		// Log the inputPerson as JSON
+		inputPersonJSON, err := json.Marshal(identityNP)
+		if err != nil {
+			log.Printf("Error marshaling JSON: %v\n", err)
+			sendErrorResponse(w, http.StatusInternalServerError, "Error processing input")
+			return
+		}
+
+		httpCode, errorCode, bevoegdheidResponse := doGetBevoegdheid(&identityNP, "90000021")
+		if httpCode != 0 {
+			sendErrorResponse(w, httpCode, errorCode)
+			return
+		}
+		result := handleSignatoryRight(inputPersonJSON, bevoegdheidResponse)
+		if result == "Yes" {
+			fullName := fmt.Sprintf("%s %s %s",
+				identityNP.VoorvoegselGeslachtsnaam,
+				identityNP.Voornamen,
+				identityNP.Geslachtsnaam,
+			)
+			response := map[string]string{
+				"fullName":     strings.TrimSpace(fullName),
+				"isAuthorized": "Yes",
+			}
+			rend.JSON(w, http.StatusOK, response)
+			return
+		}
+
 		sendErrorResponse(w, http.StatusNotFound, "No match found or not authorized")
 	})
 	http.ListenAndServe(":3333", r)
