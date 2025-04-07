@@ -198,17 +198,46 @@ func handleCompanyCertificate(identityNP *models.IdentityNP, w http.ResponseWrit
 
 	bevoegdheidUittreksel := bevoegdheidResponse.BevoegdheidUittreksel
 
+	// Build the legal person data map
+	legalPerson := map[string]interface{}{
+		"legal_person_name":         bevoegdheidUittreksel.Naam,
+		"legal_person_id":           "NLNHR." + bevoegdheidUittreksel.KvkNummer,
+		"legal_form_type":           bevoegdheidUittreksel.PersoonRechtsvorm,
+		"registration_member_state": "NL",
+		"registered_address": map[string]interface{}{
+			"full_address": bevoegdheidUittreksel.Adres,
+		},
+		"registration_date":   formatDateISO8601(bevoegdheidUittreksel.RegistratieAanvang),
+		"legal_person_status": getLegalPersonStatus(bevoegdheidUittreksel),
+	}
+
+	// Add SBI activity if available
+	sbiCode := getSbiCode(bevoegdheidUittreksel.SbiActiviteit)
+	sbiDescription := getSbiDescription(bevoegdheidUittreksel.SbiActiviteit)
+	if sbiCode != "" || sbiDescription != "" {
+		legalPersonActivity := map[string]interface{}{}
+		if sbiCode != "" {
+			legalPersonActivity["code"] = sbiCode
+		}
+		if sbiDescription != "" {
+			legalPersonActivity["description"] = sbiDescription
+		}
+		legalPerson["legal_person_activity"] = legalPersonActivity
+	}
+
+	// Add contact point information only if available
+	if bevoegdheidUittreksel.EmailAdres != "" {
+		contactPoint := map[string]interface{}{}
+		contactPoint["contact_email"] = bevoegdheidUittreksel.EmailAdres
+		legalPerson["contact_point"] = contactPoint
+	}
+
+	// Only add share_capital if we have meaningful data
+	// Omitting this field entirely since we don't have the data
+
 	companyCertificate := map[string]interface{}{
-		"id":                   "NLNHR." + bevoegdheidUittreksel.KvkNummer,
-		"legal_person_name":    bevoegdheidUittreksel.Naam,
-		"legal_form":           bevoegdheidUittreksel.PersoonRechtsvorm,
-		"registration_number":  bevoegdheidUittreksel.KvkNummer,
-		"registered_country":   "NL",
-		"registered_office":    bevoegdheidUittreksel.Adres,
-		"postal_address":       bevoegdheidUittreksel.Adres,
-		"electronic_address":   bevoegdheidUittreksel.EmailAdres,
-		"date_of_registration": bevoegdheidUittreksel.RegistratieAanvang,
-		"authorized_persons":   extractAuthorizedPersons(*bevoegdheidUittreksel),
+		"legal_person":         legalPerson,
+		"legal_representative": extractLegalRepresentatives(*bevoegdheidUittreksel),
 	}
 
 	companyCertificateResponse := map[string]interface{}{
@@ -318,6 +347,99 @@ func getKvkNummer(r *http.Request) string {
 		return "90000021" // Default KVK number
 	}
 	return kvkNummer
+}
+
+func getLegalPersonStatus(b *models.BevoegdheidUittreksel) string {
+	if b.DatumUitschrijving != "" {
+		return "terminated"
+	}
+	if b.BijzondereRechtstoestand != "" {
+		return "special_status"
+	}
+	return "active"
+}
+
+func getSbiCode(sbiActivity string) string {
+	if sbiActivity == "" {
+		return ""
+	}
+	parts := strings.Split(sbiActivity, ", ")
+	if len(parts) > 0 {
+		return parts[0]
+	}
+	return ""
+}
+
+func getSbiDescription(sbiActivity string) string {
+	if sbiActivity == "" {
+		return ""
+	}
+	parts := strings.Split(sbiActivity, ", ")
+	if len(parts) > 1 {
+		return parts[1]
+	}
+	return ""
+}
+
+func extractLegalRepresentatives(b models.BevoegdheidUittreksel) []map[string]interface{} {
+	representatives := make([]map[string]interface{}, 0)
+
+	// Add natural person representatives
+	for _, np := range b.AlleFunctionarissen {
+		rep := map[string]interface{}{
+			"natural_person": map[string]interface{}{
+				"full_name":      np.VolledigeNaam,
+				"date_of_birth":  formatDateISO8601(np.Geboortedatum),
+				"nationality":    "NL",
+				"signatory_rule": getSignatoryRule(np.Functionaris),
+			},
+		}
+		representatives = append(representatives, rep)
+	}
+
+	// Add legal person representatives
+	for _, rp := range b.AlleRechtspersoonFunctionarissen {
+		rep := map[string]interface{}{
+			"legal_person": map[string]interface{}{
+				"legal_person_name": rp.Naam,
+				"legal_person_id":   "NLNHR." + rp.KvkNummer,
+				"legal_form_type":   rp.PersoonRechtsvorm,
+				"signatory_rule":    getSignatoryRule(rp.Functionaris),
+			},
+		}
+		representatives = append(representatives, rep)
+	}
+
+	return representatives
+}
+
+func getSignatoryRule(f models.Functionaris) string {
+	// Cases where person has full authority to act alone
+	switch f.SoortBevoegdheid {
+	case "Alleen/zelfstandig bevoegd", "Onbeperkt bevoegd":
+		return "alone"
+	case "Gezamenlijk bevoegd", "Beperkt bevoegd":
+		return "joint"
+	}
+
+	// Check volmacht (power of attorney) type
+	if f.TypeVolmacht == "Volledige volmacht" {
+		return "alone"
+	}
+
+	return "unknown"
+}
+
+func formatDateISO8601(date string) string {
+	if date == "" {
+		return ""
+	}
+	// Convert from DD-MM-YYYY to YYYY-MM-DD
+	parts := strings.Split(date, "-")
+	if len(parts) != 3 {
+		return date
+	}
+	return fmt.Sprintf("%s-%s-%s", parts[2], parts[1], parts[0])
 }
 
 func main() {
@@ -469,5 +591,99 @@ func main() {
 
 		sendErrorResponse(w, http.StatusNotFound, "No match found or not authorized")
 	})
+
+	r.Post("/api/por/{kvkNummer}", func(w http.ResponseWriter, r *http.Request) {
+		kvkNummer := chi.URLParam(r, "kvkNummer")
+		if kvkNummer == "" {
+			kvkNummer = "90000021"
+		}
+		identityNP := models.IdentityNP{}
+		err := json.NewDecoder(r.Body).Decode(&identityNP)
+		if err != nil {
+			log.Printf("Error decoding JSON: %v\n", err)
+			sendErrorResponse(w, http.StatusBadRequest, "Invalid JSON")
+			return
+		}
+
+		// Log the inputPerson as JSON
+		inputPersonJSON, err := json.Marshal(identityNP)
+		if err != nil {
+			log.Printf("Error marshaling JSON: %v\n", err)
+			sendErrorResponse(w, http.StatusInternalServerError, "Error processing input")
+			return
+		}
+
+		httpCode, errorCode, bevoegdheidResponse := doGetBevoegdheid(&identityNP, kvkNummer)
+		if httpCode != 0 {
+			sendErrorResponse(w, httpCode, errorCode)
+			return
+		}
+		result := handleSignatoryRight(inputPersonJSON, bevoegdheidResponse)
+		if result == "Yes" {
+			fullName := fmt.Sprintf("%s %s %s",
+				identityNP.VoorvoegselGeslachtsnaam,
+				identityNP.Voornamen,
+				identityNP.Geslachtsnaam,
+			)
+			response := map[string]interface{}{
+				"data": map[string]interface{}{
+					"fullName":          strings.TrimSpace(fullName),
+					"isAuthorized":      "Yes",
+					"id":                "NLNHR." + bevoegdheidResponse.BevoegdheidUittreksel.KvkNummer,
+					"legal_person_name": bevoegdheidResponse.BevoegdheidUittreksel.Naam,
+				},
+				"metadata": generateMetadata(),
+			}
+			rend.JSON(w, http.StatusOK, response)
+			return
+		}
+
+		sendErrorResponse(w, http.StatusNotFound, "No match found or not authorized")
+	})
+	r.Post("/api/por", func(w http.ResponseWriter, r *http.Request) {
+		identityNP := models.IdentityNP{}
+		err := json.NewDecoder(r.Body).Decode(&identityNP)
+		if err != nil {
+			log.Printf("Error decoding JSON: %v\n", err)
+			sendErrorResponse(w, http.StatusBadRequest, "Invalid JSON")
+			return
+		}
+
+		// Log the inputPerson as JSON
+		inputPersonJSON, err := json.Marshal(identityNP)
+		if err != nil {
+			log.Printf("Error marshaling JSON: %v\n", err)
+			sendErrorResponse(w, http.StatusInternalServerError, "Error processing input")
+			return
+		}
+
+		httpCode, errorCode, bevoegdheidResponse := doGetBevoegdheid(&identityNP, "90000021")
+		if httpCode != 0 {
+			sendErrorResponse(w, httpCode, errorCode)
+			return
+		}
+		result := handleSignatoryRight(inputPersonJSON, bevoegdheidResponse)
+		if result == "Yes" {
+			fullName := fmt.Sprintf("%s %s %s",
+				identityNP.VoorvoegselGeslachtsnaam,
+				identityNP.Voornamen,
+				identityNP.Geslachtsnaam,
+			)
+			response := map[string]interface{}{
+				"data": map[string]interface{}{
+					"fullName":          strings.TrimSpace(fullName),
+					"isAuthorized":      "Yes",
+					"id":                "NLNHR." + bevoegdheidResponse.BevoegdheidUittreksel.KvkNummer,
+					"legal_person_name": bevoegdheidResponse.BevoegdheidUittreksel.Naam,
+				},
+				"metadata": generateMetadata(),
+			}
+			rend.JSON(w, http.StatusOK, response)
+			return
+		}
+
+		sendErrorResponse(w, http.StatusNotFound, "No match found or not authorized")
+	})
+
 	http.ListenAndServe(":3333", r)
 }
