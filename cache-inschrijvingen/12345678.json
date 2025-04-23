@@ -1,0 +1,623 @@
+{
+    "soap:Envelope": {
+      "wstxns8:Body": {
+        "@wsu:Id": "id-1-d855da823ecaa93b21cf1482ec44ea0a",
+        "@xmlns:wstxns8": "http://schemas.xmlsoap.org/soap/envelope/",
+        "@xmlns:wsu": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd",
+        "ophalenInschrijvingResponse": {
+          "@peilmoment": "20240624122839746",
+          "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+          "meldingen": {
+            "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+            "informatie": {
+              "code": "IPD0000",
+              "omschrijving": "Het product is succesvol geproduceerd",
+              "referentie": "12345678"
+            }
+          },
+          "product": {
+            "@xmlns": "http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02",
+            "maatschappelijkeActiviteit": {
+              "@xmlns": "http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02",
+              "registratie": {
+                "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                "datumAanvang": "20000101"
+              },
+              "kvkNummer": "12345678",
+              "nonMailing": {
+                "code": "N",
+                "omschrijving": "Nee",
+                "referentieType": "geenRT"
+              },
+              "incidenteelUitlenenArbeidskrachten": {
+                "code": "N",
+                "omschrijving": "Nee",
+                "referentieType": "geenRT"
+              },
+              "bezoekLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20120321091141456",
+                  "datumAanvang": "20000101"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Bikini Bottom",
+                    "huisnummer": "42",
+                    "postcode": {
+                      "cijfercombinatie": "1234",
+                      "lettercombinatie": "AB"
+                    },
+                    "plaats": "Bikini Bottom",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "1234567890123456",
+                      "identificatieAdresseerbaarObject": "1234567890654321"
+                    }
+                  }
+                },
+                "volledigAdres": "Bikini Bottom 42 1234AB Bikini Bottom"
+              },
+              "postLocatie": {
+                "registratie": {
+                  "@registratieTijdstip": "20120321091141456",
+                  "datumAanvang": "20000101"
+                },
+                "afgeschermd": {
+                  "code": "N",
+                  "omschrijving": "Nee",
+                  "referentieType": "geenRT"
+                },
+                "adres": {
+                  "binnenlandsAdres": {
+                    "straatnaam": "Bikini Bottom",
+                    "huisnummer": "42",
+                    "postcode": {
+                      "cijfercombinatie": "1234",
+                      "lettercombinatie": "AB"
+                    },
+                    "plaats": "Bikini Bottom",
+                    "bagId": {
+                      "identificatieNummeraanduiding": "1234567890123456",
+                      "identificatieAdresseerbaarObject": "1234567890654321"
+                    }
+                  }
+                },
+                "volledigAdres": "Bikini Bottom 42 1234AB Bikini Bottom"
+              },
+              "communicatiegegevens": {
+                "registratie": {
+                  "@registratieTijdstip": "20120321091141456",
+                  "datumAanvang": "20000101"
+                },
+                "communicatienummer": {
+                  "toegangscode": "+31",
+                  "nummer": "0201234567",
+                  "soort": {
+                    "code": "T",
+                    "omschrijving": "Telefoon"
+                  }
+                }
+              },
+              "naam": "The Krusty Krab",
+              "manifesteertZichAls": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20120321091141456",
+                  "datumAanvang": "20000101"
+                },
+                "onderneming": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20000101"
+                  },
+                  "kvkNummer": "12345678",
+                  "sbiActiviteit": [
+                    {
+                      "registratie": {
+                        "@registratieTijdstip": "20120321091141456",
+                        "datumAanvang": "20000101"
+                      },
+                      "sbiCode": {
+                        "code": "5610",
+                        "omschrijving": "Restaurants en cafetaria's",
+                        "referentieType": "ActiviteitCode"
+                      },
+                      "isHoofdactiviteit": {
+                        "code": "J",
+                        "omschrijving": "Ja",
+                        "referentieType": "geenRT"
+                      }
+                    },
+                    {
+                      "registratie": {
+                        "@registratieTijdstip": "20120321091141456",
+                        "datumAanvang": "20000101"
+                      },
+                      "sbiCode": {
+                        "code": "1085",
+                        "omschrijving": "Vervaardiging van kant-en-klaarmaaltijden en snacks",
+                        "referentieType": "ActiviteitCode"
+                      },
+                      "isHoofdactiviteit": {
+                        "code": "N",
+                        "omschrijving": "Nee",
+                        "referentieType": "geenRT"
+                      }
+                    }
+                  ],
+                  "voltijdWerkzamePersonen": "2",
+                  "deeltijdWerkzamePersonen": "1",
+                  "totaalWerkzamePersonen": "3",
+                  "handeltOnder": {
+                    "handelsnaam": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20000101"
+                      },
+                      "naam": "The Krusty Krab",
+                      "volgorde": "0"
+                    }
+                  },
+                  "wordtUitgeoefendIn": {
+                    "relatieRegistratie": {
+                      "@registratieTijdstip": "20120321091141456",
+                      "datumAanvang": "20000101"
+                    },
+                    "commercieleVestiging": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20000101"
+                      },
+                      "vestigingsnummer": "123456789012",
+                      "bezoekLocatie": {
+                        "registratie": {
+                          "@registratieTijdstip": "20120321091141456",
+                          "datumAanvang": "20000101"
+                        },
+                        "afgeschermd": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        },
+                        "adres": {
+                          "binnenlandsAdres": {
+                            "straatnaam": "Bikini Bottom",
+                            "huisnummer": "42",
+                            "postcode": {
+                              "cijfercombinatie": "1234",
+                              "lettercombinatie": "AB"
+                            },
+                            "plaats": "Bikini Bottom",
+                            "bagId": {
+                              "identificatieNummeraanduiding": "1234567890123456",
+                              "identificatieAdresseerbaarObject": "1234567890654321"
+                            }
+                          }
+                        },
+                        "volledigAdres": "Bikini Bottom 42 1234AB Bikini Bottom"
+                      },
+                      "communicatiegegevens": {
+                        "registratie": {
+                          "@registratieTijdstip": "20120321091141456",
+                          "datumAanvang": "20000101"
+                        },
+                        "communicatienummer": {
+                          "toegangscode": "+31",
+                          "nummer": "0201234567",
+                          "soort": {
+                            "code": "T",
+                            "omschrijving": "Telefoon"
+                          }
+                        }
+                      },
+                      "eersteHandelsnaam": "The Krusty Krab",
+                      "voltijdWerkzamePersonen": "2",
+                      "deeltijdWerkzamePersonen": "1",
+                      "totaalWerkzamePersonen": "3",
+                      "activiteiten": {
+                        "omschrijving": "Het bereiden en verkopen van Krabburgers en andere fastfood producten.",
+                        "sbiActiviteit": [
+                          {
+                            "registratie": {
+                              "@registratieTijdstip": "20120321091141456",
+                              "datumAanvang": "20000101"
+                            },
+                            "sbiCode": {
+                              "code": "5610",
+                              "omschrijving": "Restaurants en cafetaria's",
+                              "referentieType": "ActiviteitCode"
+                            },
+                            "isHoofdactiviteit": {
+                              "code": "J",
+                              "omschrijving": "Ja",
+                              "referentieType": "geenRT"
+                            }
+                          },
+                          {
+                            "registratie": {
+                              "@registratieTijdstip": "20120321091141456",
+                              "datumAanvang": "20000101"
+                            },
+                            "sbiCode": {
+                              "code": "1085",
+                              "omschrijving": "Vervaardiging van kant-en-klaarmaaltijden en snacks",
+                              "referentieType": "ActiviteitCode"
+                            },
+                            "isHoofdactiviteit": {
+                              "code": "N",
+                              "omschrijving": "Nee",
+                              "referentieType": "geenRT"
+                            }
+                          }
+                        ],
+                        "exporteert": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        },
+                        "importeert": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        }
+                      },
+                      "handeltOnder": {
+                        "relatieRegistratie": {
+                          "@registratieTijdstip": "20120321091141456",
+                          "datumAanvang": "20000101"
+                        },
+                        "handelsnaam": {
+                          "registratie": {
+                            "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                            "datumAanvang": "20000101"
+                          },
+                          "naam": "The Krusty Krab",
+                          "volgorde": "0"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "wordtGeleidVanuit": {
+                "commercieleVestiging": {
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20000101"
+                  },
+                  "vestigingsnummer": "123456789012",
+                  "bezoekLocatie": {
+                    "registratie": {
+                      "@registratieTijdstip": "20120321091141456",
+                      "datumAanvang": "20000101"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "straatnaam": "Bikini Bottom",
+                        "huisnummer": "42",
+                        "postcode": {
+                          "cijfercombinatie": "1234",
+                          "lettercombinatie": "AB"
+                        },
+                        "plaats": "Bikini Bottom",
+                        "bagId": {
+                          "identificatieNummeraanduiding": "1234567890123456",
+                          "identificatieAdresseerbaarObject": "1234567890654321"
+                        }
+                      }
+                    },
+                    "volledigAdres": "Bikini Bottom 42 1234AB Bikini Bottom"
+                  },
+                  "communicatiegegevens": {
+                    "registratie": {
+                      "@registratieTijdstip": "20120321091141456",
+                      "datumAanvang": "20000101"
+                    },
+                    "communicatienummer": {
+                      "toegangscode": "+31",
+                      "nummer": "0201234567",
+                      "soort": {
+                        "code": "T",
+                        "omschrijving": "Telefoon"
+                      }
+                    }
+                  },
+                  "eersteHandelsnaam": "The Krusty Krab",
+                  "voltijdWerkzamePersonen": "2",
+                  "deeltijdWerkzamePersonen": "1",
+                  "totaalWerkzamePersonen": "3",
+                  "activiteiten": {
+                    "omschrijving": "Het bereiden en verkopen van Krabburgers en andere fastfood producten.",
+                    "sbiActiviteit": [
+                      {
+                        "registratie": {
+                          "@registratieTijdstip": "20120321091141456",
+                          "datumAanvang": "20000101"
+                        },
+                        "sbiCode": {
+                          "code": "5610",
+                          "omschrijving": "Restaurants en cafetaria's",
+                          "referentieType": "ActiviteitCode"
+                        },
+                        "isHoofdactiviteit": {
+                          "code": "J",
+                          "omschrijving": "Ja",
+                          "referentieType": "geenRT"
+                        }
+                      },
+                      {
+                        "registratie": {
+                          "@registratieTijdstip": "20120321091141456",
+                          "datumAanvang": "20000101"
+                        },
+                        "sbiCode": {
+                          "code": "1085",
+                          "omschrijving": "Vervaardiging van kant-en-klaarmaaltijden en snacks",
+                          "referentieType": "ActiviteitCode"
+                        },
+                        "isHoofdactiviteit": {
+                          "code": "N",
+                          "omschrijving": "Nee",
+                          "referentieType": "geenRT"
+                        }
+                      }
+                    ],
+                    "exporteert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "importeert": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    }
+                  },
+                  "handeltOnder": {
+                    "relatieRegistratie": {
+                      "@registratieTijdstip": "20120321091141456",
+                      "datumAanvang": "20000101"
+                    },
+                    "handelsnaam": {
+                      "registratie": {
+                        "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                        "datumAanvang": "20000101"
+                      },
+                      "naam": "The Krusty Krab",
+                      "volgorde": "0"
+                    }
+                  }
+                }
+              },
+              "heeftAlsEigenaar": {
+                "relatieRegistratie": {
+                  "@registratieTijdstip": "20120321091141456",
+                  "datumAanvang": "20000101"
+                },
+                "rechtspersoon": {
+                  "extraElementen": {
+                    "extraElement": [
+                      {
+                        "@naam": "datumAanvangStatuten",
+                        "#text": "20000101"
+                      },
+                      {
+                        "@naam": "datumAkteStatuten",
+                        "#text": "20000101"
+                      }
+                    ]
+                  },
+                  "registratie": {
+                    "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                    "datumAanvang": "20000101"
+                  },
+                  "persoonRechtsvorm": "Besloten Vennootschap",
+                  "volledigeNaam": "The Krusty Krab B.V.",
+                  "uitgebreideRechtsvorm": "Besloten Vennootschap",
+                  "heeft": [
+                    {
+                      "bestuursfunctie": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20000101"
+                        },
+                        "door": {
+                          "natuurlijkPersoon": {
+                            "extraElementen": {
+                              "extraElement": {
+                                "@naam": "achternaam",
+                                "#text": "Squarepants"
+                              }
+                            },
+                            "registratie": {
+                              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                              "datumAanvang": "20000101"
+                            },
+                            "volledigeNaam": "Spongebob Squarepants",
+                            "geslachtsnaam": "Squarepants",
+                            "voornamen": "Spongebob",
+                            "geboortedatum": "20250401"
+                          }
+                        },
+                        "functie": {
+                          "code": "02",
+                          "omschrijving": "Bestuurder",
+                          "referentieType": "FunctionarisRol"
+                        },
+                        "bevoegdheid": {
+                          "registratie": {
+                            "@registratieTijdstip": "20120321091141456",
+                            "datumAanvang": "20000101"
+                          },
+                          "soort": {
+                            "code": "azb",
+                            "omschrijving": "Alleen/zelfstandig bevoegd",
+                            "referentieType": "SoortBevoegdheidBestuurder"
+                          },
+                          "isBevoegdMetAnderePersonen": {
+                            "code": "N",
+                            "omschrijving": "Nee",
+                            "referentieType": "geenRT"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "bestuursfunctie": {
+                        "registratie": {
+                          "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                          "datumAanvang": "20000101"
+                        },
+                        "door": {
+                          "natuurlijkPersoon": {
+                            "extraElementen": {
+                              "extraElement": {
+                                "@naam": "achternaam",
+                                "#text": "Krabs"
+                              }
+                            },
+                            "registratie": {
+                              "@registratieTijdstipNoValue": "vastgesteldOnbekend",
+                              "datumAanvang": "19700101"
+                            },
+                            "volledigeNaam": "Eugene H. Krabs",
+                            "geslachtsnaam": "Krabs",
+                            "voornamen": "Eugene H.",
+                            "geboortedatum": "19700101"
+                          }
+                        },
+                        "functie": {
+                          "code": "01",
+                          "omschrijving": "Directeur",
+                          "referentieType": "FunctionarisRol"
+                        },
+                        "bevoegdheid": {
+                          "registratie": {
+                            "@registratieTijdstip": "20120321091141456",
+                            "datumAanvang": "20000101"
+                          },
+                          "soort": {
+                            "code": "azb",
+                            "omschrijving": "Alleen/zelfstandig bevoegd",
+                            "referentieType": "SoortBevoegdheidBestuurder"
+                          },
+                          "isBevoegdMetAnderePersonen": {
+                            "code": "N",
+                            "omschrijving": "Nee",
+                            "referentieType": "geenRT"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "rsin": "123456789",
+                  "naamgeving": {
+                    "registratie": {
+                      "@registratieTijdstip": "20120321091141456",
+                      "datumAanvang": "20000101"
+                    },
+                    "naam": "The Krusty Krab"
+                  },
+                  "rechtsvorm": {
+                    "code": "BV",
+                    "omschrijving": "Besloten Vennootschap",
+                    "referentieType": "Rechtsvorm"
+                  },
+                  "statutaireZetel": "Bikini Bottom",
+                  "aanvangStatutaireZetel": "20000101",
+                  "datumAkteOprichting": "20000101",
+                  "datumEersteInschrijvingHandelsregister": "20000102",
+                  "datumAkteStatutenwijziging": "20000101",
+                  "stelselInrichting": {
+                    "code": "D",
+                    "omschrijving": "Dualistisch",
+                    "referentieType": "StelselInrichting"
+                  },
+                  "structuur": {
+                    "code": "GS",
+                    "omschrijving": "Gewone structuur",
+                    "referentieType": "RechtsvormStructuur"
+                  },
+                  "maatschappelijkKapitaal": {
+                    "registratie": {
+                      "@registratieTijdstip": "20120321091141456",
+                      "datumAanvang": "20000101"
+                    },
+                    "bedrag": {
+                      "waarde": "100000.00",
+                      "valuta": {
+                        "code": "EUR",
+                        "omschrijving": "Euro",
+                        "referentieType": "Valuta"
+                      }
+                    }
+                  },
+                  "geplaatstKapitaal": {
+                    "registratie": {
+                      "@registratieTijdstip": "20120321091141456"
+                    },
+                    "bedrag": {
+                      "waarde": "50000.00",
+                      "valuta": {
+                        "code": "EUR",
+                        "omschrijving": "Euro",
+                        "referentieType": "Valuta"
+                      }
+                    }
+                  },
+                  "gestortKapitaal": {
+                    "registratie": {
+                      "@registratieTijdstip": "20120321091141456"
+                    },
+                    "bedrag": {
+                      "waarde": "50000.00",
+                      "valuta": {
+                        "code": "EUR",
+                        "omschrijving": "Euro",
+                        "referentieType": "Valuta"
+                      }
+                    }
+                  },
+                  "bezoekLocatie": {
+                    "registratie": {
+                      "@registratieTijdstip": "20120321091141456",
+                      "datumAanvang": "20000101"
+                    },
+                    "afgeschermd": {
+                      "code": "N",
+                      "omschrijving": "Nee",
+                      "referentieType": "geenRT"
+                    },
+                    "adres": {
+                      "binnenlandsAdres": {
+                        "straatnaam": "Bikini Bottom",
+                        "huisnummer": "42",
+                        "postcode": {
+                          "cijfercombinatie": "1234",
+                          "lettercombinatie": "AB"
+                        },
+                        "plaats": "Bikini Bottom",
+                        "bagId": {
+                          "identificatieNummeraanduiding": "1234567890123456",
+                          "identificatieAdresseerbaarObject": "1234567890654321"
+                        }
+                      }
+                    },
+                    "volledigAdres": "Bikini Bottom 42 1234AB Bikini Bottom"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
