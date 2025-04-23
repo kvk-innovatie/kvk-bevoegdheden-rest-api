@@ -640,49 +640,162 @@ func main() {
 
 		sendErrorResponse(w, http.StatusNotFound, "No match found or not authorized")
 	})
-	r.Post("/api/por", func(w http.ResponseWriter, r *http.Request) {
-		identityNP := models.IdentityNP{}
-		err := json.NewDecoder(r.Body).Decode(&identityNP)
+	r.Post("/api/natural-person/company-certificate", func(w http.ResponseWriter, r *http.Request) {
+		// Parse input person data
+		var person struct {
+			GivenName  string `json:"givenName"`
+			FamilyName string `json:"familyName"`
+			Birthdate  string `json:"birthdate"` // Expected format: YYYY-MM-DD (ISO format)
+		}
+
+		err := json.NewDecoder(r.Body).Decode(&person)
 		if err != nil {
 			log.Printf("Error decoding JSON: %v\n", err)
-			sendErrorResponse(w, http.StatusBadRequest, "Invalid JSON")
+			sendErrorResponse(w, http.StatusBadRequest, "invalid-input")
 			return
 		}
 
-		// Log the inputPerson as JSON
-		inputPersonJSON, err := json.Marshal(identityNP)
+		// Validate input
+		if person.GivenName == "" || person.FamilyName == "" || person.Birthdate == "" {
+			log.Println("Missing required fields in request")
+			sendErrorResponse(w, http.StatusBadRequest, "missing-required-fields")
+			return
+		}
+
+		// Convert ISO date (YYYY-MM-DD) to Dutch format (DD-MM-YYYY)
+		parts := strings.Split(person.Birthdate, "-")
+		if len(parts) != 3 {
+			log.Printf("Invalid date format: %s\n", person.Birthdate)
+			sendErrorResponse(w, http.StatusBadRequest, "invalid-date-format")
+			return
+		}
+		dutchFormatDate := fmt.Sprintf("%s-%s-%s", parts[2], parts[1], parts[0])
+
+		// Create IdentityNP structure from input
+		identityNP := models.IdentityNP{
+			Voornamen:     person.GivenName,
+			Geslachtsnaam: person.FamilyName,
+			Geboortedatum: dutchFormatDate,
+		}
+
+		// Get all cached inschrijvingen
+		files, err := ioutil.ReadDir("./cache-inschrijvingen/")
 		if err != nil {
-			log.Printf("Error marshaling JSON: %v\n", err)
-			sendErrorResponse(w, http.StatusInternalServerError, "Error processing input")
+			log.Printf("Error reading cache directory: %v\n", err)
+			sendErrorResponse(w, http.StatusInternalServerError, "internal-server-error")
 			return
 		}
 
-		httpCode, errorCode, bevoegdheidResponse := doGetBevoegdheid(&identityNP, "90000021")
-		if httpCode != 0 {
-			sendErrorResponse(w, httpCode, errorCode)
-			return
+		// Create a slice to store all authorized certificates
+		authorizedCertificates := []map[string]interface{}{}
+
+		// Go through each cached file to find matches
+		for _, file := range files {
+			if file.IsDir() {
+				continue
+			}
+
+			kvkNummer := strings.TrimSuffix(file.Name(), ".json")
+			log.Printf("Checking KVK number: %s\n", kvkNummer)
+
+			// Get bevoegdheid data for this KVK number
+			httpCode, errorCode, bevoegdheidResponse := doGetBevoegdheid(&identityNP, kvkNummer)
+			if httpCode != 0 {
+				// Skip if there's an error for this KVK number
+				log.Printf("Error for KVK %s: %s\n", kvkNummer, errorCode)
+				continue
+			}
+
+			// Check if the person is authorized
+			inputPersonJSON, _ := json.Marshal(identityNP)
+			result := handleSignatoryRight(inputPersonJSON, bevoegdheidResponse)
+
+			if result == "Yes" {
+				log.Printf("Found authorized person in KVK: %s\n", kvkNummer)
+
+				// Get company certificate
+				certResponse, err, _ := kvkBevoegdheden.GetCompanyCertificate(
+					kvkNummer,
+					identityNP,
+					clientID,
+					clientSecret,
+					authServerURL,
+					enableCaching,
+					env,
+				)
+
+				if err != nil {
+					log.Printf("Error getting company certificate: %v\n", err)
+					// Continue to next company instead of returning error
+					continue
+				}
+
+				bevoegdheidUittreksel := certResponse.BevoegdheidUittreksel
+
+				// Build company certificate response
+				legalPerson := map[string]interface{}{
+					"legal_person_name":         bevoegdheidUittreksel.Naam,
+					"legal_person_id":           "NLNHR." + bevoegdheidUittreksel.KvkNummer,
+					"legal_form_type":           bevoegdheidUittreksel.PersoonRechtsvorm,
+					"registration_member_state": "NL",
+					"registered_address": map[string]interface{}{
+						"full_address": bevoegdheidUittreksel.Adres,
+					},
+					"registration_date":   formatDateISO8601(bevoegdheidUittreksel.RegistratieAanvang),
+					"legal_person_status": getLegalPersonStatus(bevoegdheidUittreksel),
+				}
+
+				// Add SBI activity if available
+				sbiCode := getSbiCode(bevoegdheidUittreksel.SbiActiviteit)
+				sbiDescription := getSbiDescription(bevoegdheidUittreksel.SbiActiviteit)
+				if sbiCode != "" || sbiDescription != "" {
+					legalPersonActivity := map[string]interface{}{}
+					if sbiCode != "" {
+						legalPersonActivity["code"] = sbiCode
+					}
+					if sbiDescription != "" {
+						legalPersonActivity["description"] = sbiDescription
+					}
+					legalPerson["legal_person_activity"] = legalPersonActivity
+				}
+
+				// Add contact point information if available
+				if bevoegdheidUittreksel.EmailAdres != "" {
+					contactPoint := map[string]interface{}{}
+					contactPoint["contact_email"] = bevoegdheidUittreksel.EmailAdres
+					legalPerson["contact_point"] = contactPoint
+				}
+
+				// Construct certificate object
+				companyCertificate := map[string]interface{}{
+					"authorization": map[string]interface{}{
+						"fullName":     strings.TrimSpace(person.GivenName + " " + person.FamilyName),
+						"isAuthorized": "Yes",
+					},
+					"certificate": map[string]interface{}{
+						"legal_person":         legalPerson,
+						"legal_representative": extractLegalRepresentatives(*bevoegdheidUittreksel),
+					},
+				}
+
+				// Add to our list of certificates
+				authorizedCertificates = append(authorizedCertificates, companyCertificate)
+			}
 		}
-		result := handleSignatoryRight(inputPersonJSON, bevoegdheidResponse)
-		if result == "Yes" {
-			fullName := fmt.Sprintf("%s %s %s",
-				identityNP.VoorvoegselGeslachtsnaam,
-				identityNP.Voornamen,
-				identityNP.Geslachtsnaam,
-			)
+
+		// If we found at least one authorized match, return the list
+		if len(authorizedCertificates) > 0 {
 			response := map[string]interface{}{
-				"data": map[string]interface{}{
-					"fullName":          strings.TrimSpace(fullName),
-					"isAuthorized":      "Yes",
-					"id":                "NLNHR." + bevoegdheidResponse.BevoegdheidUittreksel.KvkNummer,
-					"legal_person_name": bevoegdheidResponse.BevoegdheidUittreksel.Naam,
-				},
+				"data":     authorizedCertificates,
 				"metadata": generateMetadata(),
 			}
+
 			rend.JSON(w, http.StatusOK, response)
 			return
 		}
 
-		sendErrorResponse(w, http.StatusNotFound, "No match found or not authorized")
+		// If we reach here, no authorized matches were found
+		sendErrorResponse(w, http.StatusNotFound, "no-authorization-found")
 	})
 
 	http.ListenAndServe(":3333", r)
