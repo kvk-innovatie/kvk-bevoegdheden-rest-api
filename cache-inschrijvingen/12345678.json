@@ -434,16 +434,16 @@
                             "extraElementen": {
                               "extraElement": {
                                 "@naam": "achternaam",
-                                "#text": "Squarepants"
+                                "#text": "SquarePants"
                               }
                             },
                             "registratie": {
                               "@registratieTijdstipNoValue": "vastgesteldOnbekend",
                               "datumAanvang": "20000101"
                             },
-                            "volledigeNaam": "Spongebob Squarepants",
-                            "geslachtsnaam": "Squarepants",
-                            "voornamen": "Spongebob",
+                            "volledigeNaam": "SpongeBob SquarePants",
+                            "geslachtsnaam": "SquarePants",
+                            "voornamen": "SpongeBob",
                             "geboortedatum": "19860714"
                           }
                         },
