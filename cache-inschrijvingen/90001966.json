@@ -12,7 +12,7 @@
             "informatie": {
               "code": "IPD0000",
               "omschrijving": "Het product is succesvol geproduceerd",
-              "referentie": "12345678"
+              "referentie": "90001966"
             }
           },
           "product": {
@@ -23,7 +23,7 @@
                 "@registratieTijdstipNoValue": "vastgesteldOnbekend",
                 "datumAanvang": "20000101"
               },
-              "kvkNummer": "12345678",
+              "kvkNummer": "90001966",
               "nonMailing": {
                 "code": "N",
                 "omschrijving": "Nee",
@@ -113,7 +113,7 @@
                     "@registratieTijdstipNoValue": "vastgesteldOnbekend",
                     "datumAanvang": "20000101"
                   },
-                  "kvkNummer": "12345678",
+                  "kvkNummer": "90001966",
                   "sbiActiviteit": [
                     {
                       "registratie": {
