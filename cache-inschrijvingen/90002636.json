@@ -102,7 +102,7 @@
                   }
                 }
               },
-              "naam": "The Krusty Krab",
+              "naam": "Global Redtouch",
               "manifesteertZichAls": {
                 "relatieRegistratie": {
                   "@registratieTijdstip": "20120321091141456",
@@ -157,7 +157,7 @@
                         "@registratieTijdstipNoValue": "vastgesteldOnbekend",
                         "datumAanvang": "20000101"
                       },
-                      "naam": "The Krusty Krab",
+                      "naam": "Global Redtouch",
                       "volgorde": "0"
                     }
                   },
@@ -213,7 +213,7 @@
                           }
                         }
                       },
-                      "eersteHandelsnaam": "The Krusty Krab",
+                      "eersteHandelsnaam": "Global Redtouch",
                       "voltijdWerkzamePersonen": "2",
                       "deeltijdWerkzamePersonen": "1",
                       "totaalWerkzamePersonen": "3",
@@ -274,7 +274,7 @@
                             "@registratieTijdstipNoValue": "vastgesteldOnbekend",
                             "datumAanvang": "20000101"
                           },
-                          "naam": "The Krusty Krab",
+                          "naam": "Global Redtouch",
                           "volgorde": "0"
                         }
                       }
@@ -330,7 +330,7 @@
                       }
                     }
                   },
-                  "eersteHandelsnaam": "The Krusty Krab",
+                  "eersteHandelsnaam": "Global Redtouch",
                   "voltijdWerkzamePersonen": "2",
                   "deeltijdWerkzamePersonen": "1",
                   "totaalWerkzamePersonen": "3",
@@ -391,7 +391,7 @@
                         "@registratieTijdstipNoValue": "vastgesteldOnbekend",
                         "datumAanvang": "20000101"
                       },
-                      "naam": "The Krusty Krab",
+                      "naam": "Global Redtouch",
                       "volgorde": "0"
                     }
                   }
@@ -420,7 +420,7 @@
                     "datumAanvang": "20000101"
                   },
                   "persoonRechtsvorm": "Besloten Vennootschap",
-                  "volledigeNaam": "The Krusty Krab B.V.",
+                  "volledigeNaam": "Global Redtouch B.V.",
                   "uitgebreideRechtsvorm": "Besloten Vennootschap",
                   "heeft": [
                     {
@@ -524,7 +524,7 @@
                       "@registratieTijdstip": "20120321091141456",
                       "datumAanvang": "20000101"
                     },
-                    "naam": "The Krusty Krab"
+                    "naam": "Global Redtouch"
                   },
                   "rechtsvorm": {
                     "code": "BV",
